@@ -23,15 +23,20 @@ export const SITE_URL = "https://huerta-group-llc.vercel.app";
  * TEMPORARY — no approved contact destination exists yet.
  * Points to the homepage contact section until a formal contact or
  * intake channel (email or /contact route) is established. Referenced
- * by every call-to-action button.
+ * by every call-to-action button. Root-relative so it resolves
+ * correctly from every route.
  */
-export const CONTACT_HREF = "#contact";
+export const CONTACT_HREF = "/#contact";
 
-/** Primary navigation. In-page anchors until dedicated routes exist. */
+/**
+ * Primary navigation. Homepage-section anchors are root-relative so
+ * they resolve correctly from every route.
+ */
 export const NAV_LINKS = [
-  { href: "#capabilities", label: "Capabilities" },
-  { href: "#approach", label: "Approach" },
-  { href: "#difference", label: "Why Huerta Group" },
+  { href: "/about", label: "About" },
+  { href: "/#capabilities", label: "Capabilities" },
+  { href: "/#approach", label: "Approach" },
+  { href: "/#difference", label: "Why Huerta Group" },
 ] as const;
 
 export type NavLink = (typeof NAV_LINKS)[number];

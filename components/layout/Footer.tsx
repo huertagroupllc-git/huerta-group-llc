@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
-import { LEGAL_NAME, NAV_LINKS, SITE_NAME, TAGLINE } from "@/lib/site";
+import { CONTACT_HREF, LEGAL_NAME, NAV_LINKS, SITE_NAME, TAGLINE } from "@/lib/site";
 
 /** Global site footer. Legal links and contact details are added later. */
 export function Footer() {
@@ -29,21 +29,21 @@ export function Footer() {
             <ul className="space-y-1">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
-                  <a
+                  <Link
                     href={link.href}
                     className="inline-block py-1 text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
               <li>
-                <a
-                  href="#contact"
+                <Link
+                  href={CONTACT_HREF}
                   className="inline-block py-1 text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

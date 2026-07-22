@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 
 const CONTRASTS = [
@@ -40,6 +41,14 @@ export function Differentiation() {
         We design the systems that connect people, processes, technology,
         information, and accountability — so improvements hold together
         instead of drifting apart.
+      </p>
+      <p className="mt-6">
+        <Link
+          href="/about"
+          className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+        >
+          Learn more about the company →
+        </Link>
       </p>
     </Section>
   );

@@ -11,6 +11,7 @@ This repository currently contains the public-facing website foundation: the hom
 Implemented and deployed:
 
 - **Homepage** with a deliberate narrative structure: hero, organizational problem framing, capabilities, working approach, differentiation, and a closing call-to-action section
+- **About page** (`/about`) with its own narrative: identity, organizational strength, the purpose→people→systems→technology hierarchy, operating perspective, long-term orientation, and a closing call to action
 - **Global layout**: sticky header with desktop navigation, accessible mobile navigation, footer with legal name and tagline
 - **Design tokens**: brand palette (matte black `#0F0F10`, gunmetal silver `#5E646B`, metallic gold `#B08D57`), typography, and motion tokens defined once in `app/globals.css`
 - **Technical SEO**: page metadata, Open Graph and Twitter tags, canonical URL, Organization JSON-LD, `robots.txt`, and `sitemap.xml`
@@ -53,6 +54,7 @@ There is intentionally no database, authentication, CMS, analytics, test framewo
 app/
   layout.tsx        Root layout: fonts, metadata, viewport, skip link, Header/Footer shell
   page.tsx          Homepage: section composition, canonical URL, Organization JSON-LD
+  about/page.tsx    About page: section composition and page-specific metadata
   globals.css       Tailwind v4 @theme design tokens and base styles
   robots.ts         robots.txt (Next.js metadata file convention)
   sitemap.ts        sitemap.xml (Next.js metadata file convention)
@@ -60,6 +62,8 @@ app/
 components/
   layout/           Header, MobileNav, Footer — global chrome
   sections/         Hero, Problems, Capabilities, Approach, Differentiation, Contact
+  sections/about/   AboutHero, Identity, Strength, PeopleSystemsTechnology,
+                    Perspective, LongTerm, AboutCta
   ui/               Container, ButtonLink, Section — reusable primitives
 lib/
   site.ts           Site constants: names, tagline, description, URLs, navigation
@@ -67,7 +71,7 @@ lib/
 ```
 
 - **Server-first**: every component is a React Server Component except `components/layout/MobileNav.tsx`, which is a client component because it manages menu open/close state and an Escape-key listener in the browser. It is the only client-side JavaScript on the site.
-- **Navigation** uses in-page anchors (`#capabilities`, `#approach`, `#difference`, `#contact`) rather than routes, so no link points to a page that does not exist.
+- **Navigation** links to the `/about` route plus homepage-section anchors. Anchors are root-relative (`/#capabilities`, `/#approach`, `/#difference`, `/#contact`) so they resolve correctly from every route; no link points to a page that does not exist.
 - **Site facts live in `lib/site.ts`** — names, tagline, URLs, and navigation are defined once and imported everywhere they appear.
 
 The architecture is intentionally proportional to a small static site. Additional layers are added when real requirements emerge, not before.
@@ -132,6 +136,6 @@ No environment variables are required.
 
 ## Future Development
 
-The following are **possible directions**, not current functionality: additional public pages (About, Services, Approach, Insights, Contact), consulting service information, client portals, internal dashboards, a Huerta Group Command Center, proprietary tools, databases, integrations, automation, APIs, reporting systems, software, education, intellectual property, publishing, managed services, and partnerships.
+The following are **possible directions**, not current functionality: additional public pages (Services, Approach, Insights, Contact), consulting service information, client portals, internal dashboards, a Huerta Group Command Center, proprietary tools, databases, integrations, automation, APIs, reporting systems, software, education, intellectual property, publishing, managed services, and partnerships.
 
 Future development must remain constitutionally consistent, preserve the Company's organizational systems identity, maintain separation of concerns, avoid premature implementation, adopt scalable architecture only as real requirements emerge, and continue prioritizing human usability and operational clarity.
