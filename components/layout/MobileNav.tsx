@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { CONTACT_HREF, NAV_LINKS } from "@/lib/site";
 
@@ -10,12 +10,18 @@ import { CONTACT_HREF, NAV_LINKS } from "@/lib/site";
  */
 export function MobileNav() {
   const [open, setOpen] = useState(false);
+  const toggleRef = useRef<HTMLButtonElement>(null);
 
-  // Close on Escape and return focus flow to the page.
+  // Close on Escape, returning focus to the toggle so keyboard users
+  // keep their place (focus would otherwise drop to <body> when the
+  // panel unmounts).
   useEffect(() => {
     if (!open) return;
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setOpen(false);
+      if (event.key === "Escape") {
+        setOpen(false);
+        toggleRef.current?.focus();
+      }
     };
     document.addEventListener("keydown", onKeyDown);
     return () => document.removeEventListener("keydown", onKeyDown);
@@ -24,6 +30,7 @@ export function MobileNav() {
   return (
     <div className="md:hidden">
       <button
+        ref={toggleRef}
         type="button"
         aria-expanded={open}
         aria-controls="mobile-nav"

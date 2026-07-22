@@ -24,12 +24,14 @@ export function Footer() {
           </div>
 
           <nav aria-label="Footer">
-            <ul className="space-y-3">
+            {/* py-1 + space-y-1 ≈ the previous space-y-3 rhythm while
+                enlarging each link's touch target */}
+            <ul className="space-y-1">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
+                    className="inline-block py-1 text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
                   >
                     {link.label}
                   </a>
@@ -38,7 +40,7 @@ export function Footer() {
               <li>
                 <a
                   href="#contact"
-                  className="text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
+                  className="inline-block py-1 text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
                 >
                   Contact
                 </a>

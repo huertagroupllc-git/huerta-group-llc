@@ -11,11 +11,13 @@ export const SITE_DESCRIPTION =
   "Huerta Group LLC is an operations and organizational systems consulting firm. We help organizations build, optimize, and scale through systems design, process improvement, workflow automation, and operational leadership.";
 
 /**
- * TEMPORARY — production domain has not been confirmed yet.
- * Replace with the approved domain before launch. Used for canonical
- * URLs, Open Graph metadata, robots, and the sitemap.
+ * TEMPORARY — the intended custom domain (huertagroupllc.com) is not
+ * yet connected or confirmed in Vercel, so this deliberately uses the
+ * active Vercel production domain. Canonical URLs, Open Graph metadata,
+ * robots, and the sitemap must always point at a domain that resolves.
+ * Replace once the custom domain is live.
  */
-export const SITE_URL = "https://huertagroupllc.com";
+export const SITE_URL = "https://huerta-group-llc.vercel.app";
 
 /**
  * TEMPORARY — no approved contact destination exists yet.
