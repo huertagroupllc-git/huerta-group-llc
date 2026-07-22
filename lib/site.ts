@@ -20,13 +20,11 @@ export const SITE_DESCRIPTION =
 export const SITE_URL = "https://huerta-group-llc.vercel.app";
 
 /**
- * TEMPORARY — no approved contact destination exists yet.
- * Points to the homepage contact section until a formal contact or
- * intake channel (email or /contact route) is established. Referenced
- * by every call-to-action button. Root-relative so it resolves
- * correctly from every route.
+ * Formal contact destination. The /contact page hosts the inquiry form
+ * backed by the Huerta Group LLC Supabase project. Referenced by every
+ * call-to-action button.
  */
-export const CONTACT_HREF = "/#contact";
+export const CONTACT_HREF = "/contact";
 
 /**
  * Primary navigation. Homepage-section anchors are root-relative so

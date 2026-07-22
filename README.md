@@ -4,7 +4,7 @@ Production repository for the public website of **Huerta Group LLC**, an organiz
 
 Technology, software, automation, and AI are tools used in service of organizational purpose and human capability. They are not the Company's identity or ultimate product. This repository must never be documented or developed as an AI platform, SaaS product, or technology-vendor website.
 
-This repository currently contains the public-facing website foundation: the homepage and the global layout, design-token, and metadata infrastructure that future pages will build on. The website is one part of a potentially broader future digital ecosystem; future software capabilities remain distinct from — and must not be conflated with — the functionality that exists today.
+This repository currently contains the public-facing website: the homepage, About page, and Contact page, together with the global layout, design-token, and metadata infrastructure that future pages will build on. The website is one part of a potentially broader future digital ecosystem; future software capabilities remain distinct from — and must not be conflated with — the functionality that exists today.
 
 ## Current Project Status
 
@@ -12,14 +12,17 @@ Implemented and deployed:
 
 - **Homepage** with a deliberate narrative structure: hero, organizational problem framing, capabilities, working approach, differentiation, and a closing call-to-action section
 - **About page** (`/about`) with its own narrative: identity, organizational strength, the purpose→people→systems→technology hierarchy, operating perspective, long-term orientation, and a closing call to action
+- **Contact page** (`/contact`) with a formal inquiry-intake workflow: an accessible form submitted through a Next.js Server Action, validated server-side, protected by proportionate abuse checks (honeypot, timing gate, payload limits, best-effort rate limiting), and persisted to the Huerta Group LLC Supabase project
 - **Global layout**: sticky header with desktop navigation, accessible mobile navigation, footer with legal name and tagline
 - **Design tokens**: brand palette (matte black `#0F0F10`, gunmetal silver `#5E646B`, metallic gold `#B08D57`), typography, and motion tokens defined once in `app/globals.css`
 - **Technical SEO**: page metadata, Open Graph and Twitter tags, canonical URL, Organization JSON-LD, `robots.txt`, and `sitemap.xml`
-- **Fully static rendering** — every route prerenders at build time; no server-side runtime behavior
+- **Static rendering** — every route prerenders at build time; the only server-side runtime behavior is the contact form's Server Action
 - **Responsive behavior** across desktop, laptop, tablet, and mobile breakpoints
 - **Accessibility foundations**: semantic landmarks, skip link, logical heading hierarchy, keyboard-operable navigation, visible focus states, reduced-motion support
 
-Not implemented (and not to be implied elsewhere): databases, authentication, APIs, forms, analytics, CMS tooling, environment variables, tests, client portals, dashboards, or any third-party integration.
+Not implemented (and not to be implied elsewhere): authentication, analytics, CMS tooling, tests, client portals, dashboards, email notification of new inquiries, or any other third-party integration. The only database surface is the server-side contact-inquiry write path described below.
+
+Known inquiry-workflow limitations, accepted deliberately for this stage: no email/staff notification of new inquiries (Supabase is the source of record and is checked directly), and rate limiting is per-serverless-instance (best-effort) rather than durable. A formal privacy-policy/legal review remains a future requirement.
 
 ### Temporary values
 
@@ -28,8 +31,6 @@ These are placeholders, marked `TEMPORARY` in source, pending business decisions
 | Item | Location | Status |
 | --- | --- | --- |
 | `SITE_URL` (`https://huerta-group-llc.vercel.app`) | `lib/site.ts` | Deliberately uses the active Vercel domain — which drives canonical/OG/robots/sitemap URLs — until the intended custom domain (`huertagroupllc.com`) is connected and confirmed in Vercel |
-| `CONTACT_HREF` (`#contact`) | `lib/site.ts` | All calls to action point to the homepage contact section until a formal contact or intake channel is established |
-| Contact-section notice | `components/sections/Contact.tsx` | States that the formal contact channel is being established |
 | Favicon (`app/icon.svg`) | text-based "HG" monogram | Replace with the production vector logo mark |
 | Header brand mark | `components/layout/Header.tsx` | Text-based; the brand link contents swap for a vector logo without structural changes |
 
@@ -45,8 +46,9 @@ These are placeholders, marked `TEMPORARY` in source, pending business decisions
 | Linting | ESLint 9 flat config with `eslint-config-next` (core-web-vitals + TypeScript presets) |
 | Package manager | npm (`package-lock.json`) |
 | Deployment | Vercel, building from this repository's `main` branch |
+| Inquiry storage | Supabase (Huerta Group LLC project) — written to server-side via the PostgREST API using built-in `fetch`; no client SDK dependency |
 
-There is intentionally no database, authentication, CMS, analytics, test framework, or external API integration at this stage.
+There is intentionally no authentication, CMS, analytics, or test framework at this stage. The Supabase JavaScript SDK is intentionally not installed — the single insert the site performs uses the platform `fetch` API.
 
 ## Architecture
 
@@ -55,6 +57,8 @@ app/
   layout.tsx        Root layout: fonts, metadata, viewport, skip link, Header/Footer shell
   page.tsx          Homepage: section composition, canonical URL, Organization JSON-LD
   about/page.tsx    About page: section composition and page-specific metadata
+  contact/page.tsx  Contact page: hero, guidance, inquiry form, page metadata
+  contact/actions.ts  Server Action: validation, abuse checks, Supabase insert
   globals.css       Tailwind v4 @theme design tokens and base styles
   robots.ts         robots.txt (Next.js metadata file convention)
   sitemap.ts        sitemap.xml (Next.js metadata file convention)
@@ -64,13 +68,18 @@ components/
   sections/         Hero, Problems, Capabilities, Approach, Differentiation, Contact
   sections/about/   AboutHero, Identity, Strength, PeopleSystemsTechnology,
                     Perspective, LongTerm, AboutCta
+  contact/          ContactForm — accessible inquiry form (client component)
   ui/               Container, ButtonLink, Section — reusable primitives
 lib/
   site.ts           Site constants: names, tagline, description, URLs, navigation
+  inquiry.ts        Inquiry types, field limits, and shared validation
   cx.ts             Class-name join utility
+supabase/
+  migrations/       Version-controlled SQL (contact_inquiries table + security)
 ```
 
-- **Server-first**: every component is a React Server Component except `components/layout/MobileNav.tsx`, which is a client component because it manages menu open/close state and an Escape-key listener in the browser. It is the only client-side JavaScript on the site.
+- **Server-first**: every component is a React Server Component except two deliberate client boundaries — `components/layout/MobileNav.tsx` (menu open/close state, Escape handling) and `components/contact/ContactForm.tsx` (submission state, inline errors, focus management). All pages remain statically rendered.
+- **Inquiry security**: the `contact_inquiries` table has Row Level Security enabled with no policies and all privileges revoked from the public API roles — anonymous clients cannot read or write it. Inserts happen only in the Server Action using the server-side Supabase secret key, which never reaches the browser.
 - **Navigation** links to the `/about` route plus homepage-section anchors. Anchors are root-relative (`/#capabilities`, `/#approach`, `/#difference`, `/#contact`) so they resolve correctly from every route; no link points to a page that does not exist.
 - **Site facts live in `lib/site.ts`** — names, tagline, URLs, and navigation are defined once and imported everywhere they appear.
 
@@ -114,7 +123,20 @@ npm run build      # production build
 npm run start      # serve the production build
 ```
 
-No environment variables are required.
+### Environment variables
+
+The site renders without any environment variables; only the contact
+form's submission path requires them. Copy `.env.example` to `.env.local`
+and fill in real values (never committed):
+
+| Variable | Purpose |
+| --- | --- |
+| `SUPABASE_URL` | Huerta Group LLC Supabase project URL |
+| `SUPABASE_SECRET_KEY` | Server-only secret API key (`sb_secret_…`) used by the Server Action to insert inquiries. No `NEXT_PUBLIC_` prefix — it never enters the client bundle |
+
+Database schema lives in `supabase/migrations/` and is applied to the
+`huerta-group-llc` Supabase project. The same two variables must exist in
+Vercel project settings for production.
 
 ## Deployment
 
@@ -122,7 +144,8 @@ No environment variables are required.
 - Vercel builds and deploys automatically on push to `main`.
 - The active production deployment uses the Vercel-provided domain: **https://huerta-group-llc.vercel.app**
 - The intended custom domain (`https://huertagroupllc.com`) is **not yet active**. Until it is connected and confirmed in Vercel, `SITE_URL` in `lib/site.ts` intentionally points at the active Vercel domain so canonical and sitemap URLs always resolve.
-- After each deployment, validate on the live URL (content, metadata, `robots.txt`, `sitemap.xml`).
+- Production requires the two Supabase environment variables (above) in Vercel project settings; everything else deploys with zero configuration.
+- After each deployment, validate on the live URL (content, metadata, `robots.txt`, `sitemap.xml`, and a contact-form submission).
 
 ## Content Standards
 
@@ -136,6 +159,6 @@ No environment variables are required.
 
 ## Future Development
 
-The following are **possible directions**, not current functionality: additional public pages (Services, Approach, Insights, Contact), consulting service information, client portals, internal dashboards, a Huerta Group Command Center, proprietary tools, databases, integrations, automation, APIs, reporting systems, software, education, intellectual property, publishing, managed services, and partnerships.
+The following are **possible directions**, not current functionality: additional public pages (Services, Approach, Insights), consulting service information, client portals, internal dashboards, a Huerta Group Command Center, proprietary tools, databases, integrations, automation, APIs, reporting systems, software, education, intellectual property, publishing, managed services, and partnerships.
 
 Future development must remain constitutionally consistent, preserve the Company's organizational systems identity, maintain separation of concerns, avoid premature implementation, adopt scalable architecture only as real requirements emerge, and continue prioritizing human usability and operational clarity.

@@ -1,4 +1,6 @@
+import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Container } from "@/components/ui/Container";
+import { CONTACT_HREF } from "@/lib/site";
 
 export function Contact() {
   return (
@@ -18,12 +20,9 @@ export function Contact() {
           it back. If your organization is preparing to scale — or already
           feeling the strain of growth — we welcome the conversation.
         </p>
-        {/* TEMPORARY: replace with the approved contact channel (email,
-            form, or /contact route) once it is established. */}
-        <p className="mx-auto mt-10 inline-block border border-edge px-6 py-4 text-sm text-silver-400">
-          Our formal contact and intake channel is currently being
-          established. Contact details will be published here shortly.
-        </p>
+        <div className="mt-10">
+          <ButtonLink href={CONTACT_HREF}>Contact Huerta Group</ButtonLink>
+        </div>
       </Container>
     </section>
   );
