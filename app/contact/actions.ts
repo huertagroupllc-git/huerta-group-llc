@@ -5,6 +5,7 @@ import {
   validateInquiry,
   type InquiryFieldErrors,
 } from "@/lib/inquiry";
+import { sendInquiryNotification } from "@/lib/notification";
 
 /**
  * Server-side inquiry submission.
@@ -157,6 +158,8 @@ export async function submitInquiry(
     return { status: "error", formError: GENERIC_FAILURE, values: echoValues(formData) };
   }
 
+  let inquiryId: string;
+  let inquiryCreatedAt: string;
   try {
     const response = await fetch(
       `${supabaseUrl}/rest/v1/contact_inquiries`,
@@ -166,7 +169,8 @@ export async function submitInquiry(
           apikey: secretKey,
           Authorization: `Bearer ${secretKey}`,
           "Content-Type": "application/json",
-          Prefer: "return=minimal",
+          // Return the created row so the notification can reference it.
+          Prefer: "return=representation",
         },
         body: JSON.stringify({
           name: data.name,
@@ -186,9 +190,66 @@ export async function submitInquiry(
       console.error(`contact_inquiries: insert failed (${response.status})`);
       return { status: "error", formError: GENERIC_FAILURE, values: echoValues(formData) };
     }
+
+    const [row] = (await response.json()) as Array<{
+      id: string;
+      created_at: string;
+    }>;
+    inquiryId = row.id;
+    inquiryCreatedAt = row.created_at;
   } catch {
     console.error("contact_inquiries: insert request failed");
     return { status: "error", formError: GENERIC_FAILURE, values: echoValues(formData) };
+  }
+
+  // --- Notification -------------------------------------------------------
+  // The inquiry is already the stored source of record; the internal email
+  // is an operational alert. Its failure must never affect the user-facing
+  // result, and every outcome is recorded on the inquiry row.
+
+  const outcome = await sendInquiryNotification({
+    ...data,
+    id: inquiryId,
+    createdAt: inquiryCreatedAt,
+  });
+
+  try {
+    const update = await fetch(
+      `${supabaseUrl}/rest/v1/contact_inquiries?id=eq.${inquiryId}`,
+      {
+        method: "PATCH",
+        headers: {
+          apikey: secretKey,
+          Authorization: `Bearer ${secretKey}`,
+          "Content-Type": "application/json",
+          Prefer: "return=minimal",
+        },
+        body: JSON.stringify({
+          notification_status: outcome.status,
+          notification_attempted_at:
+            outcome.status === "not_configured"
+              ? null
+              : new Date().toISOString(),
+          notification_message_id:
+            outcome.status === "sent" ? outcome.messageId : null,
+          notification_error_code:
+            outcome.status === "failed" ? outcome.errorCode : null,
+        }),
+        cache: "no-store",
+      },
+    );
+    if (!update.ok) {
+      console.error(
+        `contact_inquiries: notification status update failed (${update.status})`,
+      );
+    }
+  } catch {
+    console.error("contact_inquiries: notification status update failed");
+  }
+
+  if (outcome.status !== "sent") {
+    // Internal visibility only — the user's inquiry was stored successfully.
+    console.error(`contact_inquiries: notification ${outcome.status}`);
   }
 
   return { status: "success" };

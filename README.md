@@ -13,6 +13,7 @@ Implemented and deployed:
 - **Homepage** with a deliberate narrative structure: hero, organizational problem framing, capabilities, working approach, differentiation, and a closing call-to-action section
 - **About page** (`/about`) with its own narrative: identity, organizational strength, the purpose→people→systems→technology hierarchy, operating perspective, long-term orientation, and a closing call to action
 - **Contact page** (`/contact`) with a formal inquiry-intake workflow: an accessible form submitted through a Next.js Server Action, validated server-side, protected by proportionate abuse checks (honeypot, timing gate, payload limits, best-effort rate limiting), and persisted to the Huerta Group LLC Supabase project
+- **Inquiry notification infrastructure** (Resend, currently in standby): after an inquiry is persisted, the server attempts an internal email notification and records the outcome on the inquiry row (`notification_status`: `pending` → `sent` / `failed` / `not_configured`). With the Resend environment variables absent — the current state — inquiries are stored normally and marked `not_configured`; no email is attempted
 - **Global layout**: sticky header with desktop navigation, accessible mobile navigation, footer with legal name and tagline
 - **Design tokens**: brand palette (matte black `#0F0F10`, gunmetal silver `#5E646B`, metallic gold `#B08D57`), typography, and motion tokens defined once in `app/globals.css`
 - **Technical SEO**: page metadata, Open Graph and Twitter tags, canonical URL, Organization JSON-LD, `robots.txt`, and `sitemap.xml`
@@ -20,9 +21,9 @@ Implemented and deployed:
 - **Responsive behavior** across desktop, laptop, tablet, and mobile breakpoints
 - **Accessibility foundations**: semantic landmarks, skip link, logical heading hierarchy, keyboard-operable navigation, visible focus states, reduced-motion support
 
-Not implemented (and not to be implied elsewhere): authentication, analytics, CMS tooling, tests, client portals, dashboards, email notification of new inquiries, or any other third-party integration. The only database surface is the server-side contact-inquiry write path described below.
+Not implemented (and not to be implied elsewhere): authentication, analytics, CMS tooling, tests, client portals, dashboards, or any other third-party integration. The only database surface is the server-side contact-inquiry write path described below.
 
-Known inquiry-workflow limitations, accepted deliberately for this stage: no email/staff notification of new inquiries (Supabase is the source of record and is checked directly), and rate limiting is per-serverless-instance (best-effort) rather than durable. A formal privacy-policy/legal review remains a future requirement.
+Known inquiry-workflow limitations, accepted deliberately for this stage: email notification is built but in standby (`not_configured`) until the Resend environment variables are added, so Supabase is checked directly for new inquiries; there is no automatic retry for failed notifications (the failure is recorded on the row for manual follow-up); `sent` means the provider accepted the request, not proof of final mailbox delivery; rate limiting is per-serverless-instance (best-effort) rather than durable. A formal privacy-policy/legal review remains a future requirement.
 
 ### Temporary values
 
@@ -58,7 +59,8 @@ app/
   page.tsx          Homepage: section composition, canonical URL, Organization JSON-LD
   about/page.tsx    About page: section composition and page-specific metadata
   contact/page.tsx  Contact page: hero, guidance, inquiry form, page metadata
-  contact/actions.ts  Server Action: validation, abuse checks, Supabase insert
+  contact/actions.ts  Server Action: validation, abuse checks, Supabase insert,
+                      then notification attempt + outcome recording
   globals.css       Tailwind v4 @theme design tokens and base styles
   robots.ts         robots.txt (Next.js metadata file convention)
   sitemap.ts        sitemap.xml (Next.js metadata file convention)
@@ -73,6 +75,8 @@ components/
 lib/
   site.ts           Site constants: names, tagline, description, URLs, navigation
   inquiry.ts        Inquiry types, field limits, and shared validation
+  notification.ts   Server-only inquiry email (Resend via fetch): sanitized
+                    subject, escaped HTML + plain text, never throws
   cx.ts             Class-name join utility
 supabase/
   migrations/       Version-controlled SQL (contact_inquiries table + security)
@@ -80,6 +84,7 @@ supabase/
 
 - **Server-first**: every component is a React Server Component except two deliberate client boundaries — `components/layout/MobileNav.tsx` (menu open/close state, Escape handling) and `components/contact/ContactForm.tsx` (submission state, inline errors, focus management). All pages remain statically rendered.
 - **Inquiry security**: the `contact_inquiries` table has Row Level Security enabled with no policies and all privileges revoked from the public API roles — anonymous clients cannot read or write it. Inserts happen only in the Server Action using the server-side Supabase secret key, which never reaches the browser.
+- **Notification ordering**: persistence first, notification second. The Supabase row is the source of record; the email is an operational alert. A notification failure never affects the user-facing success state (their inquiry was stored) and is recorded on the row (`notification_status`, `notification_attempted_at`, `notification_message_id`, `notification_error_code`). User content is control-character-sanitized before reaching any email header and HTML-escaped in the email body. The sender identity defaults to Resend's own onboarding address until a Huerta Group domain is verified with the provider.
 - **Navigation** links to the `/about` route plus homepage-section anchors. Anchors are root-relative (`/#capabilities`, `/#approach`, `/#difference`, `/#contact`) so they resolve correctly from every route; no link points to a page that does not exist.
 - **Site facts live in `lib/site.ts`** — names, tagline, URLs, and navigation are defined once and imported everywhere they appear.
 
@@ -133,6 +138,11 @@ and fill in real values (never committed):
 | --- | --- |
 | `SUPABASE_URL` | Huerta Group LLC Supabase project URL |
 | `SUPABASE_SECRET_KEY` | Server-only secret API key (`sb_secret_…`) used by the Server Action to insert inquiries. No `NEXT_PUBLIC_` prefix — it never enters the client bundle |
+| `RESEND_API_KEY` | Optional (notification standby without it). Resend API key for the internal inquiry notification |
+| `CONTACT_NOTIFICATION_EMAIL` | Optional (standby without it). Internal recipient for inquiry notifications; until a custom domain is verified with Resend, must be the Resend account owner's address |
+| `CONTACT_NOTIFICATION_FROM` | Optional. Verified sender identity; defaults to Resend's onboarding sender |
+
+To activate notifications: add `RESEND_API_KEY` and `CONTACT_NOTIFICATION_EMAIL` in Vercel project settings (Production) and redeploy. Until then inquiries persist normally with `notification_status = 'not_configured'`.
 
 Database schema lives in `supabase/migrations/` and is applied to the
 `huerta-group-llc` Supabase project. The same two variables must exist in
