@@ -2,22 +2,19 @@ import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Container } from "@/components/ui/Container";
 import { CONTACT_HREF } from "@/lib/site";
 
-export function AboutCta() {
+export function ServicesCta() {
   return (
     <section className="border-t border-edge">
       <Container className="py-20 text-center sm:py-28">
         <h2 className="mx-auto max-w-2xl font-serif text-3xl text-silver-100 sm:text-4xl">
-          The conversation starts with how your organization works today.
+          Start with how your organization works today.
         </h2>
         <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-silver-400">
-          If this perspective fits the way you want your organization to be
-          built, the next step is a conversation.
+          Share a brief description of your organization and where work
+          feels harder than it should. Every inquiry is read and reviewed.
         </p>
-        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <ButtonLink href={CONTACT_HREF}>Start a conversation</ButtonLink>
-          <ButtonLink href="/services" variant="secondary">
-            Explore the services
-          </ButtonLink>
+        <div className="mt-10">
+          <ButtonLink href={CONTACT_HREF}>Contact Huerta Group</ButtonLink>
         </div>
       </Container>
     </section>

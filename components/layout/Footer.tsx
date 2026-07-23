@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
-import { CONTACT_HREF, LEGAL_NAME, NAV_LINKS, SITE_NAME, TAGLINE } from "@/lib/site";
+import { LEGAL_NAME, NAV_LINKS, SITE_NAME, TAGLINE } from "@/lib/site";
 
 /** Global site footer. Legal links and contact details are added later. */
 export function Footer() {
@@ -37,14 +37,6 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link
-                  href={CONTACT_HREF}
-                  className="inline-block py-1 text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
-                >
-                  Contact
-                </Link>
-              </li>
             </ul>
           </nav>
         </div>

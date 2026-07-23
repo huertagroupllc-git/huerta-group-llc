@@ -26,15 +26,11 @@ export const SITE_URL = "https://huerta-group-llc.vercel.app";
  */
 export const CONTACT_HREF = "/contact";
 
-/**
- * Primary navigation. Homepage-section anchors are root-relative so
- * they resolve correctly from every route.
- */
+/** Primary navigation. */
 export const NAV_LINKS = [
+  { href: "/services", label: "Services" },
   { href: "/about", label: "About" },
-  { href: "/#capabilities", label: "Capabilities" },
-  { href: "/#approach", label: "Approach" },
-  { href: "/#difference", label: "Why Huerta Group" },
+  { href: "/contact", label: "Contact" },
 ] as const;
 
 export type NavLink = (typeof NAV_LINKS)[number];
