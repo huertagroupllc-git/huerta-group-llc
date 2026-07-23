@@ -85,7 +85,9 @@ lib/
 supabase/
   migrations/       Version-controlled SQL (contact_inquiries table + security)
 docs/
-  governance/       Vision Foundation for Development (authoritative)
+  README.md         Documentation index: authority hierarchy, classifications
+  governance/       Constitution record, Vision Foundation for Development
+  development/      Development Standards
 ```
 
 - **Server-first**: every component is a React Server Component except two deliberate client boundaries — `components/layout/MobileNav.tsx` (menu open/close state, Escape handling) and `components/contact/ContactForm.tsx` (submission state, inline errors, focus management). All pages remain statically rendered.
@@ -112,9 +114,15 @@ This is a production-first project. Localhost is used only for development and i
 
 ## Development Governance
 
-`docs/governance/vision-foundation-for-development.md` is the authoritative strategic reference for development — approved text, preserved exactly, never to be rewritten through ordinary development work. It is subordinate only to the Huerta Group LLC Constitution and authoritative over website specifications, technical designs, and implementation decisions. Consequential decisions involving architecture, products, platforms, databases, AI, automation, client portals, internal systems, knowledge systems, proprietary software, or major interface/content direction must consult it first (see AGENTS.md).
+Authoritative reference documents live under [`docs/`](docs/README.md), which indexes them and defines the document classifications. In order of authority:
 
-Critical distinction it enforces: the long-term ecosystem it describes (portals, dashboards, platforms, proprietary tools) is **vision, not implementation**. Only what this README's Current Project Status lists actually exists. Public content must never present aspirations as existing capabilities.
+1. **[Huerta Group LLC Constitution](docs/governance/huerta-group-constitution.md)** — the highest internal authority. The canonical record currently lists the three ratified articles (I–III) by title and awaits verbatim insertion of the ratified text; constitutional development remains incomplete beyond Article III.
+2. **[Vision Foundation for Development](docs/governance/vision-foundation-for-development.md)** — the approved strategic foundation for all technology decisions; preserved exactly, never to be rewritten through ordinary development work.
+3. **[Development Standards](docs/development/development-standards.md)** — how this repository's systems are designed, implemented, reviewed, documented, and maintained.
+
+Individual task instructions sit below all of these and may not silently override them (see AGENTS.md for the full authority rules).
+
+Critical distinction the governance system enforces: the long-term ecosystem the Vision Foundation describes (portals, dashboards, platforms, proprietary tools) is **vision, not implementation**. Only what this README's Current Project Status lists actually exists. Public content must never present aspirations as existing capabilities.
 
 ## Constitutional and Brand Guardrails
 
