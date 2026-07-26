@@ -87,7 +87,7 @@ supabase/
 docs/
   README.md         Documentation index: authority hierarchy, classifications
   governance/       Constitution record, Vision Foundation for Development
-  development/      Development Standards
+  development/      Development Standards, bounded autonomous completion standard
 ```
 
 - **Server-first**: every component is a React Server Component except two deliberate client boundaries — `components/layout/MobileNav.tsx` (menu open/close state, Escape handling) and `components/contact/ContactForm.tsx` (submission state, inline errors, focus management). All pages remain statically rendered.
@@ -118,7 +118,7 @@ Authoritative reference documents live under [`docs/`](docs/README.md), which in
 
 1. **[Huerta Group LLC Constitution](docs/governance/huerta-group-constitution.md)** — the highest internal authority. The canonical record currently lists the three ratified articles (I–III) by title and awaits verbatim insertion of the ratified text; constitutional development remains incomplete beyond Article III.
 2. **[Vision Foundation for Development](docs/governance/vision-foundation-for-development.md)** — the approved strategic foundation for all technology decisions; preserved exactly, never to be rewritten through ordinary development work.
-3. **[Development Standards](docs/development/development-standards.md)** — how this repository's systems are designed, implemented, reviewed, documented, and maintained.
+3. **[Development Standards](docs/development/development-standards.md)** — how this repository's systems are designed, implemented, reviewed, documented, and maintained. Its companion, the **[Bounded Autonomous Completion and Verification Standard](docs/development/bounded-autonomous-completion-standard.md)**, defines the default execution method for consequential development tasks.
 
 Individual task instructions sit below all of these and may not silently override them (see AGENTS.md for the full authority rules).
 

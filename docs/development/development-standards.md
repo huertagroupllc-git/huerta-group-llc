@@ -31,6 +31,18 @@ They guide implementation. They do not define Company identity, strategy,
 or business direction — that authority belongs to the documents above
 them.
 
+## Execution Method for Consequential Tasks
+
+The default execution method for consequential development tasks is the
+[Bounded Autonomous Completion and Verification
+Standard](bounded-autonomous-completion-standard.md). It defines the
+autonomous inspect–plan–build–test–inspect–repair loop, builder and
+fresh-inspector separation, the required-model configuration and bounded
+execution budget, verification and repair requirements, stop and
+escalation conditions, evidence-based completion, and the structure every
+future consequential task prompt must follow. These standards define the
+quality bar; that standard defines how consequential work reaches it.
+
 ## Core Development Principles
 
 1. Technology serves organizational purpose and methodology.

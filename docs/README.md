@@ -11,6 +11,7 @@ copying their contents.
 | Huerta Group LLC Constitution | [`governance/huerta-group-constitution.md`](governance/huerta-group-constitution.md) | The highest internal authority. Currently ratified: Articles I–III (record awaits verbatim ratified text) |
 | Vision Foundation for Development | [`governance/vision-foundation-for-development.md`](governance/vision-foundation-for-development.md) | Approved strategic foundation for all technology and development decisions |
 | Development Standards | [`development/development-standards.md`](development/development-standards.md) | How systems are designed, implemented, reviewed, documented, and maintained |
+| Bounded Autonomous Completion and Verification Standard | [`development/bounded-autonomous-completion-standard.md`](development/bounded-autonomous-completion-standard.md) | Default execution method for consequential development tasks (loop engineering, builder–inspector separation, evidence-based completion); a companion to the Development Standards |
 
 Current-implementation documentation lives in the repository root
 [`README.md`](../README.md).

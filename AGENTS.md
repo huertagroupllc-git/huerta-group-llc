@@ -12,7 +12,7 @@ Canonical governing documents (linked, never duplicated here — see
 1. **Huerta Group LLC Constitution** — `docs/governance/huerta-group-constitution.md` — the highest internal authority.
 2. **Vision Foundation for Development** — `docs/governance/vision-foundation-for-development.md` — translates the Company's identity and long-term direction into strategic guidance for technology.
 3. **Other formally approved Company-wide strategy, methodology, policy, and governance documents** — govern their subjects, consistent with 1–2.
-4. **Development Standards** — `docs/development/development-standards.md` — and approved architectural decisions govern implementation methods and technical quality.
+4. **Development Standards** — `docs/development/development-standards.md` — and approved architectural decisions govern implementation methods and technical quality. Consequential tasks follow the default execution method in the **Bounded Autonomous Completion and Verification Standard** — `docs/development/bounded-autonomous-completion-standard.md`.
 5. **Individual task instructions** — govern the immediate assignment but may not silently override higher authority.
 
 Rules:
