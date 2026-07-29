@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 
 const STAGES = [
@@ -71,6 +72,14 @@ export function PracticeToEducation() {
         Each element disciplines the others: education teaches what the
         Company practices, and what its people learn in the field sharpens
         what it teaches.
+      </p>
+      <p className="mt-6">
+        <Link
+          href="/methodology"
+          className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+        >
+          Explore the methodology this division teaches from →
+        </Link>
       </p>
     </Section>
   );

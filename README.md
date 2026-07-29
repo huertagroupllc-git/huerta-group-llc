@@ -4,7 +4,7 @@ Production repository for the public website of **Huerta Group LLC**, an organiz
 
 Technology, software, automation, and AI are tools used in service of organizational purpose and human capability. They are not the Company's identity or ultimate product. This repository must never be documented or developed as an AI platform, SaaS product, or technology-vendor website.
 
-This repository currently contains the public-facing website: the homepage, Services page, Education & Workforce Development page, About page, and Contact page, together with the global layout, design-token, and metadata infrastructure that future pages will build on. The website is one part of a potentially broader future digital ecosystem; future software capabilities remain distinct from — and must not be conflated with — the functionality that exists today.
+This repository currently contains the public-facing website: the homepage, Services page, Methodology page, Education & Workforce Development page, About page, and Contact page, together with the global layout, design-token, and metadata infrastructure that future pages will build on. The website is one part of a potentially broader future digital ecosystem; future software capabilities remain distinct from — and must not be conflated with — the functionality that exists today.
 
 ## Current Project Status
 
@@ -13,6 +13,7 @@ Implemented and deployed:
 - **Homepage** with a deliberate narrative structure: hero, organizational problem framing, capabilities, working approach, differentiation, and a closing call-to-action section
 - **About page** (`/about`) with its own narrative: identity, organizational strength, the purpose→people→systems→technology hierarchy, operating perspective, long-term orientation, and a closing call to action
 - **Services page** (`/services`) presenting seven connected areas of systems-oriented work (assessment, process design, documentation, technology/AI implementation, measurement, implementation leadership, ongoing advisory), an adaptable engagement model, and restrained fit guidance — all CTAs lead to `/contact`
+- **Methodology page** (`/methodology`) — a foundational institutional page explaining how Huerta Group works at the level of enduring principles: methodology (not technology) as the foundation of the Company's work, understanding before change, the enduring principles that guide the work (structured thinking, systems thinking, evidence-informed judgment, practical implementation, sustainable capability, continuous improvement, governance awareness), repeatability with responsible adaptation, and methodology's place in the Company's institutional model. The page deliberately publishes **public principles only**: no proprietary framework, named methodology, numbered process, engagement lifecycle, phase model, diagnostic instrument, assessment, or internal operating detail is published or invented — protected methodology remains internal. CTAs use existing routes (`/contact`, `/services`)
 - **Education & Workforce Development page** (`/education`) — presents the Company's educational division in established institutional voice: the division's role, education as organizational capability, the institutional progression it operates within (vision → methodology → intellectual property → education → technology & software → managed services), the ten capability domains Huerta Group develops, the audiences the division serves, the competency-over-completion philosophy, and the division's integration with the rest of the Company. The page deliberately claims **no specific offerings**: no named course, program, credential, certification, price, schedule, instructor, or enrollment exists or is implied (truthfulness through omission, per the approved voice direction). All inquiry CTAs lead to the existing `/contact` route. No LMS, enrollment, student, certification, or payment functionality exists
 - **Contact page** (`/contact`) with a formal inquiry-intake workflow: an accessible form submitted through a Next.js Server Action, validated server-side, protected by proportionate abuse checks (honeypot, timing gate, payload limits, best-effort rate limiting), and persisted to the Huerta Group LLC Supabase project
 - **Inquiry notification infrastructure** (Resend, currently in standby): after an inquiry is persisted, the server attempts an internal email notification and records the outcome on the inquiry row (`notification_status`: `pending` → `sent` / `failed` / `not_configured`). With the Resend environment variables absent — the current state — inquiries are stored normally and marked `not_configured`; no email is attempted
@@ -61,6 +62,8 @@ app/
   page.tsx          Homepage: section composition, canonical URL, Organization JSON-LD
   about/page.tsx    About page: section composition and page-specific metadata
   services/page.tsx Services page: section composition and page-specific metadata
+  methodology/page.tsx Methodology page: section composition and
+                    page-specific metadata
   education/page.tsx Education & Workforce Development page: section
                     composition and page-specific metadata
   contact/page.tsx  Contact page: hero, guidance, inquiry form, page metadata
@@ -77,6 +80,10 @@ components/
                     Perspective, LongTerm, AboutCta
   sections/services/ ServicesHero, SystemsFirst, ServiceAreas, HowItConnects,
                     Engagement, TechnologyRole, Fit, ServicesCta
+  sections/methodology/ MethodologyHero, MethodologyBeforeTechnology,
+                    UnderstandingBeforeChange, GuidingPrinciples,
+                    ConsistencyWithAdaptation, InstitutionalFoundation,
+                    MethodologyCta
   sections/education/ EducationHero, EducationMission, PracticeToEducation,
                     CapabilityDomains, EducationAudiences,
                     CompetencyOverCompletion, IntegratedApproach,
@@ -100,7 +107,7 @@ docs/
 - **Server-first**: every component is a React Server Component except two deliberate client boundaries — `components/layout/MobileNav.tsx` (menu open/close state, Escape handling) and `components/contact/ContactForm.tsx` (submission state, inline errors, focus management). All pages remain statically rendered.
 - **Inquiry security**: the `contact_inquiries` table has Row Level Security enabled with no policies and all privileges revoked from the public API roles — anonymous clients cannot read or write it. Inserts happen only in the Server Action using the server-side Supabase secret key, which never reaches the browser.
 - **Notification ordering**: persistence first, notification second. The Supabase row is the source of record; the email is an operational alert. A notification failure never affects the user-facing success state (their inquiry was stored) and is recorded on the row (`notification_status`, `notification_attempted_at`, `notification_message_id`, `notification_error_code`). User content is control-character-sanitized before reaching any email header and HTML-escaped in the email body. The sender identity defaults to Resend's own onboarding address until a Huerta Group domain is verified with the provider.
-- **Navigation** links to the `/services`, `/education`, `/about`, and `/contact` routes, with the header CTA also leading to `/contact`. No link points to a page that does not exist.
+- **Navigation** links to the `/services`, `/methodology`, `/education`, `/about`, and `/contact` routes, with the header CTA also leading to `/contact`. No link points to a page that does not exist.
 - **Site facts live in `lib/site.ts`** — names, tagline, URLs, and navigation are defined once and imported everywhere they appear.
 
 The architecture is intentionally proportional to a small static site. Additional layers are added when real requirements emerge, not before.

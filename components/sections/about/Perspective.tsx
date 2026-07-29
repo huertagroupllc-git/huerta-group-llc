@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 
 const STANDARDS = [
@@ -43,6 +44,14 @@ export function Perspective() {
           </div>
         ))}
       </div>
+      <p className="mt-10">
+        <Link
+          href="/methodology"
+          className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+        >
+          The discipline behind these standards: explore the methodology →
+        </Link>
+      </p>
     </Section>
   );
 }

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 
 export function SystemsFirst() {
@@ -20,6 +21,14 @@ export function SystemsFirst() {
           isolation rarely holds. Designing them together is what makes
           improvements durable — which is why every service below is a way
           of working on the system, not a product on a shelf.
+        </p>
+        <p>
+          <Link
+            href="/methodology"
+            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+          >
+            Every service is delivered through disciplined methodology →
+          </Link>
         </p>
       </div>
     </Section>
