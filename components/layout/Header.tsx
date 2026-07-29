@@ -20,7 +20,7 @@ export function Header() {
           {SITE_NAME}
         </Link>
 
-        {/* Desktop navigation appears at lg — below that the five-item
+        {/* Desktop navigation appears at lg — below that the six-item
             row would crowd the brand mark. */}
         <nav aria-label="Primary" className="hidden items-center gap-8 lg:flex">
           {NAV_LINKS.map((link) => (

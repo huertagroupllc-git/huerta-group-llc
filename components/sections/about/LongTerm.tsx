@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 
 export function LongTerm() {
@@ -23,6 +24,15 @@ export function LongTerm() {
           What will not change is the orientation: decisions weighed on long
           horizons, obligations taken seriously, and growth pursued only at
           a pace the work can honestly support.
+        </p>
+        <p>
+          <Link
+            href="/education"
+            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+          >
+            One of those directions now has a public foundation: Education
+            &amp; Workforce Development →
+          </Link>
         </p>
       </div>
     </Section>

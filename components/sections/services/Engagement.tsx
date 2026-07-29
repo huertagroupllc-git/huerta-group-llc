@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 
 const PHASES = [
@@ -54,6 +55,15 @@ export function Engagement() {
         The shape and depth of each phase depend on the organization. Some
         engagements are focused on a single area of work; others move
         through the full arc.
+      </p>
+      <p className="mt-6">
+        <Link
+          href="/education"
+          className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+        >
+          Structured training also belongs to the Company&apos;s developing
+          educational branch →
+        </Link>
       </p>
     </Section>
   );
