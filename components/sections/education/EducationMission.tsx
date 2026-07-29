@@ -3,29 +3,30 @@ import { Section } from "@/components/ui/Section";
 export function EducationMission() {
   return (
     <Section
-      eyebrow="Educational mission"
-      title="Why the Company is building an educational branch."
+      eyebrow="Education as organizational capability"
+      title="Stronger organizations are built by capable people."
     >
       <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Huerta Group works inside organizations — understanding,
           designing, improving, and implementing the systems through which
-          they operate. That work produces something durable: methods that
-          hold up in practice, knowledge of how organizations actually
-          behave, and experience carrying change through to results.
+          they operate. An organization is only as strong as the people
+          who run those systems: their judgment, their methods, and their
+          ability to keep improving what they build.
         </p>
         <p>
-          Education &amp; Workforce Development exists to turn that
-          accumulated methodology, intellectual property, and operating
-          knowledge into scalable learning experiences — for professionals
-          building their own capability, and for organizations developing
-          their people. It is part of building Huerta Group into a durable
-          institution whose knowledge outlasts any single engagement.
+          Education &amp; Workforce Development carries that conviction
+          into practice. The division transforms the Company&apos;s
+          methodology, intellectual property, and operating knowledge into
+          structured learning — for professionals strengthening their own
+          capability, and for organizations developing their people.
+          Workforce development, done seriously, is institutional
+          capability building.
         </p>
         <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
-          It is not content production for its own sake. Educational work
-          that loses its connection to real practice loses the reason it
-          is worth teaching.
+          It is not content production for its own sake. Education that
+          loses its connection to real practice loses the reason it is
+          worth teaching.
         </p>
       </div>
     </Section>

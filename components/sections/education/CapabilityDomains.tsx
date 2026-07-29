@@ -10,15 +10,15 @@ const DOMAINS = [
   "Responsible artificial intelligence use",
   "Leadership and professional judgment",
   "Continuous improvement",
-  "Building sustainable organizational systems",
+  "Sustainable organizational systems",
 ] as const;
 
 export function CapabilityDomains() {
   return (
     <Section
-      eyebrow="Capability domains"
-      title="The capabilities the learning is intended to build."
-      lead="These are anticipated learning areas, not a course catalog. They are meant to be developed together — as integrated professional capability rather than isolated topics."
+      eyebrow="Areas of capability"
+      title="The capabilities Huerta Group develops."
+      lead="Ten connected domains, developed together — integrated professional capability rather than isolated topics."
     >
       <ul className="mt-12 grid max-w-4xl gap-x-12 gap-y-4 sm:grid-cols-2">
         {DOMAINS.map((domain) => (

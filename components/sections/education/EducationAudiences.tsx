@@ -5,17 +5,16 @@ const AUDIENCES = [
   "Emerging leaders and managers",
   "Executives and organizational decision-makers",
   "Operational teams",
-  "Organizations pursuing structured workforce development",
-  "Professionals responsible for processes, governance, technology, or continuous improvement",
-  "Future Huerta Group professionals and collaborators",
+  "Organizations strengthening workforce capability",
+  "People responsible for processes, governance, technology, implementation, or continuous improvement",
 ] as const;
 
 export function EducationAudiences() {
   return (
     <Section
-      eyebrow="Audiences"
-      title="Who the educational ecosystem may serve."
-      lead="As programs are developed, the educational branch may serve individuals and organizations across several forms of responsibility."
+      eyebrow="Who the division serves"
+      title="Workforce development for individuals and organizations."
+      lead="The division serves the people and organizations that carry responsibility for how organizations actually run."
       tone="raised"
     >
       <ul className="mt-12 max-w-3xl space-y-4">
@@ -32,9 +31,9 @@ export function EducationAudiences() {
         ))}
       </ul>
       <p className="mt-10 max-w-3xl text-sm leading-relaxed text-silver-500">
-        Formal programs for these audiences do not yet exist. This list
-        describes who the work is being designed to serve — not who can
-        enroll today.
+        For organizations, workforce development is scoped to the
+        organization itself — its systems, its responsibilities, and the
+        capability its work depends on.
       </p>
     </Section>
   );

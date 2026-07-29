@@ -1,18 +1,17 @@
 import type { Metadata } from "next";
 import { CapabilityDomains } from "@/components/sections/education/CapabilityDomains";
 import { CompetencyOverCompletion } from "@/components/sections/education/CompetencyOverCompletion";
-import { DevelopmentStatus } from "@/components/sections/education/DevelopmentStatus";
 import { EducationAudiences } from "@/components/sections/education/EducationAudiences";
 import { EducationCta } from "@/components/sections/education/EducationCta";
 import { EducationHero } from "@/components/sections/education/EducationHero";
 import { EducationMission } from "@/components/sections/education/EducationMission";
-import { FutureFormats } from "@/components/sections/education/FutureFormats";
+import { IntegratedApproach } from "@/components/sections/education/IntegratedApproach";
 import { PracticeToEducation } from "@/components/sections/education/PracticeToEducation";
 import { SITE_NAME } from "@/lib/site";
 
 const PAGE_TITLE = `${SITE_NAME} Education & Workforce Development`;
 const PAGE_DESCRIPTION =
-  "Huerta Group LLC is developing an Education & Workforce Development branch: learning built from the Company's methodology and operating experience to develop practical professional and organizational capability. Formal programs are under development.";
+  "Education & Workforce Development at Huerta Group LLC transforms the Company's methodology, intellectual property, and operating experience into structured learning that develops practical professional and organizational capability.";
 
 export const metadata: Metadata = {
   title: "Education & Workforce Development",
@@ -44,8 +43,7 @@ export default function EducationPage() {
       <CapabilityDomains />
       <EducationAudiences />
       <CompetencyOverCompletion />
-      <FutureFormats />
-      <DevelopmentStatus />
+      <IntegratedApproach />
       <EducationCta />
     </>
   );

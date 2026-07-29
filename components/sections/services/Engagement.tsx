@@ -61,8 +61,8 @@ export function Engagement() {
           href="/education"
           className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
         >
-          Structured training also belongs to the Company&apos;s developing
-          educational branch →
+          Structured training is also the work of the Company&apos;s
+          Education &amp; Workforce Development division →
         </Link>
       </p>
     </Section>

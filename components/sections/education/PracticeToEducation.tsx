@@ -11,40 +11,40 @@ const STAGES = [
     number: "02",
     title: "Methodology",
     description:
-      "Repeated consulting and operational experience, refined into structured, repeatable methods.",
+      "Consulting and operational experience, refined into structured, repeatable methods.",
   },
   {
     number: "03",
     title: "Intellectual property",
     description:
-      "Validated methods preserved as frameworks, standards, and tools the Company can teach from.",
+      "Validated methods preserved as frameworks, standards, and tools the Company teaches from.",
   },
   {
     number: "04",
     title: "Education",
     description:
-      "Learning experiences that extend that knowledge to professionals and organizations — the branch this page introduces.",
+      "Learning that extends that knowledge to professionals and organizations — the work of this division.",
   },
   {
     number: "05",
     title: "Technology & software",
     description:
-      "May later support how learning is delivered, assessed, accessed, and scaled. Technology supports the educational work; it does not define it.",
+      "Supports how learning is delivered, accessed, and scaled. Technology serves the educational substance; it does not define it.",
   },
   {
     number: "06",
     title: "Managed services",
     description:
-      "May eventually reinforce and extend the capabilities organizations develop through consulting and education.",
+      "Extends the operational value organizations build through consulting and education.",
   },
 ] as const;
 
 export function PracticeToEducation() {
   return (
     <Section
-      eyebrow="From practice to education"
-      title="Where education sits in the Company's development."
-      lead="Huerta Group is being built in deliberate stages. Education draws on the stages before it and prepares the ground for the stages that may follow."
+      eyebrow="From knowledge to practice"
+      title="Where education sits in the Company's model."
+      lead="Huerta Group operates on a deliberate institutional progression. Education draws its substance from the stages before it and strengthens the stages around it."
       tone="raised"
     >
       <ol className="mt-14 max-w-3xl space-y-10">
@@ -67,10 +67,10 @@ export function PracticeToEducation() {
         ))}
       </ol>
       <p className="mt-10 max-w-3xl text-sm leading-relaxed text-silver-500">
-        These stages are at different levels of maturity today, and the
-        later ones describe direction rather than commitments. The point of
-        the progression is discipline: education grows out of what the
-        Company has actually practiced — it is not produced apart from it.
+        This is the Company&apos;s operating model, not a sales sequence.
+        Each element disciplines the others: education teaches what the
+        Company practices, and what its people learn in the field sharpens
+        what it teaches.
       </p>
     </Section>
   );

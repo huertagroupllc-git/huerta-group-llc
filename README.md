@@ -13,7 +13,7 @@ Implemented and deployed:
 - **Homepage** with a deliberate narrative structure: hero, organizational problem framing, capabilities, working approach, differentiation, and a closing call-to-action section
 - **About page** (`/about`) with its own narrative: identity, organizational strength, the purpose→people→systems→technology hierarchy, operating perspective, long-term orientation, and a closing call to action
 - **Services page** (`/services`) presenting seven connected areas of systems-oriented work (assessment, process design, documentation, technology/AI implementation, measurement, implementation leadership, ongoing advisory), an adaptable engagement model, and restrained fit guidance — all CTAs lead to `/contact`
-- **Education & Workforce Development page** (`/education`) — the public foundation for the Company's educational branch. It presents the educational mission, the institutional progression education emerges from (vision → methodology → intellectual property → education → technology & software → managed services), anticipated capability domains, potential audiences, the competency-over-completion philosophy, and possible future learning formats. The page is explicitly a **direction statement**: every program, pathway, assessment, and certification is described as under development, nothing is presented as open for enrollment, and all inquiry CTAs lead to the existing `/contact` route. No LMS, enrollment, student, certification, or payment functionality exists
+- **Education & Workforce Development page** (`/education`) — presents the Company's educational division in established institutional voice: the division's role, education as organizational capability, the institutional progression it operates within (vision → methodology → intellectual property → education → technology & software → managed services), the ten capability domains Huerta Group develops, the audiences the division serves, the competency-over-completion philosophy, and the division's integration with the rest of the Company. The page deliberately claims **no specific offerings**: no named course, program, credential, certification, price, schedule, instructor, or enrollment exists or is implied (truthfulness through omission, per the approved voice direction). All inquiry CTAs lead to the existing `/contact` route. No LMS, enrollment, student, certification, or payment functionality exists
 - **Contact page** (`/contact`) with a formal inquiry-intake workflow: an accessible form submitted through a Next.js Server Action, validated server-side, protected by proportionate abuse checks (honeypot, timing gate, payload limits, best-effort rate limiting), and persisted to the Huerta Group LLC Supabase project
 - **Inquiry notification infrastructure** (Resend, currently in standby): after an inquiry is persisted, the server attempts an internal email notification and records the outcome on the inquiry row (`notification_status`: `pending` → `sent` / `failed` / `not_configured`). With the Resend environment variables absent — the current state — inquiries are stored normally and marked `not_configured`; no email is attempted
 - **Global layout**: sticky header with desktop navigation, accessible mobile navigation, footer with legal name and tagline
@@ -79,8 +79,8 @@ components/
                     Engagement, TechnologyRole, Fit, ServicesCta
   sections/education/ EducationHero, EducationMission, PracticeToEducation,
                     CapabilityDomains, EducationAudiences,
-                    CompetencyOverCompletion, FutureFormats,
-                    DevelopmentStatus, EducationCta
+                    CompetencyOverCompletion, IntegratedApproach,
+                    EducationCta
   contact/          ContactForm — accessible inquiry form (client component)
   ui/               Container, ButtonLink, Section — reusable primitives
 lib/
@@ -196,6 +196,6 @@ Vercel project settings for production.
 
 ## Future Development
 
-The following are **possible directions**, not current functionality: additional public pages (Approach, Insights), client portals, internal dashboards, a Huerta Group Command Center, proprietary tools, databases, integrations, automation, APIs, reporting systems, software, educational programs and platforms (only the public `/education` direction page exists today — no program, curriculum, LMS, enrollment, or certification capability), intellectual property, publishing, managed services, and partnerships.
+The following are **possible directions**, not current functionality: additional public pages (Approach, Insights), client portals, internal dashboards, a Huerta Group Command Center, proprietary tools, databases, integrations, automation, APIs, reporting systems, software, educational programs and platforms (the public `/education` division page exists today; no program catalog, curriculum, LMS, enrollment, or certification capability does), intellectual property, publishing, managed services, and partnerships.
 
 Future development must remain constitutionally consistent, preserve the Company's organizational systems identity, maintain separation of concerns, avoid premature implementation, adopt scalable architecture only as real requirements emerge, and continue prioritizing human usability and operational clarity.

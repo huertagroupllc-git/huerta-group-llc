@@ -14,11 +14,11 @@ export function EducationHero() {
           Learning built to develop real capability.
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-silver-400">
-          Huerta Group is establishing an educational branch to translate
-          its methodology, organizational knowledge, and practical
-          experience into learning that builds demonstrable professional
-          and organizational capability. Formal programs are under
-          development — this page describes the direction.
+          Education &amp; Workforce Development is the division through
+          which Huerta Group transforms its methodology, organizational
+          knowledge, and practical experience into structured learning —
+          education that builds demonstrable professional and
+          organizational capability.
         </p>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <ButtonLink href={CONTACT_HREF}>Contact Huerta Group</ButtonLink>
