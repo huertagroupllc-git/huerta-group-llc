@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 
 export function InstitutionalFoundation() {
@@ -24,6 +25,15 @@ export function InstitutionalFoundation() {
           software serve the methodology&apos;s consistency, coordination,
           and scale. And sustained operational support extends its value
           beyond the work that first produced it.
+        </p>
+        <p>
+          <Link
+            href="/intellectual-property"
+            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+          >
+            How knowledge becomes an institutional asset: explore
+            Intellectual Property →
+          </Link>
         </p>
       </div>
     </Section>

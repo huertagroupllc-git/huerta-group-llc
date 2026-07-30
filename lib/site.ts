@@ -30,6 +30,7 @@ export const CONTACT_HREF = "/contact";
 export const NAV_LINKS = [
   { href: "/services", label: "Services" },
   { href: "/methodology", label: "Methodology" },
+  { href: "/intellectual-property", label: "Intellectual Property" },
   { href: "/education", label: "Education" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },

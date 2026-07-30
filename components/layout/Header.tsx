@@ -20,14 +20,19 @@ export function Header() {
           {SITE_NAME}
         </Link>
 
-        {/* Desktop navigation appears at lg — below that the seven-item
+        {/* Desktop navigation appears at lg — below that the eight-item
             row would crowd the brand mark. */}
-        <nav aria-label="Primary" className="hidden items-center gap-8 lg:flex">
+        {/* gap-6 until xl keeps the six labels on one line at 1024px;
+            whitespace-nowrap prevents a long label from wrapping. */}
+        <nav
+          aria-label="Primary"
+          className="hidden items-center gap-6 lg:flex xl:gap-8"
+        >
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="py-2 text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
+              className="whitespace-nowrap py-2 text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
             >
               {link.label}
             </Link>

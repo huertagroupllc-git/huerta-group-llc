@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 
 export function IntegratedApproach() {
@@ -21,6 +22,14 @@ export function IntegratedApproach() {
           gives it structure. Intellectual property preserves it.
           Education extends it to people and organizations — and what
           returns from teaching sharpens the practice it came from.
+        </p>
+        <p>
+          <Link
+            href="/intellectual-property"
+            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+          >
+            Explore the institutional knowledge education draws from →
+          </Link>
         </p>
       </div>
     </Section>
