@@ -6,8 +6,11 @@ import { ButtonLink } from "@/components/ui/ButtonLink";
 import { CONTACT_HREF, NAV_LINKS } from "@/lib/site";
 
 /**
- * Mobile navigation toggle — the only client component on the page.
- * Renders a hamburger button and a full-width panel under the header.
+ * Menu toggle for viewports below xl — the only client component on the
+ * page. Renders a hamburger button and a full-width panel under the
+ * header. (Desktop links appear at xl; below that the seven-label row
+ * cannot render on one line, so this menu serves tablets and small
+ * laptops too.)
  */
 export function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -29,7 +32,7 @@ export function MobileNav() {
   }, [open]);
 
   return (
-    <div className="lg:hidden">
+    <div className="xl:hidden">
       <button
         ref={toggleRef}
         type="button"

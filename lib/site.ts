@@ -26,12 +26,19 @@ export const SITE_URL = "https://huerta-group-llc.vercel.app";
  */
 export const CONTACT_HREF = "/contact";
 
-/** Primary navigation. */
+/**
+ * Primary navigation. "Technology" is the deliberate short label for the
+ * Technology & Software page (/technology-software) — the full label
+ * cannot render on one line at any supported desktop width alongside the
+ * other institutional labels; the route, page heading, and metadata keep
+ * the full name.
+ */
 export const NAV_LINKS = [
   { href: "/services", label: "Services" },
   { href: "/methodology", label: "Methodology" },
   { href: "/intellectual-property", label: "Intellectual Property" },
   { href: "/education", label: "Education" },
+  { href: "/technology-software", label: "Technology" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ] as const;

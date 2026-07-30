@@ -20,13 +20,15 @@ export function Header() {
           {SITE_NAME}
         </Link>
 
-        {/* Desktop navigation appears at lg — below that the eight-item
-            row would crowd the brand mark. */}
-        {/* gap-6 until xl keeps the six labels on one line at 1024px;
-            whitespace-nowrap prevents a long label from wrapping. */}
+        {/* Desktop navigation appears at xl — measured: the seven-label
+            row plus CTA overflows at lg's 1024px minimum, and no standard
+            breakpoint exists between lg and xl, so xl is the smallest
+            width at which one line is guaranteed. gap-6 (not gap-8) keeps
+            a comfortable margin inside the max-w-6xl container;
+            whitespace-nowrap prevents label wrapping. */}
         <nav
           aria-label="Primary"
-          className="hidden items-center gap-6 lg:flex xl:gap-8"
+          className="hidden items-center gap-6 xl:flex"
         >
           {NAV_LINKS.map((link) => (
             <Link

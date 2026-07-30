@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Section } from "@/components/ui/Section";
 
 export function MethodologyBeforeTechnology() {
@@ -23,6 +24,15 @@ export function MethodologyBeforeTechnology() {
         </p>
         <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
           The method leads. The tools serve.
+        </p>
+        <p>
+          <Link
+            href="/technology-software"
+            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+          >
+            How the Company puts technology to work: explore Technology
+            &amp; Software →
+          </Link>
         </p>
       </div>
     </Section>
