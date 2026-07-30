@@ -15,12 +15,13 @@ export function LongTerm() {
         </p>
         <p>
           The company&apos;s work already takes more than one form — the
-          organizational systems practice this site describes, and the
+          organizational systems practice this site describes, the
           Education &amp; Workforce Development division that teaches from
-          it. Over time it may take others — software, publishing, managed
-          services, partnerships. None of that is promised here, and none
-          of it would change the identity underneath: an organizational
-          systems company, accountable for what it builds.
+          it, and the Managed Services function that sustains what the
+          work builds. Over time it may take others — software,
+          publishing, partnerships. None of that is promised here, and
+          none of it would change the identity underneath: an
+          organizational systems company, accountable for what it builds.
         </p>
         <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
           What will not change is the orientation: decisions weighed on long

@@ -25,13 +25,19 @@ export function ExtendingInstitution() {
           knowledge, its standards. It amplifies substance. It does not
           substitute for it.
         </p>
-        <p>
+        <p className="space-y-1">
           <Link
             href="/intellectual-property"
-            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+            className="block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
           >
             The knowledge technology extends: explore Intellectual
             Property →
+          </Link>
+          <Link
+            href="/managed-services"
+            className="block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
+          >
+            The operations technology sustains: explore Managed Services →
           </Link>
         </p>
       </div>

@@ -39,6 +39,7 @@ export const NAV_LINKS = [
   { href: "/intellectual-property", label: "Intellectual Property" },
   { href: "/education", label: "Education" },
   { href: "/technology-software", label: "Technology" },
+  { href: "/managed-services", label: "Managed Services" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ] as const;
