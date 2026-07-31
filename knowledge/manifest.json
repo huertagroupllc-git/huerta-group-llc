@@ -1,0 +1,242 @@
+{
+  "manifestVersion": 1,
+  "corpus": {
+    "root": "docs",
+    "include": "docs/**/*.md",
+    "exclusionRule": "Only Markdown documents under docs/ are governed corpus members. Root-level repository instruction files (README.md, AGENTS.md, CLAUDE.md) are deliberately excluded: they are repository operating instructions whose governing content is already canonical within docs/ (see ADR-0001). Non-Markdown files under docs/ (none exist today) would be excluded as non-document artifacts."
+  },
+  "documents": [
+    {
+      "id": "documentation-index",
+      "title": "Huerta Group LLC — Documentation Index",
+      "path": "docs/README.md",
+      "type": "index",
+      "classification": "Unspecified",
+      "authorityTier": "unspecified",
+      "status": "current",
+      "summary": "Canonical index of governing and launch documentation: defines the document classifications, the five-level hierarchy of authority, canonical-location and no-duplication rules, and conflict escalation.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        { "rel": "references", "target": "huerta-group-constitution" },
+        { "rel": "references", "target": "vision-foundation-for-development" },
+        { "rel": "references", "target": "development-standards" },
+        { "rel": "references", "target": "bounded-autonomous-completion-standard" },
+        { "rel": "references", "target": "launch-readiness" },
+        { "rel": "references", "target": "custom-domain-migration-plan" },
+        { "rel": "references", "target": "official-launch-checklist" },
+        { "rel": "references", "target": "rollback-plan" },
+        { "rel": "references", "target": "adr-0001-institutional-knowledge-foundation" }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "unresolved": [
+        "No governing reference states a classification for the documentation index itself.",
+        "No governing reference states an authority tier for the documentation index itself."
+      ]
+    },
+    {
+      "id": "huerta-group-constitution",
+      "title": "Huerta Group LLC Constitution (canonical record)",
+      "path": "docs/governance/huerta-group-constitution.md",
+      "type": "governing-record",
+      "classification": "Ratified Constitutional Authority",
+      "authorityTier": 1,
+      "status": "current",
+      "statusNote": "Records ratified Articles I–III by title only; the verbatim ratified text awaits insertion through the appropriate Company authority. The absence of the full text does not diminish the articles' ratified status.",
+      "summary": "The single canonical repository record of the Huerta Group LLC Constitution — the highest internal authority — with the rules governing the record itself.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": "Formally ratified per the document's own status statement; Articles I–III closed to ordinary revision.",
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "vision-foundation-for-development",
+      "title": "Vision Foundation for Development",
+      "path": "docs/governance/vision-foundation-for-development.md",
+      "type": "governing-record",
+      "classification": "Approved Strategic Authority",
+      "authorityTier": 2,
+      "status": "current",
+      "summary": "Approved strategic foundation for all technology and development decisions: Company identity, value-creation model, technology/AI/software philosophy, and strategic guardrails.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": "Listed as Approved Strategic Authority by the documentation index (docs/README.md).",
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        { "rel": "governed-by", "target": "huerta-group-constitution" }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "development-standards",
+      "title": "Development Standards",
+      "path": "docs/development/development-standards.md",
+      "type": "standard",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "How Huerta Group LLC systems are designed, implemented, reviewed, documented, and maintained: architecture, code quality, accessibility, security, AI use, content standards, deployment, and change control.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        { "rel": "governed-by", "target": "huerta-group-constitution" },
+        { "rel": "governed-by", "target": "vision-foundation-for-development" },
+        { "rel": "references", "target": "bounded-autonomous-completion-standard" }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "bounded-autonomous-completion-standard",
+      "title": "Bounded Autonomous Completion and Verification Standard",
+      "path": "docs/development/bounded-autonomous-completion-standard.md",
+      "type": "standard",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Default execution method for consequential development tasks: the bounded builder–inspector–repair loop, verification requirements, protected actions, stop conditions, and evidence-based completion.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        { "rel": "governed-by", "target": "huerta-group-constitution" },
+        { "rel": "governed-by", "target": "vision-foundation-for-development" },
+        { "rel": "references", "target": "development-standards" }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "launch-readiness",
+      "title": "Launch Readiness — Authoritative Record",
+      "path": "docs/launch/launch-readiness.md",
+      "type": "status-record",
+      "classification": "Current Implementation Documentation",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Authoritative launch-readiness record: verified production state, route inventory, inquiry/notification standby state, environment-variable categories, navigation capacity, verified limitations, and protected owner decisions.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        { "rel": "references", "target": "custom-domain-migration-plan" },
+        { "rel": "references", "target": "official-launch-checklist" },
+        { "rel": "references", "target": "rollback-plan" }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "custom-domain-migration-plan",
+      "title": "Custom-Domain Migration Plan",
+      "path": "docs/launch/custom-domain-migration-plan.md",
+      "type": "plan",
+      "classification": "Current Implementation Documentation",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Plan only; the intended domain is not owned, connected, or active. Execution requires owner authorization.",
+      "summary": "Owner-gated plan for migrating the public website from the active Vercel origin to the official custom domain: decisions, DNS/TLS, canonical cutover, verification, and rollback.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        { "rel": "references", "target": "official-launch-checklist" }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "official-launch-checklist",
+      "title": "Official Launch Checklist",
+      "path": "docs/launch/official-launch-checklist.md",
+      "type": "checklist",
+      "classification": "Current Implementation Documentation",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Owner-gated items are never marked complete by development.",
+      "summary": "Phased checklist for the owner-authorized official launch: owner authorizations, pre-launch technical verification, domain migration, inquiry-notification activation, launch verification, and post-launch steps.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        { "rel": "references", "target": "launch-readiness" },
+        { "rel": "references", "target": "custom-domain-migration-plan" },
+        { "rel": "references", "target": "rollback-plan" }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "rollback-plan",
+      "title": "Rollback Plan",
+      "path": "docs/launch/rollback-plan.md",
+      "type": "plan",
+      "classification": "Current Implementation Documentation",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Rollback procedures and responsibility boundaries for the public website: git, deployment-platform, environment, canonical-origin, and DNS rollback, with triggers and post-rollback verification.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        { "rel": "references", "target": "launch-readiness" }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0001-institutional-knowledge-foundation",
+      "title": "ADR-0001 — Institutional Knowledge Foundation",
+      "path": "docs/development/decisions/adr-0001-institutional-knowledge-foundation.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Architecture decision establishing the machine-readable institutional knowledge layer: metadata schema, corpus manifest, deterministic validation, identifier and relationship conventions, and explicit non-commitment to any future platform.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": "Created under the Development Standards provision for decision records under docs/development/.",
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        { "rel": "governed-by", "target": "development-standards" },
+        { "rel": "references", "target": "documentation-index" }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    }
+  ]
+}

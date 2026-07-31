@@ -25,6 +25,54 @@ Current-implementation documentation lives in the repository root
 | Official Launch Checklist | [`launch/official-launch-checklist.md`](launch/official-launch-checklist.md) | Phased, testable checklist; owner-gated actions marked |
 | Rollback Plan | [`launch/rollback-plan.md`](launch/rollback-plan.md) | Git, platform, environment, canonical, and DNS rollback procedures and boundaries |
 
+## Development decisions
+
+| Document | Canonical path | Purpose |
+| --- | --- | --- |
+| ADR-0001 — Institutional Knowledge Foundation | [`development/decisions/adr-0001-institutional-knowledge-foundation.md`](development/decisions/adr-0001-institutional-knowledge-foundation.md) | Establishes the machine-readable knowledge layer (schema, manifest, validation) that formalizes this index's governance |
+
+## Institutional knowledge layer
+
+The documentation governance defined in this index is formalized as a
+machine-readable layer (see ADR-0001 for the full decision):
+
+- **Metadata schema**: `knowledge/schema.json`
+- **Corpus manifest**: `knowledge/manifest.json` — one record per
+  governed document under `docs/`
+- **Validation**: `npm run validate:knowledge` — verifies schema
+  conformance, exact corpus coverage, path existence, identifier and
+  path uniqueness, and relationship integrity; fails non-zero with one
+  line per defect
+
+Maintenance rules:
+
+- **When to update**: whenever a document under `docs/` is added,
+  moved, retitled, reclassified, superseded, or removed, update the
+  manifest in the same change and run `npm run validate:knowledge` —
+  the validator enforces exact one-to-one coverage.
+- **Identifiers**: stable kebab-case slugs derived from the filename
+  stem (e.g. `vision-foundation-for-development`); the one exception is
+  this index itself (`documentation-index`, since its stem `README` is
+  a filesystem convention, not a document name); never positional,
+  never timestamps; existing documents are not renamed to satisfy the
+  identifier system.
+- **Superseded and historical documents**: never deleted to keep the
+  index tidy — mark the record's `status` (`superseded` /
+  `historical`) and link `superseded-by` to the replacement; git
+  history remains the version record.
+- **Conflicts and uncertainty**: unresolved metadata is recorded
+  transparently (`Unspecified` classification, `unspecified` tier, the
+  `unresolved` list) — never fabricated, and never "resolved" through
+  metadata. Conflicts between authoritative documents follow this
+  index's escalation rule.
+- **Authority**: metadata and the manifest are technical indexing
+  artifacts. They create no institutional authority; the source
+  documents remain authoritative, and documents are never duplicated to
+  simplify indexing.
+- **Scope limits**: the knowledge layer authorizes no retrieval system,
+  AI use, database, portal, or public disclosure of any document; each
+  of those requires separate authorization.
+
 ## Hierarchy of authority
 
 1. **Huerta Group LLC Constitution** — the highest internal authority.

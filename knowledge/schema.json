@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "huerta-group-llc/knowledge/schema.json",
+  "title": "Huerta Group LLC — Institutional Knowledge Metadata Schema",
+  "description": "Defines document records and the corpus manifest for the governed docs/ corpus. Formalizes the existing documentation governance in docs/README.md; metadata described by this schema indexes knowledge and never creates institutional authority. See docs/development/decisions/adr-0001-institutional-knowledge-foundation.md.",
+  "type": "object",
+  "required": ["manifestVersion", "corpus", "documents"],
+  "additionalProperties": false,
+  "properties": {
+    "manifestVersion": {
+      "type": "integer",
+      "const": 1,
+      "description": "Manifest format version."
+    },
+    "corpus": {
+      "type": "object",
+      "description": "Explicit corpus scope and exclusion rule (ADR-0001).",
+      "required": ["root", "include", "exclusionRule"],
+      "additionalProperties": false,
+      "properties": {
+        "root": { "type": "string", "const": "docs" },
+        "include": { "type": "string", "const": "docs/**/*.md" },
+        "exclusionRule": {
+          "type": "string",
+          "description": "Human-readable statement of what is excluded from the corpus and why."
+        }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/documentRecord" }
+    }
+  },
+  "$defs": {
+    "documentRecord": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "path",
+        "type",
+        "classification",
+        "authorityTier",
+        "status",
+        "summary",
+        "provenance",
+        "versioning",
+        "relationships",
+        "disclosure",
+        "machineConsumptionEligible"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Stable human-readable kebab-case identifier, derived from the filename stem (documented exception: the documentation index uses 'documentation-index' because its stem, README, is a filesystem convention). Never positional, never a timestamp."
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "path": {
+          "type": "string",
+          "pattern": "^docs/.+\\.md$",
+          "description": "Canonical repository-relative path (exactly one per document)."
+        },
+        "type": {
+          "type": "string",
+          "description": "Technical document kind (indexing convenience only; carries no authority).",
+          "enum": [
+            "index",
+            "governing-record",
+            "standard",
+            "decision-record",
+            "plan",
+            "checklist",
+            "status-record"
+          ]
+        },
+        "classification": {
+          "type": "string",
+          "description": "The repository's established classification taxonomy (docs/README.md), reused verbatim. 'Unspecified' transparently marks documents whose classification no governing reference states — it is a gap, not a category. Extending the taxonomy requires institutional authority, not a schema edit.",
+          "enum": [
+            "Ratified Constitutional Authority",
+            "Approved Strategic Authority",
+            "Approved Methodology, Governance, and Policy",
+            "Development Standards and Architecture Decisions",
+            "Current Implementation Documentation",
+            "Planned Capability",
+            "Long-Term Vision",
+            "Unspecified"
+          ]
+        },
+        "authorityTier": {
+          "description": "Position in the hierarchy of authority (docs/README.md): 1 Constitution, 2 Vision Foundation, 3 other approved Company-wide documents, 4 Development Standards and approved architecture decisions, 5 individual task instructions. 'non-governing' = describes rather than governs. 'unspecified' = governing references are silent; awaiting owner decision.",
+          "enum": [1, 2, 3, 4, 5, "non-governing", "unspecified"]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["current", "superseded", "historical"],
+          "description": "Lifecycle status of the record's document."
+        },
+        "statusNote": {
+          "type": "string",
+          "description": "Optional nuance the source document itself states (e.g. pending verbatim constitutional text)."
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300,
+          "description": "Concise identification/discovery summary. Never a substitute for reading the document."
+        },
+        "provenance": {
+          "type": "object",
+          "description": "Recorded only where a repository document states it; null means 'not stated by any governing reference' — never fabricate.",
+          "required": ["origin", "approvalReference", "effectiveDate"],
+          "additionalProperties": false,
+          "properties": {
+            "origin": { "type": ["string", "null"] },
+            "approvalReference": { "type": ["string", "null"] },
+            "effectiveDate": { "type": ["string", "null"] }
+          }
+        },
+        "versioning": {
+          "type": "string",
+          "const": "git-history",
+          "description": "Git history is the version record; no parallel numbering (ADR-0001)."
+        },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["rel", "target"],
+            "additionalProperties": false,
+            "properties": {
+              "rel": {
+                "type": "string",
+                "enum": ["governed-by", "references", "supersedes", "superseded-by"],
+                "description": "Smallest vocabulary the corpus justifies (ADR-0001). Relationships never imply authority beyond what the linked documents state."
+              },
+              "target": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+                "description": "Identifier of another manifest record."
+              }
+            }
+          }
+        },
+        "disclosure": {
+          "type": "string",
+          "enum": ["repository-internal", "unspecified"],
+          "description": "Only what current repository evidence supports. A fuller disclosure taxonomy requires separate authorization; values here never change actual visibility."
+        },
+        "machineConsumptionEligible": {
+          "description": "Whether the document could later be eligible for machine/AI consumption. 'unresolved' until an authorized governance decision exists; this field never itself authorizes any system.",
+          "enum": [true, false, "unresolved"]
+        },
+        "historicalPreservation": {
+          "type": "string",
+          "enum": ["git-history", "superseded-retained"],
+          "description": "Optional; how the document's history is preserved. Default expectation is git-history (ADR-0001)."
+        },
+        "unresolved": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Transparent list of metadata questions awaiting institutional decisions for this document."
+        }
+      }
+    }
+  }
+}
