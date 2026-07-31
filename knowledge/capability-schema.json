@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "huerta-group-llc/knowledge/capability-schema.json",
+  "title": "Huerta Group LLC — Capability and Dependency Registry Schema",
+  "description": "Validates knowledge/capability-registry.json — the machine-readable representation of the institutional capability and system map (docs/development/internal-software-architecture.md). Registry entries describe architecture; they authorize no construction and create no institutional authority. Unresolved values are recorded transparently, never guessed.",
+  "type": "object",
+  "required": ["registryVersion", "capabilities"],
+  "additionalProperties": false,
+  "properties": {
+    "registryVersion": { "type": "integer", "const": 1 },
+    "capabilities": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/capability" }
+    }
+  },
+  "$defs": {
+    "capability": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "description",
+        "category",
+        "maturity",
+        "architecturalDisposition",
+        "repositoryDisposition",
+        "dataOwned",
+        "dataConsumed",
+        "dependsOn",
+        "identityRequirement",
+        "sensitivity",
+        "launchRelevance",
+        "implementationReadiness",
+        "governingReferences",
+        "unresolvedDecisions"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Stable kebab-case identifier."
+        },
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1, "maxLength": 400 },
+        "category": {
+          "type": "string",
+          "enum": [
+            "public-interface",
+            "institutional-knowledge",
+            "institutional-branch",
+            "internal-operations",
+            "client-facing",
+            "shared-infrastructure",
+            "launch"
+          ],
+          "description": "Coarse grouping for reading the map; carries no authority."
+        },
+        "maturity": {
+          "type": "string",
+          "enum": [
+            "operational",
+            "partial",
+            "standby",
+            "public_description_only",
+            "documented_direction",
+            "conceptual",
+            "deferred",
+            "launch_phase"
+          ],
+          "description": "Current maturity state (Development Transition Assessment vocabulary). Public copy never counts as implementation."
+        },
+        "architecturalDisposition": {
+          "type": "string",
+          "enum": [
+            "current_public_application",
+            "current_server_capability",
+            "current_repository_artifacts",
+            "future_internal_application",
+            "future_client_application",
+            "future_shared_service",
+            "external_managed_service",
+            "documentation_only",
+            "launch_phase",
+            "deferred",
+            "unresolved"
+          ],
+          "description": "Where the capability runs (or would run). 'unresolved' is a first-class honest value; a disposition never implies implementation authorization."
+        },
+        "repositoryDisposition": {
+          "type": "string",
+          "enum": [
+            "current_repository",
+            "future_separate_repository",
+            "future_shared_repository",
+            "external_provider",
+            "not_applicable",
+            "unresolved"
+          ],
+          "description": "Where the capability's code/artifacts live (or would). Decided by the ADR-0003 criteria, never by convenience."
+        },
+        "dataOwned": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/dataCategory" },
+          "description": "Data categories this capability authoritatively owns (architectural ownership, not legal doctrine)."
+        },
+        "dataConsumed": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/dataCategory" },
+          "description": "Data categories consumed from their owning capability."
+        },
+        "dependsOn": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "description": "Upstream capability ids. Downstream dependents are derived, never duplicated."
+        },
+        "identityRequirement": {
+          "type": "string",
+          "enum": ["none", "future-required", "unresolved"],
+          "description": "Whether the capability requires authenticated identity. All values are technical; none is an institutional office."
+        },
+        "sensitivity": {
+          "type": "string",
+          "enum": ["public", "internal", "confidential", "client-confidential", "unresolved"],
+          "description": "Highest sensitivity of data the capability would handle."
+        },
+        "launchRelevance": {
+          "type": "string",
+          "enum": ["required", "independent", "launch-phase-only"],
+          "description": "Relationship to the owner-gated official launch."
+        },
+        "implementationReadiness": {
+          "type": "string",
+          "enum": [
+            "ready",
+            "ready_with_owner_authorization",
+            "requirements_incomplete",
+            "governance_blocked",
+            "dependency_blocked",
+            "deferred",
+            "launch_phase_only"
+          ],
+          "description": "Understood technology never suffices for 'ready'; inputs and authority must exist."
+        },
+        "evidencePaths": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Repository paths that must exist when maturity is operational/partial/standby — mechanically checked by the validator."
+        },
+        "governingReferences": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Repository-relative paths of governing/architecture documents that inform this entry. Paths must exist."
+        },
+        "unresolvedDecisions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Open institutional or architectural questions, stated plainly. Required (may be empty only when genuinely nothing is open)."
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "dataCategory": {
+      "type": "string",
+      "enum": [
+        "public-content",
+        "inquiry-records",
+        "knowledge-metadata",
+        "method-records",
+        "ip-records",
+        "education-records",
+        "publishing-records",
+        "ai-records",
+        "operational-records",
+        "client-engagement-records",
+        "service-delivery-records",
+        "identity-records",
+        "audit-records"
+      ],
+      "description": "Architectural data-ownership categories (see the data-ownership model in the architecture foundation). Names describe system responsibility, not legal ownership, rights, retention, or disclosure policy."
+    }
+  }
+}

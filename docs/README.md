@@ -25,11 +25,18 @@ Current-implementation documentation lives in the repository root
 | Official Launch Checklist | [`launch/official-launch-checklist.md`](launch/official-launch-checklist.md) | Phased, testable checklist; owner-gated actions marked |
 | Rollback Plan | [`launch/rollback-plan.md`](launch/rollback-plan.md) | Git, platform, environment, canonical, and DNS rollback procedures and boundaries |
 
-## Development decisions
+## Architecture and development decisions
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
+| Internal Software Architecture Foundation | [`development/internal-software-architecture.md`](development/internal-software-architecture.md) | System boundaries, data ownership, integration/environment/identity direction, dependency sequencing, capability map. Authorizes no construction; creates no institutional authority |
+| ADR Practice | [`development/decisions/adr-practice.md`](development/decisions/adr-practice.md) | When and how architecture decisions are recorded, statuses, supersession, manifest integration, technical-vs-institutional boundary |
 | ADR-0001 — Institutional Knowledge Foundation | [`development/decisions/adr-0001-institutional-knowledge-foundation.md`](development/decisions/adr-0001-institutional-knowledge-foundation.md) | Establishes the machine-readable knowledge layer (schema, manifest, validation) that formalizes this index's governance |
+| ADR-0002 — Public Website Boundary | [`development/decisions/adr-0002-public-website-boundary.md`](development/decisions/adr-0002-public-website-boundary.md) | The website stays a bounded public interface; inquiry intake colocated |
+| ADR-0003 — Application and Repository Boundaries | [`development/decisions/adr-0003-application-and-repository-boundaries.md`](development/decisions/adr-0003-application-and-repository-boundaries.md) | Per-capability placement criteria; no global topology mandate |
+| ADR-0004 — Data Ownership and Supabase Boundary | [`development/decisions/adr-0004-data-ownership-and-supabase-boundary.md`](development/decisions/adr-0004-data-ownership-and-supabase-boundary.md) | Current project owns inquiry records only; future topology criteria; ownership is architectural, not legal |
+| ADR-0005 — Environment Strategy | [`development/decisions/adr-0005-environment-strategy.md`](development/decisions/adr-0005-environment-strategy.md) | Production-first preserved for the website; mandatory isolation threshold for sensitive systems |
+| ADR-0006 — Identity and Access Direction | [`development/decisions/adr-0006-identity-and-access-direction.md`](development/decisions/adr-0006-identity-and-access-direction.md) | Provider-neutral identity direction; technical permissions ≠ institutional authority |
 
 ## Institutional knowledge layer
 
@@ -43,6 +50,18 @@ machine-readable layer (see ADR-0001 for the full decision):
   conformance, exact corpus coverage, path existence, identifier and
   path uniqueness, and relationship integrity; fails non-zero with one
   line per defect
+- **Capability registry**: `knowledge/capability-registry.json`
+  (schema: `knowledge/capability-schema.json`) — the machine-readable
+  institutional capability and system map (18 capabilities: maturity,
+  dispositions, data ownership, dependencies, readiness, unresolved
+  decisions). Validated by `npm run validate:architecture`
+  (schema conformance, required-domain coverage, dependency
+  resolution/acyclicity, governing-reference and evidence-path
+  existence). Update the registry in the same change as any capability
+  maturity change, new capability, dependency change, or boundary ADR —
+  unresolved decisions stay visible until an authorized decision
+  resolves them. Registry entries never authorize construction and
+  never create institutional authority.
 
 Maintenance rules:
 

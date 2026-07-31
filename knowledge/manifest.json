@@ -22,15 +22,42 @@
       },
       "versioning": "git-history",
       "relationships": [
-        { "rel": "references", "target": "huerta-group-constitution" },
-        { "rel": "references", "target": "vision-foundation-for-development" },
-        { "rel": "references", "target": "development-standards" },
-        { "rel": "references", "target": "bounded-autonomous-completion-standard" },
-        { "rel": "references", "target": "launch-readiness" },
-        { "rel": "references", "target": "custom-domain-migration-plan" },
-        { "rel": "references", "target": "official-launch-checklist" },
-        { "rel": "references", "target": "rollback-plan" },
-        { "rel": "references", "target": "adr-0001-institutional-knowledge-foundation" }
+        {
+          "rel": "references",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "references",
+          "target": "vision-foundation-for-development"
+        },
+        {
+          "rel": "references",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "bounded-autonomous-completion-standard"
+        },
+        {
+          "rel": "references",
+          "target": "launch-readiness"
+        },
+        {
+          "rel": "references",
+          "target": "custom-domain-migration-plan"
+        },
+        {
+          "rel": "references",
+          "target": "official-launch-checklist"
+        },
+        {
+          "rel": "references",
+          "target": "rollback-plan"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0001-institutional-knowledge-foundation"
+        }
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
@@ -75,7 +102,10 @@
       },
       "versioning": "git-history",
       "relationships": [
-        { "rel": "governed-by", "target": "huerta-group-constitution" }
+        {
+          "rel": "governed-by",
+          "target": "huerta-group-constitution"
+        }
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
@@ -96,9 +126,18 @@
       },
       "versioning": "git-history",
       "relationships": [
-        { "rel": "governed-by", "target": "huerta-group-constitution" },
-        { "rel": "governed-by", "target": "vision-foundation-for-development" },
-        { "rel": "references", "target": "bounded-autonomous-completion-standard" }
+        {
+          "rel": "governed-by",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "governed-by",
+          "target": "vision-foundation-for-development"
+        },
+        {
+          "rel": "references",
+          "target": "bounded-autonomous-completion-standard"
+        }
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
@@ -119,9 +158,18 @@
       },
       "versioning": "git-history",
       "relationships": [
-        { "rel": "governed-by", "target": "huerta-group-constitution" },
-        { "rel": "governed-by", "target": "vision-foundation-for-development" },
-        { "rel": "references", "target": "development-standards" }
+        {
+          "rel": "governed-by",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "governed-by",
+          "target": "vision-foundation-for-development"
+        },
+        {
+          "rel": "references",
+          "target": "development-standards"
+        }
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
@@ -142,9 +190,18 @@
       },
       "versioning": "git-history",
       "relationships": [
-        { "rel": "references", "target": "custom-domain-migration-plan" },
-        { "rel": "references", "target": "official-launch-checklist" },
-        { "rel": "references", "target": "rollback-plan" }
+        {
+          "rel": "references",
+          "target": "custom-domain-migration-plan"
+        },
+        {
+          "rel": "references",
+          "target": "official-launch-checklist"
+        },
+        {
+          "rel": "references",
+          "target": "rollback-plan"
+        }
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
@@ -166,7 +223,10 @@
       },
       "versioning": "git-history",
       "relationships": [
-        { "rel": "references", "target": "official-launch-checklist" }
+        {
+          "rel": "references",
+          "target": "official-launch-checklist"
+        }
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
@@ -188,9 +248,18 @@
       },
       "versioning": "git-history",
       "relationships": [
-        { "rel": "references", "target": "launch-readiness" },
-        { "rel": "references", "target": "custom-domain-migration-plan" },
-        { "rel": "references", "target": "rollback-plan" }
+        {
+          "rel": "references",
+          "target": "launch-readiness"
+        },
+        {
+          "rel": "references",
+          "target": "custom-domain-migration-plan"
+        },
+        {
+          "rel": "references",
+          "target": "rollback-plan"
+        }
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
@@ -211,7 +280,226 @@
       },
       "versioning": "git-history",
       "relationships": [
-        { "rel": "references", "target": "launch-readiness" }
+        {
+          "rel": "references",
+          "target": "launch-readiness"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "internal-software-architecture",
+      "title": "Internal Software Architecture Foundation",
+      "path": "docs/development/internal-software-architecture.md",
+      "type": "standard",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "The technical architecture governing future Huerta Group systems: boundaries, data ownership, integration, environment, and identity direction, dependency sequencing, and the capability map. Authorizes no construction; creates no institutional authority.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "adr-practice"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0002-public-website-boundary"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0003-application-and-repository-boundaries"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0004-data-ownership-and-supabase-boundary"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0005-environment-strategy"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0006-identity-and-access-direction"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-practice",
+      "title": "Architecture Decision Record Practice",
+      "path": "docs/development/decisions/adr-practice.md",
+      "type": "standard",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "When an ADR is required, naming and status conventions, required sections, supersession handling, knowledge-manifest integration, ratification rules, and the boundary between technical and institutional decisions.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": "Grounded in the Development Standards' written-decisions provision and the ADR-0001 precedent.",
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0001-institutional-knowledge-foundation"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0002-public-website-boundary",
+      "title": "ADR-0002 — Public Website Boundary",
+      "path": "docs/development/decisions/adr-0002-public-website-boundary.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "The public website remains a stable, bounded public interface; institutional systems are not built inside it by default; inquiry intake remains colocated with a recorded extraction trigger.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": "Accepted per the document's own status line, under the ADR practice ratification rule.",
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "internal-software-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0003-application-and-repository-boundaries",
+      "title": "ADR-0003 — Application and Repository Boundary Strategy",
+      "path": "docs/development/decisions/adr-0003-application-and-repository-boundaries.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "No global repository topology is mandated; each future capability's application and repository placement is decided by its own ADR against explicit criteria; shared services are extracted only when a second real consumer exists.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": "Accepted per the document's own status line, under the ADR practice ratification rule.",
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "internal-software-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0004-data-ownership-and-supabase-boundary",
+      "title": "ADR-0004 — Data Ownership and Supabase Boundary",
+      "path": "docs/development/decisions/adr-0004-data-ownership-and-supabase-boundary.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "The current Supabase project owns inquiry records only and is not the universal Company database; one authoritative owner per data category; future data topology remains unresolved with explicit criteria for deciding it later.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": "Accepted per the document's own status line, under the ADR practice ratification rule.",
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "internal-software-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0005-environment-strategy",
+      "title": "ADR-0005 — Environment Strategy",
+      "path": "docs/development/decisions/adr-0005-environment-strategy.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Production-first discipline is preserved for the public website; isolated environments, credentials, and migration testing become mandatory the moment any system stores client-confidential, learner, IP, identity, operationally consequential, financial, or regulated data.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": "Accepted per the document's own status line, under the ADR practice ratification rule.",
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "internal-software-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0006-identity-and-access-direction",
+      "title": "ADR-0006 — Identity and Access Direction",
+      "path": "docs/development/decisions/adr-0006-identity-and-access-direction.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Authentication arrives only with the first real consumer, then as a shared service; conceptual technical user classes are defined; technical permissions never constitute institutional authority; provider selection remains unresolved.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": "Accepted per the document's own status line, under the ADR practice ratification rule.",
+        "effectiveDate": null
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "internal-software-architecture"
+        }
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
@@ -232,8 +520,14 @@
       },
       "versioning": "git-history",
       "relationships": [
-        { "rel": "governed-by", "target": "development-standards" },
-        { "rel": "references", "target": "documentation-index" }
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "documentation-index"
+        }
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
