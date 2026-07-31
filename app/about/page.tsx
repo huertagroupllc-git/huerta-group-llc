@@ -10,7 +10,7 @@ import { SITE_NAME } from "@/lib/site";
 
 const PAGE_TITLE = `About ${SITE_NAME}`;
 const PAGE_DESCRIPTION =
-  "Huerta Group LLC is an organizational systems company. Learn how the company sees organizations, what it believes makes them strong, and the kind of institution it is being built to be.";
+  "Huerta Group LLC is an organizational systems company. Learn how the Company sees organizations, what it believes makes them strong, and the kind of institution it is being built to be.";
 
 export const metadata: Metadata = {
   title: "About",

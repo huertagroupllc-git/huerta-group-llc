@@ -62,7 +62,7 @@ Vercel origin until the custom domain is live).
 ## Security posture
 
 - HTTPS + HSTS (Vercel platform). Baseline headers set in
-  `next.config.ts`: `X-Frame-Options: DENY`,
+  `next.config.ts`: `X-Frame-Options: SAMEORIGIN`,
   `X-Content-Type-Options: nosniff`,
   `Referrer-Policy: strict-origin-when-cross-origin`,
   `Permissions-Policy` (camera/microphone/geolocation denied).
