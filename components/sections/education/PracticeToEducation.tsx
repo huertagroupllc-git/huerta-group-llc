@@ -18,7 +18,7 @@ const STAGES = [
     number: "03",
     title: "Intellectual property",
     description:
-      "Validated methods preserved as frameworks, standards, and tools the Company teaches from.",
+      "Methods preserved as frameworks, standards, and tools the Company teaches from.",
   },
   {
     number: "04",

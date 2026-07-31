@@ -10,11 +10,10 @@ export function LongTerm() {
       <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Huerta Group is being built deliberately and for the long term.
-          Today, that takes the form of the organizational systems work this
-          site describes.
+          Today, that takes the form of the work this site describes.
         </p>
         <p>
-          The company&apos;s work already takes more than one form — the
+          The Company&apos;s work already takes more than one form — the
           organizational systems practice this site describes, the
           Education &amp; Workforce Development division that teaches from
           it, and the Managed Services function that sustains what the

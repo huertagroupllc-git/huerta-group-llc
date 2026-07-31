@@ -29,7 +29,7 @@ export function Identity() {
             exposes it.
           </p>
           <p className="font-serif text-xl text-silver-300">
-            That is the company&apos;s field of work: the design and
+            That is the Company&apos;s field of work: the design and
             improvement of the systems organizations run on.
           </p>
         </div>

@@ -16,6 +16,15 @@ copying their contents.
 Current-implementation documentation lives in the repository root
 [`README.md`](../README.md).
 
+## Launch documentation
+
+| Document | Canonical path | Purpose |
+| --- | --- | --- |
+| Launch Readiness | [`launch/launch-readiness.md`](launch/launch-readiness.md) | Authoritative launch-readiness record: production state, verified limitations, navigation capacity, protected owner decisions |
+| Custom-Domain Migration Plan | [`launch/custom-domain-migration-plan.md`](launch/custom-domain-migration-plan.md) | Plan (not execution) for the later owner-authorized move to the official domain |
+| Official Launch Checklist | [`launch/official-launch-checklist.md`](launch/official-launch-checklist.md) | Phased, testable checklist; owner-gated actions marked |
+| Rollback Plan | [`launch/rollback-plan.md`](launch/rollback-plan.md) | Git, platform, environment, canonical, and DNS rollback procedures and boundaries |
+
 ## Hierarchy of authority
 
 1. **Huerta Group LLC Constitution** — the highest internal authority.

@@ -19,7 +19,7 @@ export function Footer() {
             </Link>
             <p className="mt-3 text-sm text-gold-500">{TAGLINE}</p>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-silver-500">
-              Operations and organizational systems consulting.
+              An organizational systems company.
             </p>
           </div>
 

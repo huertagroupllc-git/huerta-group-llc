@@ -12,7 +12,7 @@ export function IntegratedApproach() {
         <p>
           Education &amp; Workforce Development is not a content business
           attached to a consulting firm. It is one expression of the same
-          institution: the methods Huerta Group applies inside client
+          institution: the methods Huerta Group applies inside
           organizations are the methods it teaches, held to the same
           standard of practical usefulness.
         </p>

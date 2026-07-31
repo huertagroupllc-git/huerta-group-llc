@@ -17,7 +17,7 @@ const sourceSerif = Source_Serif_4({
   display: "swap",
 });
 
-const DEFAULT_TITLE = `${SITE_NAME} — Operations & Organizational Systems Consulting`;
+const DEFAULT_TITLE = `${SITE_NAME} — Organizational Systems Company`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

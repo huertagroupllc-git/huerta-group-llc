@@ -13,7 +13,7 @@ export function AboutHero() {
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-silver-400">
           Huerta Group exists to help organizations become stronger — by
-          design. This page explains what that means: how the company sees
+          design. This page explains what that means: how the Company sees
           organizations, what it believes makes them strong, and the kind of
           institution it is being built to be.
         </p>

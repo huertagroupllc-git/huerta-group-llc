@@ -14,10 +14,10 @@ export function Hero() {
           We build the systems your organization runs on.
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-silver-400">
-          Huerta Group is an operations and organizational systems consulting
-          firm. We help leadership teams build, optimize, and scale —
-          connecting people, processes, technology, and information into
-          systems that support growth instead of straining under it.
+          Huerta Group is an organizational systems company. We help
+          leadership teams build, optimize, and scale — connecting people,
+          processes, technology, and information into systems that support
+          growth instead of straining under it.
         </p>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <ButtonLink href={CONTACT_HREF}>Start a conversation</ButtonLink>

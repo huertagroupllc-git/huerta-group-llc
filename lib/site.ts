@@ -8,7 +8,7 @@ export const LEGAL_NAME = "Huerta Group LLC";
 export const TAGLINE = "Building. Growing. Leading.";
 
 export const SITE_DESCRIPTION =
-  "Huerta Group LLC is an operations and organizational systems consulting firm. We help organizations build, optimize, and scale through systems design, process improvement, workflow automation, and operational leadership.";
+  "Huerta Group LLC is an organizational systems company. We help organizations understand, design, improve, implement, and continuously strengthen the systems through which they operate.";
 
 /**
  * TEMPORARY — the intended custom domain (huertagroupllc.com) is not

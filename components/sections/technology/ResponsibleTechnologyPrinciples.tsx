@@ -52,7 +52,7 @@ export function ResponsibleTechnologyPrinciples() {
     <Section
       eyebrow="Principles for responsible technology"
       title="What every technical decision answers to."
-      lead="These principles govern how Huerta Group evaluates, recommends, and applies technology — for its clients and for itself."
+      lead="These principles govern how Huerta Group evaluates, recommends, and applies technology — for the organizations it serves and for itself."
     >
       <div className="mt-14 max-w-3xl divide-y divide-edge">
         {PRINCIPLES.map((principle) => (
