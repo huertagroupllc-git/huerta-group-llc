@@ -1,0 +1,520 @@
+{
+  "registryVersion": 1,
+  "provisionalAssetTypes": [
+    "playbook",
+    "protocol",
+    "maturity_model",
+    "operating_model",
+    "reference_architecture",
+    "pattern",
+    "practice",
+    "technique",
+    "method_family",
+    "method_module",
+    "control_framework",
+    "certification_standard"
+  ],
+  "records": [
+    {
+      "recordType": "source_foundation",
+      "version": "v1.0",
+      "authorityStatus": "approved",
+      "approvalDate": null,
+      "approvalContext": "Approved by the authoritative Methodology room; determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization.",
+      "approvingAuthority": {
+        "basis": "Interim rule (Methodology Foundation v1 §6): approval rests on the Founder's existing institutional authority; recorded as data, never as a technical permission.",
+        "configurable": true,
+        "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+      },
+      "constitutionalSubordination": true,
+      "disclosureLevel": "internal_methodology",
+      "ipReferralStatus": "not_referred",
+      "dependencies": [],
+      "sourceRecords": [],
+      "uncertaintyRecords": [],
+      "validationEvidence": [
+        "npm run validate:methods"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "historicalVersions": [],
+      "effectiveDate": null,
+      "archivalStatus": "active",
+      "changeRationale": "Initial record creation from Methodology Foundation v1.",
+      "containsSubstantiveMethodology": true,
+      "governingReferences": [
+        "docs/governance/huerta-group-constitution.md",
+        "docs/methodology/method-library-architecture.md"
+      ],
+      "id": "mr-0001",
+      "title": "Methodology Foundation v1",
+      "assetType": "methodological_governance_foundation",
+      "purpose": "Establish the minimum authoritative definition, architecture, distinctions, lifecycle, authority, disclosure, and technical boundaries for the Institutional Method Library.",
+      "scope": "Institution-wide methodology governance.",
+      "developmentStatus": "approved_internal_foundation",
+      "authorityBasis": "Methodology room approval of Methodology Foundation v1 (v1.0), as recorded in the source document.",
+      "relatedRecords": [
+        "mr-0002",
+        "mr-0003",
+        "mr-0004",
+        "mr-0005",
+        "mr-0006",
+        "mr-0007",
+        "mr-0008"
+      ],
+      "knownLimitations": [
+        "The complete approved prose of §§1.1–1.3 and §2 was not transmitted with the implementing authorization; it awaits verbatim insertion through Methodology authority and is never reconstructed."
+      ],
+      "openQuestions": [
+        "Final constitutional allocation and delegation of methodological approval authority.",
+        "Pending verbatim sectional text (§§1.1–1.3, §2)."
+      ],
+      "readiness": {
+        "clientApplication": "not_applicable",
+        "educationalAdaptation": "not_approved",
+        "softwareImplementation": "approved",
+        "publicDisclosure": "not_approved",
+        "proprietaryAssetGovernance": "not_approved"
+      },
+      "implementationAuthorization": "Technical implementation approved now: repository-based governed source record, registry metadata, and validation. No runtime system.",
+      "path": "docs/methodology/methodology-foundation-v1.md"
+    },
+    {
+      "recordType": "library_record",
+      "version": "v1.0",
+      "authorityStatus": "approved",
+      "approvalDate": null,
+      "approvalContext": "Approved by the authoritative Methodology room; determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization.",
+      "approvingAuthority": {
+        "basis": "Interim rule (Methodology Foundation v1 §6): approval rests on the Founder's existing institutional authority; recorded as data, never as a technical permission.",
+        "configurable": true,
+        "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+      },
+      "constitutionalSubordination": true,
+      "disclosureLevel": "internal_methodology",
+      "ipReferralStatus": "not_referred",
+      "dependencies": [
+        "mr-0001"
+      ],
+      "sourceRecords": [
+        "mr-0001"
+      ],
+      "uncertaintyRecords": [],
+      "validationEvidence": [
+        "npm run validate:methods"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "historicalVersions": [],
+      "effectiveDate": null,
+      "archivalStatus": "active",
+      "changeRationale": "Initial record creation from Methodology Foundation v1.",
+      "containsSubstantiveMethodology": true,
+      "governingReferences": [
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/methodology/method-library-architecture.md"
+      ],
+      "id": "mr-0002",
+      "title": "Institutional Methodology Definition and Scope",
+      "assetType": "methodological_doctrine",
+      "purpose": "Define institutional methodology and establish its approved scope and exclusions.",
+      "scope": "All Huerta Group methodological development and application.",
+      "developmentStatus": "approved_internal_doctrine",
+      "authorityBasis": "Methodology Foundation v1 §§1.1–1.3",
+      "relatedRecords": [
+        "mr-0003"
+      ],
+      "knownLimitations": [
+        "Governs by reference: the full §§1.1–1.3 definition text awaits verbatim insertion into the source record; this record asserts no definition content of its own until then."
+      ],
+      "openQuestions": [
+        "Pending verbatim §§1.1–1.3 text (Methodology authority)."
+      ],
+      "readiness": {
+        "clientApplication": "not_approved",
+        "educationalAdaptation": "not_approved",
+        "softwareImplementation": "not_approved",
+        "publicDisclosure": "not_approved",
+        "proprietaryAssetGovernance": "not_approved"
+      },
+      "implementationAuthorization": "Approved as governed content and metadata only.",
+      "path": "docs/methodology/records/mr-0002-institutional-methodology-definition-and-scope.md"
+    },
+    {
+      "recordType": "library_record",
+      "version": "v1.0",
+      "authorityStatus": "approved",
+      "approvalDate": null,
+      "approvalContext": "Approved by the authoritative Methodology room; determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization.",
+      "approvingAuthority": {
+        "basis": "Interim rule (Methodology Foundation v1 §6): approval rests on the Founder's existing institutional authority; recorded as data, never as a technical permission.",
+        "configurable": true,
+        "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+      },
+      "constitutionalSubordination": true,
+      "disclosureLevel": "internal_methodology",
+      "ipReferralStatus": "not_referred",
+      "dependencies": [
+        "mr-0001"
+      ],
+      "sourceRecords": [
+        "mr-0001"
+      ],
+      "uncertaintyRecords": [],
+      "validationEvidence": [
+        "npm run validate:methods"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "historicalVersions": [],
+      "effectiveDate": null,
+      "archivalStatus": "active",
+      "changeRationale": "Initial record creation from Methodology Foundation v1.",
+      "containsSubstantiveMethodology": true,
+      "governingReferences": [
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/methodology/method-library-architecture.md"
+      ],
+      "id": "mr-0003",
+      "title": "Methodological Architecture v1",
+      "assetType": "framework",
+      "purpose": "Establish the approved layers and high-level domains of Huerta Group methodology without asserting a complete proprietary consulting framework.",
+      "scope": "Institution-wide methodological organization.",
+      "developmentStatus": "approved_internal_framework",
+      "authorityBasis": "Methodology Foundation v1 §2",
+      "relatedRecords": [
+        "mr-0002",
+        "mr-0004"
+      ],
+      "knownLimitations": [
+        "Incomplete by design (v1.0): unresolved areas are a feature, not a defect.",
+        "The five layer definitions await verbatim §2 insertion; no layer may be named or filled by inference."
+      ],
+      "openQuestions": [
+        "Pending verbatim §2 text including layer definitions."
+      ],
+      "readiness": {
+        "clientApplication": "not_approved",
+        "educationalAdaptation": "not_approved",
+        "softwareImplementation": "not_approved",
+        "publicDisclosure": "not_approved",
+        "proprietaryAssetGovernance": "not_approved"
+      },
+      "implementationAuthorization": "Approved now, as governed content and metadata. No runtime behavior.",
+      "path": "docs/methodology/records/mr-0003-methodological-architecture-v1.md"
+    },
+    {
+      "recordType": "library_record",
+      "version": "v1.0",
+      "authorityStatus": "approved",
+      "approvalDate": null,
+      "approvalContext": "Approved by the authoritative Methodology room; determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization.",
+      "approvingAuthority": {
+        "basis": "Interim rule (Methodology Foundation v1 §6): approval rests on the Founder's existing institutional authority; recorded as data, never as a technical permission.",
+        "configurable": true,
+        "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+      },
+      "constitutionalSubordination": true,
+      "disclosureLevel": "internal_methodology",
+      "ipReferralStatus": "not_referred",
+      "dependencies": [
+        "mr-0001"
+      ],
+      "sourceRecords": [
+        "mr-0001"
+      ],
+      "uncertaintyRecords": [],
+      "validationEvidence": [
+        "npm run validate:methods"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "historicalVersions": [],
+      "effectiveDate": null,
+      "archivalStatus": "active",
+      "changeRationale": "Initial record creation from Methodology Foundation v1.",
+      "containsSubstantiveMethodology": true,
+      "governingReferences": [
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/methodology/method-library-architecture.md"
+      ],
+      "id": "mr-0004",
+      "title": "Organizational Improvement Work Progression v1",
+      "assetType": "framework",
+      "purpose": "Establish the approved principle-level progression through which Huerta Group understands, defines, examines, improves, implements, verifies, sustains, and learns.",
+      "scope": "High-level organizational-improvement work.",
+      "developmentStatus": "approved_internal_framework",
+      "authorityBasis": "Methodology Foundation v1 §3",
+      "relatedRecords": [
+        "mr-0003"
+      ],
+      "knownLimitations": [
+        "Not a finalized proprietary phase model: no phases, gates, deliverables, thresholds, or scoring exist or are implied."
+      ],
+      "openQuestions": [
+        "Relationship of the movements to the five-layer architecture awaits the pending §2 text."
+      ],
+      "readiness": {
+        "clientApplication": "not_approved",
+        "educationalAdaptation": "not_approved",
+        "softwareImplementation": "not_approved",
+        "publicDisclosure": "not_approved",
+        "proprietaryAssetGovernance": "not_approved"
+      },
+      "implementationAuthorization": "Approved only as a non-numbered, non-automated reference framework.",
+      "path": "docs/methodology/records/mr-0004-organizational-improvement-work-progression-v1.md"
+    },
+    {
+      "recordType": "library_record",
+      "version": "v1.0",
+      "authorityStatus": "approved",
+      "approvalDate": null,
+      "approvalContext": "Approved by the authoritative Methodology room; determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization.",
+      "approvingAuthority": {
+        "basis": "Interim rule (Methodology Foundation v1 §6): approval rests on the Founder's existing institutional authority; recorded as data, never as a technical permission.",
+        "configurable": true,
+        "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+      },
+      "constitutionalSubordination": true,
+      "disclosureLevel": "internal_methodology",
+      "ipReferralStatus": "not_referred",
+      "dependencies": [
+        "mr-0001"
+      ],
+      "sourceRecords": [
+        "mr-0001"
+      ],
+      "uncertaintyRecords": [],
+      "validationEvidence": [
+        "npm run validate:methods"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "historicalVersions": [],
+      "effectiveDate": null,
+      "archivalStatus": "active",
+      "changeRationale": "Initial record creation from Methodology Foundation v1.",
+      "containsSubstantiveMethodology": true,
+      "governingReferences": [
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/methodology/method-library-architecture.md"
+      ],
+      "id": "mr-0005",
+      "title": "Methodological Asset Classification Standard v1",
+      "assetType": "standard",
+      "purpose": "Define the currently approved distinctions among methodological asset types.",
+      "scope": "Classification of Method Library records.",
+      "developmentStatus": "approved_internal_standard",
+      "authorityBasis": "Methodology Foundation v1 §4",
+      "relatedRecords": [
+        "mr-0006",
+        "mr-0007",
+        "mr-0008"
+      ],
+      "knownLimitations": [
+        "Provisional candidate types are recorded but not assignable; promotion requires Methodology approval and a versioned update."
+      ],
+      "openQuestions": [],
+      "readiness": {
+        "clientApplication": "not_applicable",
+        "educationalAdaptation": "not_approved",
+        "softwareImplementation": "approved",
+        "publicDisclosure": "not_approved",
+        "proprietaryAssetGovernance": "not_approved"
+      },
+      "implementationAuthorization": "Approved now; enforced by the method schema (approved enum) and validator (provisional values rejected).",
+      "path": "docs/methodology/records/mr-0005-methodological-asset-classification-standard-v1.md"
+    },
+    {
+      "recordType": "library_record",
+      "version": "v1.0",
+      "authorityStatus": "approved",
+      "approvalDate": null,
+      "approvalContext": "Approved by the authoritative Methodology room; determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization.",
+      "approvingAuthority": {
+        "basis": "Interim rule (Methodology Foundation v1 §6): approval rests on the Founder's existing institutional authority; recorded as data, never as a technical permission.",
+        "configurable": true,
+        "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+      },
+      "constitutionalSubordination": true,
+      "disclosureLevel": "internal_methodology",
+      "ipReferralStatus": "not_referred",
+      "dependencies": [
+        "mr-0001"
+      ],
+      "sourceRecords": [
+        "mr-0001"
+      ],
+      "uncertaintyRecords": [],
+      "validationEvidence": [
+        "npm run validate:methods"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "historicalVersions": [],
+      "effectiveDate": null,
+      "archivalStatus": "active",
+      "changeRationale": "Initial record creation from Methodology Foundation v1.",
+      "containsSubstantiveMethodology": true,
+      "governingReferences": [
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/methodology/method-library-architecture.md"
+      ],
+      "id": "mr-0006",
+      "title": "Methodological Lifecycle and Maturity Standard v1",
+      "assetType": "standard",
+      "purpose": "Govern development status, maturity, supersession, archival treatment, and separate readiness approvals.",
+      "scope": "All Method Library records.",
+      "developmentStatus": "approved_internal_standard",
+      "authorityBasis": "Methodology Foundation v1 §5",
+      "relatedRecords": [
+        "mr-0005",
+        "mr-0007",
+        "mr-0008"
+      ],
+      "knownLimitations": [
+        "Criteria for validated_through_use await future Methodology definition."
+      ],
+      "openQuestions": [
+        "What constitutes sufficient validating use for validated_through_use."
+      ],
+      "readiness": {
+        "clientApplication": "not_applicable",
+        "educationalAdaptation": "not_approved",
+        "softwareImplementation": "approved",
+        "publicDisclosure": "not_approved",
+        "proprietaryAssetGovernance": "not_approved"
+      },
+      "implementationAuthorization": "Approved now; the schema separates every status dimension and the validator rejects collapsed representations.",
+      "path": "docs/methodology/records/mr-0006-methodological-lifecycle-and-maturity-standard-v1.md"
+    },
+    {
+      "recordType": "library_record",
+      "version": "v1.0",
+      "authorityStatus": "approved",
+      "approvalDate": null,
+      "approvalContext": "Approved by the authoritative Methodology room; determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization.",
+      "approvingAuthority": {
+        "basis": "Interim rule (Methodology Foundation v1 §6): approval rests on the Founder's existing institutional authority; recorded as data, never as a technical permission.",
+        "configurable": true,
+        "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+      },
+      "constitutionalSubordination": true,
+      "disclosureLevel": "internal_methodology",
+      "ipReferralStatus": "not_referred",
+      "dependencies": [
+        "mr-0001"
+      ],
+      "sourceRecords": [
+        "mr-0001"
+      ],
+      "uncertaintyRecords": [],
+      "validationEvidence": [
+        "npm run validate:methods"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "historicalVersions": [],
+      "effectiveDate": null,
+      "archivalStatus": "active",
+      "changeRationale": "Initial record creation from Methodology Foundation v1.",
+      "containsSubstantiveMethodology": true,
+      "governingReferences": [
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/methodology/method-library-architecture.md",
+        "docs/governance/huerta-group-constitution.md"
+      ],
+      "id": "mr-0007",
+      "title": "Methodological Authority, Versioning, and Supersession Standard v1",
+      "assetType": "standard",
+      "purpose": "Define how methodological authority is established, recorded, corrected, refined, disputed, versioned, superseded, and historically preserved.",
+      "scope": "All Method Library records.",
+      "developmentStatus": "approved_internal_standard",
+      "authorityBasis": "Methodology Foundation v1 §6",
+      "relatedRecords": [
+        "mr-0005",
+        "mr-0006",
+        "mr-0008"
+      ],
+      "knownLimitations": [
+        "Subject to future constitutional refinement; the interim Founder-based approval rule is configurable and subordinate."
+      ],
+      "openQuestions": [
+        "Final constitutional allocation and delegation of methodological approval authority."
+      ],
+      "readiness": {
+        "clientApplication": "not_applicable",
+        "educationalAdaptation": "not_approved",
+        "softwareImplementation": "approved",
+        "publicDisclosure": "not_approved",
+        "proprietaryAssetGovernance": "not_approved"
+      },
+      "implementationAuthorization": "Approved provided approval roles remain configurable (validator-enforced: approvingAuthority.configurable must be true).",
+      "path": "docs/methodology/records/mr-0007-methodological-authority-versioning-and-supersession-standard-v1.md"
+    },
+    {
+      "recordType": "library_record",
+      "version": "v1.0",
+      "authorityStatus": "approved",
+      "approvalDate": null,
+      "approvalContext": "Approved by the authoritative Methodology room; determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization.",
+      "approvingAuthority": {
+        "basis": "Interim rule (Methodology Foundation v1 §6): approval rests on the Founder's existing institutional authority; recorded as data, never as a technical permission.",
+        "configurable": true,
+        "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+      },
+      "constitutionalSubordination": true,
+      "disclosureLevel": "internal_methodology",
+      "ipReferralStatus": "not_referred",
+      "dependencies": [
+        "mr-0001"
+      ],
+      "sourceRecords": [
+        "mr-0001"
+      ],
+      "uncertaintyRecords": [],
+      "validationEvidence": [
+        "npm run validate:methods"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "historicalVersions": [],
+      "effectiveDate": null,
+      "archivalStatus": "active",
+      "changeRationale": "Initial record creation from Methodology Foundation v1.",
+      "containsSubstantiveMethodology": true,
+      "governingReferences": [
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/methodology/method-library-architecture.md"
+      ],
+      "id": "mr-0008",
+      "title": "Methodological Disclosure Classification Standard v1",
+      "assetType": "standard",
+      "purpose": "Define current disclosure and adaptation distinctions without making unsupported legal ownership or protection claims.",
+      "scope": "All Method Library records and derived adaptations.",
+      "developmentStatus": "approved_internal_standard",
+      "authorityBasis": "Methodology Foundation v1 §7",
+      "relatedRecords": [
+        "mr-0005",
+        "mr-0006",
+        "mr-0007"
+      ],
+      "knownLimitations": [
+        "Disclosure classes are handling classes, never legal claims; proprietary classification belongs to later IP governance.",
+        "No record currently carries public_methodology_principle; that mapping awaits a future Methodology review."
+      ],
+      "openQuestions": [
+        "Mapping between existing public-page principles and public_methodology_principle records."
+      ],
+      "readiness": {
+        "clientApplication": "not_applicable",
+        "educationalAdaptation": "not_approved",
+        "softwareImplementation": "approved",
+        "publicDisclosure": "not_approved",
+        "proprietaryAssetGovernance": "not_approved"
+      },
+      "implementationAuthorization": "Approved now; the validator rejects unauthorized approved public-disclosure readiness.",
+      "path": "docs/methodology/records/mr-0008-methodological-disclosure-classification-standard-v1.md"
+    }
+  ]
+}

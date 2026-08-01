@@ -25,6 +25,32 @@ Current-implementation documentation lives in the repository root
 | Official Launch Checklist | [`launch/official-launch-checklist.md`](launch/official-launch-checklist.md) | Phased, testable checklist; owner-gated actions marked |
 | Rollback Plan | [`launch/rollback-plan.md`](launch/rollback-plan.md) | Git, platform, environment, canonical, and DNS rollback procedures and boundaries |
 
+## Methodology (internal)
+
+| Document | Canonical path | Purpose |
+| --- | --- | --- |
+| Methodology Foundation v1 | [`methodology/methodology-foundation-v1.md`](methodology/methodology-foundation-v1.md) | The authoritative approved methodology foundation (v1.0) — source of the eight initial Method Library records; sectional prose of §§1.1–1.3 and §2 pending verbatim insertion |
+| Method Library — Technical Architecture | [`methodology/method-library-architecture.md`](methodology/method-library-architecture.md) | Repository-based Method Library architecture: records, registry/schema split, separate status dimensions, configurable approval, no runtime authorization |
+| Method Library records | [`methodology/records/`](methodology/records/) | The seven derived records (mr-0002 – mr-0008); mr-0001 is the foundation itself. Metadata: `knowledge/method-registry.json` |
+
+**Method Library maintenance** (see the architecture document for full
+rules): the registry (`knowledge/method-registry.json`, schema
+`knowledge/method-schema.json`) is the authoritative metadata store;
+`npm run validate:methods` must pass with any methodology change.
+**Adding any substantive record requires prior Methodology approval of
+its substance** — the validator enforces exactly the approved record
+set, so a new record requires updating the approved set with its
+authorization. Provisional asset types are recorded but not assignable.
+Substantive refinements require a new version and Methodology approval;
+non-substantive corrections do not. Superseded records are retained,
+never deleted, with supersession links. The five readiness designations
+are updated independently of lifecycle status, and adaptations
+(educational, publishing, software, public, IP) must retain source
+traceability. Approval authority remains configurable pending
+constitutional decision-rights architecture. Library presence creates
+no methodological authority, and the Method Library is not a runtime
+platform.
+
 ## Architecture and development decisions
 
 | Document | Canonical path | Purpose |

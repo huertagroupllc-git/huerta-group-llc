@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "huerta-group-llc/knowledge/method-schema.json",
+  "title": "Huerta Group LLC — Institutional Method Library Schema",
+  "description": "Validates knowledge/method-registry.json and its records. Authoritative substantive source: docs/methodology/methodology-foundation-v1.md. Registry presence never creates methodological authority; approval is an institutional act recorded as data. Development status, authority status, disclosure, readiness, IP referral, and archival status are separate dimensions and must never be collapsed.",
+  "type": "object",
+  "required": ["registryVersion", "provisionalAssetTypes", "records"],
+  "additionalProperties": false,
+  "properties": {
+    "registryVersion": { "type": "integer", "const": 1 },
+    "provisionalAssetTypes": {
+      "type": "array",
+      "description": "MFv1 §4 provisional candidate values — recorded here, deliberately NOT part of the assignable assetType enum. Promoting one requires an authorized vocabulary update.",
+      "items": { "type": "string" }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/methodRecord" }
+    }
+  },
+  "$defs": {
+    "readinessValue": {
+      "enum": ["approved", "not_approved", "not_applicable", "unresolved"]
+    },
+    "methodRecord": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "recordType",
+        "assetType",
+        "purpose",
+        "scope",
+        "version",
+        "developmentStatus",
+        "authorityStatus",
+        "authorityBasis",
+        "approvalDate",
+        "approvalContext",
+        "approvingAuthority",
+        "constitutionalSubordination",
+        "disclosureLevel",
+        "readiness",
+        "ipReferralStatus",
+        "dependencies",
+        "relatedRecords",
+        "sourceRecords",
+        "knownLimitations",
+        "openQuestions",
+        "uncertaintyRecords",
+        "validationEvidence",
+        "supersedes",
+        "supersededBy",
+        "historicalVersions",
+        "effectiveDate",
+        "archivalStatus",
+        "changeRationale",
+        "containsSubstantiveMethodology",
+        "implementationAuthorization",
+        "path",
+        "governingReferences"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^mr-[0-9]{4}$",
+          "description": "Stable sequential record identifier (mr-NNNN); never reused."
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "recordType": {
+          "type": "string",
+          "enum": ["source_foundation", "library_record"],
+          "description": "Distinguishes the authoritative source foundation from derived library records."
+        },
+        "assetType": {
+          "type": "string",
+          "description": "MFv1 §4 approved asset types only. Provisional candidate values are listed at registry level and are not assignable.",
+          "enum": [
+            "methodological_doctrine",
+            "principle",
+            "method",
+            "framework",
+            "model",
+            "standard",
+            "assessment",
+            "diagnostic_instrument",
+            "tool",
+            "template",
+            "workflow",
+            "decision_system",
+            "verification_procedure",
+            "implementation_guidance",
+            "educational_adaptation",
+            "software_implementation",
+            "methodological_governance_foundation"
+          ]
+        },
+        "purpose": { "type": "string", "minLength": 1, "maxLength": 500 },
+        "scope": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "version": { "type": "string", "pattern": "^v[0-9]+\\.[0-9]+$" },
+        "developmentStatus": {
+          "type": "string",
+          "description": "MFv1 §5 lifecycle vocabulary, extended only to represent the approved initial records truthfully.",
+          "enum": [
+            "working_concept",
+            "draft",
+            "under_review",
+            "validated_through_use",
+            "approved_internal_method",
+            "approved_internal_foundation",
+            "approved_internal_doctrine",
+            "approved_internal_framework",
+            "approved_internal_standard",
+            "superseded",
+            "archived"
+          ]
+        },
+        "authorityStatus": {
+          "type": "string",
+          "enum": ["approved", "provisional", "unresolved"],
+          "description": "Whether Methodology approval exists — separate from development status, disclosure, and readiness."
+        },
+        "authorityBasis": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The approving source (e.g. 'Methodology Foundation v1 §4'). Public website content is never a valid authority basis."
+        },
+        "approvalDate": {
+          "type": ["string", "null"],
+          "description": "Stated approval date where known; null where not transmitted — never invented."
+        },
+        "approvalContext": {
+          "type": "string",
+          "minLength": 1,
+          "description": "How approval was granted (grounded in transmitted authorization; never fabricated)."
+        },
+        "approvingAuthority": {
+          "type": "object",
+          "required": ["basis", "configurable", "subordinateTo"],
+          "additionalProperties": false,
+          "properties": {
+            "basis": {
+              "type": "string",
+              "description": "Current approving authority or process (interim rule per MFv1 §6). Data, not code; no technical permission constitutes approval."
+            },
+            "configurable": {
+              "type": "boolean",
+              "const": true,
+              "description": "Must be true: no immutable approval mechanism may be encoded (constitutional boundary)."
+            },
+            "subordinateTo": {
+              "type": "string",
+              "description": "The authority this rule is subordinate to (Constitution; later-approved decision-rights architecture)."
+            }
+          }
+        },
+        "constitutionalSubordination": { "type": "boolean", "const": true },
+        "disclosureLevel": {
+          "type": "string",
+          "description": "MFv1 §7 vocabulary. A disclosure class is never a legal claim.",
+          "enum": [
+            "public_methodology_principle",
+            "internal_methodology",
+            "confidential_methodological_material",
+            "proprietary_methodology",
+            "client_specific_material",
+            "educational_adaptation",
+            "publishing_adaptation",
+            "software_ready_methodology",
+            "unresolved"
+          ]
+        },
+        "readiness": {
+          "type": "object",
+          "description": "Five independent readiness designations (MFv1 §5). Never collapsed into lifecycle.",
+          "required": [
+            "clientApplication",
+            "educationalAdaptation",
+            "softwareImplementation",
+            "publicDisclosure",
+            "proprietaryAssetGovernance"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "clientApplication": { "$ref": "#/$defs/readinessValue" },
+            "educationalAdaptation": { "$ref": "#/$defs/readinessValue" },
+            "softwareImplementation": { "$ref": "#/$defs/readinessValue" },
+            "publicDisclosure": { "$ref": "#/$defs/readinessValue" },
+            "proprietaryAssetGovernance": { "$ref": "#/$defs/readinessValue" }
+          }
+        },
+        "ipReferralStatus": {
+          "type": "string",
+          "enum": [
+            "not_referred",
+            "proposed_for_review",
+            "under_ip_review",
+            "classified_by_ip",
+            "unresolved"
+          ],
+          "description": "IP governance referral only — never a trade-secret, copyright, patent, trademark, or licensing claim."
+        },
+        "dependencies": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^mr-[0-9]{4}$" }
+        },
+        "relatedRecords": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^mr-[0-9]{4}$" }
+        },
+        "sourceRecords": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^mr-[0-9]{4}$" },
+          "description": "The authoritative source record(s) this record derives from."
+        },
+        "knownLimitations": { "type": "array", "items": { "type": "string" } },
+        "openQuestions": { "type": "array", "items": { "type": "string" } },
+        "uncertaintyRecords": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Recorded disagreement or uncertainty (MFv1 §6); visible until resolved by the appropriate authority."
+        },
+        "validationEvidence": { "type": "array", "items": { "type": "string" } },
+        "supersedes": {
+          "type": ["string", "null"],
+          "pattern": "^mr-[0-9]{4}$"
+        },
+        "supersededBy": {
+          "type": ["string", "null"],
+          "pattern": "^mr-[0-9]{4}$"
+        },
+        "historicalVersions": { "type": "array", "items": { "type": "string" } },
+        "effectiveDate": { "type": ["string", "null"] },
+        "archivalStatus": {
+          "type": "string",
+          "enum": ["active", "superseded_retained", "archived"]
+        },
+        "changeRationale": { "type": "string", "minLength": 1 },
+        "containsSubstantiveMethodology": { "type": "boolean" },
+        "implementationAuthorization": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The technical implementation boundary granted by MFv1 for this record."
+        },
+        "path": {
+          "type": "string",
+          "pattern": "^docs/methodology/.+\\.md$",
+          "description": "Canonical repository path of the record's governed document."
+        },
+        "governingReferences": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -9,14 +9,20 @@
       "maturity": "operational",
       "architecturalDisposition": "current_public_application",
       "repositoryDisposition": "current_repository",
-      "dataOwned": ["public-content"],
+      "dataOwned": [
+        "public-content"
+      ],
       "dataConsumed": [],
       "dependsOn": [],
       "identityRequirement": "none",
       "sensitivity": "public",
       "launchRelevance": "required",
       "implementationReadiness": "ready",
-      "evidencePaths": ["app/page.tsx", "app/layout.tsx", "lib/site.ts"],
+      "evidencePaths": [
+        "app/page.tsx",
+        "app/layout.tsx",
+        "lib/site.ts"
+      ],
       "governingReferences": [
         "docs/governance/vision-foundation-for-development.md",
         "docs/development/decisions/adr-0002-public-website-boundary.md",
@@ -32,14 +38,22 @@
       "maturity": "operational",
       "architecturalDisposition": "current_server_capability",
       "repositoryDisposition": "current_repository",
-      "dataOwned": ["inquiry-records"],
+      "dataOwned": [
+        "inquiry-records"
+      ],
       "dataConsumed": [],
-      "dependsOn": ["public-website"],
+      "dependsOn": [
+        "public-website"
+      ],
       "identityRequirement": "none",
       "sensitivity": "confidential",
       "launchRelevance": "required",
       "implementationReadiness": "ready",
-      "evidencePaths": ["app/contact/actions.ts", "lib/inquiry.ts", "supabase/migrations"],
+      "evidencePaths": [
+        "app/contact/actions.ts",
+        "lib/inquiry.ts",
+        "supabase/migrations"
+      ],
       "governingReferences": [
         "docs/development/development-standards.md",
         "docs/development/decisions/adr-0004-data-ownership-and-supabase-boundary.md"
@@ -57,14 +71,22 @@
       "architecturalDisposition": "current_server_capability",
       "repositoryDisposition": "current_repository",
       "dataOwned": [],
-      "dataConsumed": ["inquiry-records"],
-      "dependsOn": ["inquiry-intake"],
+      "dataConsumed": [
+        "inquiry-records"
+      ],
+      "dependsOn": [
+        "inquiry-intake"
+      ],
       "identityRequirement": "none",
       "sensitivity": "confidential",
       "launchRelevance": "independent",
       "implementationReadiness": "ready_with_owner_authorization",
-      "evidencePaths": ["lib/notification.ts"],
-      "governingReferences": ["docs/launch/official-launch-checklist.md"],
+      "evidencePaths": [
+        "lib/notification.ts"
+      ],
+      "governingReferences": [
+        "docs/launch/official-launch-checklist.md"
+      ],
       "unresolvedDecisions": [
         "Activation timing and recipient confirmation are owner decisions (launch checklist Phase 4)."
       ]
@@ -77,14 +99,20 @@
       "maturity": "operational",
       "architecturalDisposition": "current_repository_artifacts",
       "repositoryDisposition": "current_repository",
-      "dataOwned": ["knowledge-metadata"],
+      "dataOwned": [
+        "knowledge-metadata"
+      ],
       "dataConsumed": [],
       "dependsOn": [],
       "identityRequirement": "none",
       "sensitivity": "internal",
       "launchRelevance": "independent",
       "implementationReadiness": "ready",
-      "evidencePaths": ["knowledge/schema.json", "knowledge/manifest.json", "scripts/validate-knowledge.mjs"],
+      "evidencePaths": [
+        "knowledge/schema.json",
+        "knowledge/manifest.json",
+        "scripts/validate-knowledge.mjs"
+      ],
       "governingReferences": [
         "docs/development/decisions/adr-0001-institutional-knowledge-foundation.md"
       ],
@@ -102,8 +130,12 @@
       "architecturalDisposition": "future_shared_service",
       "repositoryDisposition": "unresolved",
       "dataOwned": [],
-      "dataConsumed": ["knowledge-metadata"],
-      "dependsOn": ["institutional-knowledge-foundation"],
+      "dataConsumed": [
+        "knowledge-metadata"
+      ],
+      "dependsOn": [
+        "institutional-knowledge-foundation"
+      ],
       "identityRequirement": "future-required",
       "sensitivity": "internal",
       "launchRelevance": "independent",
@@ -120,23 +152,43 @@
     {
       "id": "method-library",
       "name": "Institutional Method Library",
-      "description": "Governed internal corpus of Huerta Group methodology: methods, frameworks, standards, verification procedures. Direction documented in the Vision Foundation; no substance exists in the repository yet.",
+      "description": "Governed internal corpus of Huerta Group methodology. The repository-based foundation exists (Methodology Foundation v1, architecture, schema, registry, eight approved records, validation); substantive future methods remain blocked pending approved methodology substance.",
       "category": "institutional-branch",
-      "maturity": "documented_direction",
-      "architecturalDisposition": "unresolved",
-      "repositoryDisposition": "unresolved",
-      "dataOwned": ["method-records"],
-      "dataConsumed": ["knowledge-metadata"],
-      "dependsOn": ["institutional-knowledge-foundation"],
+      "maturity": "partial",
+      "architecturalDisposition": "current_repository_artifacts",
+      "repositoryDisposition": "current_repository",
+      "dataOwned": [
+        "method-records"
+      ],
+      "dataConsumed": [
+        "knowledge-metadata"
+      ],
+      "dependsOn": [
+        "institutional-knowledge-foundation"
+      ],
       "identityRequirement": "unresolved",
       "sensitivity": "confidential",
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
-      "governingReferences": ["docs/governance/vision-foundation-for-development.md"],
+      "governingReferences": [
+        "docs/governance/vision-foundation-for-development.md",
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/methodology/method-library-architecture.md"
+      ],
       "unresolvedDecisions": [
-        "The methodology substance itself must be supplied and approved by the owner before any library structure is filled.",
-        "Disclosure tiers for method records await the owner's IP/confidentiality policy."
-      ]
+        "Substantive future methods (assessments, diagnostics, implementation guidance, verification procedures) remain blocked pending approved methodology substance.",
+        "Verbatim sectional prose of MFv1 §§1.1–1.3 and §2 awaits transmission and insertion through Methodology authority.",
+        "Disclosure tiers beyond internal, IP referral, and any future runtime application remain unresolved (ADR-0003/ADR-0004 criteria apply if triggered).",
+        "Final constitutional allocation of methodological approval authority (interim configurable Founder rule stands)."
+      ],
+      "evidencePaths": [
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/methodology/method-library-architecture.md",
+        "knowledge/method-registry.json",
+        "knowledge/method-schema.json",
+        "scripts/validate-methods.mjs"
+      ],
+      "notes": "Repository foundation only — no database, application, search service, or user interface exists or is implied."
     },
     {
       "id": "ip-repository",
@@ -146,14 +198,24 @@
       "maturity": "documented_direction",
       "architecturalDisposition": "unresolved",
       "repositoryDisposition": "unresolved",
-      "dataOwned": ["ip-records"],
-      "dataConsumed": ["knowledge-metadata", "method-records"],
-      "dependsOn": ["institutional-knowledge-foundation", "method-library"],
+      "dataOwned": [
+        "ip-records"
+      ],
+      "dataConsumed": [
+        "knowledge-metadata",
+        "method-records"
+      ],
+      "dependsOn": [
+        "institutional-knowledge-foundation",
+        "method-library"
+      ],
       "identityRequirement": "unresolved",
       "sensitivity": "confidential",
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
-      "governingReferences": ["docs/governance/vision-foundation-for-development.md"],
+      "governingReferences": [
+        "docs/governance/vision-foundation-for-development.md"
+      ],
       "unresolvedDecisions": [
         "IP classification, ownership, and confidentiality policy is an owner decision that precedes any asset record.",
         "Whether IP records and method records share one system is undecided."
@@ -167,14 +229,24 @@
       "maturity": "conceptual",
       "architecturalDisposition": "unresolved",
       "repositoryDisposition": "unresolved",
-      "dataOwned": ["education-records"],
-      "dataConsumed": ["method-records", "knowledge-metadata"],
-      "dependsOn": ["method-library", "identity-and-access"],
+      "dataOwned": [
+        "education-records"
+      ],
+      "dataConsumed": [
+        "method-records",
+        "knowledge-metadata"
+      ],
+      "dependsOn": [
+        "method-library",
+        "identity-and-access"
+      ],
       "identityRequirement": "future-required",
       "sensitivity": "client-confidential",
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
-      "governingReferences": ["docs/governance/vision-foundation-for-development.md"],
+      "governingReferences": [
+        "docs/governance/vision-foundation-for-development.md"
+      ],
       "unresolvedDecisions": [
         "Program authority, curriculum architecture, and credentialing decisions are reserved to the owner.",
         "A generic LMS is explicitly not assumed appropriate; delivery model undecided.",
@@ -189,14 +261,22 @@
       "maturity": "conceptual",
       "architecturalDisposition": "unresolved",
       "repositoryDisposition": "unresolved",
-      "dataOwned": ["publishing-records"],
-      "dataConsumed": ["knowledge-metadata"],
-      "dependsOn": ["institutional-knowledge-foundation"],
+      "dataOwned": [
+        "publishing-records"
+      ],
+      "dataConsumed": [
+        "knowledge-metadata"
+      ],
+      "dependsOn": [
+        "institutional-knowledge-foundation"
+      ],
       "identityRequirement": "unresolved",
       "sensitivity": "unresolved",
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
-      "governingReferences": ["docs/governance/vision-foundation-for-development.md"],
+      "governingReferences": [
+        "docs/governance/vision-foundation-for-development.md"
+      ],
       "unresolvedDecisions": [
         "Publishing authority, editorial policy, and rights policy do not exist; every substantive question is open and owner-level."
       ]
@@ -209,14 +289,24 @@
       "maturity": "conceptual",
       "architecturalDisposition": "unresolved",
       "repositoryDisposition": "unresolved",
-      "dataOwned": ["ai-records"],
-      "dataConsumed": ["knowledge-metadata", "method-records"],
-      "dependsOn": ["institutional-knowledge-system", "identity-and-access"],
+      "dataOwned": [
+        "ai-records"
+      ],
+      "dataConsumed": [
+        "knowledge-metadata",
+        "method-records"
+      ],
+      "dependsOn": [
+        "institutional-knowledge-system",
+        "identity-and-access"
+      ],
       "identityRequirement": "future-required",
       "sensitivity": "confidential",
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
-      "governingReferences": ["docs/governance/vision-foundation-for-development.md"],
+      "governingReferences": [
+        "docs/governance/vision-foundation-for-development.md"
+      ],
       "unresolvedDecisions": [
         "AI governance (access policy, decision rights, evaluation standards, data protection) is an owner decision.",
         "Machine-consumption eligibility of every governed document is unresolved (knowledge manifest)."
@@ -230,14 +320,22 @@
       "maturity": "conceptual",
       "architecturalDisposition": "future_internal_application",
       "repositoryDisposition": "unresolved",
-      "dataOwned": ["operational-records"],
-      "dataConsumed": ["knowledge-metadata"],
-      "dependsOn": ["identity-and-access"],
+      "dataOwned": [
+        "operational-records"
+      ],
+      "dataConsumed": [
+        "knowledge-metadata"
+      ],
+      "dependsOn": [
+        "identity-and-access"
+      ],
       "identityRequirement": "future-required",
       "sensitivity": "internal",
       "launchRelevance": "independent",
       "implementationReadiness": "requirements_incomplete",
-      "governingReferences": ["docs/governance/vision-foundation-for-development.md"],
+      "governingReferences": [
+        "docs/governance/vision-foundation-for-development.md"
+      ],
       "unresolvedDecisions": [
         "Trigger: the first recurring internal workflow that outgrows governed documents; none identified yet."
       ]
@@ -250,14 +348,24 @@
       "maturity": "public_description_only",
       "architecturalDisposition": "unresolved",
       "repositoryDisposition": "unresolved",
-      "dataOwned": ["service-delivery-records"],
-      "dataConsumed": ["client-engagement-records", "method-records"],
-      "dependsOn": ["client-delivery-systems", "operations-systems"],
+      "dataOwned": [
+        "service-delivery-records"
+      ],
+      "dataConsumed": [
+        "client-engagement-records",
+        "method-records"
+      ],
+      "dependsOn": [
+        "client-delivery-systems",
+        "operations-systems"
+      ],
       "identityRequirement": "future-required",
       "sensitivity": "client-confidential",
       "launchRelevance": "independent",
       "implementationReadiness": "dependency_blocked",
-      "governingReferences": ["docs/governance/vision-foundation-for-development.md"],
+      "governingReferences": [
+        "docs/governance/vision-foundation-for-development.md"
+      ],
       "unresolvedDecisions": [
         "The service model itself (what sustained support concretely includes) is an owner decision.",
         "Blocked until client-delivery foundations mature."
@@ -271,14 +379,24 @@
       "maturity": "conceptual",
       "architecturalDisposition": "unresolved",
       "repositoryDisposition": "unresolved",
-      "dataOwned": ["client-engagement-records"],
-      "dataConsumed": ["inquiry-records", "method-records"],
-      "dependsOn": ["method-library", "identity-and-access"],
+      "dataOwned": [
+        "client-engagement-records"
+      ],
+      "dataConsumed": [
+        "inquiry-records",
+        "method-records"
+      ],
+      "dependsOn": [
+        "method-library",
+        "identity-and-access"
+      ],
       "identityRequirement": "future-required",
       "sensitivity": "client-confidential",
       "launchRelevance": "independent",
       "implementationReadiness": "requirements_incomplete",
-      "governingReferences": ["docs/governance/vision-foundation-for-development.md"],
+      "governingReferences": [
+        "docs/governance/vision-foundation-for-development.md"
+      ],
       "unresolvedDecisions": [
         "Engagement-record conventions and confidentiality practice precede any system.",
         "Client portals are explicitly deferred until identity, data governance, and demonstrated need exist."
@@ -293,13 +411,19 @@
       "architecturalDisposition": "deferred",
       "repositoryDisposition": "unresolved",
       "dataOwned": [],
-      "dataConsumed": ["knowledge-metadata"],
-      "dependsOn": ["institutional-knowledge-foundation"],
+      "dataConsumed": [
+        "knowledge-metadata"
+      ],
+      "dependsOn": [
+        "institutional-knowledge-foundation"
+      ],
       "identityRequirement": "unresolved",
       "sensitivity": "internal",
       "launchRelevance": "independent",
       "implementationReadiness": "deferred",
-      "governingReferences": ["docs/governance/vision-foundation-for-development.md"],
+      "governingReferences": [
+        "docs/governance/vision-foundation-for-development.md"
+      ],
       "unresolvedDecisions": [
         "No near-term requirement; revisit when method or education work generates research records."
       ]
@@ -312,7 +436,10 @@
       "maturity": "documented_direction",
       "architecturalDisposition": "future_shared_service",
       "repositoryDisposition": "unresolved",
-      "dataOwned": ["identity-records", "audit-records"],
+      "dataOwned": [
+        "identity-records",
+        "audit-records"
+      ],
       "dataConsumed": [],
       "dependsOn": [],
       "identityRequirement": "none",
@@ -360,12 +487,17 @@
       "repositoryDisposition": "current_repository",
       "dataOwned": [],
       "dataConsumed": [],
-      "dependsOn": ["public-website"],
+      "dependsOn": [
+        "public-website"
+      ],
       "identityRequirement": "none",
       "sensitivity": "internal",
       "launchRelevance": "required",
       "implementationReadiness": "ready",
-      "evidencePaths": ["docs/launch/rollback-plan.md", "docs/launch/launch-readiness.md"],
+      "evidencePaths": [
+        "docs/launch/rollback-plan.md",
+        "docs/launch/launch-readiness.md"
+      ],
       "governingReferences": [
         "docs/development/decisions/adr-0005-environment-strategy.md",
         "docs/launch/rollback-plan.md"
@@ -384,12 +516,18 @@
       "repositoryDisposition": "current_repository",
       "dataOwned": [],
       "dataConsumed": [],
-      "dependsOn": ["public-website", "platform-operations"],
+      "dependsOn": [
+        "public-website",
+        "platform-operations"
+      ],
       "identityRequirement": "none",
       "sensitivity": "internal",
       "launchRelevance": "launch-phase-only",
       "implementationReadiness": "ready_with_owner_authorization",
-      "evidencePaths": ["docs/launch/custom-domain-migration-plan.md", "docs/launch/official-launch-checklist.md"],
+      "evidencePaths": [
+        "docs/launch/custom-domain-migration-plan.md",
+        "docs/launch/official-launch-checklist.md"
+      ],
       "governingReferences": [
         "docs/launch/custom-domain-migration-plan.md",
         "docs/launch/official-launch-checklist.md",

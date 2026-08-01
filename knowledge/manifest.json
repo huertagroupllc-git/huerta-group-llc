@@ -531,6 +531,231 @@
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "methodology-foundation-v1",
+      "title": "Methodology Foundation v1",
+      "path": "docs/methodology/methodology-foundation-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "statusNote": "Approved v1.0; the complete prose of §§1.1–1.3 and §2 awaits verbatim insertion through Methodology authority (recorded in the document).",
+      "summary": "The canonical repository record of the approved Methodology Foundation v1: methodology governance structure, controlled vocabularies, lifecycle, authority, disclosure, the eight initial Method Library records, technical boundaries, and unresolved matters.",
+      "provenance": {
+        "origin": "Methodology room",
+        "approvalReference": "Determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization (recorded in the document).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "references",
+          "target": "method-library-architecture"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "method-library-architecture",
+      "title": "Institutional Method Library — Technical Architecture",
+      "path": "docs/methodology/method-library-architecture.md",
+      "type": "standard",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Technical architecture of the repository-based Method Library: record identity, registry/schema split, separate status dimensions, configurable approval representation, versioning and supersession handling, boundary preservation, and explicit non-authorization of any runtime system.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "governed-by",
+          "target": "methodology-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "mr-0002-institutional-methodology-definition-and-scope",
+      "title": "mr-0002 — Institutional Methodology Definition and Scope",
+      "path": "docs/methodology/records/mr-0002-institutional-methodology-definition-and-scope.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved internal doctrine defining institutional methodology and its scope; governs by reference pending verbatim insertion of the sectional text.",
+      "provenance": {
+        "origin": "Methodology room",
+        "approvalReference": "Methodology Foundation v1 §§1.1–1.3 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "methodology-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "mr-0003-methodological-architecture-v1",
+      "title": "mr-0003 — Methodological Architecture v1",
+      "path": "docs/methodology/records/mr-0003-methodological-architecture-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved internal framework for the five-layer methodological architecture; explicitly incomplete by design, with layer definitions pending verbatim insertion.",
+      "provenance": {
+        "origin": "Methodology room",
+        "approvalReference": "Methodology Foundation v1 §2 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "methodology-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "mr-0004-organizational-improvement-work-progression-v1",
+      "title": "mr-0004 — Organizational Improvement Work Progression v1",
+      "path": "docs/methodology/records/mr-0004-organizational-improvement-work-progression-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved principle-level progression (understood, defined, examined, improved, implemented, verified, sustained, learned) as a non-numbered, non-automated reference framework.",
+      "provenance": {
+        "origin": "Methodology room",
+        "approvalReference": "Methodology Foundation v1 §3 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "methodology-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "mr-0005-methodological-asset-classification-standard-v1",
+      "title": "mr-0005 — Methodological Asset Classification Standard v1",
+      "path": "docs/methodology/records/mr-0005-methodological-asset-classification-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved asset-type distinctions for Method Library records, with provisional candidate types recorded but not assignable.",
+      "provenance": {
+        "origin": "Methodology room",
+        "approvalReference": "Methodology Foundation v1 §4 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "methodology-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "mr-0006-methodological-lifecycle-and-maturity-standard-v1",
+      "title": "mr-0006 — Methodological Lifecycle and Maturity Standard v1",
+      "path": "docs/methodology/records/mr-0006-methodological-lifecycle-and-maturity-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved lifecycle statuses and the five separate readiness designations; dimensions are never collapsed; superseded records are preserved.",
+      "provenance": {
+        "origin": "Methodology room",
+        "approvalReference": "Methodology Foundation v1 §5 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "methodology-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "mr-0007-methodological-authority-versioning-and-supersession-standard-v1",
+      "title": "mr-0007 — Methodological Authority, Versioning, and Supersession Standard v1",
+      "path": "docs/methodology/records/mr-0007-methodological-authority-versioning-and-supersession-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved standard for methodological authority (interim configurable Founder rule), substantive-vs-clerical changes, versioning, supersession, and recorded disagreement.",
+      "provenance": {
+        "origin": "Methodology room",
+        "approvalReference": "Methodology Foundation v1 §6 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "methodology-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "mr-0008-methodological-disclosure-classification-standard-v1",
+      "title": "mr-0008 — Methodological Disclosure Classification Standard v1",
+      "path": "docs/methodology/records/mr-0008-methodological-disclosure-classification-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved disclosure and adaptation distinctions; disclosure classes are handling classes, never legal claims; all initial records are internal.",
+      "provenance": {
+        "origin": "Methodology room",
+        "approvalReference": "Methodology Foundation v1 §7 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "methodology-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

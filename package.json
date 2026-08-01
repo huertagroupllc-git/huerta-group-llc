@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "validate:knowledge": "node scripts/validate-knowledge.mjs",
-    "validate:architecture": "node scripts/validate-architecture.mjs"
+    "validate:architecture": "node scripts/validate-architecture.mjs",
+    "validate:methods": "node scripts/validate-methods.mjs"
   },
   "dependencies": {
     "next": "16.2.11",
