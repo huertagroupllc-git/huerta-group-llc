@@ -29,6 +29,15 @@ vocabulary update): `playbook`, `protocol`, `maturity_model`,
 `technique`, `method_family`, `method_module`, `control_framework`,
 `certification_standard`.
 
+The authoritative definition of each type — including the governing
+caveats (a tool is not automatically a method; a template does not
+independently establish doctrine or analytical validity; an instrument
+does not independently establish a diagnosis without an approved
+interpretive method; guidance is not automatically a standard;
+adaptations may not redefine methodology; software may not establish
+methodology through code alone) — resides in Methodology Foundation v1
+§4.1.
+
 An asset's type describes what kind of methodological asset it is — it
 implies nothing about development status, authority, disclosure,
 readiness, or IP status, which remain separate dimensions (mr-0006,

@@ -42,10 +42,18 @@ dimensions into any single lifecycle field is prohibited.
 **Archival treatment:** superseded and archived records are preserved,
 never deleted; `superseded` records link to their replacement.
 
+**Required lifecycle rule (§5.3):** no methodological asset may be
+represented as an approved internal method solely because it appears on
+the public website, exists in software, has been taught, was used by a
+consultant, was delivered to a client, was published, was created by
+Huerta Group personnel, has been classified as intellectual property,
+has been validated through one or more uses, or exists in the
+Institutional Method Library.
+
 ## Limitations and open questions
 
-- Criteria for `validated_through_use` (what constitutes sufficient
-  validating use) await future Methodology definition.
+- Formal evidence thresholds for `validated_through_use` remain a
+  reserved later decision (§10.2).
 
 ## Technical implementation
 

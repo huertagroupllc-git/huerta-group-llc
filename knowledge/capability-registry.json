@@ -152,7 +152,7 @@
     {
       "id": "method-library",
       "name": "Institutional Method Library",
-      "description": "Governed internal corpus of Huerta Group methodology. The repository-based foundation exists (Methodology Foundation v1, architecture, schema, registry, eight approved records, validation); substantive future methods remain blocked pending approved methodology substance.",
+      "description": "Governed internal corpus of Huerta Group methodology. The repository-based foundation is complete (the full approved Methodology Foundation v1 source, architecture, schema, registry, eight approved records, validation); substantive future methods remain blocked pending approved methodology substance (MFv1 §10.8).",
       "category": "institutional-branch",
       "maturity": "partial",
       "architecturalDisposition": "current_repository_artifacts",
@@ -177,7 +177,6 @@
       ],
       "unresolvedDecisions": [
         "Substantive future methods (assessments, diagnostics, implementation guidance, verification procedures) remain blocked pending approved methodology substance.",
-        "Verbatim sectional prose of MFv1 §§1.1–1.3 and §2 awaits transmission and insertion through Methodology authority.",
         "Disclosure tiers beyond internal, IP referral, and any future runtime application remain unresolved (ADR-0003/ADR-0004 criteria apply if triggered).",
         "Final constitutional allocation of methodological approval authority (interim configurable Founder rule stands)."
       ],

@@ -540,8 +540,7 @@
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "statusNote": "Approved v1.0; the complete prose of §§1.1–1.3 and §2 awaits verbatim insertion through Methodology authority (recorded in the document).",
-      "summary": "The canonical repository record of the approved Methodology Foundation v1: methodology governance structure, controlled vocabularies, lifecycle, authority, disclosure, the eight initial Method Library records, technical boundaries, and unresolved matters.",
+      "summary": "The canonical repository record of the complete approved Methodology Foundation v1: definition and scope, five-layer architecture, work progression, asset distinctions, lifecycle, authority, disclosure, the eight initial Method Library records, technical boundaries, and unresolved matters.",
       "provenance": {
         "origin": "Methodology room",
         "approvalReference": "Determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization (recorded in the document).",
@@ -597,7 +596,7 @@
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Approved internal doctrine defining institutional methodology and its scope; governs by reference pending verbatim insertion of the sectional text.",
+      "summary": "Approved internal doctrine: the §1.1 definition of institutional methodology, the ten approved scope domains, the §1.3 exclusions, and the technology-support boundary.",
       "provenance": {
         "origin": "Methodology room",
         "approvalReference": "Methodology Foundation v1 §§1.1–1.3 (authority basis recorded on the registry record)",
@@ -621,7 +620,7 @@
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Approved internal framework for the five-layer methodological architecture; explicitly incomplete by design, with layer definitions pending verbatim insertion.",
+      "summary": "Approved internal framework: the five authoritative methodological layers (Doctrine, Domains, Asset Classes, Application Adaptations, Evidence and Evolution) with the §2.2 incomplete areas; explicitly incomplete by design.",
       "provenance": {
         "origin": "Methodology room",
         "approvalReference": "Methodology Foundation v1 §2 (authority basis recorded on the registry record)",

@@ -63,11 +63,11 @@
         "mr-0008"
       ],
       "knownLimitations": [
-        "The complete approved prose of §§1.1–1.3 and §2 was not transmitted with the implementing authorization; it awaits verbatim insertion through Methodology authority and is never reconstructed."
+        "Institutional dependencies per §8 Record 1: Constitution; Institutional Knowledge Architecture; Intellectual Property; Education & Workforce Development; Platform & Systems Development."
       ],
       "openQuestions": [
-        "Final constitutional allocation and delegation of methodological approval authority.",
-        "Pending verbatim sectional text (§§1.1–1.3, §2)."
+        "Final constitutional allocation and delegation of methodological approval authority (§10.6).",
+        "Reserved later decisions per §10.2 (lifecycle formalization, branding, delegation, validation thresholds, disclosure criteria, readiness reviews)."
       ],
       "readiness": {
         "clientApplication": "not_applicable",
@@ -93,9 +93,7 @@
       "constitutionalSubordination": true,
       "disclosureLevel": "internal_methodology",
       "ipReferralStatus": "not_referred",
-      "dependencies": [
-        "mr-0001"
-      ],
+      "dependencies": [],
       "sourceRecords": [
         "mr-0001"
       ],
@@ -112,7 +110,9 @@
       "containsSubstantiveMethodology": true,
       "governingReferences": [
         "docs/methodology/methodology-foundation-v1.md",
-        "docs/methodology/method-library-architecture.md"
+        "docs/methodology/method-library-architecture.md",
+        "docs/governance/vision-foundation-for-development.md",
+        "docs/governance/huerta-group-constitution.md"
       ],
       "id": "mr-0002",
       "title": "Institutional Methodology Definition and Scope",
@@ -122,14 +122,15 @@
       "developmentStatus": "approved_internal_doctrine",
       "authorityBasis": "Methodology Foundation v1 §§1.1–1.3",
       "relatedRecords": [
-        "mr-0003"
+        "mr-0003",
+        "mr-0004",
+        "mr-0005"
       ],
       "knownLimitations": [
-        "Governs by reference: the full §§1.1–1.3 definition text awaits verbatim insertion into the source record; this record asserts no definition content of its own until then."
+        "Institutional dependencies per §8: Vision and Constitution.",
+        "Selected principles may later be approved for public disclosure (separate approval; none granted)."
       ],
-      "openQuestions": [
-        "Pending verbatim §§1.1–1.3 text (Methodology authority)."
-      ],
+      "openQuestions": [],
       "readiness": {
         "clientApplication": "not_approved",
         "educationalAdaptation": "not_approved",
@@ -155,7 +156,7 @@
       "disclosureLevel": "internal_methodology",
       "ipReferralStatus": "not_referred",
       "dependencies": [
-        "mr-0001"
+        "mr-0002"
       ],
       "sourceRecords": [
         "mr-0001"
@@ -183,15 +184,16 @@
       "developmentStatus": "approved_internal_framework",
       "authorityBasis": "Methodology Foundation v1 §2",
       "relatedRecords": [
-        "mr-0002",
-        "mr-0004"
+        "mr-0004",
+        "mr-0005",
+        "mr-0006"
       ],
       "knownLimitations": [
-        "Incomplete by design (v1.0): unresolved areas are a feature, not a defect.",
-        "The five layer definitions await verbatim §2 insertion; no layer may be named or filled by inference."
+        "Incomplete by design: the §2.2 incomplete areas are declared unresolved by the approved source and must not be inferred.",
+        "No completeness claim: never a finished proprietary consulting framework."
       ],
       "openQuestions": [
-        "Pending verbatim §2 text including layer definitions."
+        "Each §2.2 incomplete area awaits separately developed and approved methodology substance."
       ],
       "readiness": {
         "clientApplication": "not_approved",
@@ -218,7 +220,8 @@
       "disclosureLevel": "internal_methodology",
       "ipReferralStatus": "not_referred",
       "dependencies": [
-        "mr-0001"
+        "mr-0002",
+        "mr-0003"
       ],
       "sourceRecords": [
         "mr-0001"
@@ -245,14 +248,13 @@
       "scope": "High-level organizational-improvement work.",
       "developmentStatus": "approved_internal_framework",
       "authorityBasis": "Methodology Foundation v1 §3",
-      "relatedRecords": [
-        "mr-0003"
-      ],
+      "relatedRecords": [],
       "knownLimitations": [
-        "Not a finalized proprietary phase model: no phases, gates, deliverables, thresholds, or scoring exist or are implied."
+        "Not a finalized proprietary phase model: no phases, gates, deliverables, thresholds, or scoring exist or are implied.",
+        "Related assets per §8 are future assessment, implementation, verification, sustainment, and continuous-improvement methods — none exist yet (§10.1)."
       ],
       "openQuestions": [
-        "Relationship of the movements to the five-layer architecture awaits the pending §2 text."
+        "Whether the work progression becomes a formal consulting lifecycle (reserved, §10.2)."
       ],
       "readiness": {
         "clientApplication": "not_approved",
@@ -278,9 +280,7 @@
       "constitutionalSubordination": true,
       "disclosureLevel": "internal_methodology",
       "ipReferralStatus": "not_referred",
-      "dependencies": [
-        "mr-0001"
-      ],
+      "dependencies": [],
       "sourceRecords": [
         "mr-0001"
       ],
@@ -308,10 +308,10 @@
       "authorityBasis": "Methodology Foundation v1 §4",
       "relatedRecords": [
         "mr-0006",
-        "mr-0007",
         "mr-0008"
       ],
       "knownLimitations": [
+        "Institutional dependency per §8: Institutional Knowledge Architecture metadata and taxonomy standards (implemented via the knowledge foundation).",
         "Provisional candidate types are recorded but not assignable; promotion requires Methodology approval and a versioned update."
       ],
       "openQuestions": [],
@@ -339,9 +339,7 @@
       "constitutionalSubordination": true,
       "disclosureLevel": "internal_methodology",
       "ipReferralStatus": "not_referred",
-      "dependencies": [
-        "mr-0001"
-      ],
+      "dependencies": [],
       "sourceRecords": [
         "mr-0001"
       ],
@@ -358,7 +356,8 @@
       "containsSubstantiveMethodology": true,
       "governingReferences": [
         "docs/methodology/methodology-foundation-v1.md",
-        "docs/methodology/method-library-architecture.md"
+        "docs/methodology/method-library-architecture.md",
+        "docs/governance/huerta-group-constitution.md"
       ],
       "id": "mr-0006",
       "title": "Methodological Lifecycle and Maturity Standard v1",
@@ -368,15 +367,14 @@
       "developmentStatus": "approved_internal_standard",
       "authorityBasis": "Methodology Foundation v1 §5",
       "relatedRecords": [
-        "mr-0005",
         "mr-0007",
         "mr-0008"
       ],
       "knownLimitations": [
-        "Criteria for validated_through_use await future Methodology definition."
+        "Institutional dependencies per §8: Constitution; Institutional Knowledge Architecture versioning and archival standards."
       ],
       "openQuestions": [
-        "What constitutes sufficient validating use for validated_through_use."
+        "Formal evidence thresholds for validated_through_use (reserved, §10.2)."
       ],
       "readiness": {
         "clientApplication": "not_applicable",
@@ -402,9 +400,7 @@
       "constitutionalSubordination": true,
       "disclosureLevel": "internal_methodology",
       "ipReferralStatus": "not_referred",
-      "dependencies": [
-        "mr-0001"
-      ],
+      "dependencies": [],
       "sourceRecords": [
         "mr-0001"
       ],
@@ -432,12 +428,12 @@
       "developmentStatus": "approved_internal_standard",
       "authorityBasis": "Methodology Foundation v1 §6",
       "relatedRecords": [
-        "mr-0005",
         "mr-0006",
-        "mr-0008"
+        "mr-0001"
       ],
       "knownLimitations": [
-        "Subject to future constitutional refinement; the interim Founder-based approval rule is configurable and subordinate."
+        "Subject to future constitutional refinement; the interim Founder-based approval rule is configurable and subordinate.",
+        "Institutional dependencies per §8: Constitution; Institutional Knowledge Architecture."
       ],
       "openQuestions": [
         "Final constitutional allocation and delegation of methodological approval authority."
@@ -466,9 +462,7 @@
       "constitutionalSubordination": true,
       "disclosureLevel": "internal_methodology",
       "ipReferralStatus": "not_referred",
-      "dependencies": [
-        "mr-0001"
-      ],
+      "dependencies": [],
       "sourceRecords": [
         "mr-0001"
       ],
@@ -496,12 +490,11 @@
       "authorityBasis": "Methodology Foundation v1 §7",
       "relatedRecords": [
         "mr-0005",
-        "mr-0006",
-        "mr-0007"
+        "mr-0006"
       ],
       "knownLimitations": [
         "Disclosure classes are handling classes, never legal claims; proprietary classification belongs to later IP governance.",
-        "No record currently carries public_methodology_principle; that mapping awaits a future Methodology review."
+        "Institutional dependencies per §8: Intellectual Property; client-confidentiality requirements; future legal and constitutional governance."
       ],
       "openQuestions": [
         "Mapping between existing public-page principles and public_methodology_principle records."

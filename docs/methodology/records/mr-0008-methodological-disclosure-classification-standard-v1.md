@@ -16,11 +16,23 @@ unsupported legal ownership or protection claims.
 
 ## Approved content
 
-**Disclosure levels:** `public_methodology_principle` (approved for
-public representation at principle level) · `internal_methodology` ·
-`confidential_methodological_material` · `proprietary_methodology` ·
-`client_specific_material` · `educational_adaptation` ·
-`publishing_adaptation` · `software_ready_methodology` · `unresolved`.
+**Disclosure levels (§§7.1–7.8; authoritative definitions in the
+source):** `public_methodology_principle` (high-level approved
+principles suitable for public communication, without internal methods,
+decision logic, instruments, or proprietary implementation detail) ·
+`internal_methodology` (authorized internal use; internal does not
+automatically mean legally confidential or proprietary) ·
+`confidential_methodological_material` (restricted access; the basis
+for confidentiality should be recorded) · `proprietary_methodology`
+(formally governed as a proprietary institutional asset through
+coordination with Intellectual Property) · `client_specific_material` ·
+`educational_adaptation` (must preserve source accuracy and authority
+boundaries) · `publishing_adaptation` (public representation
+distinguished from underlying internal methodology) ·
+`software_ready_methodology` (requires approved source, defined scope,
+defined logic or requirements, known limitations, version
+identification, technical implementation approval, and traceability) ·
+`unresolved`.
 
 **Rules.**
 - Disclosure level is independent of development status, authority, and

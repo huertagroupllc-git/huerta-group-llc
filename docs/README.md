@@ -29,7 +29,7 @@ Current-implementation documentation lives in the repository root
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
-| Methodology Foundation v1 | [`methodology/methodology-foundation-v1.md`](methodology/methodology-foundation-v1.md) | The authoritative approved methodology foundation (v1.0) — source of the eight initial Method Library records; sectional prose of §§1.1–1.3 and §2 pending verbatim insertion |
+| Methodology Foundation v1 | [`methodology/methodology-foundation-v1.md`](methodology/methodology-foundation-v1.md) | The complete authoritative approved methodology foundation (v1.0) — source of the eight initial Method Library records |
 | Method Library — Technical Architecture | [`methodology/method-library-architecture.md`](methodology/method-library-architecture.md) | Repository-based Method Library architecture: records, registry/schema split, separate status dimensions, configurable approval, no runtime authorization |
 | Method Library records | [`methodology/records/`](methodology/records/) | The seven derived records (mr-0002 – mr-0008); mr-0001 is the foundation itself. Metadata: `knowledge/method-registry.json` |
 
