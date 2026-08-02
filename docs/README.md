@@ -51,6 +51,35 @@ constitutional decision-rights architecture. Library presence creates
 no methodological authority, and the Method Library is not a runtime
 platform.
 
+## Intellectual property (internal)
+
+| Document | Canonical path | Purpose |
+| --- | --- | --- |
+| Intellectual Property Foundation v1 | [`intellectual-property/intellectual-property-foundation-v1.md`](intellectual-property/intellectual-property-foundation-v1.md) | The authoritative approved IP governance foundation (v1.0) — source of the six initial repository records; sectional prose pending verbatim insertion |
+| IP Repository — Technical Architecture | [`intellectual-property/ip-repository-architecture.md`](intellectual-property/ip-repository-architecture.md) | Repository-based IP Repository architecture: separated status dimensions, authority/stewardship/custody roles, Corporate Headquarters boundary, no runtime or legal determinations |
+| IP repository records | [`intellectual-property/records/`](intellectual-property/records/) | The five derived governance records (ip-0002 – ip-0006); ip-0001 is the foundation itself. Metadata: `knowledge/ip-registry.json` |
+
+**IP Repository maintenance** (see the architecture document for full
+rules): the registry (`knowledge/ip-registry.json`, schema
+`knowledge/ip-schema.json`) is the authoritative metadata store;
+`npm run validate:ip` must pass with any IP-repository change.
+**Repository presence does not create IP admission, and IP admission
+does not create legal rights.** Candidate assets enter as recorded
+candidates with substantive-source authority; admission requires an IP
+admission decision recorded with authority, basis, and date — and the
+validator enforces exactly the approved record set, so any new record
+requires updating the approved set with its authorization. Lifecycle,
+governance status, maturity, readiness, disclosure, origin, ownership,
+rights, legal confirmation, and commercial status are separate and
+never collapsed; provisional classes are recorded but never assignable
+as primary classes; superseded, declined, withdrawn, and archived
+records are preserved, never deleted; client-derived and third-party
+interests are flagged with explicit review states; legal and commercial
+facts may be *recorded* as Corporate Headquarters / legal evidence
+references but are never *created* by the repository; approval
+authority remains configurable pending constitutional decision-rights
+architecture; and no runtime IP platform exists.
+
 ## Architecture and development decisions
 
 | Document | Canonical path | Purpose |

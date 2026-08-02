@@ -755,6 +755,183 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "intellectual-property-foundation-v1",
+      "title": "Intellectual Property Foundation v1",
+      "path": "docs/intellectual-property/intellectual-property-foundation-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "statusNote": "Approved v1.0; the complete prose of the ten numbered sections (including the eleven architectural dimensions) awaits verbatim insertion through Intellectual Property authority (recorded in the document).",
+      "summary": "The canonical repository record of the approved Intellectual Property Foundation v1: IP governance structure, controlled vocabularies, status models, authority and disclosure boundaries, the six initial repository records, technical boundaries, and unresolved matters.",
+      "provenance": {
+        "origin": "Intellectual Property room",
+        "approvalReference": "Determination “INTELLECTUAL PROPERTY FOUNDATION V1 READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 4 implementing authorization (recorded in the document).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "references",
+          "target": "ip-repository-architecture"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ip-repository-architecture",
+      "title": "Institutional Intellectual Property Repository — Technical Architecture",
+      "path": "docs/intellectual-property/ip-repository-architecture.md",
+      "type": "standard",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Technical architecture of the repository-based IP Repository: record identity, registry/schema split, separated status dimensions, authority/stewardship/custody roles, Corporate Headquarters boundary, admission process, and explicit non-authorization of runtime systems and legal determinations.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "governed-by",
+          "target": "intellectual-property-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ip-0002-institutional-intellectual-property-definition-and-scope",
+      "title": "ip-0002 — Institutional Intellectual Property Definition and Scope",
+      "path": "docs/intellectual-property/records/ip-0002-institutional-intellectual-property-definition-and-scope.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved governing doctrine for institutional IP definition, admission criteria, scope, relationships, and exclusions; governs by reference pending verbatim insertion of the sectional text.",
+      "provenance": {
+        "origin": "Intellectual Property room",
+        "approvalReference": "Intellectual Property Foundation v1 §§1.1–1.13 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "intellectual-property-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ip-0003-intellectual-property-asset-classification-standard-v1",
+      "title": "ip-0003 — Intellectual Property Asset Classification Standard v1",
+      "path": "docs/intellectual-property/records/ip-0003-intellectual-property-asset-classification-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved asset classes (seventeen), classification principles, composite treatment, and provisional-class limitations for institutional IP records.",
+      "provenance": {
+        "origin": "Intellectual Property room",
+        "approvalReference": "Intellectual Property Foundation v1 §3 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "intellectual-property-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ip-0004-intellectual-property-lifecycle-standard-v1",
+      "title": "ip-0004 — Intellectual Property Lifecycle Standard v1",
+      "path": "docs/intellectual-property/records/ip-0004-intellectual-property-lifecycle-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved lifecycle states, IP governance statuses, nine independent readiness dimensions, maturity levels, supersession, and archival principles; dimensions never collapsed.",
+      "provenance": {
+        "origin": "Intellectual Property room",
+        "approvalReference": "Intellectual Property Foundation v1 §4 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "intellectual-property-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ip-0005-intellectual-property-authority-standard-v1",
+      "title": "ip-0005 — Intellectual Property Authority Standard v1",
+      "path": "docs/intellectual-property/records/ip-0005-intellectual-property-authority-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved admission requirements and authority boundaries among substantive rooms, IP authority, knowledge architecture, technical custody, and Corporate Headquarters; approval authority configurable.",
+      "provenance": {
+        "origin": "Intellectual Property room",
+        "approvalReference": "Intellectual Property Foundation v1 §5 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "intellectual-property-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ip-0006-intellectual-property-disclosure-standard-v1",
+      "title": "ip-0006 — Intellectual Property Disclosure Standard v1",
+      "path": "docs/intellectual-property/records/ip-0006-intellectual-property-disclosure-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Approved disclosure classifications with separate origin, adaptation, ownership, rights, and legal-confirmation treatment; no legal ownership or protection determinations.",
+      "provenance": {
+        "origin": "Intellectual Property room",
+        "approvalReference": "Intellectual Property Foundation v1 §6 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "intellectual-property-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

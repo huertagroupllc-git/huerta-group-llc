@@ -192,11 +192,11 @@
     {
       "id": "ip-repository",
       "name": "Intellectual Property Repository",
-      "description": "Asset records for reusable institutional knowledge: classification, provenance, maturity, publication status. Public philosophy exists (/intellectual-property); no records or policy exist.",
+      "description": "Institutional IP Repository. The repository-based governance foundation exists (Intellectual Property Foundation v1, architecture, schema, registry, six approved governance records, validation); no substantive asset is admitted, and all legally or commercially operative matters remain with Corporate Headquarters / legal authority.",
       "category": "institutional-branch",
-      "maturity": "documented_direction",
-      "architecturalDisposition": "unresolved",
-      "repositoryDisposition": "unresolved",
+      "maturity": "partial",
+      "architecturalDisposition": "current_repository_artifacts",
+      "repositoryDisposition": "current_repository",
       "dataOwned": [
         "ip-records"
       ],
@@ -213,12 +213,24 @@
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md"
+        "docs/governance/vision-foundation-for-development.md",
+        "docs/intellectual-property/intellectual-property-foundation-v1.md",
+        "docs/intellectual-property/ip-repository-architecture.md"
       ],
       "unresolvedDecisions": [
-        "IP classification, ownership, and confidentiality policy is an owner decision that precedes any asset record.",
-        "Whether IP records and method records share one system is undecided."
-      ]
+        "Substantive asset admission is blocked: each future asset requires an approved source and a separate admission decision (none admitted; the six initial records are governance records).",
+        "Verbatim sectional prose of IPFv1 (including the eleven architectural dimensions) awaits transmission and insertion through Intellectual Property authority.",
+        "All legally and commercially operative matters (ownership, protection, registration, licensing, valuation, commercialization) are reserved to Corporate Headquarters / legal authority.",
+        "Method Library referrals remain not_referred; future runtime capabilities (search, access control, database) require their own authorization (ADR-0003)."
+      ],
+      "evidencePaths": [
+        "docs/intellectual-property/intellectual-property-foundation-v1.md",
+        "docs/intellectual-property/ip-repository-architecture.md",
+        "knowledge/ip-registry.json",
+        "knowledge/ip-schema.json",
+        "scripts/validate-ip.mjs"
+      ],
+      "notes": "Repository foundation only — no runtime application, database, search service, portal, or administrative interface exists or is implied; no legal ownership or rights determinations are made."
     },
     {
       "id": "education-platform",

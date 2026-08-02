@@ -1,0 +1,348 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "huerta-group-llc/knowledge/ip-schema.json",
+  "title": "Huerta Group LLC — Institutional Intellectual Property Repository Schema",
+  "description": "Validates knowledge/ip-registry.json and its records. Authoritative source: docs/intellectual-property/intellectual-property-foundation-v1.md. Repository presence never creates IP admission; admission never creates legal ownership; the repository records known facts and evidence and never makes legal or commercial determinations. Lifecycle, governance status, maturity, readiness, disclosure, origin, adaptation, ownership, rights, legal confirmation, commercial status, and archival status are separate dimensions.",
+  "type": "object",
+  "required": ["registryVersion", "provisionalAssetClasses", "records"],
+  "additionalProperties": false,
+  "properties": {
+    "registryVersion": { "type": "integer", "const": 1 },
+    "provisionalAssetClasses": {
+      "type": "array",
+      "description": "IPFv1 §3 provisional descriptors — recorded here, deliberately NOT part of the assignable assetClass enum. Never assignable as approved primary classes.",
+      "items": { "type": "string" }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/ipRecord" }
+    }
+  },
+  "$defs": {
+    "readinessValue": {
+      "enum": ["approved", "not_approved", "not_applicable", "unresolved"]
+    },
+    "relationshipRef": {
+      "type": "object",
+      "required": ["target", "nature"],
+      "additionalProperties": false,
+      "properties": {
+        "target": { "type": "string", "minLength": 1 },
+        "nature": {
+          "type": "string",
+          "enum": ["parent", "derivative", "related", "candidate_source", "traceability"],
+          "description": "Traceable relationship only — never itself an admission, adaptation approval, or authority claim."
+        }
+      }
+    },
+    "ipRecord": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "recordType",
+        "assetClass",
+        "provisionalDescriptors",
+        "purpose",
+        "scope",
+        "path",
+        "sourceRecords",
+        "version",
+        "effectiveDate",
+        "lifecycleState",
+        "governanceStatus",
+        "maturity",
+        "readiness",
+        "disclosure",
+        "handlingRestrictions",
+        "origin",
+        "adaptation",
+        "institutionalValueRationale",
+        "admission",
+        "authority",
+        "stewardship",
+        "provenance",
+        "ownershipAndRights",
+        "relationships",
+        "methodologyRelationships",
+        "educationRelationships",
+        "publicationRelationships",
+        "brandRelationships",
+        "softwareRelationships",
+        "supersedes",
+        "supersededBy",
+        "historicalVersions",
+        "archivalStatus",
+        "commercialStatus",
+        "knownLimitations",
+        "openQuestions",
+        "unresolvedMatters",
+        "validationEvidence",
+        "changeRationale",
+        "governingReferences"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^ip-[0-9]{4}$",
+          "description": "Stable sequential identifier (ip-NNNN); never reused."
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "recordType": {
+          "type": "string",
+          "enum": ["governance_foundation", "governing_doctrine", "standard", "asset_record"],
+          "description": "Governance records vs future substantive asset records. asset_record requires a separate approved source and admission decision (none exist in this phase)."
+        },
+        "assetClass": {
+          "type": "string",
+          "description": "IPFv1 §3 approved classes only. intellectual_property_governance_foundation is restricted to the Foundation source and governance records.",
+          "enum": [
+            "framework", "model", "assessment", "methodology_asset", "standard",
+            "template", "workflow", "tool", "software_concept", "software_component",
+            "publication", "educational_asset", "dataset", "research_asset",
+            "brand_asset", "institutional_know_how", "composite_asset",
+            "intellectual_property_governance_foundation"
+          ]
+        },
+        "provisionalDescriptors": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Optional non-authoritative descriptors (must come from the registry-level provisional list); never a primary class and never a legal status."
+        },
+        "purpose": { "type": "string", "minLength": 1, "maxLength": 600 },
+        "scope": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "path": {
+          "type": "string",
+          "pattern": "^docs/intellectual-property/.+\\.md$",
+          "description": "Canonical repository path of the record's governed document."
+        },
+        "sourceRecords": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^ip-[0-9]{4}$" },
+          "description": "Authoritative source record(s) this record derives from."
+        },
+        "version": { "type": "string", "pattern": "^v[0-9]+\\.[0-9]+$" },
+        "effectiveDate": {
+          "type": ["string", "null"],
+          "description": "Stated where known; null where not transmitted — never invented."
+        },
+        "lifecycleState": {
+          "type": "string",
+          "enum": ["working_concept", "draft", "under_review", "approved", "validated", "superseded", "archived"]
+        },
+        "governanceStatus": {
+          "type": "string",
+          "enum": ["not_evaluated", "candidate", "under_ip_review", "admitted", "admission_declined", "governance_withdrawn", "pending_external_determination"],
+          "description": "Institutional IP governance status — separate from lifecycle; admitted never implies legal ownership."
+        },
+        "maturity": {
+          "type": "string",
+          "enum": ["emerging", "defined", "tested", "established", "mature"]
+        },
+        "readiness": {
+          "type": "object",
+          "description": "Nine independent readiness dimensions (IPFv1 §4). Never collapsed.",
+          "required": [
+            "internalReference", "internalOperationalUse", "methodUse",
+            "educationalAdaptation", "publicationReview", "publicRelease",
+            "softwareImplementation", "clientUse", "licensingReview"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "internalReference": { "$ref": "#/$defs/readinessValue" },
+            "internalOperationalUse": { "$ref": "#/$defs/readinessValue" },
+            "methodUse": { "$ref": "#/$defs/readinessValue" },
+            "educationalAdaptation": { "$ref": "#/$defs/readinessValue" },
+            "publicationReview": { "$ref": "#/$defs/readinessValue" },
+            "publicRelease": { "$ref": "#/$defs/readinessValue" },
+            "softwareImplementation": { "$ref": "#/$defs/readinessValue" },
+            "clientUse": { "$ref": "#/$defs/readinessValue" },
+            "licensingReview": { "$ref": "#/$defs/readinessValue" }
+          }
+        },
+        "disclosure": {
+          "type": "string",
+          "enum": ["public", "internal", "confidential", "proprietary", "restricted", "unresolved"],
+          "description": "Handling class only; proprietary is never legally enforceable protection, and public never implies ownership or relicensing."
+        },
+        "handlingRestrictions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "origin": {
+          "type": "string",
+          "enum": ["original_institutional", "client_derived", "third_party_derived", "jointly_developed", "acquired", "unknown", "not_applicable"],
+          "description": "Never implies ownership."
+        },
+        "adaptation": {
+          "type": "string",
+          "enum": ["educational_adaptation", "publishing_adaptation", "software_implementation", "brand_implementation", "method_adaptation", "none", "unresolved"]
+        },
+        "institutionalValueRationale": { "type": "string", "minLength": 1 },
+        "admission": {
+          "type": "object",
+          "required": ["decision", "basis", "decisionDate", "note"],
+          "additionalProperties": false,
+          "properties": {
+            "decision": {
+              "type": "string",
+              "enum": ["governance_record_admission", "substantive_admission", "not_admitted"],
+              "description": "substantive_admission requires a separately approved source asset and recorded decision; only governance_record_admission exists in this phase."
+            },
+            "basis": { "type": "string", "minLength": 1 },
+            "decisionDate": { "type": ["string", "null"] },
+            "note": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Must preserve that admission creates no legal ownership."
+            }
+          }
+        },
+        "authority": {
+          "type": "object",
+          "required": ["authorityBasis", "approvingAuthority", "substantiveAuthority", "constitutionalSubordination"],
+          "additionalProperties": false,
+          "properties": {
+            "authorityBasis": {
+              "type": "string",
+              "minLength": 1,
+              "description": "The approving source section. Public website content is never a valid authority basis."
+            },
+            "approvingAuthority": {
+              "type": "object",
+              "required": ["basis", "configurable", "subordinateTo"],
+              "additionalProperties": false,
+              "properties": {
+                "basis": { "type": "string", "minLength": 1 },
+                "configurable": {
+                  "type": "boolean",
+                  "const": true,
+                  "description": "Must be true: no immutable office, named individual, or technical role as permanent authority."
+                },
+                "subordinateTo": { "type": "string", "minLength": 1 }
+              }
+            },
+            "substantiveAuthority": {
+              "type": "string",
+              "minLength": 1,
+              "description": "The source room retaining authority over the underlying substance."
+            },
+            "constitutionalSubordination": { "type": "boolean", "const": true }
+          }
+        },
+        "stewardship": {
+          "type": "object",
+          "required": ["institutionalSteward", "technicalCustodian", "corporateRecordReferences"],
+          "additionalProperties": false,
+          "properties": {
+            "institutionalSteward": { "type": "string", "minLength": 1 },
+            "technicalCustodian": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Technical custody is not institutional stewardship and confers no authority."
+            },
+            "corporateRecordReferences": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Evidence pointers to Corporate Headquarters / legal records where applicable; the repository never performs those functions."
+            }
+          }
+        },
+        "provenance": {
+          "type": "object",
+          "required": ["creators", "contributors", "sourceMaterials", "developmentHistory", "evidenceReferences"],
+          "additionalProperties": false,
+          "properties": {
+            "creators": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Known creator/authorship evidence — factual recording, never a legal authorship or inventorship conclusion."
+            },
+            "contributors": { "type": "array", "items": { "type": "string" } },
+            "sourceMaterials": { "type": "array", "items": { "type": "string" } },
+            "developmentHistory": { "type": "string" },
+            "evidenceReferences": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "ownershipAndRights": {
+          "type": "object",
+          "required": [
+            "ownershipStatus", "rightsStatus", "legalConfirmation",
+            "agreementReferences", "registrationReferences",
+            "thirdPartyInterest", "clientInterest", "clientDerivedReviewStatus"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "ownershipStatus": {
+              "type": "string",
+              "enum": [
+                "not_evaluated", "claimed_institutional_interest", "pending_review",
+                "third_party_interest_known", "mixed_or_joint_interest_possible",
+                "legally_confirmed_institutional_ownership",
+                "legally_confirmed_third_party_ownership", "unresolved"
+              ],
+              "description": "Conservative factual states. legally_confirmed_* requires authoritative evidence references (validator-enforced)."
+            },
+            "rightsStatus": {
+              "type": "string",
+              "enum": [
+                "not_evaluated", "rights_information_incomplete",
+                "agreement_reference_recorded", "registration_reference_recorded",
+                "restrictions_known", "legally_reviewed", "unresolved"
+              ],
+              "description": "Evidence status, never a rights conclusion."
+            },
+            "legalConfirmation": {
+              "type": "string",
+              "enum": ["not_confirmed", "evidence_recorded", "confirmed"],
+              "description": "confirmed requires authoritative Corporate Headquarters or legal evidence (validator-enforced)."
+            },
+            "agreementReferences": { "type": "array", "items": { "type": "string" } },
+            "registrationReferences": { "type": "array", "items": { "type": "string" } },
+            "thirdPartyInterest": { "type": "boolean" },
+            "clientInterest": { "type": "boolean" },
+            "clientDerivedReviewStatus": {
+              "type": "string",
+              "enum": ["not_applicable", "review_required", "under_review", "review_complete"],
+              "description": "Required to be a real review state when origin is client_derived (validator-enforced)."
+            }
+          }
+        },
+        "relationships": { "type": "array", "items": { "$ref": "#/$defs/relationshipRef" } },
+        "methodologyRelationships": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/relationshipRef" },
+          "description": "Traceable references to Method Library records only — never an admission of a method record absent a separate recorded admission decision."
+        },
+        "educationRelationships": { "type": "array", "items": { "$ref": "#/$defs/relationshipRef" } },
+        "publicationRelationships": { "type": "array", "items": { "$ref": "#/$defs/relationshipRef" } },
+        "brandRelationships": { "type": "array", "items": { "$ref": "#/$defs/relationshipRef" } },
+        "softwareRelationships": { "type": "array", "items": { "$ref": "#/$defs/relationshipRef" } },
+        "supersedes": { "type": ["string", "null"], "pattern": "^ip-[0-9]{4}$" },
+        "supersededBy": { "type": ["string", "null"], "pattern": "^ip-[0-9]{4}$" },
+        "historicalVersions": { "type": "array", "items": { "type": "string" } },
+        "archivalStatus": {
+          "type": "string",
+          "enum": ["active", "superseded_retained", "archived", "declined_retained"]
+        },
+        "commercialStatus": {
+          "type": "string",
+          "enum": ["unresolved", "not_applicable"],
+          "description": "Deliberately minimal: no commercial, licensing, or valuation vocabulary exists in this phase; anything commercial is a later Corporate Headquarters matter."
+        },
+        "knownLimitations": { "type": "array", "items": { "type": "string" } },
+        "openQuestions": { "type": "array", "items": { "type": "string" } },
+        "unresolvedMatters": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Unresolved legal or institutional matters — visible until resolved by the appropriate authority; never silently treated as approved."
+        },
+        "validationEvidence": { "type": "array", "items": { "type": "string" } },
+        "changeRationale": { "type": "string", "minLength": 1 },
+        "governingReferences": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}
