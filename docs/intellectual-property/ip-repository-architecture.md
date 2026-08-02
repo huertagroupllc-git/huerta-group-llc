@@ -14,6 +14,60 @@ authentication, API, search interface, portal, dashboard, or IP
 management system — search/retrieval exist only as future capability
 metadata) and **no legal or commercial determination of any kind**.
 
+## Foundation governance dimensions (§2)
+
+The approved Foundation v1 architecture consists of eleven governance
+dimensions (§§2.1–2.11), each realized here without collapse:
+
+1. **Governing Doctrine** (§2.1) — institutional meaning, admission
+   principles, stewardship principles, institutional boundaries, and
+   the relationship to legal and commercial administration; carried by
+   the Foundation source (`ip-0001`) and doctrine record (`ip-0002`).
+2. **Asset Classification** (§2.2) — approved class, substantive source
+   authority, functional role, approved-vs-provisional status;
+   `ip-0003` plus the schema's class and descriptor fields.
+3. **Lifecycle** (§2.3) — development, review, approval, validation,
+   supersession, and archival treatment; `ip-0004` plus the lifecycle
+   and archival fields.
+4. **Institutional Governance Status** (§2.4) — not evaluated →
+   candidate → under review → admitted / rejected / removed, with
+   history never erased; the `governanceStatus` field, distinct from
+   maturity.
+5. **Ownership and Rights Status** (§2.5) — known ownership and rights
+   information recorded without unsupported legal determinations:
+   claimed institutional interest, known creators and contributors,
+   agreement references, third-party interests, pending review, and
+   legally confirmed states only where authoritative documentation
+   exists; the `ownershipAndRights` fields.
+6. **Stewardship** (§2.6) — authoritative substantive source,
+   institutional IP steward, responsible reviewing authority, technical
+   custodian, and corporate or legal administrator where applicable;
+   the `stewardship` and `authority` fields.
+7. **Disclosure** (§2.7) — authorized visibility and handling, never
+   equivalent to ownership; `ip-0006` plus the disclosure fields.
+8. **Relationships** (§2.8) — source knowledge, methodological records,
+   parents and derivatives, adaptations, implementations, publications,
+   educational uses, software and brand implementations, client-derived
+   inputs, and supersession links; the typed relationship arrays.
+9. **Evidence and Provenance** (§2.9) — origin, authorship,
+   contributors, development history, source materials, review and
+   approval decisions, validation evidence, and agreement or
+   registration references where available; the `provenance` and
+   evidence fields.
+10. **Preservation** (§2.10) — durable retention, version history,
+    supersession traceability, historical-status retention, and
+    preservation of rejected, provisional, superseded, transferred, and
+    retired records where institutionally significant.
+11. **Intentionally Incomplete Architectural Areas** (§2.11) — legal
+    ownership doctrine, chain-of-title procedures, licensing and
+    commercialization architecture, portfolio valuation, royalty
+    administration, patent strategy, trademark strategy, trade-secret
+    governance, enforcement strategy,
+    acquisition and transfer strategy, contributor-rights policy, and
+    joint-venture ownership doctrine remain incomplete: the repository
+    may accommodate future governance in these areas but must not
+    encode substantive rules that have not been approved.
+
 ## Record architecture
 
 - **Source vs repository records.** The Foundation source is

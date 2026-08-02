@@ -192,7 +192,7 @@
     {
       "id": "ip-repository",
       "name": "Intellectual Property Repository",
-      "description": "Institutional IP Repository. The repository-based governance foundation exists (Intellectual Property Foundation v1, architecture, schema, registry, six approved governance records, validation); no substantive asset is admitted, and all legally or commercially operative matters remain with Corporate Headquarters / legal authority.",
+      "description": "Institutional IP Repository. The repository-based governance foundation is complete (the full approved Intellectual Property Foundation v1 source, architecture, schema, registry, six approved governance records, validation); no substantive asset is admitted, and all legally or commercially operative matters remain with Corporate Headquarters / legal authority.",
       "category": "institutional-branch",
       "maturity": "partial",
       "architecturalDisposition": "current_repository_artifacts",
@@ -219,7 +219,6 @@
       ],
       "unresolvedDecisions": [
         "Substantive asset admission is blocked: each future asset requires an approved source and a separate admission decision (none admitted; the six initial records are governance records).",
-        "Verbatim sectional prose of IPFv1 (including the eleven architectural dimensions) awaits transmission and insertion through Intellectual Property authority.",
         "All legally and commercially operative matters (ownership, protection, registration, licensing, valuation, commercialization) are reserved to Corporate Headquarters / legal authority.",
         "Method Library referrals remain not_referred; future runtime capabilities (search, access control, database) require their own authorization (ADR-0003)."
       ],

@@ -49,7 +49,7 @@
         "sourceMaterials": [
           "docs/intellectual-property/intellectual-property-foundation-v1.md"
         ],
-        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content.",
+        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
       },
       "ownershipAndRights": {
@@ -97,7 +97,7 @@
       "validationEvidence": [
         "npm run validate:ip"
       ],
-      "changeRationale": "Initial record creation from Intellectual Property Foundation v1.",
+      "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
         "docs/governance/huerta-group-constitution.md",
         "docs/intellectual-property/ip-repository-architecture.md"
@@ -108,10 +108,9 @@
       "purpose": "Establish the bounded institutional definition, architecture, classification, lifecycle, authority, disclosure, relationships, implementation boundaries, dependencies, and unresolved matters for the initial Institutional Intellectual Property Repository.",
       "scope": "Institution-wide intellectual-property governance.",
       "knownLimitations": [
-        "The complete approved prose of the ten numbered sections (including the eleven architectural dimensions, not individually named in the transmission) was not transmitted; it awaits verbatim insertion through Intellectual Property authority and is never reconstructed."
+        "The formal approval date was not transmitted (the approval determination text itself was); effectiveDate remains null pending Intellectual Property authority."
       ],
       "openQuestions": [
-        "Pending verbatim sectional text.",
         "Final constitutional allocation of IP approval authority."
       ],
       "unresolvedMatters": [
@@ -173,7 +172,7 @@
         "sourceMaterials": [
           "docs/intellectual-property/intellectual-property-foundation-v1.md"
         ],
-        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content.",
+        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
       },
       "ownershipAndRights": {
@@ -209,7 +208,7 @@
       "validationEvidence": [
         "npm run validate:ip"
       ],
-      "changeRationale": "Initial record creation from Intellectual Property Foundation v1.",
+      "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
         "docs/intellectual-property/intellectual-property-foundation-v1.md",
         "docs/intellectual-property/ip-repository-architecture.md"
@@ -222,11 +221,9 @@
       "purpose": "Define institutional intellectual property and establish its admission criteria, scope, relationships, and exclusions.",
       "scope": "All Huerta Group institutional intellectual-property identification and governance.",
       "knownLimitations": [
-        "Governs by reference: the full §§1.1–1.13 text awaits verbatim insertion; this record asserts no definition content beyond the transmitted admission principle."
+        "Summary record: Foundation §§1.1–1.13 are authoritative and correct this record wherever they differ; the public Intellectual Property page is never a source of definition content."
       ],
-      "openQuestions": [
-        "Pending verbatim §§1.1–1.13 text (Intellectual Property authority)."
-      ],
+      "openQuestions": [],
       "unresolvedMatters": [],
       "institutionalValueRationale": "Governs what may and may not be treated as institutional intellectual property.",
       "readiness": {
@@ -284,7 +281,7 @@
         "sourceMaterials": [
           "docs/intellectual-property/intellectual-property-foundation-v1.md"
         ],
-        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content.",
+        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
       },
       "ownershipAndRights": {
@@ -320,7 +317,7 @@
       "validationEvidence": [
         "npm run validate:ip"
       ],
-      "changeRationale": "Initial record creation from Intellectual Property Foundation v1.",
+      "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
         "docs/intellectual-property/intellectual-property-foundation-v1.md",
         "docs/intellectual-property/ip-repository-architecture.md"
@@ -333,7 +330,6 @@
       "purpose": "Define the approved asset classes, classification principles, composite treatment, and provisional-class limitations.",
       "scope": "Classification of institutional IP records.",
       "knownLimitations": [
-        "Full §3 classification-principles prose pending verbatim insertion.",
         "Provisional classes are non-authoritative descriptors; promotion requires an authorized vocabulary update."
       ],
       "openQuestions": [],
@@ -394,7 +390,7 @@
         "sourceMaterials": [
           "docs/intellectual-property/intellectual-property-foundation-v1.md"
         ],
-        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content.",
+        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
       },
       "ownershipAndRights": {
@@ -430,7 +426,7 @@
       "validationEvidence": [
         "npm run validate:ip"
       ],
-      "changeRationale": "Initial record creation from Intellectual Property Foundation v1.",
+      "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
         "docs/intellectual-property/intellectual-property-foundation-v1.md",
         "docs/intellectual-property/ip-repository-architecture.md"
@@ -443,10 +439,10 @@
       "purpose": "Define lifecycle states, institutional IP governance statuses, readiness dimensions, maturity levels, supersession, and archival principles.",
       "scope": "All institutional IP repository records.",
       "knownLimitations": [
-        "Full §4 prose pending verbatim insertion."
+        "Summary record: Foundation §4 is authoritative and corrects this record wherever they differ."
       ],
       "openQuestions": [
-        "Criteria for the validated lifecycle state and maturity advancement await IP-authority definition."
+        "Detailed evidence standards for the validated lifecycle state and criteria for maturity advancement await IP-authority definition beyond the §4 scope rules."
       ],
       "unresolvedMatters": [],
       "institutionalValueRationale": "Prevents status collapse and preserves every governance distinction across the repository.",
@@ -505,7 +501,7 @@
         "sourceMaterials": [
           "docs/intellectual-property/intellectual-property-foundation-v1.md"
         ],
-        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content.",
+        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
       },
       "ownershipAndRights": {
@@ -541,7 +537,7 @@
       "validationEvidence": [
         "npm run validate:ip"
       ],
-      "changeRationale": "Initial record creation from Intellectual Property Foundation v1.",
+      "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
         "docs/intellectual-property/intellectual-property-foundation-v1.md",
         "docs/intellectual-property/ip-repository-architecture.md",
@@ -555,7 +551,6 @@
       "purpose": "Define admission requirements and the boundaries among substantive authority, IP authority, Institutional Knowledge Architecture, Education, Branding, Platform & Systems Development, and Corporate Headquarters.",
       "scope": "All institutional IP governance and repository decisions.",
       "knownLimitations": [
-        "Full §5 prose pending verbatim insertion.",
         "Subject to future constitutional refinement; the configurable interim authority representation stands."
       ],
       "openQuestions": [
@@ -620,7 +615,7 @@
         "sourceMaterials": [
           "docs/intellectual-property/intellectual-property-foundation-v1.md"
         ],
-        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content.",
+        "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
       },
       "ownershipAndRights": {
@@ -656,7 +651,7 @@
       "validationEvidence": [
         "npm run validate:ip"
       ],
-      "changeRationale": "Initial record creation from Intellectual Property Foundation v1.",
+      "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
         "docs/intellectual-property/intellectual-property-foundation-v1.md",
         "docs/intellectual-property/ip-repository-architecture.md"
@@ -669,7 +664,6 @@
       "purpose": "Define approved disclosure classifications and preserve separate treatment of ownership, rights, origin, client derivation, educational adaptation, publishing adaptation, and software implementation.",
       "scope": "All institutional IP records and authorized representations.",
       "knownLimitations": [
-        "Full §6 prose pending verbatim insertion.",
         "No record carries public disclosure; formal public-disclosure criteria await IP authority."
       ],
       "openQuestions": [],

@@ -55,7 +55,7 @@ platform.
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
-| Intellectual Property Foundation v1 | [`intellectual-property/intellectual-property-foundation-v1.md`](intellectual-property/intellectual-property-foundation-v1.md) | The authoritative approved IP governance foundation (v1.0) — source of the six initial repository records; sectional prose pending verbatim insertion |
+| Intellectual Property Foundation v1 | [`intellectual-property/intellectual-property-foundation-v1.md`](intellectual-property/intellectual-property-foundation-v1.md) | The complete authoritative approved IP governance foundation (v1.0) — source of the six initial repository records |
 | IP Repository — Technical Architecture | [`intellectual-property/ip-repository-architecture.md`](intellectual-property/ip-repository-architecture.md) | Repository-based IP Repository architecture: separated status dimensions, authority/stewardship/custody roles, Corporate Headquarters boundary, no runtime or legal determinations |
 | IP repository records | [`intellectual-property/records/`](intellectual-property/records/) | The five derived governance records (ip-0002 – ip-0006); ip-0001 is the foundation itself. Metadata: `knowledge/ip-registry.json` |
 

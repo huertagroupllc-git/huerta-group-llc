@@ -764,8 +764,7 @@
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "statusNote": "Approved v1.0; the complete prose of the ten numbered sections (including the eleven architectural dimensions) awaits verbatim insertion through Intellectual Property authority (recorded in the document).",
-      "summary": "The canonical repository record of the approved Intellectual Property Foundation v1: IP governance structure, controlled vocabularies, status models, authority and disclosure boundaries, the six initial repository records, technical boundaries, and unresolved matters.",
+      "summary": "The canonical repository record of the complete approved Intellectual Property Foundation v1: definition and scope, eleven governance dimensions, seventeen asset classes, lifecycle, authority, disclosure, the six initial repository records, technical boundaries, dependencies, and unresolved matters.",
       "provenance": {
         "origin": "Intellectual Property room",
         "approvalReference": "Determination “INTELLECTUAL PROPERTY FOUNDATION V1 READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 4 implementing authorization (recorded in the document).",
@@ -821,7 +820,7 @@
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Approved governing doctrine for institutional IP definition, admission criteria, scope, relationships, and exclusions; governs by reference pending verbatim insertion of the sectional text.",
+      "summary": "Approved governing doctrine for institutional IP definition, admission criteria, scope, relationships, and exclusions, summarizing Foundation §§1.1–1.13; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Intellectual Property room",
         "approvalReference": "Intellectual Property Foundation v1 §§1.1–1.13 (authority basis recorded on the registry record)",
