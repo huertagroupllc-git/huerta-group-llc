@@ -1,0 +1,523 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huertagroupllc.com/knowledge/education-schema.json",
+  "title": "Huerta Group Education Registry Schema",
+  "description": "Validates knowledge/education-registry.json — the authoritative metadata store of the governed Education Platform Foundation (Education & Workforce Development Foundation v1). Governance metadata only: no program, course, learner, instructor, assessment instrument, credential, offering, or production learner-data record is represented as existing or authorized. Provisional types remain visibly provisional; every readiness dimension is separate; approval authority remains configurable.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "registryVersion",
+    "provisionalAssetTypes",
+    "assessmentCategories",
+    "conceptualLearnerRecordTypes",
+    "records"
+  ],
+  "properties": {
+    "registryVersion": { "type": "integer", "minimum": 1 },
+    "provisionalAssetTypes": {
+      "description": "EWDFv1 §7.7, §7.9, §7.20–7.21, §10.4–10.8 provisional conceptual types — recordable as provisional descriptors only, never approved operational record types.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/provisionalType" },
+      "uniqueItems": true
+    },
+    "assessmentCategories": {
+      "description": "EWDFv1 §9 conceptual assessment vocabulary. Presence creates no assessment instrument (§9.14).",
+      "type": "array",
+      "items": { "$ref": "#/$defs/assessmentCategory" },
+      "uniqueItems": true
+    },
+    "conceptualLearnerRecordTypes": {
+      "description": "EWDFv1 §14.1 conceptual future record types — documented boundaries only; none is implemented, and production use is blocked pending §14.5 privacy and legal governance (§14.2).",
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "records": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/educationRecord" }
+    }
+  },
+  "$defs": {
+    "recordId": { "type": "string", "pattern": "^ed-[0-9]{4}$" },
+    "methodRecordId": { "type": "string", "pattern": "^mr-[0-9]{4}$" },
+    "ipRecordId": { "type": "string", "pattern": "^ip-[0-9]{4}$" },
+    "version": { "type": "string", "pattern": "^v[0-9]+\\.[0-9]+$" },
+    "governanceAssetType": {
+      "description": "Governance-record types used by the twelve approved initial records (EWDFv1 §18, §22.2).",
+      "enum": [
+        "institutional_education_foundation",
+        "education_governance_standard",
+        "educational_doctrine",
+        "educational_architecture_standard",
+        "competency_architecture_standard",
+        "classification_standard",
+        "lifecycle_and_governance_standard",
+        "assessment_governance_standard",
+        "quality_standard",
+        "technology_boundary_standard",
+        "source_traceability_standard"
+      ]
+    },
+    "offeringAssetType": {
+      "description": "Approved conceptual offering and learning-asset types (EWDFv1 §7). Conceptual architecture only — no record of any of these types is authorized in this phase (§18, §22.2), and the validator rejects them.",
+      "enum": [
+        "program",
+        "learning_pathway",
+        "course",
+        "module",
+        "lesson",
+        "workshop",
+        "cohort",
+        "organizational_training",
+        "learning_objective",
+        "competency",
+        "assessment",
+        "exercise",
+        "practical_project",
+        "capstone",
+        "case_study",
+        "learning_resource",
+        "instructor_guidance",
+        "continuing_education_activity",
+        "educational_adaptation"
+      ]
+    },
+    "educationalAssetType": {
+      "anyOf": [
+        { "$ref": "#/$defs/governanceAssetType" },
+        { "$ref": "#/$defs/offeringAssetType" }
+      ]
+    },
+    "provisionalType": {
+      "enum": [
+        "seminar",
+        "executive_education_as_program_class",
+        "credential",
+        "certification",
+        "certificate_of_completion",
+        "continuing_education_recognition",
+        "organizational_certification",
+        "digital_badge"
+      ]
+    },
+    "assessmentCategory": {
+      "enum": [
+        "knowledge_check",
+        "practice_activity",
+        "formative_assessment",
+        "summative_assessment",
+        "competency_assessment",
+        "practical_project_review",
+        "capstone_evaluation",
+        "organizational_outcome_verification",
+        "credential_evaluation"
+      ]
+    },
+    "contentLifecycleState": {
+      "description": "EWDFv1 §11.1 — separate from program maturity and from every readiness dimension (§11.5).",
+      "enum": [
+        "working_concept",
+        "draft",
+        "under_review",
+        "approved",
+        "superseded",
+        "retired",
+        "archived"
+      ]
+    },
+    "programMaturity": {
+      "description": "EWDFv1 §11.2–11.3 — conceptual program-maturity states; not_applicable for non-program records. Use of a state authorizes no program.",
+      "enum": [
+        "working_concept",
+        "draft",
+        "under_review",
+        "approved",
+        "pilot_ready",
+        "pilot",
+        "validated",
+        "active",
+        "paused",
+        "superseded",
+        "retired",
+        "archived",
+        "not_applicable"
+      ]
+    },
+    "educationalAuthorityStatus": {
+      "description": "EWDFv1 §12.1, §12.9 — whether the record is authoritative educational governance; distinct from lifecycle, maturity, and readiness.",
+      "enum": [
+        "authoritative",
+        "provisional",
+        "under_review",
+        "not_established",
+        "superseded",
+        "retired",
+        "archived"
+      ]
+    },
+    "readinessValue": {
+      "enum": ["approved", "not_approved", "not_applicable", "unresolved"]
+    },
+    "readiness": {
+      "description": "EWDFv1 §11.4 — ten independent readiness dimensions; no dimension is ever inferred from another (§11.5).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "educationalSubstanceApproval",
+        "programApproval",
+        "deliveryReadiness",
+        "enrollmentAvailability",
+        "assessmentReadiness",
+        "credentialReadiness",
+        "publicDisclosureReadiness",
+        "technologyImplementationReadiness",
+        "legalAndOperationalReadiness",
+        "commercialReadiness"
+      ],
+      "properties": {
+        "educationalSubstanceApproval": { "$ref": "#/$defs/readinessValue" },
+        "programApproval": { "$ref": "#/$defs/readinessValue" },
+        "deliveryReadiness": { "$ref": "#/$defs/readinessValue" },
+        "enrollmentAvailability": { "$ref": "#/$defs/readinessValue" },
+        "assessmentReadiness": { "$ref": "#/$defs/readinessValue" },
+        "credentialReadiness": { "$ref": "#/$defs/readinessValue" },
+        "publicDisclosureReadiness": { "$ref": "#/$defs/readinessValue" },
+        "technologyImplementationReadiness": { "$ref": "#/$defs/readinessValue" },
+        "legalAndOperationalReadiness": { "$ref": "#/$defs/readinessValue" },
+        "commercialReadiness": { "$ref": "#/$defs/readinessValue" }
+      }
+    },
+    "disclosure": {
+      "enum": ["internal", "public", "restricted", "unresolved"]
+    },
+    "audienceContext": {
+      "enum": [
+        "individual_professional",
+        "organizational_team",
+        "leader_or_executive",
+        "internal_huerta_group_personnel",
+        "consultant_or_practitioner",
+        "organizational_client",
+        "cohort_participant",
+        "self_directed_learner",
+        "unresolved",
+        "not_applicable"
+      ]
+    },
+    "deliveryModel": {
+      "enum": [
+        "instructor_led",
+        "facilitated",
+        "cohort_based",
+        "self_paced",
+        "blended",
+        "organizational_training",
+        "workshop_based",
+        "project_based",
+        "mentored",
+        "technology_assisted",
+        "unresolved",
+        "not_applicable"
+      ]
+    },
+    "retirementStatus": { "enum": ["not_retired", "retired"] },
+    "archivalStatus": {
+      "enum": ["active", "superseded_retained", "retired_retained", "archived"]
+    },
+    "typedRelationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target", "nature"],
+      "properties": {
+        "target": { "type": "string", "minLength": 1 },
+        "nature": {
+          "enum": [
+            "related",
+            "depends_on",
+            "governed_by",
+            "traceability",
+            "candidate_source",
+            "adaptation_source",
+            "version_dependency"
+          ]
+        },
+        "sourceVersion": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "educationalAdaptation": {
+      "description": "EWDFv1 §17.2 adaptation structure. None exists in this phase; any future entry requires the §17.3 authority chain.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "governingSource",
+        "sourceVersion",
+        "adaptationPurpose",
+        "adaptationScope",
+        "responsibleAuthority",
+        "disclosure",
+        "reviewStatus"
+      ],
+      "properties": {
+        "governingSource": { "type": "string", "minLength": 1 },
+        "sourceVersion": { "type": "string", "minLength": 1 },
+        "adaptationPurpose": { "type": "string", "minLength": 1 },
+        "adaptationScope": { "type": "string", "minLength": 1 },
+        "responsibleAuthority": { "type": "string", "minLength": 1 },
+        "disclosure": { "$ref": "#/$defs/disclosure" },
+        "materialTransformation": { "type": "string" },
+        "knownOmissions": { "type": "array", "items": { "type": "string" } },
+        "reviewStatus": {
+          "enum": ["not_reviewed", "under_review", "reviewed", "unresolved"]
+        },
+        "supersessionEffect": { "type": "string" }
+      }
+    },
+    "qualityMetadata": {
+      "description": "EWDFv1 §13.2 minimum quality metadata.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "qualityReviewStatus": {
+          "enum": [
+            "source_approved",
+            "not_reviewed",
+            "under_review",
+            "review_recorded",
+            "unresolved",
+            "not_applicable"
+          ]
+        },
+        "reviewType": { "type": "string" },
+        "reviewerAuthority": { "type": "string" },
+        "reviewDate": { "type": ["string", "null"] },
+        "accuracyStatus": { "type": "string" },
+        "methodologicalFidelityStatus": { "type": "string" },
+        "instructionalCoherenceStatus": { "type": "string" },
+        "accessibilityReviewStatus": { "type": "string" },
+        "assessmentReadinessStatus": { "type": "string" },
+        "evidenceBasis": { "type": "array", "items": { "type": "string" } },
+        "requiredCorrectiveActions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "nextReviewCondition": { "type": ["string", "null"] },
+        "relatedDecisionRecords": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "approvalEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["action", "authority", "basis"],
+      "properties": {
+        "action": {
+          "enum": [
+            "initial_approval",
+            "revision_approval",
+            "supersession",
+            "retirement",
+            "archival",
+            "review"
+          ]
+        },
+        "authority": { "type": "string", "minLength": 1 },
+        "basis": { "type": "string", "minLength": 1 },
+        "date": { "type": ["string", "null"] }
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "authorityBasis",
+        "approvingAuthority",
+        "substantiveAuthority",
+        "constitutionalSubordination"
+      ],
+      "properties": {
+        "authorityBasis": { "type": "string", "minLength": 1 },
+        "approvingAuthority": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["basis", "configurable", "subordinateTo"],
+          "properties": {
+            "basis": { "type": "string", "minLength": 1 },
+            "configurable": { "const": true },
+            "subordinateTo": { "type": "string", "minLength": 1 }
+          }
+        },
+        "substantiveAuthority": { "type": "string", "minLength": 1 },
+        "constitutionalSubordination": { "const": true }
+      }
+    },
+    "educationRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "recordType",
+        "educationalAssetType",
+        "provisionalDescriptors",
+        "purpose",
+        "scope",
+        "path",
+        "authoritativeSource",
+        "sourceSections",
+        "version",
+        "effectiveDate",
+        "contentLifecycleState",
+        "programMaturity",
+        "educationalAuthorityStatus",
+        "readiness",
+        "disclosure",
+        "audienceContexts",
+        "deliveryModelCompatibility",
+        "capabilityRelationships",
+        "competencyRelationships",
+        "methodologyRelationships",
+        "ipRelationships",
+        "knowledgeRelationships",
+        "educationalAdaptations",
+        "sourceVersionDependencies",
+        "qualityMetadata",
+        "evidenceMetadata",
+        "knownLimitations",
+        "openQuestions",
+        "unresolvedMatters",
+        "authority",
+        "approvalHistory",
+        "dependencies",
+        "relatedRecords",
+        "supersedes",
+        "supersededBy",
+        "retirementStatus",
+        "archivalStatus",
+        "historicalVersions",
+        "changeRationale",
+        "governingReferences",
+        "technicalImplementationAuthorization",
+        "containsSubstantiveEducationalRequirements"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/recordId" },
+        "title": { "type": "string", "minLength": 1 },
+        "recordType": {
+          "enum": ["governance_foundation", "governance_record"]
+        },
+        "educationalAssetType": { "$ref": "#/$defs/educationalAssetType" },
+        "provisionalDescriptors": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/provisionalType" },
+          "uniqueItems": true
+        },
+        "purpose": { "type": "string", "minLength": 1 },
+        "scope": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "authoritativeSource": { "type": "string", "minLength": 1 },
+        "sourceSections": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "version": { "$ref": "#/$defs/version" },
+        "effectiveDate": { "type": ["string", "null"] },
+        "contentLifecycleState": { "$ref": "#/$defs/contentLifecycleState" },
+        "programMaturity": { "$ref": "#/$defs/programMaturity" },
+        "educationalAuthorityStatus": {
+          "$ref": "#/$defs/educationalAuthorityStatus"
+        },
+        "readiness": { "$ref": "#/$defs/readiness" },
+        "disclosure": { "$ref": "#/$defs/disclosure" },
+        "audienceContexts": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/audienceContext" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "deliveryModelCompatibility": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/deliveryModel" },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "capabilityRelationships": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/typedRelationship" }
+        },
+        "competencyRelationships": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/typedRelationship" }
+        },
+        "methodologyRelationships": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/typedRelationship" }
+        },
+        "ipRelationships": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/typedRelationship" }
+        },
+        "knowledgeRelationships": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/typedRelationship" }
+        },
+        "educationalAdaptations": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/educationalAdaptation" }
+        },
+        "sourceVersionDependencies": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/typedRelationship" }
+        },
+        "qualityMetadata": { "$ref": "#/$defs/qualityMetadata" },
+        "evidenceMetadata": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "knownLimitations": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "openQuestions": { "type": "array", "items": { "type": "string" } },
+        "unresolvedMatters": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "authority": { "$ref": "#/$defs/authority" },
+        "approvalHistory": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/approvalEvent" },
+          "minItems": 1
+        },
+        "dependencies": { "type": "array", "items": { "type": "string" } },
+        "relatedRecords": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/recordId" }
+        },
+        "supersedes": {
+          "anyOf": [{ "$ref": "#/$defs/recordId" }, { "type": "null" }]
+        },
+        "supersededBy": {
+          "anyOf": [{ "$ref": "#/$defs/recordId" }, { "type": "null" }]
+        },
+        "retirementStatus": { "$ref": "#/$defs/retirementStatus" },
+        "archivalStatus": { "$ref": "#/$defs/archivalStatus" },
+        "historicalVersions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "changeRationale": { "type": "string", "minLength": 1 },
+        "governingReferences": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "technicalImplementationAuthorization": { "type": "boolean" },
+        "containsSubstantiveEducationalRequirements": { "type": "boolean" }
+      }
+    }
+  }
+}

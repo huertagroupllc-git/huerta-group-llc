@@ -80,6 +80,44 @@ references but are never *created* by the repository; approval
 authority remains configurable pending constitutional decision-rights
 architecture; and no runtime IP platform exists.
 
+## Education (internal)
+
+| Document | Canonical path | Purpose |
+| --- | --- | --- |
+| Education & Workforce Development Foundation v1 | [`education/education-workforce-development-foundation-v1.md`](education/education-workforce-development-foundation-v1.md) | The complete authoritative approved education governance foundation (v1.0) — source of the twelve initial education records |
+| Education Platform — Technical Architecture | [`education/education-platform-architecture.md`](education/education-platform-architecture.md) | Repository-based Education Platform Foundation architecture: separated lifecycle/maturity/readiness dimensions, configurable authority, traceability, learner-data boundaries, no LMS or runtime authorization |
+| Education records | [`education/records/`](education/records/) | The eleven derived governance records (ed-0002 – ed-0012); ed-0001 is the foundation itself. Metadata: `knowledge/education-registry.json` |
+
+**Education Platform maintenance** (see the architecture document for
+full rules): the registry (`knowledge/education-registry.json`, schema
+`knowledge/education-schema.json`) is the authoritative metadata store;
+`npm run validate:education` must pass with any education change.
+**Record presence does not authorize a program or offering, and no
+operational education platform exists** — no LMS, learner, instructor,
+program, course, curriculum, competency library, assessment instrument,
+credential, enrollment, or production learner data. **Adding any
+education record requires prior Education & Workforce Development
+authority** — the validator enforces exactly the twelve approved
+governance records, so a new record requires updating the approved set
+with its authorization, and any educational adaptation additionally
+requires methodology and IP traceability through the EWDFv1 §17.3
+authority chain. Provisional types (seminar, credential, certification, the §7/§10
+provisional recognitions, and digital badges from the implementing
+vocabulary) are recorded but never assignable as approved operational
+record types. Content
+lifecycle and program maturity are separate fields; the ten readiness
+dimensions are tracked independently — program approval never implies
+delivery authorization, delivery readiness never implies enrollment
+availability, completion never implies competency, and credential
+architecture never implies issuance authority. Conceptual learner,
+organization, participation, and assessment-data record types are
+documented boundaries only: production storage is blocked pending
+privacy and legal governance. Approval authority remains configurable
+pending constitutional decision-rights architecture. Superseded and
+retired records are retained, never deleted, with supersession links;
+a Foundation source update triggers governed review of derived records,
+never automatic modification.
+
 ## Architecture and development decisions
 
 | Document | Canonical path | Purpose |

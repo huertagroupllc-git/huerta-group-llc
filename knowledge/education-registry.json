@@ -1,0 +1,1450 @@
+{
+  "registryVersion": 1,
+  "provisionalAssetTypes": [
+    "seminar",
+    "executive_education_as_program_class",
+    "credential",
+    "certification",
+    "certificate_of_completion",
+    "continuing_education_recognition",
+    "organizational_certification",
+    "digital_badge"
+  ],
+  "assessmentCategories": [
+    "knowledge_check",
+    "practice_activity",
+    "formative_assessment",
+    "summative_assessment",
+    "competency_assessment",
+    "practical_project_review",
+    "capstone_evaluation",
+    "organizational_outcome_verification",
+    "credential_evaluation"
+  ],
+  "conceptualLearnerRecordTypes": [
+    "learner",
+    "organization",
+    "organizational_unit_or_team",
+    "cohort",
+    "enrollment_or_participation",
+    "program_assignment",
+    "learning_pathway_assignment",
+    "progress",
+    "assessment_attempt",
+    "evidence_submission",
+    "feedback",
+    "completion",
+    "competency_verification",
+    "credential_decision",
+    "continuing_education_history"
+  ],
+  "records": [
+    {
+      "id": "ed-0001",
+      "title": "Education & Workforce Development Foundation v1",
+      "recordType": "governance_foundation",
+      "educationalAssetType": "institutional_education_foundation",
+      "provisionalDescriptors": [],
+      "purpose": "Establish the authoritative initial education and workforce-development architecture.",
+      "scope": "Definitions, doctrine, architecture, governance, classifications, lifecycles, boundaries, records, quality, traceability, and technical implementation limits.",
+      "path": "docs/education/education-workforce-development-foundation-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§§1–22"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "preserved_verbatim_from_transmitted_source",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "The formal approval and effective date were not transmitted; effectiveDate remains null pending Education & Workforce Development authority."
+      ],
+      "openQuestions": [
+        "Final constitutional allocation of educational approval authority (EWDFv1 §20.1)."
+      ],
+      "unresolvedMatters": [
+        "All EWDFv1 §21 matters remain intentionally incomplete and unapproved; their absence is never approval, rejection, delegation, or permission.",
+        "Production learner, instructor, assessment, organizational, and participation data remains blocked pending privacy and legal governance (EWDFv1 §14.5, §20.10)."
+      ],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development room's approved institutional authority (EWDFv1 §1.3, §18.1); determination \"EDUCATION PLATFORM FOUNDATION READY FOR TECHNICAL IMPLEMENTATION\".",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Vision",
+        "Constitution",
+        "Methodology",
+        "Intellectual Property",
+        "Institutional Knowledge Architecture"
+      ],
+      "relatedRecords": [
+        "ed-0002",
+        "ed-0003",
+        "ed-0004",
+        "ed-0005",
+        "ed-0006",
+        "ed-0007",
+        "ed-0008",
+        "ed-0009",
+        "ed-0010",
+        "ed-0011",
+        "ed-0012"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md",
+        "docs/governance/vision-foundation-for-development.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0002",
+      "title": "Education Definition and Scope Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "education_governance_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Define education, workforce development, capability development, competency-based learning, organizational education, professional education, and knowledge transfer.",
+      "scope": "Terminology, institutional relationships, exclusions, and authority boundaries.",
+      "path": "docs/education/records/ed-0002-education-definition-and-scope-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§2",
+        "§18.2"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §2 is authoritative and corrects this record wherever they differ."
+      ],
+      "openQuestions": [],
+      "unresolvedMatters": [],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §2 (record definition §18.2).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Vision",
+        "Methodology"
+      ],
+      "relatedRecords": [
+        "ed-0003"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md",
+        "docs/governance/vision-foundation-for-development.md",
+        "docs/methodology/methodology-foundation-v1.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0003",
+      "title": "Educational Doctrine and Philosophy Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "educational_doctrine",
+      "provisionalDescriptors": [],
+      "purpose": "Establish enduring principles governing Huerta Group education.",
+      "scope": "Capability, competency, application, systems thinking, judgment, evidence, governance, AI responsibility, knowledge transfer, and continuous improvement.",
+      "path": "docs/education/records/ed-0003-educational-doctrine-and-philosophy-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§3",
+        "§18.3"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §3 is authoritative and corrects this record wherever they differ.",
+        "Public adaptation of doctrine requires approved brand and disclosure review (EWDFv1 §18.3); no public adaptation exists."
+      ],
+      "openQuestions": [],
+      "unresolvedMatters": [],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §3 (record definition §18.3).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Vision",
+        "Constitution"
+      ],
+      "relatedRecords": [
+        "ed-0002",
+        "ed-0010"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md",
+        "docs/governance/vision-foundation-for-development.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0004",
+      "title": "Educational Architecture Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "educational_architecture_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Define the approved high-level layers and relationships of Huerta Group's educational system.",
+      "scope": "Doctrine, capabilities, programs, experiences, assessment, application, verification, credentialing, continuing education, organizational training, quality, and technology.",
+      "path": "docs/education/records/ed-0004-educational-architecture-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§4",
+        "§18.4"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §4 is authoritative and corrects this record wherever they differ.",
+        "No layer's presence approves a program, experience, assessment, credential, or offering; the §4.13 architectural areas remain intentionally incomplete."
+      ],
+      "openQuestions": [],
+      "unresolvedMatters": [],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §4 (record definition §18.4).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Educational Doctrine and Philosophy Standard v1"
+      ],
+      "relatedRecords": [
+        "ed-0005",
+        "ed-0006"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0005",
+      "title": "Capability and Competency Architecture Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "competency_architecture_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Define core competency concepts and the minimum record architecture needed to represent them.",
+      "scope": "Capability, competency, knowledge, skill, judgment, practice, performance, objectives, outcomes, evidence, and relationships.",
+      "path": "docs/education/records/ed-0005-capability-and-competency-architecture-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§6",
+        "§18.5"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §6 is authoritative and corrects this record wherever they differ.",
+        "No competency library, competency level, role-based standard, scoring criterion, evidence threshold, performance standard, or competency mapping exists or is authorized (EWDFv1 §4.13, §19.1, §21)."
+      ],
+      "openQuestions": [],
+      "unresolvedMatters": [],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §6 (record definition §18.5).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Methodology",
+        "Institutional Knowledge Architecture"
+      ],
+      "relatedRecords": [
+        "ed-0009"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md",
+        "docs/methodology/methodology-foundation-v1.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0006",
+      "title": "Educational Asset Classification Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "classification_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Establish approved and provisional educational asset types without approving specific offerings.",
+      "scope": "Programs, pathways, courses, modules, lessons, workshops, cohorts, training, objectives, competencies, assessments, projects, capstones, resources, guidance, credentials, continuing education, and adaptations.",
+      "path": "docs/education/records/ed-0006-educational-asset-classification-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§7",
+        "§18.6"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §7 is authoritative and corrects this record wherever they differ.",
+        "Promotion of any provisional type is a reserved Education-authority decision; no offering-typed record may exist without separate educational approval (EWDFv1 §7.24)."
+      ],
+      "openQuestions": [],
+      "unresolvedMatters": [],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §7 (record definition §18.6).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Institutional Knowledge Architecture",
+        "Intellectual Property"
+      ],
+      "relatedRecords": [
+        "ed-0007"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md",
+        "docs/intellectual-property/intellectual-property-foundation-v1.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0007",
+      "title": "Educational Lifecycle and Readiness Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "lifecycle_and_governance_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Define content maturity, program maturity, readiness dimensions, supersession, retirement, and archival treatment.",
+      "scope": "Educational assets, programs, assessments, credentials, disclosure, delivery, enrollment, legal, commercial, and technical readiness.",
+      "path": "docs/education/records/ed-0007-educational-lifecycle-and-readiness-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§11",
+        "§18.7"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §11 is authoritative and corrects this record wherever they differ."
+      ],
+      "openQuestions": [
+        "Criteria for validated program maturity and evidence standards for state transitions await Education-authority definition."
+      ],
+      "unresolvedMatters": [],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §11 (record definition §18.7).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Institutional Knowledge Architecture"
+      ],
+      "relatedRecords": [
+        "ed-0008"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0008",
+      "title": "Educational Authority and Approval Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "education_governance_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Define how educational assets become authoritative while preserving peer-room authority and configurable future governance.",
+      "scope": "Approval, revision, supersession, methodology fidelity, IP authority, brand authority, development boundaries, and Corporate Headquarters boundaries.",
+      "path": "docs/education/records/ed-0008-educational-authority-and-approval-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§12",
+        "§18.8"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §12 is authoritative and corrects this record wherever they differ."
+      ],
+      "openQuestions": [
+        "Final constitutional allocation and delegation of educational approval authority."
+      ],
+      "unresolvedMatters": [
+        "Legally, financially, contractually, administratively, and commercially operative matters are reserved to Corporate Headquarters (EWDFv1 §12.8)."
+      ],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §12 (record definition §18.8).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Constitution",
+        "Methodology",
+        "Intellectual Property",
+        "Branding",
+        "Institutional Knowledge Architecture"
+      ],
+      "relatedRecords": [
+        "ed-0007"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md",
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/intellectual-property/intellectual-property-foundation-v1.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0009",
+      "title": "Assessment and Competency Verification Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "assessment_governance_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Define assessment distinctions, evidence concepts, human judgment requirements, and AI boundaries.",
+      "scope": "Knowledge checks, practice, formative and summative assessment, competency assessment, projects, capstones, organizational outcomes, and credential evaluation.",
+      "path": "docs/education/records/ed-0009-assessment-and-competency-verification-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§9",
+        "§18.9"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §9 is authoritative and corrects this record wherever they differ.",
+        "Assessment categories are governance vocabulary only: no assessment instrument, question, rubric, scoring system, or assessment operation exists or is authorized (EWDFv1 §9.14)."
+      ],
+      "openQuestions": [],
+      "unresolvedMatters": [],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §9 (record definition §18.9).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Capability and Competency Architecture Standard v1"
+      ],
+      "relatedRecords": [
+        "ed-0011"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0010",
+      "title": "Educational Quality and Evidence Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "quality_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Define the initial quality dimensions and metadata required for governed educational development.",
+      "scope": "Accuracy, fidelity, coherence, accessibility, relevance, application, validity, feedback, evidence, improvement, version control, and limitations.",
+      "path": "docs/education/records/ed-0010-educational-quality-and-evidence-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§13",
+        "§18.10"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §13 is authoritative and corrects this record wherever they differ.",
+        "Specific quality metrics and program-evaluation methodology remain intentionally incomplete (EWDFv1 §4.13); no educational offering exists to review."
+      ],
+      "openQuestions": [],
+      "unresolvedMatters": [],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §13 (record definition §18.10).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Methodology",
+        "Institutional Knowledge Architecture"
+      ],
+      "relatedRecords": [
+        "ed-0009"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md",
+        "docs/methodology/methodology-foundation-v1.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0011",
+      "title": "Educational Technology and AI Boundary Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "technology_boundary_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Define what educational technology may support and what it may not determine independently.",
+      "scope": "Records, delivery, assessment support, AI assistance, human review, privacy, model independence, traceability, and prohibited automated decisions.",
+      "path": "docs/education/records/ed-0011-educational-technology-and-ai-boundary-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§16",
+        "§18.11"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §16 is authoritative and corrects this record wherever they differ."
+      ],
+      "openQuestions": [],
+      "unresolvedMatters": [
+        "Production educational technology architecture and every vendor selection remain unresolved (EWDFv1 §4.13, §16.9); no LMS, AI provider, or runtime system exists or is authorized."
+      ],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §16 (record definition §18.11).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Internal Software Architecture Foundation",
+        "privacy and legal governance"
+      ],
+      "relatedRecords": [
+        "ed-0009"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md",
+        "docs/development/internal-software-architecture.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    },
+    {
+      "id": "ed-0012",
+      "title": "Educational Source Traceability Standard v1",
+      "recordType": "governance_record",
+      "educationalAssetType": "source_traceability_standard",
+      "provisionalDescriptors": [],
+      "purpose": "Govern relationships among educational assets, methodology, intellectual property, institutional knowledge, publishing, public adaptations, and software.",
+      "scope": "Source references, adaptation authority, version dependency, disclosure, supersession effects, and prohibited reconstruction.",
+      "path": "docs/education/records/ed-0012-educational-source-traceability-standard-v1.md",
+      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "sourceSections": [
+        "§17",
+        "§18.12"
+      ],
+      "version": "v1.0",
+      "effectiveDate": null,
+      "contentLifecycleState": "approved",
+      "programMaturity": "not_applicable",
+      "educationalAuthorityStatus": "authoritative",
+      "readiness": {
+        "educationalSubstanceApproval": "approved",
+        "programApproval": "not_applicable",
+        "deliveryReadiness": "not_applicable",
+        "enrollmentAvailability": "not_applicable",
+        "assessmentReadiness": "not_applicable",
+        "credentialReadiness": "not_applicable",
+        "publicDisclosureReadiness": "not_approved",
+        "technologyImplementationReadiness": "approved",
+        "legalAndOperationalReadiness": "not_applicable",
+        "commercialReadiness": "not_applicable"
+      },
+      "disclosure": "internal",
+      "audienceContexts": [
+        "not_applicable"
+      ],
+      "deliveryModelCompatibility": [
+        "not_applicable"
+      ],
+      "capabilityRelationships": [],
+      "competencyRelationships": [],
+      "methodologyRelationships": [],
+      "ipRelationships": [],
+      "knowledgeRelationships": [],
+      "educationalAdaptations": [],
+      "sourceVersionDependencies": [
+        {
+          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "nature": "version_dependency",
+          "sourceVersion": "v1.0",
+          "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
+        }
+      ],
+      "qualityMetadata": {
+        "qualityReviewStatus": "source_approved",
+        "reviewType": "education_room_source_approval",
+        "reviewerAuthority": "Education & Workforce Development room (interim; configurable)",
+        "reviewDate": null,
+        "accuracyStatus": "traceable_to_source_sections",
+        "methodologicalFidelityStatus": "not_applicable_no_adaptation",
+        "evidenceBasis": [
+          "npm run validate:education"
+        ],
+        "requiredCorrectiveActions": [],
+        "nextReviewCondition": "Material change to the Foundation source or to applicable institutional authority."
+      },
+      "evidenceMetadata": [
+        "npm run validate:education",
+        "git history"
+      ],
+      "knownLimitations": [
+        "Summary record: Foundation §17 is authoritative and corrects this record wherever they differ.",
+        "No educational adaptation exists in this phase; creating any adaptation requires the EWDFv1 §17.3 authority chain."
+      ],
+      "openQuestions": [],
+      "unresolvedMatters": [],
+      "authority": {
+        "authorityBasis": "Education & Workforce Development Foundation v1 §17 (record definition §18.12).",
+        "approvingAuthority": {
+          "basis": "Interim rule (EWDFv1 §12.3): educational governance approvals recorded under the Education & Workforce Development room; stored as data, never as a technical permission.",
+          "configurable": true,
+          "subordinateTo": "The Constitution and any later-approved institutional decision-rights architecture."
+        },
+        "substantiveAuthority": "Education & Workforce Development room",
+        "constitutionalSubordination": true
+      },
+      "approvalHistory": [
+        {
+          "action": "initial_approval",
+          "authority": "Education & Workforce Development room",
+          "basis": "EWDFv1 §18 record definition transmitted with the implementing authorization; governance-record creation only — no program, offering, delivery, enrollment, disclosure, or credential authorization.",
+          "date": null
+        }
+      ],
+      "dependencies": [
+        "Foundation v1",
+        "Methodology",
+        "Intellectual Property",
+        "Institutional Knowledge Architecture"
+      ],
+      "relatedRecords": [
+        "ed-0008"
+      ],
+      "supersedes": null,
+      "supersededBy": null,
+      "retirementStatus": "not_retired",
+      "archivalStatus": "active",
+      "historicalVersions": [],
+      "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
+      "governingReferences": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "docs/governance/huerta-group-constitution.md",
+        "docs/methodology/methodology-foundation-v1.md",
+        "docs/intellectual-property/intellectual-property-foundation-v1.md"
+      ],
+      "technicalImplementationAuthorization": true,
+      "containsSubstantiveEducationalRequirements": true
+    }
+  ]
+}

@@ -10,7 +10,8 @@
     "validate:knowledge": "node scripts/validate-knowledge.mjs",
     "validate:architecture": "node scripts/validate-architecture.mjs",
     "validate:methods": "node scripts/validate-methods.mjs",
-    "validate:ip": "node scripts/validate-ip.mjs"
+    "validate:ip": "node scripts/validate-ip.mjs",
+    "validate:education": "node scripts/validate-education.mjs"
   },
   "dependencies": {
     "next": "16.2.11",

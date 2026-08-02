@@ -234,20 +234,23 @@
     {
       "id": "education-platform",
       "name": "Education Platform",
-      "description": "Future delivery systems for Education & Workforce Development: program architecture, learner records, assessment support. Public institutional function exists (/education); no programs or platform exist.",
+      "description": "Institutional Education Platform. Repository-based governance foundation complete (approved Education & Workforce Development Foundation v1, architecture, schema, registry, twelve governance records, validation); no program, learner, assessment, credential, offering, or LMS exists; learner data blocked by privacy/legal governance. Public /education page is positioning only.",
       "category": "institutional-branch",
-      "maturity": "conceptual",
-      "architecturalDisposition": "unresolved",
-      "repositoryDisposition": "unresolved",
+      "maturity": "partial",
+      "architecturalDisposition": "current_repository_artifacts",
+      "repositoryDisposition": "current_repository",
       "dataOwned": [
         "education-records"
       ],
       "dataConsumed": [
         "method-records",
+        "ip-records",
         "knowledge-metadata"
       ],
       "dependsOn": [
+        "institutional-knowledge-foundation",
         "method-library",
+        "ip-repository",
         "identity-and-access"
       ],
       "identityRequirement": "future-required",
@@ -255,13 +258,25 @@
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md"
+        "docs/governance/vision-foundation-for-development.md",
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md"
       ],
       "unresolvedDecisions": [
-        "Program authority, curriculum architecture, and credentialing decisions are reserved to the owner.",
-        "A generic LMS is explicitly not assumed appropriate; delivery model undecided.",
-        "Learner-record retention and disclosure await data-governance policy."
-      ]
+        "No program, course, pathway, competency library, assessment instrument, credential, or offering exists or is approved: each requires separate Education-authority design, review, and approval (EWDFv1 §20.11, §21, §22.2).",
+        "Program approval never implies delivery readiness, enrollment availability, public disclosure, or commercial availability — the ten readiness dimensions remain separate (EWDFv1 §11.4–11.5, §12.2).",
+        "Any runtime education system (LMS, learner accounts, portals, dashboards, evidence submission) requires its own authorization under ADR-0003 criteria and ADR-0005 environment isolation; a generic LMS is explicitly not assumed appropriate, and no vendor, AI provider, or hosting model is selected (EWDFv1 §16.9, §19.3).",
+        "Production learner, instructor, assessment, organizational, and participation data remains blocked pending privacy and legal governance (EWDFv1 §14.5, §20.10); learner-record retention and disclosure await data-governance policy.",
+        "Credentialing, certification, continuing-education, instructor, learner-support, and commercial-model policy remain unresolved (EWDFv1 §20.12–20.14, §21); final constitutional allocation of educational approval authority is pending (interim configurable rule stands)."
+      ],
+      "evidencePaths": [
+        "docs/education/education-workforce-development-foundation-v1.md",
+        "docs/education/education-platform-architecture.md",
+        "knowledge/education-registry.json",
+        "knowledge/education-schema.json",
+        "scripts/validate-education.mjs"
+      ],
+      "notes": "Repository foundation only — no LMS, runtime application, database, authentication, learner data, assessment operation, credential issuance, vendor selection, or public educational offering exists or is implied; repository presence creates no educational approval, and educational approval authorizes no delivery."
     },
     {
       "id": "publishing-platform",

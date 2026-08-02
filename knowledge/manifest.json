@@ -931,6 +931,326 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "education-workforce-development-foundation-v1",
+      "title": "Education & Workforce Development Foundation v1",
+      "path": "docs/education/education-workforce-development-foundation-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "The canonical repository record of the complete approved Education & Workforce Development Foundation v1: doctrine, architecture, competency model, classifications, lifecycle and readiness, authority, quality, technology and AI boundaries, the twelve initial records, and unresolved matters.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Determination “EDUCATION PLATFORM FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the implementing authorization (recorded in the document).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "references",
+          "target": "education-platform-architecture"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "education-platform-architecture",
+      "title": "Education Platform Foundation — Technical Architecture",
+      "path": "docs/education/education-platform-architecture.md",
+      "type": "standard",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Technical architecture of the repository-based Education Platform Foundation: record identity, registry/schema split, separated lifecycle, maturity, and readiness dimensions, configurable authority, traceability, learner-data boundaries, and explicit non-authorization of an LMS or runtime systems.",
+      "provenance": {
+        "origin": null,
+        "approvalReference": null,
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0002-education-definition-and-scope-standard-v1",
+      "title": "ed-0002 — Education Definition and Scope Standard v1",
+      "path": "docs/education/records/ed-0002-education-definition-and-scope-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Define education, workforce development, capability development, competency-based learning, organizational education, professional education, and knowledge transfer. Summarizes Foundation §2; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §2, §18.2 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0003-educational-doctrine-and-philosophy-standard-v1",
+      "title": "ed-0003 — Educational Doctrine and Philosophy Standard v1",
+      "path": "docs/education/records/ed-0003-educational-doctrine-and-philosophy-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Establish enduring principles governing Huerta Group education. Summarizes Foundation §3; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §3, §18.3 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0004-educational-architecture-standard-v1",
+      "title": "ed-0004 — Educational Architecture Standard v1",
+      "path": "docs/education/records/ed-0004-educational-architecture-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Define the approved high-level layers and relationships of Huerta Group's educational system. Summarizes Foundation §4; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §4, §18.4 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0005-capability-and-competency-architecture-standard-v1",
+      "title": "ed-0005 — Capability and Competency Architecture Standard v1",
+      "path": "docs/education/records/ed-0005-capability-and-competency-architecture-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Define core competency concepts and the minimum record architecture needed to represent them. Summarizes Foundation §6; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §6, §18.5 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0006-educational-asset-classification-standard-v1",
+      "title": "ed-0006 — Educational Asset Classification Standard v1",
+      "path": "docs/education/records/ed-0006-educational-asset-classification-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Establish approved and provisional educational asset types without approving specific offerings. Summarizes Foundation §7; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §7, §18.6 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0007-educational-lifecycle-and-readiness-standard-v1",
+      "title": "ed-0007 — Educational Lifecycle and Readiness Standard v1",
+      "path": "docs/education/records/ed-0007-educational-lifecycle-and-readiness-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Define content maturity, program maturity, readiness dimensions, supersession, retirement, and archival treatment. Summarizes Foundation §11; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §11, §18.7 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0008-educational-authority-and-approval-standard-v1",
+      "title": "ed-0008 — Educational Authority and Approval Standard v1",
+      "path": "docs/education/records/ed-0008-educational-authority-and-approval-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Define how educational assets become authoritative while preserving peer-room authority and configurable future governance. Summarizes Foundation §12; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §12, §18.8 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0009-assessment-and-competency-verification-standard-v1",
+      "title": "ed-0009 — Assessment and Competency Verification Standard v1",
+      "path": "docs/education/records/ed-0009-assessment-and-competency-verification-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Define assessment distinctions, evidence concepts, human judgment requirements, and AI boundaries. Summarizes Foundation §9; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §9, §18.9 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0010-educational-quality-and-evidence-standard-v1",
+      "title": "ed-0010 — Educational Quality and Evidence Standard v1",
+      "path": "docs/education/records/ed-0010-educational-quality-and-evidence-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Define the initial quality dimensions and metadata required for governed educational development. Summarizes Foundation §13; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §13, §18.10 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0011-educational-technology-and-ai-boundary-standard-v1",
+      "title": "ed-0011 — Educational Technology and AI Boundary Standard v1",
+      "path": "docs/education/records/ed-0011-educational-technology-and-ai-boundary-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Define what educational technology may support and what it may not determine independently. Summarizes Foundation §16; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §16, §18.11 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ed-0012-educational-source-traceability-standard-v1",
+      "title": "ed-0012 — Educational Source Traceability Standard v1",
+      "path": "docs/education/records/ed-0012-educational-source-traceability-standard-v1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Govern relationships among educational assets, methodology, intellectual property, institutional knowledge, publishing, public adaptations, and software. Summarizes Foundation §17; the Foundation source remains authoritative wherever they differ.",
+      "provenance": {
+        "origin": "Education & Workforce Development room",
+        "approvalReference": "Education & Workforce Development Foundation v1 §17, §18.12 (authority basis recorded on the registry record)",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
