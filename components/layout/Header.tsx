@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { MobileNav } from "@/components/layout/MobileNav";
 import { NavLink } from "@/components/layout/NavLink";
 import { ButtonLink } from "@/components/ui/ButtonLink";
@@ -7,7 +6,7 @@ import { CONTACT_HREF, NAV_LINKS, SITE_NAME } from "@/lib/site";
 
 /**
  * Global site header. The brand mark is text-based for now; a future
- * vector logo replaces the contents of the brand <Link> below without
+ * vector logo replaces the contents of the brand NavLink below without
  * any structural changes to the header.
  */
 export function Header() {
