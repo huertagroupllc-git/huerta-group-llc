@@ -528,10 +528,15 @@
         {
           "rel": "references",
           "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0007-repository-foundation-migration"
         }
       ],
       "disclosure": "repository-internal",
-      "machineConsumptionEligible": "unresolved"
+      "machineConsumptionEligible": "unresolved",
+      "statusNote": "Accepted and standing, except its corpus-scope provision (docs/**/*.md), which is superseded by ADR-0007's rescoped canonical corpus. Historical decision text preserved verbatim."
     },
     {
       "id": "methodology-foundation-v1",
@@ -1454,6 +1459,98 @@
       "type": "decision-record",
       "classification": "Institutional Record",
       "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "canonical-source-preservation",
+      "title": "Canonical Source Preservation — Repository Standard",
+      "path": "institution/standards/repository/canonical-source-preservation.md",
+      "type": "standard",
+      "classification": "Repository Standard",
+      "summary": "Repository-scoped preservation rules: verbatim complete preservation, source/derived-evidence separation, provenance via the determinations register, version identity, supersession compatibility, explicit unavailable-material recording, the reconstruction prohibition, and the admission path.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Founder Office determinations D-3 and D-5 (fd-0002) and the migration execution instrument (fd-0003).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0002-repository-architecture-determinations"
+        }
+      ],
+      "authorityTier": 4,
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "repository-verification",
+      "title": "Repository Verification — Repository Standard",
+      "path": "institution/standards/repository/repository-verification.md",
+      "type": "standard",
+      "classification": "Repository Standard",
+      "summary": "Defines the canonical verification gate (npm run verify): composition of the nine validators and build checks, the before-push rule, CI enforcement as backstop, and the prohibition on weakening checks — the single consolidation point per determination D-7.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Founder Office determinations D-4 and D-7 (fd-0002) and the migration execution instrument (fd-0003).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "bounded-autonomous-completion-standard"
+        }
+      ],
+      "authorityTier": 4,
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0007-repository-foundation-migration",
+      "title": "ADR-0007 — Repository Foundation Migration and Canonical Corpus Rescoping",
+      "path": "institution/decisions/adr-0007-repository-foundation-migration.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "summary": "Accepted, Founder Office-ratified record of the single-repository migration: the institution/ layer tree, the rescoped canonical corpus (superseding only ADR-0001 corpus provision), the workbench, the single documented rename, and the one-time branch workflow deviation.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Migration execution instrument (fd-0003); Deliverables C/D accepted as modified (fd-0004).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0001-institutional-knowledge-foundation"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0003-migration-execution-determinations"
+        }
+      ],
+      "authorityTier": 4,
       "status": "current",
       "versioning": "git-history",
       "disclosure": "repository-internal",

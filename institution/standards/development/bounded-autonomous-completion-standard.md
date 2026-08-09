@@ -38,7 +38,11 @@ acceptance criteria (see *Requirements for Future Task Prompts*).
 
 ## Required Model Configuration
 
-- **Builder model:** Claude Opus 5.
+- **Builder model and tools:** the model and tool configuration
+  authorized by the Founder Office for the assignment. This standard
+  binds no permanent model; each task instrument states the current
+  authorized configuration. (Amended per Founder Office determination
+  D-2, recorded in fd-0002.)
 - **Effort level:** max.
 - **Execution budget:** work autonomously toward verified completion for up
   to approximately **30 minutes** per assigned loop-engineering task.
@@ -176,7 +180,7 @@ including:
 
 ## Clarification Policy
 
-Do not interrupt Esteban for routine, reversible implementation choices
+Do not interrupt the Founder Office for routine, reversible implementation choices
 that can be resolved safely from governing references, architecture,
 development standards, repository conventions, and acceptance criteria.
 
@@ -224,7 +228,7 @@ Report:
 8. Repair cycles and defects corrected.
 9. Unresolved risks or environmental limitations.
 10. Deployment status.
-11. Any decision requiring Esteban's authority.
+11. Any decision requiring Founder Office authority.
 
 Never report `COMPLETE` while a required criterion remains failed or
 unverified.

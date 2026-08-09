@@ -305,3 +305,11 @@ Every development task concludes with a completion report identifying:
 - Any conflict or uncertainty involving the governing reference documents
 
 A report must not claim a verification that was not actually performed.
+
+This section states the high-level completion and verification
+requirement. The detailed bounded execution procedure, inspector
+classifications, and full completion-report structure for consequential
+tasks are defined once in the
+[Bounded Autonomous Completion and Verification Standard](bounded-autonomous-completion-standard.md)
+and are referenced here rather than restated (consolidation per Founder
+Office determination D-7, recorded in fd-0002).
