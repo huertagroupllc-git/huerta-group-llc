@@ -1362,6 +1362,102 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0001-governance-audit-instrument-determinations",
+      "title": "fd-0001 — Founder Office Determinations: Governance Mechanism Audit Instrument",
+      "path": "institution/governance/determinations/fd-0001-governance-audit-instrument-determinations.md",
+      "summary": "Verbatim record of the six Founder Office determinations issued with the Deliverable B instrument (OSPA staging, Design System deferral, Constitution deferral, provenance sequencing, index classification, Branding recognition).",
+      "provenance": {
+        "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
+        "approvalReference": "Founder Office determinations D-4 (fd sequencing) and D-6 (repository-native governance), Deliverable B/C instruments; register introduced by the migration execution instrument (fd-0003).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0002-repository-architecture-determinations",
+      "title": "fd-0002 — Founder Office Determinations: Proposed Repository Architecture Instrument (D-1…D-8)",
+      "path": "institution/governance/determinations/fd-0002-repository-architecture-determinations.md",
+      "summary": "Verbatim record of determinations D-1 through D-8 issued with the Deliverable C instrument (index placement, model-neutral standards, workbench, CI architecture, canonical-source preservation, repository-native governance, consolidation, entry-file governance).",
+      "provenance": {
+        "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
+        "approvalReference": "Founder Office determinations D-4 (fd sequencing) and D-6 (repository-native governance), Deliverable B/C instruments; register introduced by the migration execution instrument (fd-0003).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0003-migration-execution-determinations",
+      "title": "fd-0003 — Founder Office Determinations: Migration and Evolution Log Execution Instrument (FO-1…FO-7)",
+      "path": "institution/governance/determinations/fd-0003-migration-execution-determinations.md",
+      "summary": "Verbatim record of determinations FO-1 through FO-7 (single repository, institution-is-not-the-repository language, churn minimization, repository-standard scope, website protection, Evolution Log sequencing, verified completion) and the OSPA recovery-set recognition.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
+        "approvalReference": "Founder Office determinations D-4 (fd sequencing) and D-6 (repository-native governance), Deliverable B/C instruments; register introduced by the migration execution instrument (fd-0003).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0004-deliverable-acceptance-and-provenance-record",
+      "title": "fd-0004 — Deliverable Acceptance History and Approval-Provenance Deficiency Record",
+      "path": "institution/governance/determinations/fd-0004-deliverable-acceptance-and-provenance-record.md",
+      "summary": "Acceptance history of Deliverables A through D as stated by the instruments, and the seven recorded approval-provenance deficiencies for pre-register events — recorded, never invented.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
+        "approvalReference": "Founder Office determinations D-4 (fd sequencing) and D-6 (repository-native governance), Deliverable B/C instruments; register introduced by the migration execution instrument (fd-0003).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

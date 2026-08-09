@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huertagroupllc.com/institution/metadata/schemas/determinations-schema.json",
+  "title": "Founder Office Determinations Register Schema",
+  "description": "Validates the determinations register — the repository-native record of Founder Office determinations and approval events (determination D-6). Records are evidentiary: they prove that a determination was issued and preserve its verbatim text; they never create, enlarge, or diminish the authority they evidence. Unavailable provenance is recorded as a deficiency, never invented.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registryVersion", "records"],
+  "properties": {
+    "registryVersion": { "type": "integer", "minimum": 1 },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/determinationRecord" }
+    }
+  },
+  "$defs": {
+    "determinationRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "path",
+        "instrument",
+        "dateReceived",
+        "recordedDate",
+        "determinationCount",
+        "affectedArtifacts",
+        "deficienciesRecorded",
+        "relationships"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^fd-[0-9]{4}$" },
+        "title": { "type": "string", "minLength": 1 },
+        "path": {
+          "type": "string",
+          "pattern": "^institution/governance/determinations/fd-[0-9]{4}-.+\\.md$"
+        },
+        "instrument": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The issuing Founder Office instrument, identified precisely."
+        },
+        "dateReceived": {
+          "type": ["string", "null"],
+          "description": "Date the instrument was received by the implementing office; null only with a recorded deficiency."
+        },
+        "recordedDate": { "type": "string", "minLength": 1 },
+        "determinationCount": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of verbatim determinations preserved in the record; 0 only for pure acceptance/deficiency records."
+        },
+        "affectedArtifacts": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "deficienciesRecorded": { "type": "integer", "minimum": 0 },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["target", "nature"],
+            "properties": {
+              "target": { "type": "string", "minLength": 1 },
+              "nature": { "enum": ["related", "implements", "supersedes", "superseded-by"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}

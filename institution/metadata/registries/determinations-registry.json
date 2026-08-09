@@ -1,0 +1,81 @@
+{
+  "registryVersion": 1,
+  "records": [
+    {
+      "id": "fd-0001",
+      "title": "Founder Office Determinations: Governance Mechanism Audit Instrument",
+      "path": "institution/governance/determinations/fd-0001-governance-audit-instrument-determinations.md",
+      "instrument": "Repository Foundation Project — Phase 1 — Deliverable B task instrument (Founder Office → Platform & Systems Development)",
+      "dateReceived": "2026-08-07",
+      "recordedDate": "2026-08-08",
+      "determinationCount": 6,
+      "affectedArtifacts": [
+        "workbench/README.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/governance/constitution/huerta-group-constitution.md"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [{ "target": "fd-0002", "nature": "related" }]
+    },
+    {
+      "id": "fd-0002",
+      "title": "Founder Office Determinations: Proposed Repository Architecture Instrument (D-1…D-8)",
+      "path": "institution/governance/determinations/fd-0002-repository-architecture-determinations.md",
+      "instrument": "Repository Foundation Project — Phase 1 — Deliverable C task instrument (Founder Office → Platform & Systems Development)",
+      "dateReceived": "2026-08-08",
+      "recordedDate": "2026-08-08",
+      "determinationCount": 8,
+      "affectedArtifacts": [
+        "institution/standards/repository/documentation-index.md",
+        "institution/standards/development/bounded-autonomous-completion-standard.md",
+        "institution/standards/development/development-standards.md",
+        "workbench/README.md",
+        "institution/standards/repository/canonical-source-preservation.md",
+        "institution/operational/repository-operations.md",
+        "CLAUDE.md",
+        "AGENTS.md"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [
+        { "target": "fd-0001", "nature": "related" },
+        { "target": "fd-0003", "nature": "related" }
+      ]
+    },
+    {
+      "id": "fd-0003",
+      "title": "Founder Office Determinations: Migration and Evolution Log Execution Instrument (FO-1…FO-7)",
+      "path": "institution/governance/determinations/fd-0003-migration-execution-determinations.md",
+      "instrument": "Repository Foundation Project — Repository Migration and Institutional Evolution Log Activation task instrument (Founder Office → Platform & Systems Development)",
+      "dateReceived": "2026-08-08",
+      "recordedDate": "2026-08-08",
+      "determinationCount": 7,
+      "affectedArtifacts": [
+        "institution/README.md",
+        "workbench/README.md",
+        "institution/standards/development/bounded-autonomous-completion-standard.md",
+        "institution/standards/repository/repository-verification.md",
+        "institution/evolution/README.md"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [{ "target": "fd-0002", "nature": "implements" }]
+    },
+    {
+      "id": "fd-0004",
+      "title": "Deliverable Acceptance History and Approval-Provenance Deficiency Record",
+      "path": "institution/governance/determinations/fd-0004-deliverable-acceptance-and-provenance-record.md",
+      "instrument": "Successive Repository Foundation Project task instruments (acceptance statements)",
+      "dateReceived": "2026-08-08",
+      "recordedDate": "2026-08-08",
+      "determinationCount": 0,
+      "affectedArtifacts": [
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/governance/strategic/vision-foundation-for-development.md",
+        "institution/foundations/methodology/methodology-foundation-v1.md",
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
+        "institution/foundations/education/education-workforce-development-foundation-v1.md"
+      ],
+      "deficienciesRecorded": 7,
+      "relationships": [{ "target": "fd-0003", "nature": "related" }]
+    }
+  ]
+}
