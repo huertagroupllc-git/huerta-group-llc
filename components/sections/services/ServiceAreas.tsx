@@ -77,17 +77,18 @@ const AREAS = [
 export function ServiceAreas() {
   return (
     <Section
+      layout="split"
       id="areas"
       eyebrow="Core areas of work"
       title="Seven areas. One connected practice."
       lead="Each area addresses a different organizational condition. No engagement includes all of them by default — the work is scoped to the operating need."
       tone="raised"
     >
-      <ol className="mt-14 max-w-3xl space-y-12">
+      <ol className="mt-14 lg:mt-0 space-y-12">
         {AREAS.map((area) => (
           <li key={area.number} className="border-t border-edge pt-8">
             <div className="flex gap-6">
-              <span className="font-serif text-sm text-gold-500">
+              <span className="w-12 shrink-0 font-serif text-3xl leading-none text-gunmetal">
                 {area.number}
               </span>
               <div>

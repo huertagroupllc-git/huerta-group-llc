@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function ImplementationToOperation() {
   return (
     <Section
+      layout="split"
       eyebrow="From implementation to sustained capability"
       title="Improvement is not durable until it is operated."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Analysis, design, education, and implementation can put a
           stronger system in place. What they cannot do on their own is

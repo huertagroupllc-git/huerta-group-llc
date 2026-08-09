@@ -45,7 +45,7 @@ export function Problems() {
       <ul className="mt-14 grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
         {PROBLEMS.map((problem) => (
           <li key={problem.title} className="border-t border-edge pt-5">
-            <h3 className="font-medium text-silver-100">{problem.title}</h3>
+            <h3 className="font-serif text-xl text-silver-100">{problem.title}</h3>
             <p className="mt-2 text-sm leading-relaxed text-silver-400">
               {problem.description}
             </p>

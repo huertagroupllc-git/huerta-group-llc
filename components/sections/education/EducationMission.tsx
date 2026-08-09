@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function EducationMission() {
   return (
     <Section
+      layout="split"
       eyebrow="Education as organizational capability"
       title="Stronger organizations are built by capable people."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Huerta Group works inside organizations — understanding,
           designing, improving, and implementing the systems through which

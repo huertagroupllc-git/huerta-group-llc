@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function HowItConnects() {
   return (
     <Section
+      layout="split"
       eyebrow="How the areas connect"
       title="Each area strengthens the others."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Assessment gives design something true to build on. Design gives
           documentation something worth capturing. Documentation gives

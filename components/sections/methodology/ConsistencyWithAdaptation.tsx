@@ -4,11 +4,12 @@ import { Section } from "@/components/ui/Section";
 export function ConsistencyWithAdaptation() {
   return (
     <Section
+      layout="split"
       eyebrow="Consistency with responsible adaptation"
       title="Repeatable is not rigid."
       tone="raised"
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           A disciplined methodology is what makes Huerta Group&apos;s work
           consistent — transferable, reviewable, and accountable across

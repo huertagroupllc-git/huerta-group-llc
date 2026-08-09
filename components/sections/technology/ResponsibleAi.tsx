@@ -4,11 +4,12 @@ import { Section } from "@/components/ui/Section";
 export function ResponsibleAi() {
   return (
     <Section
+      layout="split"
       eyebrow="Artificial intelligence, with responsibility"
       title="A capable tool. Not an authority."
       tone="raised"
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Artificial intelligence has a real place in modern organizational
           systems. Applied well, it can support analysis, coordination,

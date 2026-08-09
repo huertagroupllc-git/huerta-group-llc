@@ -46,11 +46,12 @@ const PRINCIPLES = [
 export function GuidingPrinciples() {
   return (
     <Section
+      layout="split"
       eyebrow="Principles that guide the work"
       title="Enduring principles, consistently applied."
       lead="These principles govern how Huerta Group reasons and works — across organizations, industries, and time."
     >
-      <div className="mt-14 max-w-3xl divide-y divide-edge">
+      <div className="mt-14 lg:mt-0 divide-y divide-edge">
         {PRINCIPLES.map((principle) => (
           <div
             key={principle.statement}

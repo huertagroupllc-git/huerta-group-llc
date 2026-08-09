@@ -4,11 +4,12 @@ import { Section } from "@/components/ui/Section";
 export function IntegratedApproach() {
   return (
     <Section
+      layout="split"
       eyebrow="An integrated institutional approach"
       title="One institution. One body of knowledge."
       tone="raised"
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Education &amp; Workforce Development is not a content business
           attached to a consulting firm. It is one expression of the same

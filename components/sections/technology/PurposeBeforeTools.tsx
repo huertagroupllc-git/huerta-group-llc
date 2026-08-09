@@ -3,10 +3,11 @@ import { Section } from "@/components/ui/Section";
 export function PurposeBeforeTools() {
   return (
     <Section
+      layout="split"
       eyebrow="Purpose before tools"
       title="The organization decides what technology is for."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Huerta Group is an organizational systems company. Technology is
           one of the means through which sound systems are supported —

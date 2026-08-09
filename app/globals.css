@@ -45,6 +45,10 @@
   /* Letter-spacing for eyebrow labels (DDR-0002: single unified value) */
   --tracking-eyebrow: 0.25em;
 
+  /* Display letter-spacing for serif headings at display sizes
+   * (ddr-0006: slight tightening for architectural presence) */
+  --tracking-display: -0.015em;
+
   /* Motion — the standard easing for all color transitions (DDR-0003) */
   --ease-brand: cubic-bezier(0.25, 0.1, 0.25, 1);
 }

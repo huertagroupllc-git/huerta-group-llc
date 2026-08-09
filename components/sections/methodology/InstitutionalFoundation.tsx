@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function InstitutionalFoundation() {
   return (
     <Section
+      layout="split"
       eyebrow="An institutional foundation"
       title="Methodology runs through the whole Company."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Methodology is where Huerta Group&apos;s institutional model
           holds together. The Company&apos;s services are delivered through

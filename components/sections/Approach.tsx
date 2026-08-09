@@ -39,7 +39,7 @@ export function Approach() {
       <ol className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         {STEPS.map((step) => (
           <li key={step.number} className="border-t border-edge pt-5">
-            <span className="font-serif text-sm text-gold-500">
+            <span className="w-12 shrink-0 font-serif text-3xl leading-none text-gunmetal">
               {step.number}
             </span>
             <h3 className="mt-3 font-serif text-xl text-silver-100">

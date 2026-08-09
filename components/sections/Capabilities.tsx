@@ -48,10 +48,9 @@ export function Capabilities() {
         {CAPABILITY_GROUPS.map((group) => (
           <article
             key={group.title}
-            className="border border-edge bg-ink-950 p-8"
+            className="border-t border-edge pt-8"
           >
-            <span aria-hidden="true" className="block h-px w-10 bg-gold-500" />
-            <h3 className="mt-6 font-serif text-xl text-silver-100">
+            <h3 className="font-serif text-xl text-silver-100">
               {group.title}
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-silver-400">

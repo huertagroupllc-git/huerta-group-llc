@@ -1987,6 +1987,102 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ddr-0006-typography-refinement",
+      "title": "ddr-0006 — Phase 2 Typographic Refinement",
+      "path": "institution/design/decisions/ddr-0006-typography-refinement.md",
+      "summary": "Display tightening token, text-balance/text-pretty wrapping, hero presence (leading 1.08, max-w-4xl), PullQuote scale-up, and the Problems titles joining the serif system — fonts and body sizes unchanged.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ddr-0007-editorial-split-composition",
+      "title": "ddr-0007 — Editorial Split-Section Composition",
+      "path": "institution/design/decisions/ddr-0007-editorial-split-composition.md",
+      "summary": "Section layout=split places headers beside narrow content stacks on a 12-column grid at lg (33 adopters; wide grids stay stacked), eliminating the dead right half that made pages read as templated.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ddr-0008-cta-and-hero-presence",
+      "title": "ddr-0008 — Asymmetric CTA Composition and Hero Presence",
+      "path": "institution/design/decisions/ddr-0008-cta-and-hero-presence.md",
+      "summary": "CtaBand becomes an asymmetric raised band (heading left, baseline-aligned actions right; centered variant retired); standard heroes gain arrival presence and a closing datum hairline.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ddr-0009-quiet-numerals-and-open-cards",
+      "title": "ddr-0009 — Quiet Numeral System and Open Editorial Cards",
+      "path": "institution/design/decisions/ddr-0009-quiet-numerals-and-open-cards.md",
+      "summary": "Ordinal markers become large quiet gunmetal serif numerals (activating the reserved primitive); Capabilities cards abandon the boxed SaaS recipe for the site-wide top-border editorial language.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

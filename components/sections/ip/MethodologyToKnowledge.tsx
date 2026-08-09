@@ -3,11 +3,12 @@ import { Section } from "@/components/ui/Section";
 export function MethodologyToKnowledge() {
   return (
     <Section
+      layout="split"
       eyebrow="From methodology to reusable knowledge"
       title="Discipline produces assets. Assets sharpen discipline."
       tone="raised"
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Methodology and intellectual property are related, and distinct.
           Methodology governs how Huerta Group approaches organizational

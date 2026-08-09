@@ -3,11 +3,12 @@ import { Section } from "@/components/ui/Section";
 export function AuthorityBoundary() {
   return (
     <Section
+      layout="split"
       eyebrow="Support without surrendered authority"
       title="Your organization stays in charge."
       tone="raised"
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Sustained support raises a question every organization should
           ask: who is in charge? The answer does not change. Client

@@ -5,10 +5,11 @@ import { Section } from "@/components/ui/Section";
 export function LongTerm() {
   return (
     <Section
+      layout="split"
       eyebrow="The long view"
       title="Built to be an institution, not a moment."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Huerta Group is being built deliberately and for the long term.
           Today, that takes the form of the work this site describes.

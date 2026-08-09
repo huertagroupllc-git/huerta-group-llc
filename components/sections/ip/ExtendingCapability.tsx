@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function ExtendingCapability() {
   return (
     <Section
+      layout="split"
       eyebrow="Extending capability"
       title="Knowledge that works in more places than its author."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Reusable knowledge is what lets disciplined work scale without
           diluting. It supports consistency across engagements, makes

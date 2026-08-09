@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function KnowledgeBeyondEngagement() {
   return (
     <Section
+      layout="split"
       eyebrow="Knowledge beyond the engagement"
       title="What is learned should not be lost."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Consulting produces more than recommendations. Each engagement
           produces lessons: patterns that repeat across organizations,

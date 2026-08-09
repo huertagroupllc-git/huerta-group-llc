@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function CompetencyOverCompletion() {
   return (
     <Section
+      layout="split"
       eyebrow="Competency beyond completion"
       title="Demonstrated ability, not passive completion."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Much professional education measures attendance: content is
           consumed, a completion is recorded, and little changes in how

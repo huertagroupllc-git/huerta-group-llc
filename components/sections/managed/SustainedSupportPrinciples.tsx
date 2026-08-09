@@ -45,11 +45,12 @@ const PRINCIPLES = [
 export function SustainedSupportPrinciples() {
   return (
     <Section
+      layout="split"
       eyebrow="Principles of sustained support"
       title="What keeps ongoing work honest."
       lead="These principles govern how Huerta Group approaches sustained organizational support — whatever form a particular arrangement takes."
     >
-      <div className="mt-14 max-w-3xl divide-y divide-edge">
+      <div className="mt-14 lg:mt-0 divide-y divide-edge">
         {PRINCIPLES.map((principle) => (
           <div
             key={principle.statement}

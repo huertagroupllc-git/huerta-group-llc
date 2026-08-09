@@ -5,11 +5,12 @@ import { Section } from "@/components/ui/Section";
 export function InstitutionalContinuity() {
   return (
     <Section
+      layout="split"
       eyebrow="Institutional continuity"
       title="An institution that remembers."
       tone="raised"
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Intellectual property is how Huerta Group preserves what it
           knows — across people, engagements, time, and forms of delivery.

@@ -3,11 +3,12 @@ import { Section } from "@/components/ui/Section";
 export function StewardshipAndProtection() {
   return (
     <Section
+      layout="split"
       eyebrow="Stewardship and protection"
       title="Held responsibly. Disclosed deliberately."
       tone="raised"
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Intellectual property carries obligations. What clients share in
           confidence stays in confidence — reusable knowledge is drawn

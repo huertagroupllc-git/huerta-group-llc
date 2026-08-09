@@ -43,16 +43,17 @@ const STAGES = [
 export function PracticeToEducation() {
   return (
     <Section
+      layout="split"
       eyebrow="From knowledge to practice"
       title="Where education sits in the Company's model."
       lead="Huerta Group operates on a deliberate institutional progression. Education draws its substance from the stages before it and strengthens the stages around it."
       tone="raised"
     >
-      <ol className="mt-14 max-w-3xl space-y-10">
+      <ol className="mt-14 lg:mt-0 space-y-10">
         {STAGES.map((stage) => (
           <li key={stage.number} className="border-t border-edge pt-6">
             <div className="flex gap-6">
-              <span className="font-serif text-sm text-gold-500">
+              <span className="w-12 shrink-0 font-serif text-3xl leading-none text-gunmetal">
                 {stage.number}
               </span>
               <div>
@@ -67,7 +68,7 @@ export function PracticeToEducation() {
           </li>
         ))}
       </ol>
-      <p className="mt-10 max-w-3xl text-sm leading-relaxed text-silver-500">
+      <p className="mt-10 text-sm leading-relaxed text-silver-500">
         This is the Company&apos;s operating model, not a sales sequence.
         Each element disciplines the others: education teaches what the
         Company practices, and what its people learn in the field sharpens

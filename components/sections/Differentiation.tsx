@@ -19,13 +19,14 @@ const CONTRASTS = [
 export function Differentiation() {
   return (
     <Section
+      layout="split"
       id="difference"
       eyebrow="Why Huerta Group"
       title="Systems, not symptoms."
       lead="Most providers solve a slice of the problem. The slice is rarely the problem."
       tone="raised"
     >
-      <dl className="mt-14 max-w-3xl space-y-10">
+      <dl className="mt-14 lg:mt-0 space-y-10">
         {CONTRASTS.map((contrast) => (
           <div key={contrast.us} className="border-l-2 border-gold-600 pl-6">
             <dt className="text-sm leading-relaxed text-silver-500">

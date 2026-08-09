@@ -30,14 +30,15 @@ const ORDER = [
 export function PeopleSystemsTechnology() {
   return (
     <Section
+      layout="split"
       eyebrow="Order of operations"
       title="Purpose first. People always. Technology in service of both."
       lead="The hierarchy matters. It is the difference between systems that strengthen an organization and tools that merely accumulate."
     >
-      <ol className="mt-14 max-w-3xl space-y-10">
+      <ol className="mt-14 lg:mt-0 space-y-10">
         {ORDER.map((item) => (
           <li key={item.number} className="flex gap-6 border-t border-edge pt-6">
-            <span className="font-serif text-sm text-gold-500">
+            <span className="w-12 shrink-0 font-serif text-3xl leading-none text-gunmetal">
               {item.number}
             </span>
             <div>

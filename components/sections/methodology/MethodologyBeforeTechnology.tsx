@@ -5,10 +5,11 @@ import { Section } from "@/components/ui/Section";
 export function MethodologyBeforeTechnology() {
   return (
     <Section
+      layout="split"
       eyebrow="Methodology before technology"
       title="The foundation is the method, not the tool."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Technology, artificial intelligence, software, data systems, and
           automation all have a place in Huerta Group&apos;s work. None of

@@ -27,12 +27,13 @@ const STANDARDS = [
 export function Perspective() {
   return (
     <Section
+      layout="split"
       eyebrow="Operating perspective"
       title="How the work is judged."
       lead="Perspective is not what a company says about itself. It is the standard its work is held to."
       tone="raised"
     >
-      <div className="mt-14 max-w-3xl divide-y divide-edge">
+      <div className="mt-14 lg:mt-0 divide-y divide-edge">
         {STANDARDS.map((standard) => (
           <div key={standard.statement} className="py-8 first:pt-0 last:pb-0">
             <h3 className="font-serif text-2xl text-silver-100">

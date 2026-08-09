@@ -4,11 +4,12 @@ import { Section } from "@/components/ui/Section";
 export function CapabilityOverDependency() {
   return (
     <Section
+      layout="split"
       eyebrow="Capability over dependency"
       title="The goal is an organization that needs less help."
       tone="raised"
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           The measure of sustained support is what the organization can
           do — increasingly on its own. Managed Services reinforces

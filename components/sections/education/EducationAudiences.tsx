@@ -12,12 +12,13 @@ const AUDIENCES = [
 export function EducationAudiences() {
   return (
     <Section
+      layout="split"
       eyebrow="Who the division serves"
       title="Workforce development for individuals and organizations."
       lead="The division serves the people and organizations that carry responsibility for how organizations actually run."
       tone="raised"
     >
-      <ul className="mt-12 max-w-3xl space-y-4">
+      <ul className="mt-12 lg:mt-0 space-y-4">
         {AUDIENCES.map((audience) => (
           <li
             key={audience}
@@ -30,7 +31,7 @@ export function EducationAudiences() {
           </li>
         ))}
       </ul>
-      <p className="mt-10 max-w-3xl text-sm leading-relaxed text-silver-500">
+      <p className="mt-10 text-sm leading-relaxed text-silver-500">
         For organizations, workforce development is scoped to the
         organization itself — its systems, its responsibilities, and the
         capability its work depends on.

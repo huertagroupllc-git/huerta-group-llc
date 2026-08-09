@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function ExtendingInstitution() {
   return (
     <Section
+      layout="split"
       eyebrow="Extending the institution"
       title="Technology runs through the institutional model."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Across Huerta Group&apos;s work, technology plays the same
           supporting role. In services, it strengthens engagements where

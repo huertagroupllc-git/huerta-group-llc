@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function TechnologyRole() {
   return (
     <Section
+      layout="split"
       eyebrow="Technology's place"
       title="Technology, in service of the system."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Automation, software, data systems, and AI have a defined place in
           this work: they are applied when technology materially improves a

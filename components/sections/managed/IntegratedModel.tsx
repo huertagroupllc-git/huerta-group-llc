@@ -4,10 +4,11 @@ import { Section } from "@/components/ui/Section";
 export function IntegratedModel() {
   return (
     <Section
+      layout="split"
       eyebrow="An integrated institutional model"
       title="Managed Services completes the model."
     >
-      <div className="mt-10 max-w-3xl space-y-6 text-lg leading-relaxed text-silver-400">
+      <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
           Managed Services is the final branch of Huerta Group&apos;s
           institutional model, and it draws on every branch before it.
