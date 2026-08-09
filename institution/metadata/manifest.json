@@ -1666,6 +1666,83 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0005-design-system-implementation-unblocked",
+      "title": "fd-0005 — Founder Office Determinations: Design System Implementation Unblocked",
+      "path": "institution/governance/determinations/fd-0005-design-system-implementation-unblocked.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Verbatim record of the Design System Phase 1 unblocking determinations: inventory as evidence not authority, DDR/GR mechanisms, the narrowest-responsible-decision rules, and the standing deferral of Design System Foundation v1 preservation.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
+        "approvalReference": "Design System Phase 1 execution instrument (recorded in this register).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "design-area-charter",
+      "title": "institution/design/ — Design System Reference-Implementation Records",
+      "path": "institution/design/README.md",
+      "type": "standard",
+      "classification": "Repository Standard",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Repository-scoped charter of the design area: inventory preservation as non-authoritative evidence, lightweight Design Decision Record practice, and the non-authoritative Governance Recommendation practice (fd-0005).",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Founder Office determinations recorded in fd-0005.",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0005-design-system-implementation-unblocked"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "website-phase1-inventory",
+      "title": "Website Phase 1 Inventory — Existing-State Design Inventory",
+      "path": "institution/design/website-phase1-inventory.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Approved implementation evidence, not institutional Design System authority (fd-0005). Surveyed at 4dc354e; pre-migration paths appear as surveyed.",
+      "summary": "Complete existing-state design inventory of the public website as delivered 2026-08-04: tokens-in-use, typography, color with computed contrast, spacing, layout, components, states, responsive and accessibility observations, inconsistency register, and candidate lists.",
+      "provenance": {
+        "origin": "Platform & Systems Development (survey); Design System (review)",
+        "approvalReference": "fd-0005 rule 1 (evidence status).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
