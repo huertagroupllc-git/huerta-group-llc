@@ -1,3 +1,4 @@
+import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
 
 const PROBLEMS = [
@@ -51,10 +52,10 @@ export function Problems() {
           </li>
         ))}
       </ul>
-      <p className="mt-14 max-w-2xl border-l-2 border-gold-600 pl-5 font-serif text-xl leading-relaxed text-silver-300">
+      <PullQuote className="mt-14 max-w-2xl leading-relaxed">
         None of these are people problems. They are systems problems — and
         systems can be designed.
-      </p>
+      </PullQuote>
     </Section>
   );
 }

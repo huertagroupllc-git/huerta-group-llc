@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/* Class scanning: governance documents and workbench material quote
+ * utility classes as prose; exclude them so documentation never
+ * influences the emitted stylesheet. */
+@source not "../institution";
+@source not "../workbench";
+@source not "../docs";
+
 /* ---------------------------------------------------------------------------
  * Huerta Group design tokens (Tailwind v4 theme).
  *

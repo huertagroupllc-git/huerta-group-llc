@@ -23,7 +23,10 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant;
 }
 
-/** Real <button>. Pending/disabled treatment stays with the caller. */
+/**
+ * Real <button>. The caller controls the disabled state; the shared
+ * base provides the uniform disabled styling (ddr-0004/ddr-0005).
+ */
 export function Button({
   variant = "primary",
   className,
