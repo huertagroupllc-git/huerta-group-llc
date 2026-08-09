@@ -1,13 +1,14 @@
 "use client";
 
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
+import { Button } from "@/components/ui/Button";
+
 import { useActionState, useEffect, useRef } from "react";
 import {
   submitInquiry,
   type SubmitInquiryState,
 } from "@/app/contact/actions";
 import { FIELD_LIMITS, INQUIRY_TYPES } from "@/lib/inquiry";
-import { cx } from "@/lib/cx";
 
 const INITIAL_STATE: SubmitInquiryState = { status: "idle" };
 
@@ -68,12 +69,7 @@ export function ContactForm() {
           back at the email address you provided.
         </p>
         <p className="mt-6">
-          <Link
-            href="/about"
-            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-          >
-            Learn more about Huerta Group →
-          </Link>
+          <ArrowLink href="/about">Learn more about Huerta Group</ArrowLink>
         </p>
       </div>
     );
@@ -275,16 +271,9 @@ export function ContactForm() {
       </p>
 
       <div className="mt-8">
-        <button
-          type="submit"
-          disabled={isPending}
-          className={cx(
-            "inline-flex items-center justify-center rounded-sm bg-gold-500 px-6 py-3 text-sm font-medium tracking-wide text-ink-950 transition-colors duration-200",
-            isPending ? "opacity-60" : "hover:bg-gold-400",
-          )}
-        >
+        <Button type="submit" disabled={isPending}>
           {isPending ? "Sending…" : "Send inquiry"}
-        </button>
+        </Button>
         <span aria-live="polite" className="sr-only">
           {isPending ? "Sending your inquiry." : ""}
         </span>

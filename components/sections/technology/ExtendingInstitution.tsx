@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
 import { Section } from "@/components/ui/Section";
 
 export function ExtendingInstitution() {
@@ -26,19 +26,9 @@ export function ExtendingInstitution() {
           substitute for it.
         </p>
         <p className="space-y-1">
-          <Link
-            href="/intellectual-property"
-            className="block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-          >
-            The knowledge technology extends: explore Intellectual
-            Property →
-          </Link>
-          <Link
-            href="/managed-services"
-            className="block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-          >
-            The operations technology sustains: explore Managed Services →
-          </Link>
+          <ArrowLink href="/intellectual-property" block>The knowledge technology extends: explore Intellectual
+            Property</ArrowLink>
+          <ArrowLink href="/managed-services" block>The operations technology sustains: explore Managed Services</ArrowLink>
         </p>
       </div>
     </Section>

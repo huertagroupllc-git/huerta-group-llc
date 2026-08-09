@@ -1,3 +1,4 @@
+import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
 
 export function KnowledgeBeyondEngagement() {
@@ -21,10 +22,10 @@ export function KnowledgeBeyondEngagement() {
           evaporating, and expertise belongs to the institution rather than
           to memory.
         </p>
-        <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
+        <PullQuote>
           Experience that is not captured is expertise the organization has
           to earn twice.
-        </p>
+        </PullQuote>
       </div>
     </Section>
   );

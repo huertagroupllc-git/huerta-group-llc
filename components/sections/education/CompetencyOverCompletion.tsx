@@ -1,3 +1,4 @@
+import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
 
 export function CompetencyOverCompletion() {
@@ -22,10 +23,10 @@ export function CompetencyOverCompletion() {
           practice — for individuals, and for the organizations around
           them.
         </p>
-        <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
+        <PullQuote>
           The measure of the work is capability that holds up inside a
           real organization.
-        </p>
+        </PullQuote>
       </div>
     </Section>
   );

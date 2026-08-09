@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
 import { Section } from "@/components/ui/Section";
 
 const AREAS = [
@@ -109,13 +109,8 @@ export function ServiceAreas() {
         ))}
       </ol>
       <p className="mt-12">
-        <Link
-          href="/managed-services"
-          className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-        >
-          Where support continues beyond a defined engagement: explore
-          Managed Services →
-        </Link>
+        <ArrowLink href="/managed-services">Where support continues beyond a defined engagement: explore
+          Managed Services</ArrowLink>
       </p>
     </Section>
   );

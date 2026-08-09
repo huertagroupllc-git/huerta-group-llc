@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
 import { Section } from "@/components/ui/Section";
 
 export function InstitutionalFoundation() {
@@ -27,13 +27,8 @@ export function InstitutionalFoundation() {
           beyond the work that first produced it.
         </p>
         <p>
-          <Link
-            href="/intellectual-property"
-            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-          >
-            How knowledge becomes an institutional asset: explore
-            Intellectual Property →
-          </Link>
+          <ArrowLink href="/intellectual-property">How knowledge becomes an institutional asset: explore
+            Intellectual Property</ArrowLink>
         </p>
       </div>
     </Section>

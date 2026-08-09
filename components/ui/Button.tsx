@@ -3,7 +3,7 @@ import { cx } from "@/lib/cx";
 export type ButtonVariant = "primary" | "secondary";
 
 const BASE =
-  "inline-flex items-center justify-center rounded-sm px-6 py-3 text-sm font-medium tracking-wide transition-colors duration-200 ease-brand";
+  "inline-flex items-center justify-center rounded-sm px-6 py-3 text-sm font-medium tracking-wide transition-colors duration-200 ease-brand disabled:pointer-events-none disabled:opacity-60";
 
 const VARIANTS: Record<ButtonVariant, string> = {
   primary: "bg-gold-500 text-ink-950 hover:bg-gold-400",

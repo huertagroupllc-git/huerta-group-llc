@@ -1,3 +1,4 @@
+import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
 
 export function CapabilityOverDependency() {
@@ -24,9 +25,9 @@ export function CapabilityOverDependency() {
           the organization becomes — and structures support so it can
           responsibly step back as that capability grows.
         </p>
-        <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
+        <PullQuote>
           Support that cannot step back is not support. It is dependency.
-        </p>
+        </PullQuote>
       </div>
     </Section>
   );

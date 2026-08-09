@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
 import { Section } from "@/components/ui/Section";
 
 export function SystemsFirst() {
@@ -23,12 +23,7 @@ export function SystemsFirst() {
           of working on the system, not a product on a shelf.
         </p>
         <p>
-          <Link
-            href="/methodology"
-            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-          >
-            Every service is delivered through disciplined methodology →
-          </Link>
+          <ArrowLink href="/methodology">Every service is delivered through disciplined methodology</ArrowLink>
         </p>
       </div>
     </Section>

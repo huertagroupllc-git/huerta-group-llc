@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
 import { Section } from "@/components/ui/Section";
 
 const PHASES = [
@@ -57,13 +57,8 @@ export function Engagement() {
         through the full arc.
       </p>
       <p className="mt-6">
-        <Link
-          href="/education"
-          className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-        >
-          Structured training is also the work of the Company&apos;s
-          Education &amp; Workforce Development division →
-        </Link>
+        <ArrowLink href="/education">Structured training is also the work of the Company&apos;s
+          Education &amp; Workforce Development division</ArrowLink>
       </p>
     </Section>
   );

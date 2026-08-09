@@ -1,3 +1,4 @@
+import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
 
 export function ConsistencyWithAdaptation() {
@@ -25,9 +26,9 @@ export function ConsistencyWithAdaptation() {
           actual context, constraints, and capacity. That is adaptation
           with discipline, not improvisation.
         </p>
-        <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
+        <PullQuote>
           The standard is constant. The answer belongs to the organization.
-        </p>
+        </PullQuote>
       </div>
     </Section>
   );

@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
+import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
 
 export function InstitutionalContinuity() {
@@ -24,17 +25,12 @@ export function InstitutionalContinuity() {
           carry it. Every engagement done well strengthens the foundation
           the next one stands on.
         </p>
-        <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
+        <PullQuote>
           What the Company learns, the Company keeps — and puts back to
           work.
-        </p>
+        </PullQuote>
         <p>
-          <Link
-            href="/technology-software"
-            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-          >
-            The systems that carry it: explore Technology &amp; Software →
-          </Link>
+          <ArrowLink href="/technology-software">The systems that carry it: explore Technology &amp; Software</ArrowLink>
         </p>
       </div>
     </Section>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { Container } from "@/components/ui/Container";
+import { PageHero } from "@/components/ui/PageHero";
 import { SITE_NAME } from "@/lib/site";
 
 const PAGE_TITLE = `Contact ${SITE_NAME}`;
@@ -32,23 +33,11 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <section className="bg-gradient-to-b from-ink-900 to-ink-950">
-        <Container className="py-20 sm:py-28">
-          <p className="flex items-center gap-3 text-xs font-medium uppercase tracking-[0.25em] text-gold-500">
-            <span aria-hidden="true" className="h-px w-8 bg-gold-600" />
-            Contact
-          </p>
-          <h1 className="mt-6 max-w-3xl font-serif text-4xl leading-tight text-silver-100 sm:text-5xl">
-            Start the conversation.
-          </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-silver-400">
-            If your organization is preparing to scale, feeling the strain of
-            growth, or simply ready to work more deliberately, this is the
-            place to begin. Business owners, executives, operations leaders,
-            and potential partners are all welcome to write.
-          </p>
-        </Container>
-      </section>
+      <PageHero
+        eyebrow="Contact"
+        title="Start the conversation."
+        lead="If your organization is preparing to scale, feeling the strain of growth, or simply ready to work more deliberately, this is the place to begin. Business owners, executives, operations leaders, and potential partners are all welcome to write."
+      />
 
       <section className="border-t border-edge">
         <Container className="py-16 sm:py-20">
@@ -86,7 +75,7 @@ export default function ContactPage() {
                   Learn how Huerta Group thinks about organizations on the{" "}
                   <Link
                     href="/about"
-                    className="text-gold-400 transition-colors duration-200 hover:text-gold-300"
+                    className="text-gold-400 transition-colors duration-200 ease-brand hover:text-gold-300"
                   >
                     About page
                   </Link>

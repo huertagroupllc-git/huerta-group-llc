@@ -1,3 +1,4 @@
+import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
 
 export function EducationMission() {
@@ -23,11 +24,11 @@ export function EducationMission() {
           Workforce development, done seriously, is institutional
           capability building.
         </p>
-        <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
+        <PullQuote>
           It is not content production for its own sake. Education that
           loses its connection to real practice loses the reason it is
           worth teaching.
-        </p>
+        </PullQuote>
       </div>
     </Section>
   );

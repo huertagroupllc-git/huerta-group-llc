@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
+import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
 
 export function LongTerm() {
@@ -22,18 +23,13 @@ export function LongTerm() {
           none of it would change the identity underneath: an
           organizational systems company, accountable for what it builds.
         </p>
-        <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
+        <PullQuote>
           What will not change is the orientation: decisions weighed on long
           horizons, obligations taken seriously, and growth pursued only at
           a pace the work can honestly support.
-        </p>
+        </PullQuote>
         <p>
-          <Link
-            href="/education"
-            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-          >
-            Explore Education &amp; Workforce Development →
-          </Link>
+          <ArrowLink href="/education">Explore Education &amp; Workforce Development</ArrowLink>
         </p>
       </div>
     </Section>

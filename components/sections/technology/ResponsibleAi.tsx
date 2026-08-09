@@ -1,3 +1,4 @@
+import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
 
 export function ResponsibleAi() {
@@ -23,9 +24,9 @@ export function ResponsibleAi() {
           review and responsibility — like every other tool the Company
           puts to work.
         </p>
-        <p className="border-l-2 border-gold-600 pl-5 font-serif text-xl text-silver-300">
+        <PullQuote>
           AI belongs inside a governed system — never above it.
-        </p>
+        </PullQuote>
       </div>
     </Section>
   );

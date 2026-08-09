@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
 import { Section } from "@/components/ui/Section";
 
 export function TechnologyRole() {
@@ -22,13 +22,8 @@ export function TechnologyRole() {
           technology at all.
         </p>
         <p>
-          <Link
-            href="/technology-software"
-            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-          >
-            The Company&apos;s technology philosophy: explore Technology
-            &amp; Software →
-          </Link>
+          <ArrowLink href="/technology-software">The Company&apos;s technology philosophy: explore Technology
+            &amp; Software</ArrowLink>
         </p>
       </div>
     </Section>

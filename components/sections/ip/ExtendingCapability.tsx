@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ArrowLink } from "@/components/ui/ArrowLink";
 import { Section } from "@/components/ui/Section";
 
 export function ExtendingCapability() {
@@ -24,12 +24,7 @@ export function ExtendingCapability() {
           value of sound work beyond the engagement that produced it.
         </p>
         <p>
-          <Link
-            href="/education"
-            className="inline-block py-1 text-sm text-gold-400 transition-colors duration-200 hover:text-gold-300"
-          >
-            Explore Education &amp; Workforce Development →
-          </Link>
+          <ArrowLink href="/education">Explore Education &amp; Workforce Development</ArrowLink>
         </p>
       </div>
     </Section>

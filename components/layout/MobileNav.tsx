@@ -39,7 +39,7 @@ export function MobileNav() {
         aria-expanded={open}
         aria-controls="mobile-nav"
         onClick={() => setOpen((value) => !value)}
-        className="-mr-2 flex h-11 w-11 items-center justify-center text-silver-300 transition-colors duration-200 hover:text-silver-100"
+        className="-mr-2 flex h-11 w-11 items-center justify-center text-silver-300 transition-colors duration-200 ease-brand hover:text-silver-100"
       >
         <span className="sr-only">{open ? "Close menu" : "Open menu"}</span>
         <svg
@@ -70,7 +70,7 @@ export function MobileNav() {
                 <Link
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="block py-3 text-base text-silver-300 transition-colors duration-200 hover:text-silver-100"
+                  className="block py-3 text-base text-silver-300 transition-colors duration-200 ease-brand hover:text-silver-100"
                 >
                   {link.label}
                 </Link>

@@ -34,7 +34,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="whitespace-nowrap py-2 text-sm text-silver-400 transition-colors duration-200 hover:text-silver-100"
+              className="whitespace-nowrap py-2 text-sm text-silver-400 transition-colors duration-200 ease-brand hover:text-silver-100"
             >
               {link.label}
             </Link>
