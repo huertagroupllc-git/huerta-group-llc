@@ -13,6 +13,7 @@
     "validate:ip": "node institution/validation/validate-ip.mjs",
     "validate:education": "node institution/validation/validate-education.mjs",
     "validate:determinations": "node institution/validation/validate-determinations.mjs",
+    "validate:evolution": "node institution/validation/validate-evolution.mjs",
     "validate:references": "node institution/validation/validate-references.mjs",
     "verify": "node institution/validation/verify.mjs"
   },

@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huertagroupllc.com/institution/metadata/schemas/evolution-schema.json",
+  "title": "Institutional Evolution Log Registry Schema",
+  "description": "Validates the evolution-log registry (Phase Zero, fd-0003 FO-6). Evolution records are evidentiary Institutional Records: they record institutional evolution and never create authority. Append-only: records are corrected by later records, never edited away. Retrospective records require express Founder Office authorization and cited evidence.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registryVersion", "records"],
+  "properties": {
+    "registryVersion": { "type": "integer", "minimum": 1 },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/evolutionRecord" }
+    }
+  },
+  "$defs": {
+    "evolutionRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "path",
+        "date",
+        "institutionalDomain",
+        "evolutionType",
+        "retrospective",
+        "authorityInvolved",
+        "decisionReferences",
+        "canonicalArtifactReferences",
+        "refinementReferences"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^evo-[0-9]{4}$" },
+        "title": { "type": "string", "minLength": 1 },
+        "path": {
+          "type": "string",
+          "pattern": "^institution/evolution/records/evo-[0-9]{4}-.+\\.md$"
+        },
+        "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+        "institutionalDomain": {
+          "enum": [
+            "repository/platform",
+            "governance",
+            "methodology",
+            "intellectual-property",
+            "education",
+            "operations",
+            "design-system",
+            "branding",
+            "public-website",
+            "cross-domain"
+          ]
+        },
+        "evolutionType": {
+          "enum": [
+            "foundation_established",
+            "governance_determination",
+            "capability_change",
+            "structure_reorganization",
+            "standard_amendment",
+            "correction",
+            "recovery",
+            "other"
+          ]
+        },
+        "retrospective": { "type": "boolean" },
+        "retrospectiveAuthorization": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Required when retrospective is true: the fd-record evidencing express Founder Office authorization."
+        },
+        "authorityInvolved": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "decisionReferences": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^(fd-[0-9]{4}|adr-[0-9]{4}|ADR-[0-9]{4})$" }
+        },
+        "canonicalArtifactReferences": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "refinementReferences": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^evo-[0-9]{4}$" },
+          "description": "Later records correcting or refining this one; empty while unrefined."
+        }
+      }
+    }
+  }
+}

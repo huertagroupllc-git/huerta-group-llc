@@ -1555,6 +1555,114 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evolution-log",
+      "title": "Institutional Evolution Log",
+      "path": "institution/evolution/README.md",
+      "type": "standard",
+      "classification": "Repository Standard",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Governance of the append-only Institutional Evolution Log (Phase Zero, FO-6): record architecture, identifier convention, maintenance workflow, correction-by-later-record rule, Founder Office integration, and the prospective-only retrospective boundary.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Founder Office determination FO-6 (fd-0003).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0003-migration-execution-determinations"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evolution-log-index",
+      "title": "Institutional Evolution Log — Index",
+      "path": "institution/evolution/INDEX.md",
+      "type": "index",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Append-only ledger of evolution records, oldest first; every listed record has a file under records/ and a registry entry (three-way coverage enforced by validate:evolution).",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Founder Office determination FO-6 (fd-0003).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "evolution-log"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evolution-log-template",
+      "title": "Institutional Evolution Log — Record Template",
+      "path": "institution/evolution/TEMPLATE.md",
+      "type": "standard",
+      "classification": "Repository Standard",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Required structure for evolution records: identifier, date, domain, type, prior state, change, evidence, authority, decision and artifact references, implications, dependencies, refinement references, historical notes.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Founder Office determination FO-6 (fd-0003).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "evolution-log"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evo-0001-repository-foundation-migration",
+      "title": "evo-0001 — Repository Foundation Migration and Evolution Log Activation",
+      "path": "institution/evolution/records/evo-0001-repository-foundation-migration.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Phase Zero evolution record: the single-repository migration into the institution/ architecture, the determinations register, workbench, gate and CI, standard amendments, and the log's activation — evidenced by fd-0001..fd-0004 and ADR-0007.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Migration execution instrument (fd-0003).",
+        "effectiveDate": "2026-08-08"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "evolution-log"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0007-repository-foundation-migration"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0003-migration-execution-determinations"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

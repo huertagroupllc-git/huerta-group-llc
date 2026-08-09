@@ -1,0 +1,30 @@
+{
+  "registryVersion": 1,
+  "records": [
+    {
+      "id": "evo-0001",
+      "title": "Repository Foundation Migration and Evolution Log Activation",
+      "path": "institution/evolution/records/evo-0001-repository-foundation-migration.md",
+      "date": "2026-08-08",
+      "institutionalDomain": "repository/platform",
+      "evolutionType": "structure_reorganization",
+      "retrospective": false,
+      "authorityInvolved": [
+        "Founder Office (governing authority)",
+        "Platform & Systems Development (implementing office)"
+      ],
+      "decisionReferences": ["fd-0001", "fd-0002", "fd-0003", "fd-0004", "adr-0007"],
+      "canonicalArtifactReferences": [
+        "institution/README.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/standards/repository/canonical-source-preservation.md",
+        "institution/standards/repository/repository-verification.md",
+        "workbench/README.md",
+        "institution/decisions/adr-0007-repository-foundation-migration.md",
+        ".github/workflows/verify.yml",
+        "institution/evolution/README.md"
+      ],
+      "refinementReferences": []
+    }
+  ]
+}
