@@ -13,7 +13,13 @@
         "Founder Office (governing authority)",
         "Platform & Systems Development (implementing office)"
       ],
-      "decisionReferences": ["fd-0001", "fd-0002", "fd-0003", "fd-0004", "adr-0007"],
+      "decisionReferences": [
+        "fd-0001",
+        "fd-0002",
+        "fd-0003",
+        "fd-0004",
+        "adr-0007"
+      ],
       "canonicalArtifactReferences": [
         "institution/README.md",
         "institution/standards/repository/documentation-index.md",
@@ -23,6 +29,31 @@
         "institution/decisions/adr-0007-repository-foundation-migration.md",
         ".github/workflows/verify.yml",
         "institution/evolution/README.md"
+      ],
+      "refinementReferences": []
+    },
+    {
+      "id": "evo-0002",
+      "title": "Design System Reference Implementation Activated (Phase 1)",
+      "path": "institution/evolution/records/evo-0002-design-system-reference-implementation-phase1.md",
+      "date": "2026-08-08",
+      "institutionalDomain": "design-system",
+      "evolutionType": "capability_change",
+      "retrospective": false,
+      "authorityInvolved": [
+        "Founder Office (unblocking determinations)",
+        "Design System (design authority)",
+        "Platform & Systems Development (implementation)"
+      ],
+      "decisionReferences": [
+        "fd-0005"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/design/README.md",
+        "institution/design/website-phase1-inventory.md",
+        "components/ui/PageHero.tsx",
+        "components/ui/CtaBand.tsx",
+        "components/layout/NavLink.tsx"
       ],
       "refinementReferences": []
     }

@@ -1959,6 +1959,34 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evo-0002-design-system-reference-implementation-phase1",
+      "title": "evo-0002 — Design System Reference Implementation Activated (Phase 1)",
+      "path": "institution/evolution/records/evo-0002-design-system-reference-implementation-phase1.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Evolution record: Phase 1 activated the reference-implementation model — inventory preserved as evidence, DDR/GR practices established, first evidence-gated design assets adopted across every route, and render-diff neutrality verification validated.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "fd-0005; Institutional Evolution Log governance.",
+        "effectiveDate": "2026-08-08"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "evolution-log"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0005-design-system-implementation-unblocked"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
