@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { NavLink } from "@/components/layout/NavLink";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { CONTACT_HREF, NAV_LINKS } from "@/lib/site";
 
@@ -67,13 +67,13 @@ export function MobileNav() {
           <ul className="px-6 py-4">
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
-                <Link
+                <NavLink
                   href={link.href}
+                  variant="menu"
                   onClick={() => setOpen(false)}
-                  className="block py-3 text-base text-silver-300 transition-colors duration-200 ease-brand hover:text-silver-100"
                 >
                   {link.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
             <li className="pb-2 pt-4">

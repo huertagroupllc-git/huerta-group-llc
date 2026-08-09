@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MobileNav } from "@/components/layout/MobileNav";
+import { NavLink } from "@/components/layout/NavLink";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Container } from "@/components/ui/Container";
 import { CONTACT_HREF, NAV_LINKS, SITE_NAME } from "@/lib/site";
@@ -31,13 +32,9 @@ export function Header() {
           className="hidden items-center gap-3 xl:flex"
         >
           {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="whitespace-nowrap py-2 text-sm text-silver-400 transition-colors duration-200 ease-brand hover:text-silver-100"
-            >
+            <NavLink key={link.href} href={link.href} variant="header">
               {link.label}
-            </Link>
+            </NavLink>
           ))}
           <ButtonLink href={CONTACT_HREF} className="whitespace-nowrap px-4 py-2">
             Start a conversation

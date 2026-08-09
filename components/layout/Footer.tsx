@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NavLink } from "@/components/layout/NavLink";
 import { Container } from "@/components/ui/Container";
 import { LEGAL_NAME, NAV_LINKS, SITE_NAME, TAGLINE } from "@/lib/site";
 
@@ -29,12 +30,9 @@ export function Footer() {
             <ul className="space-y-1">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="inline-block py-1 text-sm text-silver-400 transition-colors duration-200 ease-brand hover:text-silver-100"
-                  >
+                  <NavLink href={link.href} variant="footer">
                     {link.label}
-                  </Link>
+                  </NavLink>
                 </li>
               ))}
             </ul>

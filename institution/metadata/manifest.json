@@ -1839,6 +1839,126 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ddr-0005-accessibility-interaction-rules",
+      "title": "ddr-0005 — Phase 1 Accessibility and Interaction Rules",
+      "path": "institution/design/decisions/ddr-0005-accessibility-interaction-rules.md",
+      "summary": "Accessibility rules adopted with Phase 1: aria-current plus emphasized tone on the active navigation route via shared NavLink, decorative glyphs hidden from assistive technology, uniform disabled treatment, and the retained dual focus convention.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "gr-0001-primary-cta-label",
+      "title": "gr-0001 — Primary CTA Label Duality",
+      "path": "institution/design/recommendations/gr-0001-primary-cta-label.md",
+      "summary": "Non-authoritative recommendation: Branding with Design System should determine whether one label or a deliberate two-label rule governs the primary contact action; Phase 1 preserves both labels verbatim.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "gr-0002-semantic-status-color",
+      "title": "gr-0002 — Semantic Status Color Layer",
+      "path": "institution/design/recommendations/gr-0002-semantic-status-color.md",
+      "summary": "Non-authoritative recommendation: decide before richer feedback UI whether the palette gains a semantic status layer distinct from brand gold; gold-as-error retained unchanged in Phase 1 with passing contrast.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "gr-0003-navigation-capacity-ceiling",
+      "title": "gr-0003 — Navigation Capacity Ceiling",
+      "path": "institution/design/recommendations/gr-0003-navigation-capacity-ceiling.md",
+      "summary": "Non-authoritative recommendation: a Design System navigation-architecture decision should precede any future public page or navigation addition, given the measured xl-breakpoint overflow ceiling.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "gr-0004-design-record-classification",
+      "title": "gr-0004 — Dedicated Manifest Classification for Design Records",
+      "path": "institution/design/recommendations/gr-0004-design-record-classification.md",
+      "summary": "Non-authoritative recommendation: revisit a dedicated taxonomy value and registry/validator pair for design records once volume or a Design System Foundation admission justifies it.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
