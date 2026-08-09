@@ -1,4 +1,5 @@
 import { Container } from "@/components/ui/Container";
+import { Eyebrow } from "@/components/ui/Eyebrow";
 import { cx } from "@/lib/cx";
 
 interface SectionProps {
@@ -35,10 +36,7 @@ export function Section({
       )}
     >
       <Container>
-        <p className="flex items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-gold-500">
-          <span aria-hidden="true" className="h-px w-8 bg-gold-600" />
-          {eyebrow}
-        </p>
+        <Eyebrow>{eyebrow}</Eyebrow>
         <h2 className="mt-5 max-w-2xl font-serif text-3xl text-silver-100 sm:text-4xl">
           {title}
         </h2>

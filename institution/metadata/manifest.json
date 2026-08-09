@@ -1743,6 +1743,78 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ddr-0001-token-architecture-single-primitive-layer",
+      "title": "ddr-0001 — Token Architecture: Single Primitive Layer with Documented Roles",
+      "path": "institution/design/decisions/ddr-0001-token-architecture-single-primitive-layer.md",
+      "summary": "Phase 1 token decision: keep the single primitive brand-named token layer with documented roles; no parallel semantic alias layer without a second consumer; unused color primitives retained as reserved; one addition (tracking-eyebrow).",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ddr-0002-eyebrow-tracking-unification",
+      "title": "ddr-0002 — Eyebrow Letter-Spacing Unified at 0.25em via Token",
+      "path": "institution/design/decisions/ddr-0002-eyebrow-tracking-unification.md",
+      "summary": "Resolves the inventory's top inconsistency: one eyebrow tracking value (0.25em) as the tracking-eyebrow token, applied by the shared Eyebrow component across heroes, sections, and CTA bands.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ddr-0003-motion-rule-ease-brand",
+      "title": "ddr-0003 — Motion Rule: Color Transitions Only, 200 ms, Brand Easing",
+      "path": "institution/design/decisions/ddr-0003-motion-rule-ease-brand.md",
+      "summary": "Motion rule for the reference implementation: color transitions only at 200 ms with the activated --ease-brand token; no transforms, entrances, or new durations in Phase 1; reduced-motion behavior unchanged.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
