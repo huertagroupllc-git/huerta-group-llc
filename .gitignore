@@ -43,3 +43,8 @@ next-env.d.ts
 
 # supabase CLI cache
 supabase/.temp/
+
+# workbench — staging for pre-admission working material (uncommitted by
+# policy; see workbench/README.md). Only the charter is tracked.
+/workbench/*
+!/workbench/README.md
