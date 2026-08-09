@@ -6,9 +6,9 @@ const BASE =
   "inline-flex items-center justify-center rounded-sm px-6 py-3 text-sm font-medium tracking-wide transition-colors duration-200 ease-brand disabled:pointer-events-none disabled:opacity-60";
 
 const VARIANTS: Record<ButtonVariant, string> = {
-  primary: "bg-gold-500 text-ink-950 hover:bg-gold-400",
+  primary: "bg-gold-500 text-ink-950 hover:bg-gold-400 active:bg-gold-600",
   secondary:
-    "border border-edge text-silver-300 hover:border-gold-600 hover:text-silver-100",
+    "border border-edge text-silver-300 hover:border-gold-600 hover:text-silver-100 active:border-gold-500",
 };
 
 /** Single source of button styling for links and real buttons (DDR-0004). */

@@ -24,11 +24,17 @@ export function ArrowLink({
       href={href}
       className={cx(
         block ? "block" : "inline-block",
-        "py-1 text-sm text-gold-400 transition-colors duration-200 ease-brand hover:text-gold-300",
+        "group py-1 text-sm text-gold-400 transition-colors duration-200 ease-brand hover:text-gold-300",
         className,
       )}
     >
-      {children} <span aria-hidden="true">→</span>
+      {children}{" "}
+      <span
+        aria-hidden="true"
+        className="inline-block transition-transform duration-200 ease-brand group-hover:translate-x-0.5"
+      >
+        →
+      </span>
     </Link>
   );
 }
