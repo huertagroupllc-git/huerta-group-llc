@@ -3,8 +3,8 @@
  * Architecture validation (internal software architecture foundation).
  *
  * Deterministic, dependency-free verification that the capability
- * registry (knowledge/capability-registry.json) conforms to its schema
- * (knowledge/capability-schema.json) and is referentially coherent.
+ * registry (institution/metadata/registries/capability-registry.json) conforms to its schema
+ * (institution/metadata/schemas/capability-schema.json) and is referentially coherent.
  * Exits non-zero with one actionable line per defect.
  *
  * Checks:
@@ -25,8 +25,8 @@ import { join, relative } from "node:path";
 import process from "node:process";
 
 const ROOT = process.cwd();
-const SCHEMA_PATH = join(ROOT, "knowledge", "capability-schema.json");
-const REGISTRY_PATH = join(ROOT, "knowledge", "capability-registry.json");
+const SCHEMA_PATH = join(ROOT, "institution", "metadata", "schemas", "capability-schema.json");
+const REGISTRY_PATH = join(ROOT, "institution", "metadata", "registries", "capability-registry.json");
 
 /** The capability domains the architecture requires, exactly once each. */
 const REQUIRED_CAPABILITIES = [

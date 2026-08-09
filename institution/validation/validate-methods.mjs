@@ -3,7 +3,7 @@
  * Institutional Method Library validation.
  *
  * Deterministic, dependency-free verification of
- * knowledge/method-registry.json against knowledge/method-schema.json
+ * institution/metadata/registries/method-registry.json against institution/metadata/schemas/method-schema.json
  * plus the Method Library's referential and governance guards.
  * Exits non-zero with one actionable line per defect. No network, no
  * randomness, no time-dependent behavior.
@@ -30,9 +30,9 @@ import { join, relative } from "node:path";
 import process from "node:process";
 
 const ROOT = process.cwd();
-const SCHEMA_PATH = join(ROOT, "knowledge", "method-schema.json");
-const REGISTRY_PATH = join(ROOT, "knowledge", "method-registry.json");
-const KNOWLEDGE_MANIFEST_PATH = join(ROOT, "knowledge", "manifest.json");
+const SCHEMA_PATH = join(ROOT, "institution", "metadata", "schemas", "method-schema.json");
+const REGISTRY_PATH = join(ROOT, "institution", "metadata", "registries", "method-registry.json");
+const KNOWLEDGE_MANIFEST_PATH = join(ROOT, "institution", "metadata", "manifest.json");
 
 /** The eight approved initial records — exactly these, exactly once. */
 const REQUIRED_RECORDS = new Map([
@@ -74,7 +74,7 @@ const knowledgeManifest = loadJson(KNOWLEDGE_MANIFEST_PATH, "knowledge-manifest"
 if (!schema || !registry || !knowledgeManifest) report();
 
 // ---------- minimal JSON Schema subset validator (same subset as the
-// knowledge/architecture validators) ---------------------------------------
+// knowledge and architecture validators) ---------------------------------------
 
 function resolveRef(ref) {
   if (!ref.startsWith("#/")) throw new Error(`unsupported $ref: ${ref}`);
@@ -251,13 +251,13 @@ const manifestPaths = new Set(
 for (const rec of records) {
   if (typeof rec?.path === "string" && !manifestPaths.has(rec.path))
     fail(
-      `knowledge-manifest: ${rec.id} — governed document missing from knowledge/manifest.json: ${rec.path}`,
+      `knowledge-manifest: ${rec.id} — governed document missing from institution/metadata/manifest.json: ${rec.path}`,
     );
 }
 const ARCHITECTURE_DOC = "institution/technical/method-library-architecture.md";
 if (!manifestPaths.has(ARCHITECTURE_DOC))
   fail(
-    `knowledge-manifest: method library architecture missing from knowledge/manifest.json: ${ARCHITECTURE_DOC}`,
+    `knowledge-manifest: method library architecture missing from institution/metadata/manifest.json: ${ARCHITECTURE_DOC}`,
   );
 
 // ---------- report ---------------------------------------------------------

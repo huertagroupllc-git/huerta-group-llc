@@ -29,8 +29,8 @@ provider, or hosting model** (EWDFv1 §16.9).
   reused); record files are `institution/foundations/education/records/ed-NNNN-<slug>.md`;
   `ed-0001`'s canonical content is the Foundation source itself.
   Canonical paths are unique.
-- **Metadata home.** `knowledge/education-registry.json` (schema
-  `knowledge/education-schema.json`) is the authoritative metadata
+- **Metadata home.** `institution/metadata/registries/education-registry.json` (schema
+  `institution/metadata/schemas/education-schema.json`) is the authoritative metadata
   store; record files carry substantive content plus a minimal header.
 - **Validation.** `npm run validate:education` — deterministic,
   dependency-free, offline; schema conformance, exact twelve-record

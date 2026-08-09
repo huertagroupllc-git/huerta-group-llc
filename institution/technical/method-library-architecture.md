@@ -27,8 +27,8 @@ authorization under ADR-0003's criteria.
   `institution/foundations/methodology/records/mr-NNNN-<slug>.md`; `mr-0001`'s canonical
   content is the source document itself. Canonical paths are unique;
   records are never duplicated to simplify indexing.
-- **Metadata home.** The registry (`knowledge/method-registry.json`,
-  schema `knowledge/method-schema.json`) is the authoritative metadata
+- **Metadata home.** The registry (`institution/metadata/registries/method-registry.json`,
+  schema `institution/metadata/schemas/method-schema.json`) is the authoritative metadata
   store; record files carry the substantive content plus a minimal
   human-readable header. Metadata is not repeated wholesale in both
   places.

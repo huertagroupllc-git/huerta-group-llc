@@ -12,8 +12,8 @@ subordinate to the Constitution, the Vision Foundation, and the
 Development Standards.
 
 **Companion artifacts** (machine-readable; ADR-0001 conventions apply):
-capability registry `knowledge/capability-registry.json`, schema
-`knowledge/capability-schema.json`, validation
+capability registry `institution/metadata/registries/capability-registry.json`, schema
+`institution/metadata/schemas/capability-schema.json`, validation
 `npm run validate:architecture`. Boundary decisions: ADR-0002 – ADR-0006
 under [`decisions/`](../decisions/adr-practice.md).
 
@@ -184,7 +184,7 @@ capability: the registry.
 
 ## 11. Capability and system map (summary)
 
-The authoritative, validated map is `knowledge/capability-registry.json`
+The authoritative, validated map is `institution/metadata/registries/capability-registry.json`
 (18 capabilities). Summary:
 
 | Capability | Maturity | Disposition | Readiness |

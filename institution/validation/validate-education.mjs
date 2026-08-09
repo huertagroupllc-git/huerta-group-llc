@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * Deterministic, dependency-free validator for the Education Platform
- * Foundation (knowledge/education-registry.json against
- * knowledge/education-schema.json and the Education & Workforce
+ * Foundation (institution/metadata/registries/education-registry.json against
+ * institution/metadata/schemas/education-schema.json and the Education & Workforce
  * Development Foundation v1 governance guards).
  *
  * Verifies: schema conformance; exactly the twelve approved initial
@@ -28,7 +28,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const root = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const errors = [];
 const fail = (msg) => errors.push(msg);
 
@@ -41,12 +41,12 @@ function loadJson(rel) {
   }
 }
 
-const schema = loadJson("knowledge/education-schema.json");
-const registry = loadJson("knowledge/education-registry.json");
-const methodRegistry = loadJson("knowledge/method-registry.json");
-const ipRegistry = loadJson("knowledge/ip-registry.json");
-const manifest = loadJson("knowledge/manifest.json");
-const capabilityRegistry = loadJson("knowledge/capability-registry.json");
+const schema = loadJson("institution/metadata/schemas/education-schema.json");
+const registry = loadJson("institution/metadata/registries/education-registry.json");
+const methodRegistry = loadJson("institution/metadata/registries/method-registry.json");
+const ipRegistry = loadJson("institution/metadata/registries/ip-registry.json");
+const manifest = loadJson("institution/metadata/manifest.json");
+const capabilityRegistry = loadJson("institution/metadata/registries/capability-registry.json");
 
 if (!schema || !registry || !methodRegistry || !ipRegistry || !manifest || !capabilityRegistry) {
   report();
@@ -310,13 +310,13 @@ for (const r of records) {
   // Relationship resolution.
   for (const rel of r.methodologyRelationships ?? [])
     if (!methodIds.has(rel.target))
-      fail(`${p}: methodology relationship target "${rel.target}" does not resolve in knowledge/method-registry.json`);
+      fail(`${p}: methodology relationship target "${rel.target}" does not resolve in institution/metadata/registries/method-registry.json`);
   for (const rel of r.ipRelationships ?? [])
     if (!ipIds.has(rel.target))
-      fail(`${p}: IP relationship target "${rel.target}" does not resolve in knowledge/ip-registry.json`);
+      fail(`${p}: IP relationship target "${rel.target}" does not resolve in institution/metadata/registries/ip-registry.json`);
   for (const rel of r.knowledgeRelationships ?? [])
     if (!manifestIds.has(rel.target))
-      fail(`${p}: knowledge relationship target "${rel.target}" does not resolve in knowledge/manifest.json`);
+      fail(`${p}: knowledge relationship target "${rel.target}" does not resolve in institution/metadata/manifest.json`);
   for (const rel of r.relatedRecords ?? [])
     if (!APPROVED_RECORDS.has(rel))
       fail(`${p}: related record "${rel}" does not resolve to an approved education record`);
@@ -366,11 +366,11 @@ const governedDocs = [
 ];
 for (const doc of governedDocs)
   if (!manifestPaths.has(doc))
-    fail(`knowledge/manifest.json: governed education artifact missing from the knowledge manifest: ${doc}`);
+    fail(`institution/metadata/manifest.json: governed education artifact missing from the knowledge manifest: ${doc}`);
 
 const capIds = new Set((capabilityRegistry.capabilities ?? []).map((c) => c.id));
 if (!capIds.has("education-platform"))
-  fail("knowledge/capability-registry.json: the education-platform capability must exist");
+  fail("institution/metadata/registries/capability-registry.json: the education-platform capability must exist");
 
 report();
 

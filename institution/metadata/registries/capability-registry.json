@@ -109,9 +109,9 @@
       "launchRelevance": "independent",
       "implementationReadiness": "ready",
       "evidencePaths": [
-        "knowledge/schema.json",
-        "knowledge/manifest.json",
-        "scripts/validate-knowledge.mjs"
+        "institution/metadata/schemas/schema.json",
+        "institution/metadata/manifest.json",
+        "institution/validation/validate-knowledge.mjs"
       ],
       "governingReferences": [
         "institution/decisions/adr-0001-institutional-knowledge-foundation.md"
@@ -183,9 +183,9 @@
       "evidencePaths": [
         "institution/foundations/methodology/methodology-foundation-v1.md",
         "institution/technical/method-library-architecture.md",
-        "knowledge/method-registry.json",
-        "knowledge/method-schema.json",
-        "scripts/validate-methods.mjs"
+        "institution/metadata/registries/method-registry.json",
+        "institution/metadata/schemas/method-schema.json",
+        "institution/validation/validate-methods.mjs"
       ],
       "notes": "Repository foundation only — no database, application, search service, or user interface exists or is implied."
     },
@@ -225,9 +225,9 @@
       "evidencePaths": [
         "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
         "institution/technical/ip-repository-architecture.md",
-        "knowledge/ip-registry.json",
-        "knowledge/ip-schema.json",
-        "scripts/validate-ip.mjs"
+        "institution/metadata/registries/ip-registry.json",
+        "institution/metadata/schemas/ip-schema.json",
+        "institution/validation/validate-ip.mjs"
       ],
       "notes": "Repository foundation only — no runtime application, database, search service, portal, or administrative interface exists or is implied; no legal ownership or rights determinations are made."
     },
@@ -272,9 +272,9 @@
       "evidencePaths": [
         "institution/foundations/education/education-workforce-development-foundation-v1.md",
         "institution/technical/education-platform-architecture.md",
-        "knowledge/education-registry.json",
-        "knowledge/education-schema.json",
-        "scripts/validate-education.mjs"
+        "institution/metadata/registries/education-registry.json",
+        "institution/metadata/schemas/education-schema.json",
+        "institution/validation/validate-education.mjs"
       ],
       "notes": "Repository foundation only — no LMS, runtime application, database, authentication, learner data, assessment operation, credential issuance, vendor selection, or public educational offering exists or is implied; repository presence creates no educational approval, and educational approval authorizes no delivery."
     },

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "huerta-group-llc/knowledge/schema.json",
+  "$id": "huerta-group-llc/institution/metadata/schemas/schema.json",
   "title": "Huerta Group LLC — Institutional Knowledge Metadata Schema",
   "description": "Defines document records and the corpus manifest for the governed docs/ corpus. Formalizes the existing documentation governance in docs/README.md; metadata described by this schema indexes knowledge and never creates institutional authority. See institution/decisions/adr-0001-institutional-knowledge-foundation.md.",
   "type": "object",

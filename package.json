@@ -7,11 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "validate:knowledge": "node scripts/validate-knowledge.mjs",
-    "validate:architecture": "node scripts/validate-architecture.mjs",
-    "validate:methods": "node scripts/validate-methods.mjs",
-    "validate:ip": "node scripts/validate-ip.mjs",
-    "validate:education": "node scripts/validate-education.mjs"
+    "validate:knowledge": "node institution/validation/validate-knowledge.mjs",
+    "validate:architecture": "node institution/validation/validate-architecture.mjs",
+    "validate:methods": "node institution/validation/validate-methods.mjs",
+    "validate:ip": "node institution/validation/validate-ip.mjs",
+    "validate:education": "node institution/validation/validate-education.mjs"
   },
   "dependencies": {
     "next": "16.2.11",

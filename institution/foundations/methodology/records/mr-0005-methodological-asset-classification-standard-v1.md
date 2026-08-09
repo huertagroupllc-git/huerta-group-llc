@@ -51,5 +51,5 @@ mr-0007, mr-0008).
 
 ## Technical implementation
 
-Approved now; enforced by `knowledge/method-schema.json` (approved
+Approved now; enforced by `institution/metadata/schemas/method-schema.json` (approved
 enum) and `npm run validate:methods` (provisional values rejected).

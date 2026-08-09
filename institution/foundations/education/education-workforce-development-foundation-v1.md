@@ -15,7 +15,7 @@
   public positioning and is never an internal educational
   specification (§22.1).
 - **Education registry record:** `ed-0001` in
-  `knowledge/education-registry.json`. This document is the
+  `institution/metadata/registries/education-registry.json`. This document is the
   authoritative source from which records `ed-0002`–`ed-0012` derive;
   where a derived record and this source disagree, this source is
   correct.

@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "huerta-group-llc/knowledge/ip-schema.json",
+  "$id": "huerta-group-llc/institution/metadata/schemas/ip-schema.json",
   "title": "Huerta Group LLC — Institutional Intellectual Property Repository Schema",
-  "description": "Validates knowledge/ip-registry.json and its records. Authoritative source: institution/foundations/intellectual-property/intellectual-property-foundation-v1.md. Repository presence never creates IP admission; admission never creates legal ownership; the repository records known facts and evidence and never makes legal or commercial determinations. Lifecycle, governance status, maturity, readiness, disclosure, origin, adaptation, ownership, rights, legal confirmation, commercial status, and archival status are separate dimensions.",
+  "description": "Validates institution/metadata/registries/ip-registry.json and its records. Authoritative source: institution/foundations/intellectual-property/intellectual-property-foundation-v1.md. Repository presence never creates IP admission; admission never creates legal ownership; the repository records known facts and evidence and never makes legal or commercial determinations. Lifecycle, governance status, maturity, readiness, disclosure, origin, adaptation, ownership, rights, legal confirmation, commercial status, and archival status are separate dimensions.",
   "type": "object",
   "required": ["registryVersion", "provisionalAssetClasses", "records"],
   "additionalProperties": false,

@@ -13,7 +13,7 @@
 - **Disclosure:** Internal (`internal_methodology`); public disclosure
   requires separate approval (§5.2, §7).
 - **Method Library record:** `mr-0001` in
-  `knowledge/method-registry.json`. This document is the authoritative
+  `institution/metadata/registries/method-registry.json`. This document is the authoritative
   source from which records `mr-0002`–`mr-0008` derive; where a derived
   record and this source disagree, this source is correct.
 

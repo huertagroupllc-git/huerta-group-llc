@@ -3,8 +3,8 @@
  * Institutional knowledge validation (ADR-0001).
  *
  * Deterministic, dependency-free verification that the corpus manifest
- * (knowledge/manifest.json) is complete, consistent, and conformant to
- * the metadata schema (knowledge/schema.json). Exits non-zero with one
+ * (institution/metadata/manifest.json) is complete, consistent, and conformant to
+ * the metadata schema (institution/metadata/schemas/schema.json). Exits non-zero with one
  * actionable line per defect.
  *
  * Checks:
@@ -25,8 +25,8 @@ import { join, relative, sep } from "node:path";
 import process from "node:process";
 
 const ROOT = process.cwd();
-const SCHEMA_PATH = join(ROOT, "knowledge", "schema.json");
-const MANIFEST_PATH = join(ROOT, "knowledge", "manifest.json");
+const SCHEMA_PATH = join(ROOT, "institution", "metadata", "schemas", "schema.json");
+const MANIFEST_PATH = join(ROOT, "institution", "metadata", "manifest.json");
 // Canonical corpus roots (Repository Foundation architecture): every
 // Markdown document under these roots is governed, plus the explicitly
 // listed root-level operational instruction files. The workbench and

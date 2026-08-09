@@ -12,7 +12,7 @@
 - **Disclosure:** Internal; never rendered by the public application.
   The public Intellectual Property page is public positioning and is
   never internal IP governance authority.
-- **IP Repository record:** `ip-0001` in `knowledge/ip-registry.json`.
+- **IP Repository record:** `ip-0001` in `institution/metadata/registries/ip-registry.json`.
   This document is the authoritative source from which records
   `ip-0002`–`ip-0006` derive; where a derived record and this source
   disagree, this source is correct.

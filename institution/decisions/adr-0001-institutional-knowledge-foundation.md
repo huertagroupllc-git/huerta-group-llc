@@ -29,9 +29,9 @@ Three technical artifacts are added, plus a validation mechanism:
 
 | Artifact | Location | Role |
 | --- | --- | --- |
-| Metadata schema | `knowledge/schema.json` | Defines the shape of document records and of the manifest (JSON Schema 2020-12) |
-| Corpus manifest | `knowledge/manifest.json` | One metadata record per governed document — an **index**, never a content store |
-| Validator | `scripts/validate-knowledge.mjs` (`npm run validate:knowledge`) | Deterministic, dependency-free verification of schema conformance, corpus coverage, path existence, identifier/path uniqueness, and relationship integrity |
+| Metadata schema | `institution/metadata/schemas/schema.json` | Defines the shape of document records and of the manifest (JSON Schema 2020-12) |
+| Corpus manifest | `institution/metadata/manifest.json` | One metadata record per governed document — an **index**, never a content store |
+| Validator | `institution/validation/validate-knowledge.mjs` (`npm run validate:knowledge`) | Deterministic, dependency-free verification of schema conformance, corpus coverage, path existence, identifier/path uniqueness, and relationship integrity |
 
 The relationship among the parts: **source documents remain the
 knowledge**; the schema defines how they are described; the manifest

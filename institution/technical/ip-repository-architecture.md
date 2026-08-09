@@ -83,8 +83,8 @@ dimensions (§§2.1–2.11), each realized here without collapse:
   `institution/foundations/intellectual-property/records/ip-NNNN-<slug>.md`; `ip-0001`'s
   canonical content is the Foundation source itself. Canonical paths
   are unique.
-- **Metadata home.** `knowledge/ip-registry.json` (schema
-  `knowledge/ip-schema.json`) is the authoritative metadata store;
+- **Metadata home.** `institution/metadata/registries/ip-registry.json` (schema
+  `institution/metadata/schemas/ip-schema.json`) is the authoritative metadata store;
   record files carry substantive content plus a minimal header.
 - **Validation.** `npm run validate:ip` — deterministic,
   dependency-free; schema conformance, exact six-record coverage,

@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "huerta-group-llc/knowledge/method-schema.json",
+  "$id": "huerta-group-llc/institution/metadata/schemas/method-schema.json",
   "title": "Huerta Group LLC — Institutional Method Library Schema",
-  "description": "Validates knowledge/method-registry.json and its records. Authoritative substantive source: institution/foundations/methodology/methodology-foundation-v1.md. Registry presence never creates methodological authority; approval is an institutional act recorded as data. Development status, authority status, disclosure, readiness, IP referral, and archival status are separate dimensions and must never be collapsed.",
+  "description": "Validates institution/metadata/registries/method-registry.json and its records. Authoritative substantive source: institution/foundations/methodology/methodology-foundation-v1.md. Registry presence never creates methodological authority; approval is an institutional act recorded as data. Development status, authority status, disclosure, readiness, IP referral, and archival status are separate dimensions and must never be collapsed.",
   "type": "object",
   "required": ["registryVersion", "provisionalAssetTypes", "records"],
   "additionalProperties": false,

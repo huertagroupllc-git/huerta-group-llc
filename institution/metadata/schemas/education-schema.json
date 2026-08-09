@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://huertagroupllc.com/knowledge/education-schema.json",
+  "$id": "https://huertagroupllc.com/institution/metadata/schemas/education-schema.json",
   "title": "Huerta Group Education Registry Schema",
-  "description": "Validates knowledge/education-registry.json — the authoritative metadata store of the governed Education Platform Foundation (Education & Workforce Development Foundation v1). Governance metadata only: no program, course, learner, instructor, assessment instrument, credential, offering, or production learner-data record is represented as existing or authorized. Provisional types remain visibly provisional; every readiness dimension is separate; approval authority remains configurable.",
+  "description": "Validates institution/metadata/registries/education-registry.json — the authoritative metadata store of the governed Education Platform Foundation (Education & Workforce Development Foundation v1). Governance metadata only: no program, course, learner, instructor, assessment instrument, credential, offering, or production learner-data record is represented as existing or authorized. Provisional types remain visibly provisional; every readiness dimension is separate; approval authority remains configurable.",
   "type": "object",
   "additionalProperties": false,
   "required": [

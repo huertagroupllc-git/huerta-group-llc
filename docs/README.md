@@ -31,11 +31,11 @@ Current-implementation documentation lives in the repository root
 | --- | --- | --- |
 | Methodology Foundation v1 | [`methodology/methodology-foundation-v1.md`](../institution/foundations/methodology/methodology-foundation-v1.md) | The complete authoritative approved methodology foundation (v1.0) — source of the eight initial Method Library records |
 | Method Library — Technical Architecture | [`methodology/method-library-architecture.md`](../institution/technical/method-library-architecture.md) | Repository-based Method Library architecture: records, registry/schema split, separate status dimensions, configurable approval, no runtime authorization |
-| Method Library records | [`methodology/records/`](methodology/records/) | The seven derived records (mr-0002 – mr-0008); mr-0001 is the foundation itself. Metadata: `knowledge/method-registry.json` |
+| Method Library records | [`methodology/records/`](methodology/records/) | The seven derived records (mr-0002 – mr-0008); mr-0001 is the foundation itself. Metadata: `institution/metadata/registries/method-registry.json` |
 
 **Method Library maintenance** (see the architecture document for full
-rules): the registry (`knowledge/method-registry.json`, schema
-`knowledge/method-schema.json`) is the authoritative metadata store;
+rules): the registry (`institution/metadata/registries/method-registry.json`, schema
+`institution/metadata/schemas/method-schema.json`) is the authoritative metadata store;
 `npm run validate:methods` must pass with any methodology change.
 **Adding any substantive record requires prior Methodology approval of
 its substance** — the validator enforces exactly the approved record
@@ -57,11 +57,11 @@ platform.
 | --- | --- | --- |
 | Intellectual Property Foundation v1 | [`intellectual-property/intellectual-property-foundation-v1.md`](../institution/foundations/intellectual-property/intellectual-property-foundation-v1.md) | The complete authoritative approved IP governance foundation (v1.0) — source of the six initial repository records |
 | IP Repository — Technical Architecture | [`intellectual-property/ip-repository-architecture.md`](../institution/technical/ip-repository-architecture.md) | Repository-based IP Repository architecture: separated status dimensions, authority/stewardship/custody roles, Corporate Headquarters boundary, no runtime or legal determinations |
-| IP repository records | [`intellectual-property/records/`](intellectual-property/records/) | The five derived governance records (ip-0002 – ip-0006); ip-0001 is the foundation itself. Metadata: `knowledge/ip-registry.json` |
+| IP repository records | [`intellectual-property/records/`](intellectual-property/records/) | The five derived governance records (ip-0002 – ip-0006); ip-0001 is the foundation itself. Metadata: `institution/metadata/registries/ip-registry.json` |
 
 **IP Repository maintenance** (see the architecture document for full
-rules): the registry (`knowledge/ip-registry.json`, schema
-`knowledge/ip-schema.json`) is the authoritative metadata store;
+rules): the registry (`institution/metadata/registries/ip-registry.json`, schema
+`institution/metadata/schemas/ip-schema.json`) is the authoritative metadata store;
 `npm run validate:ip` must pass with any IP-repository change.
 **Repository presence does not create IP admission, and IP admission
 does not create legal rights.** Candidate assets enter as recorded
@@ -86,11 +86,11 @@ architecture; and no runtime IP platform exists.
 | --- | --- | --- |
 | Education & Workforce Development Foundation v1 | [`education/education-workforce-development-foundation-v1.md`](../institution/foundations/education/education-workforce-development-foundation-v1.md) | The complete authoritative approved education governance foundation (v1.0) — source of the twelve initial education records |
 | Education Platform — Technical Architecture | [`education/education-platform-architecture.md`](../institution/technical/education-platform-architecture.md) | Repository-based Education Platform Foundation architecture: separated lifecycle/maturity/readiness dimensions, configurable authority, traceability, learner-data boundaries, no LMS or runtime authorization |
-| Education records | [`education/records/`](education/records/) | The eleven derived governance records (ed-0002 – ed-0012); ed-0001 is the foundation itself. Metadata: `knowledge/education-registry.json` |
+| Education records | [`education/records/`](education/records/) | The eleven derived governance records (ed-0002 – ed-0012); ed-0001 is the foundation itself. Metadata: `institution/metadata/registries/education-registry.json` |
 
 **Education Platform maintenance** (see the architecture document for
-full rules): the registry (`knowledge/education-registry.json`, schema
-`knowledge/education-schema.json`) is the authoritative metadata store;
+full rules): the registry (`institution/metadata/registries/education-registry.json`, schema
+`institution/metadata/schemas/education-schema.json`) is the authoritative metadata store;
 `npm run validate:education` must pass with any education change.
 **Record presence does not authorize a program or offering, and no
 operational education platform exists** — no LMS, learner, instructor,
@@ -136,15 +136,15 @@ never automatic modification.
 The documentation governance defined in this index is formalized as a
 machine-readable layer (see ADR-0001 for the full decision):
 
-- **Metadata schema**: `knowledge/schema.json`
-- **Corpus manifest**: `knowledge/manifest.json` — one record per
+- **Metadata schema**: `institution/metadata/schemas/schema.json`
+- **Corpus manifest**: `institution/metadata/manifest.json` — one record per
   governed document under `docs/`
 - **Validation**: `npm run validate:knowledge` — verifies schema
   conformance, exact corpus coverage, path existence, identifier and
   path uniqueness, and relationship integrity; fails non-zero with one
   line per defect
-- **Capability registry**: `knowledge/capability-registry.json`
-  (schema: `knowledge/capability-schema.json`) — the machine-readable
+- **Capability registry**: `institution/metadata/registries/capability-registry.json`
+  (schema: `institution/metadata/schemas/capability-schema.json`) — the machine-readable
   institutional capability and system map (18 capabilities: maturity,
   dispositions, data ownership, dependencies, readiness, unresolved
   decisions). Validated by `npm run validate:architecture`

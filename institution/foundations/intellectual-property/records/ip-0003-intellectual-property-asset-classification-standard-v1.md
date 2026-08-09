@@ -96,6 +96,6 @@ ip-0006).
 
 ## Technical implementation
 
-Approved now; enforced by `knowledge/ip-schema.json` (approved enum)
+Approved now; enforced by `institution/metadata/schemas/ip-schema.json` (approved enum)
 and `npm run validate:ip` (provisional values rejected as primary
 classes).

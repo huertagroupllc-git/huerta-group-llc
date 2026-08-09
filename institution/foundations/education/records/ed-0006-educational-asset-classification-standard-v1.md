@@ -81,7 +81,7 @@ and the validator rejects any offering-typed record in this phase.
 
 ## Technical implementation
 
-Approved now; enforced by `knowledge/education-schema.json` (approved
+Approved now; enforced by `institution/metadata/schemas/education-schema.json` (approved
 enum, provisional list) and `npm run validate:education` (provisional
 values rejected as record types; offering types rejected in this
 phase).

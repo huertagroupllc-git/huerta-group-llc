@@ -39,7 +39,7 @@ ADR or standard.
   is retained (status updated, `superseded-by` relationship in the
   knowledge manifest) — never deleted.
 - **Knowledge manifest:** every ADR is a governed document — add its
-  record to `knowledge/manifest.json` in the same change and run
+  record to `institution/metadata/manifest.json` in the same change and run
   `npm run validate:knowledge`.
 - **Ratification:** decisions within development's technical authority
   are Accepted by development under the bounded standard. Any ADR whose

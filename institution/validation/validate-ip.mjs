@@ -3,7 +3,7 @@
  * Institutional Intellectual Property Repository validation.
  *
  * Deterministic, dependency-free verification of
- * knowledge/ip-registry.json against knowledge/ip-schema.json plus the
+ * institution/metadata/registries/ip-registry.json against institution/metadata/schemas/ip-schema.json plus the
  * repository's governance guards. Exits non-zero with one actionable
  * line per defect. No network, no randomness, no time dependence.
  *
@@ -39,10 +39,10 @@ import { join, relative } from "node:path";
 import process from "node:process";
 
 const ROOT = process.cwd();
-const SCHEMA_PATH = join(ROOT, "knowledge", "ip-schema.json");
-const REGISTRY_PATH = join(ROOT, "knowledge", "ip-registry.json");
-const KNOWLEDGE_MANIFEST_PATH = join(ROOT, "knowledge", "manifest.json");
-const CAPABILITY_REGISTRY_PATH = join(ROOT, "knowledge", "capability-registry.json");
+const SCHEMA_PATH = join(ROOT, "institution", "metadata", "schemas", "ip-schema.json");
+const REGISTRY_PATH = join(ROOT, "institution", "metadata", "registries", "ip-registry.json");
+const KNOWLEDGE_MANIFEST_PATH = join(ROOT, "institution", "metadata", "manifest.json");
+const CAPABILITY_REGISTRY_PATH = join(ROOT, "institution", "metadata", "registries", "capability-registry.json");
 
 /** The six approved initial records — exactly these, exactly once. */
 const REQUIRED_RECORDS = new Map([
@@ -86,7 +86,7 @@ const capabilityRegistry = loadJson(CAPABILITY_REGISTRY_PATH, "capability-regist
 if (!schema || !registry || !knowledgeManifest || !capabilityRegistry) report();
 
 // ---------- minimal JSON Schema subset validator (same subset as the
-// knowledge/architecture/method validators) --------------------------------
+// knowledge, architecture, and method validators) --------------------------------
 
 function resolveRef(ref) {
   if (!ref.startsWith("#/")) throw new Error(`unsupported $ref: ${ref}`);
@@ -310,7 +310,7 @@ for (const rec of records) {
       }
       // mr-* targets validated against the method registry.
       if (/^mr-[0-9]{4}$/.test(t)) {
-        const methodReg = loadJson(join(ROOT, "knowledge", "method-registry.json"), "method-registry");
+        const methodReg = loadJson(join(ROOT, "institution", "metadata", "registries", "method-registry.json"), "method-registry");
         if (methodReg && !methodReg.records?.some((m) => m.id === t))
           fail(`references: ${rec.id} — ${field} method target "${t}" not found in method registry`);
       }
@@ -335,7 +335,7 @@ const manifestPaths = new Set((knowledgeManifest.documents ?? []).map((d) => d.p
 for (const rec of records) {
   if (typeof rec?.path === "string" && !manifestPaths.has(rec.path))
     fail(
-      `knowledge-manifest: ${rec.id} — governed document missing from knowledge/manifest.json: ${rec.path}`,
+      `knowledge-manifest: ${rec.id} — governed document missing from institution/metadata/manifest.json: ${rec.path}`,
     );
 }
 const ARCHITECTURE_DOC = "institution/technical/ip-repository-architecture.md";
@@ -343,7 +343,7 @@ if (!manifestPaths.has(ARCHITECTURE_DOC))
   fail(`knowledge-manifest: IP repository architecture missing: ${ARCHITECTURE_DOC}`);
 
 if (!capabilityRegistry.capabilities?.some((c) => c.id === "ip-repository"))
-  fail(`capability: ip-repository capability missing from knowledge/capability-registry.json`);
+  fail(`capability: ip-repository capability missing from institution/metadata/registries/capability-registry.json`);
 
 // ---------- report ---------------------------------------------------------
 
