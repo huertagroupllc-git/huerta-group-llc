@@ -4,7 +4,7 @@ import { cx } from "@/lib/cx";
 
 interface CtaBandProps {
   id?: string;
-  /** Optional centered eyebrow (the homepage closing band uses one). */
+  /** Optional eyebrow (the homepage closing band uses one; left-aligned per ddr-0008). */
   eyebrow?: string;
   title: string;
   lead: string;

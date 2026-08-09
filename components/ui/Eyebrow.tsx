@@ -1,7 +1,9 @@
 import { cx } from "@/lib/cx";
 
 interface EyebrowProps {
-  /** Centered variant (CTA bands): hairlines flank the label. */
+  /** Centered variant (hairlines flank the label). Unused since the
+   * centered CTA composition was retired (ddr-0008); retained for
+   * future centered contexts. */
   centered?: boolean;
   className?: string;
   children: React.ReactNode;
