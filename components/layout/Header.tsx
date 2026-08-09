@@ -14,12 +14,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-edge bg-ink-950/85 backdrop-blur">
       <Container className="flex h-16 items-center justify-between gap-6">
-        <Link
-          href="/"
-          className="whitespace-nowrap font-serif text-lg tracking-wide text-silver-100"
-        >
+        <NavLink href="/" variant="brand">
           {SITE_NAME}
-        </Link>
+        </NavLink>
 
         {/* Desktop navigation appears at xl — measured: the full label
             row plus CTA overflows below it, and no standard breakpoint

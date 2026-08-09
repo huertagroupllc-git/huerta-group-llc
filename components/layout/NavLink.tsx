@@ -20,6 +20,12 @@ const VARIANTS = {
     active: "text-silver-100",
     inactive: "text-silver-400 hover:text-silver-100",
   },
+  /** Wordmark: constant tone; contributes aria-current on the home route. */
+  brand: {
+    base: "whitespace-nowrap font-serif text-lg tracking-wide text-silver-100",
+    active: "",
+    inactive: "",
+  },
 } as const;
 
 interface NavLinkProps {
