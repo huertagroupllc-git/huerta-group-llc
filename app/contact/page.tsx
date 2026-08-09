@@ -40,7 +40,7 @@ export default function ContactPage() {
       />
 
       <section className="border-t border-edge">
-        <Container className="py-16 sm:py-20">
+        <Container className="py-20 sm:py-28">
           <div className="grid gap-12 lg:grid-cols-[1fr_20rem]">
             <div className="max-w-2xl">
               <ContactForm />

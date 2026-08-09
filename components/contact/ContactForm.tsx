@@ -21,7 +21,7 @@ const FIELD_LABELS: Record<string, string> = {
 };
 
 const INPUT_CLASSES =
-  "w-full rounded-sm border border-edge bg-ink-900 px-4 py-3 text-silver-100 placeholder:text-silver-500 focus:border-gold-600";
+  "w-full rounded-sm border border-edge bg-ink-900 px-4 py-3 text-silver-100 caret-gold-500 transition-colors duration-200 ease-brand placeholder:text-silver-500 hover:border-gunmetal focus:border-gold-600 focus:hover:border-gold-600";
 
 const LABEL_CLASSES = "mb-2 block text-sm font-medium text-silver-300";
 
