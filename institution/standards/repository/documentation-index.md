@@ -40,7 +40,7 @@ Current-implementation documentation lives in the repository root
 | --- | --- | --- |
 | Methodology Foundation v1 | [`methodology/methodology-foundation-v1.md`](../../foundations/methodology/methodology-foundation-v1.md) | The complete authoritative approved methodology foundation (v1.0) — source of the eight initial Method Library records |
 | Method Library — Technical Architecture | [`methodology/method-library-architecture.md`](../../technical/method-library-architecture.md) | Repository-based Method Library architecture: records, registry/schema split, separate status dimensions, configurable approval, no runtime authorization |
-| Method Library records | [`methodology/records/`](../../../docs/methodology/records) | The seven derived records (mr-0002 – mr-0008); mr-0001 is the foundation itself. Metadata: `institution/metadata/registries/method-registry.json` |
+| Method Library records | [`methodology/records/`](../../foundations/methodology/records/) | The seven derived records (mr-0002 – mr-0008); mr-0001 is the foundation itself. Metadata: `institution/metadata/registries/method-registry.json` |
 
 **Method Library maintenance** (see the architecture document for full
 rules): the registry (`institution/metadata/registries/method-registry.json`, schema
@@ -66,7 +66,7 @@ platform.
 | --- | --- | --- |
 | Intellectual Property Foundation v1 | [`intellectual-property/intellectual-property-foundation-v1.md`](../../foundations/intellectual-property/intellectual-property-foundation-v1.md) | The complete authoritative approved IP governance foundation (v1.0) — source of the six initial repository records |
 | IP Repository — Technical Architecture | [`intellectual-property/ip-repository-architecture.md`](../../technical/ip-repository-architecture.md) | Repository-based IP Repository architecture: separated status dimensions, authority/stewardship/custody roles, Corporate Headquarters boundary, no runtime or legal determinations |
-| IP repository records | [`intellectual-property/records/`](../../../docs/intellectual-property/records) | The five derived governance records (ip-0002 – ip-0006); ip-0001 is the foundation itself. Metadata: `institution/metadata/registries/ip-registry.json` |
+| IP repository records | [`intellectual-property/records/`](../../foundations/intellectual-property/records/) | The five derived governance records (ip-0002 – ip-0006); ip-0001 is the foundation itself. Metadata: `institution/metadata/registries/ip-registry.json` |
 
 **IP Repository maintenance** (see the architecture document for full
 rules): the registry (`institution/metadata/registries/ip-registry.json`, schema
@@ -95,7 +95,7 @@ architecture; and no runtime IP platform exists.
 | --- | --- | --- |
 | Education & Workforce Development Foundation v1 | [`education/education-workforce-development-foundation-v1.md`](../../foundations/education/education-workforce-development-foundation-v1.md) | The complete authoritative approved education governance foundation (v1.0) — source of the twelve initial education records |
 | Education Platform — Technical Architecture | [`education/education-platform-architecture.md`](../../technical/education-platform-architecture.md) | Repository-based Education Platform Foundation architecture: separated lifecycle/maturity/readiness dimensions, configurable authority, traceability, learner-data boundaries, no LMS or runtime authorization |
-| Education records | [`education/records/`](../../../docs/education/records) | The eleven derived governance records (ed-0002 – ed-0012); ed-0001 is the foundation itself. Metadata: `institution/metadata/registries/education-registry.json` |
+| Education records | [`education/records/`](../../foundations/education/records/) | The eleven derived governance records (ed-0002 – ed-0012); ed-0001 is the foundation itself. Metadata: `institution/metadata/registries/education-registry.json` |
 
 **Education Platform maintenance** (see the architecture document for
 full rules): the registry (`institution/metadata/registries/education-registry.json`, schema
@@ -147,7 +147,7 @@ machine-readable layer (see ADR-0001 for the full decision):
 
 - **Metadata schema**: `institution/metadata/schemas/schema.json`
 - **Corpus manifest**: `institution/metadata/manifest.json` — one record per
-  governed document under `docs/`
+  governed document under the canonical corpus roots (`institution/`, `docs/`) and the governed root files
 - **Validation**: `npm run validate:knowledge` — verifies schema
   conformance, exact corpus coverage, path existence, identifier and
   path uniqueness, and relationship integrity; fails non-zero with one
@@ -167,7 +167,7 @@ machine-readable layer (see ADR-0001 for the full decision):
 
 Maintenance rules:
 
-- **When to update**: whenever a document under `docs/` is added,
+- **When to update**: whenever a governed corpus document is added,
   moved, retitled, reclassified, superseded, or removed, update the
   manifest in the same change and run `npm run validate:knowledge` —
   the validator enforces exact one-to-one coverage.

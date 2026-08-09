@@ -13,7 +13,7 @@
 
 Huerta Group LLC already governs its repository documentation through an
 explicit manual practice: a documentation index
-([`docs/README.md`](../../README.md)) that defines document
+([`institution/standards/repository/documentation-index.md`](../standards/repository/documentation-index.md), at decision time `docs/README.md`) that defines document
 classifications, a five-level hierarchy of authority, a
 canonical-location rule ("each document exists in exactly one
 authoritative location; link … rather than copying"), and a

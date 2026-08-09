@@ -5,7 +5,10 @@
       "institution",
       "docs"
     ],
-    "rootFiles": [],
+    "rootFiles": [
+      "CLAUDE.md",
+      "AGENTS.md"
+    ],
     "include": "institution/**/*.md and docs/**/*.md, plus explicitly listed root files",
     "exclusionRule": "Only Markdown documents under the canonical corpus roots (institution/ for canonical institutional governance assets, docs/ for website-scoped implementation documentation) are governed corpus members, plus explicitly listed root-level operational instruction files. The workbench (workbench/) is structurally outside the corpus: it stages non-admitted working material that carries no institutional status (see workbench/README.md). Application source, configuration, and metadata/validation assets are technical artifacts, not corpus documents. This rescoping was executed by the Repository Foundation migration; the original docs-only rule is preserved in ADR-0001 as decision history."
   },
