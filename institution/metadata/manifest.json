@@ -13,15 +13,15 @@
     {
       "id": "documentation-index",
       "title": "Huerta Group LLC — Documentation Index",
-      "path": "docs/README.md",
+      "path": "institution/standards/repository/documentation-index.md",
       "type": "index",
-      "classification": "Unspecified",
-      "authorityTier": "unspecified",
+      "classification": "Repository Standard",
+      "authorityTier": 4,
       "status": "current",
       "summary": "Canonical index of governing and launch documentation: defines the document classifications, the five-level hierarchy of authority, canonical-location and no-duplication rules, and conflict escalation.",
       "provenance": {
         "origin": null,
-        "approvalReference": null,
+        "approvalReference": "Founder Office determination D-1 (Deliverable C instrument), recorded in institution/governance/determinations/.",
         "effectiveDate": null
       },
       "versioning": "git-history",
@@ -65,10 +65,7 @@
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
-      "unresolved": [
-        "No governing reference states a classification for the documentation index itself.",
-        "No governing reference states an authority tier for the documentation index itself."
-      ]
+      "statusNote": "Classified as a Repository Standard within the Standards institutional layer under Institutional Repository Governance per Founder Office determination D-1 (recorded in the determinations register). Repository Standards govern this repository, not Huerta Group generally."
     },
     {
       "id": "huerta-group-constitution",
@@ -1250,6 +1247,116 @@
         {
           "rel": "governed-by",
           "target": "education-workforce-development-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "claude-entry-instructions",
+      "title": "CLAUDE.md — AI contributor entry instructions",
+      "path": "CLAUDE.md",
+      "type": "standard",
+      "classification": "Repository Standard",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Operational instruction asset (Founder Office determination D-8): subordinate to every governing source it cites; kept at the repository root for tooling compatibility.",
+      "summary": "Root entry-point instructions for AI contributors: imports AGENTS.md, points to the documentation index, governing references, the bounded execution standard, and the repository-evidence-over-memory rule.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Founder Office determination D-8 (Deliverable C instrument), recorded in institution/governance/determinations/.",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "agents-entry-instructions"
+        },
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "agents-entry-instructions",
+      "title": "AGENTS.md — agent authority and execution rules",
+      "path": "AGENTS.md",
+      "type": "standard",
+      "classification": "Repository Standard",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Operational instruction asset (Founder Office determination D-8): links to, and never duplicates or outranks, the governing hierarchy.",
+      "summary": "Root agent instructions: the authority hierarchy by link, execution rules, conflict-pause rule, memory-subordination rule, and framework version warning.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Founder Office determination D-8 (Deliverable C instrument), recorded in institution/governance/determinations/.",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "institution-readme",
+      "title": "institution/ — Canonical Institutional Governance Assets",
+      "path": "institution/README.md",
+      "type": "index",
+      "classification": "Current Implementation Documentation",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Orientation map of the institution/ layer architecture: which area holds which authority class, with the rule that placement expresses but never creates authority, and that the repository is one institutional asset — not the institution.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Repository Foundation migration (Deliverables C/D as modified by Founder Office).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "documentation-index"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "repository-operations",
+      "title": "Repository Operations Record",
+      "path": "institution/operational/repository-operations.md",
+      "type": "status-record",
+      "classification": "Current Implementation Documentation",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Repository-native record of institutionally material operational facts (deployment workflow, account scopes, credential locations, production-data protections, standing service states) per determination D-6 — AI memory is a convenience cache, never authoritative.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "Founder Office determination D-6 (Deliverable C instrument), recorded in institution/governance/determinations/.",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0004-data-ownership-and-supabase-boundary"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0005-environment-strategy"
         }
       ],
       "versioning": "git-history",

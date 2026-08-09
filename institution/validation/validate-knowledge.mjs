@@ -32,7 +32,7 @@ const MANIFEST_PATH = join(ROOT, "institution", "metadata", "manifest.json");
 // listed root-level operational instruction files. The workbench and
 // implementation trees are structurally outside the corpus.
 const CORPUS_ROOTS = ["institution", "docs"];
-const CORPUS_FILES = [];
+const CORPUS_FILES = ["CLAUDE.md", "AGENTS.md"];
 
 const errors = [];
 const fail = (msg) => errors.push(msg);

@@ -1,5 +1,14 @@
 # Huerta Group LLC — Documentation Index
 
+**Classification: Repository Standard** — per Founder Office
+determination D-1, this index is a Repository Standard within the
+Standards institutional layer under Institutional Repository
+Governance. **Repository Standards govern this repository**; they are
+not standards governing Huerta Group as an institution generally. The
+repository is one institutional asset; this index governs how the
+repository's canonical institutional governance assets are classified,
+located, and maintained.
+
 Canonical reference documents for this repository. Each document exists in
 exactly one authoritative location; link to these files rather than
 copying their contents.
@@ -8,30 +17,30 @@ copying their contents.
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
-| Huerta Group LLC Constitution | [`governance/huerta-group-constitution.md`](../institution/governance/constitution/huerta-group-constitution.md) | The highest internal authority. Currently ratified: Articles I–III (record awaits verbatim ratified text) |
-| Vision Foundation for Development | [`governance/vision-foundation-for-development.md`](../institution/governance/strategic/vision-foundation-for-development.md) | Approved strategic foundation for all technology and development decisions |
-| Development Standards | [`development/development-standards.md`](../institution/standards/development/development-standards.md) | How systems are designed, implemented, reviewed, documented, and maintained |
-| Bounded Autonomous Completion and Verification Standard | [`development/bounded-autonomous-completion-standard.md`](../institution/standards/development/bounded-autonomous-completion-standard.md) | Default execution method for consequential development tasks (loop engineering, builder–inspector separation, evidence-based completion); a companion to the Development Standards |
+| Huerta Group LLC Constitution | [`governance/huerta-group-constitution.md`](../../governance/constitution/huerta-group-constitution.md) | The highest internal authority. Currently ratified: Articles I–III (record awaits verbatim ratified text) |
+| Vision Foundation for Development | [`governance/vision-foundation-for-development.md`](../../governance/strategic/vision-foundation-for-development.md) | Approved strategic foundation for all technology and development decisions |
+| Development Standards | [`development/development-standards.md`](../development/development-standards.md) | How systems are designed, implemented, reviewed, documented, and maintained |
+| Bounded Autonomous Completion and Verification Standard | [`development/bounded-autonomous-completion-standard.md`](../development/bounded-autonomous-completion-standard.md) | Default execution method for consequential development tasks (loop engineering, builder–inspector separation, evidence-based completion); a companion to the Development Standards |
 
 Current-implementation documentation lives in the repository root
-[`README.md`](../README.md).
+[`README.md`](../../../README.md).
 
 ## Launch documentation
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
-| Launch Readiness | [`launch/launch-readiness.md`](launch/launch-readiness.md) | Authoritative launch-readiness record: production state, verified limitations, navigation capacity, protected owner decisions |
-| Custom-Domain Migration Plan | [`launch/custom-domain-migration-plan.md`](launch/custom-domain-migration-plan.md) | Plan (not execution) for the later owner-authorized move to the official domain |
-| Official Launch Checklist | [`launch/official-launch-checklist.md`](launch/official-launch-checklist.md) | Phased, testable checklist; owner-gated actions marked |
-| Rollback Plan | [`launch/rollback-plan.md`](launch/rollback-plan.md) | Git, platform, environment, canonical, and DNS rollback procedures and boundaries |
+| Launch Readiness | [`launch/launch-readiness.md`](../../../docs/launch/launch-readiness.md) | Authoritative launch-readiness record: production state, verified limitations, navigation capacity, protected owner decisions |
+| Custom-Domain Migration Plan | [`launch/custom-domain-migration-plan.md`](../../../docs/launch/custom-domain-migration-plan.md) | Plan (not execution) for the later owner-authorized move to the official domain |
+| Official Launch Checklist | [`launch/official-launch-checklist.md`](../../../docs/launch/official-launch-checklist.md) | Phased, testable checklist; owner-gated actions marked |
+| Rollback Plan | [`launch/rollback-plan.md`](../../../docs/launch/rollback-plan.md) | Git, platform, environment, canonical, and DNS rollback procedures and boundaries |
 
 ## Methodology (internal)
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
-| Methodology Foundation v1 | [`methodology/methodology-foundation-v1.md`](../institution/foundations/methodology/methodology-foundation-v1.md) | The complete authoritative approved methodology foundation (v1.0) — source of the eight initial Method Library records |
-| Method Library — Technical Architecture | [`methodology/method-library-architecture.md`](../institution/technical/method-library-architecture.md) | Repository-based Method Library architecture: records, registry/schema split, separate status dimensions, configurable approval, no runtime authorization |
-| Method Library records | [`methodology/records/`](methodology/records/) | The seven derived records (mr-0002 – mr-0008); mr-0001 is the foundation itself. Metadata: `institution/metadata/registries/method-registry.json` |
+| Methodology Foundation v1 | [`methodology/methodology-foundation-v1.md`](../../foundations/methodology/methodology-foundation-v1.md) | The complete authoritative approved methodology foundation (v1.0) — source of the eight initial Method Library records |
+| Method Library — Technical Architecture | [`methodology/method-library-architecture.md`](../../technical/method-library-architecture.md) | Repository-based Method Library architecture: records, registry/schema split, separate status dimensions, configurable approval, no runtime authorization |
+| Method Library records | [`methodology/records/`](../../../docs/methodology/records) | The seven derived records (mr-0002 – mr-0008); mr-0001 is the foundation itself. Metadata: `institution/metadata/registries/method-registry.json` |
 
 **Method Library maintenance** (see the architecture document for full
 rules): the registry (`institution/metadata/registries/method-registry.json`, schema
@@ -55,9 +64,9 @@ platform.
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
-| Intellectual Property Foundation v1 | [`intellectual-property/intellectual-property-foundation-v1.md`](../institution/foundations/intellectual-property/intellectual-property-foundation-v1.md) | The complete authoritative approved IP governance foundation (v1.0) — source of the six initial repository records |
-| IP Repository — Technical Architecture | [`intellectual-property/ip-repository-architecture.md`](../institution/technical/ip-repository-architecture.md) | Repository-based IP Repository architecture: separated status dimensions, authority/stewardship/custody roles, Corporate Headquarters boundary, no runtime or legal determinations |
-| IP repository records | [`intellectual-property/records/`](intellectual-property/records/) | The five derived governance records (ip-0002 – ip-0006); ip-0001 is the foundation itself. Metadata: `institution/metadata/registries/ip-registry.json` |
+| Intellectual Property Foundation v1 | [`intellectual-property/intellectual-property-foundation-v1.md`](../../foundations/intellectual-property/intellectual-property-foundation-v1.md) | The complete authoritative approved IP governance foundation (v1.0) — source of the six initial repository records |
+| IP Repository — Technical Architecture | [`intellectual-property/ip-repository-architecture.md`](../../technical/ip-repository-architecture.md) | Repository-based IP Repository architecture: separated status dimensions, authority/stewardship/custody roles, Corporate Headquarters boundary, no runtime or legal determinations |
+| IP repository records | [`intellectual-property/records/`](../../../docs/intellectual-property/records) | The five derived governance records (ip-0002 – ip-0006); ip-0001 is the foundation itself. Metadata: `institution/metadata/registries/ip-registry.json` |
 
 **IP Repository maintenance** (see the architecture document for full
 rules): the registry (`institution/metadata/registries/ip-registry.json`, schema
@@ -84,9 +93,9 @@ architecture; and no runtime IP platform exists.
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
-| Education & Workforce Development Foundation v1 | [`education/education-workforce-development-foundation-v1.md`](../institution/foundations/education/education-workforce-development-foundation-v1.md) | The complete authoritative approved education governance foundation (v1.0) — source of the twelve initial education records |
-| Education Platform — Technical Architecture | [`education/education-platform-architecture.md`](../institution/technical/education-platform-architecture.md) | Repository-based Education Platform Foundation architecture: separated lifecycle/maturity/readiness dimensions, configurable authority, traceability, learner-data boundaries, no LMS or runtime authorization |
-| Education records | [`education/records/`](education/records/) | The eleven derived governance records (ed-0002 – ed-0012); ed-0001 is the foundation itself. Metadata: `institution/metadata/registries/education-registry.json` |
+| Education & Workforce Development Foundation v1 | [`education/education-workforce-development-foundation-v1.md`](../../foundations/education/education-workforce-development-foundation-v1.md) | The complete authoritative approved education governance foundation (v1.0) — source of the twelve initial education records |
+| Education Platform — Technical Architecture | [`education/education-platform-architecture.md`](../../technical/education-platform-architecture.md) | Repository-based Education Platform Foundation architecture: separated lifecycle/maturity/readiness dimensions, configurable authority, traceability, learner-data boundaries, no LMS or runtime authorization |
+| Education records | [`education/records/`](../../../docs/education/records) | The eleven derived governance records (ed-0002 – ed-0012); ed-0001 is the foundation itself. Metadata: `institution/metadata/registries/education-registry.json` |
 
 **Education Platform maintenance** (see the architecture document for
 full rules): the registry (`institution/metadata/registries/education-registry.json`, schema
@@ -122,14 +131,14 @@ never automatic modification.
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
-| Internal Software Architecture Foundation | [`development/internal-software-architecture.md`](../institution/technical/internal-software-architecture.md) | System boundaries, data ownership, integration/environment/identity direction, dependency sequencing, capability map. Authorizes no construction; creates no institutional authority |
-| ADR Practice | [`development/decisions/adr-practice.md`](../institution/decisions/adr-practice.md) | When and how architecture decisions are recorded, statuses, supersession, manifest integration, technical-vs-institutional boundary |
-| ADR-0001 — Institutional Knowledge Foundation | [`development/decisions/adr-0001-institutional-knowledge-foundation.md`](../institution/decisions/adr-0001-institutional-knowledge-foundation.md) | Establishes the machine-readable knowledge layer (schema, manifest, validation) that formalizes this index's governance |
-| ADR-0002 — Public Website Boundary | [`development/decisions/adr-0002-public-website-boundary.md`](../institution/decisions/adr-0002-public-website-boundary.md) | The website stays a bounded public interface; inquiry intake colocated |
-| ADR-0003 — Application and Repository Boundaries | [`development/decisions/adr-0003-application-and-repository-boundaries.md`](../institution/decisions/adr-0003-application-and-repository-boundaries.md) | Per-capability placement criteria; no global topology mandate |
-| ADR-0004 — Data Ownership and Supabase Boundary | [`development/decisions/adr-0004-data-ownership-and-supabase-boundary.md`](../institution/decisions/adr-0004-data-ownership-and-supabase-boundary.md) | Current project owns inquiry records only; future topology criteria; ownership is architectural, not legal |
-| ADR-0005 — Environment Strategy | [`development/decisions/adr-0005-environment-strategy.md`](../institution/decisions/adr-0005-environment-strategy.md) | Production-first preserved for the website; mandatory isolation threshold for sensitive systems |
-| ADR-0006 — Identity and Access Direction | [`development/decisions/adr-0006-identity-and-access-direction.md`](../institution/decisions/adr-0006-identity-and-access-direction.md) | Provider-neutral identity direction; technical permissions ≠ institutional authority |
+| Internal Software Architecture Foundation | [`development/internal-software-architecture.md`](../../technical/internal-software-architecture.md) | System boundaries, data ownership, integration/environment/identity direction, dependency sequencing, capability map. Authorizes no construction; creates no institutional authority |
+| ADR Practice | [`development/decisions/adr-practice.md`](../../decisions/adr-practice.md) | When and how architecture decisions are recorded, statuses, supersession, manifest integration, technical-vs-institutional boundary |
+| ADR-0001 — Institutional Knowledge Foundation | [`development/decisions/adr-0001-institutional-knowledge-foundation.md`](../../decisions/adr-0001-institutional-knowledge-foundation.md) | Establishes the machine-readable knowledge layer (schema, manifest, validation) that formalizes this index's governance |
+| ADR-0002 — Public Website Boundary | [`development/decisions/adr-0002-public-website-boundary.md`](../../decisions/adr-0002-public-website-boundary.md) | The website stays a bounded public interface; inquiry intake colocated |
+| ADR-0003 — Application and Repository Boundaries | [`development/decisions/adr-0003-application-and-repository-boundaries.md`](../../decisions/adr-0003-application-and-repository-boundaries.md) | Per-capability placement criteria; no global topology mandate |
+| ADR-0004 — Data Ownership and Supabase Boundary | [`development/decisions/adr-0004-data-ownership-and-supabase-boundary.md`](../../decisions/adr-0004-data-ownership-and-supabase-boundary.md) | Current project owns inquiry records only; future topology criteria; ownership is architectural, not legal |
+| ADR-0005 — Environment Strategy | [`development/decisions/adr-0005-environment-strategy.md`](../../decisions/adr-0005-environment-strategy.md) | Production-first preserved for the website; mandatory isolation threshold for sensitive systems |
+| ADR-0006 — Identity and Access Direction | [`development/decisions/adr-0006-identity-and-access-direction.md`](../../decisions/adr-0006-identity-and-access-direction.md) | Provider-neutral identity direction; technical permissions ≠ institutional authority |
 
 ## Institutional knowledge layer
 
@@ -222,6 +231,8 @@ alter them.
 | **Current Implementation Documentation** | Descriptions of what the repository and deployed system currently contain |
 | **Planned Capability** | Approved work not yet implemented |
 | **Long-Term Vision** | Possible or intended future direction — never to be represented as current functionality or guaranteed implementation |
+| **Repository Standard** | Standards governing this repository itself (corpus scope, classification, naming, canonical-source handling, verification) — never standards governing Huerta Group as an institution generally |
+| **Institutional Record** | Non-governing repository records of institutional events and decisions (Founder Office determination records, institutional evolution records) — the record evidences; the underlying authority governs |
 
 These classifications exist to prevent strategic aspirations from being
 mistaken for completed software.

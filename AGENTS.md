@@ -7,7 +7,8 @@ This version has breaking changes — APIs, conventions, and file structure may 
 # Authority and Governing References
 
 Canonical governing documents (linked, never duplicated here — see
-`docs/README.md` for the full index and document classifications):
+`institution/standards/repository/documentation-index.md` for the full
+index and document classifications):
 
 1. **Huerta Group LLC Constitution** — `institution/governance/constitution/huerta-group-constitution.md` — the highest internal authority.
 2. **Vision Foundation for Development** — `institution/governance/strategic/vision-foundation-for-development.md` — translates the Company's identity and long-term direction into strategic guidance for technology.
@@ -25,3 +26,5 @@ Rules:
 - When documents at different levels appear to conflict, pause the conflicting portion and request an explicit decision rather than choosing whichever instruction is easiest to implement.
 - A task may authorize a clearly stated exception to a lower-level development standard; it may not amend constitutional text or Company-wide strategic authority. Ordinary code changes are never authority to alter governing documents.
 - When technical work reveals a strategic or constitutional question, document it and return it to the appropriate room rather than resolving it through code.
+- Institutionally material execution rules live in this repository (`institution/operational/repository-operations.md`, the determinations register under `institution/governance/determinations/`, the documentation index). Contributor AI memory is a convenience cache, never an authority; where memory and repository evidence disagree, the repository is correct.
+- This file and CLAUDE.md are governed repository operational assets (determination D-8): indexed in the corpus manifest, kept at the repository root for tooling compatibility, and subordinate to every governing source they cite.
