@@ -56,6 +56,33 @@
         "components/layout/NavLink.tsx"
       ],
       "refinementReferences": []
+    },
+    {
+      "id": "evo-0003",
+      "title": "A Distinctive Editorial Design Language Emerged Through the Reference Implementation",
+      "path": "institution/evolution/records/evo-0003-editorial-design-language-emergence.md",
+      "date": "2026-08-09",
+      "institutionalDomain": "design-system",
+      "evolutionType": "capability_change",
+      "retrospective": false,
+      "authorityInvolved": [
+        "Founder Office (authorizing instruments)",
+        "Design System (design authority via fd-0005 decision rules)",
+        "Platform & Systems Development (implementation)"
+      ],
+      "decisionReferences": [
+        "fd-0005"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/design/decisions/ddr-0006-typography-refinement.md",
+        "institution/design/decisions/ddr-0007-editorial-split-composition.md",
+        "institution/design/decisions/ddr-0008-cta-and-hero-presence.md",
+        "institution/design/decisions/ddr-0009-quiet-numerals-and-open-cards.md",
+        "institution/design/decisions/ddr-0010-interaction-state-language.md",
+        "components/ui/Section.tsx",
+        "components/ui/CtaBand.tsx"
+      ],
+      "refinementReferences": []
     }
   ]
 }
