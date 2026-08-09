@@ -15,7 +15,7 @@ structure. The constitutional record is incomplete; nothing here may
 presume its content. Governing references consulted: the Development
 Standards (security; authentication introduced when required), the
 constitutional record's status rules, and the
-[Internal Software Architecture Foundation](../internal-software-architecture.md)
+[Internal Software Architecture Foundation](../technical/internal-software-architecture.md)
 (§8).
 
 ## Options considered

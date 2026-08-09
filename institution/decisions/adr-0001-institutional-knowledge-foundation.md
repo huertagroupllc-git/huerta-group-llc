@@ -4,7 +4,7 @@
 
 - **Status:** Accepted
 - **Decision record location:** established here under
-  `docs/development/decisions/`, per the Development Standards provision
+  `institution/decisions/`, per the Development Standards provision
   that consequential technical choices are recorded "in the README
   architecture section, a migration comment, or a decision record under
   `docs/development/`".

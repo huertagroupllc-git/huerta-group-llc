@@ -24,8 +24,8 @@
         "lib/site.ts"
       ],
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md",
-        "docs/development/decisions/adr-0002-public-website-boundary.md",
+        "institution/governance/strategic/vision-foundation-for-development.md",
+        "institution/decisions/adr-0002-public-website-boundary.md",
         "docs/launch/launch-readiness.md"
       ],
       "unresolvedDecisions": []
@@ -55,8 +55,8 @@
         "supabase/migrations"
       ],
       "governingReferences": [
-        "docs/development/development-standards.md",
-        "docs/development/decisions/adr-0004-data-ownership-and-supabase-boundary.md"
+        "institution/standards/development/development-standards.md",
+        "institution/decisions/adr-0004-data-ownership-and-supabase-boundary.md"
       ],
       "unresolvedDecisions": [
         "Retention period for inquiry records awaits the owner's data-retention decision (fed by the future legal review)."
@@ -114,7 +114,7 @@
         "scripts/validate-knowledge.mjs"
       ],
       "governingReferences": [
-        "docs/development/decisions/adr-0001-institutional-knowledge-foundation.md"
+        "institution/decisions/adr-0001-institutional-knowledge-foundation.md"
       ],
       "unresolvedDecisions": [
         "Classification and authority tier of the documentation index (recorded in the manifest).",
@@ -141,8 +141,8 @@
       "launchRelevance": "independent",
       "implementationReadiness": "requirements_incomplete",
       "governingReferences": [
-        "docs/development/decisions/adr-0001-institutional-knowledge-foundation.md",
-        "docs/development/internal-software-architecture.md"
+        "institution/decisions/adr-0001-institutional-knowledge-foundation.md",
+        "institution/technical/internal-software-architecture.md"
       ],
       "unresolvedDecisions": [
         "Whether and when file-based artifacts stop sufficing (trigger: a consumer needs queryable or permissioned access).",
@@ -171,9 +171,9 @@
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md",
-        "docs/methodology/methodology-foundation-v1.md",
-        "docs/methodology/method-library-architecture.md"
+        "institution/governance/strategic/vision-foundation-for-development.md",
+        "institution/foundations/methodology/methodology-foundation-v1.md",
+        "institution/technical/method-library-architecture.md"
       ],
       "unresolvedDecisions": [
         "Substantive future methods (assessments, diagnostics, implementation guidance, verification procedures) remain blocked pending approved methodology substance.",
@@ -181,8 +181,8 @@
         "Final constitutional allocation of methodological approval authority (interim configurable Founder rule stands)."
       ],
       "evidencePaths": [
-        "docs/methodology/methodology-foundation-v1.md",
-        "docs/methodology/method-library-architecture.md",
+        "institution/foundations/methodology/methodology-foundation-v1.md",
+        "institution/technical/method-library-architecture.md",
         "knowledge/method-registry.json",
         "knowledge/method-schema.json",
         "scripts/validate-methods.mjs"
@@ -213,9 +213,9 @@
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md",
-        "docs/intellectual-property/intellectual-property-foundation-v1.md",
-        "docs/intellectual-property/ip-repository-architecture.md"
+        "institution/governance/strategic/vision-foundation-for-development.md",
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
+        "institution/technical/ip-repository-architecture.md"
       ],
       "unresolvedDecisions": [
         "Substantive asset admission is blocked: each future asset requires an approved source and a separate admission decision (none admitted; the six initial records are governance records).",
@@ -223,8 +223,8 @@
         "Method Library referrals remain not_referred; future runtime capabilities (search, access control, database) require their own authorization (ADR-0003)."
       ],
       "evidencePaths": [
-        "docs/intellectual-property/intellectual-property-foundation-v1.md",
-        "docs/intellectual-property/ip-repository-architecture.md",
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
+        "institution/technical/ip-repository-architecture.md",
         "knowledge/ip-registry.json",
         "knowledge/ip-schema.json",
         "scripts/validate-ip.mjs"
@@ -258,9 +258,9 @@
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md",
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md"
+        "institution/governance/strategic/vision-foundation-for-development.md",
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md"
       ],
       "unresolvedDecisions": [
         "No program, course, pathway, competency library, assessment instrument, credential, or offering exists or is approved: each requires separate Education-authority design, review, and approval (EWDFv1 §20.11, §21, §22.2).",
@@ -270,8 +270,8 @@
         "Credentialing, certification, continuing-education, instructor, learner-support, and commercial-model policy remain unresolved (EWDFv1 §20.12–20.14, §21); final constitutional allocation of educational approval authority is pending (interim configurable rule stands)."
       ],
       "evidencePaths": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
         "knowledge/education-registry.json",
         "knowledge/education-schema.json",
         "scripts/validate-education.mjs"
@@ -300,7 +300,7 @@
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md"
+        "institution/governance/strategic/vision-foundation-for-development.md"
       ],
       "unresolvedDecisions": [
         "Publishing authority, editorial policy, and rights policy do not exist; every substantive question is open and owner-level."
@@ -330,7 +330,7 @@
       "launchRelevance": "independent",
       "implementationReadiness": "governance_blocked",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md"
+        "institution/governance/strategic/vision-foundation-for-development.md"
       ],
       "unresolvedDecisions": [
         "AI governance (access policy, decision rights, evaluation standards, data protection) is an owner decision.",
@@ -359,7 +359,7 @@
       "launchRelevance": "independent",
       "implementationReadiness": "requirements_incomplete",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md"
+        "institution/governance/strategic/vision-foundation-for-development.md"
       ],
       "unresolvedDecisions": [
         "Trigger: the first recurring internal workflow that outgrows governed documents; none identified yet."
@@ -389,7 +389,7 @@
       "launchRelevance": "independent",
       "implementationReadiness": "dependency_blocked",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md"
+        "institution/governance/strategic/vision-foundation-for-development.md"
       ],
       "unresolvedDecisions": [
         "The service model itself (what sustained support concretely includes) is an owner decision.",
@@ -420,7 +420,7 @@
       "launchRelevance": "independent",
       "implementationReadiness": "requirements_incomplete",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md"
+        "institution/governance/strategic/vision-foundation-for-development.md"
       ],
       "unresolvedDecisions": [
         "Engagement-record conventions and confidentiality practice precede any system.",
@@ -447,7 +447,7 @@
       "launchRelevance": "independent",
       "implementationReadiness": "deferred",
       "governingReferences": [
-        "docs/governance/vision-foundation-for-development.md"
+        "institution/governance/strategic/vision-foundation-for-development.md"
       ],
       "unresolvedDecisions": [
         "No near-term requirement; revisit when method or education work generates research records."
@@ -472,8 +472,8 @@
       "launchRelevance": "independent",
       "implementationReadiness": "requirements_incomplete",
       "governingReferences": [
-        "docs/development/development-standards.md",
-        "docs/development/decisions/adr-0006-identity-and-access-direction.md"
+        "institution/standards/development/development-standards.md",
+        "institution/decisions/adr-0006-identity-and-access-direction.md"
       ],
       "unresolvedDecisions": [
         "Provider selection is deliberately open (ADR-0006).",
@@ -496,7 +496,7 @@
       "launchRelevance": "independent",
       "implementationReadiness": "requirements_incomplete",
       "governingReferences": [
-        "docs/development/decisions/adr-0004-data-ownership-and-supabase-boundary.md"
+        "institution/decisions/adr-0004-data-ownership-and-supabase-boundary.md"
       ],
       "unresolvedDecisions": [
         "Whether future systems share a Supabase project (schema-per-system) or use project-per-system is unresolved until the second data-owning system is authorized (ADR-0004 criteria)."
@@ -524,7 +524,7 @@
         "docs/launch/launch-readiness.md"
       ],
       "governingReferences": [
-        "docs/development/decisions/adr-0005-environment-strategy.md",
+        "institution/decisions/adr-0005-environment-strategy.md",
         "docs/launch/rollback-plan.md"
       ],
       "unresolvedDecisions": [

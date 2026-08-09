@@ -14,7 +14,7 @@ future ecosystem must be explicit before a second data-owning system
 exists. Governing references consulted: the Development Standards
 (defined data boundaries; deliberate infrastructure), the Vision
 Foundation (§14, data ownership and portability), and the
-[Internal Software Architecture Foundation](../internal-software-architecture.md)
+[Internal Software Architecture Foundation](../technical/internal-software-architecture.md)
 (§5 data-ownership model).
 
 ## Options considered

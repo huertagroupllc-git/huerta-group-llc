@@ -15,7 +15,7 @@ future internal systems; the Vision Foundation (§15) states the website
 is one component of a broader ecosystem, not the Company's technology
 strategy. Governing references consulted: the Development Standards,
 Vision Foundation §15, and the
-[Internal Software Architecture Foundation](../internal-software-architecture.md)
+[Internal Software Architecture Foundation](../technical/internal-software-architecture.md)
 (§4), which this decision anchors.
 
 ## Options considered

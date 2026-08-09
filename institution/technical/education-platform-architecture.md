@@ -4,7 +4,7 @@
 
 Defines the repository-based technical architecture of the Education
 Platform Foundation. Subordinate to
-[Education & Workforce Development Foundation v1](education-workforce-development-foundation-v1.md)
+[Education & Workforce Development Foundation v1](../foundations/education/education-workforce-development-foundation-v1.md)
 (the authoritative substantive source, "EWDFv1"), the Constitution, the
 Vision Foundation, and the Development Standards. Two governing
 sentences frame everything here: **repository presence does not create
@@ -20,13 +20,13 @@ provider, or hosting model** (EWDFv1 §16.9).
 ## Record architecture
 
 - **Source vs derived records.** The Foundation source is
-  authoritative; derived records (`docs/education/records/`) extract
+  authoritative; derived records (`institution/foundations/education/records/`) extract
   and govern their approved subject, linking back via `sourceSections`
   and `authorityBasis`. Where they disagree, the source is correct.
   Education records are **governance metadata about educational
   architecture** — never programs, courses, or offerings themselves.
 - **Identity.** Identifiers are `ed-NNNN` (sequential, stable, never
-  reused); record files are `docs/education/records/ed-NNNN-<slug>.md`;
+  reused); record files are `institution/foundations/education/records/ed-NNNN-<slug>.md`;
   `ed-0001`'s canonical content is the Foundation source itself.
   Canonical paths are unique.
 - **Metadata home.** `knowledge/education-registry.json` (schema

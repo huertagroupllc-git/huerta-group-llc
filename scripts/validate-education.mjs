@@ -232,7 +232,7 @@ for (const [title, count] of titles)
 /* ------------------------------------------------------------------ */
 /* Per-record governance guards.                                      */
 /* ------------------------------------------------------------------ */
-const FOUNDATION_PATH = "docs/education/education-workforce-development-foundation-v1.md";
+const FOUNDATION_PATH = "institution/foundations/education/education-workforce-development-foundation-v1.md";
 const methodIds = new Set((methodRegistry.records ?? []).map((r) => r.id));
 const ipIds = new Set((ipRegistry.records ?? []).map((r) => r.id));
 const manifestIds = new Set((manifest.documents ?? []).map((r) => r.id));
@@ -362,7 +362,7 @@ for (const key of FORBIDDEN_KEYS)
 /* ------------------------------------------------------------------ */
 const governedDocs = [
   ...records.map((r) => r.path),
-  "docs/education/education-platform-architecture.md",
+  "institution/technical/education-platform-architecture.md",
 ];
 for (const doc of governedDocs)
   if (!manifestPaths.has(doc))

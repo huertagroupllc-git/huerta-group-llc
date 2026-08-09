@@ -15,7 +15,7 @@ Development Standards.
 capability registry `knowledge/capability-registry.json`, schema
 `knowledge/capability-schema.json`, validation
 `npm run validate:architecture`. Boundary decisions: ADR-0002 – ADR-0006
-under [`decisions/`](decisions/adr-practice.md).
+under [`decisions/`](../decisions/adr-practice.md).
 
 ## 1. Current architecture (verified)
 

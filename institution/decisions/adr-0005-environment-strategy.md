@@ -14,7 +14,7 @@ systems holding sensitive records. The threshold must be explicit before
 such systems exist. Governing references consulted: the Development
 Standards (deployment and production standards; production-data rules),
 the launch documentation (`docs/launch/`), and the
-[Internal Software Architecture Foundation](../internal-software-architecture.md)
+[Internal Software Architecture Foundation](../technical/internal-software-architecture.md)
 (§7).
 
 ## Options considered

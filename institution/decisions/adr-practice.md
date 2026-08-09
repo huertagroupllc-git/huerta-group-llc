@@ -20,7 +20,7 @@ ADR or standard.
 
 ## Convention
 
-- **Location/naming:** `docs/development/decisions/adr-NNNN-<slug>.md`,
+- **Location/naming:** `institution/decisions/adr-NNNN-<slug>.md`,
   sequential four-digit numbers, kebab-case slug.
 - **Classification header:** `Development Standards and Architecture
   Decisions` (authority tier 4 as an approved architecture decision).

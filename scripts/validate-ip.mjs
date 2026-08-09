@@ -338,7 +338,7 @@ for (const rec of records) {
       `knowledge-manifest: ${rec.id} — governed document missing from knowledge/manifest.json: ${rec.path}`,
     );
 }
-const ARCHITECTURE_DOC = "docs/intellectual-property/ip-repository-architecture.md";
+const ARCHITECTURE_DOC = "institution/technical/ip-repository-architecture.md";
 if (!manifestPaths.has(ARCHITECTURE_DOC))
   fail(`knowledge-manifest: IP repository architecture missing: ${ARCHITECTURE_DOC}`);
 

@@ -4,11 +4,11 @@
 
 This is an operational development-process standard. It is **not**
 constitutional law and does not alter the
-[governing-reference hierarchy](../README.md#hierarchy-of-authority). It is
+[governing-reference hierarchy](../repository/documentation-index.md#hierarchy-of-authority). It is
 subordinate to the [Huerta Group LLC
-Constitution](../governance/huerta-group-constitution.md) and the [Vision
+Constitution](../../governance/constitution/huerta-group-constitution.md) and the [Vision
 Foundation for
-Development](../governance/vision-foundation-for-development.md), and it
+Development](../../governance/strategic/vision-foundation-for-development.md), and it
 operates at the same tier as, and alongside, the [Development
 Standards](development-standards.md). Where this standard and any higher
 authority appear to conflict, the higher authority prevails and the

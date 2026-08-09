@@ -1,9 +1,13 @@
 {
   "manifestVersion": 1,
   "corpus": {
-    "root": "docs",
-    "include": "docs/**/*.md",
-    "exclusionRule": "Only Markdown documents under docs/ are governed corpus members. Root-level repository instruction files (README.md, AGENTS.md, CLAUDE.md) are deliberately excluded: they are repository operating instructions whose governing content is already canonical within docs/ (see ADR-0001). Non-Markdown files under docs/ (none exist today) would be excluded as non-document artifacts."
+    "roots": [
+      "institution",
+      "docs"
+    ],
+    "rootFiles": [],
+    "include": "institution/**/*.md and docs/**/*.md, plus explicitly listed root files",
+    "exclusionRule": "Only Markdown documents under the canonical corpus roots (institution/ for canonical institutional governance assets, docs/ for website-scoped implementation documentation) are governed corpus members, plus explicitly listed root-level operational instruction files. The workbench (workbench/) is structurally outside the corpus: it stages non-admitted working material that carries no institutional status (see workbench/README.md). Application source, configuration, and metadata/validation assets are technical artifacts, not corpus documents. This rescoping was executed by the Repository Foundation migration; the original docs-only rule is preserved in ADR-0001 as decision history."
   },
   "documents": [
     {
@@ -69,7 +73,7 @@
     {
       "id": "huerta-group-constitution",
       "title": "Huerta Group LLC Constitution (canonical record)",
-      "path": "docs/governance/huerta-group-constitution.md",
+      "path": "institution/governance/constitution/huerta-group-constitution.md",
       "type": "governing-record",
       "classification": "Ratified Constitutional Authority",
       "authorityTier": 1,
@@ -89,7 +93,7 @@
     {
       "id": "vision-foundation-for-development",
       "title": "Vision Foundation for Development",
-      "path": "docs/governance/vision-foundation-for-development.md",
+      "path": "institution/governance/strategic/vision-foundation-for-development.md",
       "type": "governing-record",
       "classification": "Approved Strategic Authority",
       "authorityTier": 2,
@@ -113,7 +117,7 @@
     {
       "id": "development-standards",
       "title": "Development Standards",
-      "path": "docs/development/development-standards.md",
+      "path": "institution/standards/development/development-standards.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -145,7 +149,7 @@
     {
       "id": "bounded-autonomous-completion-standard",
       "title": "Bounded Autonomous Completion and Verification Standard",
-      "path": "docs/development/bounded-autonomous-completion-standard.md",
+      "path": "institution/standards/development/bounded-autonomous-completion-standard.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -291,7 +295,7 @@
     {
       "id": "internal-software-architecture",
       "title": "Internal Software Architecture Foundation",
-      "path": "docs/development/internal-software-architecture.md",
+      "path": "institution/technical/internal-software-architecture.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -339,7 +343,7 @@
     {
       "id": "adr-practice",
       "title": "Architecture Decision Record Practice",
-      "path": "docs/development/decisions/adr-practice.md",
+      "path": "institution/decisions/adr-practice.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -367,7 +371,7 @@
     {
       "id": "adr-0002-public-website-boundary",
       "title": "ADR-0002 — Public Website Boundary",
-      "path": "docs/development/decisions/adr-0002-public-website-boundary.md",
+      "path": "institution/decisions/adr-0002-public-website-boundary.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -395,7 +399,7 @@
     {
       "id": "adr-0003-application-and-repository-boundaries",
       "title": "ADR-0003 — Application and Repository Boundary Strategy",
-      "path": "docs/development/decisions/adr-0003-application-and-repository-boundaries.md",
+      "path": "institution/decisions/adr-0003-application-and-repository-boundaries.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -423,7 +427,7 @@
     {
       "id": "adr-0004-data-ownership-and-supabase-boundary",
       "title": "ADR-0004 — Data Ownership and Supabase Boundary",
-      "path": "docs/development/decisions/adr-0004-data-ownership-and-supabase-boundary.md",
+      "path": "institution/decisions/adr-0004-data-ownership-and-supabase-boundary.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -451,7 +455,7 @@
     {
       "id": "adr-0005-environment-strategy",
       "title": "ADR-0005 — Environment Strategy",
-      "path": "docs/development/decisions/adr-0005-environment-strategy.md",
+      "path": "institution/decisions/adr-0005-environment-strategy.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -479,7 +483,7 @@
     {
       "id": "adr-0006-identity-and-access-direction",
       "title": "ADR-0006 — Identity and Access Direction",
-      "path": "docs/development/decisions/adr-0006-identity-and-access-direction.md",
+      "path": "institution/decisions/adr-0006-identity-and-access-direction.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -507,7 +511,7 @@
     {
       "id": "adr-0001-institutional-knowledge-foundation",
       "title": "ADR-0001 — Institutional Knowledge Foundation",
-      "path": "docs/development/decisions/adr-0001-institutional-knowledge-foundation.md",
+      "path": "institution/decisions/adr-0001-institutional-knowledge-foundation.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -515,7 +519,7 @@
       "summary": "Architecture decision establishing the machine-readable institutional knowledge layer: metadata schema, corpus manifest, deterministic validation, identifier and relationship conventions, and explicit non-commitment to any future platform.",
       "provenance": {
         "origin": null,
-        "approvalReference": "Created under the Development Standards provision for decision records under docs/development/.",
+        "approvalReference": "Created under the Development Standards provision for decision records (now institution/decisions/).",
         "effectiveDate": null
       },
       "versioning": "git-history",
@@ -535,7 +539,7 @@
     {
       "id": "methodology-foundation-v1",
       "title": "Methodology Foundation v1",
-      "path": "docs/methodology/methodology-foundation-v1.md",
+      "path": "institution/foundations/methodology/methodology-foundation-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -563,7 +567,7 @@
     {
       "id": "method-library-architecture",
       "title": "Institutional Method Library — Technical Architecture",
-      "path": "docs/methodology/method-library-architecture.md",
+      "path": "institution/technical/method-library-architecture.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -591,7 +595,7 @@
     {
       "id": "mr-0002-institutional-methodology-definition-and-scope",
       "title": "mr-0002 — Institutional Methodology Definition and Scope",
-      "path": "docs/methodology/records/mr-0002-institutional-methodology-definition-and-scope.md",
+      "path": "institution/foundations/methodology/records/mr-0002-institutional-methodology-definition-and-scope.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -615,7 +619,7 @@
     {
       "id": "mr-0003-methodological-architecture-v1",
       "title": "mr-0003 — Methodological Architecture v1",
-      "path": "docs/methodology/records/mr-0003-methodological-architecture-v1.md",
+      "path": "institution/foundations/methodology/records/mr-0003-methodological-architecture-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -639,7 +643,7 @@
     {
       "id": "mr-0004-organizational-improvement-work-progression-v1",
       "title": "mr-0004 — Organizational Improvement Work Progression v1",
-      "path": "docs/methodology/records/mr-0004-organizational-improvement-work-progression-v1.md",
+      "path": "institution/foundations/methodology/records/mr-0004-organizational-improvement-work-progression-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -663,7 +667,7 @@
     {
       "id": "mr-0005-methodological-asset-classification-standard-v1",
       "title": "mr-0005 — Methodological Asset Classification Standard v1",
-      "path": "docs/methodology/records/mr-0005-methodological-asset-classification-standard-v1.md",
+      "path": "institution/foundations/methodology/records/mr-0005-methodological-asset-classification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -687,7 +691,7 @@
     {
       "id": "mr-0006-methodological-lifecycle-and-maturity-standard-v1",
       "title": "mr-0006 — Methodological Lifecycle and Maturity Standard v1",
-      "path": "docs/methodology/records/mr-0006-methodological-lifecycle-and-maturity-standard-v1.md",
+      "path": "institution/foundations/methodology/records/mr-0006-methodological-lifecycle-and-maturity-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -711,7 +715,7 @@
     {
       "id": "mr-0007-methodological-authority-versioning-and-supersession-standard-v1",
       "title": "mr-0007 — Methodological Authority, Versioning, and Supersession Standard v1",
-      "path": "docs/methodology/records/mr-0007-methodological-authority-versioning-and-supersession-standard-v1.md",
+      "path": "institution/foundations/methodology/records/mr-0007-methodological-authority-versioning-and-supersession-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -735,7 +739,7 @@
     {
       "id": "mr-0008-methodological-disclosure-classification-standard-v1",
       "title": "mr-0008 — Methodological Disclosure Classification Standard v1",
-      "path": "docs/methodology/records/mr-0008-methodological-disclosure-classification-standard-v1.md",
+      "path": "institution/foundations/methodology/records/mr-0008-methodological-disclosure-classification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -759,7 +763,7 @@
     {
       "id": "intellectual-property-foundation-v1",
       "title": "Intellectual Property Foundation v1",
-      "path": "docs/intellectual-property/intellectual-property-foundation-v1.md",
+      "path": "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -787,7 +791,7 @@
     {
       "id": "ip-repository-architecture",
       "title": "Institutional Intellectual Property Repository — Technical Architecture",
-      "path": "docs/intellectual-property/ip-repository-architecture.md",
+      "path": "institution/technical/ip-repository-architecture.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -815,7 +819,7 @@
     {
       "id": "ip-0002-institutional-intellectual-property-definition-and-scope",
       "title": "ip-0002 — Institutional Intellectual Property Definition and Scope",
-      "path": "docs/intellectual-property/records/ip-0002-institutional-intellectual-property-definition-and-scope.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0002-institutional-intellectual-property-definition-and-scope.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -839,7 +843,7 @@
     {
       "id": "ip-0003-intellectual-property-asset-classification-standard-v1",
       "title": "ip-0003 — Intellectual Property Asset Classification Standard v1",
-      "path": "docs/intellectual-property/records/ip-0003-intellectual-property-asset-classification-standard-v1.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0003-intellectual-property-asset-classification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -863,7 +867,7 @@
     {
       "id": "ip-0004-intellectual-property-lifecycle-standard-v1",
       "title": "ip-0004 — Intellectual Property Lifecycle Standard v1",
-      "path": "docs/intellectual-property/records/ip-0004-intellectual-property-lifecycle-standard-v1.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0004-intellectual-property-lifecycle-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -887,7 +891,7 @@
     {
       "id": "ip-0005-intellectual-property-authority-standard-v1",
       "title": "ip-0005 — Intellectual Property Authority Standard v1",
-      "path": "docs/intellectual-property/records/ip-0005-intellectual-property-authority-standard-v1.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0005-intellectual-property-authority-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -911,7 +915,7 @@
     {
       "id": "ip-0006-intellectual-property-disclosure-standard-v1",
       "title": "ip-0006 — Intellectual Property Disclosure Standard v1",
-      "path": "docs/intellectual-property/records/ip-0006-intellectual-property-disclosure-standard-v1.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0006-intellectual-property-disclosure-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -935,7 +939,7 @@
     {
       "id": "education-workforce-development-foundation-v1",
       "title": "Education & Workforce Development Foundation v1",
-      "path": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -963,7 +967,7 @@
     {
       "id": "education-platform-architecture",
       "title": "Education Platform Foundation — Technical Architecture",
-      "path": "docs/education/education-platform-architecture.md",
+      "path": "institution/technical/education-platform-architecture.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
@@ -991,7 +995,7 @@
     {
       "id": "ed-0002-education-definition-and-scope-standard-v1",
       "title": "ed-0002 — Education Definition and Scope Standard v1",
-      "path": "docs/education/records/ed-0002-education-definition-and-scope-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0002-education-definition-and-scope-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1015,7 +1019,7 @@
     {
       "id": "ed-0003-educational-doctrine-and-philosophy-standard-v1",
       "title": "ed-0003 — Educational Doctrine and Philosophy Standard v1",
-      "path": "docs/education/records/ed-0003-educational-doctrine-and-philosophy-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0003-educational-doctrine-and-philosophy-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1039,7 +1043,7 @@
     {
       "id": "ed-0004-educational-architecture-standard-v1",
       "title": "ed-0004 — Educational Architecture Standard v1",
-      "path": "docs/education/records/ed-0004-educational-architecture-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0004-educational-architecture-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1063,7 +1067,7 @@
     {
       "id": "ed-0005-capability-and-competency-architecture-standard-v1",
       "title": "ed-0005 — Capability and Competency Architecture Standard v1",
-      "path": "docs/education/records/ed-0005-capability-and-competency-architecture-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0005-capability-and-competency-architecture-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1087,7 +1091,7 @@
     {
       "id": "ed-0006-educational-asset-classification-standard-v1",
       "title": "ed-0006 — Educational Asset Classification Standard v1",
-      "path": "docs/education/records/ed-0006-educational-asset-classification-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0006-educational-asset-classification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1111,7 +1115,7 @@
     {
       "id": "ed-0007-educational-lifecycle-and-readiness-standard-v1",
       "title": "ed-0007 — Educational Lifecycle and Readiness Standard v1",
-      "path": "docs/education/records/ed-0007-educational-lifecycle-and-readiness-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0007-educational-lifecycle-and-readiness-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1135,7 +1139,7 @@
     {
       "id": "ed-0008-educational-authority-and-approval-standard-v1",
       "title": "ed-0008 — Educational Authority and Approval Standard v1",
-      "path": "docs/education/records/ed-0008-educational-authority-and-approval-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0008-educational-authority-and-approval-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1159,7 +1163,7 @@
     {
       "id": "ed-0009-assessment-and-competency-verification-standard-v1",
       "title": "ed-0009 — Assessment and Competency Verification Standard v1",
-      "path": "docs/education/records/ed-0009-assessment-and-competency-verification-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0009-assessment-and-competency-verification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1183,7 +1187,7 @@
     {
       "id": "ed-0010-educational-quality-and-evidence-standard-v1",
       "title": "ed-0010 — Educational Quality and Evidence Standard v1",
-      "path": "docs/education/records/ed-0010-educational-quality-and-evidence-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0010-educational-quality-and-evidence-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1207,7 +1211,7 @@
     {
       "id": "ed-0011-educational-technology-and-ai-boundary-standard-v1",
       "title": "ed-0011 — Educational Technology and AI Boundary Standard v1",
-      "path": "docs/education/records/ed-0011-educational-technology-and-ai-boundary-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0011-educational-technology-and-ai-boundary-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
@@ -1231,7 +1235,7 @@
     {
       "id": "ed-0012-educational-source-traceability-standard-v1",
       "title": "ed-0012 — Educational Source Traceability Standard v1",
-      "path": "docs/education/records/ed-0012-educational-source-traceability-standard-v1.md",
+      "path": "institution/foundations/education/records/ed-0012-educational-source-traceability-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,

@@ -4,7 +4,7 @@
 
 Defines the repository-based technical architecture of the
 Institutional Method Library. Subordinate to
-[Methodology Foundation v1](methodology-foundation-v1.md) (the
+[Methodology Foundation v1](../foundations/methodology/methodology-foundation-v1.md) (the
 authoritative substantive source), the Constitution, the Vision
 Foundation, and the Development Standards. **Presence in the library
 never creates methodological authority** — authority comes only from
@@ -17,14 +17,14 @@ authorization under ADR-0003's criteria.
 ## Record architecture
 
 - **Authoritative source vs derived records.** Methodology Foundation
-  v1 (`docs/methodology/methodology-foundation-v1.md`) is the
-  authoritative source. Library records (`docs/methodology/records/`)
+  v1 (`institution/foundations/methodology/methodology-foundation-v1.md`) is the
+  authoritative source. Library records (`institution/foundations/methodology/records/`)
   extract and govern their approved subject, always linking back via
   `sourceRecords` and `authorityBasis`; where source and record ever
   disagree, the source is correct and the record is defective.
 - **Identity.** Record identifiers are `mr-NNNN` (sequential, stable,
   never reused). Record files are
-  `docs/methodology/records/mr-NNNN-<slug>.md`; `mr-0001`'s canonical
+  `institution/foundations/methodology/records/mr-NNNN-<slug>.md`; `mr-0001`'s canonical
   content is the source document itself. Canonical paths are unique;
   records are never duplicated to simplify indexing.
 - **Metadata home.** The registry (`knowledge/method-registry.json`,

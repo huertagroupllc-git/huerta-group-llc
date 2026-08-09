@@ -47,8 +47,8 @@
       "provisionalDescriptors": [],
       "purpose": "Establish the authoritative initial education and workforce-development architecture.",
       "scope": "Definitions, doctrine, architecture, governance, classifications, lifecycles, boundaries, records, quality, traceability, and technical implementation limits.",
-      "path": "docs/education/education-workforce-development-foundation-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/education-workforce-development-foundation-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§§1–22"
       ],
@@ -155,10 +155,10 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md",
-        "docs/governance/vision-foundation-for-development.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/governance/strategic/vision-foundation-for-development.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -171,8 +171,8 @@
       "provisionalDescriptors": [],
       "purpose": "Define education, workforce development, capability development, competency-based learning, organizational education, professional education, and knowledge transfer.",
       "scope": "Terminology, institutional relationships, exclusions, and authority boundaries.",
-      "path": "docs/education/records/ed-0002-education-definition-and-scope-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0002-education-definition-and-scope-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§2",
         "§18.2"
@@ -209,7 +209,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -270,11 +270,11 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md",
-        "docs/governance/vision-foundation-for-development.md",
-        "docs/methodology/methodology-foundation-v1.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/governance/strategic/vision-foundation-for-development.md",
+        "institution/foundations/methodology/methodology-foundation-v1.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -287,8 +287,8 @@
       "provisionalDescriptors": [],
       "purpose": "Establish enduring principles governing Huerta Group education.",
       "scope": "Capability, competency, application, systems thinking, judgment, evidence, governance, AI responsibility, knowledge transfer, and continuous improvement.",
-      "path": "docs/education/records/ed-0003-educational-doctrine-and-philosophy-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0003-educational-doctrine-and-philosophy-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§3",
         "§18.3"
@@ -325,7 +325,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -388,10 +388,10 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md",
-        "docs/governance/vision-foundation-for-development.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/governance/strategic/vision-foundation-for-development.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -404,8 +404,8 @@
       "provisionalDescriptors": [],
       "purpose": "Define the approved high-level layers and relationships of Huerta Group's educational system.",
       "scope": "Doctrine, capabilities, programs, experiences, assessment, application, verification, credentialing, continuing education, organizational training, quality, and technology.",
-      "path": "docs/education/records/ed-0004-educational-architecture-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0004-educational-architecture-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§4",
         "§18.4"
@@ -442,7 +442,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -504,9 +504,9 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -519,8 +519,8 @@
       "provisionalDescriptors": [],
       "purpose": "Define core competency concepts and the minimum record architecture needed to represent them.",
       "scope": "Capability, competency, knowledge, skill, judgment, practice, performance, objectives, outcomes, evidence, and relationships.",
-      "path": "docs/education/records/ed-0005-capability-and-competency-architecture-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0005-capability-and-competency-architecture-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§6",
         "§18.5"
@@ -557,7 +557,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -619,10 +619,10 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md",
-        "docs/methodology/methodology-foundation-v1.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/foundations/methodology/methodology-foundation-v1.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -635,8 +635,8 @@
       "provisionalDescriptors": [],
       "purpose": "Establish approved and provisional educational asset types without approving specific offerings.",
       "scope": "Programs, pathways, courses, modules, lessons, workshops, cohorts, training, objectives, competencies, assessments, projects, capstones, resources, guidance, credentials, continuing education, and adaptations.",
-      "path": "docs/education/records/ed-0006-educational-asset-classification-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0006-educational-asset-classification-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§7",
         "§18.6"
@@ -673,7 +673,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -735,10 +735,10 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md",
-        "docs/intellectual-property/intellectual-property-foundation-v1.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -751,8 +751,8 @@
       "provisionalDescriptors": [],
       "purpose": "Define content maturity, program maturity, readiness dimensions, supersession, retirement, and archival treatment.",
       "scope": "Educational assets, programs, assessments, credentials, disclosure, delivery, enrollment, legal, commercial, and technical readiness.",
-      "path": "docs/education/records/ed-0007-educational-lifecycle-and-readiness-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0007-educational-lifecycle-and-readiness-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§11",
         "§18.7"
@@ -789,7 +789,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -851,9 +851,9 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -866,8 +866,8 @@
       "provisionalDescriptors": [],
       "purpose": "Define how educational assets become authoritative while preserving peer-room authority and configurable future governance.",
       "scope": "Approval, revision, supersession, methodology fidelity, IP authority, brand authority, development boundaries, and Corporate Headquarters boundaries.",
-      "path": "docs/education/records/ed-0008-educational-authority-and-approval-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0008-educational-authority-and-approval-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§12",
         "§18.8"
@@ -904,7 +904,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -972,11 +972,11 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md",
-        "docs/methodology/methodology-foundation-v1.md",
-        "docs/intellectual-property/intellectual-property-foundation-v1.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/foundations/methodology/methodology-foundation-v1.md",
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -989,8 +989,8 @@
       "provisionalDescriptors": [],
       "purpose": "Define assessment distinctions, evidence concepts, human judgment requirements, and AI boundaries.",
       "scope": "Knowledge checks, practice, formative and summative assessment, competency assessment, projects, capstones, organizational outcomes, and credential evaluation.",
-      "path": "docs/education/records/ed-0009-assessment-and-competency-verification-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0009-assessment-and-competency-verification-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§9",
         "§18.9"
@@ -1027,7 +1027,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -1088,9 +1088,9 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -1103,8 +1103,8 @@
       "provisionalDescriptors": [],
       "purpose": "Define the initial quality dimensions and metadata required for governed educational development.",
       "scope": "Accuracy, fidelity, coherence, accessibility, relevance, application, validity, feedback, evidence, improvement, version control, and limitations.",
-      "path": "docs/education/records/ed-0010-educational-quality-and-evidence-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0010-educational-quality-and-evidence-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§13",
         "§18.10"
@@ -1141,7 +1141,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -1203,10 +1203,10 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md",
-        "docs/methodology/methodology-foundation-v1.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/foundations/methodology/methodology-foundation-v1.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -1219,8 +1219,8 @@
       "provisionalDescriptors": [],
       "purpose": "Define what educational technology may support and what it may not determine independently.",
       "scope": "Records, delivery, assessment support, AI assistance, human review, privacy, model independence, traceability, and prohibited automated decisions.",
-      "path": "docs/education/records/ed-0011-educational-technology-and-ai-boundary-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0011-educational-technology-and-ai-boundary-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§16",
         "§18.11"
@@ -1257,7 +1257,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -1320,10 +1320,10 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md",
-        "docs/development/internal-software-architecture.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/technical/internal-software-architecture.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true
@@ -1336,8 +1336,8 @@
       "provisionalDescriptors": [],
       "purpose": "Govern relationships among educational assets, methodology, intellectual property, institutional knowledge, publishing, public adaptations, and software.",
       "scope": "Source references, adaptation authority, version dependency, disclosure, supersession effects, and prohibited reconstruction.",
-      "path": "docs/education/records/ed-0012-educational-source-traceability-standard-v1.md",
-      "authoritativeSource": "docs/education/education-workforce-development-foundation-v1.md",
+      "path": "institution/foundations/education/records/ed-0012-educational-source-traceability-standard-v1.md",
+      "authoritativeSource": "institution/foundations/education/education-workforce-development-foundation-v1.md",
       "sourceSections": [
         "§17",
         "§18.12"
@@ -1374,7 +1374,7 @@
       "educationalAdaptations": [],
       "sourceVersionDependencies": [
         {
-          "target": "docs/education/education-workforce-development-foundation-v1.md",
+          "target": "institution/foundations/education/education-workforce-development-foundation-v1.md",
           "nature": "version_dependency",
           "sourceVersion": "v1.0",
           "note": "A Foundation update triggers governed review of this record, never automatic modification (EWDFv1 §17.4)."
@@ -1437,11 +1437,11 @@
       "historicalVersions": [],
       "changeRationale": "Initial record creation from Education & Workforce Development Foundation v1.",
       "governingReferences": [
-        "docs/education/education-workforce-development-foundation-v1.md",
-        "docs/education/education-platform-architecture.md",
-        "docs/governance/huerta-group-constitution.md",
-        "docs/methodology/methodology-foundation-v1.md",
-        "docs/intellectual-property/intellectual-property-foundation-v1.md"
+        "institution/foundations/education/education-workforce-development-foundation-v1.md",
+        "institution/technical/education-platform-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/foundations/methodology/methodology-foundation-v1.md",
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md"
       ],
       "technicalImplementationAuthorization": true,
       "containsSubstantiveEducationalRequirements": true

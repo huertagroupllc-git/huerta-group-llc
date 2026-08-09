@@ -148,9 +148,9 @@ This is a production-first project. Localhost is used only for development and i
 
 Authoritative reference documents live under [`docs/`](docs/README.md), which indexes them and defines the document classifications. In order of authority:
 
-1. **[Huerta Group LLC Constitution](docs/governance/huerta-group-constitution.md)** — the highest internal authority. The canonical record currently lists the three ratified articles (I–III) by title and awaits verbatim insertion of the ratified text; constitutional development remains incomplete beyond Article III.
-2. **[Vision Foundation for Development](docs/governance/vision-foundation-for-development.md)** — the approved strategic foundation for all technology decisions; preserved exactly, never to be rewritten through ordinary development work.
-3. **[Development Standards](docs/development/development-standards.md)** — how this repository's systems are designed, implemented, reviewed, documented, and maintained. Its companion, the **[Bounded Autonomous Completion and Verification Standard](docs/development/bounded-autonomous-completion-standard.md)**, defines the default execution method for consequential development tasks.
+1. **[Huerta Group LLC Constitution](institution/governance/constitution/huerta-group-constitution.md)** — the highest internal authority. The canonical record currently lists the three ratified articles (I–III) by title and awaits verbatim insertion of the ratified text; constitutional development remains incomplete beyond Article III.
+2. **[Vision Foundation for Development](institution/governance/strategic/vision-foundation-for-development.md)** — the approved strategic foundation for all technology decisions; preserved exactly, never to be rewritten through ordinary development work.
+3. **[Development Standards](institution/standards/development/development-standards.md)** — how this repository's systems are designed, implemented, reviewed, documented, and maintained. Its companion, the **[Bounded Autonomous Completion and Verification Standard](institution/standards/development/bounded-autonomous-completion-standard.md)**, defines the default execution method for consequential development tasks.
 
 Individual task instructions sit below all of these and may not silently override them (see AGENTS.md for the full authority rules).
 

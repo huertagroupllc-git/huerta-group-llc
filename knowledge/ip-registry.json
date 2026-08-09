@@ -47,7 +47,7 @@
         "creators": [],
         "contributors": [],
         "sourceMaterials": [
-          "docs/intellectual-property/intellectual-property-foundation-v1.md"
+          "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md"
         ],
         "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
@@ -99,8 +99,8 @@
       ],
       "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
-        "docs/governance/huerta-group-constitution.md",
-        "docs/intellectual-property/ip-repository-architecture.md"
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/technical/ip-repository-architecture.md"
       ],
       "sourceRecords": [],
       "id": "ip-0001",
@@ -117,7 +117,7 @@
         "All legally and commercially operative matters are reserved to Corporate Headquarters / legal authority (IPFv1 §10)."
       ],
       "institutionalValueRationale": "Establishes the governed institutional capability through which future intellectual-property value can be identified, admitted, stewarded, and preserved.",
-      "path": "docs/intellectual-property/intellectual-property-foundation-v1.md",
+      "path": "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
       "readiness": {
         "internalReference": "approved",
         "internalOperationalUse": "not_approved",
@@ -170,7 +170,7 @@
         "creators": [],
         "contributors": [],
         "sourceMaterials": [
-          "docs/intellectual-property/intellectual-property-foundation-v1.md"
+          "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md"
         ],
         "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
@@ -210,8 +210,8 @@
       ],
       "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
-        "docs/intellectual-property/intellectual-property-foundation-v1.md",
-        "docs/intellectual-property/ip-repository-architecture.md"
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
+        "institution/technical/ip-repository-architecture.md"
       ],
       "sourceRecords": [
         "ip-0001"
@@ -237,7 +237,7 @@
         "clientUse": "not_applicable",
         "licensingReview": "not_applicable"
       },
-      "path": "docs/intellectual-property/records/ip-0002-institutional-intellectual-property-definition-and-scope.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0002-institutional-intellectual-property-definition-and-scope.md",
       "authority": {
         "authorityBasis": "Intellectual Property Foundation v1 §§1.1–1.13",
         "approvingAuthority": {
@@ -279,7 +279,7 @@
         "creators": [],
         "contributors": [],
         "sourceMaterials": [
-          "docs/intellectual-property/intellectual-property-foundation-v1.md"
+          "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md"
         ],
         "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
@@ -319,8 +319,8 @@
       ],
       "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
-        "docs/intellectual-property/intellectual-property-foundation-v1.md",
-        "docs/intellectual-property/ip-repository-architecture.md"
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
+        "institution/technical/ip-repository-architecture.md"
       ],
       "sourceRecords": [
         "ip-0001"
@@ -335,7 +335,7 @@
       "openQuestions": [],
       "unresolvedMatters": [],
       "institutionalValueRationale": "Keeps institutional IP classification consistent, bounded, and free of implied legal status.",
-      "path": "docs/intellectual-property/records/ip-0003-intellectual-property-asset-classification-standard-v1.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0003-intellectual-property-asset-classification-standard-v1.md",
       "readiness": {
         "internalReference": "approved",
         "internalOperationalUse": "not_approved",
@@ -388,7 +388,7 @@
         "creators": [],
         "contributors": [],
         "sourceMaterials": [
-          "docs/intellectual-property/intellectual-property-foundation-v1.md"
+          "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md"
         ],
         "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
@@ -428,8 +428,8 @@
       ],
       "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
-        "docs/intellectual-property/intellectual-property-foundation-v1.md",
-        "docs/intellectual-property/ip-repository-architecture.md"
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
+        "institution/technical/ip-repository-architecture.md"
       ],
       "sourceRecords": [
         "ip-0001"
@@ -446,7 +446,7 @@
       ],
       "unresolvedMatters": [],
       "institutionalValueRationale": "Prevents status collapse and preserves every governance distinction across the repository.",
-      "path": "docs/intellectual-property/records/ip-0004-intellectual-property-lifecycle-standard-v1.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0004-intellectual-property-lifecycle-standard-v1.md",
       "readiness": {
         "internalReference": "approved",
         "internalOperationalUse": "not_approved",
@@ -499,7 +499,7 @@
         "creators": [],
         "contributors": [],
         "sourceMaterials": [
-          "docs/intellectual-property/intellectual-property-foundation-v1.md"
+          "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md"
         ],
         "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
@@ -539,9 +539,9 @@
       ],
       "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
-        "docs/intellectual-property/intellectual-property-foundation-v1.md",
-        "docs/intellectual-property/ip-repository-architecture.md",
-        "docs/governance/huerta-group-constitution.md"
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
+        "institution/technical/ip-repository-architecture.md",
+        "institution/governance/constitution/huerta-group-constitution.md"
       ],
       "sourceRecords": [
         "ip-0001"
@@ -560,7 +560,7 @@
         "All legally operative ownership determinations are reserved to Corporate Headquarters with appropriate guidance."
       ],
       "institutionalValueRationale": "Keeps admission honest: substantive authority, IP authority, technical custody, and legal administration remain distinct.",
-      "path": "docs/intellectual-property/records/ip-0005-intellectual-property-authority-standard-v1.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0005-intellectual-property-authority-standard-v1.md",
       "readiness": {
         "internalReference": "approved",
         "internalOperationalUse": "not_approved",
@@ -613,7 +613,7 @@
         "creators": [],
         "contributors": [],
         "sourceMaterials": [
-          "docs/intellectual-property/intellectual-property-foundation-v1.md"
+          "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md"
         ],
         "developmentHistory": "Created in the Phase 4 IP Repository Foundation implementation from the transmitted IPFv1 content; reconciled with the complete verbatim approved IPFv1 source in the source-completion phase.",
         "evidenceReferences": []
@@ -653,8 +653,8 @@
       ],
       "changeRationale": "Reconciled with the complete verbatim approved Intellectual Property Foundation v1 source (non-substantive: same v1.0 substance, transmission-created limitations removed).",
       "governingReferences": [
-        "docs/intellectual-property/intellectual-property-foundation-v1.md",
-        "docs/intellectual-property/ip-repository-architecture.md"
+        "institution/foundations/intellectual-property/intellectual-property-foundation-v1.md",
+        "institution/technical/ip-repository-architecture.md"
       ],
       "sourceRecords": [
         "ip-0001"
@@ -669,7 +669,7 @@
       "openQuestions": [],
       "unresolvedMatters": [],
       "institutionalValueRationale": "Separates handling classes from ownership and rights so that disclosure never manufactures or waives a legal position.",
-      "path": "docs/intellectual-property/records/ip-0006-intellectual-property-disclosure-standard-v1.md",
+      "path": "institution/foundations/intellectual-property/records/ip-0006-intellectual-property-disclosure-standard-v1.md",
       "readiness": {
         "internalReference": "approved",
         "internalOperationalUse": "not_approved",

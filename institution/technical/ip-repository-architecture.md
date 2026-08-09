@@ -4,7 +4,7 @@
 
 Defines the repository-based technical architecture of the
 Institutional Intellectual Property Repository. Subordinate to
-[Intellectual Property Foundation v1](intellectual-property-foundation-v1.md)
+[Intellectual Property Foundation v1](../foundations/intellectual-property/intellectual-property-foundation-v1.md)
 (the authoritative substantive source), the Constitution, the Vision
 Foundation, and the Development Standards. Two governing sentences
 frame everything here: **repository presence does not create IP
@@ -71,7 +71,7 @@ dimensions (§§2.1–2.11), each realized here without collapse:
 ## Record architecture
 
 - **Source vs repository records.** The Foundation source is
-  authoritative; repository records (`docs/intellectual-property/records/`)
+  authoritative; repository records (`institution/foundations/intellectual-property/records/`)
   extract and govern their approved subject, linking back via
   `sourceRecords` and `authorityBasis`. Where they disagree, the source
   is correct. Repository records are **metadata and governance about
@@ -80,7 +80,7 @@ dimensions (§§2.1–2.11), each realized here without collapse:
   canonical location.
 - **Identity.** Identifiers are `ip-NNNN` (sequential, stable, never
   reused); record files are
-  `docs/intellectual-property/records/ip-NNNN-<slug>.md`; `ip-0001`'s
+  `institution/foundations/intellectual-property/records/ip-NNNN-<slug>.md`; `ip-0001`'s
   canonical content is the Foundation source itself. Canonical paths
   are unique.
 - **Metadata home.** `knowledge/ip-registry.json` (schema

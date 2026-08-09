@@ -7,9 +7,9 @@ technology systems are designed, implemented, reviewed, documented, and
 maintained.
 
 They are subordinate to the [Huerta Group LLC
-Constitution](../governance/huerta-group-constitution.md) and the [Vision
+Constitution](../../governance/constitution/huerta-group-constitution.md) and the [Vision
 Foundation for
-Development](../governance/vision-foundation-for-development.md). Where
+Development](../../governance/strategic/vision-foundation-for-development.md). Where
 these standards and those documents appear to conflict, the higher
 authority prevails and the conflict must be escalated, not resolved
 silently.
@@ -111,7 +111,7 @@ Standards:
   verified Huerta Group LLC project only.
 - **Written decisions.** Consequential technical choices are recorded —
   in the README architecture section, a migration comment, or a decision
-  record under `docs/development/` — with enough rationale for a future
+  record under `institution/decisions/` — with enough rationale for a future
   contributor to understand why.
 
 Do not impose architecture the project does not currently require.
@@ -220,7 +220,7 @@ planned or possible future capabilities.
 
 Ratified constitutional language is not ordinary marketing copy and must
 not be casually rewritten or reproduced. See the
-[Constitution record](../governance/huerta-group-constitution.md).
+[Constitution record](../../governance/constitution/huerta-group-constitution.md).
 
 ## Performance and Reliability
 

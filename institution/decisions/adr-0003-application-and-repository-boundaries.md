@@ -12,7 +12,7 @@ they run and where their code lives, without a premature global mandate
 requirements are immature. Governing references consulted: the Vision
 Foundation (§§12–14, proportionate flexibility), the Development
 Standards (architecture standards), and the
-[Internal Software Architecture Foundation](../internal-software-architecture.md)
+[Internal Software Architecture Foundation](../technical/internal-software-architecture.md)
 (§4), whose capability registry records each placement outcome —
 mechanically checked by `npm run validate:architecture`.
 

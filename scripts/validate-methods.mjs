@@ -254,7 +254,7 @@ for (const rec of records) {
       `knowledge-manifest: ${rec.id} — governed document missing from knowledge/manifest.json: ${rec.path}`,
     );
 }
-const ARCHITECTURE_DOC = "docs/methodology/method-library-architecture.md";
+const ARCHITECTURE_DOC = "institution/technical/method-library-architecture.md";
 if (!manifestPaths.has(ARCHITECTURE_DOC))
   fail(
     `knowledge-manifest: method library architecture missing from knowledge/manifest.json: ${ARCHITECTURE_DOC}`,

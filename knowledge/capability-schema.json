@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "huerta-group-llc/knowledge/capability-schema.json",
   "title": "Huerta Group LLC — Capability and Dependency Registry Schema",
-  "description": "Validates knowledge/capability-registry.json — the machine-readable representation of the institutional capability and system map (docs/development/internal-software-architecture.md). Registry entries describe architecture; they authorize no construction and create no institutional authority. Unresolved values are recorded transparently, never guessed.",
+  "description": "Validates knowledge/capability-registry.json — the machine-readable representation of the institutional capability and system map (institution/technical/internal-software-architecture.md). Registry entries describe architecture; they authorize no construction and create no institutional authority. Unresolved values are recorded transparently, never guessed.",
   "type": "object",
   "required": ["registryVersion", "capabilities"],
   "additionalProperties": false,

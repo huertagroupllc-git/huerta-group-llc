@@ -27,7 +27,12 @@ import process from "node:process";
 const ROOT = process.cwd();
 const SCHEMA_PATH = join(ROOT, "knowledge", "schema.json");
 const MANIFEST_PATH = join(ROOT, "knowledge", "manifest.json");
-const CORPUS_ROOT = "docs";
+// Canonical corpus roots (Repository Foundation architecture): every
+// Markdown document under these roots is governed, plus the explicitly
+// listed root-level operational instruction files. The workbench and
+// implementation trees are structurally outside the corpus.
+const CORPUS_ROOTS = ["institution", "docs"];
+const CORPUS_FILES = [];
 
 const errors = [];
 const fail = (msg) => errors.push(msg);
@@ -138,7 +143,12 @@ function walkMarkdown(dir) {
   return out;
 }
 
-const corpusFiles = new Set(walkMarkdown(join(ROOT, CORPUS_ROOT)));
+const corpusFiles = new Set([
+  ...CORPUS_ROOTS.flatMap((root) =>
+    existsSync(join(ROOT, root)) ? walkMarkdown(join(ROOT, root)) : [],
+  ),
+  ...CORPUS_FILES.filter((f) => existsSync(join(ROOT, f))),
+]);
 const records = Array.isArray(manifest.documents) ? manifest.documents : [];
 
 const seenIds = new Map();
@@ -157,8 +167,11 @@ for (const rec of records) {
       fail(`uniqueness: duplicate path "${rec.path}"`);
     seenPaths.set(rec.path, rec);
 
-    if (!rec.path.startsWith(`${CORPUS_ROOT}/`))
-      fail(`corpus: ${label} — path outside corpus root: ${rec.path}`);
+    const inCorpus =
+      CORPUS_ROOTS.some((root) => rec.path.startsWith(`${root}/`)) ||
+      CORPUS_FILES.includes(rec.path);
+    if (!inCorpus)
+      fail(`corpus: ${label} — path outside canonical corpus roots: ${rec.path}`);
     if (!existsSync(join(ROOT, rec.path)))
       fail(`paths: ${label} — path does not exist: ${rec.path}`);
     if (!corpusFiles.has(rec.path) && existsSync(join(ROOT, rec.path)))
