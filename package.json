@@ -12,7 +12,9 @@
     "validate:methods": "node institution/validation/validate-methods.mjs",
     "validate:ip": "node institution/validation/validate-ip.mjs",
     "validate:education": "node institution/validation/validate-education.mjs",
-    "validate:determinations": "node institution/validation/validate-determinations.mjs"
+    "validate:determinations": "node institution/validation/validate-determinations.mjs",
+    "validate:references": "node institution/validation/validate-references.mjs",
+    "verify": "node institution/validation/verify.mjs"
   },
   "dependencies": {
     "next": "16.2.11",

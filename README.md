@@ -146,7 +146,7 @@ This is a production-first project. Localhost is used only for development and i
 
 ## Development Governance
 
-Authoritative reference documents live under [`docs/`](docs/README.md), which indexes them and defines the document classifications. In order of authority:
+Authoritative reference documents live under [`institution/`](institution/README.md) — the repository's canonical institutional governance assets — indexed by the [documentation index](institution/standards/repository/documentation-index.md), which defines the document classifications. Website-scoped launch documentation remains under `docs/launch/`; the staging workbench for non-admitted working material is `workbench/` (uncommitted by policy). The canonical repository verification gate is `npm run verify` (all validators, references, lint, types, build), mechanically enforced by CI (`.github/workflows/verify.yml`). In order of authority:
 
 1. **[Huerta Group LLC Constitution](institution/governance/constitution/huerta-group-constitution.md)** — the highest internal authority. The canonical record currently lists the three ratified articles (I–III) by title and awaits verbatim insertion of the ratified text; constitutional development remains incomplete beyond Article III.
 2. **[Vision Foundation for Development](institution/governance/strategic/vision-foundation-for-development.md)** — the approved strategic foundation for all technology decisions; preserved exactly, never to be rewritten through ordinary development work.

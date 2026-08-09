@@ -1,0 +1,22 @@
+# Minimal CI enforcement of the canonical repository verification gate
+# (Founder Office determination D-4; fd-0002/fd-0003; see
+# institution/standards/repository/repository-verification.md).
+# Branch-protection configuration is a separate, Founder Office-gated
+# platform setting and is not modified by this workflow.
+name: verify
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run verify
