@@ -16,13 +16,14 @@ export function ExtendingCapability() {
           other institutional branches something substantive to build on.
         </p>
         <p>
-          Education &amp; Workforce Development extends approved
-          methodology and institutional knowledge into structured learning
-          and practical capability. Technology and software serve
+          Education &amp; Workforce Development is being built to extend
+          approved methodology and institutional knowledge into structured
+          learning and practical capability. Technology and software serve
           established knowledge — improving access, consistent
           application, coordination, measurement, and scale. And sustained
-          operational support draws on the same foundation, extending the
-          value of sound work beyond the engagement that produced it.
+          operational support is meant to draw on the same foundation,
+          extending the value of sound work beyond the engagement that
+          produced it.
         </p>
         <p>
           <ArrowLink href="/education">Explore Education &amp; Workforce Development</ArrowLink>

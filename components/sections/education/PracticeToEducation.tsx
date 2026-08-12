@@ -18,25 +18,25 @@ const STAGES = [
     number: "03",
     title: "Intellectual property",
     description:
-      "Methods preserved as frameworks, standards, and tools the Company teaches from.",
+      "Methods preserved as frameworks, standards, and tools to teach from.",
   },
   {
     number: "04",
     title: "Education",
     description:
-      "Learning that extends that knowledge to professionals and organizations — the work of this division.",
+      "Learning built to extend that knowledge to professionals and organizations — the role of this capability.",
   },
   {
     number: "05",
     title: "Technology & software",
     description:
-      "Supports how learning is delivered, accessed, and scaled. Technology serves the educational substance; it does not define it.",
+      "Will support how learning is delivered, accessed, and scaled. Technology serves the educational substance; it does not define it.",
   },
   {
     number: "06",
     title: "Managed services",
     description:
-      "Extends the operational value organizations build through consulting and education.",
+      "Meant to extend the operational value organizations build through consulting and education.",
   },
 ] as const;
 
@@ -46,7 +46,7 @@ export function PracticeToEducation() {
       layout="split"
       eyebrow="From knowledge to practice"
       title="Where education sits in the Company's model."
-      lead="Huerta Group operates on a deliberate institutional progression. Education draws its substance from the stages before it and strengthens the stages around it."
+      lead="Huerta Group operates on a deliberate institutional progression. Education is built to draw its substance from the stages before it and to strengthen the stages around it."
       tone="raised"
     >
       <ol className="mt-14 lg:mt-0 space-y-10">
@@ -70,12 +70,12 @@ export function PracticeToEducation() {
       </ol>
       <p className="mt-10 text-sm leading-relaxed text-silver-500">
         This is the Company&apos;s operating model, not a sales sequence.
-        Each element disciplines the others: education teaches what the
-        Company practices, and what its people learn in the field sharpens
-        what it teaches.
+        Each element disciplines the others: education is built to teach
+        what the Company practices, and what is learned in practice
+        sharpens what is taught.
       </p>
       <p className="mt-6">
-        <ArrowLink href="/methodology">Explore the methodology this division teaches from</ArrowLink>
+        <ArrowLink href="/methodology">Explore the methodology this work draws from</ArrowLink>
       </p>
     </Section>
   );

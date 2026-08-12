@@ -6,7 +6,7 @@ export function EducationHero() {
     <PageHero
       eyebrow="Education & Workforce Development"
       title="Learning built to develop real capability."
-      lead="Education & Workforce Development is the division through which Huerta Group transforms its methodology, organizational knowledge, and practical experience into structured learning — education that builds demonstrable professional and organizational capability."
+      lead="Education & Workforce Development is the institutional capability Huerta Group is building to transform its methodology, organizational knowledge, and practical experience into structured learning — education designed to develop demonstrable professional and organizational capability."
       actions={
         <>
           <ButtonLink href={CONTACT_HREF}>Contact Huerta Group</ButtonLink>

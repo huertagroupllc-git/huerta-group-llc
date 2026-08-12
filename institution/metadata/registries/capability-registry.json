@@ -281,7 +281,7 @@
     {
       "id": "publishing-platform",
       "name": "Publishing Platform",
-      "description": "Possible future publishing capability (manuscripts, editions, rights records). Mentioned only as a possible future form on the public About page; no repository authority governs it.",
+      "description": "Possible future publishing capability (manuscripts, editions, rights records). No repository authority governs it.",
       "category": "institutional-branch",
       "maturity": "conceptual",
       "architecturalDisposition": "unresolved",

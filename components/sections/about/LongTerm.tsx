@@ -15,14 +15,15 @@ export function LongTerm() {
           Today, that takes the form of the work this site describes.
         </p>
         <p>
-          The Company&apos;s work already takes more than one form — the
-          organizational systems practice this site describes, the
-          Education &amp; Workforce Development division that teaches from
-          it, and the Managed Services function that sustains what the
-          work builds. Over time it may take others — software,
-          publishing, partnerships. None of that is promised here, and
-          none of it would change the identity underneath: an
-          organizational systems company, accountable for what it builds.
+          The Company&apos;s work is designed to take more than one form.
+          The first is the organizational systems practice described
+          here; an Education &amp; Workforce Development capability is
+          being developed to teach from it, and a Managed Services
+          function is intended to sustain what it builds. Over time the
+          work may take other forms as well — software, partnerships.
+          None of that is promised here, and none of it would change the
+          identity underneath: an organizational systems company,
+          accountable for what it builds.
         </p>
         <PullQuote>
           What will not change is the orientation: decisions weighed on long

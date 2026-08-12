@@ -11,7 +11,7 @@ import { SITE_NAME } from "@/lib/site";
 
 const PAGE_TITLE = `${SITE_NAME} Education & Workforce Development`;
 const PAGE_DESCRIPTION =
-  "Education & Workforce Development at Huerta Group LLC transforms the Company's methodology, intellectual property, and operating experience into structured learning that develops practical professional and organizational capability.";
+  "Education & Workforce Development at Huerta Group LLC: an institutional capability being built to turn the Company's methodology, intellectual property, and operating experience into structured learning.";
 
 export const metadata: Metadata = {
   title: "Education & Workforce Development",

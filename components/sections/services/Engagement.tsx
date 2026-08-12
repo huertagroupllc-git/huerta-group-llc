@@ -57,8 +57,8 @@ export function Engagement() {
         through the full arc.
       </p>
       <p className="mt-6">
-        <ArrowLink href="/education">Structured training is also the work of the Company&apos;s
-          Education &amp; Workforce Development division</ArrowLink>
+        <ArrowLink href="/education">Structured training also belongs to the Company&apos;s
+          Education &amp; Workforce Development capability</ArrowLink>
       </p>
     </Section>
   );

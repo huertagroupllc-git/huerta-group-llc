@@ -21,11 +21,12 @@ export function InstitutionalFoundation() {
           The same discipline compounds. Practiced methodology produces
           reusable organizational knowledge — the frameworks, tools, and
           intellectual property a durable institution refines and protects.
-          Education &amp; Workforce Development extends that knowledge into
-          structured learning and practical capability. Technology and
-          software serve the methodology&apos;s consistency, coordination,
-          and scale. And sustained operational support extends its value
-          beyond the work that first produced it.
+          Education &amp; Workforce Development is being built to extend
+          that knowledge into structured learning and practical
+          capability. Technology and software serve the methodology&apos;s
+          consistency, coordination, and scale. And sustained operational
+          support is meant to extend its value beyond the work that first
+          produced it.
         </p>
         <p>
           <ArrowLink href="/intellectual-property">How knowledge becomes an institutional asset: explore

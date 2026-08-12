@@ -10,8 +10,8 @@ export function StewardshipAndProtection() {
     >
       <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
-          Intellectual property carries obligations. What clients share in
-          confidence stays in confidence — reusable knowledge is drawn
+          Intellectual property carries obligations. What a client shares
+          in confidence stays in confidence — reusable knowledge is drawn
           from the disciplined abstraction of experience, never from any
           client&apos;s confidential material. Internal frameworks, tools,
           and standards remain protected inside the Company, and what

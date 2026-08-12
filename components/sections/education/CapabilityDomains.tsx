@@ -17,7 +17,7 @@ export function CapabilityDomains() {
   return (
     <Section
       eyebrow="Areas of capability"
-      title="The capabilities Huerta Group develops."
+      title="The capabilities this work is built to develop."
       lead="Ten connected domains, developed together — integrated professional capability rather than isolated topics."
     >
       <ul className="mt-12 grid max-w-4xl gap-x-12 gap-y-4 sm:grid-cols-2">

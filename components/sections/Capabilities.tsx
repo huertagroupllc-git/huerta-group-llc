@@ -41,7 +41,7 @@ export function Capabilities() {
       id="capabilities"
       eyebrow="Capabilities"
       title="Three disciplines, one connected practice."
-      lead="Each engagement draws on the same core disciplines — applied together, so improvements in one area reinforce the others."
+      lead="The work draws on three core disciplines — applied together, so improvements in one area reinforce the others."
       tone="raised"
     >
       <div className="mt-14 grid gap-6 lg:grid-cols-3">

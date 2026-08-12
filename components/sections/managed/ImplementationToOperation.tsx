@@ -20,7 +20,7 @@ export function ImplementationToOperation() {
         </p>
         <p>
           Managed Services exists for that distance. Where sustained
-          organizational need justifies it, Huerta Group provides
+          organizational need justifies it, Huerta Group&apos;s aim is
           structured continuity — continued coordination, review,
           implementation support, reinforcement, measurement, and
           maintenance of operating discipline — until a new system is no

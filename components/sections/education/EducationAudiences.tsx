@@ -13,9 +13,9 @@ export function EducationAudiences() {
   return (
     <Section
       layout="split"
-      eyebrow="Who the division serves"
+      eyebrow="Who this work is for"
       title="Workforce development for individuals and organizations."
-      lead="The division serves the people and organizations that carry responsibility for how organizations actually run."
+      lead="Education at Huerta Group is being built for the people and organizations that carry responsibility for how organizations actually run."
       tone="raised"
     >
       <ul className="mt-12 lg:mt-0 space-y-4">

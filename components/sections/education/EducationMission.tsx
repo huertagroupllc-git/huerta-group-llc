@@ -10,18 +10,19 @@ export function EducationMission() {
     >
       <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
-          Huerta Group works inside organizations — understanding,
+          Huerta Group exists to work inside organizations — understanding,
           designing, improving, and implementing the systems through which
           they operate. An organization is only as strong as the people
           who run those systems: their judgment, their methods, and their
           ability to keep improving what they build.
         </p>
         <p>
-          Education &amp; Workforce Development carries that conviction
-          into practice. The division transforms the Company&apos;s
-          methodology, intellectual property, and operating knowledge into
-          structured learning — for professionals strengthening their own
-          capability, and for organizations developing their people.
+          Education &amp; Workforce Development is where that conviction
+          will be carried into practice. The capability is being built to
+          transform the Company&apos;s methodology, intellectual property,
+          and operating knowledge into structured learning — for
+          professionals strengthening their own capability, and for
+          organizations developing their people.
           Workforce development, done seriously, is institutional
           capability building.
         </p>
