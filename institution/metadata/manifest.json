@@ -1692,6 +1692,30 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "fd-0006-public-copy-truth-alignment-determinations",
+      "title": "fd-0006 — Founder Office Determinations: Public Copy Truth Alignment — Phase 1 (FO-01…FO-06)",
+      "path": "institution/governance/determinations/fd-0006-public-copy-truth-alignment-determinations.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Verbatim record of the Phase 1 Public Copy Truth Alignment determinations: audit acceptance, phase boundaries, Publishing exclusion, parent/venture reservation, client-language and Education/Managed Services truth rules, and the FVO observation preserved at proposed state.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
+        "approvalReference": "Public Copy Truth Alignment — Phase 1 task instrument (recorded in this register).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "design-area-charter",
       "title": "institution/design/ — Design System Reference-Implementation Records",
       "path": "institution/design/README.md",

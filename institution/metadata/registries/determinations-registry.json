@@ -123,6 +123,29 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0006",
+      "title": "Founder Office Determinations: Public Copy Truth Alignment — Phase 1 (FO-01…FO-06)",
+      "path": "institution/governance/determinations/fd-0006-public-copy-truth-alignment-determinations.md",
+      "instrument": "Huerta Group LLC — Public Copy Truth Alignment — Phase 1 task instrument (Founder Office → Platform & Systems Development), recording acceptance of the Corporate Platform Alignment Audit and authorizing the first implementation phase",
+      "dateReceived": "2026-08-12",
+      "recordedDate": "2026-08-12",
+      "determinationCount": 6,
+      "affectedArtifacts": [
+        "components/sections/about/LongTerm.tsx",
+        "components/sections/education/",
+        "components/sections/managed/",
+        "components/sections/ip/",
+        "components/sections/methodology/",
+        "components/sections/technology/ResponsibleTechnologyPrinciples.tsx",
+        "components/sections/services/Engagement.tsx",
+        "components/sections/Capabilities.tsx",
+        "app/education/page.tsx",
+        "institution/metadata/registries/capability-registry.json"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": []
     }
   ]
 }
