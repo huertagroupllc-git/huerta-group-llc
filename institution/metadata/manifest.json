@@ -1716,6 +1716,114 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "fd-0007-corporate-venture-governance-fd-v1-admission",
+      "title": "fd-0007 — Founder Office Determinations: Corporate Venture Governance — FD-V1 Admission, FD-V9, FD-V10",
+      "path": "institution/governance/determinations/fd-0007-corporate-venture-governance-fd-v1-admission.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Verbatim record of the venture-governance determinations: FD-V1 admission of Huerta Group Publishing as the first chartered venture, FD-V9 (graduation never automatic), FD-V10 (success is fulfillment of chartered purpose), and the pre-charter/admission historical distinction.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
+        "approvalReference": "Corporate Venture Governance — Phase 3 task instrument (recorded in this register).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "corporate-venture-governance-phase1-blueprint",
+      "title": "Corporate Venture Governance — Phase 1 Blueprint (Approved)",
+      "path": "institution/governance/ventures/corporate-venture-governance-phase1-blueprint.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "The approved architecture governing ventures: definition and admission-by-determination, authority decomposition, isolation-by-default with sharing-by-grant, representation rules, per-dimension lifecycle, metadata requirements, and reserved Founder Office determinations.",
+      "provenance": {
+        "origin": "Founder Office (approval); Platform & Systems Development (development and transcription)",
+        "approvalReference": "Approved as the prerequisite architecture for FD-V1; provenance recorded in fd-0007.",
+        "effectiveDate": "2026-08-12"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "references",
+          "target": "vision-foundation-for-development"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-v1-huerta-group-publishing-venture-determination-and-charter",
+      "title": "FD-V1 — Huerta Group Publishing: Venture Determination & Charter (Approved)",
+      "path": "institution/governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "The approved determination and authoritative Venture Charter (v1.0) of Huerta Group Publishing: admission recitals, exhaustive delegated and reserved authority, the two-grant capability register, relationship boundaries, lifecycle at admission, and the chartered Graduation Principle.",
+      "provenance": {
+        "origin": "Founder Office (approval); Platform & Systems Development (development and transcription)",
+        "approvalReference": "Approved by Founder Office determination FD-V1; provenance recorded in fd-0007.",
+        "effectiveDate": "2026-08-12"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "corporate-venture-governance-phase1-blueprint"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0007-corporate-venture-governance-fd-v1-admission"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evo-0004-first-venture-admission-huerta-group-publishing",
+      "title": "evo-0004 — First Venture Formally Admitted: Huerta Group Publishing (FD-V1)",
+      "path": "institution/evolution/records/evo-0004-first-venture-admission-huerta-group-publishing.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Evolution record of the first formal venture admission: prior ungoverned state, the FD-V1/FD-V9/FD-V10 determinations, the venture governance area and registry established, and the preserved distinction between pre-charter operation and formal admission.",
+      "provenance": {
+        "origin": "Platform & Systems Development",
+        "approvalReference": "fd-0007; Institutional Evolution Log governance.",
+        "effectiveDate": "2026-08-12"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "evolution-log"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0007-corporate-venture-governance-fd-v1-admission"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "design-area-charter",
       "title": "institution/design/ — Design System Reference-Implementation Records",
       "path": "institution/design/README.md",

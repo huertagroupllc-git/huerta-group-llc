@@ -14,6 +14,7 @@ authority):
 | `governance/constitution/` | The canonical constitutional record (highest internal authority; ratified text pending insertion, marked in the record) |
 | `governance/strategic/` | Vision Foundation for Development (Approved Strategic Authority) |
 | `governance/determinations/` | Founder Office determination records — repository-native approval provenance (Institutional Records; evidentiary, non-governing) |
+| `governance/ventures/` | Corporate Venture Governance — the approved blueprint and per-venture determinations/charters; venture admission occurs only by Founder Office determination (registry: `metadata/registries/venture-registry.json`) |
 | `foundations/` | Approved institutional foundations and their derived governance records (methodology, intellectual-property, education; future domains are added only when occupied) |
 | `standards/development/` | Development Standards and the Bounded Autonomous Completion & Verification Standard |
 | `standards/repository/` | Repository Standards — they govern this repository only, never Huerta Group generally (documentation index, canonical-source preservation, repository verification) |

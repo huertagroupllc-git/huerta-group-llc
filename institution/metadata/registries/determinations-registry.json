@@ -146,6 +146,31 @@
       ],
       "deficienciesRecorded": 0,
       "relationships": []
+    },
+    {
+      "id": "fd-0007",
+      "title": "Founder Office Determinations: Corporate Venture Governance — FD-V1 Admission, FD-V9, FD-V10",
+      "path": "institution/governance/determinations/fd-0007-corporate-venture-governance-fd-v1-admission.md",
+      "instrument": "Corporate Venture Governance — Phase 3: Repository Institutionalization of FD-V1 task instrument (Founder Office → Platform & Systems Development), transmitting the approved FD-V1 Venture Determination & Charter and determinations FD-V9 and FD-V10",
+      "dateReceived": "2026-08-12",
+      "recordedDate": "2026-08-12",
+      "determinationCount": 3,
+      "affectedArtifacts": [
+        "institution/governance/ventures/corporate-venture-governance-phase1-blueprint.md",
+        "institution/governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md",
+        "institution/metadata/registries/venture-registry.json",
+        "institution/metadata/schemas/venture-schema.json",
+        "institution/validation/validate-ventures.mjs",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/evolution/records/evo-0004-first-venture-admission-huerta-group-publishing.md"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [
+        {
+          "target": "fd-0006",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

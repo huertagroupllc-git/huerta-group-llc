@@ -83,6 +83,36 @@
         "components/ui/CtaBand.tsx"
       ],
       "refinementReferences": []
+    },
+    {
+      "id": "evo-0004",
+      "title": "First Venture Formally Admitted: Huerta Group Publishing (FD-V1)",
+      "path": "institution/evolution/records/evo-0004-first-venture-admission-huerta-group-publishing.md",
+      "date": "2026-08-12",
+      "institutionalDomain": "governance",
+      "evolutionType": "governance_determination",
+      "retrospective": false,
+      "authorityInvolved": [
+        "Founder Office (venture determinations FD-V1, FD-V9, FD-V10)",
+        "Corporate Headquarters (reserved matters, unchanged)",
+        "Platform & Systems Development (repository institutionalization)"
+      ],
+      "decisionReferences": [
+        "fd-0007",
+        "fd-0006",
+        "adr-0001",
+        "adr-0003"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/governance/ventures/corporate-venture-governance-phase1-blueprint.md",
+        "institution/governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md",
+        "institution/governance/determinations/fd-0007-corporate-venture-governance-fd-v1-admission.md",
+        "institution/metadata/registries/venture-registry.json",
+        "institution/metadata/schemas/venture-schema.json",
+        "institution/validation/validate-ventures.mjs",
+        "institution/metadata/registries/capability-registry.json"
+      ],
+      "refinementReferences": []
     }
   ]
 }

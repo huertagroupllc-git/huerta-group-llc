@@ -34,6 +34,30 @@ Current-implementation documentation lives in the repository root
 | Official Launch Checklist | [`launch/official-launch-checklist.md`](../../../docs/launch/official-launch-checklist.md) | Phased, testable checklist; owner-gated actions marked |
 | Rollback Plan | [`launch/rollback-plan.md`](../../../docs/launch/rollback-plan.md) | Git, platform, environment, canonical, and DNS rollback procedures and boundaries |
 
+## Venture governance (Corporate Venture Governance)
+
+| Document | Canonical path | Purpose |
+| --- | --- | --- |
+| Corporate Venture Governance — Phase 1 Blueprint | [`governance/ventures/corporate-venture-governance-phase1-blueprint.md`](../../governance/ventures/corporate-venture-governance-phase1-blueprint.md) | The approved architecture governing ventures: definition, admission-by-determination, authority decomposition, isolation-by-default, lifecycle, and reserved determinations |
+| FD-V1 — Huerta Group Publishing Venture Determination & Charter | [`governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md`](../../governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md) | The authoritative Venture Charter (v1.0) of the first admitted venture; approval provenance in fd-0007 |
+
+**Venture registry maintenance:** the registry
+(`institution/metadata/registries/venture-registry.json`, schema
+`institution/metadata/schemas/venture-schema.json`) is the
+authoritative metadata mirror of admitted ventures; `npm run
+validate:ventures` must pass with any venture-governance change.
+**Founder Office admission creates ventures — repositories, codebases,
+domains, ideas, and websites do not**; the validator enforces exactly
+the approved admitted set, so a new venture record requires updating
+the approved set with its authorizing determination. Lifecycle is
+per-dimension and never collapsed; capability sharing exists only
+through the explicit grants in the registry; graduation is never
+automatic (FD-V9) and success is fulfillment of chartered purpose
+(FD-V10). Registry entries never create venture status, authority,
+grants, or history. FD-V2 (register topology), FD-V3 (name-use
+policy), FD-V4 (parent-platform representation), and FD-V5–FD-V8
+remain open Founder Office matters.
+
 ## Methodology (internal)
 
 | Document | Canonical path | Purpose |
