@@ -81,6 +81,7 @@
             "future_client_application",
             "future_shared_service",
             "external_managed_service",
+            "venture_application",
             "documentation_only",
             "launch_phase",
             "deferred",
@@ -94,6 +95,7 @@
             "current_repository",
             "future_separate_repository",
             "future_shared_repository",
+            "venture_repository",
             "external_provider",
             "not_applicable",
             "unresolved"

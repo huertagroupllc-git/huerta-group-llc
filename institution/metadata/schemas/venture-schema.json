@@ -1,0 +1,278 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huertagroupllc.com/institution/metadata/schemas/venture-schema.json",
+  "title": "Venture Registry Schema",
+  "description": "Validates the venture registry — the machine-readable representation of ventures formally admitted by Founder Office determination under the Corporate Venture Governance architecture (blueprint + FD-V1). Registry entries record admitted governance facts; they never create venture status, authority, capability grants, readiness, or history. Constants and enums below encode FD-V1/FD-V9/FD-V10 invariants: ventures are not separate legal entities, delegated authority derives from the parent through the charter, capability sharing exists only through explicit grant, lifecycle is per-dimension, graduation is never automatic, and success is fulfillment of chartered purpose.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registryVersion", "ventures"],
+  "properties": {
+    "registryVersion": { "type": "integer", "minimum": 1 },
+    "ventures": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/venture" }
+    }
+  },
+  "$defs": {
+    "venture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "parent",
+        "classification",
+        "admission",
+        "charter",
+        "legalEntityStatus",
+        "institutionalRelationship",
+        "delegatedAuthority",
+        "reservedParentAuthority",
+        "capabilityGrants",
+        "lifecycle",
+        "graduation",
+        "successPrinciple",
+        "publicRepresentation",
+        "repositoryRelationship",
+        "version",
+        "effectiveDate",
+        "supersession",
+        "historicalStatus"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "parent": {
+          "const": "Huerta Group LLC",
+          "description": "The parent organization. Constant: every admitted venture is a venture of Huerta Group LLC."
+        },
+        "classification": {
+          "enum": ["operational_venture"],
+          "description": "Approved venture classifications. New classes require Founder Office authorization and a schema change."
+        },
+        "admission": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["authority", "determination", "date", "regularization"],
+          "properties": {
+            "authority": { "const": "Founder Office" },
+            "determination": {
+              "type": "string",
+              "pattern": "^fd-[0-9]{4}$",
+              "description": "The determinations-register record evidencing admission. Repositories, codebases, domains, ideas, and websites do not create ventures."
+            },
+            "date": { "type": "string", "minLength": 1 },
+            "regularization": {
+              "type": "boolean",
+              "description": "True when the venture operated before formal chartering; preserves the historical distinction without rewriting history."
+            }
+          }
+        },
+        "charter": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["path", "version", "status"],
+          "properties": {
+            "path": { "type": "string", "minLength": 1 },
+            "version": { "type": "string", "minLength": 1 },
+            "status": { "enum": ["in_force", "amended", "superseded"] }
+          }
+        },
+        "legalEntityStatus": {
+          "const": "operates_within_huerta_group_llc_not_a_separate_legal_entity",
+          "description": "FD-V1 invariant: a venture is not an independent company, legal entity, or subsidiary. Legal-form change is a governance decision (FD-V9 stages; Corporate Headquarters action) requiring schema-level authorization to represent."
+        },
+        "institutionalRelationship": {
+          "const": "operational_venture_of_huerta_group_llc_under_delegated_authority_within_its_approved_charter"
+        },
+        "delegatedAuthority": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["source", "scope", "charterReference"],
+          "properties": {
+            "source": {
+              "const": "delegated_by_parent_through_charter",
+              "description": "Delegated authority is scoped authority derived from parent authority — never independent institutional sovereignty."
+            },
+            "scope": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "charterReference": { "type": "string", "minLength": 1 }
+          }
+        },
+        "reservedParentAuthority": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "description": "Validator-enforced: must include the FD-V1 reserved set (constitutional authority; institutional governance; legal ownership; strategic direction; capital allocation; portfolio governance; public corporate representation)."
+        },
+        "capabilityGrants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["grant", "instrument"],
+            "properties": {
+              "grant": {
+                "enum": ["publisher_of_record", "venture_name_usage"],
+                "description": "The only approved grants. Sharing occurs only through explicit institutional grant; no capability is shared because it exists in the parent or is technically accessible."
+              },
+              "instrument": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "lifecycle": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "institutionalStanding",
+            "developmentMaturity",
+            "operationalActivity",
+            "publicDisclosureReadiness",
+            "commercialReadiness",
+            "legalComplianceReadiness",
+            "retirementCondition",
+            "archivalTreatment"
+          ],
+          "description": "Per-dimension status (blueprint §20). No combined status field exists or may be added; no dimension implies another; values are recorded conditions, never created by recording.",
+          "properties": {
+            "institutionalStanding": {
+              "enum": ["Candidate", "Admitted", "Chartered", "Charter Amended", "Superseded", "Retired Standing"]
+            },
+            "developmentMaturity": {
+              "enum": ["Concept", "Exploration", "Development", "Established", "Mature"]
+            },
+            "operationalActivity": {
+              "enum": [
+                "Inactive",
+                "Preparation Authorized",
+                "Pilot Authorized",
+                "Pilot Active",
+                "Active",
+                "Paused",
+                "Restricted",
+                "Transitioning",
+                "Retired"
+              ]
+            },
+            "publicDisclosureReadiness": {
+              "enum": [
+                "Not Assessed",
+                "Internal Only",
+                "Disclosure Review Required",
+                "Approved for Limited Disclosure",
+                "Approved for Public Adaptation",
+                "Approved for Public Disclosure"
+              ]
+            },
+            "commercialReadiness": {
+              "enum": [
+                "Not Assessed",
+                "Not Applicable",
+                "Commercial Requirements Incomplete",
+                "Commercial Review Required",
+                "Commercial Preparation Authorized",
+                "Commercially Ready for Defined Scope",
+                "Suspended",
+                "Withdrawn",
+                "Unresolved"
+              ],
+              "description": "Corporate Headquarters authority."
+            },
+            "legalComplianceReadiness": {
+              "enum": ["Not Assessed", "Unresolved"],
+              "description": "Corporate Headquarters authority. Additional values require authorization; unresolved is never treated as favorable."
+            },
+            "retirementCondition": {
+              "enum": [
+                "Not Retired",
+                "Retirement Proposed",
+                "Retirement Under Review",
+                "Retirement Approved",
+                "Transition in Progress",
+                "Retired",
+                "Retirement Withdrawn",
+                "Unresolved"
+              ]
+            },
+            "archivalTreatment": {
+              "enum": [
+                "Current Record",
+                "Historical Record",
+                "Archival Review Required",
+                "Archived",
+                "Restricted Archive",
+                "Preservation Hold",
+                "Unresolved"
+              ]
+            }
+          }
+        },
+        "graduation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["stage", "automatic", "authority"],
+          "description": "FD-V9. Graduation is never automatic and is separate from operational success, age, revenue, scale, and maturity unless the Founder Office later establishes criteria.",
+          "properties": {
+            "stage": {
+              "enum": [
+                "Internal Initiative",
+                "Admitted Venture",
+                "Mature Venture",
+                "Strategic Business Unit",
+                "Independent Subsidiary"
+              ]
+            },
+            "automatic": { "const": false },
+            "authority": { "const": "Founder Office determination required" }
+          }
+        },
+        "successPrinciple": {
+          "const": "fulfillment_of_chartered_purpose",
+          "description": "FD-V10. Organizational independence is not a success requirement; organizational form is a governance decision, not a venture objective."
+        },
+        "publicRepresentation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["parentPlatform", "venturePlatform"],
+          "properties": {
+            "parentPlatform": { "type": "string", "minLength": 1 },
+            "venturePlatform": { "type": "string", "minLength": 1 }
+          },
+          "description": "Recorded factual representation postures. Disclosure decisions remain reserved (FD-V4 open); the lifecycle publicDisclosureReadiness dimension carries the governed status."
+        },
+        "repositoryRelationship": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["repositories", "custody", "parentCanonicalCorpusMember", "isolation"],
+          "properties": {
+            "repositories": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "custody": { "const": "venture_technical_custody" },
+            "parentCanonicalCorpusMember": { "const": false },
+            "isolation": { "const": "isolated_by_default" }
+          }
+        },
+        "version": { "type": "string", "minLength": 1 },
+        "effectiveDate": { "type": ["string", "null"] },
+        "supersession": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["supersedes", "supersededBy"],
+          "properties": {
+            "supersedes": { "type": "array", "items": { "type": "string" } },
+            "supersededBy": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "historicalStatus": { "enum": ["current", "historical"] },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

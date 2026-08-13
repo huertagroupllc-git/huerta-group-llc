@@ -1,0 +1,97 @@
+{
+  "registryVersion": 1,
+  "ventures": [
+    {
+      "id": "huerta-group-publishing",
+      "name": "Huerta Group Publishing",
+      "parent": "Huerta Group LLC",
+      "classification": "operational_venture",
+      "admission": {
+        "authority": "Founder Office",
+        "determination": "fd-0007",
+        "date": "2026-08-12",
+        "regularization": true
+      },
+      "charter": {
+        "path": "institution/governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md",
+        "version": "1.0",
+        "status": "in_force"
+      },
+      "legalEntityStatus": "operates_within_huerta_group_llc_not_a_separate_legal_entity",
+      "institutionalRelationship": "operational_venture_of_huerta_group_llc_under_delegated_authority_within_its_approved_charter",
+      "delegatedAuthority": {
+        "source": "delegated_by_parent_through_charter",
+        "scope": [
+          "editorial operations (manuscript intake, editorial review, deliberation, author collaboration)",
+          "publication production (EPUB/print/cover artifacts, edition and manifestation records, evidence-gated releases, bibliographic metadata, ISBN provenance recording)",
+          "publishing-platform development (application, migrations, CI, deployments, locale development, within isolation defaults)",
+          "author and staff provisioning within the publisher-provisioned access model",
+          "AI use within the venture's implemented editorial tooling, under human editorial judgment (Charter §7.5)",
+          "membership and support operations without payment collection (Charter §7.7)",
+          "venture-internal operational governance (validation program, observation register, internal records) within charter"
+        ],
+        "charterReference": "Charter §7 (delegation is exhaustive; undelegated authority is retained)"
+      },
+      "reservedParentAuthority": [
+        "constitutional authority",
+        "institutional governance",
+        "legal ownership",
+        "strategic direction",
+        "capital allocation",
+        "portfolio governance",
+        "public corporate representation",
+        "commercial activation (Corporate Headquarters readiness + Founder Office authorization)",
+        "brand and name grants beyond the recorded grant",
+        "disclosure posture and public launch (FD-V4 open)",
+        "legally operative acts (Corporate Headquarters)",
+        "charter amendment and lifecycle transitions"
+      ],
+      "capabilityGrants": [
+        {
+          "grant": "publisher_of_record",
+          "instrument": "FD-V1 Charter §12 (presentation of Huerta Group LLC as publisher of record; regularization of evidenced usage)"
+        },
+        {
+          "grant": "venture_name_usage",
+          "instrument": "FD-V1 Charter §12 (use of the name \"Huerta Group Publishing\"; revocable; this venture only; no precedent)"
+        }
+      ],
+      "lifecycle": {
+        "institutionalStanding": "Chartered",
+        "developmentMaturity": "Established",
+        "operationalActivity": "Active",
+        "publicDisclosureReadiness": "Disclosure Review Required",
+        "commercialReadiness": "Not Assessed",
+        "legalComplianceReadiness": "Not Assessed",
+        "retirementCondition": "Not Retired",
+        "archivalTreatment": "Current Record"
+      },
+      "graduation": {
+        "stage": "Admitted Venture",
+        "automatic": false,
+        "authority": "Founder Office determination required"
+      },
+      "successPrinciple": "fulfillment_of_chartered_purpose",
+      "publicRepresentation": {
+        "parentPlatform": "not represented on the parent public platform (FD-V4 pending); parent-platform silence is the governed current posture",
+        "venturePlatform": "venture platform deployed pre-launch (no custom domain, no promotion); official launch reserved (Charter §11.4)"
+      },
+      "repositoryRelationship": {
+        "repositories": [
+          "huerta-group/huerta-group-publishing (venture repository; Supabase project ref jlsvwqfptjbhbioolonh; Vercel production from main; CI verify on push)"
+        ],
+        "custody": "venture_technical_custody",
+        "parentCanonicalCorpusMember": false,
+        "isolation": "isolated_by_default"
+      },
+      "version": "1.0",
+      "effectiveDate": "2026-08-12",
+      "supersession": {
+        "supersedes": [],
+        "supersededBy": []
+      },
+      "historicalStatus": "current",
+      "notes": "Operational activity is scoped to internal editorial/production operations (Charter §24): live production database with scheduled jobs, founder-validation observations, fix-forward migrations. The venture operated before formal chartering (repository history from 2026-07-02); admission is a regularization and rewrites no history. Steward: the Founder (Charter §21; responsibility, not authority)."
+    }
+  ]
+}
