@@ -41,6 +41,7 @@ Current-implementation documentation lives in the repository root
 | Corporate Venture Governance — Phase 1 Blueprint | [`governance/ventures/corporate-venture-governance-phase1-blueprint.md`](../../governance/ventures/corporate-venture-governance-phase1-blueprint.md) | The approved architecture governing ventures: definition, admission-by-determination, authority decomposition, isolation-by-default, lifecycle, and reserved determinations |
 | FD-V1 — Huerta Group Publishing Venture Determination & Charter | [`governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md`](../../governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md) | The authoritative Venture Charter (v1.0) of the first admitted venture; approval provenance in fd-0007 |
 | FD-V2 — Venture Register Topology Determination | [`governance/ventures/fd-v2-venture-register-topology-determination.md`](../../governance/ventures/fd-v2-venture-register-topology-determination.md) | The approved register topology: institutional vs. operational governance planes, the single parent institutional register, identifier-first cross-plane references, and the synchronization doctrine; approval provenance in fd-0008 |
+| FD-V4 — Parent Platform Representation | [`governance/ventures/fd-v4-parent-platform-representation.md`](../../governance/ventures/fd-v4-parent-platform-representation.md) | The approved venture representation model for the parent public platform: minimum governed fact set, institutional-plane sourcing, venture/platform distinction, maturity ceiling, and representation-before-linking; approval provenance in fd-0009 |
 
 **Venture registry maintenance:** the registry
 (`institution/metadata/registries/venture-registry.json`, schema
@@ -61,9 +62,16 @@ determination register; venture repositories may maintain operational
 governance records that are authoritative only within delegated
 authority and never parallel institutional authority; crossing from
 the operational plane into the institutional plane requires escalation
-and an authorized parent determination. FD-V3 (name-use policy), FD-V4
-(parent-platform representation), and FD-V5–FD-V8 remain open Founder
-Office matters.
+and an authorized parent determination. Parent-platform representation
+is determined (FD-V4; fd-0009): admitted ventures are represented on
+the parent platform only through the approved minimum governed fact
+set, sourced from institutional-plane authority, within each venture's
+disclosure and maturity posture — and **representation precedes
+linking**: no parent-to-venture public link exists until the venture's
+official-launch determination (or an express pre-launch authorization)
+activates it. FD-V3 (name-use policy) and FD-V5–FD-V8 remain open
+Founder Office matters, maturing when actual operations require them
+(FD-V11 as transmitted; fd-0009).
 
 **Cross-plane references (FD-V2):** a reference between the
 institutional plane and a venture operational plane identifies the

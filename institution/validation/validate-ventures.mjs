@@ -72,6 +72,7 @@ const GOVERNANCE_DOCS = [
   "institution/governance/ventures/corporate-venture-governance-phase1-blueprint.md",
   "institution/governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md",
   "institution/governance/ventures/fd-v2-venture-register-topology-determination.md",
+  "institution/governance/ventures/fd-v4-parent-platform-representation.md",
 ];
 
 /* Minimal JSON Schema subset checker (same subset as the sibling

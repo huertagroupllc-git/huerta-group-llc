@@ -243,7 +243,7 @@
             "parentPlatform": { "type": "string", "minLength": 1 },
             "venturePlatform": { "type": "string", "minLength": 1 }
           },
-          "description": "Recorded factual representation postures. Disclosure decisions remain reserved (FD-V4 open); the lifecycle publicDisclosureReadiness dimension carries the governed status."
+          "description": "Recorded factual representation postures. Parent-platform representation follows the FD-V4 model (fd-0009): the minimum governed fact set, sourced from institutional-plane authority, within the venture's disclosure and maturity posture; representation precedes linking — no parent-to-venture public link until the venture's official-launch determination or an express pre-launch authorization. The lifecycle publicDisclosureReadiness dimension carries the governed status; postures record facts and never create disclosure authority."
         },
         "repositoryRelationship": {
           "type": "object",

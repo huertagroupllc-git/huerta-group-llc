@@ -2319,6 +2319,58 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0009-corporate-venture-governance-fd-v4-approval-and-fd-v11",
+      "title": "fd-0009 — Founder Office Determinations: Corporate Venture Governance — FD-V4 Approval, FD-V11 (as transmitted)",
+      "path": "institution/governance/determinations/fd-0009-corporate-venture-governance-fd-v4-approval-and-fd-v11.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Verbatim record of the FD-V4 approval (venture representation model, truth boundary, representation before linking) and FD-V11's transmitted substance with its recorded provenance deficiency — the complete FD-V11 text was never transmitted and is not reconstructed.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
+        "approvalReference": "FD-V4 — Parent Platform Representation Institutionalization & Alignment execution package (recorded in this register).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-v4-parent-platform-representation",
+      "title": "FD-V4 — Parent Platform Representation (Approved)",
+      "path": "institution/governance/ventures/fd-v4-parent-platform-representation.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "The approved parent-platform representation determination: the minimum governed fact set for representing admitted ventures, institutional-plane fact sourcing, venture/platform distinction, maturity ceiling, representation-before-linking, correction discipline, and future-venture applicability.",
+      "provenance": {
+        "origin": "Founder Office (approval); Platform & Systems Development (development and transcription)",
+        "approvalReference": "Approved by Founder Office determination FD-V4; provenance recorded in fd-0009.",
+        "effectiveDate": "2026-08-15"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "corporate-venture-governance-phase1-blueprint"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0009-corporate-venture-governance-fd-v4-approval-and-fd-v11"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

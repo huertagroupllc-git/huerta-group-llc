@@ -196,6 +196,35 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0009",
+      "title": "Founder Office Determinations: Corporate Venture Governance — FD-V4 Approval, FD-V11 (as transmitted)",
+      "path": "institution/governance/determinations/fd-0009-corporate-venture-governance-fd-v4-approval-and-fd-v11.md",
+      "instrument": "FD-V4 — Parent Platform Representation Institutionalization & Alignment execution package (Founder Office → Platform & Systems Development), approving the FD-V4 determination for preservation and bounded implementation and transmitting FD-V11's substance",
+      "dateReceived": "2026-08-15",
+      "recordedDate": "2026-08-15",
+      "determinationCount": 2,
+      "affectedArtifacts": [
+        "institution/governance/ventures/fd-v4-parent-platform-representation.md",
+        "institution/metadata/registries/venture-registry.json",
+        "institution/metadata/schemas/venture-schema.json",
+        "institution/validation/validate-ventures.mjs",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/standards/repository/documentation-index.md",
+        "components/sections/about/"
+      ],
+      "deficienciesRecorded": 1,
+      "relationships": [
+        {
+          "target": "fd-0008",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0007",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
