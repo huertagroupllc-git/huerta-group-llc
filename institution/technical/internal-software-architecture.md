@@ -100,7 +100,7 @@ policy, all of which require owner/legal authority.
 | method-records | method-library | education, AI, client-delivery, IP | confidential | no | methodology substance + disclosure tiers (owner) |
 | ip-records | ip-repository | education, publishing | confidential | no | IP classification/ownership policy (owner) |
 | education-records | education-platform | (learner-facing) | client-confidential | no | program authority; learner-data governance (owner) |
-| publishing-records | publishing-platform | — | unresolved | no | publishing authority (owner) |
+| publishing-records | publishing-platform (chartered venture) | — | client-confidential | yes (venture-owned infrastructure) | governed by the FD-V1 Charter (fd-0007); venture data never shares parent runtime or repository (FD-V2 planes) |
 | ai-records | ai-platform | — | confidential | no | AI governance (owner) |
 | operational-records | operations-systems | managed-services | internal | no | first real workflow |
 | client-engagement-records | client-delivery-systems | managed-services | client-confidential | no | engagement conventions + confidentiality practice |
@@ -176,11 +176,12 @@ repository (**blocked: owner IP policy**) → operations core (trigger:
 first outgrown workflow) → client-delivery foundations (needs
 methodology v1) → education platform (**blocked: program authority**) →
 managed services (needs client delivery + service model) → publishing
-(**blocked: publishing authority**) → AI platform (needs knowledge
-system + **AI governance**). Identity-and-access activates when its
-first consumer is authorized. The official launch is an owner-gated
-parallel track, independent of platform depth. Full detail per
-capability: the registry.
+(chartered venture — FD-V1, fd-0007; operates in its own repository
+under delegated authority, outside this parent build sequence) → AI
+platform (needs knowledge system + **AI governance**).
+Identity-and-access activates when its first consumer is authorized.
+The official launch is an owner-gated parallel track, independent of
+platform depth. Full detail per capability: the registry.
 
 ## 11. Capability and system map (summary)
 
@@ -197,7 +198,7 @@ The authoritative, validated map is `institution/metadata/registries/capability-
 | Method Library | documented direction | unresolved | governance blocked |
 | IP Repository | documented direction | unresolved | governance blocked |
 | Education Platform | conceptual | unresolved | governance blocked |
-| Publishing Platform | conceptual | unresolved | governance blocked |
+| Publishing Platform | operational | venture application | ready |
 | AI Platform | conceptual | unresolved | governance blocked |
 | Operations Systems | conceptual | future internal application | requirements incomplete |
 | Managed-Service Infrastructure | public description only | unresolved | dependency blocked |

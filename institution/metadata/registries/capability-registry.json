@@ -301,11 +301,12 @@
       "governingReferences": [
         "institution/governance/strategic/vision-foundation-for-development.md",
         "institution/governance/ventures/corporate-venture-governance-phase1-blueprint.md",
-        "institution/governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md"
+        "institution/governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md",
+        "institution/governance/ventures/fd-v2-venture-register-topology-determination.md"
       ],
       "unresolvedDecisions": [
         "Commercial activation, billing, and pricing remain reserved (Corporate Headquarters readiness + Founder Office authorization; Charter §8, §11).",
-        "Venture public launch and any parent-platform representation await FD-V4; general name-use policy awaits FD-V3; register topology awaits FD-V2.",
+        "Venture public launch and any parent-platform representation await FD-V4; general name-use policy awaits FD-V3.",
         "Distribution (ONIX, retail, manufacturing) is out of venture scope; legally operative rights and ISBN matters remain Corporate Headquarters matters."
       ],
       "notes": "identityRequirement records the parent-architecture reading: no parent identity capability is required or granted. The venture authenticates its own authors and staff on venture-owned infrastructure (Charter §7.3, §13) — venture-internal identity, outside this registry's identity dimension."
