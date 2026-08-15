@@ -2,7 +2,7 @@
 /**
  * Deterministic, dependency-free validator for the venture registry
  * (Corporate Venture Governance blueprint; FD-V1/FD-V9/FD-V10 recorded
- * in fd-0007).
+ * in fd-0007; FD-V2 register topology recorded in fd-0008).
  *
  * Verifies: schema conformance; identifier uniqueness; **exactly the
  * approved admitted-venture set** (Founder Office admission creates
@@ -12,11 +12,17 @@
  * blueprint file existence; admission-determination resolution against
  * the determinations register; corpus-manifest inclusion of the
  * venture governance documents; the FD-V1 reserved-parent-authority
- * set; and the FD-V9/FD-V10 invariants (non-automatic graduation;
+ * set; the FD-V9/FD-V10 invariants (non-automatic graduation;
  * success as fulfillment of chartered purpose) that the schema
  * constants additionally enforce (separate legal entity, independent
  * sovereignty, unapproved grants, and overloaded single-status fields
- * are schema-invalid by construction).
+ * are schema-invalid by construction); and the FD-V2 register-topology
+ * invariants (the parent determinations register is the single
+ * institutional-plane register; venture operational records are
+ * authoritative only within delegated authority; the topology
+ * determination must resolve in the parent register — schema constants
+ * make parallel institutional registers and location-derived authority
+ * invalid by construction).
  *
  * Registry entries record admitted governance facts; they never create
  * venture status, authority, grants, readiness, or history.
@@ -65,6 +71,7 @@ const REQUIRED_RESERVED = [
 const GOVERNANCE_DOCS = [
   "institution/governance/ventures/corporate-venture-governance-phase1-blueprint.md",
   "institution/governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md",
+  "institution/governance/ventures/fd-v2-venture-register-topology-determination.md",
 ];
 
 /* Minimal JSON Schema subset checker (same subset as the sibling
@@ -133,6 +140,10 @@ for (const v of ventures) {
   const det = v.admission?.determination;
   if (det && !(determinations.records ?? []).some((r) => r.id === det))
     fail(`${v.id}: admission determination "${det}" does not resolve in the determinations register`);
+
+  const topo = v.registerTopology?.determination;
+  if (topo && !(determinations.records ?? []).some((r) => r.id === topo))
+    fail(`${v.id}: register-topology determination "${topo}" does not resolve in the determinations register`);
 
   for (const req of REQUIRED_RESERVED)
     if (!(v.reservedParentAuthority ?? []).includes(req))

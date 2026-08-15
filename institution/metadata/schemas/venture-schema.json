@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://huertagroupllc.com/institution/metadata/schemas/venture-schema.json",
   "title": "Venture Registry Schema",
-  "description": "Validates the venture registry — the machine-readable representation of ventures formally admitted by Founder Office determination under the Corporate Venture Governance architecture (blueprint + FD-V1). Registry entries record admitted governance facts; they never create venture status, authority, capability grants, readiness, or history. Constants and enums below encode FD-V1/FD-V9/FD-V10 invariants: ventures are not separate legal entities, delegated authority derives from the parent through the charter, capability sharing exists only through explicit grant, lifecycle is per-dimension, graduation is never automatic, and success is fulfillment of chartered purpose.",
+  "description": "Validates the venture registry — the machine-readable representation of ventures formally admitted by Founder Office determination under the Corporate Venture Governance architecture (blueprint + FD-V1 + FD-V2). Registry entries record admitted governance facts; they never create venture status, authority, capability grants, readiness, or history. Constants and enums below encode FD-V1/FD-V9/FD-V10 invariants (ventures are not separate legal entities, delegated authority derives from the parent through the charter, capability sharing exists only through explicit grant, lifecycle is per-dimension, graduation is never automatic, success is fulfillment of chartered purpose) and FD-V2 register-topology invariants (the parent determinations register is the single institutional-plane register; venture operational records are authoritative only within delegated authority; crossing planes requires an explicit institutional-plane act; authority follows the governing plane of the fact, never repository location).",
   "type": "object",
   "additionalProperties": false,
   "required": ["registryVersion", "ventures"],
@@ -35,6 +35,7 @@
         "successPrinciple",
         "publicRepresentation",
         "repositoryRelationship",
+        "registerTopology",
         "version",
         "effectiveDate",
         "supersession",
@@ -257,6 +258,28 @@
             "custody": { "const": "venture_technical_custody" },
             "parentCanonicalCorpusMember": { "const": false },
             "isolation": { "const": "isolated_by_default" }
+          }
+        },
+        "registerTopology": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["determination", "institutionalRegister", "ventureOperationalRecords", "crossPlaneEscalation"],
+          "description": "FD-V2 register-topology invariants (fd-0008). Constants encode approved doctrine, not new meaning: institutional authority remains singular; operational governance may be distributed; repository location never determines authority — the governing plane of the fact does.",
+          "properties": {
+            "determination": {
+              "type": "string",
+              "pattern": "^fd-[0-9]{4}$",
+              "description": "The determinations-register record evidencing the governing register-topology determination (FD-V2)."
+            },
+            "institutionalRegister": {
+              "const": "parent_determinations_register_is_the_single_institutional_plane_register"
+            },
+            "ventureOperationalRecords": {
+              "const": "authoritative_only_within_delegated_authority_never_parallel_institutional_authority"
+            },
+            "crossPlaneEscalation": {
+              "const": "institutional_plane_acts_require_an_authorized_parent_determination"
+            }
           }
         },
         "version": { "type": "string", "minLength": 1 },

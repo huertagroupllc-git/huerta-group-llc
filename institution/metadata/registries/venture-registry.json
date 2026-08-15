@@ -84,6 +84,12 @@
         "parentCanonicalCorpusMember": false,
         "isolation": "isolated_by_default"
       },
+      "registerTopology": {
+        "determination": "fd-0008",
+        "institutionalRegister": "parent_determinations_register_is_the_single_institutional_plane_register",
+        "ventureOperationalRecords": "authoritative_only_within_delegated_authority_never_parallel_institutional_authority",
+        "crossPlaneEscalation": "institutional_plane_acts_require_an_authorized_parent_determination"
+      },
       "version": "1.0",
       "effectiveDate": "2026-08-12",
       "supersession": {
