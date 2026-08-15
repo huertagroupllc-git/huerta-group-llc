@@ -171,6 +171,31 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0008",
+      "title": "Founder Office Determination: Corporate Venture Governance — FD-V2 Venture Register Topology",
+      "path": "institution/governance/determinations/fd-0008-corporate-venture-governance-fd-v2-register-topology.md",
+      "instrument": "FD-V2 — Venture Register Topology Repository Institutionalization execution package (Founder Office → Platform & Systems Development), transmitting the approved FD-V2 register-topology determination and its doctrine for repository preservation",
+      "dateReceived": "2026-08-15",
+      "recordedDate": "2026-08-15",
+      "determinationCount": 1,
+      "affectedArtifacts": [
+        "institution/governance/ventures/fd-v2-venture-register-topology-determination.md",
+        "institution/metadata/registries/venture-registry.json",
+        "institution/metadata/schemas/venture-schema.json",
+        "institution/validation/validate-ventures.mjs",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/technical/internal-software-architecture.md",
+        "institution/standards/repository/documentation-index.md"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [
+        {
+          "target": "fd-0007",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

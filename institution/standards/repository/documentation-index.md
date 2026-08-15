@@ -40,6 +40,7 @@ Current-implementation documentation lives in the repository root
 | --- | --- | --- |
 | Corporate Venture Governance — Phase 1 Blueprint | [`governance/ventures/corporate-venture-governance-phase1-blueprint.md`](../../governance/ventures/corporate-venture-governance-phase1-blueprint.md) | The approved architecture governing ventures: definition, admission-by-determination, authority decomposition, isolation-by-default, lifecycle, and reserved determinations |
 | FD-V1 — Huerta Group Publishing Venture Determination & Charter | [`governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md`](../../governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md) | The authoritative Venture Charter (v1.0) of the first admitted venture; approval provenance in fd-0007 |
+| FD-V2 — Venture Register Topology Determination | [`governance/ventures/fd-v2-venture-register-topology-determination.md`](../../governance/ventures/fd-v2-venture-register-topology-determination.md) | The approved register topology: institutional vs. operational governance planes, the single parent institutional register, identifier-first cross-plane references, and the synchronization doctrine; approval provenance in fd-0008 |
 
 **Venture registry maintenance:** the registry
 (`institution/metadata/registries/venture-registry.json`, schema
@@ -54,9 +55,31 @@ per-dimension and never collapsed; capability sharing exists only
 through the explicit grants in the registry; graduation is never
 automatic (FD-V9) and success is fulfillment of chartered purpose
 (FD-V10). Registry entries never create venture status, authority,
-grants, or history. FD-V2 (register topology), FD-V3 (name-use
-policy), FD-V4 (parent-platform representation), and FD-V5–FD-V8
-remain open Founder Office matters.
+grants, or history. Register topology is determined (FD-V2; fd-0008):
+the parent determinations register is the single institutional-plane
+determination register; venture repositories may maintain operational
+governance records that are authoritative only within delegated
+authority and never parallel institutional authority; crossing from
+the operational plane into the institutional plane requires escalation
+and an authorized parent determination. FD-V3 (name-use policy), FD-V4
+(parent-platform representation), and FD-V5–FD-V8 remain open Founder
+Office matters.
+
+**Cross-plane references (FD-V2):** a reference between the
+institutional plane and a venture operational plane identifies the
+governing artifact **identifier-first** — by stable governance
+identity (a determination record id such as `fd-0008`, a venture
+registry `id`, a charter version, a venture-internal record
+identifier), together with point-in-time provenance sufficient to
+identify the artifact's relevant authoritative state (date, version,
+or commit). Repository paths are locations, not institutional
+identities; they may accompany an identifier as a convenience but
+never substitute for it, and governance identity must survive
+restructuring, path changes, and repository migration. Point-in-time
+references are preferred over live synchronization between governance
+systems; mirrors and indexes represent governance facts but never
+originate them, and where a representation conflicts with governing
+authority the representation is corrected.
 
 ## Methodology (internal)
 

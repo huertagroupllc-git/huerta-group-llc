@@ -2267,6 +2267,58 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0008-corporate-venture-governance-fd-v2-register-topology",
+      "title": "fd-0008 — Founder Office Determination: Corporate Venture Governance — FD-V2 Venture Register Topology",
+      "path": "institution/governance/determinations/fd-0008-corporate-venture-governance-fd-v2-register-topology.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Verbatim record of the FD-V2 register-topology determination: institutional vs. operational planes, the parent register confirmed as the single institutional-plane register, defined standing for venture operational records, and the preserved authority context of historical venture records.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
+        "approvalReference": "FD-V2 — Venture Register Topology Repository Institutionalization execution package (recorded in this register).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-v2-venture-register-topology-determination",
+      "title": "FD-V2 — Venture Register Topology Determination (Approved)",
+      "path": "institution/governance/ventures/fd-v2-venture-register-topology-determination.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "The approved register-topology determination: institutional and operational governance planes, the single institutional-plane register, defined venture operational-record standing, identifier-first governance identity, point-in-time cross-plane references, and the synchronization doctrine.",
+      "provenance": {
+        "origin": "Founder Office (approval); Platform & Systems Development (transcription)",
+        "approvalReference": "Approved by Founder Office determination FD-V2; provenance recorded in fd-0008.",
+        "effectiveDate": "2026-08-15"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "corporate-venture-governance-phase1-blueprint"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0008-corporate-venture-governance-fd-v2-register-topology"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
