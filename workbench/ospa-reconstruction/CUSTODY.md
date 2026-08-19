@@ -1,134 +1,78 @@
-# OSPA Recovered-Source Custody Record
+# OSPA Custody Record — Post-Admission Residue
 
 **Classification: custody metadata — not OSPA source, not canonical
 corpus, not institutional authority.** This file and `SHA256SUMS` are
-repository custody records created under the Corporate Operations &
-Command Platform — Governance & Methodology Readiness Phase 1
-instrument (recorded at `institution/governance/determinations/`,
-`fd-0010`). They describe the preserved material; they never speak for
-it. Where this record and the preserved source could be read
-differently, the source governs.
+repository custody records. They describe preserved material; they never
+speak for it.
 
-## 1. What this custody preservation is — and is not
+## 1. Current state — six sections have left this directory
 
-**It is:** byte-level preservation of the surviving recovered Operating
-Systems & Process Architecture Foundation v1 (OSPA) source material
-under repository version control, so that the material is no longer
-held in exactly one uncommitted location.
+**FD-V7 (recorded at `fd-0011`) admitted the six surviving recovered
+sections to the canonical corpus.** They are no longer here. They now
+live at `institution/foundations/operations/`, byte-identical, with
+`institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md`
+recording their admission, scope limits, integrity, and provenance.
 
-**It is not:**
+What remains in this directory:
 
-- **Not canonical admission.** These files are not part of the governed
-  canonical corpus. Admission occurs only through the admission path in
-  `institution/standards/repository/canonical-source-preservation.md`
-  (verified provenance → Founder Office admission determination →
-  verbatim preservation at a canonical path with its header → manifest
-  and registry entries → passing verification gate, all in one change),
-  upon the reserved **FD-V7** determination. FD-V7 has not been made.
-- **Not institutional authority.** Per `workbench/README.md` rule 1,
-  nothing in the workbench carries institutional status, and a document
-  here may claim any status in its own text — including "Canonical
-  Source" — and that claim remains inert until formal admission. The
-  section files below do carry `**Status:** Canonical Source` in their
-  own headers. That is the transmitted source text, preserved verbatim;
-  it is not a repository status claim and does not effect admission.
-- **Not a change of location.** No file was moved, renamed, copied,
-  normalized, or rewritten. The material remains exactly where the
-  Founder Office staged it (fd-0002 D-3), outside the governed canonical
-  corpus. Only its version-control tracking changed.
+| Artifact | Kind | Status |
+| --- | --- | --- |
+| `OSPA-FND-V1-RS05-EV01-verified-canonical-evidence-packet.md` | **Derived** verified evidence packet | **Not admitted, and never admissible as canonical source.** Derived evidence only (`fd-0003`), corrected by its sources wherever they disagree. Must not be used to supply Section 5 wording. |
+| `CUSTODY.md` | Custody metadata | This file |
+| `SHA256SUMS` | Integrity manifest | Covers the derived packet |
 
-These five concepts are deliberately kept separate and must remain so:
-**custody/preservation status** · **source provenance** · **integrity
-verification** · **canonical-admission status** · **institutional-authority
-status.**
-
-## 2. Custody status of each artifact
-
-| Artifact | Kind | Custody | Canonical admission | Institutional authority |
-| --- | --- | --- | --- | --- |
-| `OSPA-FND-V1-S01.md` | Recovered canonical source | Preserved, tracked | Not admitted — reserved to FD-V7 | Recognized as recovered canonical source (fd-0003); not corpus-admitted |
-| `OSPA-FND-V1-S02.md` | Recovered canonical source | Preserved, tracked | Not admitted — reserved to FD-V7 | As above |
-| `OSPA-FND-V1-S03.md` | Recovered canonical source | Preserved, tracked | Not admitted — reserved to FD-V7 | As above |
-| `OSPA-FND-V1-S04.md` | Recovered canonical source | Preserved, tracked | Not admitted — reserved to FD-V7 | As above |
-| `OSPA-FND-V1-S09.md` | Recovered canonical source | Preserved, tracked | Not admitted — reserved to FD-V7 | As above |
-| `OSPA-FND-V1-S10.md` | Recovered canonical source | Preserved, tracked | Not admitted — reserved to FD-V7 | As above |
-| `OSPA-FND-V1-RS05-EV01-verified-canonical-evidence-packet.md` | **Derived** verified evidence packet | Preserved, tracked | Not admitted; **never** admissible as canonical source | Derived evidence only (fd-0003); must remain distinguishable from canonical source and is corrected by its sources wherever they disagree |
-
-## 3. Surviving section inventory
-
-Surviving recovered sections of Operating Systems & Process Architecture
-Foundation v1, recognized as recovered canonical sources by the Founder
-Office in **fd-0003**:
-
-- Section 1 — Definition, Scope, and Institutional Authority (`S01`)
-- Section 2 — Operational Doctrine (`S02`)
-- Section 3 — Operating Architecture (`S03`)
-- Section 4 — Operational Domains and Hierarchy (`S04`)
-- Section 9 — Operational Lifecycle and Status (`S09`)
-- Section 10 — Controls, Evidence, and Auditability (`S10`)
-
-## 4. Permanently unavailable section inventory
-
-**Sections S05–S08 and S11–S15 are permanently unavailable.** This is
-the inventory already recorded in `fd-0003` and in
-`institution/standards/repository/canonical-source-preservation.md` §6.
-It is restated here, not newly determined.
-
-Governing rule, restated from the canonical-source-preservation standard
-§7 and fd-0003: unavailable canonical text is **never reconstructed,
-inferred, paraphrased, or assembled** from summaries, public content,
-downstream implementation, professional convention, memory, prior AI
-output, or derived evidence — including from `RS05-EV01`. Unavailable
-material is recorded as unavailable. Loss is recorded as loss.
-
-No unavailable section has been reconstructed, drafted, inferred, or
-substituted in this custody action.
-
-## 5. Provenance
-
-- **Recovery set recognition:** `fd-0003` — the Repository Migration and
-  Institutional Evolution Log Activation instrument recognized
-  `OSPA-FND-V1-S01, S02, S03, S04, S09, S10` as recovered canonical
-  sources, identified `RS05-EV01` as a derived verified evidence packet
-  that "must remain distinguishable from canonical source," and
-  prohibited inferring Sections 5–8 and 11–15.
-- **Staging architecture:** `fd-0002` D-3 — "Establish a repository
-  staging/workbench architecture outside the governed canonical corpus.
-  Working reconstruction material shall not reside inside the canonical
-  documentation corpus. OSPA recovered canonical documents remain
-  institutionally recognized. Missing sections shall not be
-  reconstructed."
-- **Foundation approval provenance:** `fd-0004` records the Operating
-  Systems & Process Architecture Foundation v1 approval among the
-  deliverable acceptance history, and records approval-provenance
-  deficiencies that remain open.
-- **Custody authorization:** the Governance & Methodology Readiness
-  Phase 1 instrument, recorded as `fd-0010`.
-- **Provenance beyond the above is not evidenced in this repository** and
-  is recorded as a deficiency rather than completed by inference
-  (canonical-source-preservation §3; fd-0004 precedent). Specifically:
-  the original transmission channel, transmission date, and recovery
-  method for the recovered set are not evidenced here.
-
-## 6. Integrity verification
-
-`SHA256SUMS` records a SHA-256 digest for every preserved artifact.
-Verify at any time from this directory:
+Integrity of the derived packet, unchanged since Phase 1 custody
+preservation:
 
 ```
-shasum -a 256 -c SHA256SUMS
+eeba13d0fc736b73406e3f2f8960dd3cbc16e5a6c2d92f712aa7be7db391dd0a  OSPA-FND-V1-RS05-EV01-verified-canonical-evidence-packet.md
 ```
 
-Baseline digests were computed from the working-machine bytes before any
-tracking change was made, and re-verified after. The files are LF-only;
-the repository sets no `.gitattributes` line-ending normalization, so
-committed bytes are identical to working-machine bytes.
+Verify with `shasum -a 256 -c SHA256SUMS`.
 
-## 7. Open determination
+## 2. Custody history — retained deliberately
 
-**FD-V7 — canonical admission / status of the surviving recovered OSPA
-sections — is reserved to the Founder Office and has not been made.**
-Until it is, no canonical artifact may cite these paths as authority
-(`workbench/README.md` rule 6), and this material may be relied on only
-as an approved semantic input, in the manner the accepted Corporate
-Venture Governance Phase 1 Blueprint established.
+Admission does not erase the fact that custody preservation happened
+first, and the sequence matters to anyone auditing how this material
+survived.
+
+1. **Recognized** as recovered canonical sources (`fd-0003`), staged
+   outside the governed canonical corpus (`fd-0002` D-3), and held
+   **uncommitted** — existing on one working machine and in the
+   sponsoring authority's custody, and nowhere in version control.
+2. **Custody-preserved** under `fd-0010` (Phase 1): the seven artifacts
+   were placed under version control byte-identically, with SHA-256
+   digests recorded, removing a compounding permanent-loss risk. Custody
+   was explicitly **not** admission, and FD-V7 remained unmade.
+3. **Admitted** under `fd-0011` / FD-V7 (Phase 2): the six surviving
+   sections became recovered canonical authority, limited strictly to
+   their surviving text, and moved to the canonical corpus. The derived
+   packet was **not** admitted and remains here.
+
+Digests recorded at step 2 remain valid at the canonical paths — no
+header was prepended and no normalization occurred — so integrity is
+continuously verifiable from recovery through admission.
+
+## 3. Permanently unavailable sections
+
+**S05–S08 and S11–S15 are permanently unavailable** and must never be
+reconstructed, inferred, paraphrased, or substituted by professional
+convention. This includes reconstructing Section 5 from the derived
+packet in this directory, which is the specific temptation this
+directory's contents create.
+
+## 4. Scope of the custody exception — read before adding anything here
+
+The `.gitignore` exception that makes anything in this directory tracked
+is **narrow and closed**. It enumerates three paths. It exists under
+`fd-0010` as scoped by `fd-0011`, which confirms that the exception to
+`fd-0001` determination 1 covers **only the exact seven Phase 1 preserved
+artifacts**.
+
+**`fd-0001` determination 1 remains governing for every other workbench or
+reconstruction artifact: "OSPA reconstruction working documents remain
+untracked working material and shall not be committed."** There is no
+blanket supersession, no general workbench admission, and no general
+OSPA-working-material exception. New material placed in this directory is
+ignored by default and must stay that way absent its own Founder Office
+determination.

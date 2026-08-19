@@ -16,6 +16,13 @@
 > (`institution/technical/internal-software-architecture.md` §13,
 > Prohibited premature commitments).
 
+> **DISPOSED — Founder Office, `fd-0011`: the trigger has FIRED.** The
+> Founder Office has determined that "the recurring internal workflow has
+> now outgrown governed documents as the sole operational mechanism."
+> This reassessment is retained unaltered below as the historical
+> analysis that preceded that determination. See §8 for what the
+> determination changed and what it did not.
+
 ## 1. The recorded trigger
 
 From `institution/metadata/registries/capability-registry.json`,
@@ -158,3 +165,66 @@ The governing trigger clause remains **byte-identical and first** in
 `architecturalDisposition`, `repositoryDisposition`, `dataOwned`,
 `dataConsumed`, `dependsOn`, `identityRequirement`, `sensitivity`, and
 `launchRelevance` were **not** altered.
+
+---
+
+## 8. Phase 2 disposition — Founder Office determination (`fd-0011`)
+
+Sections 1–7 above are the Phase 1 analysis, retained **unaltered**. They
+recorded that limb (a) was satisfied and limb (b) was not demonstrable on
+repository evidence alone. That remains an accurate account of what the
+repository could show, and it is deliberately not rewritten to imply the
+trigger had always been satisfied.
+
+**The Founder Office has since determined that the trigger has fired.**
+Verbatim: "Founder Office determines that the recurring internal workflow
+has now outgrown governed documents as the sole operational mechanism.
+The trigger has fired."
+
+The determination supplies what repository evidence could not. Limb (b)
+was a judgement about whether governed documents remain sufficient as the
+*sole* operational mechanism — a judgement resting on the Founder's own
+operating experience and on the accepted Requirements Report, neither of
+which is fully legible in the repository. Development correctly declined
+to reach it; the Founder Office has reached it.
+
+### What changed in the registry
+
+| Field | Change | Character |
+| --- | --- | --- |
+| `unresolvedDecisions[0]` | Now records trigger status **FIRED**, quoting the prior trigger clause verbatim and summarizing this reassessment's finding, with this document retained in full as the historical record | Prospective reconciliation with history retained |
+| `description` | Rewritten to state the fired trigger, the authoritative requirements, and the continuing pause | Accuracy |
+| `governingReferences` | Extended to `fd-0011`, the OSPA admission record, and the semantics definition package | Accuracy |
+| `implementationReadiness`, `maturity`, `architecturalDisposition`, `repositoryDisposition`, `dataOwned`, `dataConsumed`, `dependsOn`, `identityRequirement`, `sensitivity`, `launchRelevance` | **Unchanged** | No determination addressed them |
+
+**On `implementationReadiness`.** It remains `requirements_incomplete`.
+Reclassifying it to `governance_blocked` was considered and rejected: the
+argument for it — that requirements are now accepted and therefore no
+longer incomplete — conflates **institutional acceptance** with
+**repository availability**, which is the distinction this whole phase
+exists to preserve. The complete Requirements Report has not been
+transmitted and its preservation is incomplete (`fd-0011` Deficiency 1),
+so the field remains true as it stands. The governance blocker is already
+carried in `unresolvedDecisions`, so nothing is lost by leaving it. The
+reclassification is recorded in `fd-0011` as reserved to the Founder
+Office, dependent on the report's transmission.
+
+### What the determination did not do
+
+**It did not authorize implementation.** The instrument is explicit: "Do
+not interpret 'trigger fired' as technical implementation authorization.
+It establishes the institutional need for an operations-system
+capability. Technical architecture and implementation remain paused
+pending methodology readiness and subsequent Founder Office
+authorization."
+
+The trigger governed whether a *need* exists. It never governed whether
+the institution knows what it would build. That second question is
+answered by the semantic-definition package
+(`corporate-operations-semantics-definition-package.md`), which finds the
+operational concepts still undefined — and by the absence of the
+Corporate Operations Semantics Foundation v1, which does not yet exist.
+
+A fired trigger and a paused architecture are consistent, not
+contradictory: the institution now agrees it needs this capability, and
+does not yet have the operational semantics the capability would encode.

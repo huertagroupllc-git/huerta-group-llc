@@ -34,13 +34,33 @@ Current-implementation documentation lives in the repository root
 | Official Launch Checklist | [`launch/official-launch-checklist.md`](../../../docs/launch/official-launch-checklist.md) | Phased, testable checklist; owner-gated actions marked |
 | Rollback Plan | [`launch/rollback-plan.md`](../../../docs/launch/rollback-plan.md) | Git, platform, environment, canonical, and DNS rollback procedures and boundaries |
 
+## Operations foundation (OSPA — admitted recovered canonical authority)
+
+| Document | Canonical path | Purpose |
+| --- | --- | --- |
+| OSPA Foundation v1 — Admission, Scope, and Provenance | [`foundations/operations/ospa-foundation-v1-admission-and-provenance.md`](../../foundations/operations/ospa-foundation-v1-admission-and-provenance.md) | What FD-V7 admitted, the surviving-text-only authority boundary, the permanently unavailable inventory, integrity digests, and custody history |
+| OSPA-FND-V1 Sections S01–S04, S09, S10 | [`foundations/operations/`](../../foundations/operations/) | The six surviving recovered sections of the Operating Systems & Process Architecture Foundation v1, admitted by FD-V7 (`fd-0011`), preserved byte-identical to the recovered source |
+| Operations Foundation — Directory Guide | [`foundations/operations/README.md`](../../foundations/operations/README.md) | Directory contents and the reserved location for the future Corporate Operations Semantics Foundation v1 |
+
+**OSPA authority boundary — read before citing.** OSPA is canonical
+authority for the **surviving text of six sections only**. Sections
+**S05–S08 and S11–S15 are permanently unavailable** and must never be
+reconstructed, inferred, paraphrased, or replaced by professional
+convention; no metadata, index, or registry may present the foundation as
+complete. `OSPA-FND-V1-RS05-EV01` is **derived evidence**, is not
+canonical authority, is never admissible as canonical source, and remains
+outside the corpus at `workbench/ospa-reconstruction/`. Where OSPA's
+surviving text does not answer a question, the question is **unresolved** —
+see the semantic-definition package below.
+
 ## Operations governance (Corporate Operations & Command Platform)
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
+| Corporate Operations Semantics — Definition Package | [`governance/operations/corporate-operations-semantics-definition-package.md`](../../governance/operations/corporate-operations-semantics-definition-package.md) | The bounded handoff to Corporate Operations & Command Management: concepts requiring prospective definition, their surviving-authority boundaries, and the unresolved questions — questions only, no Development-authored definitions |
 | Corporate Operations & Command Management — Institutional Function Record | [`governance/operations/corporate-operations-command-management.md`](../../governance/operations/corporate-operations-command-management.md) | The already Founder Office-established Headquarters function made repository-native: Corporate Headquarters role, jurisdiction over Headquarters operational representation, the representation/source-authority distinction, system-of-truth principle, requirements-before-software discipline, bounded long-term Command Center intent, and an explicit authority boundary; institutionalized under fd-0010 |
-| Generation One Requirements Report — Repository Status Record | [`governance/operations/generation-one-requirements-report.md`](../../governance/operations/generation-one-requirements-report.md) | Status, provenance, relationships, and authority boundary of the accepted Requirements Report; the report text was not transmitted and is not reconstructed (fd-0010 Deficiency 2) |
-| FD-V7 Evidence Package — Surviving Recovered OSPA Sections | [`governance/operations/fd-v7-evidence-package.md`](../../governance/operations/fd-v7-evidence-package.md) | Evidence for the reserved FD-V7 determination: section inventory, provenance and deficiencies, custody-versus-admission status, permanently unavailable sections, and what surviving text does and does not establish |
+| Generation One Requirements Report — Repository Status Record | [`governance/operations/generation-one-requirements-report.md`](../../governance/operations/generation-one-requirements-report.md) | Status, provenance, relationships, and authority boundary of the accepted Requirements Report. The report text has still not been transmitted; preservation is incomplete and reconstruction is prohibited (fd-0010 Deficiency 2; fd-0011 Deficiency 1) |
+| FD-V7 Evidence Package — Surviving Recovered OSPA Sections | [`governance/operations/fd-v7-evidence-package.md`](../../governance/operations/fd-v7-evidence-package.md) | **Historical** — the evidence record that preceded FD-V7, retained unaltered with a disposition section (§9). FD-V7 has since been made (`fd-0011`); current authority, scope and integrity live in the OSPA admission record |
 | Generation One Semantic-Gap Inventory | [`governance/operations/generation-one-semantic-gap-inventory.md`](../../governance/operations/generation-one-semantic-gap-inventory.md) | Per-concept classification of what is grounded in surviving authority and what is unresolved; no unavailable OSPA wording is reconstructed |
 | `operations-systems` Capability Trigger — Reassessment | [`governance/operations/operations-systems-capability-trigger-reassessment.md`](../../governance/operations/operations-systems-capability-trigger-reassessment.md) | Reassessment of the recorded trigger against repository-evidenced recurring workflows, separating executed metadata corrections from changes reserved to the Founder Office |
 
@@ -49,15 +69,19 @@ Management is a **Corporate Headquarters** function and is distinct from
 **Operations (OSPA)**, which governs operational semantics: the former
 owns a Headquarters representation, the latter governs what operational
 concepts mean. Neither absorbs the other, and source functions retain
-authority over their own authoritative facts. The Internal Operations &
-Command Platform's technical architecture and implementation are
-**paused** (fd-0010); no register, schema, application, or runtime
-behavior is authorized. The surviving recovered OSPA sections are held in
-**custody preservation only** (`workbench/ospa-reconstruction/`) and are
-**not admitted** to the canonical corpus — admission is reserved to
-**FD-V7** through the process in
-[`canonical-source-preservation.md`](canonical-source-preservation.md);
-no canonical document may cite a workbench path as authority.
+authority over their own authoritative facts.
+
+The Internal Operations & Command Platform's technical architecture and
+implementation remain **paused** (`fd-0010`, `fd-0011`); no register,
+schema, application, or runtime behavior is authorized. The Founder Office
+has determined the `operations-systems` capability trigger **fired**
+(`fd-0011`) — establishing institutional **need**, never implementation
+authorization. Before architecture may resume, the operational semantics
+the capability would encode must be established as **prospective
+doctrine** adopted by competent institutional authority: the Corporate
+Operations Semantics Foundation v1 does not exist, Development is not
+authorized to draft it, and its reserved location is
+[`foundations/operations/README.md`](../../foundations/operations/README.md).
 
 ## Venture governance (Corporate Venture Governance)
 

@@ -11,11 +11,23 @@
 - **Recorded:** 2026-08-18.
 - **Disclosure:** repository-internal.
 
-> **FD-V7 is reserved to the Founder Office and has not been made.**
-> This package prepares evidence only. Nothing in it makes, implies, or
-> mechanically encodes the reserved determination. Nothing in the
-> repository may cite the workbench paths below as authority until the
-> Founder Office determines otherwise (`workbench/README.md` rule 6).
+> **DISPOSED — FD-V7 HAS BEEN MADE (`fd-0011`, 2026-08-18).** The Founder
+> Office admitted sections S01–S04, S09 and S10 as recovered canonical
+> authority, **limited strictly to their surviving text**; confirmed
+> S05–S08 and S11–S15 as permanently unavailable and never to be
+> reconstructed or inferred; and confirmed `RS05-EV01` as derived evidence
+> that is not canonical OSPA authority.
+>
+> **This package is retained unaltered below as the evidence record that
+> preceded the determination.** It is historical: statements in it that
+> FD-V7 is "reserved", "unmade", or that the material is "not admitted"
+> describe the pre-determination state and are no longer current. The six
+> sections have also **moved** — they now live at
+> `institution/foundations/operations/`, not the `workbench/` paths cited
+> in §1 and §3. Current authority, scope, integrity and provenance are
+> recorded at
+> `institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md`.
+> See §9 for the disposition of each question this package raised.
 
 ## 1. Recovered surviving sections
 
@@ -245,3 +257,49 @@ that doctrine is outside Phase 1.
    `fd-0010`?
 
 None of these is answered here.
+
+---
+
+## 9. Disposition (`fd-0011`)
+
+Sections 1–8 above are retained unaltered as the pre-determination
+evidence record. This section states what the Founder Office decided and
+where current authority now lives. Where the two differ, this section and
+the admission record govern.
+
+**Answers to the five questions in §8:**
+
+1. **Admission.** S01–S04, S09 and S10 are **admitted** as recovered
+   canonical authority, with authority "limited strictly to the surviving
+   text of those six recovered sections."
+2. **Provenance sufficiency.** Admission proceeded on the evidence in §2.
+   The provenance deficiencies recorded there — original transmission
+   channel, transmission date, authorship chain, recovery method, and the
+   circumstances of the loss — remain **open and recorded, not resolved**.
+3. **Derived-material treatment.** `RS05-EV01` "remains derived evidence
+   and is not canonical OSPA authority." It was not admitted and is never
+   admissible as canonical source.
+4. **Unavailable-section record.** S05–S08 and S11–S15 are confirmed
+   permanently unavailable and "must never be reconstructed or inferred."
+5. **Deficiency 1 (`fd-0010`).** Disposed: the Phase 1 preservation was a
+   **specific exception** to `fd-0001` determination 1 covering the exact
+   seven Phase 1 preserved artifacts only. `fd-0001` remains governing for
+   every other workbench or reconstruction artifact; no blanket
+   supersession or general workbench admission exists.
+
+**Superseded statements in this package.** The following are historical
+and no longer describe current state: that FD-V7 is reserved or unmade
+(§ banner, §3); that the sections are "not admitted" or usable "as an
+approved semantic input only" (§3 table); that the canonical paths are
+under `workbench/ospa-reconstruction/` (§1, §3) — they are now under
+`institution/foundations/operations/`; and that integrity digests for the
+six sections live in `workbench/ospa-reconstruction/SHA256SUMS` — they now
+live in `institution/foundations/operations/SHA256SUMS`, unchanged in
+value, because the sections were moved byte-identically with no header
+prepended.
+
+**What did not change.** The §5 and §6 analysis of what surviving text
+does and does not establish stands, and is the substantive input to
+`corporate-operations-semantics-definition-package.md`. Admission resolved
+the *status* of the surviving sections. It recovered no lost content and
+closed no semantic gap.

@@ -346,7 +346,7 @@
     {
       "id": "operations-systems",
       "name": "Operations Systems",
-      "description": "Future internal workflows, records, and administrative tooling. Business/operational requirements for a Generation One concept are accepted by the Founder Office but are not yet repository-preserved (fd-0010); the report's text was not transmitted and is recorded as a deficiency. Technical architecture and implementation remain paused. Owning function: Corporate Operations & Command Management.",
+      "description": "Internal operational capability owned by Corporate Operations & Command Management. Founder Office has determined the trigger FIRED (fd-0011): the recurring internal workflow has outgrown governed documents as the sole operational mechanism. Requirements are authoritative. Architecture and implementation remain PAUSED — a fired trigger establishes need, not authorization.",
       "category": "internal-operations",
       "maturity": "conceptual",
       "architecturalDisposition": "future_internal_application",
@@ -369,12 +369,17 @@
         "institution/governance/operations/corporate-operations-command-management.md",
         "institution/governance/operations/generation-one-requirements-report.md",
         "institution/governance/operations/generation-one-semantic-gap-inventory.md",
-        "institution/governance/operations/operations-systems-capability-trigger-reassessment.md"
+        "institution/governance/operations/operations-systems-capability-trigger-reassessment.md",
+        "institution/governance/operations/corporate-operations-semantics-definition-package.md",
+        "institution/governance/determinations/fd-0011-fd-v7-ospa-admission-and-phase1-dispositions.md",
+        "institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md"
       ],
       "unresolvedDecisions": [
-        "Trigger: the first recurring internal workflow that outgrows governed documents; none identified yet.",
-        "Trigger reassessment (fd-0010): a recurring internal workflow is evidenced, but whether it has outgrown governed documents is not demonstrated on repository evidence and could not be fully assessed because the Generation One Requirements Report was not transmitted. The trigger clause above is unchanged; amending it is reserved to the Founder Office. See institution/governance/operations/operations-systems-capability-trigger-reassessment.md.",
-        "Operational semantics required by the Generation One concept are largely unresolved: active operational record, blocker, handoff, deadline, renewal, follow-up, attention, and the materiality rule for change are not established in surviving recovered OSPA authority, and their defining sections are permanently unavailable. See institution/governance/operations/generation-one-semantic-gap-inventory.md."
+        "Trigger status (fd-0011, Founder Office): FIRED. The recurring internal workflow has outgrown governed documents as the sole operational mechanism. HISTORICAL POSTURE, preserved and not rewritten: this entry previously recorded the trigger as 'the first recurring internal workflow that outgrows governed documents; none identified yet', and the Phase 1 reassessment (fd-0010) found a recurring workflow evidenced but the outgrowing limb not demonstrable on repository evidence alone. The Founder Office determination supplies what repository evidence could not. See institution/governance/operations/operations-systems-capability-trigger-reassessment.md.",
+        "A fired trigger is NOT implementation authorization. Technical architecture and implementation remain paused pending methodology readiness and a subsequent Founder Office authorization (fd-0011).",
+        "Prospective operational doctrine is required before architecture can resume: the Corporate Operations Semantics Foundation v1 does not yet exist. Its repository location is reserved at institution/foundations/operations/README.md and the unresolved questions it must answer are inventoried in institution/governance/operations/corporate-operations-semantics-definition-package.md. Development is not authorized to draft it.",
+        "Operational-instance semantics remain unresolved: active operational record, operational-instance identity, lifecycle and transition semantics, blocker, handoff, deadline, renewal, follow-up, attention, and the materiality rule for change are not established by surviving canonical OSPA (S01-S04, S09, S10), and the sections that would define them are permanently unavailable (S05-S08, S11-S15). No transition model may be inferred from S09 section 9.28 (fd-0011).",
+        "The complete Generation One Requirements Report has not been transmitted to the repository; its preservation is incomplete and the semantic-definition package's concept inventory is provisional until it is (fd-0011 Deficiency 1)."
       ]
     },
     {

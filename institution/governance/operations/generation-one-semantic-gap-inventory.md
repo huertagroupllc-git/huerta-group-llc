@@ -14,12 +14,12 @@
 
 Each concept is classified into exactly one category:
 
-- **A — Grounded in surviving recovered OSPA text** (not corpus-admitted;
-  usable only as an approved semantic input pending FD-V7). Established
-  by surviving recovered text (S01–S04, S09, S10), with citation.
-  Class A deliberately does **not** say "governed by": that material is
-  not admitted to the canonical corpus, and no canonical document may
-  cite a workbench path as authority.
+- **A — Governed by admitted canonical OSPA authority.** Established by
+  the surviving text of S01–S04, S09 and S10, with citation.
+  **Updated by FD-V7 (`fd-0011`):** those six sections are now admitted to
+  the canonical corpus at `institution/foundations/operations/` and are
+  citable as authority. Their authority remains limited **strictly to
+  their surviving text** — admission recovered no lost content.
 - **B — Governed by another existing repository authority.** Established
   elsewhere in the governed corpus, with citation.
 - **C — Business requirement established, operational semantics
@@ -63,8 +63,8 @@ and may not fill them by invention.
 | 18 | **Lifecycle / status architecture** | **A** | S09 §§9.1–9.3, 9.19–9.28, 9.30. Includes the mandatory-state-machine prohibition (§9.28) and technical state-machine neutrality (§9.27). Applies to operational assets and definitions, consistent with S03 §3.25's definition/type/instance levels and §3.26's conceptual/runtime separation; instances inherit gap #2. |
 | 19 | **Historical preservation** | **A** | S02 §2.10; S10 §§10.36–10.41 (evidence preservation; decision, approval, change, exception and review history). Corpus practice: records are never deleted, supersession is bidirectional, status history is never overwritten. |
 | 20 | **Non-propagation / non-inheritance** | **A** | S09 §9.23 Transition Non-Propagation; §9.24 Status Inheritance Prohibition; S04 §4.48 Cross-Domain Non-Propagation. |
-| 21 | **Applicability rule** — which of the fourteen S09 §9.2 dimensions bind a given operations record class | **E** | S09 §9.3 and §9.30 require applicability to be "established by the governing asset class, standard, or authority." No such governing standard exists for operations records. Requires a determination; cannot be selected by Development. |
-| 22 | **Whether a permitted-transition model is compatible with §9.28** | **E** | S09 §9.27–9.28 constrain any transition model. Whether a bounded permitted-transition model for a single governed record class is compatible, or is a prohibited mandatory state machine, is an interpretive question reserved above Development. |
+| 21 | **PARTLY DISPOSED (`fd-0011`).** Applicability rule — which of the fourteen S09 §9.2 dimensions bind a given operations record class | **E** | S09 §9.3 and §9.30 require applicability to be "established by the governing asset class, standard, or authority." No such governing standard exists for operations records. Requires a determination; cannot be selected by Development. |
+| 22 | **DISPOSED (`fd-0011`).** Whether a permitted-transition model is compatible with §9.28 | **E** | S09 §9.27–9.28 constrain any transition model. Whether a bounded permitted-transition model for a single governed record class is compatible, or is a prohibited mandatory state machine, is an interpretive question reserved above Development. |
 
 ## Summary
 
@@ -74,7 +74,7 @@ and may not fill them by invention.
 | **B** — other repository authority | 2 | 5, 13 |
 | **C** — requirement established, semantics unresolved | 10 | 2, 3, 4, 6, 7, 8, 9, 10, 11, 14 (also D) |
 | **D** — possibly outside scope | 1 | 14 |
-| **E** — Founder Office determination required | 2 | 21, 22 |
+| **E** — Founder Office determination required | 2 | 21 (partly disposed), 22 (disposed) |
 
 **The load-bearing result:** every concept that a Corporate Operations
 Register would need in order to hold a *live operational condition* —
@@ -100,7 +100,17 @@ authority, and **never represented as recovered OSPA**.
 
 Drafting that doctrine is outside Phase 1 and is not begun here.
 
-Class E items (21 and 22) require Founder Office determination and are
-recorded in the "Reserved to the Founder Office" section of
-`institution/governance/determinations/fd-0010-corporate-operations-governance-methodology-readiness-phase1.md`,
-items 4 and 5.
+Class E items have since been addressed by `fd-0011`, and the disposition
+is **not symmetrical**:
+
+- **Item 22 — disposed.** No Generation One transition model may be
+  inferred from S09 §9.28; any such model requires new prospective
+  doctrine compatible with surviving OSPA.
+- **Item 21 — disposed only *in part*.** `fd-0011` determines that
+  surviving S09 vocabularies and dimensions "govern applicable objects,"
+  with no universal status fields, no universal operational state
+  machines, and no collapsing of materially distinct dimensions. It does
+  **not** supply an applicability rule for operational-instance classes,
+  because surviving text does not authorize those classes. That remainder
+  stays unresolved and is carried in the semantic-definition package
+  (concepts 11 and 12).

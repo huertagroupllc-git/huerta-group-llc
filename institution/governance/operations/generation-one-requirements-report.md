@@ -16,16 +16,37 @@
 | Dimension | Status |
 | --- | --- |
 | Requirements discovery | **Accepted** |
+| Business/operational requirements | **Authoritative** (`fd-0011`) |
 | Generation One concept | **Accepted subject to Governance & Methodology Readiness** |
 | Technical architecture | **Paused** |
 | Technical implementation | **Not Authorized** |
 
-These four dimensions are independent and no one of them determines
+These five dimensions are independent and no one of them determines
 another. Acceptance of requirements discovery does not make the concept
 unconditionally accepted; acceptance of the concept does not unpause
 architecture; and nothing here authorizes implementation.
 
-## 2. Material deficiency — the report text is not preserved
+## 2. Material deficiency — the report text is still not preserved
+
+**Status after Phase 2 (`fd-0011`): preservation remains INCOMPLETE.**
+The Founder Office directed preservation of the report "verbatim from its
+complete transmitted source" and provided a blocking rule for the case
+where that source is inaccessible. It is inaccessible.
+
+Searched, without result: this repository and its full git history; the
+sibling repositories `huerta-group-publishing`, `curbside-spa`,
+`gotrade-official` and `nest & quill`; the Founder's Google Drive by title
+and full text; the Founder's Gmail; and the local filesystem under the
+user's `GitHub`, `Documents`, `Desktop` and `Downloads` trees. No text of
+the report has been transmitted to the implementing office in any
+instrument to date.
+
+Per the blocking rule, the preservation action is **left incomplete
+pending access to the exact transmitted source**. The report was not
+reconstructed, and this abbreviated record was not expanded, elaborated,
+or used as a basis for inference — which the instrument expressly
+prohibits ("Do not reconstruct the complete report from the abbreviated
+repository record").
 
 **The report's text was not transmitted to the implementing office and
 is not present in this repository.** This record therefore preserves the
@@ -85,7 +106,7 @@ are not supplied by Development.
 - **Bears on** the `operations-systems` capability trigger reassessment
   (`operations-systems-capability-trigger-reassessment.md`).
 - **Constrained by** OSPA admission status
-  (`fd-v7-evidence-package.md`).
+  (`institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md`).
 
 ## 5. What this record does not do
 

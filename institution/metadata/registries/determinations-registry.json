@@ -267,6 +267,47 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0011",
+      "title": "Founder Office Determinations: FD-V7 OSPA Admission and Phase 1 Dispositions",
+      "path": "institution/governance/determinations/fd-0011-fd-v7-ospa-admission-and-phase1-dispositions.md",
+      "instrument": "Corporate Operations & Command Platform — Governance & Methodology Readiness, Phase 2 execution package (Founder Office → Institutional Platform Development), determining FD-V7 OSPA canonical admission, the narrow fd-0001 custody exception, Requirements Report authority, the operations-systems capability trigger, S09 applicability, and Generation One transition semantics",
+      "dateReceived": "2026-08-18",
+      "recordedDate": "2026-08-18",
+      "determinationCount": 6,
+      "affectedArtifacts": [
+        "institution/foundations/operations/",
+        "institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md",
+        "institution/governance/operations/corporate-operations-semantics-definition-package.md",
+        "institution/governance/operations/generation-one-requirements-report.md",
+        "institution/governance/operations/generation-one-semantic-gap-inventory.md",
+        "institution/governance/operations/operations-systems-capability-trigger-reassessment.md",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "institution/standards/repository/documentation-index.md",
+        "workbench/README.md",
+        "workbench/ospa-reconstruction/CUSTODY.md",
+        ".gitignore",
+        "institution/governance/operations/fd-v7-evidence-package.md",
+        "workbench/ospa-reconstruction/SHA256SUMS"
+      ],
+      "deficienciesRecorded": 1,
+      "relationships": [
+        {
+          "target": "fd-0010",
+          "nature": "implements"
+        },
+        {
+          "target": "fd-0001",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0003",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

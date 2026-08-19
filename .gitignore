@@ -50,25 +50,23 @@ supabase/.temp/
 /workbench/*
 !/workbench/README.md
 
-# OSPA recovered-source custody set — tracked for byte preservation only,
-# under the Governance & Methodology Readiness Phase 1 instrument (fd-0010).
-# Tracking is CUSTODY PRESERVATION, never canonical admission: this material
-# remains outside the governed canonical corpus (fd-0002 D-3), carries no
-# institutional status (workbench/README.md rule 1), and is admitted to the
-# corpus only through the admission path in
-# institution/standards/repository/canonical-source-preservation.md upon the
-# reserved FD-V7 determination.
-# The exception is enumerated file-by-file on purpose: a recursive
+# OSPA custody residue — a NARROW, closed exception covering exactly three
+# tracked paths, under fd-0010 (custody) as scoped by fd-0011 (FD-V7).
+#
+# The six admitted sections S01–S04, S09 and S10 have LEFT the workbench:
+# FD-V7 admitted them to the canonical corpus and they now live at
+# institution/foundations/operations/. What remains tracked here is the
+# derived RS05-EV01 evidence packet — which is NOT canonical OSPA authority
+# and is never admissible as canonical source — plus the two custody records.
+#
+# This exception is enumerated file-by-file on purpose. A recursive
 # un-ignore would silently extend it to future reconstruction working
-# material, which is the category fd-0001 determination 1 excludes.
+# material, which fd-0001 determination 1 excludes and which fd-0011
+# confirms remains governing for every workbench artifact other than the
+# exact seven Phase 1 preserved artifacts. There is no blanket workbench
+# admission.
 !/workbench/ospa-reconstruction/
 /workbench/ospa-reconstruction/*
-!/workbench/ospa-reconstruction/OSPA-FND-V1-S01.md
-!/workbench/ospa-reconstruction/OSPA-FND-V1-S02.md
-!/workbench/ospa-reconstruction/OSPA-FND-V1-S03.md
-!/workbench/ospa-reconstruction/OSPA-FND-V1-S04.md
-!/workbench/ospa-reconstruction/OSPA-FND-V1-S09.md
-!/workbench/ospa-reconstruction/OSPA-FND-V1-S10.md
 !/workbench/ospa-reconstruction/OSPA-FND-V1-RS05-EV01-verified-canonical-evidence-packet.md
 !/workbench/ospa-reconstruction/CUSTODY.md
 !/workbench/ospa-reconstruction/SHA256SUMS

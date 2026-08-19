@@ -2468,10 +2468,10 @@
       "classification": "Institutional Record",
       "authorityTier": "non-governing",
       "status": "current",
-      "summary": "Assembles the evidence needed to determine canonical admission of the surviving recovered OSPA sections: inventory, provenance with deficiencies, custody-versus-admission status, the permanently unavailable sections, and what surviving text does and does not establish. FD-V7 remains unmade.",
+      "summary": "Historical evidence record preceding FD-V7, retained unaltered with a disposition section: section inventory, provenance and deficiencies, custody-versus-admission status, permanently unavailable sections, and what surviving text does and does not establish. FD-V7 has since been made.",
       "provenance": {
         "origin": "Institutional Platform Development (evidence assembly)",
-        "approvalReference": "Prepared under fd-0010; FD-V7 is reserved to the Founder Office and has not been made.",
+        "approvalReference": "Prepared under fd-0010. Superseded in status by fd-0011, which made FD-V7; retained as the historical evidence record with a disposition section (section 9).",
         "effectiveDate": "2026-08-18"
       },
       "relationships": [
@@ -2550,6 +2550,294 @@
         {
           "rel": "references",
           "target": "generation-one-semantic-gap-inventory"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ospa-fnd-v1-s01",
+      "title": "Operating Systems & Process Architecture Foundation v1 — Section 1: Definition, Scope, and Institutional Authority",
+      "path": "institution/foundations/operations/OSPA-FND-V1-S01.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Admitted recovered canonical OSPA text: Operations’ institutional definition and scope, out-of-scope matters, the authority boundary among Operations and adjacent domains, repository representation, and foundational distinctions. Authority limited strictly to surviving text.",
+      "provenance": {
+        "origin": "Operating Systems & Process Architecture (foundation authority); recovered canonical source",
+        "approvalReference": "Recognized as recovered canonical source in fd-0003; admitted to the canonical corpus by FD-V7, recorded in fd-0011. Authority limited strictly to surviving text; sections S05-S08 and S11-S15 are permanently unavailable.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "ospa-foundation-v1-admission-and-provenance"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ospa-fnd-v1-s02",
+      "title": "Operating Systems & Process Architecture Foundation v1 — Section 2: Operational Doctrine",
+      "path": "institution/foundations/operations/OSPA-FND-V1-S02.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Admitted recovered canonical OSPA text: the six institutional principles governing operational interpretation — meaning before representation, explicit governance, explicit authority, explicit responsibility, conceptual integrity, stable semantics — with evidence and preservation doctrine.",
+      "provenance": {
+        "origin": "Operating Systems & Process Architecture (foundation authority); recovered canonical source",
+        "approvalReference": "Recognized as recovered canonical source in fd-0003; admitted to the canonical corpus by FD-V7, recorded in fd-0011. Authority limited strictly to surviving text; sections S05-S08 and S11-S15 are permanently unavailable.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "ospa-foundation-v1-admission-and-provenance"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ospa-fnd-v1-s03",
+      "title": "Operating Systems & Process Architecture Foundation v1 — Section 3: Operating Architecture",
+      "path": "institution/foundations/operations/OSPA-FND-V1-S03.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Admitted recovered canonical OSPA text: operating architecture, its layers, components, relationships, inheritance and boundaries, plus operational assets and records within the architecture, the definition/type/instance levels, and conceptual-versus-runtime separation.",
+      "provenance": {
+        "origin": "Operating Systems & Process Architecture (foundation authority); recovered canonical source",
+        "approvalReference": "Recognized as recovered canonical source in fd-0003; admitted to the canonical corpus by FD-V7, recorded in fd-0011. Authority limited strictly to surviving text; sections S05-S08 and S11-S15 are permanently unavailable.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "ospa-foundation-v1-admission-and-provenance"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ospa-fnd-v1-s04",
+      "title": "Operating Systems & Process Architecture Foundation v1 — Section 4: Operational Domains and Hierarchy",
+      "path": "institution/foundations/operations/OSPA-FND-V1-S04.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Admitted recovered canonical OSPA text: operational domain architecture — definition, scope, boundaries, relationships, ownership, stewardship, lifecycle, classification, and the identifier, naming, and metadata neutrality rules with prohibited domain inferences.",
+      "provenance": {
+        "origin": "Operating Systems & Process Architecture (foundation authority); recovered canonical source",
+        "approvalReference": "Recognized as recovered canonical source in fd-0003; admitted to the canonical corpus by FD-V7, recorded in fd-0011. Authority limited strictly to surviving text; sections S05-S08 and S11-S15 are permanently unavailable.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "ospa-foundation-v1-admission-and-provenance"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ospa-fnd-v1-s09",
+      "title": "Operating Systems & Process Architecture Foundation v1 — Section 9: Operational Lifecycle and Status",
+      "path": "institution/foundations/operations/OSPA-FND-V1-S09.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Admitted recovered canonical OSPA text: fourteen independent status dimensions that must not be collapsed, their vocabularies, lifecycle definition versus instance, status authority and evidence, transition non-propagation, and the mandatory-state-machine prohibition.",
+      "provenance": {
+        "origin": "Operating Systems & Process Architecture (foundation authority); recovered canonical source",
+        "approvalReference": "Recognized as recovered canonical source in fd-0003; admitted to the canonical corpus by FD-V7, recorded in fd-0011. Authority limited strictly to surviving text; sections S05-S08 and S11-S15 are permanently unavailable.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "ospa-foundation-v1-admission-and-provenance"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ospa-fnd-v1-s10",
+      "title": "Operating Systems & Process Architecture Foundation v1 — Section 10: Controls, Evidence, and Auditability",
+      "path": "institution/foundations/operations/OSPA-FND-V1-S10.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Admitted recovered canonical OSPA text: control architecture and classifications, control evidence, the evidence vocabulary including negative evidence and absence, decision/approval/change/exception/review history, audit trail, auditability, and observation through corrective action.",
+      "provenance": {
+        "origin": "Operating Systems & Process Architecture (foundation authority); recovered canonical source",
+        "approvalReference": "Recognized as recovered canonical source in fd-0003; admitted to the canonical corpus by FD-V7, recorded in fd-0011. Authority limited strictly to surviving text; sections S05-S08 and S11-S15 are permanently unavailable.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "ospa-foundation-v1-admission-and-provenance"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "ospa-foundation-v1-admission-and-provenance",
+      "title": "Operating Systems & Process Architecture Foundation v1 — Admission, Scope, and Provenance",
+      "path": "institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Records what FD-V7 admitted: six surviving OSPA sections as canonical authority limited strictly to surviving text, the nine permanently unavailable sections never to be reconstructed, the derived RS05-EV01 packet excluded, integrity digests, and custody history.",
+      "provenance": {
+        "origin": "Founder Office (FD-V7); Institutional Platform Development (record)",
+        "approvalReference": "FD-V7, recorded in fd-0011.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "canonical-source-preservation"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "operations-foundation-directory-guide",
+      "title": "Operations Foundation — Directory Guide",
+      "path": "institution/foundations/operations/README.md",
+      "type": "index",
+      "classification": "Repository Standard",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Describes this directory's contents and its reserved structure: the admitted OSPA sections and their authority boundary, and the reserved repository location for the future Corporate Operations Semantics Foundation v1, which does not exist and which Development is not authorized to draft.",
+      "provenance": {
+        "origin": "Institutional Platform Development",
+        "approvalReference": "Prepared under fd-0011 (Work Package 5, repository seam preparation).",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "ospa-foundation-v1-admission-and-provenance"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "corporate-operations-semantics-definition-package",
+      "title": "Corporate Operations Semantics — Definition Package",
+      "path": "institution/governance/operations/corporate-operations-semantics-definition-package.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The bounded handoff to Corporate Operations & Command Management: operational concepts requiring prospective definition, each with its surviving-authority boundary and unresolved questions, plus concepts excluded as already governed. Questions only, no Development-authored answers.",
+      "provenance": {
+        "origin": "Institutional Platform Development (assessment)",
+        "approvalReference": "Prepared under fd-0011 (Work Package 6). Provisional pending transmission of the complete Generation One Requirements Report (fd-0011 Deficiency 1).",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-semantic-gap-inventory"
+        },
+        {
+          "rel": "references",
+          "target": "ospa-foundation-v1-admission-and-provenance"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions",
+      "title": "fd-0011 — Founder Office Determinations: FD-V7 OSPA Admission and Phase 1 Dispositions",
+      "path": "institution/governance/determinations/fd-0011-fd-v7-ospa-admission-and-phase1-dispositions.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Verbatim record of six Founder Office determinations: FD-V7 OSPA canonical admission with its surviving-text boundary, the narrow fd-0001 custody exception, Requirements Report authority, the fired operations-systems trigger, S09 applicability limits, and the prohibition on inferring transition.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Institutional Platform Development (transcription)",
+        "approvalReference": "Corporate Operations & Command Platform — Governance & Methodology Readiness Phase 2 execution package (recorded in this register).",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0010-corporate-operations-governance-methodology-readiness-phase1"
         }
       ],
       "versioning": "git-history",
