@@ -3023,6 +3023,342 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0008-generation-one-module-placement",
+      "title": "ADR-0008 — Generation One Module Placement",
+      "path": "institution/decisions/adr-0008-generation-one-module-placement.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Generation One is a separate application in its own repository: no internal application exists to reuse, and ADR-0002/0003 exclude authenticated internal systems from the public website. Command Center evolution preserved by boundary, not scaffolding.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-01 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0009-generation-one-operational-data-topology",
+      "title": "ADR-0009 — Generation One Operational Data Topology",
+      "path": "institution/decisions/adr-0009-generation-one-operational-data-topology.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Generation One owns a separate Supabase project, not a schema in the inquiry project. Per-domain treatment is Store Directly, Reference, Summarize or Do Nothing; no domain resolves to Synchronize.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-02 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0010-operational-identity-and-representation-model",
+      "title": "ADR-0010 — Operational Identity and Representation Model",
+      "path": "institution/decisions/adr-0010-operational-identity-and-representation-model.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Two identities, never one: an opaque Record identifier and a separate Instance designation that survives correction and supersession. Both neutral; record existence asserts representation, never institutional reality.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-03 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0011-state-change-and-attention-representation",
+      "title": "ADR-0011 — State, Change, and Attention Representation",
+      "path": "institution/decisions/adr-0011-state-change-and-attention-representation.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "State is an open set of per-record-kind dimensions, never a status column; Material Change is authored and must state a materiality limb; Attention is a separate entity. Blocked and attention are read-time projections only.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-04 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0012-dependency-blocker-and-handoff-representation",
+      "title": "ADR-0012 — Dependency, Blocker, and Handoff Representation",
+      "path": "institution/decisions/adr-0012-dependency-blocker-and-handoff-representation.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Dependency carries no blocking field; blocking is a separate time-bounded assertion that can end without completing the matter; Handoff carries no authority field and acknowledgment is not a disposition.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-05 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0013-deadline-renewal-and-follow-up-representation",
+      "title": "ADR-0013 — Deadline, Renewal, and Follow-Up Representation",
+      "path": "institution/decisions/adr-0013-deadline-renewal-and-follow-up-representation.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Three independent concepts with no shared parent entity: a Renewal may exist with zero Deadlines, a Follow-Up may have no due date, and a combined due view is a read-time composition rather than a stored abstraction.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-06 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0014-founder-attention-lifecycle-and-priority",
+      "title": "ADR-0014 — Founder Attention Lifecycle and Priority",
+      "path": "institution/decisions/adr-0014-founder-attention-lifecycle-and-priority.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Nomination and Attention Item as separate entities; proposed, normalized and override priority as three fields; governance-mandated nominations offer only admitted or escalated; no numeric scoring or inbox model.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-07 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0015-source-provenance-and-representation-freshness",
+      "title": "ADR-0015 — Source Provenance and Representation Freshness",
+      "path": "institution/decisions/adr-0015-source-provenance-and-representation-freshness.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Provenance required at creation or the fact is invalid; representation owner always Corporate Operations and never the source for another function's facts; freshness qualitative with no numeric SLA; unresolved confirmation is representable.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-08 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0016-audit-history-and-since-last-review",
+      "title": "ADR-0016 — Audit, History, and Since Last Review",
+      "path": "institution/decisions/adr-0016-audit-history-and-since-last-review.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Seven bounded histories, not event sourcing. Per Founder Office determination, recorded_at is the Since Last Review inclusion boundary and occurred_at stays separately represented, so late-recorded matters cannot be silently omitted.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-09 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0017-generation-one-identity-authentication-and-authorization",
+      "title": "ADR-0017 — Generation One Identity, Authentication, and Authorization",
+      "path": "institution/decisions/adr-0017-generation-one-identity-authentication-and-authorization.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Five technical access classes with deny-by-default row-level enforcement; identity introduced as a shared service; provider selection deferred to a bounded follow-on decision. Technical permission is never institutional authority.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-10 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0018-generation-one-environment-architecture",
+      "title": "ADR-0018 — Generation One Environment Architecture",
+      "path": "institution/decisions/adr-0018-generation-one-environment-architecture.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Generation One crosses the ADR-0005 isolation threshold and may not launch production-first: separate non-production data, environment-specific credentials, migration testing, deliberate activation, rehearsed rollback.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-11 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0019-generation-one-auditability-and-validation-architecture",
+      "title": "ADR-0019 — Generation One Auditability and Validation Architecture",
+      "path": "institution/decisions/adr-0019-generation-one-auditability-and-validation-architecture.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Conformance must be proven, not asserted: mechanical semantic-invariant checks, the ten section 31 tests as executable cases, provenance and authorization validation, and authentic Headquarters use. Acceptance is semantic, not functional.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-12 of the Generation One ADR program authorized by fd-0013 and the ADR phase instrument; architecture only, implementation not authorized.",
+        "effectiveDate": "2026-08-18"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
