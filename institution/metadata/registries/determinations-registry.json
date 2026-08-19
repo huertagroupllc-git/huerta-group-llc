@@ -225,6 +225,48 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0010",
+      "title": "Founder Office Determinations: Corporate Operations & Command Platform — Governance & Methodology Readiness Phase 1",
+      "path": "institution/governance/determinations/fd-0010-corporate-operations-governance-methodology-readiness-phase1.md",
+      "instrument": "Corporate Operations & Command Platform — Governance & Methodology Readiness, Phase 1: Preservation & Institutionalization execution package (Founder Office → Institutional Platform Development), authorizing OSPA custody preservation, institutionalization of Corporate Operations & Command Management and the accepted Generation One Requirements Report, FD-V7 evidence preparation, semantic-gap inventory, and capability-trigger reassessment",
+      "dateReceived": "2026-08-18",
+      "recordedDate": "2026-08-18",
+      "determinationCount": 14,
+      "affectedArtifacts": [
+        "workbench/README.md",
+        "workbench/ospa-reconstruction/",
+        ".gitignore",
+        "institution/governance/operations/corporate-operations-command-management.md",
+        "institution/governance/operations/generation-one-requirements-report.md",
+        "institution/governance/operations/fd-v7-evidence-package.md",
+        "institution/governance/operations/generation-one-semantic-gap-inventory.md",
+        "institution/governance/operations/operations-systems-capability-trigger-reassessment.md",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0001",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0002",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0003",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0004",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

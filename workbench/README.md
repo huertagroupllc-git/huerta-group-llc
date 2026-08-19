@@ -19,6 +19,25 @@ architecture (Deliverables C/D) and Founder Office determination D-3.
    `workbench/` except this charter is gitignored. Working material is
    preserved on the working machine and through its sponsoring
    authority's own custody, never through repository history.
+
+   **Narrow exception — OSPA recovered-source custody.** The surviving
+   recovered OSPA source set and its custody records
+   (`ospa-reconstruction/`) are tracked, authorized by the Corporate
+   Operations & Command Platform — Governance & Methodology Readiness
+   Phase 1 instrument (`fd-0010`) to remove a compounding permanent-loss
+   risk. This exception is **custody preservation only**: it changes
+   version-control tracking and nothing else. It does not move the
+   material into the canonical corpus, does not confer institutional
+   status (rule 1 continues to apply in full), and does not effect or
+   anticipate canonical admission, which remains reserved to **FD-V7**
+   through the admission process in rule 3. The exception is scoped to
+   `ospa-reconstruction/` alone; all other workbench material remains
+   uncommitted under the general policy above. See
+   `ospa-reconstruction/CUSTODY.md`. This exception stands against
+   `fd-0001` determination 1 ("OSPA reconstruction working documents
+   remain untracked working material and shall not be committed"), whose
+   formal disposition is recorded as an open deficiency in `fd-0010` and
+   is reserved to the Founder Office.
 3. **Admission is deliberate.** Material leaves the workbench only
    through the canonical-source preservation process
    (`institution/standards/repository/canonical-source-preservation.md`):
@@ -45,5 +64,8 @@ architecture (Deliverables C/D) and Founder Office determination D-3.
   Recognition and provenance are recorded in the determinations
   register (`institution/governance/determinations/`). Sections
   S05–S08 and S11–S15 are **unavailable** and must not be
-  reconstructed. This material remains uncommitted per Founder Office
-  determination.
+  reconstructed. This material is **tracked for custody preservation
+  only** under the rule-2 exception (`fd-0010`) and remains
+  **not admitted** to the canonical corpus pending FD-V7; custody
+  records are `ospa-reconstruction/CUSTODY.md` and
+  `ospa-reconstruction/SHA256SUMS`.

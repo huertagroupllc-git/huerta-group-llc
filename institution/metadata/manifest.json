@@ -2371,6 +2371,190 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0010-corporate-operations-governance-methodology-readiness-phase1",
+      "title": "fd-0010 — Founder Office Determinations: Corporate Operations & Command Platform — Governance & Methodology Readiness Phase 1",
+      "path": "institution/governance/determinations/fd-0010-corporate-operations-governance-methodology-readiness-phase1.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Verbatim record of the Governance & Methodology Readiness Phase 1 instrument: execution principles, Generation One requirements status, the reservation of FD-V7, and three recorded deficiencies (fd-0001 conflict; untransmitted Requirements Report; untransmitted establishing instrument).",
+      "provenance": {
+        "origin": "Founder Office (instrument); Institutional Platform Development (transcription)",
+        "approvalReference": "Corporate Operations & Command Platform — Governance & Methodology Readiness, Phase 1 execution package (recorded in this register).",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0001-governance-audit-instrument-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0003-migration-execution-determinations"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "corporate-operations-command-management",
+      "title": "Corporate Operations & Command Management — Institutional Function Record",
+      "path": "institution/governance/operations/corporate-operations-command-management.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "Makes the already Founder Office-established Corporate Operations & Command Management function repository-native: its Corporate Headquarters role, jurisdiction over Headquarters operational representation, and bounded long-term Command Center intent, with an explicit authority boundary.",
+      "provenance": {
+        "origin": "Founder Office (establishment, in the Corporate Headquarters project); Institutional Platform Development (repository institutionalization)",
+        "approvalReference": "Institutionalized under fd-0010; the establishing instrument itself was not transmitted and is recorded as a deficiency (fd-0010 Deficiency 3).",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0010-corporate-operations-governance-methodology-readiness-phase1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-requirements-report",
+      "title": "Generation One Requirements Report — Repository Status Record",
+      "path": "institution/governance/operations/generation-one-requirements-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Records the accepted Generation One Requirements Report by status, provenance, relationships, and authority boundary only. The report's text was not transmitted and is not reproduced, summarized, or reconstructed; the gap is recorded as a deficiency following the fd-0009 precedent.",
+      "provenance": {
+        "origin": "Founder Office (acceptance)",
+        "approvalReference": "Status recorded under fd-0010; report text not transmitted (fd-0010 Deficiency 2).",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "corporate-operations-command-management"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0010-corporate-operations-governance-methodology-readiness-phase1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-v7-evidence-package",
+      "title": "FD-V7 Evidence Package — Surviving Recovered OSPA Sections",
+      "path": "institution/governance/operations/fd-v7-evidence-package.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Assembles the evidence needed to determine canonical admission of the surviving recovered OSPA sections: inventory, provenance with deficiencies, custody-versus-admission status, the permanently unavailable sections, and what surviving text does and does not establish. FD-V7 remains unmade.",
+      "provenance": {
+        "origin": "Institutional Platform Development (evidence assembly)",
+        "approvalReference": "Prepared under fd-0010; FD-V7 is reserved to the Founder Office and has not been made.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0003-migration-execution-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "canonical-source-preservation"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-semantic-gap-inventory",
+      "title": "Generation One Semantic-Gap Inventory",
+      "path": "institution/governance/operations/generation-one-semantic-gap-inventory.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Classifies each Generation One operational concept as governed by surviving OSPA authority, governed elsewhere, unresolved, out of scope, or requiring determination. Records that every concept needed to hold a live operational condition is unresolved, reconstructing no unavailable wording.",
+      "provenance": {
+        "origin": "Institutional Platform Development (assessment)",
+        "approvalReference": "Prepared under fd-0010.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-v7-evidence-package"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-requirements-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "operations-systems-capability-trigger-reassessment",
+      "title": "operations-systems Capability Trigger — Reassessment",
+      "path": "institution/governance/operations/operations-systems-capability-trigger-reassessment.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Reassesses the operations-systems trigger against repository-evidenced recurring workflows: a recurring workflow is evidenced, but whether it outgrew governed documents is not demonstrated without the untransmitted Requirements Report. Separates metadata corrections from reserved changes.",
+      "provenance": {
+        "origin": "Institutional Platform Development (assessment)",
+        "approvalReference": "Prepared under fd-0010; trigger amendment reserved to the Founder Office.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-requirements-report"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-semantic-gap-inventory"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

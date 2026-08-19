@@ -346,7 +346,7 @@
     {
       "id": "operations-systems",
       "name": "Operations Systems",
-      "description": "Future internal workflows, records, and administrative tooling. The Vision Foundation lists possibilities as long-term vision, expressly non-committal; no requirements exist.",
+      "description": "Future internal workflows, records, and administrative tooling. Business/operational requirements for a Generation One concept are accepted by the Founder Office but are not yet repository-preserved (fd-0010); the report's text was not transmitted and is recorded as a deficiency. Technical architecture and implementation remain paused. Owning function: Corporate Operations & Command Management.",
       "category": "internal-operations",
       "maturity": "conceptual",
       "architecturalDisposition": "future_internal_application",
@@ -365,10 +365,16 @@
       "launchRelevance": "independent",
       "implementationReadiness": "requirements_incomplete",
       "governingReferences": [
-        "institution/governance/strategic/vision-foundation-for-development.md"
+        "institution/governance/strategic/vision-foundation-for-development.md",
+        "institution/governance/operations/corporate-operations-command-management.md",
+        "institution/governance/operations/generation-one-requirements-report.md",
+        "institution/governance/operations/generation-one-semantic-gap-inventory.md",
+        "institution/governance/operations/operations-systems-capability-trigger-reassessment.md"
       ],
       "unresolvedDecisions": [
-        "Trigger: the first recurring internal workflow that outgrows governed documents; none identified yet."
+        "Trigger: the first recurring internal workflow that outgrows governed documents; none identified yet.",
+        "Trigger reassessment (fd-0010): a recurring internal workflow is evidenced, but whether it has outgrown governed documents is not demonstrated on repository evidence and could not be fully assessed because the Generation One Requirements Report was not transmitted. The trigger clause above is unchanged; amending it is reserved to the Founder Office. See institution/governance/operations/operations-systems-capability-trigger-reassessment.md.",
+        "Operational semantics required by the Generation One concept are largely unresolved: active operational record, blocker, handoff, deadline, renewal, follow-up, attention, and the materiality rule for change are not established in surviving recovered OSPA authority, and their defining sections are permanently unavailable. See institution/governance/operations/generation-one-semantic-gap-inventory.md."
       ]
     },
     {

@@ -45,6 +45,30 @@ next-env.d.ts
 supabase/.temp/
 
 # workbench — staging for pre-admission working material (uncommitted by
-# policy; see workbench/README.md). Only the charter is tracked.
+# policy; see workbench/README.md). Only the charter and the OSPA
+# recovered-source custody set are tracked.
 /workbench/*
 !/workbench/README.md
+
+# OSPA recovered-source custody set — tracked for byte preservation only,
+# under the Governance & Methodology Readiness Phase 1 instrument (fd-0010).
+# Tracking is CUSTODY PRESERVATION, never canonical admission: this material
+# remains outside the governed canonical corpus (fd-0002 D-3), carries no
+# institutional status (workbench/README.md rule 1), and is admitted to the
+# corpus only through the admission path in
+# institution/standards/repository/canonical-source-preservation.md upon the
+# reserved FD-V7 determination.
+# The exception is enumerated file-by-file on purpose: a recursive
+# un-ignore would silently extend it to future reconstruction working
+# material, which is the category fd-0001 determination 1 excludes.
+!/workbench/ospa-reconstruction/
+/workbench/ospa-reconstruction/*
+!/workbench/ospa-reconstruction/OSPA-FND-V1-S01.md
+!/workbench/ospa-reconstruction/OSPA-FND-V1-S02.md
+!/workbench/ospa-reconstruction/OSPA-FND-V1-S03.md
+!/workbench/ospa-reconstruction/OSPA-FND-V1-S04.md
+!/workbench/ospa-reconstruction/OSPA-FND-V1-S09.md
+!/workbench/ospa-reconstruction/OSPA-FND-V1-S10.md
+!/workbench/ospa-reconstruction/OSPA-FND-V1-RS05-EV01-verified-canonical-evidence-packet.md
+!/workbench/ospa-reconstruction/CUSTODY.md
+!/workbench/ospa-reconstruction/SHA256SUMS
