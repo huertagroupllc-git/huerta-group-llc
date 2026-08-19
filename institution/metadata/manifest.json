@@ -2987,6 +2987,42 @@
           "target": "fd-0012-corporate-operations-semantics-foundation-v1-adoption"
         }
       ]
+    },
+    {
+      "id": "generation-one-operations-platform-architecture",
+      "title": "Internal Operations & Command Platform — Generation One Phase 1 Technical Blueprint",
+      "path": "institution/technical/generation-one-operations-platform-architecture.md",
+      "type": "standard",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Bounded Generation One architecture: a Corporate Operations Register and Founder Attention layer as a separate authenticated application, with a domain model keeping State, Change, Attention, Dependency and Blocking distinct, plus the required ADR sequence. Authorizes no construction.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Prepared under fd-0013 architecture resumption. Architecture and design only; implementation requires a separate Founder Office act and the ADR sequence in section 34.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "governed-by",
+          "target": "internal-software-architecture"
+        },
+        {
+          "rel": "references",
+          "target": "corp-ops-sem-fnd-v1"
+        },
+        {
+          "rel": "references",
+          "target": "gen1-req-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
