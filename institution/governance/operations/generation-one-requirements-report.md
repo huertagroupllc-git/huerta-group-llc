@@ -69,6 +69,20 @@ that the report exists and is accepted, and does not hold the report.
 
 Recorded as `fd-0010` Deficiency 2.
 
+### Second transmission attempt — 2026-08-18 — also unsuccessful
+
+A subsequent Founder Office instrument stated that the complete report had
+been retransmitted. **It had not been.** The instrument arrived carrying
+directives only; no report text accompanied it, and no preceding Founder
+Office package containing it reached the implementing office. The
+verification scope above was re-run with the same result, extended to the
+implementing office's own transmission cache and prior session records.
+
+Preservation therefore remains incomplete, now recorded a third time
+(`fd-0010` Deficiency 2; `fd-0011` Deficiency 1; `fd-0012` Deficiency 2).
+The full availability chronology is preserved at `fd-0012`; the earlier
+records are not rewritten.
+
 ## 3. Authority boundary — what this report is and is not
 
 The report is **business/operational requirements authority**.

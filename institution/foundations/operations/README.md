@@ -34,11 +34,18 @@ instrument:
   recovered canonical OSPA authority in this directory, and **must never
   be represented as recovered OSPA**
 
-**It does not exist.** No draft, outline, placeholder, or partial
-definition of it exists in this repository, and none should be created to
-make the structure look complete. Platform & Systems Development is not
-authorized to draft its substance; doing so would place Development in
-the position of defining institutional operational meaning, which OSPA
+**Adopted, but not held here.** The Founder Office adopted the Foundation
+on 2026-08-18 (`fd-0012`). Its **text was not transmitted to the
+implementing office**, so this location remains empty and the repository
+holds no Foundation (`fd-0012` Deficiency 1).
+
+No draft, outline, placeholder, or partial definition of it exists in this
+repository, and none should be created to make the structure look
+complete — least of all from the adopting instrument's abstract of the
+Foundation's invariants and semantic tests, which is evidence that
+adoption occurred and is not the doctrine. Platform & Systems Development
+is not authorized to draft its substance; doing so would place Development
+in the position of defining institutional operational meaning, which OSPA
 S02 Principle 1 reserves to institutional authority.
 
 **What it is expected to resolve** is recorded, as questions rather than
@@ -55,8 +62,9 @@ it deliberately contains no Development-authored operational definitions.
   package, the semantic-gap inventory, the capability-trigger
   reassessment, and the semantic-definition package.
 - `institution/governance/determinations/` — `fd-0010` (custody
-  preservation, institutionalization) and `fd-0011` (FD-V7 and the
-  Phase 1 dispositions).
+  preservation, institutionalization), `fd-0011` (FD-V7 and the Phase 1
+  dispositions), and `fd-0012` (adoption of the Semantics Foundation and
+  the source-transmission deficiencies).
 - `institution/standards/repository/canonical-source-preservation.md` —
   the admission path these sections travelled, and the prohibition on
   reconstructing unavailable canonical text.

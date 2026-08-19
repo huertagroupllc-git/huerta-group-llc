@@ -40,7 +40,7 @@ Current-implementation documentation lives in the repository root
 | --- | --- | --- |
 | OSPA Foundation v1 — Admission, Scope, and Provenance | [`foundations/operations/ospa-foundation-v1-admission-and-provenance.md`](../../foundations/operations/ospa-foundation-v1-admission-and-provenance.md) | What FD-V7 admitted, the surviving-text-only authority boundary, the permanently unavailable inventory, integrity digests, and custody history |
 | OSPA-FND-V1 Sections S01–S04, S09, S10 | [`foundations/operations/`](../../foundations/operations/) | The six surviving recovered sections of the Operating Systems & Process Architecture Foundation v1, admitted by FD-V7 (`fd-0011`), preserved byte-identical to the recovered source |
-| Operations Foundation — Directory Guide | [`foundations/operations/README.md`](../../foundations/operations/README.md) | Directory contents and the reserved location for the future Corporate Operations Semantics Foundation v1 |
+| Operations Foundation — Directory Guide | [`foundations/operations/README.md`](../../foundations/operations/README.md) | Directory contents and the reserved location for the Corporate Operations Semantics Foundation v1 — adopted by the Founder Office (`fd-0012`) but not held here, its text never having been transmitted |
 
 **OSPA authority boundary — read before citing.** OSPA is canonical
 authority for the **surviving text of six sections only**. Sections
@@ -59,7 +59,7 @@ see the semantic-definition package below.
 | --- | --- | --- |
 | Corporate Operations Semantics — Definition Package | [`governance/operations/corporate-operations-semantics-definition-package.md`](../../governance/operations/corporate-operations-semantics-definition-package.md) | The bounded handoff to Corporate Operations & Command Management: concepts requiring prospective definition, their surviving-authority boundaries, and the unresolved questions — questions only, no Development-authored definitions |
 | Corporate Operations & Command Management — Institutional Function Record | [`governance/operations/corporate-operations-command-management.md`](../../governance/operations/corporate-operations-command-management.md) | The already Founder Office-established Headquarters function made repository-native: Corporate Headquarters role, jurisdiction over Headquarters operational representation, the representation/source-authority distinction, system-of-truth principle, requirements-before-software discipline, bounded long-term Command Center intent, and an explicit authority boundary; institutionalized under fd-0010 |
-| Generation One Requirements Report — Repository Status Record | [`governance/operations/generation-one-requirements-report.md`](../../governance/operations/generation-one-requirements-report.md) | Status, provenance, relationships, and authority boundary of the accepted Requirements Report. The report text has still not been transmitted; preservation is incomplete and reconstruction is prohibited (fd-0010 Deficiency 2; fd-0011 Deficiency 1) |
+| Generation One Requirements Report — Repository Status Record | [`governance/operations/generation-one-requirements-report.md`](../../governance/operations/generation-one-requirements-report.md) | Status, provenance, relationships, and authority boundary of the accepted Requirements Report. The report text has still not been transmitted across three attempts; preservation is incomplete and reconstruction is prohibited (fd-0010 Deficiency 2; fd-0011 Deficiency 1; fd-0012 Deficiency 2) |
 | FD-V7 Evidence Package — Surviving Recovered OSPA Sections | [`governance/operations/fd-v7-evidence-package.md`](../../governance/operations/fd-v7-evidence-package.md) | **Historical** — the evidence record that preceded FD-V7, retained unaltered with a disposition section (§9). FD-V7 has since been made (`fd-0011`); current authority, scope and integrity live in the OSPA admission record |
 | Generation One Semantic-Gap Inventory | [`governance/operations/generation-one-semantic-gap-inventory.md`](../../governance/operations/generation-one-semantic-gap-inventory.md) | Per-concept classification of what is grounded in surviving authority and what is unresolved; no unavailable OSPA wording is reconstructed |
 | `operations-systems` Capability Trigger — Reassessment | [`governance/operations/operations-systems-capability-trigger-reassessment.md`](../../governance/operations/operations-systems-capability-trigger-reassessment.md) | Reassessment of the recorded trigger against repository-evidenced recurring workflows, separating executed metadata corrections from changes reserved to the Founder Office |
@@ -72,16 +72,26 @@ concepts mean. Neither absorbs the other, and source functions retain
 authority over their own authoritative facts.
 
 The Internal Operations & Command Platform's technical architecture and
-implementation remain **paused** (`fd-0010`, `fd-0011`); no register,
-schema, application, or runtime behavior is authorized. The Founder Office
-has determined the `operations-systems` capability trigger **fired**
-(`fd-0011`) — establishing institutional **need**, never implementation
-authorization. Before architecture may resume, the operational semantics
-the capability would encode must be established as **prospective
-doctrine** adopted by competent institutional authority: the Corporate
-Operations Semantics Foundation v1 does not exist, Development is not
-authorized to draft it, and its reserved location is
-[`foundations/operations/README.md`](../../foundations/operations/README.md).
+implementation remain **paused** (`fd-0010`, `fd-0011`, `fd-0012`); no
+register, schema, application, or runtime behavior is authorized. The
+Founder Office has determined the `operations-systems` capability trigger
+**fired** (`fd-0011`) — establishing institutional **need**, never
+implementation authorization.
+
+Before architecture may resume, the operational semantics the capability
+would encode must be established as **prospective doctrine** adopted by
+competent institutional authority. That adoption has now occurred: the
+Founder Office adopted the **Corporate Operations Semantics Foundation —
+Version 1** on 2026-08-18 (`fd-0012`). **Its text was never transmitted to
+the implementing office**, so the repository holds the adoption and not
+the doctrine (`fd-0012` Deficiency 1), its reserved location at
+[`foundations/operations/README.md`](../../foundations/operations/README.md)
+remains empty, and Development is not authorized to draft it. `fd-0012`
+transcribes the adopting instrument's own summary of the Foundation's
+invariants and semantic tests as evidence of the adoption; that summary is
+**not** the Foundation and may not be used as it. Architecture resumption
+was authorized conditionally and its condition — possession of both
+authoritative source texts — is unmet.
 
 ## Venture governance (Corporate Venture Governance)
 

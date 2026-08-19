@@ -39,6 +39,20 @@ should be removed, and concepts it requires that are absent here must be
 added. The instrument's own rule governs: this list "is an assessment set,
 not a mandate to create doctrine for every item."
 
+### Subsequent development — the Foundation exists and is adopted
+
+The Founder Office has since **adopted** the Corporate Operations
+Semantics Foundation — Version 1 as prospective operational doctrine
+(`fd-0012`, 2026-08-18). Corporate Operations & Command Management has
+therefore answered this handoff.
+
+The Foundation's **text was not transmitted to the implementing office**
+(`fd-0012` Deficiency 1), so this package cannot yet be closed against it,
+and nothing below is answered here. The package is now provisional on
+**both** counts — against the Requirements Report, which is still not
+held, and against the adopted Foundation, which is still not held.
+Closing it requires both texts.
+
 ## Concepts excluded — already sufficiently governed
 
 These were tested and are **not** carried into prospective definition,

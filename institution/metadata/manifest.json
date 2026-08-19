@@ -2843,6 +2843,34 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0012-corporate-operations-semantics-foundation-v1-adoption",
+      "title": "fd-0012 — Founder Office Determinations: Corporate Operations Semantics Foundation V1 Adoption; Generation One Source-Transmission Deficiency",
+      "path": "institution/governance/determinations/fd-0012-corporate-operations-semantics-foundation-v1-adoption.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Verbatim record of the Founder Office adoption of the Corporate Operations Semantics Foundation V1 as prospective, expressly non-OSPA doctrine, with its invariants, semantic tests, and conditional architecture authorization. Two deficiencies: neither source text reached the implementing office.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Institutional Platform Development (transcription)",
+        "approvalReference": "Generation One Authoritative Source Preservation + Technical Architecture Resumption execution package (recorded in this register).",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
