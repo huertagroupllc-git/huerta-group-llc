@@ -346,7 +346,7 @@
     {
       "id": "operations-systems",
       "name": "Operations Systems",
-      "description": "Internal operational capability owned by Corporate Operations & Command Management. Founder Office has determined the trigger FIRED (fd-0011): the recurring internal workflow has outgrown governed documents as the sole operational mechanism. Requirements are authoritative. Architecture and implementation remain PAUSED — a fired trigger establishes need, not authorization.",
+      "description": "Internal operational capability owned by Corporate Operations & Command Management. Trigger FIRED (fd-0011). Requirements are authoritative and preserved (GEN1-REQ-V1); operational semantics are adopted prospective doctrine (CORP-OPS-SEM-FND-V1; fd-0012, fd-0013). Technical architecture is AUTHORIZED TO RESUME, design only. Implementation remains NOT AUTHORIZED.",
       "category": "internal-operations",
       "maturity": "conceptual",
       "architecturalDisposition": "future_internal_application",
@@ -363,23 +363,29 @@
       "identityRequirement": "future-required",
       "sensitivity": "internal",
       "launchRelevance": "independent",
-      "implementationReadiness": "requirements_incomplete",
+      "implementationReadiness": "governance_blocked",
       "governingReferences": [
         "institution/governance/strategic/vision-foundation-for-development.md",
         "institution/governance/operations/corporate-operations-command-management.md",
+        "institution/governance/operations/GEN1-REQ-V1.md",
         "institution/governance/operations/generation-one-requirements-report.md",
         "institution/governance/operations/generation-one-semantic-gap-inventory.md",
         "institution/governance/operations/operations-systems-capability-trigger-reassessment.md",
         "institution/governance/operations/corporate-operations-semantics-definition-package.md",
+        "institution/foundations/operations/CORP-OPS-SEM-FND-V1.md",
+        "institution/foundations/operations/corporate-operations-semantics-foundation-v1-adoption-and-provenance.md",
         "institution/governance/determinations/fd-0011-fd-v7-ospa-admission-and-phase1-dispositions.md",
+        "institution/governance/determinations/fd-0012-corporate-operations-semantics-foundation-v1-adoption.md",
+        "institution/governance/determinations/fd-0013-generation-one-source-preservation-and-architecture-resumption.md",
         "institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md"
       ],
       "unresolvedDecisions": [
-        "Trigger status (fd-0011, Founder Office): FIRED. The recurring internal workflow has outgrown governed documents as the sole operational mechanism. HISTORICAL POSTURE, preserved and not rewritten: this entry previously recorded the trigger as 'the first recurring internal workflow that outgrows governed documents; none identified yet', and the Phase 1 reassessment (fd-0010) found a recurring workflow evidenced but the outgrowing limb not demonstrable on repository evidence alone. The Founder Office determination supplies what repository evidence could not. See institution/governance/operations/operations-systems-capability-trigger-reassessment.md.",
-        "A fired trigger is NOT implementation authorization. Technical architecture and implementation remain paused pending methodology readiness and a subsequent Founder Office authorization (fd-0011).",
-        "Prospective operational doctrine is required before architecture can resume: the Corporate Operations Semantics Foundation v1 does not yet exist. Its repository location is reserved at institution/foundations/operations/README.md and the unresolved questions it must answer are inventoried in institution/governance/operations/corporate-operations-semantics-definition-package.md. Development is not authorized to draft it.",
-        "Operational-instance semantics remain unresolved: active operational record, operational-instance identity, lifecycle and transition semantics, blocker, handoff, deadline, renewal, follow-up, attention, and the materiality rule for change are not established by surviving canonical OSPA (S01-S04, S09, S10), and the sections that would define them are permanently unavailable (S05-S08, S11-S15). No transition model may be inferred from S09 section 9.28 (fd-0011).",
-        "The complete Generation One Requirements Report has not been transmitted to the repository; its preservation is incomplete and the semantic-definition package's concept inventory is provisional until it is (fd-0011 Deficiency 1)."
+        "Trigger status (fd-0011, Founder Office): FIRED. HISTORICAL POSTURE, preserved and not rewritten: this entry previously recorded the trigger as 'the first recurring internal workflow that outgrows governed documents; none identified yet', and the Phase 1 reassessment (fd-0010) found a recurring workflow evidenced but the outgrowing limb not demonstrable on repository evidence alone. The Founder Office determination supplies what repository evidence could not.",
+        "A fired trigger is NOT implementation authorization, and neither is architecture resumption. implementationReadiness moved from requirements_incomplete to governance_blocked (fd-0013): the requirements deficiency that justified the former is discharged, and what now stands between this capability and implementation is a Founder Office authorization plus the required ADR sequence — not missing requirements. HISTORICAL POSTURE, preserved: architecture was paused under fd-0010 and fd-0011, and fd-0011 reserved this reclassification to the Founder Office; the Founder Office directed the reconciliation in the instrument recorded at fd-0013.",
+        "RESOLVED (fd-0012, fd-0013): prospective operational doctrine now exists and is adopted. HISTORICAL POSTURE, preserved: this entry previously recorded that 'the Corporate Operations Semantics Foundation v1 does not yet exist' and that its location was reserved and empty. The Foundation is preserved at institution/foundations/operations/CORP-OPS-SEM-FND-V1.md and the definition package that asked for it is closed.",
+        "RESOLVED (fd-0013): operational-instance semantics are established prospectively by Foundation sections 5 through 24 — instance versus record, state, material change, attention entry and exit, dependency, blocker, handoff, deadline, renewal, follow-up, and concept-specific transition semantics. HISTORICAL POSTURE, preserved: these were previously unresolved because surviving canonical OSPA (S01-S04, S09, S10) does not establish them and the sections that would have (S05-S08, S11-S15) are permanently unavailable. The Foundation supplements surviving OSPA prospectively; it is not recovered OSPA and no unavailable OSPA may be inferred from it. The fd-0011 prohibition on inferring a transition model from S09 section 9.28 stands; Foundation section 24 is the new prospective doctrine that fd-0011 required instead.",
+        "RESOLVED (fd-0013): the complete Generation One Requirements Report is preserved byte-identical at institution/governance/operations/GEN1-REQ-V1.md. HISTORICAL POSTURE, preserved: it had not been transmitted to the implementing office across two prior attempts (fd-0010 Deficiency 2, fd-0011 Deficiency 1, fd-0012 Deficiency 2), and the semantic-definition package's concept inventory was provisional until it was.",
+        "OPEN — Founder Office operational-policy questions that do not block architecture but must be determined before or during implementation: the change horizon and whether a matter that occurred before the last review but was recorded after it must surface (Requirements Report section 19 question 4; definition-package concept 13); venture snapshot responsibility (question 5); the financial visibility boundary, to be determined with Accounting rather than inferred by Development (question 6); and the administrative visibility boundary (question 7)."
       ]
     },
     {

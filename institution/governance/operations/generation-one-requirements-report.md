@@ -15,18 +15,37 @@
 
 | Dimension | Status |
 | --- | --- |
-| Requirements discovery | **Accepted** |
+| Requirements discovery | **Complete / Accepted** |
 | Business/operational requirements | **Authoritative** (`fd-0011`) |
-| Generation One concept | **Accepted subject to Governance & Methodology Readiness** |
-| Technical architecture | **Paused** |
+| Source preservation | **Complete** — preserved byte-identical at `GEN1-REQ-V1.md` (`fd-0013`) |
+| Generation One concept | **Accepted**; the Governance & Methodology Readiness condition is satisfied (`fd-0013`) |
+| Technical architecture | **Authorized to resume** (`fd-0013`) — architecture and design only |
 | Technical implementation | **Not Authorized** |
 
-These five dimensions are independent and no one of them determines
+These status dimensions are independent and no one of them determines
 another. Acceptance of requirements discovery does not make the concept
 unconditionally accepted; acceptance of the concept does not unpause
 architecture; and nothing here authorizes implementation.
 
-## 2. Material deficiency — the report text is still not preserved
+## 2. Source preservation — RESOLVED 2026-08-18
+
+**The complete report is now preserved repository-native** at
+`institution/governance/operations/GEN1-REQ-V1.md`, byte-identical to the
+Founder Office source supplied at `workbench/incoming/`
+(SHA-256 `c75f3c3e…e44c6`; `fd-0013`). This record continues to hold
+status, provenance, relationships and authority boundary; the report
+itself now lives at that path and governs over this record wherever the
+two could be read differently.
+
+**This record does not summarize or characterize the report's substance**
+— that is unnecessary now that the text is held, and the earlier
+prohibition on doing so from second-hand description stands as written.
+
+### 2.1 Historical record — preservation was incomplete through `fd-0012`
+
+*Retained unaltered as the accurate account of the period during which
+Development held no copy. It is not rewritten to imply the text was
+available sooner (`fd-0012`, `fd-0013`).*
 
 **Status after Phase 2 (`fd-0011`): preservation remains INCOMPLETE.**
 The Founder Office directed preservation of the report "verbatim from its
@@ -83,6 +102,17 @@ Preservation therefore remains incomplete, now recorded a third time
 The full availability chronology is preserved at `fd-0012`; the earlier
 records are not rewritten.
 
+### 2.3 Third attempt — 2026-08-18 — successful
+
+The Founder Office supplied both complete sources as files under
+`workbench/incoming/`. The report was verified complete (§1–§21 plus
+Executive Determination and Final Recommendation, untruncated), its digest
+computed before any repository copy existed, and it was preserved
+byte-identical. `fd-0010` Deficiency 2, `fd-0011` Deficiency 1 and
+`fd-0012` Deficiency 2 are **discharged prospectively** by `fd-0013` —
+discharged, not erased: each remains an accurate record of its own
+period.
+
 ## 3. Authority boundary — what this report is and is not
 
 The report is **business/operational requirements authority**.
@@ -113,8 +143,13 @@ are not supplied by Development.
 - **Owned by** Corporate Operations & Command Management
   (`corporate-operations-command-management.md`).
 - **Governs requirements for** the Internal Operations & Command Platform
-  program, whose technical architecture and implementation are paused
-  under `fd-0010`.
+  program. Its technical architecture was paused under `fd-0010` and
+  `fd-0011` and is **authorized to resume** under `fd-0013`;
+  implementation remains **not authorized**.
+- **Preserved source:** `GEN1-REQ-V1.md` (this record's subject).
+- **Read together with** the adopted Corporate Operations Semantics
+  Foundation v1 (`institution/foundations/operations/CORP-OPS-SEM-FND-V1.md`),
+  which supplies the operational semantics these requirements presuppose.
 - **Semantic dependencies** are inventoried in
   `generation-one-semantic-gap-inventory.md`.
 - **Bears on** the `operations-systems` capability trigger reassessment

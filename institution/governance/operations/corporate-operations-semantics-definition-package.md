@@ -39,19 +39,56 @@ should be removed, and concepts it requires that are absent here must be
 added. The instrument's own rule governs: this list "is an assessment set,
 not a mandate to create doctrine for every item."
 
-### Subsequent development — the Foundation exists and is adopted
+### Package status — CLOSED 2026-08-18 (`fd-0013`)
 
-The Founder Office has since **adopted** the Corporate Operations
-Semantics Foundation — Version 1 as prospective operational doctrine
-(`fd-0012`, 2026-08-18). Corporate Operations & Command Management has
-therefore answered this handoff.
+**This package is answered and closed.** Corporate Operations & Command
+Management produced the Corporate Operations Semantics Foundation —
+Version 1; the Founder Office adopted it (`fd-0012`); both it and the
+Generation One Requirements Report are now preserved repository-native
+(`fd-0013`). The questions below were the handoff, and they have been
+returned.
 
-The Foundation's **text was not transmitted to the implementing office**
-(`fd-0012` Deficiency 1), so this package cannot yet be closed against it,
-and nothing below is answered here. The package is now provisional on
-**both** counts — against the Requirements Report, which is still not
-held, and against the adopted Foundation, which is still not held.
-Closing it requires both texts.
+The package is retained unaltered below as the historical record of what
+Development identified as missing and why. It is **superseded as a live
+work item** by:
+
+- `institution/foundations/operations/CORP-OPS-SEM-FND-V1.md` — the
+  adopted doctrine, which governs;
+- `institution/governance/operations/GEN1-REQ-V1.md` — the requirements
+  the package could not previously be tested against;
+- `institution/governance/determinations/fd-0012-...` — the adoption and
+  the Founder Office §32 policy determinations.
+
+**Nothing below states current doctrine.** Where a question below and the
+Foundation could be read differently, the Foundation governs.
+
+### Concept-by-concept reconciliation against the adopted Foundation
+
+The instrument directing preservation required this package be reconciled
+against the adopted Foundation. Result:
+
+| # | Concept | Disposition | Where resolved |
+| --- | --- | --- | --- |
+| 1 | Operational instance | **Resolved** | Foundation §5 — Instance is the real-world matter; Record is the Headquarters representation; admission principle bounds when a Record exists at all |
+| 2 | Material / significant change | **Resolved** | §7 — consequence-based materiality doctrine, an explicit non-material list, and materiality assessed against the intended audience (Headquarters) |
+| 3 | Founder Attention | **Resolved** | §9–§10 — exceptional condition, ten qualifying reasons, Immediate/Near-Term/Normal with no scoring, entry, continued standing, exit |
+| 4 | Blocker | **Resolved** | §12–§13 — two-part beginning test, enumerated ends, and the rule that removing a blocker does not complete the work |
+| 5 | Dependency | **Resolved** | §11, §13 — dependency defined independently of blocking effect; the same dependency may become blocking or cease to be |
+| 6 | Handoff | **Resolved** | §14–§15 — six preserved distinctions, the authority boundary, and a completion rule where acknowledgment alone is not completion |
+| 7·8·9 | Deadline · Renewal · Follow-Up | **Resolved** | §16–§19 — three separate concepts, with the worked registration example distinguishing all three on one matter |
+| 10 | Operational-instance identity | **Resolved as to authority; technical identity assigned to Development** | §5 supplies the Instance/Record distinction identity must respect; §25 assigns technical representation to Institutional Platform Development. Identity must remain neutral under OSPA S04 §4.50 and S09 §9.32 — a technical identifier may not encode classification or authority |
+| 11·12 | Instance lifecycle · transition semantics | **Resolved** | §24 — no universal lifecycle; transition semantics only for Founder Attention, blocked state, handoff disposition, deadlines, renewals and follow-ups; "implementation convenience is insufficient justification." This is the prospective doctrine `fd-0011` required and forbade inferring from S09 §9.28 |
+| 13 | "Since Last Review" semantics | **Partially resolved** | §7 determines what qualifies as a Material Change and therefore what belongs in the view. The **review event** itself is not defined by the Foundation, and the occurred-before/recorded-after boundary — the failure mode invisible by inspection — is not institutionally settled. `fd-0011` policy fixes Since Last Review as the primary view; Requirements Report §19 Q4 leaves the horizon open. Carried to the Founder Office determinations required before implementation |
+| 14 | Minimal relationship context | **Resolved (bounded)** | Foundation §27 and Requirements Report §9–§10 — relationships matter only where they create a Headquarters operational requirement; a minimal follow-up seam is justified, full relationship doctrine is deferred, CRM is excluded |
+| 15 | Current-state ownership | **Resolved** | §20–§22 — Current-State Ownership versus Operational Representation Responsibility, the "may not convert" boundary, reciprocal responsibilities, and a four-step conflict procedure that forbids silently substituting Headquarters' own conclusion |
+
+**One concept remains partially open (13), and it is a policy question, not
+a semantic gap.** It does not block architecture: the architecture must
+accommodate the answer without presupposing it, and must not silently
+withhold late-recorded matters. It is recorded among the determinations
+required before implementation.
+
+## Concepts excluded — already sufficiently governed
 
 ## Concepts excluded — already sufficiently governed
 

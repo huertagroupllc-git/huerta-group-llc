@@ -2871,6 +2871,122 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "gen1-req-v1",
+      "title": "Huerta Group LLC — Internal Operations & Command Platform — Generation One Requirements Report",
+      "path": "institution/governance/operations/GEN1-REQ-V1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "summary": "The authoritative business/operational requirements record for the bounded Generation One program: Headquarters workflow inventory, fragmentation problems, source-of-truth map, Founder information requirements, attention model, bounded scope, non-goals, and overbuilding risks.",
+      "provenance": {
+        "origin": "Corporate Operations & Command Management (requirements discovery)",
+        "approvalReference": "Accepted as authoritative business/operational requirements in fd-0011; complete source preserved byte-identical under fd-0013. Not architecture, schema, or implementation authority.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "corporate-operations-command-management"
+        }
+      ]
+    },
+    {
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "corp-ops-sem-fnd-v1",
+      "title": "Corporate Operations Semantics Foundation — Version 1",
+      "path": "institution/foundations/operations/CORP-OPS-SEM-FND-V1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "summary": "Adopted prospective operational doctrine establishing the semantics Generation One requires: Operational Instance and Record, State, Material Change, Founder Attention, Dependency, Blocker, Handoff, Deadline, Renewal, Follow-Up, representation responsibility, and ten semantic tests.",
+      "provenance": {
+        "origin": "Corporate Operations & Command Management (prospective doctrine)",
+        "approvalReference": "Adopted by the Founder Office in fd-0012; complete source preserved byte-identical under fd-0013. Prospective authority only; expressly not recovered OSPA.",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "corporate-operations-semantics-foundation-v1-adoption-and-provenance"
+        },
+        {
+          "rel": "references",
+          "target": "ospa-foundation-v1-admission-and-provenance"
+        }
+      ]
+    },
+    {
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "corporate-operations-semantics-foundation-v1-adoption-and-provenance",
+      "title": "Corporate Operations Semantics Foundation v1 — Adoption, Scope, and Provenance",
+      "path": "institution/foundations/operations/corporate-operations-semantics-foundation-v1-adoption-and-provenance.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "summary": "What the Founder Office adopted, the permanent non-OSPA boundary in both directions, the relationship to surviving OSPA, the integrity digest, the separately preserved proposal and adoption states, and the custody chronology.",
+      "provenance": {
+        "origin": "Founder Office (adoption); Institutional Platform Development (record)",
+        "approvalReference": "fd-0012 (adoption); fd-0013 (preservation).",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "canonical-source-preservation"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0012-corporate-operations-semantics-foundation-v1-adoption"
+        }
+      ]
+    },
+    {
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "fd-0013-generation-one-source-preservation-and-architecture-resumption",
+      "title": "fd-0013 — Founder Office Determinations: Generation One Source Preservation, Readiness Reconciliation, and Architecture Resumption",
+      "path": "institution/governance/determinations/fd-0013-generation-one-source-preservation-and-architecture-resumption.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "summary": "Both authoritative sources preserved byte-identical with digests verified before copying; custody deficiencies discharged prospectively without rewriting chronology; readiness reconciled; architecture-resumption gate passed. Implementation remains unauthorized.",
+      "provenance": {
+        "origin": "Founder Office (instrument); Institutional Platform Development (transcription)",
+        "approvalReference": "Generation One Source Preservation, Readiness Reconciliation & Phase 1 Technical Blueprint execution package (recorded in this register).",
+        "effectiveDate": "2026-08-18"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0012-corporate-operations-semantics-foundation-v1-adoption"
+        }
+      ]
     }
   ]
 }

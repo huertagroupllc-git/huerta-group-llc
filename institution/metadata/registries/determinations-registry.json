@@ -337,6 +337,43 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0013",
+      "title": "Founder Office Determinations: Generation One Source Preservation, Readiness Reconciliation, and Architecture Resumption",
+      "path": "institution/governance/determinations/fd-0013-generation-one-source-preservation-and-architecture-resumption.md",
+      "instrument": "Generation One Source Preservation, Readiness Reconciliation & Phase 1 Technical Blueprint execution package (Founder Office → Institutional Platform Development), supplying both complete authoritative sources as files, directing byte-faithful preservation, prospective reconciliation of custody and readiness records without rewriting chronology, and evaluation of the architecture-resumption gate",
+      "dateReceived": "2026-08-18",
+      "recordedDate": "2026-08-18",
+      "determinationCount": 5,
+      "affectedArtifacts": [
+        "institution/governance/operations/GEN1-REQ-V1.md",
+        "institution/foundations/operations/CORP-OPS-SEM-FND-V1.md",
+        "institution/foundations/operations/corporate-operations-semantics-foundation-v1-adoption-and-provenance.md",
+        "institution/foundations/operations/README.md",
+        "institution/governance/operations/generation-one-requirements-report.md",
+        "institution/governance/operations/corporate-operations-semantics-definition-package.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "institution/metadata/manifest.json",
+        "institution/governance/determinations/fd-0013-generation-one-source-preservation-and-architecture-resumption.md"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [
+        {
+          "target": "fd-0012",
+          "nature": "implements"
+        },
+        {
+          "target": "fd-0011",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0010",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
