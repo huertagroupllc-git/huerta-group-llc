@@ -3539,6 +3539,42 @@
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-production-readiness-report",
+      "title": "Internal Operations & Command Platform \u2014 Generation One Production Readiness Report",
+      "path": "institution/governance/operations/generation-one-production-readiness-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Six pre-production conditions complete: durable private remote, tested restore (36 of 36), exact infrastructure cost with nothing purchased, identity posture validated and hardened in three places, four mismatches dispositioned. Recommendation: ready subject to a cost decision.",
+      "provenance": {
+        "origin": "Institutional Platform Development (readiness report)",
+        "approvalReference": "Returned for Founder Office review under the Production Readiness instrument; governed by fd-0014. Evidentiary and non-governing; recommends production authorization and does not grant it.",
+        "effectiveDate": "2026-08-19"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0014-generation-one-construction-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-construction-and-validation-completion-report"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-classification-mismatch-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-headquarters-operating-procedure"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
