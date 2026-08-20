@@ -3575,6 +3575,66 @@
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0015-generation-one-local-operating-posture",
+      "title": "fd-0015 \u2014 Founder Office Determinations: Generation One Local Operating Posture and Production Cost Deferral",
+      "path": "institution/governance/determinations/fd-0015-generation-one-local-operating-posture.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Production expenditure declined and production deferred at the owner/cost gate; the accepted architecture and ADR-0009 unchanged; placement inside the public Supabase project prohibited; authentic Founder use authorized in a LOCAL / PRE-PRODUCTION posture.",
+      "provenance": {
+        "origin": "Founder Office (execution package to Institutional Platform Development)",
+        "approvalReference": "Determination record: evidences Founder Office determinations received 2026-08-19. Creates no authority.",
+        "effectiveDate": "2026-08-19"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0014-generation-one-construction-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-production-readiness-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-local-operations-activation-report",
+      "title": "Generation One \u2014 Local Operations Activation Report",
+      "path": "institution/governance/operations/generation-one-local-operations-activation-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Ready for authentic Founder use once credentials are set. Records the three defects that authentic local data exposed \u2014 a data-destroying validation gate, a published password, and backups sharing the machine \u2014 and the recovery rehearsed from the encrypted off-machine store.",
+      "provenance": {
+        "origin": "Institutional Platform Development (activation report)",
+        "approvalReference": "Returned for Founder Office review under the Local Operations Activation instrument; governed by fd-0015. Evidentiary and non-governing.",
+        "effectiveDate": "2026-08-19"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0015-generation-one-local-operating-posture"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-production-readiness-report"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-headquarters-operating-procedure"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

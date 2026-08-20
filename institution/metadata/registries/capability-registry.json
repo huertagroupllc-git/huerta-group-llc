@@ -346,7 +346,7 @@
     {
       "id": "operations-systems",
       "name": "Operations Systems",
-      "description": "Internal operational capability owned by Corporate Operations & Command Management. Constructed and validated in governed pre-production as the Corporate Operations Register and Founder Attention layer (fd-0014). Runtime lives in the private huertagroupllc-git/huerta-group-operations repository (ADR-0008), outside this corpus. Production launch is NOT AUTHORIZED.",
+      "description": "Internal operational capability owned by Corporate Operations & Command Management. In LOCAL / PRE-PRODUCTION authentic Founder use (fd-0015): constructed, validated, and operating on the Founder's machine with encrypted off-machine backup and rehearsed recovery. Runtime lives in the private huerta-group-operations repository (ADR-0008). Production launch is NOT AUTHORIZED.",
       "category": "internal-operations",
       "maturity": "standby",
       "architecturalDisposition": "future_internal_application",
@@ -388,10 +388,14 @@
         "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
         "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md",
         "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md",
-        "institution/governance/operations/generation-one-classification-mismatch-dispositions.md"
+        "institution/governance/operations/generation-one-classification-mismatch-dispositions.md",
+        "institution/governance/determinations/fd-0015-generation-one-local-operating-posture.md",
+        "institution/governance/operations/generation-one-local-operations-activation-report.md"
       ],
       "unresolvedDecisions": [
         "RECONCILED (fd-0014): implementationReadiness moved from governance_blocked to ready_with_owner_authorization, and maturity from conceptual to standby \u2014 the posture the notification service already established here: implemented and validated, deliberately not activated, awaiting an owner decision. repositoryDisposition moved from unresolved to future_separate_repository per ADR-0008. HISTORICAL POSTURE, preserved and not rewritten: this entry previously recorded that technical architecture was authorized to resume, design only, and that implementation remained NOT AUTHORIZED. That was accurate for its period; the Founder Office construction authorization at fd-0014 is what changed it.",
+        "LOCAL / PRE-PRODUCTION AUTHENTIC USE (fd-0015): the Founder Office declined production expenditure and authorized authentic Founder use locally. maturity stays 'standby' rather than moving to 'operational' because the capability is not activated in production \u2014 local authentic use is expressly not deployment (fd-0015 \u00a72.5) \u2014 and implementationReadiness stays 'ready_with_owner_authorization' because production still awaits owner authorization and cost approval. The architecture is UNCHANGED: the deferral is a capital-allocation decision, ADR-0009 remains controlling, and Generation One may not be placed inside the existing public Supabase project to stay within Free-tier limits.",
+        "OPEN \u2014 the production-cost question is deferred, not closed. It returns to the Founder Office when authentic use demonstrates that persistent hosted availability would materially improve operations, when local operation becomes materially limiting, or when another significant circumstance justifies reconsideration (fd-0015 \u00a73).",
         "FORMALLY DISPOSITIONED (fd-0014; Production Readiness phase): all four governance-classification mismatches are dispositioned rather than corrected, because each is a vocabulary gap and the Founder Office forbade both inventing controlled vocabulary and distorting implementation truth to fit stale vocabulary. architecturalDisposition, repositoryDisposition, identityRequirement and evidencePaths are therefore stale but not false, and the true position is stated in institution/governance/operations/generation-one-classification-mismatch-dispositions.md. identityRequirement is the sharpest: the enum has no 'required' value, so the registry understates the access posture of the only authenticated system the institution operates, and a schema amendment is RECOMMENDED. The fd-0014 determination remains controlling over the registry value in all four.",
         "RESOLVED (Production Readiness phase): the runtime repository is durably preserved at huertagroupllc-git/huerta-group-operations, private, pushed and verified at parity. Backup and recovery are documented and a restore has been tested into an isolated Supabase project, 36 of 36 checks passing including that restored identities authenticate and that the restored register still refuses what the original refuses. HISTORICAL POSTURE, preserved: the runtime previously had no remote and no tested restore, and production readiness was blocked on both.",
         "OPEN \u2014 production launch is NOT AUTHORIZED. The next gate is the Founder Office Generation One Construction & Validation Review. Successful pre-production validation is expressly not implicit production approval.",
@@ -406,7 +410,8 @@
       "evidencePaths": [
         "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md",
         "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md",
-        "institution/decisions/adr-0020-generation-one-identity-provider-selection.md"
+        "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
+        "institution/governance/operations/generation-one-local-operations-activation-report.md"
       ]
     },
     {
