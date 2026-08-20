@@ -3483,6 +3483,62 @@
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-classification-mismatch-dispositions",
+      "title": "Generation One \u2014 Governance-Classification Mismatch Dispositions",
+      "path": "institution/governance/operations/generation-one-classification-mismatch-dispositions.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "All four mismatches formally dispositioned rather than corrected: each is a vocabulary gap, and changing the value would state something untrue while changing the vocabulary was prohibited. A stale registry value is a known limitation; a false one is a defect in the institution's own record.",
+      "provenance": {
+        "origin": "Institutional Platform Development (disposition record)",
+        "approvalReference": "Returned for Founder Office review under the Production Readiness instrument; governed by fd-0014. Evidentiary and non-governing; creates no authority and amends no vocabulary.",
+        "effectiveDate": "2026-08-19"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0014-generation-one-construction-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-construction-and-validation-completion-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-headquarters-operating-procedure",
+      "title": "Generation One \u2014 Initial Headquarters Operating Procedure",
+      "path": "institution/governance/operations/generation-one-headquarters-operating-procedure.md",
+      "type": "standard",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "How to operate the adopted Generation One model: who signs in, who maintains the register, how provenance, State, Material Change, Attention and dependencies are recorded, how stale source truth is represented, how recovery works, and what returns to its source system.",
+      "provenance": {
+        "origin": "Institutional Platform Development (operating procedure)",
+        "approvalReference": "Required by the Production Readiness instrument and governed by fd-0014. Restates the adopted model only: establishes no new operational semantics and expands no authority. Applies from Founder Office authorization of production launch; until then it governs pre-production use.",
+        "effectiveDate": "2026-08-19"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "fd-0014-generation-one-construction-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-construction-and-validation-completion-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
