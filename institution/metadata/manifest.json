@@ -3447,6 +3447,42 @@
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-construction-and-validation-completion-report",
+      "title": "Internal Operations & Command Platform \u2014 Generation One Construction & Validation Completion Report",
+      "path": "institution/governance/operations/generation-one-construction-and-validation-completion-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Development's return to the Founder Office: the Corporate Operations Register and Founder Attention layer constructed and validated in pre-production, the identity-provider selection, eleven inspection repairs, all ten \u00a731 tests answering yes, and the decisions required before production.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned for Founder Office review under the instrument recorded at fd-0014. Evidentiary and non-governing; the report creates no authority and authorizes nothing.",
+        "effectiveDate": "2026-08-19"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0014-generation-one-construction-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "evo-0005-generation-one-construction-and-validation"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0020-generation-one-identity-provider-selection"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
