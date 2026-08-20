@@ -15,7 +15,7 @@
   "documents": [
     {
       "id": "documentation-index",
-      "title": "Huerta Group LLC — Documentation Index",
+      "title": "Huerta Group LLC \u2014 Documentation Index",
       "path": "institution/standards/repository/documentation-index.md",
       "type": "index",
       "classification": "Repository Standard",
@@ -78,11 +78,11 @@
       "classification": "Ratified Constitutional Authority",
       "authorityTier": 1,
       "status": "current",
-      "statusNote": "Records ratified Articles I–III by title only; the verbatim ratified text awaits insertion through the appropriate Company authority. The absence of the full text does not diminish the articles' ratified status.",
-      "summary": "The single canonical repository record of the Huerta Group LLC Constitution — the highest internal authority — with the rules governing the record itself.",
+      "statusNote": "Records ratified Articles I\u2013III by title only; the verbatim ratified text awaits insertion through the appropriate Company authority. The absence of the full text does not diminish the articles' ratified status.",
+      "summary": "The single canonical repository record of the Huerta Group LLC Constitution \u2014 the highest internal authority \u2014 with the rules governing the record itself.",
       "provenance": {
         "origin": null,
-        "approvalReference": "Formally ratified per the document's own status statement; Articles I–III closed to ordinary revision.",
+        "approvalReference": "Formally ratified per the document's own status statement; Articles I\u2013III closed to ordinary revision.",
         "effectiveDate": null
       },
       "versioning": "git-history",
@@ -154,7 +154,7 @@
       "classification": "Development Standards and Architecture Decisions",
       "authorityTier": 4,
       "status": "current",
-      "summary": "Default execution method for consequential development tasks: the bounded builder–inspector–repair loop, verification requirements, protected actions, stop conditions, and evidence-based completion.",
+      "summary": "Default execution method for consequential development tasks: the bounded builder\u2013inspector\u2013repair loop, verification requirements, protected actions, stop conditions, and evidence-based completion.",
       "provenance": {
         "origin": null,
         "approvalReference": null,
@@ -180,7 +180,7 @@
     },
     {
       "id": "launch-readiness",
-      "title": "Launch Readiness — Authoritative Record",
+      "title": "Launch Readiness \u2014 Authoritative Record",
       "path": "docs/launch/launch-readiness.md",
       "type": "status-record",
       "classification": "Current Implementation Documentation",
@@ -370,7 +370,7 @@
     },
     {
       "id": "adr-0002-public-website-boundary",
-      "title": "ADR-0002 — Public Website Boundary",
+      "title": "ADR-0002 \u2014 Public Website Boundary",
       "path": "institution/decisions/adr-0002-public-website-boundary.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -398,7 +398,7 @@
     },
     {
       "id": "adr-0003-application-and-repository-boundaries",
-      "title": "ADR-0003 — Application and Repository Boundary Strategy",
+      "title": "ADR-0003 \u2014 Application and Repository Boundary Strategy",
       "path": "institution/decisions/adr-0003-application-and-repository-boundaries.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -426,7 +426,7 @@
     },
     {
       "id": "adr-0004-data-ownership-and-supabase-boundary",
-      "title": "ADR-0004 — Data Ownership and Supabase Boundary",
+      "title": "ADR-0004 \u2014 Data Ownership and Supabase Boundary",
       "path": "institution/decisions/adr-0004-data-ownership-and-supabase-boundary.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -454,7 +454,7 @@
     },
     {
       "id": "adr-0005-environment-strategy",
-      "title": "ADR-0005 — Environment Strategy",
+      "title": "ADR-0005 \u2014 Environment Strategy",
       "path": "institution/decisions/adr-0005-environment-strategy.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -482,7 +482,7 @@
     },
     {
       "id": "adr-0006-identity-and-access-direction",
-      "title": "ADR-0006 — Identity and Access Direction",
+      "title": "ADR-0006 \u2014 Identity and Access Direction",
       "path": "institution/decisions/adr-0006-identity-and-access-direction.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -510,7 +510,7 @@
     },
     {
       "id": "adr-0001-institutional-knowledge-foundation",
-      "title": "ADR-0001 — Institutional Knowledge Foundation",
+      "title": "ADR-0001 \u2014 Institutional Knowledge Foundation",
       "path": "institution/decisions/adr-0001-institutional-knowledge-foundation.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -552,7 +552,7 @@
       "summary": "The canonical repository record of the complete approved Methodology Foundation v1: definition and scope, five-layer architecture, work progression, asset distinctions, lifecycle, authority, disclosure, the eight initial Method Library records, technical boundaries, and unresolved matters.",
       "provenance": {
         "origin": "Methodology room",
-        "approvalReference": "Determination “METHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 3 implementing authorization (recorded in the document).",
+        "approvalReference": "Determination \u201cMETHOD LIBRARY FOUNDATION READY FOR TECHNICAL IMPLEMENTATION\u201d transmitted with the Phase 3 implementing authorization (recorded in the document).",
         "effectiveDate": null
       },
       "relationships": [
@@ -571,7 +571,7 @@
     },
     {
       "id": "method-library-architecture",
-      "title": "Institutional Method Library — Technical Architecture",
+      "title": "Institutional Method Library \u2014 Technical Architecture",
       "path": "institution/technical/method-library-architecture.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
@@ -599,16 +599,16 @@
     },
     {
       "id": "mr-0002-institutional-methodology-definition-and-scope",
-      "title": "mr-0002 — Institutional Methodology Definition and Scope",
+      "title": "mr-0002 \u2014 Institutional Methodology Definition and Scope",
       "path": "institution/foundations/methodology/records/mr-0002-institutional-methodology-definition-and-scope.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Approved internal doctrine: the §1.1 definition of institutional methodology, the ten approved scope domains, the §1.3 exclusions, and the technology-support boundary.",
+      "summary": "Approved internal doctrine: the \u00a71.1 definition of institutional methodology, the ten approved scope domains, the \u00a71.3 exclusions, and the technology-support boundary.",
       "provenance": {
         "origin": "Methodology room",
-        "approvalReference": "Methodology Foundation v1 §§1.1–1.3 (authority basis recorded on the registry record)",
+        "approvalReference": "Methodology Foundation v1 \u00a7\u00a71.1\u20131.3 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -623,16 +623,16 @@
     },
     {
       "id": "mr-0003-methodological-architecture-v1",
-      "title": "mr-0003 — Methodological Architecture v1",
+      "title": "mr-0003 \u2014 Methodological Architecture v1",
       "path": "institution/foundations/methodology/records/mr-0003-methodological-architecture-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Approved internal framework: the five authoritative methodological layers (Doctrine, Domains, Asset Classes, Application Adaptations, Evidence and Evolution) with the §2.2 incomplete areas; explicitly incomplete by design.",
+      "summary": "Approved internal framework: the five authoritative methodological layers (Doctrine, Domains, Asset Classes, Application Adaptations, Evidence and Evolution) with the \u00a72.2 incomplete areas; explicitly incomplete by design.",
       "provenance": {
         "origin": "Methodology room",
-        "approvalReference": "Methodology Foundation v1 §2 (authority basis recorded on the registry record)",
+        "approvalReference": "Methodology Foundation v1 \u00a72 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -647,7 +647,7 @@
     },
     {
       "id": "mr-0004-organizational-improvement-work-progression-v1",
-      "title": "mr-0004 — Organizational Improvement Work Progression v1",
+      "title": "mr-0004 \u2014 Organizational Improvement Work Progression v1",
       "path": "institution/foundations/methodology/records/mr-0004-organizational-improvement-work-progression-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -656,7 +656,7 @@
       "summary": "Approved principle-level progression (understood, defined, examined, improved, implemented, verified, sustained, learned) as a non-numbered, non-automated reference framework.",
       "provenance": {
         "origin": "Methodology room",
-        "approvalReference": "Methodology Foundation v1 §3 (authority basis recorded on the registry record)",
+        "approvalReference": "Methodology Foundation v1 \u00a73 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -671,7 +671,7 @@
     },
     {
       "id": "mr-0005-methodological-asset-classification-standard-v1",
-      "title": "mr-0005 — Methodological Asset Classification Standard v1",
+      "title": "mr-0005 \u2014 Methodological Asset Classification Standard v1",
       "path": "institution/foundations/methodology/records/mr-0005-methodological-asset-classification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -680,7 +680,7 @@
       "summary": "Approved asset-type distinctions for Method Library records, with provisional candidate types recorded but not assignable.",
       "provenance": {
         "origin": "Methodology room",
-        "approvalReference": "Methodology Foundation v1 §4 (authority basis recorded on the registry record)",
+        "approvalReference": "Methodology Foundation v1 \u00a74 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -695,7 +695,7 @@
     },
     {
       "id": "mr-0006-methodological-lifecycle-and-maturity-standard-v1",
-      "title": "mr-0006 — Methodological Lifecycle and Maturity Standard v1",
+      "title": "mr-0006 \u2014 Methodological Lifecycle and Maturity Standard v1",
       "path": "institution/foundations/methodology/records/mr-0006-methodological-lifecycle-and-maturity-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -704,7 +704,7 @@
       "summary": "Approved lifecycle statuses and the five separate readiness designations; dimensions are never collapsed; superseded records are preserved.",
       "provenance": {
         "origin": "Methodology room",
-        "approvalReference": "Methodology Foundation v1 §5 (authority basis recorded on the registry record)",
+        "approvalReference": "Methodology Foundation v1 \u00a75 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -719,7 +719,7 @@
     },
     {
       "id": "mr-0007-methodological-authority-versioning-and-supersession-standard-v1",
-      "title": "mr-0007 — Methodological Authority, Versioning, and Supersession Standard v1",
+      "title": "mr-0007 \u2014 Methodological Authority, Versioning, and Supersession Standard v1",
       "path": "institution/foundations/methodology/records/mr-0007-methodological-authority-versioning-and-supersession-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -728,7 +728,7 @@
       "summary": "Approved standard for methodological authority (interim configurable Founder rule), substantive-vs-clerical changes, versioning, supersession, and recorded disagreement.",
       "provenance": {
         "origin": "Methodology room",
-        "approvalReference": "Methodology Foundation v1 §6 (authority basis recorded on the registry record)",
+        "approvalReference": "Methodology Foundation v1 \u00a76 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -743,7 +743,7 @@
     },
     {
       "id": "mr-0008-methodological-disclosure-classification-standard-v1",
-      "title": "mr-0008 — Methodological Disclosure Classification Standard v1",
+      "title": "mr-0008 \u2014 Methodological Disclosure Classification Standard v1",
       "path": "institution/foundations/methodology/records/mr-0008-methodological-disclosure-classification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -752,7 +752,7 @@
       "summary": "Approved disclosure and adaptation distinctions; disclosure classes are handling classes, never legal claims; all initial records are internal.",
       "provenance": {
         "origin": "Methodology room",
-        "approvalReference": "Methodology Foundation v1 §7 (authority basis recorded on the registry record)",
+        "approvalReference": "Methodology Foundation v1 \u00a77 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -776,7 +776,7 @@
       "summary": "The canonical repository record of the complete approved Intellectual Property Foundation v1: definition and scope, eleven governance dimensions, seventeen asset classes, lifecycle, authority, disclosure, the six initial repository records, technical boundaries, dependencies, and unresolved matters.",
       "provenance": {
         "origin": "Intellectual Property room",
-        "approvalReference": "Determination “INTELLECTUAL PROPERTY FOUNDATION V1 READY FOR TECHNICAL IMPLEMENTATION” transmitted with the Phase 4 implementing authorization (recorded in the document).",
+        "approvalReference": "Determination \u201cINTELLECTUAL PROPERTY FOUNDATION V1 READY FOR TECHNICAL IMPLEMENTATION\u201d transmitted with the Phase 4 implementing authorization (recorded in the document).",
         "effectiveDate": null
       },
       "relationships": [
@@ -795,7 +795,7 @@
     },
     {
       "id": "ip-repository-architecture",
-      "title": "Institutional Intellectual Property Repository — Technical Architecture",
+      "title": "Institutional Intellectual Property Repository \u2014 Technical Architecture",
       "path": "institution/technical/ip-repository-architecture.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
@@ -823,16 +823,16 @@
     },
     {
       "id": "ip-0002-institutional-intellectual-property-definition-and-scope",
-      "title": "ip-0002 — Institutional Intellectual Property Definition and Scope",
+      "title": "ip-0002 \u2014 Institutional Intellectual Property Definition and Scope",
       "path": "institution/foundations/intellectual-property/records/ip-0002-institutional-intellectual-property-definition-and-scope.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Approved governing doctrine for institutional IP definition, admission criteria, scope, relationships, and exclusions, summarizing Foundation §§1.1–1.13; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Approved governing doctrine for institutional IP definition, admission criteria, scope, relationships, and exclusions, summarizing Foundation \u00a7\u00a71.1\u20131.13; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Intellectual Property room",
-        "approvalReference": "Intellectual Property Foundation v1 §§1.1–1.13 (authority basis recorded on the registry record)",
+        "approvalReference": "Intellectual Property Foundation v1 \u00a7\u00a71.1\u20131.13 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -847,7 +847,7 @@
     },
     {
       "id": "ip-0003-intellectual-property-asset-classification-standard-v1",
-      "title": "ip-0003 — Intellectual Property Asset Classification Standard v1",
+      "title": "ip-0003 \u2014 Intellectual Property Asset Classification Standard v1",
       "path": "institution/foundations/intellectual-property/records/ip-0003-intellectual-property-asset-classification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -856,7 +856,7 @@
       "summary": "Approved asset classes (seventeen), classification principles, composite treatment, and provisional-class limitations for institutional IP records.",
       "provenance": {
         "origin": "Intellectual Property room",
-        "approvalReference": "Intellectual Property Foundation v1 §3 (authority basis recorded on the registry record)",
+        "approvalReference": "Intellectual Property Foundation v1 \u00a73 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -871,7 +871,7 @@
     },
     {
       "id": "ip-0004-intellectual-property-lifecycle-standard-v1",
-      "title": "ip-0004 — Intellectual Property Lifecycle Standard v1",
+      "title": "ip-0004 \u2014 Intellectual Property Lifecycle Standard v1",
       "path": "institution/foundations/intellectual-property/records/ip-0004-intellectual-property-lifecycle-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -880,7 +880,7 @@
       "summary": "Approved lifecycle states, IP governance statuses, nine independent readiness dimensions, maturity levels, supersession, and archival principles; dimensions never collapsed.",
       "provenance": {
         "origin": "Intellectual Property room",
-        "approvalReference": "Intellectual Property Foundation v1 §4 (authority basis recorded on the registry record)",
+        "approvalReference": "Intellectual Property Foundation v1 \u00a74 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -895,7 +895,7 @@
     },
     {
       "id": "ip-0005-intellectual-property-authority-standard-v1",
-      "title": "ip-0005 — Intellectual Property Authority Standard v1",
+      "title": "ip-0005 \u2014 Intellectual Property Authority Standard v1",
       "path": "institution/foundations/intellectual-property/records/ip-0005-intellectual-property-authority-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -904,7 +904,7 @@
       "summary": "Approved admission requirements and authority boundaries among substantive rooms, IP authority, knowledge architecture, technical custody, and Corporate Headquarters; approval authority configurable.",
       "provenance": {
         "origin": "Intellectual Property room",
-        "approvalReference": "Intellectual Property Foundation v1 §5 (authority basis recorded on the registry record)",
+        "approvalReference": "Intellectual Property Foundation v1 \u00a75 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -919,7 +919,7 @@
     },
     {
       "id": "ip-0006-intellectual-property-disclosure-standard-v1",
-      "title": "ip-0006 — Intellectual Property Disclosure Standard v1",
+      "title": "ip-0006 \u2014 Intellectual Property Disclosure Standard v1",
       "path": "institution/foundations/intellectual-property/records/ip-0006-intellectual-property-disclosure-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -928,7 +928,7 @@
       "summary": "Approved disclosure classifications with separate origin, adaptation, ownership, rights, and legal-confirmation treatment; no legal ownership or protection determinations.",
       "provenance": {
         "origin": "Intellectual Property room",
-        "approvalReference": "Intellectual Property Foundation v1 §6 (authority basis recorded on the registry record)",
+        "approvalReference": "Intellectual Property Foundation v1 \u00a76 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -952,7 +952,7 @@
       "summary": "The canonical repository record of the complete approved Education & Workforce Development Foundation v1: doctrine, architecture, competency model, classifications, lifecycle and readiness, authority, quality, technology and AI boundaries, the twelve initial records, and unresolved matters.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Determination “EDUCATION PLATFORM FOUNDATION READY FOR TECHNICAL IMPLEMENTATION” transmitted with the implementing authorization (recorded in the document).",
+        "approvalReference": "Determination \u201cEDUCATION PLATFORM FOUNDATION READY FOR TECHNICAL IMPLEMENTATION\u201d transmitted with the implementing authorization (recorded in the document).",
         "effectiveDate": null
       },
       "relationships": [
@@ -971,7 +971,7 @@
     },
     {
       "id": "education-platform-architecture",
-      "title": "Education Platform Foundation — Technical Architecture",
+      "title": "Education Platform Foundation \u2014 Technical Architecture",
       "path": "institution/technical/education-platform-architecture.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
@@ -999,16 +999,16 @@
     },
     {
       "id": "ed-0002-education-definition-and-scope-standard-v1",
-      "title": "ed-0002 — Education Definition and Scope Standard v1",
+      "title": "ed-0002 \u2014 Education Definition and Scope Standard v1",
       "path": "institution/foundations/education/records/ed-0002-education-definition-and-scope-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Define education, workforce development, capability development, competency-based learning, organizational education, professional education, and knowledge transfer. Summarizes Foundation §2; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Define education, workforce development, capability development, competency-based learning, organizational education, professional education, and knowledge transfer. Summarizes Foundation \u00a72; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §2, §18.2 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a72, \u00a718.2 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1023,16 +1023,16 @@
     },
     {
       "id": "ed-0003-educational-doctrine-and-philosophy-standard-v1",
-      "title": "ed-0003 — Educational Doctrine and Philosophy Standard v1",
+      "title": "ed-0003 \u2014 Educational Doctrine and Philosophy Standard v1",
       "path": "institution/foundations/education/records/ed-0003-educational-doctrine-and-philosophy-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Establish enduring principles governing Huerta Group education. Summarizes Foundation §3; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Establish enduring principles governing Huerta Group education. Summarizes Foundation \u00a73; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §3, §18.3 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a73, \u00a718.3 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1047,16 +1047,16 @@
     },
     {
       "id": "ed-0004-educational-architecture-standard-v1",
-      "title": "ed-0004 — Educational Architecture Standard v1",
+      "title": "ed-0004 \u2014 Educational Architecture Standard v1",
       "path": "institution/foundations/education/records/ed-0004-educational-architecture-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Define the approved high-level layers and relationships of Huerta Group's educational system. Summarizes Foundation §4; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Define the approved high-level layers and relationships of Huerta Group's educational system. Summarizes Foundation \u00a74; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §4, §18.4 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a74, \u00a718.4 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1071,16 +1071,16 @@
     },
     {
       "id": "ed-0005-capability-and-competency-architecture-standard-v1",
-      "title": "ed-0005 — Capability and Competency Architecture Standard v1",
+      "title": "ed-0005 \u2014 Capability and Competency Architecture Standard v1",
       "path": "institution/foundations/education/records/ed-0005-capability-and-competency-architecture-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Define core competency concepts and the minimum record architecture needed to represent them. Summarizes Foundation §6; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Define core competency concepts and the minimum record architecture needed to represent them. Summarizes Foundation \u00a76; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §6, §18.5 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a76, \u00a718.5 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1095,16 +1095,16 @@
     },
     {
       "id": "ed-0006-educational-asset-classification-standard-v1",
-      "title": "ed-0006 — Educational Asset Classification Standard v1",
+      "title": "ed-0006 \u2014 Educational Asset Classification Standard v1",
       "path": "institution/foundations/education/records/ed-0006-educational-asset-classification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Establish approved and provisional educational asset types without approving specific offerings. Summarizes Foundation §7; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Establish approved and provisional educational asset types without approving specific offerings. Summarizes Foundation \u00a77; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §7, §18.6 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a77, \u00a718.6 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1119,16 +1119,16 @@
     },
     {
       "id": "ed-0007-educational-lifecycle-and-readiness-standard-v1",
-      "title": "ed-0007 — Educational Lifecycle and Readiness Standard v1",
+      "title": "ed-0007 \u2014 Educational Lifecycle and Readiness Standard v1",
       "path": "institution/foundations/education/records/ed-0007-educational-lifecycle-and-readiness-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Define content maturity, program maturity, readiness dimensions, supersession, retirement, and archival treatment. Summarizes Foundation §11; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Define content maturity, program maturity, readiness dimensions, supersession, retirement, and archival treatment. Summarizes Foundation \u00a711; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §11, §18.7 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a711, \u00a718.7 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1143,16 +1143,16 @@
     },
     {
       "id": "ed-0008-educational-authority-and-approval-standard-v1",
-      "title": "ed-0008 — Educational Authority and Approval Standard v1",
+      "title": "ed-0008 \u2014 Educational Authority and Approval Standard v1",
       "path": "institution/foundations/education/records/ed-0008-educational-authority-and-approval-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Define how educational assets become authoritative while preserving peer-room authority and configurable future governance. Summarizes Foundation §12; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Define how educational assets become authoritative while preserving peer-room authority and configurable future governance. Summarizes Foundation \u00a712; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §12, §18.8 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a712, \u00a718.8 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1167,16 +1167,16 @@
     },
     {
       "id": "ed-0009-assessment-and-competency-verification-standard-v1",
-      "title": "ed-0009 — Assessment and Competency Verification Standard v1",
+      "title": "ed-0009 \u2014 Assessment and Competency Verification Standard v1",
       "path": "institution/foundations/education/records/ed-0009-assessment-and-competency-verification-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Define assessment distinctions, evidence concepts, human judgment requirements, and AI boundaries. Summarizes Foundation §9; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Define assessment distinctions, evidence concepts, human judgment requirements, and AI boundaries. Summarizes Foundation \u00a79; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §9, §18.9 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a79, \u00a718.9 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1191,16 +1191,16 @@
     },
     {
       "id": "ed-0010-educational-quality-and-evidence-standard-v1",
-      "title": "ed-0010 — Educational Quality and Evidence Standard v1",
+      "title": "ed-0010 \u2014 Educational Quality and Evidence Standard v1",
       "path": "institution/foundations/education/records/ed-0010-educational-quality-and-evidence-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Define the initial quality dimensions and metadata required for governed educational development. Summarizes Foundation §13; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Define the initial quality dimensions and metadata required for governed educational development. Summarizes Foundation \u00a713; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §13, §18.10 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a713, \u00a718.10 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1215,16 +1215,16 @@
     },
     {
       "id": "ed-0011-educational-technology-and-ai-boundary-standard-v1",
-      "title": "ed-0011 — Educational Technology and AI Boundary Standard v1",
+      "title": "ed-0011 \u2014 Educational Technology and AI Boundary Standard v1",
       "path": "institution/foundations/education/records/ed-0011-educational-technology-and-ai-boundary-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Define what educational technology may support and what it may not determine independently. Summarizes Foundation §16; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Define what educational technology may support and what it may not determine independently. Summarizes Foundation \u00a716; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §16, §18.11 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a716, \u00a718.11 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1239,16 +1239,16 @@
     },
     {
       "id": "ed-0012-educational-source-traceability-standard-v1",
-      "title": "ed-0012 — Educational Source Traceability Standard v1",
+      "title": "ed-0012 \u2014 Educational Source Traceability Standard v1",
       "path": "institution/foundations/education/records/ed-0012-educational-source-traceability-standard-v1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Govern relationships among educational assets, methodology, intellectual property, institutional knowledge, publishing, public adaptations, and software. Summarizes Foundation §17; the Foundation source remains authoritative wherever they differ.",
+      "summary": "Govern relationships among educational assets, methodology, intellectual property, institutional knowledge, publishing, public adaptations, and software. Summarizes Foundation \u00a717; the Foundation source remains authoritative wherever they differ.",
       "provenance": {
         "origin": "Education & Workforce Development room",
-        "approvalReference": "Education & Workforce Development Foundation v1 §17, §18.12 (authority basis recorded on the registry record)",
+        "approvalReference": "Education & Workforce Development Foundation v1 \u00a717, \u00a718.12 (authority basis recorded on the registry record)",
         "effectiveDate": null
       },
       "relationships": [
@@ -1263,7 +1263,7 @@
     },
     {
       "id": "claude-entry-instructions",
-      "title": "CLAUDE.md — AI contributor entry instructions",
+      "title": "CLAUDE.md \u2014 AI contributor entry instructions",
       "path": "CLAUDE.md",
       "type": "standard",
       "classification": "Repository Standard",
@@ -1292,7 +1292,7 @@
     },
     {
       "id": "agents-entry-instructions",
-      "title": "AGENTS.md — agent authority and execution rules",
+      "title": "AGENTS.md \u2014 agent authority and execution rules",
       "path": "AGENTS.md",
       "type": "standard",
       "classification": "Repository Standard",
@@ -1317,13 +1317,13 @@
     },
     {
       "id": "institution-readme",
-      "title": "institution/ — Canonical Institutional Governance Assets",
+      "title": "institution/ \u2014 Canonical Institutional Governance Assets",
       "path": "institution/README.md",
       "type": "index",
       "classification": "Current Implementation Documentation",
       "authorityTier": "non-governing",
       "status": "current",
-      "summary": "Orientation map of the institution/ layer architecture: which area holds which authority class, with the rule that placement expresses but never creates authority, and that the repository is one institutional asset — not the institution.",
+      "summary": "Orientation map of the institution/ layer architecture: which area holds which authority class, with the rule that placement expresses but never creates authority, and that the repository is one institutional asset \u2014 not the institution.",
       "provenance": {
         "origin": "Platform & Systems Development",
         "approvalReference": "Repository Foundation migration (Deliverables C/D as modified by Founder Office).",
@@ -1347,7 +1347,7 @@
       "classification": "Current Implementation Documentation",
       "authorityTier": "non-governing",
       "status": "current",
-      "summary": "Repository-native record of institutionally material operational facts (deployment workflow, account scopes, credential locations, production-data protections, standing service states) per determination D-6 — AI memory is a convenience cache, never authoritative.",
+      "summary": "Repository-native record of institutionally material operational facts (deployment workflow, account scopes, credential locations, production-data protections, standing service states) per determination D-6 \u2014 AI memory is a convenience cache, never authoritative.",
       "provenance": {
         "origin": "Platform & Systems Development",
         "approvalReference": "Founder Office determination D-6 (Deliverable C instrument), recorded in institution/governance/determinations/.",
@@ -1373,7 +1373,7 @@
     },
     {
       "id": "fd-0001-governance-audit-instrument-determinations",
-      "title": "fd-0001 — Founder Office Determinations: Governance Mechanism Audit Instrument",
+      "title": "fd-0001 \u2014 Founder Office Determinations: Governance Mechanism Audit Instrument",
       "path": "institution/governance/determinations/fd-0001-governance-audit-instrument-determinations.md",
       "summary": "Verbatim record of the six Founder Office determinations issued with the Deliverable B instrument (OSPA staging, Design System deferral, Constitution deferral, provenance sequencing, index classification, Branding recognition).",
       "provenance": {
@@ -1397,7 +1397,7 @@
     },
     {
       "id": "fd-0002-repository-architecture-determinations",
-      "title": "fd-0002 — Founder Office Determinations: Proposed Repository Architecture Instrument (D-1…D-8)",
+      "title": "fd-0002 \u2014 Founder Office Determinations: Proposed Repository Architecture Instrument (D-1\u2026D-8)",
       "path": "institution/governance/determinations/fd-0002-repository-architecture-determinations.md",
       "summary": "Verbatim record of determinations D-1 through D-8 issued with the Deliverable C instrument (index placement, model-neutral standards, workbench, CI architecture, canonical-source preservation, repository-native governance, consolidation, entry-file governance).",
       "provenance": {
@@ -1421,7 +1421,7 @@
     },
     {
       "id": "fd-0003-migration-execution-determinations",
-      "title": "fd-0003 — Founder Office Determinations: Migration and Evolution Log Execution Instrument (FO-1…FO-7)",
+      "title": "fd-0003 \u2014 Founder Office Determinations: Migration and Evolution Log Execution Instrument (FO-1\u2026FO-7)",
       "path": "institution/governance/determinations/fd-0003-migration-execution-determinations.md",
       "summary": "Verbatim record of determinations FO-1 through FO-7 (single repository, institution-is-not-the-repository language, churn minimization, repository-standard scope, website protection, Evolution Log sequencing, verified completion) and the OSPA recovery-set recognition.",
       "provenance": {
@@ -1445,9 +1445,9 @@
     },
     {
       "id": "fd-0004-deliverable-acceptance-and-provenance-record",
-      "title": "fd-0004 — Deliverable Acceptance History and Approval-Provenance Deficiency Record",
+      "title": "fd-0004 \u2014 Deliverable Acceptance History and Approval-Provenance Deficiency Record",
       "path": "institution/governance/determinations/fd-0004-deliverable-acceptance-and-provenance-record.md",
-      "summary": "Acceptance history of Deliverables A through D as stated by the instruments, and the seven recorded approval-provenance deficiencies for pre-register events — recorded, never invented.",
+      "summary": "Acceptance history of Deliverables A through D as stated by the instruments, and the seven recorded approval-provenance deficiencies for pre-register events \u2014 recorded, never invented.",
       "provenance": {
         "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
         "approvalReference": "Founder Office determinations D-4 (fd sequencing) and D-6 (repository-native governance), Deliverable B/C instruments; register introduced by the migration execution instrument (fd-0003).",
@@ -1469,7 +1469,7 @@
     },
     {
       "id": "canonical-source-preservation",
-      "title": "Canonical Source Preservation — Repository Standard",
+      "title": "Canonical Source Preservation \u2014 Repository Standard",
       "path": "institution/standards/repository/canonical-source-preservation.md",
       "type": "standard",
       "classification": "Repository Standard",
@@ -1497,11 +1497,11 @@
     },
     {
       "id": "repository-verification",
-      "title": "Repository Verification — Repository Standard",
+      "title": "Repository Verification \u2014 Repository Standard",
       "path": "institution/standards/repository/repository-verification.md",
       "type": "standard",
       "classification": "Repository Standard",
-      "summary": "Defines the canonical verification gate (npm run verify): composition of the nine validators and build checks, the before-push rule, CI enforcement as backstop, and the prohibition on weakening checks — the single consolidation point per determination D-7.",
+      "summary": "Defines the canonical verification gate (npm run verify): composition of the nine validators and build checks, the before-push rule, CI enforcement as backstop, and the prohibition on weakening checks \u2014 the single consolidation point per determination D-7.",
       "provenance": {
         "origin": "Platform & Systems Development",
         "approvalReference": "Founder Office determinations D-4 and D-7 (fd-0002) and the migration execution instrument (fd-0003).",
@@ -1529,7 +1529,7 @@
     },
     {
       "id": "adr-0007-repository-foundation-migration",
-      "title": "ADR-0007 — Repository Foundation Migration and Canonical Corpus Rescoping",
+      "title": "ADR-0007 \u2014 Repository Foundation Migration and Canonical Corpus Rescoping",
       "path": "institution/decisions/adr-0007-repository-foundation-migration.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -1589,7 +1589,7 @@
     },
     {
       "id": "evolution-log-index",
-      "title": "Institutional Evolution Log — Index",
+      "title": "Institutional Evolution Log \u2014 Index",
       "path": "institution/evolution/INDEX.md",
       "type": "index",
       "classification": "Institutional Record",
@@ -1613,7 +1613,7 @@
     },
     {
       "id": "evolution-log-template",
-      "title": "Institutional Evolution Log — Record Template",
+      "title": "Institutional Evolution Log \u2014 Record Template",
       "path": "institution/evolution/TEMPLATE.md",
       "type": "standard",
       "classification": "Repository Standard",
@@ -1637,13 +1637,13 @@
     },
     {
       "id": "evo-0001-repository-foundation-migration",
-      "title": "evo-0001 — Repository Foundation Migration and Evolution Log Activation",
+      "title": "evo-0001 \u2014 Repository Foundation Migration and Evolution Log Activation",
       "path": "institution/evolution/records/evo-0001-repository-foundation-migration.md",
       "type": "status-record",
       "classification": "Institutional Record",
       "authorityTier": "non-governing",
       "status": "current",
-      "summary": "Phase Zero evolution record: the single-repository migration into the institution/ architecture, the determinations register, workbench, gate and CI, standard amendments, and the log's activation — evidenced by fd-0001..fd-0004 and ADR-0007.",
+      "summary": "Phase Zero evolution record: the single-repository migration into the institution/ architecture, the determinations register, workbench, gate and CI, standard amendments, and the log's activation \u2014 evidenced by fd-0001..fd-0004 and ADR-0007.",
       "provenance": {
         "origin": "Platform & Systems Development",
         "approvalReference": "Migration execution instrument (fd-0003).",
@@ -1669,7 +1669,7 @@
     },
     {
       "id": "fd-0005-design-system-implementation-unblocked",
-      "title": "fd-0005 — Founder Office Determinations: Design System Implementation Unblocked",
+      "title": "fd-0005 \u2014 Founder Office Determinations: Design System Implementation Unblocked",
       "path": "institution/governance/determinations/fd-0005-design-system-implementation-unblocked.md",
       "type": "decision-record",
       "classification": "Institutional Record",
@@ -1693,7 +1693,7 @@
     },
     {
       "id": "fd-0006-public-copy-truth-alignment-determinations",
-      "title": "fd-0006 — Founder Office Determinations: Public Copy Truth Alignment — Phase 1 (FO-01…FO-06)",
+      "title": "fd-0006 \u2014 Founder Office Determinations: Public Copy Truth Alignment \u2014 Phase 1 (FO-01\u2026FO-06)",
       "path": "institution/governance/determinations/fd-0006-public-copy-truth-alignment-determinations.md",
       "type": "decision-record",
       "classification": "Institutional Record",
@@ -1702,7 +1702,7 @@
       "summary": "Verbatim record of the Phase 1 Public Copy Truth Alignment determinations: audit acceptance, phase boundaries, Publishing exclusion, parent/venture reservation, client-language and Education/Managed Services truth rules, and the FVO observation preserved at proposed state.",
       "provenance": {
         "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
-        "approvalReference": "Public Copy Truth Alignment — Phase 1 task instrument (recorded in this register).",
+        "approvalReference": "Public Copy Truth Alignment \u2014 Phase 1 task instrument (recorded in this register).",
         "effectiveDate": null
       },
       "relationships": [
@@ -1717,7 +1717,7 @@
     },
     {
       "id": "fd-0007-corporate-venture-governance-fd-v1-admission",
-      "title": "fd-0007 — Founder Office Determinations: Corporate Venture Governance — FD-V1 Admission, FD-V9, FD-V10",
+      "title": "fd-0007 \u2014 Founder Office Determinations: Corporate Venture Governance \u2014 FD-V1 Admission, FD-V9, FD-V10",
       "path": "institution/governance/determinations/fd-0007-corporate-venture-governance-fd-v1-admission.md",
       "type": "decision-record",
       "classification": "Institutional Record",
@@ -1726,7 +1726,7 @@
       "summary": "Verbatim record of the venture-governance determinations: FD-V1 admission of Huerta Group Publishing as the first chartered venture, FD-V9 (graduation never automatic), FD-V10 (success is fulfillment of chartered purpose), and the pre-charter/admission historical distinction.",
       "provenance": {
         "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
-        "approvalReference": "Corporate Venture Governance — Phase 3 task instrument (recorded in this register).",
+        "approvalReference": "Corporate Venture Governance \u2014 Phase 3 task instrument (recorded in this register).",
         "effectiveDate": null
       },
       "relationships": [
@@ -1741,7 +1741,7 @@
     },
     {
       "id": "corporate-venture-governance-phase1-blueprint",
-      "title": "Corporate Venture Governance — Phase 1 Blueprint (Approved)",
+      "title": "Corporate Venture Governance \u2014 Phase 1 Blueprint (Approved)",
       "path": "institution/governance/ventures/corporate-venture-governance-phase1-blueprint.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -1769,7 +1769,7 @@
     },
     {
       "id": "fd-v1-huerta-group-publishing-venture-determination-and-charter",
-      "title": "FD-V1 — Huerta Group Publishing: Venture Determination & Charter (Approved)",
+      "title": "FD-V1 \u2014 Huerta Group Publishing: Venture Determination & Charter (Approved)",
       "path": "institution/governance/ventures/fd-v1-huerta-group-publishing-venture-determination-and-charter.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -1797,7 +1797,7 @@
     },
     {
       "id": "evo-0004-first-venture-admission-huerta-group-publishing",
-      "title": "evo-0004 — First Venture Formally Admitted: Huerta Group Publishing (FD-V1)",
+      "title": "evo-0004 \u2014 First Venture Formally Admitted: Huerta Group Publishing (FD-V1)",
       "path": "institution/evolution/records/evo-0004-first-venture-admission-huerta-group-publishing.md",
       "type": "status-record",
       "classification": "Institutional Record",
@@ -1825,7 +1825,7 @@
     },
     {
       "id": "design-area-charter",
-      "title": "institution/design/ — Design System Reference-Implementation Records",
+      "title": "institution/design/ \u2014 Design System Reference-Implementation Records",
       "path": "institution/design/README.md",
       "type": "standard",
       "classification": "Repository Standard",
@@ -1853,7 +1853,7 @@
     },
     {
       "id": "website-phase1-inventory",
-      "title": "Website Phase 1 Inventory — Existing-State Design Inventory",
+      "title": "Website Phase 1 Inventory \u2014 Existing-State Design Inventory",
       "path": "institution/design/website-phase1-inventory.md",
       "type": "status-record",
       "classification": "Institutional Record",
@@ -1878,7 +1878,7 @@
     },
     {
       "id": "ddr-0001-token-architecture-single-primitive-layer",
-      "title": "ddr-0001 — Token Architecture: Single Primitive Layer with Documented Roles",
+      "title": "ddr-0001 \u2014 Token Architecture: Single Primitive Layer with Documented Roles",
       "path": "institution/design/decisions/ddr-0001-token-architecture-single-primitive-layer.md",
       "summary": "Phase 1 token decision: keep the single primitive brand-named token layer with documented roles; no parallel semantic alias layer without a second consumer; unused color primitives retained as reserved; one addition (tracking-eyebrow).",
       "provenance": {
@@ -1902,7 +1902,7 @@
     },
     {
       "id": "ddr-0002-eyebrow-tracking-unification",
-      "title": "ddr-0002 — Eyebrow Letter-Spacing Unified at 0.25em via Token",
+      "title": "ddr-0002 \u2014 Eyebrow Letter-Spacing Unified at 0.25em via Token",
       "path": "institution/design/decisions/ddr-0002-eyebrow-tracking-unification.md",
       "summary": "Resolves the inventory's top inconsistency: one eyebrow tracking value (0.25em) as the tracking-eyebrow token, applied by the shared Eyebrow component across heroes, sections, and CTA bands.",
       "provenance": {
@@ -1926,7 +1926,7 @@
     },
     {
       "id": "ddr-0003-motion-rule-ease-brand",
-      "title": "ddr-0003 — Motion Rule: Color Transitions Only, 200 ms, Brand Easing",
+      "title": "ddr-0003 \u2014 Motion Rule: Color Transitions Only, 200 ms, Brand Easing",
       "path": "institution/design/decisions/ddr-0003-motion-rule-ease-brand.md",
       "summary": "Motion rule for the reference implementation: color transitions only at 200 ms with the activated --ease-brand token; no transforms, entrances, or new durations in Phase 1; reduced-motion behavior unchanged.",
       "provenance": {
@@ -1950,7 +1950,7 @@
     },
     {
       "id": "ddr-0004-phase1-component-extraction",
-      "title": "ddr-0004 — Phase 1 Component Extraction and Classification",
+      "title": "ddr-0004 \u2014 Phase 1 Component Extraction and Classification",
       "path": "institution/design/decisions/ddr-0004-phase1-component-extraction.md",
       "summary": "Extracts six evidence-backed components (Eyebrow, Button/ButtonLink, ArrowLink primitives; PullQuote standard; PageHero, CtaBand composites), adopts CTA-row/404/disabled normalizations, and lists the patterns deliberately retained as implementation-specific.",
       "provenance": {
@@ -1974,7 +1974,7 @@
     },
     {
       "id": "ddr-0005-accessibility-interaction-rules",
-      "title": "ddr-0005 — Phase 1 Accessibility and Interaction Rules",
+      "title": "ddr-0005 \u2014 Phase 1 Accessibility and Interaction Rules",
       "path": "institution/design/decisions/ddr-0005-accessibility-interaction-rules.md",
       "summary": "Accessibility rules adopted with Phase 1: aria-current plus emphasized tone on the active navigation route via shared NavLink, decorative glyphs hidden from assistive technology, uniform disabled treatment, and the retained dual focus convention.",
       "provenance": {
@@ -1998,7 +1998,7 @@
     },
     {
       "id": "gr-0001-primary-cta-label",
-      "title": "gr-0001 — Primary CTA Label Duality",
+      "title": "gr-0001 \u2014 Primary CTA Label Duality",
       "path": "institution/design/recommendations/gr-0001-primary-cta-label.md",
       "summary": "Non-authoritative recommendation: Branding with Design System should determine whether one label or a deliberate two-label rule governs the primary contact action; Phase 1 preserves both labels verbatim.",
       "provenance": {
@@ -2022,7 +2022,7 @@
     },
     {
       "id": "gr-0002-semantic-status-color",
-      "title": "gr-0002 — Semantic Status Color Layer",
+      "title": "gr-0002 \u2014 Semantic Status Color Layer",
       "path": "institution/design/recommendations/gr-0002-semantic-status-color.md",
       "summary": "Non-authoritative recommendation: decide before richer feedback UI whether the palette gains a semantic status layer distinct from brand gold; gold-as-error retained unchanged in Phase 1 with passing contrast.",
       "provenance": {
@@ -2046,7 +2046,7 @@
     },
     {
       "id": "gr-0003-navigation-capacity-ceiling",
-      "title": "gr-0003 — Navigation Capacity Ceiling",
+      "title": "gr-0003 \u2014 Navigation Capacity Ceiling",
       "path": "institution/design/recommendations/gr-0003-navigation-capacity-ceiling.md",
       "summary": "Non-authoritative recommendation: a Design System navigation-architecture decision should precede any future public page or navigation addition, given the measured xl-breakpoint overflow ceiling.",
       "provenance": {
@@ -2070,7 +2070,7 @@
     },
     {
       "id": "gr-0004-design-record-classification",
-      "title": "gr-0004 — Dedicated Manifest Classification for Design Records",
+      "title": "gr-0004 \u2014 Dedicated Manifest Classification for Design Records",
       "path": "institution/design/recommendations/gr-0004-design-record-classification.md",
       "summary": "Non-authoritative recommendation: revisit a dedicated taxonomy value and registry/validator pair for design records once volume or a Design System Foundation admission justifies it.",
       "provenance": {
@@ -2094,13 +2094,13 @@
     },
     {
       "id": "evo-0002-design-system-reference-implementation-phase1",
-      "title": "evo-0002 — Design System Reference Implementation Activated (Phase 1)",
+      "title": "evo-0002 \u2014 Design System Reference Implementation Activated (Phase 1)",
       "path": "institution/evolution/records/evo-0002-design-system-reference-implementation-phase1.md",
       "type": "status-record",
       "classification": "Institutional Record",
       "authorityTier": "non-governing",
       "status": "current",
-      "summary": "Evolution record: Phase 1 activated the reference-implementation model — inventory preserved as evidence, DDR/GR practices established, first evidence-gated design assets adopted across every route, and render-diff neutrality verification validated.",
+      "summary": "Evolution record: Phase 1 activated the reference-implementation model \u2014 inventory preserved as evidence, DDR/GR practices established, first evidence-gated design assets adopted across every route, and render-diff neutrality verification validated.",
       "provenance": {
         "origin": "Platform & Systems Development",
         "approvalReference": "fd-0005; Institutional Evolution Log governance.",
@@ -2122,9 +2122,9 @@
     },
     {
       "id": "ddr-0006-typography-refinement",
-      "title": "ddr-0006 — Phase 2 Typographic Refinement",
+      "title": "ddr-0006 \u2014 Phase 2 Typographic Refinement",
       "path": "institution/design/decisions/ddr-0006-typography-refinement.md",
-      "summary": "Display tightening token, text-balance/text-pretty wrapping, hero presence (leading 1.08, max-w-4xl), PullQuote scale-up, and the Problems titles joining the serif system — fonts and body sizes unchanged.",
+      "summary": "Display tightening token, text-balance/text-pretty wrapping, hero presence (leading 1.08, max-w-4xl), PullQuote scale-up, and the Problems titles joining the serif system \u2014 fonts and body sizes unchanged.",
       "provenance": {
         "origin": "Design System (decision) / Platform & Systems Development (implementation)",
         "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
@@ -2146,7 +2146,7 @@
     },
     {
       "id": "ddr-0007-editorial-split-composition",
-      "title": "ddr-0007 — Editorial Split-Section Composition",
+      "title": "ddr-0007 \u2014 Editorial Split-Section Composition",
       "path": "institution/design/decisions/ddr-0007-editorial-split-composition.md",
       "summary": "Section layout=split places headers beside narrow content stacks on a 12-column grid at lg (33 adopters; wide grids stay stacked), eliminating the dead right half that made pages read as templated.",
       "provenance": {
@@ -2170,7 +2170,7 @@
     },
     {
       "id": "ddr-0008-cta-and-hero-presence",
-      "title": "ddr-0008 — Asymmetric CTA Composition and Hero Presence",
+      "title": "ddr-0008 \u2014 Asymmetric CTA Composition and Hero Presence",
       "path": "institution/design/decisions/ddr-0008-cta-and-hero-presence.md",
       "summary": "CtaBand becomes an asymmetric raised band (heading left, baseline-aligned actions right; centered variant retired); standard heroes gain arrival presence and a closing datum hairline.",
       "provenance": {
@@ -2194,7 +2194,7 @@
     },
     {
       "id": "ddr-0009-quiet-numerals-and-open-cards",
-      "title": "ddr-0009 — Quiet Numeral System and Open Editorial Cards",
+      "title": "ddr-0009 \u2014 Quiet Numeral System and Open Editorial Cards",
       "path": "institution/design/decisions/ddr-0009-quiet-numerals-and-open-cards.md",
       "summary": "Ordinal markers become large quiet gunmetal serif numerals (activating the reserved primitive); Capabilities cards abandon the boxed SaaS recipe for the site-wide top-border editorial language.",
       "provenance": {
@@ -2218,9 +2218,9 @@
     },
     {
       "id": "ddr-0010-interaction-state-language",
-      "title": "ddr-0010 — Interaction-State Language and the Directional Micro-Translate",
+      "title": "ddr-0010 \u2014 Interaction-State Language and the Directional Micro-Translate",
       "path": "institution/design/decisions/ddr-0010-interaction-state-language.md",
-      "summary": "Phase 3 interaction rules: form-field hover/focus/caret states on existing tokens, pressed-state button feedback, and the single sanctioned extension of the motion rule — a 2px brand-eased directional micro-translate on the ArrowLink glyph.",
+      "summary": "Phase 3 interaction rules: form-field hover/focus/caret states on existing tokens, pressed-state button feedback, and the single sanctioned extension of the motion rule \u2014 a 2px brand-eased directional micro-translate on the ArrowLink glyph.",
       "provenance": {
         "origin": "Design System (decision) / Platform & Systems Development (implementation)",
         "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
@@ -2242,13 +2242,13 @@
     },
     {
       "id": "evo-0003-editorial-design-language-emergence",
-      "title": "evo-0003 — A Distinctive Editorial Design Language Emerged Through the Reference Implementation",
+      "title": "evo-0003 \u2014 A Distinctive Editorial Design Language Emerged Through the Reference Implementation",
       "path": "institution/evolution/records/evo-0003-editorial-design-language-emergence.md",
       "type": "status-record",
       "classification": "Institutional Record",
       "authorityTier": "non-governing",
       "status": "current",
-      "summary": "Evolution record of the Phase 2/3 design-language emergence: split composition, quiet numerals, the hairline rule system, asymmetric bands, restrained display, and the disciplined interaction voice — recorded as implementation evidence, expressly not doctrine pending the deferred Foundation.",
+      "summary": "Evolution record of the Phase 2/3 design-language emergence: split composition, quiet numerals, the hairline rule system, asymmetric bands, restrained display, and the disciplined interaction voice \u2014 recorded as implementation evidence, expressly not doctrine pending the deferred Foundation.",
       "provenance": {
         "origin": "Platform & Systems Development",
         "approvalReference": "Phase 3 instrument step 11; Evolution Log governance; fd-0005.",
@@ -2270,7 +2270,7 @@
     },
     {
       "id": "fd-0008-corporate-venture-governance-fd-v2-register-topology",
-      "title": "fd-0008 — Founder Office Determination: Corporate Venture Governance — FD-V2 Venture Register Topology",
+      "title": "fd-0008 \u2014 Founder Office Determination: Corporate Venture Governance \u2014 FD-V2 Venture Register Topology",
       "path": "institution/governance/determinations/fd-0008-corporate-venture-governance-fd-v2-register-topology.md",
       "type": "decision-record",
       "classification": "Institutional Record",
@@ -2279,7 +2279,7 @@
       "summary": "Verbatim record of the FD-V2 register-topology determination: institutional vs. operational planes, the parent register confirmed as the single institutional-plane register, defined standing for venture operational records, and the preserved authority context of historical venture records.",
       "provenance": {
         "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
-        "approvalReference": "FD-V2 — Venture Register Topology Repository Institutionalization execution package (recorded in this register).",
+        "approvalReference": "FD-V2 \u2014 Venture Register Topology Repository Institutionalization execution package (recorded in this register).",
         "effectiveDate": null
       },
       "relationships": [
@@ -2294,7 +2294,7 @@
     },
     {
       "id": "fd-v2-venture-register-topology-determination",
-      "title": "FD-V2 — Venture Register Topology Determination (Approved)",
+      "title": "FD-V2 \u2014 Venture Register Topology Determination (Approved)",
       "path": "institution/governance/ventures/fd-v2-venture-register-topology-determination.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2322,16 +2322,16 @@
     },
     {
       "id": "fd-0009-corporate-venture-governance-fd-v4-approval-and-fd-v11",
-      "title": "fd-0009 — Founder Office Determinations: Corporate Venture Governance — FD-V4 Approval, FD-V11 (as transmitted)",
+      "title": "fd-0009 \u2014 Founder Office Determinations: Corporate Venture Governance \u2014 FD-V4 Approval, FD-V11 (as transmitted)",
       "path": "institution/governance/determinations/fd-0009-corporate-venture-governance-fd-v4-approval-and-fd-v11.md",
       "type": "decision-record",
       "classification": "Institutional Record",
       "authorityTier": "non-governing",
       "status": "current",
-      "summary": "Verbatim record of the FD-V4 approval (venture representation model, truth boundary, representation before linking) and FD-V11's transmitted substance with its recorded provenance deficiency — the complete FD-V11 text was never transmitted and is not reconstructed.",
+      "summary": "Verbatim record of the FD-V4 approval (venture representation model, truth boundary, representation before linking) and FD-V11's transmitted substance with its recorded provenance deficiency \u2014 the complete FD-V11 text was never transmitted and is not reconstructed.",
       "provenance": {
         "origin": "Founder Office (instrument); Platform & Systems Development (transcription)",
-        "approvalReference": "FD-V4 — Parent Platform Representation Institutionalization & Alignment execution package (recorded in this register).",
+        "approvalReference": "FD-V4 \u2014 Parent Platform Representation Institutionalization & Alignment execution package (recorded in this register).",
         "effectiveDate": null
       },
       "relationships": [
@@ -2346,7 +2346,7 @@
     },
     {
       "id": "fd-v4-parent-platform-representation",
-      "title": "FD-V4 — Parent Platform Representation (Approved)",
+      "title": "FD-V4 \u2014 Parent Platform Representation (Approved)",
       "path": "institution/governance/ventures/fd-v4-parent-platform-representation.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2374,7 +2374,7 @@
     },
     {
       "id": "fd-0010-corporate-operations-governance-methodology-readiness-phase1",
-      "title": "fd-0010 — Founder Office Determinations: Corporate Operations & Command Platform — Governance & Methodology Readiness Phase 1",
+      "title": "fd-0010 \u2014 Founder Office Determinations: Corporate Operations & Command Platform \u2014 Governance & Methodology Readiness Phase 1",
       "path": "institution/governance/determinations/fd-0010-corporate-operations-governance-methodology-readiness-phase1.md",
       "type": "decision-record",
       "classification": "Institutional Record",
@@ -2383,7 +2383,7 @@
       "summary": "Verbatim record of the Governance & Methodology Readiness Phase 1 instrument: execution principles, Generation One requirements status, the reservation of FD-V7, and three recorded deficiencies (fd-0001 conflict; untransmitted Requirements Report; untransmitted establishing instrument).",
       "provenance": {
         "origin": "Founder Office (instrument); Institutional Platform Development (transcription)",
-        "approvalReference": "Corporate Operations & Command Platform — Governance & Methodology Readiness, Phase 1 execution package (recorded in this register).",
+        "approvalReference": "Corporate Operations & Command Platform \u2014 Governance & Methodology Readiness, Phase 1 execution package (recorded in this register).",
         "effectiveDate": "2026-08-18"
       },
       "relationships": [
@@ -2406,7 +2406,7 @@
     },
     {
       "id": "corporate-operations-command-management",
-      "title": "Corporate Operations & Command Management — Institutional Function Record",
+      "title": "Corporate Operations & Command Management \u2014 Institutional Function Record",
       "path": "institution/governance/operations/corporate-operations-command-management.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2434,7 +2434,7 @@
     },
     {
       "id": "generation-one-requirements-report",
-      "title": "Generation One Requirements Report — Repository Status Record",
+      "title": "Generation One Requirements Report \u2014 Repository Status Record",
       "path": "institution/governance/operations/generation-one-requirements-report.md",
       "type": "status-record",
       "classification": "Institutional Record",
@@ -2462,7 +2462,7 @@
     },
     {
       "id": "fd-v7-evidence-package",
-      "title": "FD-V7 Evidence Package — Surviving Recovered OSPA Sections",
+      "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
       "type": "status-record",
       "classification": "Institutional Record",
@@ -2526,7 +2526,7 @@
     },
     {
       "id": "operations-systems-capability-trigger-reassessment",
-      "title": "operations-systems Capability Trigger — Reassessment",
+      "title": "operations-systems Capability Trigger \u2014 Reassessment",
       "path": "institution/governance/operations/operations-systems-capability-trigger-reassessment.md",
       "type": "status-record",
       "classification": "Institutional Record",
@@ -2558,13 +2558,13 @@
     },
     {
       "id": "ospa-fnd-v1-s01",
-      "title": "Operating Systems & Process Architecture Foundation v1 — Section 1: Definition, Scope, and Institutional Authority",
+      "title": "Operating Systems & Process Architecture Foundation v1 \u2014 Section 1: Definition, Scope, and Institutional Authority",
       "path": "institution/foundations/operations/OSPA-FND-V1-S01.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Admitted recovered canonical OSPA text: Operations’ institutional definition and scope, out-of-scope matters, the authority boundary among Operations and adjacent domains, repository representation, and foundational distinctions. Authority limited strictly to surviving text.",
+      "summary": "Admitted recovered canonical OSPA text: Operations\u2019 institutional definition and scope, out-of-scope matters, the authority boundary among Operations and adjacent domains, repository representation, and foundational distinctions. Authority limited strictly to surviving text.",
       "provenance": {
         "origin": "Operating Systems & Process Architecture (foundation authority); recovered canonical source",
         "approvalReference": "Recognized as recovered canonical source in fd-0003; admitted to the canonical corpus by FD-V7, recorded in fd-0011. Authority limited strictly to surviving text; sections S05-S08 and S11-S15 are permanently unavailable.",
@@ -2586,13 +2586,13 @@
     },
     {
       "id": "ospa-fnd-v1-s02",
-      "title": "Operating Systems & Process Architecture Foundation v1 — Section 2: Operational Doctrine",
+      "title": "Operating Systems & Process Architecture Foundation v1 \u2014 Section 2: Operational Doctrine",
       "path": "institution/foundations/operations/OSPA-FND-V1-S02.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Admitted recovered canonical OSPA text: the six institutional principles governing operational interpretation — meaning before representation, explicit governance, explicit authority, explicit responsibility, conceptual integrity, stable semantics — with evidence and preservation doctrine.",
+      "summary": "Admitted recovered canonical OSPA text: the six institutional principles governing operational interpretation \u2014 meaning before representation, explicit governance, explicit authority, explicit responsibility, conceptual integrity, stable semantics \u2014 with evidence and preservation doctrine.",
       "provenance": {
         "origin": "Operating Systems & Process Architecture (foundation authority); recovered canonical source",
         "approvalReference": "Recognized as recovered canonical source in fd-0003; admitted to the canonical corpus by FD-V7, recorded in fd-0011. Authority limited strictly to surviving text; sections S05-S08 and S11-S15 are permanently unavailable.",
@@ -2614,7 +2614,7 @@
     },
     {
       "id": "ospa-fnd-v1-s03",
-      "title": "Operating Systems & Process Architecture Foundation v1 — Section 3: Operating Architecture",
+      "title": "Operating Systems & Process Architecture Foundation v1 \u2014 Section 3: Operating Architecture",
       "path": "institution/foundations/operations/OSPA-FND-V1-S03.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2642,13 +2642,13 @@
     },
     {
       "id": "ospa-fnd-v1-s04",
-      "title": "Operating Systems & Process Architecture Foundation v1 — Section 4: Operational Domains and Hierarchy",
+      "title": "Operating Systems & Process Architecture Foundation v1 \u2014 Section 4: Operational Domains and Hierarchy",
       "path": "institution/foundations/operations/OSPA-FND-V1-S04.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
       "authorityTier": 3,
       "status": "current",
-      "summary": "Admitted recovered canonical OSPA text: operational domain architecture — definition, scope, boundaries, relationships, ownership, stewardship, lifecycle, classification, and the identifier, naming, and metadata neutrality rules with prohibited domain inferences.",
+      "summary": "Admitted recovered canonical OSPA text: operational domain architecture \u2014 definition, scope, boundaries, relationships, ownership, stewardship, lifecycle, classification, and the identifier, naming, and metadata neutrality rules with prohibited domain inferences.",
       "provenance": {
         "origin": "Operating Systems & Process Architecture (foundation authority); recovered canonical source",
         "approvalReference": "Recognized as recovered canonical source in fd-0003; admitted to the canonical corpus by FD-V7, recorded in fd-0011. Authority limited strictly to surviving text; sections S05-S08 and S11-S15 are permanently unavailable.",
@@ -2670,7 +2670,7 @@
     },
     {
       "id": "ospa-fnd-v1-s09",
-      "title": "Operating Systems & Process Architecture Foundation v1 — Section 9: Operational Lifecycle and Status",
+      "title": "Operating Systems & Process Architecture Foundation v1 \u2014 Section 9: Operational Lifecycle and Status",
       "path": "institution/foundations/operations/OSPA-FND-V1-S09.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2698,7 +2698,7 @@
     },
     {
       "id": "ospa-fnd-v1-s10",
-      "title": "Operating Systems & Process Architecture Foundation v1 — Section 10: Controls, Evidence, and Auditability",
+      "title": "Operating Systems & Process Architecture Foundation v1 \u2014 Section 10: Controls, Evidence, and Auditability",
       "path": "institution/foundations/operations/OSPA-FND-V1-S10.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2726,7 +2726,7 @@
     },
     {
       "id": "ospa-foundation-v1-admission-and-provenance",
-      "title": "Operating Systems & Process Architecture Foundation v1 — Admission, Scope, and Provenance",
+      "title": "Operating Systems & Process Architecture Foundation v1 \u2014 Admission, Scope, and Provenance",
       "path": "institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2758,7 +2758,7 @@
     },
     {
       "id": "operations-foundation-directory-guide",
-      "title": "Operations Foundation — Directory Guide",
+      "title": "Operations Foundation \u2014 Directory Guide",
       "path": "institution/foundations/operations/README.md",
       "type": "index",
       "classification": "Repository Standard",
@@ -2786,7 +2786,7 @@
     },
     {
       "id": "corporate-operations-semantics-definition-package",
-      "title": "Corporate Operations Semantics — Definition Package",
+      "title": "Corporate Operations Semantics \u2014 Definition Package",
       "path": "institution/governance/operations/corporate-operations-semantics-definition-package.md",
       "type": "status-record",
       "classification": "Institutional Record",
@@ -2818,7 +2818,7 @@
     },
     {
       "id": "fd-0011-fd-v7-ospa-admission-and-phase1-dispositions",
-      "title": "fd-0011 — Founder Office Determinations: FD-V7 OSPA Admission and Phase 1 Dispositions",
+      "title": "fd-0011 \u2014 Founder Office Determinations: FD-V7 OSPA Admission and Phase 1 Dispositions",
       "path": "institution/governance/determinations/fd-0011-fd-v7-ospa-admission-and-phase1-dispositions.md",
       "type": "decision-record",
       "classification": "Institutional Record",
@@ -2827,7 +2827,7 @@
       "summary": "Verbatim record of six Founder Office determinations: FD-V7 OSPA canonical admission with its surviving-text boundary, the narrow fd-0001 custody exception, Requirements Report authority, the fired operations-systems trigger, S09 applicability limits, and the prohibition on inferring transition.",
       "provenance": {
         "origin": "Founder Office (instrument); Institutional Platform Development (transcription)",
-        "approvalReference": "Corporate Operations & Command Platform — Governance & Methodology Readiness Phase 2 execution package (recorded in this register).",
+        "approvalReference": "Corporate Operations & Command Platform \u2014 Governance & Methodology Readiness Phase 2 execution package (recorded in this register).",
         "effectiveDate": "2026-08-18"
       },
       "relationships": [
@@ -2846,7 +2846,7 @@
     },
     {
       "id": "fd-0012-corporate-operations-semantics-foundation-v1-adoption",
-      "title": "fd-0012 — Founder Office Determinations: Corporate Operations Semantics Foundation V1 Adoption; Generation One Source-Transmission Deficiency",
+      "title": "fd-0012 \u2014 Founder Office Determinations: Corporate Operations Semantics Foundation V1 Adoption; Generation One Source-Transmission Deficiency",
       "path": "institution/governance/determinations/fd-0012-corporate-operations-semantics-foundation-v1-adoption.md",
       "type": "decision-record",
       "classification": "Institutional Record",
@@ -2878,7 +2878,7 @@
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
       "id": "gen1-req-v1",
-      "title": "Huerta Group LLC — Internal Operations & Command Platform — Generation One Requirements Report",
+      "title": "Huerta Group LLC \u2014 Internal Operations & Command Platform \u2014 Generation One Requirements Report",
       "path": "institution/governance/operations/GEN1-REQ-V1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2906,7 +2906,7 @@
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
       "id": "corp-ops-sem-fnd-v1",
-      "title": "Corporate Operations Semantics Foundation — Version 1",
+      "title": "Corporate Operations Semantics Foundation \u2014 Version 1",
       "path": "institution/foundations/operations/CORP-OPS-SEM-FND-V1.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2934,7 +2934,7 @@
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
       "id": "corporate-operations-semantics-foundation-v1-adoption-and-provenance",
-      "title": "Corporate Operations Semantics Foundation v1 — Adoption, Scope, and Provenance",
+      "title": "Corporate Operations Semantics Foundation v1 \u2014 Adoption, Scope, and Provenance",
       "path": "institution/foundations/operations/corporate-operations-semantics-foundation-v1-adoption-and-provenance.md",
       "type": "governing-record",
       "classification": "Approved Methodology, Governance, and Policy",
@@ -2966,7 +2966,7 @@
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
       "id": "fd-0013-generation-one-source-preservation-and-architecture-resumption",
-      "title": "fd-0013 — Founder Office Determinations: Generation One Source Preservation, Readiness Reconciliation, and Architecture Resumption",
+      "title": "fd-0013 \u2014 Founder Office Determinations: Generation One Source Preservation, Readiness Reconciliation, and Architecture Resumption",
       "path": "institution/governance/determinations/fd-0013-generation-one-source-preservation-and-architecture-resumption.md",
       "type": "decision-record",
       "classification": "Institutional Record",
@@ -2990,7 +2990,7 @@
     },
     {
       "id": "generation-one-operations-platform-architecture",
-      "title": "Internal Operations & Command Platform — Generation One Phase 1 Technical Blueprint",
+      "title": "Internal Operations & Command Platform \u2014 Generation One Phase 1 Technical Blueprint",
       "path": "institution/technical/generation-one-operations-platform-architecture.md",
       "type": "standard",
       "classification": "Development Standards and Architecture Decisions",
@@ -3026,7 +3026,7 @@
     },
     {
       "id": "adr-0008-generation-one-module-placement",
-      "title": "ADR-0008 — Generation One Module Placement",
+      "title": "ADR-0008 \u2014 Generation One Module Placement",
       "path": "institution/decisions/adr-0008-generation-one-module-placement.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3054,7 +3054,7 @@
     },
     {
       "id": "adr-0009-generation-one-operational-data-topology",
-      "title": "ADR-0009 — Generation One Operational Data Topology",
+      "title": "ADR-0009 \u2014 Generation One Operational Data Topology",
       "path": "institution/decisions/adr-0009-generation-one-operational-data-topology.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3082,7 +3082,7 @@
     },
     {
       "id": "adr-0010-operational-identity-and-representation-model",
-      "title": "ADR-0010 — Operational Identity and Representation Model",
+      "title": "ADR-0010 \u2014 Operational Identity and Representation Model",
       "path": "institution/decisions/adr-0010-operational-identity-and-representation-model.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3110,7 +3110,7 @@
     },
     {
       "id": "adr-0011-state-change-and-attention-representation",
-      "title": "ADR-0011 — State, Change, and Attention Representation",
+      "title": "ADR-0011 \u2014 State, Change, and Attention Representation",
       "path": "institution/decisions/adr-0011-state-change-and-attention-representation.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3138,7 +3138,7 @@
     },
     {
       "id": "adr-0012-dependency-blocker-and-handoff-representation",
-      "title": "ADR-0012 — Dependency, Blocker, and Handoff Representation",
+      "title": "ADR-0012 \u2014 Dependency, Blocker, and Handoff Representation",
       "path": "institution/decisions/adr-0012-dependency-blocker-and-handoff-representation.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3166,7 +3166,7 @@
     },
     {
       "id": "adr-0013-deadline-renewal-and-follow-up-representation",
-      "title": "ADR-0013 — Deadline, Renewal, and Follow-Up Representation",
+      "title": "ADR-0013 \u2014 Deadline, Renewal, and Follow-Up Representation",
       "path": "institution/decisions/adr-0013-deadline-renewal-and-follow-up-representation.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3194,7 +3194,7 @@
     },
     {
       "id": "adr-0014-founder-attention-lifecycle-and-priority",
-      "title": "ADR-0014 — Founder Attention Lifecycle and Priority",
+      "title": "ADR-0014 \u2014 Founder Attention Lifecycle and Priority",
       "path": "institution/decisions/adr-0014-founder-attention-lifecycle-and-priority.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3222,7 +3222,7 @@
     },
     {
       "id": "adr-0015-source-provenance-and-representation-freshness",
-      "title": "ADR-0015 — Source Provenance and Representation Freshness",
+      "title": "ADR-0015 \u2014 Source Provenance and Representation Freshness",
       "path": "institution/decisions/adr-0015-source-provenance-and-representation-freshness.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3250,7 +3250,7 @@
     },
     {
       "id": "adr-0016-audit-history-and-since-last-review",
-      "title": "ADR-0016 — Audit, History, and Since Last Review",
+      "title": "ADR-0016 \u2014 Audit, History, and Since Last Review",
       "path": "institution/decisions/adr-0016-audit-history-and-since-last-review.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3278,7 +3278,7 @@
     },
     {
       "id": "adr-0017-generation-one-identity-authentication-and-authorization",
-      "title": "ADR-0017 — Generation One Identity, Authentication, and Authorization",
+      "title": "ADR-0017 \u2014 Generation One Identity, Authentication, and Authorization",
       "path": "institution/decisions/adr-0017-generation-one-identity-authentication-and-authorization.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3306,7 +3306,7 @@
     },
     {
       "id": "adr-0018-generation-one-environment-architecture",
-      "title": "ADR-0018 — Generation One Environment Architecture",
+      "title": "ADR-0018 \u2014 Generation One Environment Architecture",
       "path": "institution/decisions/adr-0018-generation-one-environment-architecture.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3334,7 +3334,7 @@
     },
     {
       "id": "adr-0019-generation-one-auditability-and-validation-architecture",
-      "title": "ADR-0019 — Generation One Auditability and Validation Architecture",
+      "title": "ADR-0019 \u2014 Generation One Auditability and Validation Architecture",
       "path": "institution/decisions/adr-0019-generation-one-auditability-and-validation-architecture.md",
       "type": "decision-record",
       "classification": "Development Standards and Architecture Decisions",
@@ -3355,6 +3355,94 @@
         {
           "rel": "references",
           "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "adr-0020-generation-one-identity-provider-selection",
+      "title": "ADR-0020 \u2014 Generation One Identity Provider Selection",
+      "path": "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "Supabase Auth on the project ADR-0009 already requires, selected against ADR-0006's criteria and decided on portability: the dependency is one JWT claim read inside row-level policies. Shared-identity topology is left to the second consumer's ADR.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Accepted per the document's own status line under the ADR practice ratification rule. ADR-G1-13 of the Generation One ADR program; the bounded identity-provider evaluation and selection authorized by fd-0014, within Development's delegated technical authority. No Founder Office return trigger fired.",
+        "effectiveDate": "2026-08-19"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0017-generation-one-identity-authentication-and-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0014-generation-one-construction-authorization",
+      "title": "fd-0014 \u2014 Founder Office Determinations: Generation One Construction Authorization and Bounded Construction",
+      "path": "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "ADR package and technical architecture accepted; bounded identity-provider evaluation and Generation One construction authorized in governed non-production environments; recorded_at determined as the Since Last Review boundary; four policy questions deferred; production launch withheld.",
+      "provenance": {
+        "origin": "Founder Office (execution package to Institutional Platform Development)",
+        "approvalReference": "Determination record: evidences Founder Office determinations received 2026-08-19; authority resides with the Founder Office and the artifacts the determinations govern. The record creates no authority.",
+        "effectiveDate": "2026-08-19"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0013-generation-one-source-preservation-and-architecture-resumption"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-operations-platform-architecture"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evo-0005-generation-one-construction-and-validation",
+      "title": "evo-0005 \u2014 Generation One Constructed and Validated in Pre-Production: the First Authenticated Institutional System",
+      "path": "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The first authenticated institutional system exists: the Corporate Operations Register and Founder Attention layer, built and validated in governed pre-production in a separate repository and Supabase project. Records eleven inspection repairs and the readiness reconciliation.",
+      "provenance": {
+        "origin": "Institutional Platform Development (evolution record)",
+        "approvalReference": "Evolution record under the Evolution Log standard: evidences the evolution, creates none. Authorized by fd-0014; the log records evolution and never authorizes it.",
+        "effectiveDate": "2026-08-19"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0014-generation-one-construction-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0020-generation-one-identity-provider-selection"
         }
       ],
       "disclosure": "repository-internal",

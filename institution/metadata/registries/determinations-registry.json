@@ -5,7 +5,7 @@
       "id": "fd-0001",
       "title": "Founder Office Determinations: Governance Mechanism Audit Instrument",
       "path": "institution/governance/determinations/fd-0001-governance-audit-instrument-determinations.md",
-      "instrument": "Repository Foundation Project — Phase 1 — Deliverable B task instrument (Founder Office → Platform & Systems Development)",
+      "instrument": "Repository Foundation Project \u2014 Phase 1 \u2014 Deliverable B task instrument (Founder Office \u2192 Platform & Systems Development)",
       "dateReceived": "2026-08-07",
       "recordedDate": "2026-08-08",
       "determinationCount": 6,
@@ -24,9 +24,9 @@
     },
     {
       "id": "fd-0002",
-      "title": "Founder Office Determinations: Proposed Repository Architecture Instrument (D-1…D-8)",
+      "title": "Founder Office Determinations: Proposed Repository Architecture Instrument (D-1\u2026D-8)",
       "path": "institution/governance/determinations/fd-0002-repository-architecture-determinations.md",
-      "instrument": "Repository Foundation Project — Phase 1 — Deliverable C task instrument (Founder Office → Platform & Systems Development)",
+      "instrument": "Repository Foundation Project \u2014 Phase 1 \u2014 Deliverable C task instrument (Founder Office \u2192 Platform & Systems Development)",
       "dateReceived": "2026-08-08",
       "recordedDate": "2026-08-08",
       "determinationCount": 8,
@@ -54,9 +54,9 @@
     },
     {
       "id": "fd-0003",
-      "title": "Founder Office Determinations: Migration and Evolution Log Execution Instrument (FO-1…FO-7)",
+      "title": "Founder Office Determinations: Migration and Evolution Log Execution Instrument (FO-1\u2026FO-7)",
       "path": "institution/governance/determinations/fd-0003-migration-execution-determinations.md",
-      "instrument": "Repository Foundation Project — Repository Migration and Institutional Evolution Log Activation task instrument (Founder Office → Platform & Systems Development)",
+      "instrument": "Repository Foundation Project \u2014 Repository Migration and Institutional Evolution Log Activation task instrument (Founder Office \u2192 Platform & Systems Development)",
       "dateReceived": "2026-08-08",
       "recordedDate": "2026-08-08",
       "determinationCount": 7,
@@ -102,7 +102,7 @@
       "id": "fd-0005",
       "title": "Founder Office Determinations: Design System Implementation Unblocked",
       "path": "institution/governance/determinations/fd-0005-design-system-implementation-unblocked.md",
-      "instrument": "Huerta Group Design System Reference Implementation — Phase 1 task instrument (Founder Office / Design System → Platform & Systems Development), incorporating the Design System Implementation Authorization and Unblocked determinations",
+      "instrument": "Huerta Group Design System Reference Implementation \u2014 Phase 1 task instrument (Founder Office / Design System \u2192 Platform & Systems Development), incorporating the Design System Implementation Authorization and Unblocked determinations",
       "dateReceived": "2026-08-08",
       "recordedDate": "2026-08-08",
       "determinationCount": 6,
@@ -126,9 +126,9 @@
     },
     {
       "id": "fd-0006",
-      "title": "Founder Office Determinations: Public Copy Truth Alignment — Phase 1 (FO-01…FO-06)",
+      "title": "Founder Office Determinations: Public Copy Truth Alignment \u2014 Phase 1 (FO-01\u2026FO-06)",
       "path": "institution/governance/determinations/fd-0006-public-copy-truth-alignment-determinations.md",
-      "instrument": "Huerta Group LLC — Public Copy Truth Alignment — Phase 1 task instrument (Founder Office → Platform & Systems Development), recording acceptance of the Corporate Platform Alignment Audit and authorizing the first implementation phase",
+      "instrument": "Huerta Group LLC \u2014 Public Copy Truth Alignment \u2014 Phase 1 task instrument (Founder Office \u2192 Platform & Systems Development), recording acceptance of the Corporate Platform Alignment Audit and authorizing the first implementation phase",
       "dateReceived": "2026-08-12",
       "recordedDate": "2026-08-12",
       "determinationCount": 6,
@@ -149,9 +149,9 @@
     },
     {
       "id": "fd-0007",
-      "title": "Founder Office Determinations: Corporate Venture Governance — FD-V1 Admission, FD-V9, FD-V10",
+      "title": "Founder Office Determinations: Corporate Venture Governance \u2014 FD-V1 Admission, FD-V9, FD-V10",
       "path": "institution/governance/determinations/fd-0007-corporate-venture-governance-fd-v1-admission.md",
-      "instrument": "Corporate Venture Governance — Phase 3: Repository Institutionalization of FD-V1 task instrument (Founder Office → Platform & Systems Development), transmitting the approved FD-V1 Venture Determination & Charter and determinations FD-V9 and FD-V10",
+      "instrument": "Corporate Venture Governance \u2014 Phase 3: Repository Institutionalization of FD-V1 task instrument (Founder Office \u2192 Platform & Systems Development), transmitting the approved FD-V1 Venture Determination & Charter and determinations FD-V9 and FD-V10",
       "dateReceived": "2026-08-12",
       "recordedDate": "2026-08-12",
       "determinationCount": 3,
@@ -174,9 +174,9 @@
     },
     {
       "id": "fd-0008",
-      "title": "Founder Office Determination: Corporate Venture Governance — FD-V2 Venture Register Topology",
+      "title": "Founder Office Determination: Corporate Venture Governance \u2014 FD-V2 Venture Register Topology",
       "path": "institution/governance/determinations/fd-0008-corporate-venture-governance-fd-v2-register-topology.md",
-      "instrument": "FD-V2 — Venture Register Topology Repository Institutionalization execution package (Founder Office → Platform & Systems Development), transmitting the approved FD-V2 register-topology determination and its doctrine for repository preservation",
+      "instrument": "FD-V2 \u2014 Venture Register Topology Repository Institutionalization execution package (Founder Office \u2192 Platform & Systems Development), transmitting the approved FD-V2 register-topology determination and its doctrine for repository preservation",
       "dateReceived": "2026-08-15",
       "recordedDate": "2026-08-15",
       "determinationCount": 1,
@@ -199,9 +199,9 @@
     },
     {
       "id": "fd-0009",
-      "title": "Founder Office Determinations: Corporate Venture Governance — FD-V4 Approval, FD-V11 (as transmitted)",
+      "title": "Founder Office Determinations: Corporate Venture Governance \u2014 FD-V4 Approval, FD-V11 (as transmitted)",
       "path": "institution/governance/determinations/fd-0009-corporate-venture-governance-fd-v4-approval-and-fd-v11.md",
-      "instrument": "FD-V4 — Parent Platform Representation Institutionalization & Alignment execution package (Founder Office → Platform & Systems Development), approving the FD-V4 determination for preservation and bounded implementation and transmitting FD-V11's substance",
+      "instrument": "FD-V4 \u2014 Parent Platform Representation Institutionalization & Alignment execution package (Founder Office \u2192 Platform & Systems Development), approving the FD-V4 determination for preservation and bounded implementation and transmitting FD-V11's substance",
       "dateReceived": "2026-08-15",
       "recordedDate": "2026-08-15",
       "determinationCount": 2,
@@ -228,9 +228,9 @@
     },
     {
       "id": "fd-0010",
-      "title": "Founder Office Determinations: Corporate Operations & Command Platform — Governance & Methodology Readiness Phase 1",
+      "title": "Founder Office Determinations: Corporate Operations & Command Platform \u2014 Governance & Methodology Readiness Phase 1",
       "path": "institution/governance/determinations/fd-0010-corporate-operations-governance-methodology-readiness-phase1.md",
-      "instrument": "Corporate Operations & Command Platform — Governance & Methodology Readiness, Phase 1: Preservation & Institutionalization execution package (Founder Office → Institutional Platform Development), authorizing OSPA custody preservation, institutionalization of Corporate Operations & Command Management and the accepted Generation One Requirements Report, FD-V7 evidence preparation, semantic-gap inventory, and capability-trigger reassessment",
+      "instrument": "Corporate Operations & Command Platform \u2014 Governance & Methodology Readiness, Phase 1: Preservation & Institutionalization execution package (Founder Office \u2192 Institutional Platform Development), authorizing OSPA custody preservation, institutionalization of Corporate Operations & Command Management and the accepted Generation One Requirements Report, FD-V7 evidence preparation, semantic-gap inventory, and capability-trigger reassessment",
       "dateReceived": "2026-08-18",
       "recordedDate": "2026-08-18",
       "determinationCount": 14,
@@ -272,7 +272,7 @@
       "id": "fd-0011",
       "title": "Founder Office Determinations: FD-V7 OSPA Admission and Phase 1 Dispositions",
       "path": "institution/governance/determinations/fd-0011-fd-v7-ospa-admission-and-phase1-dispositions.md",
-      "instrument": "Corporate Operations & Command Platform — Governance & Methodology Readiness, Phase 2 execution package (Founder Office → Institutional Platform Development), determining FD-V7 OSPA canonical admission, the narrow fd-0001 custody exception, Requirements Report authority, the operations-systems capability trigger, S09 applicability, and Generation One transition semantics",
+      "instrument": "Corporate Operations & Command Platform \u2014 Governance & Methodology Readiness, Phase 2 execution package (Founder Office \u2192 Institutional Platform Development), determining FD-V7 OSPA canonical admission, the narrow fd-0001 custody exception, Requirements Report authority, the operations-systems capability trigger, S09 applicability, and Generation One transition semantics",
       "dateReceived": "2026-08-18",
       "recordedDate": "2026-08-18",
       "determinationCount": 6,
@@ -313,7 +313,7 @@
       "id": "fd-0012",
       "title": "Founder Office Determinations: Corporate Operations Semantics Foundation V1 Adoption; Generation One Source-Transmission Deficiency",
       "path": "institution/governance/determinations/fd-0012-corporate-operations-semantics-foundation-v1-adoption.md",
-      "instrument": "Generation One Authoritative Source Preservation + Technical Architecture Resumption, execution package (Founder Office → Institutional Platform Development), adopting the Corporate Operations Semantics Foundation — Version 1 as prospective operational doctrine, determining Founder Attention entry/exit, materiality-dispute escalation, representation freshness and attention priority policy, reaffirming the OSPA authority boundary, and conditionally authorizing a bounded Generation One Phase 1 technical blueprint",
+      "instrument": "Generation One Authoritative Source Preservation + Technical Architecture Resumption, execution package (Founder Office \u2192 Institutional Platform Development), adopting the Corporate Operations Semantics Foundation \u2014 Version 1 as prospective operational doctrine, determining Founder Attention entry/exit, materiality-dispute escalation, representation freshness and attention priority policy, reaffirming the OSPA authority boundary, and conditionally authorizing a bounded Generation One Phase 1 technical blueprint",
       "dateReceived": "2026-08-18",
       "recordedDate": "2026-08-18",
       "determinationCount": 6,
@@ -342,7 +342,7 @@
       "id": "fd-0013",
       "title": "Founder Office Determinations: Generation One Source Preservation, Readiness Reconciliation, and Architecture Resumption",
       "path": "institution/governance/determinations/fd-0013-generation-one-source-preservation-and-architecture-resumption.md",
-      "instrument": "Generation One Source Preservation, Readiness Reconciliation & Phase 1 Technical Blueprint execution package (Founder Office → Institutional Platform Development), supplying both complete authoritative sources as files, directing byte-faithful preservation, prospective reconciliation of custody and readiness records without rewriting chronology, and evaluation of the architecture-resumption gate",
+      "instrument": "Generation One Source Preservation, Readiness Reconciliation & Phase 1 Technical Blueprint execution package (Founder Office \u2192 Institutional Platform Development), supplying both complete authoritative sources as files, directing byte-faithful preservation, prospective reconciliation of custody and readiness records without rewriting chronology, and evaluation of the architecture-resumption gate",
       "dateReceived": "2026-08-18",
       "recordedDate": "2026-08-18",
       "determinationCount": 5,
@@ -371,6 +371,41 @@
         },
         {
           "target": "fd-0010",
+          "nature": "related"
+        }
+      ]
+    },
+    {
+      "id": "fd-0014",
+      "title": "Founder Office Determinations: Generation One Construction Authorization and Bounded Construction",
+      "path": "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md",
+      "instrument": "Founder Office ADR Phase Review & Construction Authorization execution package (Founder Office \u2192 Institutional Platform Development), accepting the ADR package and technical architecture, authorizing a bounded identity-provider evaluation and bounded Generation One construction in governed non-production environments, determining recorded_at as the Since Last Review inclusion boundary, holding four operational-policy questions deferred, and withholding production launch and scope expansion",
+      "dateReceived": "2026-08-19",
+      "recordedDate": "2026-08-19",
+      "determinationCount": 6,
+      "affectedArtifacts": [
+        "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
+        "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md",
+        "institution/evolution/INDEX.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "institution/metadata/registries/evolution-registry.json",
+        "institution/metadata/manifest.json",
+        "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [
+        {
+          "target": "fd-0013",
+          "nature": "implements"
+        },
+        {
+          "target": "fd-0012",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0011",
           "nature": "related"
         }
       ]

@@ -4,7 +4,7 @@
     {
       "id": "public-website",
       "name": "Public Website",
-      "description": "The nine-page public institutional interface: presentation, metadata, sitemap/robots, branded 404, security headers, static rendering. A stable, bounded public interface — not the container for future institutional systems.",
+      "description": "The nine-page public institutional interface: presentation, metadata, sitemap/robots, branded 404, security headers, static rendering. A stable, bounded public interface \u2014 not the container for future institutional systems.",
       "category": "public-interface",
       "maturity": "operational",
       "architecturalDisposition": "current_public_application",
@@ -152,7 +152,7 @@
     {
       "id": "method-library",
       "name": "Institutional Method Library",
-      "description": "Governed internal corpus of Huerta Group methodology. The repository-based foundation is complete (the full approved Methodology Foundation v1 source, architecture, schema, registry, eight approved records, validation); substantive future methods remain blocked pending approved methodology substance (MFv1 §10.8).",
+      "description": "Governed internal corpus of Huerta Group methodology. The repository-based foundation is complete (the full approved Methodology Foundation v1 source, architecture, schema, registry, eight approved records, validation); substantive future methods remain blocked pending approved methodology substance (MFv1 \u00a710.8).",
       "category": "institutional-branch",
       "maturity": "partial",
       "architecturalDisposition": "current_repository_artifacts",
@@ -187,7 +187,7 @@
         "institution/metadata/schemas/method-schema.json",
         "institution/validation/validate-methods.mjs"
       ],
-      "notes": "Repository foundation only — no database, application, search service, or user interface exists or is implied."
+      "notes": "Repository foundation only \u2014 no database, application, search service, or user interface exists or is implied."
     },
     {
       "id": "ip-repository",
@@ -229,7 +229,7 @@
         "institution/metadata/schemas/ip-schema.json",
         "institution/validation/validate-ip.mjs"
       ],
-      "notes": "Repository foundation only — no runtime application, database, search service, portal, or administrative interface exists or is implied; no legal ownership or rights determinations are made."
+      "notes": "Repository foundation only \u2014 no runtime application, database, search service, portal, or administrative interface exists or is implied; no legal ownership or rights determinations are made."
     },
     {
       "id": "education-platform",
@@ -263,11 +263,11 @@
         "institution/technical/education-platform-architecture.md"
       ],
       "unresolvedDecisions": [
-        "No program, course, pathway, competency library, assessment instrument, credential, or offering exists or is approved: each requires separate Education-authority design, review, and approval (EWDFv1 §20.11, §21, §22.2).",
-        "Program approval never implies delivery readiness, enrollment availability, public disclosure, or commercial availability — the ten readiness dimensions remain separate (EWDFv1 §11.4–11.5, §12.2).",
-        "Any runtime education system (LMS, learner accounts, portals, dashboards, evidence submission) requires its own authorization under ADR-0003 criteria and ADR-0005 environment isolation; a generic LMS is explicitly not assumed appropriate, and no vendor, AI provider, or hosting model is selected (EWDFv1 §16.9, §19.3).",
-        "Production learner, instructor, assessment, organizational, and participation data remains blocked pending privacy and legal governance (EWDFv1 §14.5, §20.10); learner-record retention and disclosure await data-governance policy.",
-        "Credentialing, certification, continuing-education, instructor, learner-support, and commercial-model policy remain unresolved (EWDFv1 §20.12–20.14, §21); final constitutional allocation of educational approval authority is pending (interim configurable rule stands)."
+        "No program, course, pathway, competency library, assessment instrument, credential, or offering exists or is approved: each requires separate Education-authority design, review, and approval (EWDFv1 \u00a720.11, \u00a721, \u00a722.2).",
+        "Program approval never implies delivery readiness, enrollment availability, public disclosure, or commercial availability \u2014 the ten readiness dimensions remain separate (EWDFv1 \u00a711.4\u201311.5, \u00a712.2).",
+        "Any runtime education system (LMS, learner accounts, portals, dashboards, evidence submission) requires its own authorization under ADR-0003 criteria and ADR-0005 environment isolation; a generic LMS is explicitly not assumed appropriate, and no vendor, AI provider, or hosting model is selected (EWDFv1 \u00a716.9, \u00a719.3).",
+        "Production learner, instructor, assessment, organizational, and participation data remains blocked pending privacy and legal governance (EWDFv1 \u00a714.5, \u00a720.10); learner-record retention and disclosure await data-governance policy.",
+        "Credentialing, certification, continuing-education, instructor, learner-support, and commercial-model policy remain unresolved (EWDFv1 \u00a720.12\u201320.14, \u00a721); final constitutional allocation of educational approval authority is pending (interim configurable rule stands)."
       ],
       "evidencePaths": [
         "institution/foundations/education/education-workforce-development-foundation-v1.md",
@@ -276,12 +276,12 @@
         "institution/metadata/schemas/education-schema.json",
         "institution/validation/validate-education.mjs"
       ],
-      "notes": "Repository foundation only — no LMS, runtime application, database, authentication, learner data, assessment operation, credential issuance, vendor selection, or public educational offering exists or is implied; repository presence creates no educational approval, and educational approval authorizes no delivery."
+      "notes": "Repository foundation only \u2014 no LMS, runtime application, database, authentication, learner data, assessment operation, credential issuance, vendor selection, or public educational offering exists or is implied; repository presence creates no educational approval, and educational approval authorizes no delivery."
     },
     {
       "id": "publishing-platform",
       "name": "Publishing Platform",
-      "description": "Publishing capability of Huerta Group LLC, implemented and operated by Huerta Group Publishing — the first chartered venture (FD-V1; fd-0007) — in its own repository. Editorial development, deterministic production, and evidence-gated releases operate under chartered delegated authority; commercial activation, distribution, public launch, and legal matters remain reserved.",
+      "description": "Publishing capability of Huerta Group LLC, implemented and operated by Huerta Group Publishing \u2014 the first chartered venture (FD-V1; fd-0007) \u2014 in its own repository. Editorial development, deterministic production, and evidence-gated releases operate under chartered delegated authority; commercial activation, distribution, public launch, and legal matters remain reserved.",
       "category": "institutional-branch",
       "maturity": "operational",
       "architecturalDisposition": "venture_application",
@@ -306,16 +306,16 @@
         "institution/governance/ventures/fd-v4-parent-platform-representation.md"
       ],
       "unresolvedDecisions": [
-        "Commercial activation, billing, and pricing remain reserved (Corporate Headquarters readiness + Founder Office authorization; Charter §8, §11).",
-        "Venture official public launch awaits its own Founder Office determination (parent-platform representation is determined — FD-V4, fd-0009 — with linking gated on launch); general name-use policy awaits FD-V3.",
+        "Commercial activation, billing, and pricing remain reserved (Corporate Headquarters readiness + Founder Office authorization; Charter \u00a78, \u00a711).",
+        "Venture official public launch awaits its own Founder Office determination (parent-platform representation is determined \u2014 FD-V4, fd-0009 \u2014 with linking gated on launch); general name-use policy awaits FD-V3.",
         "Distribution (ONIX, retail, manufacturing) is out of venture scope; legally operative rights and ISBN matters remain Corporate Headquarters matters."
       ],
-      "notes": "identityRequirement records the parent-architecture reading: no parent identity capability is required or granted. The venture authenticates its own authors and staff on venture-owned infrastructure (Charter §7.3, §13) — venture-internal identity, outside this registry's identity dimension."
+      "notes": "identityRequirement records the parent-architecture reading: no parent identity capability is required or granted. The venture authenticates its own authors and staff on venture-owned infrastructure (Charter \u00a77.3, \u00a713) \u2014 venture-internal identity, outside this registry's identity dimension."
     },
     {
       "id": "ai-platform",
       "name": "AI Platform",
-      "description": "Future controlled use of institutional knowledge by AI: governed retrieval, permissions, evaluation, traceability. Philosophy exists (Vision Foundation §8); governance and runtime do not.",
+      "description": "Future controlled use of institutional knowledge by AI: governed retrieval, permissions, evaluation, traceability. Philosophy exists (Vision Foundation \u00a78); governance and runtime do not.",
       "category": "institutional-branch",
       "maturity": "conceptual",
       "architecturalDisposition": "unresolved",
@@ -346,11 +346,11 @@
     {
       "id": "operations-systems",
       "name": "Operations Systems",
-      "description": "Internal operational capability owned by Corporate Operations & Command Management. Trigger FIRED (fd-0011). Requirements are authoritative and preserved (GEN1-REQ-V1); operational semantics are adopted prospective doctrine (CORP-OPS-SEM-FND-V1; fd-0012, fd-0013). Technical architecture is AUTHORIZED TO RESUME, design only. Implementation remains NOT AUTHORIZED.",
+      "description": "Internal operational capability owned by Corporate Operations & Command Management. Constructed and validated in governed pre-production as the Corporate Operations Register and Founder Attention layer (fd-0014); runtime lives in the separate huerta-group-operations repository (ADR-0008). Production launch is NOT AUTHORIZED and successful pre-production validation is not implicit approval.",
       "category": "internal-operations",
-      "maturity": "conceptual",
+      "maturity": "standby",
       "architecturalDisposition": "future_internal_application",
-      "repositoryDisposition": "unresolved",
+      "repositoryDisposition": "future_separate_repository",
       "dataOwned": [
         "operational-records"
       ],
@@ -363,7 +363,7 @@
       "identityRequirement": "future-required",
       "sensitivity": "internal",
       "launchRelevance": "independent",
-      "implementationReadiness": "governance_blocked",
+      "implementationReadiness": "ready_with_owner_authorization",
       "governingReferences": [
         "institution/governance/strategic/vision-foundation-for-development.md",
         "institution/governance/operations/corporate-operations-command-management.md",
@@ -377,15 +377,35 @@
         "institution/governance/determinations/fd-0011-fd-v7-ospa-admission-and-phase1-dispositions.md",
         "institution/governance/determinations/fd-0012-corporate-operations-semantics-foundation-v1-adoption.md",
         "institution/governance/determinations/fd-0013-generation-one-source-preservation-and-architecture-resumption.md",
-        "institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md"
+        "institution/foundations/operations/ospa-foundation-v1-admission-and-provenance.md",
+        "institution/technical/generation-one-operations-platform-architecture.md",
+        "institution/decisions/adr-0008-generation-one-module-placement.md",
+        "institution/decisions/adr-0009-generation-one-operational-data-topology.md",
+        "institution/decisions/adr-0011-state-change-and-attention-representation.md",
+        "institution/decisions/adr-0017-generation-one-identity-authentication-and-authorization.md",
+        "institution/decisions/adr-0018-generation-one-environment-architecture.md",
+        "institution/decisions/adr-0019-generation-one-auditability-and-validation-architecture.md",
+        "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
+        "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md",
+        "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md"
       ],
       "unresolvedDecisions": [
-        "Trigger status (fd-0011, Founder Office): FIRED. HISTORICAL POSTURE, preserved and not rewritten: this entry previously recorded the trigger as 'the first recurring internal workflow that outgrows governed documents; none identified yet', and the Phase 1 reassessment (fd-0010) found a recurring workflow evidenced but the outgrowing limb not demonstrable on repository evidence alone. The Founder Office determination supplies what repository evidence could not.",
-        "A fired trigger is NOT implementation authorization, and neither is architecture resumption. implementationReadiness moved from requirements_incomplete to governance_blocked (fd-0013): the requirements deficiency that justified the former is discharged, and what now stands between this capability and implementation is a Founder Office authorization plus the required ADR sequence — not missing requirements. HISTORICAL POSTURE, preserved: architecture was paused under fd-0010 and fd-0011, and fd-0011 reserved this reclassification to the Founder Office; the Founder Office directed the reconciliation in the instrument recorded at fd-0013.",
-        "RESOLVED (fd-0012, fd-0013): prospective operational doctrine now exists and is adopted. HISTORICAL POSTURE, preserved: this entry previously recorded that 'the Corporate Operations Semantics Foundation v1 does not yet exist' and that its location was reserved and empty. The Foundation is preserved at institution/foundations/operations/CORP-OPS-SEM-FND-V1.md and the definition package that asked for it is closed.",
-        "RESOLVED (fd-0013): operational-instance semantics are established prospectively by Foundation sections 5 through 24 — instance versus record, state, material change, attention entry and exit, dependency, blocker, handoff, deadline, renewal, follow-up, and concept-specific transition semantics. HISTORICAL POSTURE, preserved: these were previously unresolved because surviving canonical OSPA (S01-S04, S09, S10) does not establish them and the sections that would have (S05-S08, S11-S15) are permanently unavailable. The Foundation supplements surviving OSPA prospectively; it is not recovered OSPA and no unavailable OSPA may be inferred from it. The fd-0011 prohibition on inferring a transition model from S09 section 9.28 stands; Foundation section 24 is the new prospective doctrine that fd-0011 required instead.",
-        "RESOLVED (fd-0013): the complete Generation One Requirements Report is preserved byte-identical at institution/governance/operations/GEN1-REQ-V1.md. HISTORICAL POSTURE, preserved: it had not been transmitted to the implementing office across two prior attempts (fd-0010 Deficiency 2, fd-0011 Deficiency 1, fd-0012 Deficiency 2), and the semantic-definition package's concept inventory was provisional until it was.",
-        "OPEN — Founder Office operational-policy questions that do not block architecture but must be determined before or during implementation: the change horizon and whether a matter that occurred before the last review but was recorded after it must surface (Requirements Report section 19 question 4; definition-package concept 13); venture snapshot responsibility (question 5); the financial visibility boundary, to be determined with Accounting rather than inferred by Development (question 6); and the administrative visibility boundary (question 7)."
+        "RECONCILED (fd-0014): implementationReadiness moved from governance_blocked to ready_with_owner_authorization, and maturity from conceptual to standby \u2014 the posture the notification service already established here: implemented and validated, deliberately not activated, awaiting an owner decision. repositoryDisposition moved from unresolved to future_separate_repository per ADR-0008. HISTORICAL POSTURE, preserved and not rewritten: this entry previously recorded that technical architecture was authorized to resume, design only, and that implementation remained NOT AUTHORIZED. That was accurate for its period; the Founder Office construction authorization at fd-0014 is what changed it.",
+        "CLASSIFICATION MISMATCH REPORTED, not resolved (fd-0014 directs existing controlled vocabulary only, and forbids inventing a status to reproduce Founder Office wording). Three enum values are stale and are deliberately left unchanged: architecturalDisposition remains future_internal_application though the application now exists, because no current-internal-application value exists and it does not yet run in production; repositoryDisposition future_separate_repository carries a stale future_ prefix for a repository that now exists, and is the only value meaning a separate repository of its own; identityRequirement remains future-required though identity is now implemented and genuinely required, because the enum offers only none, future-required and unresolved. Each is a vocabulary gap for the appropriate authority, never a factual dispute. The fd-0014 determination is controlling over the registry value in every case.",
+        "REPORTED \u2014 evidencePaths cite in-corpus governance artifacts because Generation One's runtime lives in the separate huerta-group-operations repository by ADR-0008 and is structurally outside this corpus (manifest exclusion rule). This follows the precedent already set by publishing-platform, whose repositoryDisposition is venture_repository. The validator's evidence rule assumes in-repository implementation; that assumption no longer holds for every capability, and whether the rule should distinguish the two cases is a matter for the appropriate authority.",
+        "OPEN \u2014 production launch is NOT AUTHORIZED. The next gate is the Founder Office Generation One Construction & Validation Review. Successful pre-production validation is expressly not implicit production approval.",
+        "OPEN \u2014 Founder Office operational-policy questions, deferred by fd-0014 and not to be answered speculatively: the change horizon beyond Since Last Review; venture snapshot responsibility; the financial visibility boundary, to be determined with Accounting rather than inferred by Development; and the Administration & Compliance visibility boundary. Where one becomes necessary to determine actual Founder-facing behaviour, only the affected decision stops and the bounded question returns.",
+        "OPEN \u2014 no retention, deletion, archival or disclosure doctrine is implied by the ADR package or by the construction authorization (fd-0014 \u00a76). Backup and recovery expectations must be documented before the store holds irreplaceable records (ADR-0009, ADR-0018); the pre-production store holds none.",
+        "RESOLVED (fd-0014, ADR-0020): the identity provider is selected \u2014 Supabase Auth on the project ADR-0009 already requires. No Founder Office return trigger fired: no accepted architecture changed, no significant new recurring cost, no consequential new external dependency.",
+        "RESOLVED (fd-0014): the recorded_at inclusion boundary for Since Last Review is determined, with occurred_at independently represented where known and never manufactured where unknown. Generation One operational-view doctrine only; no universal institutional temporal policy is established.",
+        "HISTORICAL POSTURE, preserved: the operations-systems trigger was determined FIRED by the Founder Office (fd-0011) after the Phase 1 reassessment (fd-0010) found a recurring workflow evidenced but the outgrowing limb not demonstrable on repository evidence alone. Earlier still, this entry recorded the trigger as 'the first recurring internal workflow that outgrows governed documents; none identified yet'.",
+        "HISTORICAL POSTURE, preserved: prospective operational doctrine did not exist when this entry was first written, and the reserved Foundation location stood empty. The Foundation is preserved at institution/foundations/operations/CORP-OPS-SEM-FND-V1.md (fd-0012, fd-0013) and the definition package that asked for it is closed. Foundation \u00a7\u00a75\u201324 establish operational-instance semantics prospectively; they are not recovered OSPA, and no unavailable OSPA (S05\u2013S08, S11\u2013S15) may be inferred from them. The fd-0011 prohibition on inferring a transition model from S09 \u00a79.28 stands.",
+        "HISTORICAL POSTURE, preserved: the complete Generation One Requirements Report had not reached the implementing office across two prior attempts (fd-0010 D2, fd-0011 D1, fd-0012 D2). It is preserved byte-identical at institution/governance/operations/GEN1-REQ-V1.md (fd-0013)."
+      ],
+      "evidencePaths": [
+        "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md",
+        "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md",
+        "institution/decisions/adr-0020-generation-one-identity-provider-selection.md"
       ]
     },
     {
@@ -479,9 +499,9 @@
     {
       "id": "identity-and-access",
       "name": "Identity and Access",
-      "description": "Future authentication/authorization shared service for internal and client capabilities. Deliberately absent today (Development Standards: introduced when a capability requires it). Technical user classes only — never institutional offices.",
+      "description": "Authentication/authorization for internal and client capabilities. First implemented for Generation One under ADR-0020 (Supabase Auth on that capability's own project), with row-level authorization as the enforcement layer. Technical user classes only \u2014 never institutional offices.",
       "category": "shared-infrastructure",
-      "maturity": "documented_direction",
+      "maturity": "partial",
       "architecturalDisposition": "future_shared_service",
       "repositoryDisposition": "unresolved",
       "dataOwned": [
@@ -496,11 +516,18 @@
       "implementationReadiness": "requirements_incomplete",
       "governingReferences": [
         "institution/standards/development/development-standards.md",
-        "institution/decisions/adr-0006-identity-and-access-direction.md"
+        "institution/decisions/adr-0006-identity-and-access-direction.md",
+        "institution/decisions/adr-0017-generation-one-identity-authentication-and-authorization.md",
+        "institution/decisions/adr-0020-generation-one-identity-provider-selection.md"
       ],
       "unresolvedDecisions": [
-        "Provider selection is deliberately open (ADR-0006).",
-        "Triggered by the first real internal or client capability that requires authentication; none exists."
+        "RESOLVED for Generation One (ADR-0020): the provider is Supabase Auth on Generation One's own project, selected against ADR-0006's criteria and decided on portability \u2014 the dependency is one JWT claim read inside row-level policies. HISTORICAL POSTURE, preserved: provider selection was deliberately open under ADR-0006, and this entry previously recorded that the triggering capability did not exist.",
+        "OPEN \u2014 shared-service topology. ADR-0006 requires identity be introduced as a shared service from the start, and ADR-0020 is compatible with that without settling it: whether a second consumer shares Generation One's project, receives its own, or federates is expressly a decision for that consumer's ADR, made when the consumer and its requirements exist. implementationReadiness stays requirements_incomplete because the incomplete requirements are the shared-service ones, not Generation One's.",
+        "OPEN \u2014 constitutional and institutional authority structures. Any mapping of institutional roles onto technical roles awaits that authority and is expressly out of scope (ADR-0006, ADR-0017, ADR-0020)."
+      ],
+      "evidencePaths": [
+        "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
+        "institution/decisions/adr-0017-generation-one-identity-authentication-and-authorization.md"
       ]
     },
     {

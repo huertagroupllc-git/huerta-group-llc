@@ -113,6 +113,50 @@
         "institution/metadata/registries/capability-registry.json"
       ],
       "refinementReferences": []
+    },
+    {
+      "id": "evo-0005",
+      "title": "Generation One Constructed and Validated in Pre-Production: the First Authenticated Institutional System",
+      "path": "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md",
+      "date": "2026-08-19",
+      "institutionalDomain": "operations",
+      "evolutionType": "capability_change",
+      "retrospective": false,
+      "authorityInvolved": [
+        "Founder Office (ADR package acceptance, construction authorization, production launch withheld; fd-0014)",
+        "Corporate Operations & Command Management (operational semantics and Headquarters representation responsibility)",
+        "Institutional Platform Development (identity-provider selection, construction, inspection, repair, validation)"
+      ],
+      "decisionReferences": [
+        "fd-0014",
+        "fd-0013",
+        "fd-0012",
+        "adr-0020",
+        "adr-0019",
+        "adr-0018",
+        "adr-0017",
+        "adr-0016",
+        "adr-0015",
+        "adr-0014",
+        "adr-0013",
+        "adr-0012",
+        "adr-0011",
+        "adr-0010",
+        "adr-0009",
+        "adr-0008",
+        "adr-0006",
+        "adr-0005"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md",
+        "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
+        "institution/technical/generation-one-operations-platform-architecture.md",
+        "institution/foundations/operations/CORP-OPS-SEM-FND-V1.md",
+        "institution/governance/operations/GEN1-REQ-V1.md",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/standards/repository/documentation-index.md"
+      ],
+      "refinementReferences": []
     }
   ]
 }

@@ -12,3 +12,4 @@ See [`README.md`](README.md) for the log's governance and
 | [evo-0002](records/evo-0002-design-system-reference-implementation-phase1.md) | 2026-08-08 | design-system | capability_change | Design System Reference Implementation Activated (Phase 1) |
 | [evo-0003](records/evo-0003-editorial-design-language-emergence.md) | 2026-08-09 | design-system | capability_change | A Distinctive Editorial Design Language Emerged Through the Reference Implementation |
 | [evo-0004](records/evo-0004-first-venture-admission-huerta-group-publishing.md) | 2026-08-12 | governance | governance_determination | First Venture Formally Admitted: Huerta Group Publishing (FD-V1) |
+| [evo-0005](records/evo-0005-generation-one-construction-and-validation.md) | 2026-08-19 | operations | capability_change | Generation One Constructed and Validated in Pre-Production: the First Authenticated Institutional System |

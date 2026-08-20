@@ -74,13 +74,22 @@ owns a Headquarters representation, the latter governs what operational
 concepts mean. Neither absorbs the other, and source functions retain
 authority over their own authoritative facts.
 
-The Internal Operations & Command Platform's **technical architecture is
-authorized to resume** (`fd-0013`), bounded to architecture and design.
-**Implementation remains not authorized**: no register, schema, migration,
-application, authentication, authorization policy, integration, or runtime
-behavior may be created. The Founder Office determined the
-`operations-systems` capability trigger **fired** (`fd-0011`) —
-institutional **need**, never implementation authorization.
+The Internal Operations & Command Platform is **constructed and validated
+in governed pre-production** (`fd-0014`). The Founder Office accepted the ADR
+package and the technical architecture, authorized a bounded identity-provider
+evaluation and bounded construction, and **withheld production launch**.
+Successful pre-production validation is expressly not implicit production
+approval, and the next gate is the Founder Office Generation One Construction
+& Validation Review. Runtime code lives in the separate
+`huerta-group-operations` repository (ADR-0008) and is structurally outside
+this corpus; what this repository holds is the governing record.
+
+HISTORICAL POSTURE, preserved and not rewritten: architecture was
+**authorized to resume** bounded to design (`fd-0013`) while implementation
+remained not authorized, and before that the Founder Office determined the
+`operations-systems` capability trigger **fired** (`fd-0011`) — institutional
+**need**, never implementation authorization. Each statement was accurate for
+its own period.
 
 The prerequisite that gated architecture is satisfied. The operational
 semantics the capability would encode are established as prospective
@@ -274,6 +283,7 @@ never automatic modification.
 | ADR-0017 — Generation One Identity, Authentication, and Authorization | [`development/decisions/adr-0017-generation-one-identity-authentication-and-authorization.md`](../../decisions/adr-0017-generation-one-identity-authentication-and-authorization.md) | Five technical access classes, deny-by-default; identity as shared service; provider selection deferred |
 | ADR-0018 — Generation One Environment Architecture | [`development/decisions/adr-0018-generation-one-environment-architecture.md`](../../decisions/adr-0018-generation-one-environment-architecture.md) | Crosses the ADR-0005 isolation threshold; may not launch production-first |
 | ADR-0019 — Generation One Auditability and Validation Architecture | [`development/decisions/adr-0019-generation-one-auditability-and-validation-architecture.md`](../../decisions/adr-0019-generation-one-auditability-and-validation-architecture.md) | Semantic-invariant checks, the ten §31 tests as executable cases, authentic Headquarters use |
+| ADR-0020 — Generation One Identity Provider Selection | [`development/decisions/adr-0020-generation-one-identity-provider-selection.md`](../../decisions/adr-0020-generation-one-identity-provider-selection.md) | Supabase Auth on the project ADR-0009 already requires; decided on portability — the dependency is one JWT claim. Shared-identity topology left to the second consumer's ADR |
 
 ## Institutional knowledge layer
 
