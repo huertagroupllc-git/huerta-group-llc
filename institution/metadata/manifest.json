@@ -2653,6 +2653,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "generation-two-stage-6-provenance-and-environment-separation-report",
+      "title": "Corporate Command Center \u2014 Generation Two Stage 6 Provenance Resolution, Navigation & Development-Environment Separation Report",
+      "path": "institution/governance/operations/generation-two-stage-6-provenance-and-environment-separation-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Validation moved off the authentic register onto a disposable stack, with the gate proving preservation by fingerprint; a deterministic provenance resolver that resolves two reference forms and truthfully declines ten; the full drill-down chain; and Q5 applied to HGP by filling nothing.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned for Founder Office review under the Stage 6 authorization of 2026-08-23 recorded at fd-0017. Evidentiary and non-governing; production was not launched.",
+        "effectiveDate": "2026-08-23"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "gen2-req-v1"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0017-venture-snapshot-responsibility"
+        },
+        {
+          "rel": "references",
+          "target": "generation-two-stage-5-hgp-venture-oversight-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-v7-evidence-package",
       "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
