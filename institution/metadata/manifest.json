@@ -2557,6 +2557,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "generation-two-stage-2-executive-review-report",
+      "title": "Corporate Command Center \u2014 Generation Two Stage 2 Executive Review Construction & Validation Report",
+      "path": "institution/governance/operations/generation-two-stage-2-executive-review-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The Executive Review returned: materially new, carried forward and newly escalated all derived from existing histories with no schema change, the review cycle exercised end to end against authentic state and the register restored afterwards, and a Review Event proven to move only the boundary.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned for Founder Office review under the Stage 2 authorization recorded at fd-0016. Evidentiary and non-governing; production was not launched.",
+        "effectiveDate": "2026-08-22"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "gen2-req-v1"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0016-generation-two-bounded-implementation-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-two-stage-1-construction-and-validation-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-v7-evidence-package",
       "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
