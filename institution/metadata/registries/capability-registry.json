@@ -393,9 +393,11 @@
         "institution/governance/operations/generation-one-local-operations-activation-report.md",
         "institution/governance/operations/GEN2-REQ-V1.md",
         "institution/governance/operations/generation-two-requirements-report.md",
-        "institution/governance/determinations/fd-0016-generation-two-bounded-implementation-authorization.md"
+        "institution/governance/determinations/fd-0016-generation-two-bounded-implementation-authorization.md",
+        "institution/governance/determinations/fd-0017-venture-snapshot-responsibility.md"
       ],
       "unresolvedDecisions": [
+        "RESOLVED (fd-0017): GEN1-REQ \u00a719 Q5, venture snapshot responsibility. Venture authority supplies venture truth; Corporate Operations owns the Headquarters representation of it and may not invent, infer or reinterpret substantive venture state to populate a snapshot. Where an authoritative venture source does not establish a required parent-level fact, the representation stays absent. No automated synchronization and no direct venture writes into the register. Prospective from 2026-08-23; the entries below recording Q5 as open remain accurate for their own period and are not rewritten.",
         "GENERATION TWO AUTHORIZED, BOUNDED (fd-0016): the Corporate Command Center layer over Generation One is authorized for LOCAL / PRE-PRODUCTION construction. maturity stays 'standby' and implementationReadiness stays 'ready_with_owner_authorization' for the same reason as fd-0015 \u2014 the capability is not activated in production. ADR-0017 is expressly UNCHANGED: no technical access class is widened, and Corporate Operations retains authoring of Headquarters representation. Generation Two adds synthesis, executive review, context and drill-down over the existing model; it adds no system of record.",
         "OPEN \u2014 GEN2-REQ \u00a734.3 (standardized parent-level venture summary vocabulary, not yet necessary with HGP the only chartered venture), \u00a734.4 (whether a Founder decision arising from an Attention Item is recorded operationally and linked to the authoritative governance record) and \u00a734.5 (which Accounting outputs surface first) remain Founder Office decisions. GEN1-REQ \u00a719 Q5, Q6 and Q7 also remain open; fd-0016 forbids Development from resolving Q6 or Q7.",
         "RECONCILED (fd-0014): implementationReadiness moved from governance_blocked to ready_with_owner_authorization, and maturity from conceptual to standby \u2014 the posture the notification service already established here: implemented and validated, deliberately not activated, awaiting an owner decision. repositoryDisposition moved from unresolved to future_separate_repository per ADR-0008. HISTORICAL POSTURE, preserved and not rewritten: this entry previously recorded that technical architecture was authorized to resume, design only, and that implementation remained NOT AUTHORIZED. That was accurate for its period; the Founder Office construction authorization at fd-0014 is what changed it.",
@@ -417,7 +419,8 @@
         "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md",
         "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
         "institution/governance/operations/generation-one-local-operations-activation-report.md",
-        "institution/governance/determinations/fd-0016-generation-two-bounded-implementation-authorization.md"
+        "institution/governance/determinations/fd-0016-generation-two-bounded-implementation-authorization.md",
+        "institution/governance/determinations/fd-0017-venture-snapshot-responsibility.md"
       ]
     },
     {

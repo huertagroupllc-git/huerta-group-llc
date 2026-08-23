@@ -21,6 +21,7 @@
 | Generation One concept | **Accepted**; the Governance & Methodology Readiness condition is satisfied (`fd-0013`) |
 | Technical architecture | **Authorized to resume** (`fd-0013`) — architecture and design only |
 | Technical implementation | **Not Authorized** |
+| §19 Q5 — venture snapshot responsibility | **Resolved** prospectively (`fd-0017`, 2026-08-23) |
 
 These status dimensions are independent and no one of them determines
 another. Acceptance of requirements discovery does not make the concept
@@ -112,6 +113,27 @@ byte-identical. `fd-0010` Deficiency 2, `fd-0011` Deficiency 1 and
 `fd-0012` Deficiency 2 are **discharged prospectively** by `fd-0013` —
 discharged, not erased: each remains an accurate record of its own
 period.
+
+### 2.4 §19 Q5 resolved — 2026-08-23
+
+The report's §19 recorded eight operational-policy questions as unresolved.
+**Q5 — whether each venture executive function provides its Headquarters
+snapshot, or Corporate Operations derives it from governed venture reporting —
+is now determined** (`fd-0017`): venture authority supplies venture truth;
+Corporate Operations owns the Headquarters representation of it, and may not
+invent, infer or reinterpret substantive venture state to populate a snapshot.
+Where an authoritative venture source does not establish a required
+parent-level fact, the representation stays absent.
+
+**The report's own §19 text is unaltered.** It is a preserved verbatim source
+and states the question as it was asked at requirements discovery; it is not
+edited to contain its answer. The resolution is prospective from 2026-08-23,
+and every record of the period during which Q5 was open remains accurate for
+that period.
+
+Q1–Q4 and Q6–Q8 remain as the report left them, save where separately
+determined elsewhere. **Q6 and Q7 remain expressly unresolved**, and `fd-0016`
+forbids Development resolving either.
 
 ## 3. Authority boundary — what this report is and is not
 
