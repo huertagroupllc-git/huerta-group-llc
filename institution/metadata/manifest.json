@@ -2493,6 +2493,70 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "generation-two-requirements-preservation-completion-report",
+      "title": "Generation Two Requirements Preservation Completion Report",
+      "path": "institution/governance/operations/generation-two-requirements-preservation-completion-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Development's return on the source-preservation gate: 37 sections verified continuous and untruncated, the digest, the verbatim treatment of the report's own status language, the twice-failed transmission preserved as chronology, and the construction-resumption gate passing.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned for Founder Office review under the instruments recorded at fd-0016. Evidentiary and non-governing; authorizes nothing.",
+        "effectiveDate": "2026-08-22"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "gen2-req-v1"
+        },
+        {
+          "rel": "references",
+          "target": "generation-two-requirements-report"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0016-generation-two-bounded-implementation-authorization"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-two-stage-1-construction-and-validation-report",
+      "title": "Corporate Command Center \u2014 Generation Two Stage 1 Construction & Validation Report",
+      "path": "institution/governance/operations/generation-two-stage-1-construction-and-validation-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Founder Home built as a read-only Command layer over Generation One with no schema change, provenance on every line, context-preserving drill-down, six defects repaired including a security defect in the reset path, all ten \u00a731 tests still yes, and the financial boundary left undecided.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned for Founder Office review under fd-0016. Evidentiary and non-governing; the report creates no authority and production was not launched.",
+        "effectiveDate": "2026-08-22"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "gen2-req-v1"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0016-generation-two-bounded-implementation-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-construction-and-validation-completion-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-v7-evidence-package",
       "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
