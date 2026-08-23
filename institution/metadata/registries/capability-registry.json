@@ -346,7 +346,7 @@
     {
       "id": "operations-systems",
       "name": "Operations Systems",
-      "description": "Internal operational capability owned by Corporate Operations & Command Management. In LOCAL / PRE-PRODUCTION authentic Founder use (fd-0015): constructed, validated, and operating on the Founder's machine with encrypted off-machine backup and rehearsed recovery. Runtime lives in the private huerta-group-operations repository (ADR-0008). Production launch is NOT AUTHORIZED.",
+      "description": "Internal operational capability owned by Corporate Operations & Command Management. Generation One is in LOCAL / PRE-PRODUCTION authentic Founder use (fd-0015), with encrypted off-machine backup and tested recovery. Generation Two, the bounded Corporate Command Center layer over it, is authorized (fd-0016). Runtime: the private huerta-group-operations repo (ADR-0008). Production is NOT AUTHORIZED.",
       "category": "internal-operations",
       "maturity": "standby",
       "architecturalDisposition": "future_internal_application",
@@ -390,9 +390,14 @@
         "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md",
         "institution/governance/operations/generation-one-classification-mismatch-dispositions.md",
         "institution/governance/determinations/fd-0015-generation-one-local-operating-posture.md",
-        "institution/governance/operations/generation-one-local-operations-activation-report.md"
+        "institution/governance/operations/generation-one-local-operations-activation-report.md",
+        "institution/governance/operations/GEN2-REQ-V1.md",
+        "institution/governance/operations/generation-two-requirements-report.md",
+        "institution/governance/determinations/fd-0016-generation-two-bounded-implementation-authorization.md"
       ],
       "unresolvedDecisions": [
+        "GENERATION TWO AUTHORIZED, BOUNDED (fd-0016): the Corporate Command Center layer over Generation One is authorized for LOCAL / PRE-PRODUCTION construction. maturity stays 'standby' and implementationReadiness stays 'ready_with_owner_authorization' for the same reason as fd-0015 \u2014 the capability is not activated in production. ADR-0017 is expressly UNCHANGED: no technical access class is widened, and Corporate Operations retains authoring of Headquarters representation. Generation Two adds synthesis, executive review, context and drill-down over the existing model; it adds no system of record.",
+        "OPEN \u2014 GEN2-REQ \u00a734.3 (standardized parent-level venture summary vocabulary, not yet necessary with HGP the only chartered venture), \u00a734.4 (whether a Founder decision arising from an Attention Item is recorded operationally and linked to the authoritative governance record) and \u00a734.5 (which Accounting outputs surface first) remain Founder Office decisions. GEN1-REQ \u00a719 Q5, Q6 and Q7 also remain open; fd-0016 forbids Development from resolving Q6 or Q7.",
         "RECONCILED (fd-0014): implementationReadiness moved from governance_blocked to ready_with_owner_authorization, and maturity from conceptual to standby \u2014 the posture the notification service already established here: implemented and validated, deliberately not activated, awaiting an owner decision. repositoryDisposition moved from unresolved to future_separate_repository per ADR-0008. HISTORICAL POSTURE, preserved and not rewritten: this entry previously recorded that technical architecture was authorized to resume, design only, and that implementation remained NOT AUTHORIZED. That was accurate for its period; the Founder Office construction authorization at fd-0014 is what changed it.",
         "LOCAL / PRE-PRODUCTION AUTHENTIC USE (fd-0015): the Founder Office declined production expenditure and authorized authentic Founder use locally. maturity stays 'standby' rather than moving to 'operational' because the capability is not activated in production \u2014 local authentic use is expressly not deployment (fd-0015 \u00a72.5) \u2014 and implementationReadiness stays 'ready_with_owner_authorization' because production still awaits owner authorization and cost approval. The architecture is UNCHANGED: the deferral is a capital-allocation decision, ADR-0009 remains controlling, and Generation One may not be placed inside the existing public Supabase project to stay within Free-tier limits.",
         "OPEN \u2014 the production-cost question is deferred, not closed. It returns to the Founder Office when authentic use demonstrates that persistent hosted availability would materially improve operations, when local operation becomes materially limiting, or when another significant circumstance justifies reconsideration (fd-0015 \u00a73).",
@@ -411,7 +416,8 @@
         "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md",
         "institution/evolution/records/evo-0005-generation-one-construction-and-validation.md",
         "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
-        "institution/governance/operations/generation-one-local-operations-activation-report.md"
+        "institution/governance/operations/generation-one-local-operations-activation-report.md",
+        "institution/governance/determinations/fd-0016-generation-two-bounded-implementation-authorization.md"
       ]
     },
     {

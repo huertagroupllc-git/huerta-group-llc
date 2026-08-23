@@ -2461,6 +2461,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "generation-two-requirements-report",
+      "title": "Corporate Command Center \u2014 Generation Two Requirements Report \u2014 Repository Status Record",
+      "path": "institution/governance/operations/generation-two-requirements-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Status, provenance, integrity digest and authority boundary of the Generation Two Requirements Report, including the chronology in which the implementation authorization reached Development twice before the source did and Development stopped rather than reconstructing it.",
+      "provenance": {
+        "origin": "Institutional Platform Development (preservation record)",
+        "approvalReference": "Recorded under fd-0016. Evidentiary and non-governing; the report governs over this record wherever the two could be read differently.",
+        "effectiveDate": "2026-08-22"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "corporate-operations-command-management"
+        },
+        {
+          "rel": "references",
+          "target": "gen2-req-v1"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0016-generation-two-bounded-implementation-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-v7-evidence-package",
       "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
@@ -2899,6 +2931,38 @@
           "target": "corporate-operations-command-management"
         }
       ]
+    },
+    {
+      "id": "gen2-req-v1",
+      "title": "Corporate Command Center \u2014 Generation Two Requirements Report",
+      "path": "institution/governance/operations/GEN2-REQ-V1.md",
+      "type": "governing-record",
+      "classification": "Approved Methodology, Governance, and Policy",
+      "authorityTier": 3,
+      "status": "current",
+      "summary": "The authoritative business/operational requirements for the bounded Generation Two Command layer over Generation One: the four-capability boundary, Founder Home, executive review, Headquarters and venture context, drill-down, visibility limits, non-goals, and open Founder Office decisions.",
+      "provenance": {
+        "origin": "Corporate Operations & Command Management (requirements proposal)",
+        "approvalReference": "Preserved verbatim under fd-0016 after two failed transmissions; bounded implementation authorized separately at fd-0016. Not architecture, schema, or implementation authority, and it does not widen any technical access class.",
+        "effectiveDate": "2026-08-22"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "corporate-operations-command-management"
+        },
+        {
+          "rel": "references",
+          "target": "gen1-req-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     },
     {
       "status": "current",
@@ -3599,6 +3663,38 @@
         {
           "rel": "references",
           "target": "generation-one-production-readiness-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0016-generation-two-bounded-implementation-authorization",
+      "title": "fd-0016 \u2014 Founder Office Determinations: Generation Two Requirements Preservation, Access-Boundary Clarifications, and Bounded Stage 1 Authorization",
+      "path": "institution/governance/determinations/fd-0016-generation-two-bounded-implementation-authorization.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Fifteen determinations: the Generation Two Requirements Report preserved verbatim with its own status language unaltered; ADR-0017 unamended and Founder Office permissions not widened; visibility reuses admitted representations; GEN1-REQ \u00a719 Q6/Q7 unresolved; production hosting unauthorized.",
+      "provenance": {
+        "origin": "Founder Office (execution packages)",
+        "approvalReference": "Three Founder Office execution packages received 2026-08-22; recorded 2026-08-22. Evidentiary \u2014 the record evidences the determinations and creates no authority.",
+        "effectiveDate": "2026-08-22"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "gen2-req-v1"
+        },
+        {
+          "rel": "references",
+          "target": "generation-two-requirements-report"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0015-generation-one-local-operating-posture"
         }
       ],
       "disclosure": "repository-internal",

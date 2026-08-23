@@ -437,6 +437,39 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0016",
+      "title": "Founder Office Determinations: Generation Two Requirements Preservation, Access-Boundary Clarifications, and Bounded Stage 1 Authorization",
+      "path": "institution/governance/determinations/fd-0016-generation-two-bounded-implementation-authorization.md",
+      "instrument": "Three Founder Office execution packages (Founder Office \u2192 Institutional Platform Development) authorizing bounded Generation Two Corporate Command Center implementation, clarifying that ADR-0017 is unamended and Founder Office permissions are not widened, holding financial and administrative visibility to reuse of Corporate Operations-admitted Generation One representations, leaving GEN1-REQ \u00a719 Q6 and Q7 unresolved, and transmitting the complete 37-section Generation Two Requirements Report for verbatim preservation",
+      "dateReceived": "2026-08-22",
+      "recordedDate": "2026-08-22",
+      "determinationCount": 15,
+      "affectedArtifacts": [
+        "institution/governance/operations/GEN2-REQ-V1.md",
+        "institution/governance/operations/generation-two-requirements-report.md",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/governance/determinations/fd-0016-generation-two-bounded-implementation-authorization.md"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [
+        {
+          "target": "fd-0015",
+          "nature": "implements"
+        },
+        {
+          "target": "fd-0014",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0013",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
