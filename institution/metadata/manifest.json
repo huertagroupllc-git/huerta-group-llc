@@ -2741,6 +2741,34 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "generation-one-condition-reconciliation-and-register-drilldown-report",
+      "title": "Authentic-Use Correction \u2014 Generation One Conditions & Register Drill-Down",
+      "path": "institution/governance/operations/generation-one-condition-reconciliation-and-register-drilldown-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Two stale Generation One conditions reconciled on their governed grounds \u2014 attention exited on founder_action_occurred, dependency retired \u2014 with both histories intact, the record untouched, and the Register given the drill-down route it lacked.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned under the Founder Office Authentic-Use Correction Execution package of 2026-08-23. Evidentiary and non-governing; production was not launched.",
+        "effectiveDate": "2026-08-23"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stale-obligation-disposition-and-authentic-correction-report"
+        },
+        {
+          "rel": "references",
+          "target": "corp-ops-sem-fnd-v1"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-v7-evidence-package",
       "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
