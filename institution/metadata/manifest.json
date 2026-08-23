@@ -2713,6 +2713,34 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "stale-obligation-disposition-and-authentic-correction-report",
+      "title": "Stale Obligation Disposition & Authentic Correction Report",
+      "path": "institution/governance/operations/stale-obligation-disposition-and-authentic-correction-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The first authentic correction: three stale trade-name obligations disposed under fd-0018, the mis-admitted Record superseded rather than rewritten, every object still readable, no replacement obligation and no Founder Attention created.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned under the Stale Obligation Disposition & Authentic Correction package, recorded at fd-0018. Evidentiary and non-governing; production was not launched.",
+        "effectiveDate": "2026-08-23"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0018-not-established-obligation-disposition"
+        },
+        {
+          "rel": "references",
+          "target": "authentic-use-stale-obligation-disposition-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-v7-evidence-package",
       "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
