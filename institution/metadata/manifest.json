@@ -2589,6 +2589,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "generation-two-stage-4-headquarters-context-report",
+      "title": "Corporate Command Center \u2014 Generation Two Stage 4 Headquarters Context Construction & Validation Report",
+      "path": "institution/governance/operations/generation-two-stage-4-headquarters-context-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Context views for the five authorized Headquarters functions, composed from existing data with no schema change; three defects repaired including one found by a check rather than by reading code; the venture boundary held with HGP returning 404; and the Founder review boundary untouched.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned for Founder Office review under the Stage 4 authorization recorded at fd-0016. Evidentiary and non-governing; production was not launched.",
+        "effectiveDate": "2026-08-22"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "gen2-req-v1"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0016-generation-two-bounded-implementation-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-two-stage-2-executive-review-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-v7-evidence-package",
       "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
