@@ -2685,6 +2685,34 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "authentic-use-stale-obligation-disposition-report",
+      "title": "Corporate Command Center \u2014 Authentic-Use Stale Obligation Disposition Completion Report",
+      "path": "institution/governance/operations/authentic-use-stale-obligation-disposition-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Authentic use found three stale trade-name obligations. Only the Follow-Up has a governed exit; Renewal and Deadline vocabularies describe an obligation progressing and cannot say one was never established, so both return as a semantic deficiency and nothing was applied.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned under the Founder Office Stale Obligation Disposition assignment of 2026-08-23. Evidentiary and non-governing; two object types await Founder Office determination.",
+        "effectiveDate": "2026-08-23"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "corp-ops-sem-fnd-v1"
+        },
+        {
+          "rel": "references",
+          "target": "generation-two-stage-6-provenance-and-environment-separation-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-v7-evidence-package",
       "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
