@@ -2621,6 +2621,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "generation-two-stage-5-hgp-venture-oversight-report",
+      "title": "Corporate Command Center \u2014 Generation Two Stage 5 HGP Parent-Level Venture Oversight Construction & Validation Report",
+      "path": "institution/governance/operations/generation-two-stage-5-hgp-venture-oversight-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Parent-level oversight of HGP with one authorized nullable column for the forward milestone, Milestone-not-Deadline enforced structurally, five of twelve fields honestly absent, the parent/venture boundary held, and GEN1-REQ \u00a719 Q5 identified as the live blocker to further venture visibility.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned for Founder Office review under the Stage 5 authorization and forward-milestone determination of 2026-08-22. Evidentiary and non-governing; production was not launched.",
+        "effectiveDate": "2026-08-22"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "gen2-req-v1"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0016-generation-two-bounded-implementation-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-two-stage-4-headquarters-context-report"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-v7-evidence-package",
       "title": "FD-V7 Evidence Package \u2014 Surviving Recovered OSPA Sections",
       "path": "institution/governance/operations/fd-v7-evidence-package.md",
