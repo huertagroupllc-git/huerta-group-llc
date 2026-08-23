@@ -499,6 +499,34 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0018",
+      "title": "Founder Office Determinations: NOT ESTABLISHED Obligation Disposition, Supersession Non-Cascade, and the Expiration Distinction",
+      "path": "institution/governance/determinations/fd-0018-not-established-obligation-disposition.md",
+      "instrument": "Stale Obligation Disposition & Authentic Correction execution package (Founder Office \u2192 Institutional Platform Development), establishing NOT ESTABLISHED for Renewal and Deadline only, determining that Operational Record supersession does not cascade disposition to attached concepts, distinguishing expiration metadata from an actionable Deadline, and authorizing the coordinated authentic HGP trade-name correction",
+      "dateReceived": "2026-08-23",
+      "recordedDate": "2026-08-23",
+      "determinationCount": 4,
+      "affectedArtifacts": [
+        "institution/governance/operations/authentic-use-stale-obligation-disposition-report.md",
+        "institution/metadata/registries/capability-registry.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/governance/determinations/fd-0018-not-established-obligation-disposition.md"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [
+        {
+          "target": "fd-0017",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0012",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
