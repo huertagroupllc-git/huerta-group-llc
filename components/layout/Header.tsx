@@ -1,38 +1,61 @@
+import Image from "next/image";
+import Link from "next/link";
+import { CapabilitiesNav } from "@/components/layout/CapabilitiesNav";
 import { MobileNav } from "@/components/layout/MobileNav";
 import { NavLink } from "@/components/layout/NavLink";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Container } from "@/components/ui/Container";
-import { CONTACT_HREF, NAV_LINKS, SITE_NAME } from "@/lib/site";
+import { CONTACT_HREF, PRIMARY_NAV, SECONDARY_NAV, SITE_NAME } from "@/lib/site";
 
 /**
- * Global site header. The brand mark is text-based for now; a future
- * vector logo replaces the contents of the brand NavLink below without
- * any structural changes to the header.
+ * Global site header (ddr-0011): raised chrome, the brand mark set beside the
+ * wordmark, and a five-item row whose middle item is the Capabilities
+ * disclosure. `relative` anchors that panel, which spans the full header width.
+ *
+ * The desktop row now appears at lg rather than xl: five items and a CTA fit
+ * where eight labels did not, which is the capacity gr-0003 asked for.
  */
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-edge bg-ink-950/85 backdrop-blur">
-      <Container className="flex h-16 items-center justify-between gap-6">
-        <NavLink href="/" variant="brand">
-          {SITE_NAME}
-        </NavLink>
+    <header className="sticky top-0 z-50 border-b border-edge bg-linear-[180deg,var(--color-chrome-top),var(--color-chrome-bottom)]">
+      <Container className="relative flex h-[4.2rem] items-center justify-between gap-8">
+        <Link
+          href="/"
+          className="flex flex-none items-center gap-3 transition-opacity duration-200 ease-brand hover:opacity-90"
+        >
+          <Image
+            src="/brand/hg-mark.png"
+            alt=""
+            width={230}
+            height={170}
+            priority
+            className="h-[2.1rem] w-auto"
+          />
+          <span aria-hidden="true" className="h-6 w-px bg-edge" />
+          <span className="whitespace-nowrap text-[0.82rem] font-medium uppercase tracking-[0.17em] text-silver-100">
+            {SITE_NAME}
+          </span>
+        </Link>
 
-        {/* Desktop navigation appears at xl — measured: the full label
-            row plus CTA overflows below it, and no standard breakpoint
-            exists between lg and xl. With eight labels, gap-3 and the
-            slightly narrower CTA keep the row on one line inside the
-            max-w-6xl container (measured ~20px slack at the 1152px
-            container cap); whitespace-nowrap prevents wrapping. */}
         <nav
           aria-label="Primary"
-          className="hidden items-center gap-3 xl:flex"
+          className="hidden items-center gap-6 lg:flex"
         >
-          {NAV_LINKS.map((link) => (
+          {PRIMARY_NAV.map((link) => (
             <NavLink key={link.href} href={link.href} variant="header">
               {link.label}
             </NavLink>
           ))}
-          <ButtonLink href={CONTACT_HREF} className="whitespace-nowrap px-4 py-2">
+          <CapabilitiesNav />
+          {SECONDARY_NAV.map((link) => (
+            <NavLink key={link.href} href={link.href} variant="header">
+              {link.label}
+            </NavLink>
+          ))}
+          <ButtonLink
+            href={CONTACT_HREF}
+            className="ml-2 whitespace-nowrap px-5 py-2.5"
+          >
             Start a conversation
           </ButtonLink>
         </nav>

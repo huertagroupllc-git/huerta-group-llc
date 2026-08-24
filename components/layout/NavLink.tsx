@@ -6,9 +6,9 @@ import { cx } from "@/lib/cx";
 
 const VARIANTS = {
   header: {
-    base: "whitespace-nowrap py-2 text-sm transition-colors duration-200 ease-brand",
-    active: "text-silver-100",
-    inactive: "text-silver-400 hover:text-silver-100",
+    base: "whitespace-nowrap border-b py-2 text-sm transition-colors duration-200 ease-brand",
+    active: "border-gold-500 text-silver-100",
+    inactive: "border-transparent text-silver-400 hover:text-silver-100",
   },
   menu: {
     base: "block py-3 text-base transition-colors duration-200 ease-brand",
@@ -16,9 +16,9 @@ const VARIANTS = {
     inactive: "text-silver-300 hover:text-silver-100",
   },
   footer: {
-    base: "inline-block py-1 text-sm transition-colors duration-200 ease-brand",
+    base: "inline-block py-1 text-sm transition-[color,padding-left] duration-200 ease-brand hover:pl-1.5",
     active: "text-silver-100",
-    inactive: "text-silver-400 hover:text-silver-100",
+    inactive: "text-silver-400 hover:text-gold-500",
   },
   /** Wordmark: constant tone; contributes aria-current on the home route. */
   brand: {

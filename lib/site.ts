@@ -33,6 +33,60 @@ export const CONTACT_HREF = "/contact";
  * other institutional labels; the route, page heading, and metadata keep
  * the full name.
  */
+/**
+ * Header navigation (ddr-0011). The eight-label row is replaced by five items
+ * and a Capabilities disclosure holding the four institutional branches —
+ * answering gr-0003's navigation-capacity ceiling and restoring the full
+ * "Technology & Software" name, which the flat row could not fit.
+ *
+ * The routes are unchanged. This is presentation: every governed destination
+ * remains, and the footer continues to link all eight.
+ */
+export const PRIMARY_NAV = [
+  { href: "/services", label: "Services" },
+  { href: "/methodology", label: "Methodology" },
+] as const;
+
+export const SECONDARY_NAV = [
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
+] as const;
+
+/**
+ * The four institutional branches, with the one-line descriptions the adopted
+ * design gives them. Each summarises its own page and asserts nothing the page
+ * does not; they exist because the disclosure panel is a composition the flat
+ * row never had.
+ */
+export const CAPABILITY_NAV = [
+  {
+    ordinal: "01",
+    href: "/intellectual-property",
+    label: "Intellectual Property",
+    description:
+      "Methodology and experience captured as reusable institutional knowledge.",
+  },
+  {
+    ordinal: "02",
+    href: "/education",
+    label: "Education & Workforce Development",
+    description:
+      "Structured learning built to develop demonstrable capability.",
+  },
+  {
+    ordinal: "03",
+    href: "/technology-software",
+    label: "Technology & Software",
+    description: "Technology applied in service of organizational systems.",
+  },
+  {
+    ordinal: "04",
+    href: "/managed-services",
+    label: "Managed Services",
+    description: "Sustained support that keeps implemented systems strong.",
+  },
+] as const;
+
 export const NAV_LINKS = [
   { href: "/services", label: "Services" },
   { href: "/methodology", label: "Methodology" },
