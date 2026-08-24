@@ -38,9 +38,12 @@
   --color-gold-500: #b08d57;
   --color-gold-600: #8e6f41;
 
-  /* Typography — variables provided by next/font in app/layout.tsx */
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-serif: var(--font-source-serif), ui-serif, Georgia, serif;
+  /* Typography — variables provided by next/font in app/layout.tsx.
+   * ddr-0011: Cormorant Garamond editorial, Archivo interface, JetBrains Mono
+   * for eyebrows, ordinals and system detail. */
+  --font-sans: var(--font-archivo), Helvetica, ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, monospace;
 
   /* Letter-spacing for eyebrow labels (DDR-0002: single unified value) */
   --tracking-eyebrow: 0.25em;
@@ -49,8 +52,34 @@
    * (ddr-0006: slight tightening for architectural presence) */
   --tracking-display: -0.015em;
 
-  /* Motion — the standard easing for all color transitions (DDR-0003) */
+  /* Motion — the standard easing (ddr-0003; ddr-0011 extends the vocabulary
+   * from colour-only to colour and bounded transform) */
   --ease-brand: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  /* ------------------------------------------------------------------------
+   * Card surface language (ddr-0011). A card is a vertical gradient on a
+   * hairline; on hover the hairline warms to gold and the surface lifts.
+   * Rationed to enumerated peers — never a default wrapper for prose.
+   * --------------------------------------------------------------------- */
+  --color-card-top: #191a1e;
+  --color-card-bottom: #121316;
+  --color-card-edge: #26272c;
+
+  /* Raised chrome — header, capability panel, footer */
+  --color-chrome-top: #16171a;
+  --color-chrome-bottom: #101114;
+  --color-panel-top: #14151a;
+  --color-panel-bottom: #0d0e11;
+  --color-foot-top: #101114;
+  --color-foot-bottom: #0b0b0c;
+}
+
+@utility card-surface {
+  background-image: linear-gradient(
+    180deg,
+    var(--color-card-top) 0%,
+    var(--color-card-bottom) 100%
+  );
 }
 
 @layer base {
@@ -61,9 +90,17 @@
   }
 
   body {
-    background-color: var(--color-ink-950);
-    color: var(--color-silver-300);
+    background-color: var(--color-ink-900);
+    color: var(--color-silver-100);
     font-family: var(--font-sans);
+  }
+
+  /* Cormorant is a light-set face: its 400 carries the editorial weight the
+   * adopted design uses, and headings therefore never bold (ddr-0011). */
+  h1,
+  h2,
+  h3 {
+    font-weight: 400;
   }
 
   ::selection {

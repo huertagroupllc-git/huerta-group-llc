@@ -5,6 +5,7 @@ interface ArrowLinkProps {
   href: string;
   /** Render as block (full-line tap target) instead of inline-block. */
   block?: boolean;
+  onClick?: () => void;
   className?: string;
   children: React.ReactNode;
 }
@@ -16,12 +17,14 @@ interface ArrowLinkProps {
 export function ArrowLink({
   href,
   block = false,
+  onClick,
   className,
   children,
 }: ArrowLinkProps) {
   return (
     <Link
       href={href}
+      onClick={onClick}
       className={cx(
         block ? "block" : "inline-block",
         "group py-1 text-sm text-gold-400 transition-colors duration-200 ease-brand hover:text-gold-300",

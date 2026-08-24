@@ -2,13 +2,20 @@ import { cx } from "@/lib/cx";
 
 export type ButtonVariant = "primary" | "secondary";
 
+/**
+ * ddr-0011 adopts the passover's metallic button: a vertical gold gradient
+ * that glows on hover and takes a bounded scale on press. The press transform
+ * is deliberate feedback, not animation — it lasts 120 ms and collapses under
+ * the global reduced-motion rule like every other transition.
+ */
 const BASE =
-  "inline-flex items-center justify-center rounded-sm px-6 py-3 text-sm font-medium tracking-wide transition-colors duration-200 ease-brand disabled:pointer-events-none disabled:opacity-60";
+  "inline-flex items-center justify-center rounded-sm px-8 py-4 text-sm font-semibold tracking-wide transition-[color,background-color,border-color,box-shadow,transform] duration-200 ease-brand active:scale-[0.97] disabled:pointer-events-none disabled:opacity-60";
 
 const VARIANTS: Record<ButtonVariant, string> = {
-  primary: "bg-gold-500 text-ink-950 hover:bg-gold-400 active:bg-gold-600",
+  primary:
+    "bg-linear-[180deg,var(--color-gold-300),var(--color-gold-500)] text-ink-900 hover:shadow-[0_8px_22px_rgba(176,141,87,0.4)]",
   secondary:
-    "border border-edge text-silver-300 hover:border-gold-600 hover:text-silver-100 active:border-gold-500",
+    "border border-edge text-silver-300 hover:border-gold-500 hover:text-gold-500 active:border-gold-500",
 };
 
 /** Single source of button styling for links and real buttons (DDR-0004). */

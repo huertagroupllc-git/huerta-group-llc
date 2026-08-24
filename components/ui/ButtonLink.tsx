@@ -4,6 +4,7 @@ import { buttonClasses, type ButtonVariant } from "@/components/ui/Button";
 interface ButtonLinkProps {
   href: string;
   variant?: ButtonVariant;
+  onClick?: () => void;
   className?: string;
   children: React.ReactNode;
 }
@@ -12,11 +13,16 @@ interface ButtonLinkProps {
 export function ButtonLink({
   href,
   variant = "primary",
+  onClick,
   className,
   children,
 }: ButtonLinkProps) {
   return (
-    <Link href={href} className={buttonClasses(variant, className)}>
+    <Link
+      href={href}
+      onClick={onClick}
+      className={buttonClasses(variant, className)}
+    >
       {children}
     </Link>
   );

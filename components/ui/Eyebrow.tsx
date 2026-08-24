@@ -10,22 +10,25 @@ interface EyebrowProps {
 }
 
 /**
- * Uppercase gold section/hero label with gold hairline accent.
- * Tracking comes from the eyebrow token (DDR-0002).
+ * Uppercase gold section/hero label with a gold hairline accent.
+ *
+ * ddr-0011 sets it in JetBrains Mono at the adopted scale; the tracking token
+ * from ddr-0002 continues to govern its letter-spacing, and the hairline
+ * lengthens to the passover's 40px rule.
  */
 export function Eyebrow({ centered = false, className, children }: EyebrowProps) {
   return (
     <p
       className={cx(
-        "flex items-center gap-3 text-xs font-medium uppercase tracking-eyebrow text-gold-500",
+        "flex items-center gap-3.5 font-mono text-[0.7rem] uppercase tracking-eyebrow text-gold-500",
         centered && "justify-center",
         className,
       )}
     >
-      <span aria-hidden="true" className="h-px w-8 bg-gold-600" />
+      <span aria-hidden="true" className="h-px w-10 bg-gold-500" />
       {children}
       {centered ? (
-        <span aria-hidden="true" className="h-px w-8 bg-gold-600" />
+        <span aria-hidden="true" className="h-px w-10 bg-gold-500" />
       ) : null}
     </p>
   );

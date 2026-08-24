@@ -20,7 +20,7 @@ interface CtaBandProps {
  */
 export function CtaBand({ id, eyebrow, title, lead, actions }: CtaBandProps) {
   return (
-    <section id={id} className="border-t border-edge bg-ink-900">
+    <section id={id} className="border-t border-edge bg-linear-[180deg,var(--color-chrome-top),var(--color-ink-900)]">
       <Container className="py-24 sm:py-32">
         <div className="lg:flex lg:items-end lg:justify-between lg:gap-16">
           <div className="max-w-2xl">

@@ -15,6 +15,12 @@ interface SectionProps {
    * reserved for narrow content stacks; wide grids stay "stack".
    */
   layout?: "stack" | "split";
+  /**
+   * Centred section header (ddr-0011). The adopted design centres the header
+   * above enumerated card grids; editorial and split sections stay left,
+   * preserving the ddr-0007 composition.
+   */
+  align?: "left" | "center";
   className?: string;
   children: React.ReactNode;
 }
@@ -30,15 +36,18 @@ export function Section({
   lead,
   tone = "base",
   layout = "stack",
+  align = "left",
   className,
   children,
 }: SectionProps) {
+  const centered = align === "center";
   const header = (
-    <>
-      <Eyebrow>{eyebrow}</Eyebrow>
+    <div className={cx(centered && "mx-auto max-w-3xl text-center")}>
+      <Eyebrow centered={centered}>{eyebrow}</Eyebrow>
       <h2
         className={cx(
-          "mt-5 max-w-2xl text-balance font-serif text-3xl tracking-display text-silver-100 sm:text-4xl",
+          "mt-5 text-balance font-serif text-4xl leading-[1.12] tracking-display text-silver-100 sm:text-5xl",
+          !centered && "max-w-2xl",
           layout === "split" && "lg:max-w-none",
         )}
       >
@@ -47,22 +56,26 @@ export function Section({
       {lead ? (
         <p
           className={cx(
-            "mt-5 max-w-2xl text-pretty text-lg leading-relaxed text-silver-400",
+            "mt-5 text-pretty text-lg leading-relaxed text-silver-400",
+            !centered && "max-w-2xl",
             layout === "split" && "lg:max-w-none",
           )}
         >
           {lead}
         </p>
       ) : null}
-    </>
+    </div>
   );
 
   return (
     <section
       id={id}
       className={cx(
-        "border-t border-edge py-20 sm:py-28",
-        tone === "raised" && "bg-ink-900",
+        "border-t border-edge py-20 sm:py-24",
+        // The body ground is ink-900 under ddr-0011, so a raised band lifts
+        // *above* it rather than sitting a step below as it did when the page
+        // ground was ink-950. Same alternation, inverted direction.
+        tone === "raised" && "bg-ink-800",
         className,
       )}
     >
@@ -75,7 +88,7 @@ export function Section({
         ) : (
           <>
             {header}
-            {children}
+            <div className={cx(centered && "mt-14")}>{children}</div>
           </>
         )}
       </Container>
