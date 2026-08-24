@@ -2273,6 +2273,30 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "ddr-0011-claude-design-adoption",
+      "title": "ddr-0011 \u2014 Claude Design Adoption and Design-System Reconciliation",
+      "path": "institution/design/decisions/ddr-0011-claude-design-adoption.md",
+      "summary": "Adopts the Claude Design passover as the institutional visual direction: Cormorant Garamond/Archivo/JetBrains Mono, the card surface language, the Capabilities disclosure, and a completed responsive design. Partially supersedes ddr-0003, ddr-0006, ddr-0009 and ddr-0010; answers gr-0003.",
+      "provenance": {
+        "origin": "Design System (decision) / Platform & Systems Development (implementation)",
+        "approvalReference": "fd-0005 decision rules (lightweight DDR practice).",
+        "effectiveDate": null
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "design-area-charter"
+        }
+      ],
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "evo-0003-editorial-design-language-emergence",
       "title": "evo-0003 \u2014 A Distinctive Editorial Design Language Emerged Through the Reference Implementation",
       "path": "institution/evolution/records/evo-0003-editorial-design-language-emergence.md",
