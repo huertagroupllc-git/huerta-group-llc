@@ -12,6 +12,13 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Design exploration artifacts are not application source. The Claude
+    // Design passover ships its own canvas runtime (passover/support.js),
+    // which is third-party build output and fails the gate on rules that do
+    // not govern it. Excluded for the same reason globals.css excludes
+    // institution/ and workbench/ from class scanning: evidence in the tree
+    // must not influence the application or its gates.
+    "passover/**",
   ]),
 ]);
 

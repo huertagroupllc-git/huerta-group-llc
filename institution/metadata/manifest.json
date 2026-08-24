@@ -1877,6 +1877,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "claude-design-passover-evaluation",
+      "title": "Huerta Group Institutional Website \u2014 Claude Design Implementation & Validation Report",
+      "path": "institution/design/claude-design-passover-evaluation.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Evaluation of the Claude Design website passover: palette already governed and copy verbatim where present, but the design's typefaces, boxed cards and transforms conflict with four adopted DDRs and it has no mobile half. Nothing implemented; determination required.",
+      "provenance": {
+        "origin": "Institutional Platform Development (design evaluation)",
+        "approvalReference": "Returned under the Founder Office Claude Design Passover Evaluation package of 2026-08-23. Evidence, non-authoritative (fd-0005); adopts nothing and supersedes no DDR.",
+        "effectiveDate": "2026-08-23"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "ddr-0006-typography-refinement"
+        },
+        {
+          "rel": "references",
+          "target": "ddr-0009-quiet-numerals-and-open-cards"
+        },
+        {
+          "rel": "references",
+          "target": "gr-0003-navigation-capacity-ceiling"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "ddr-0001-token-architecture-single-primitive-layer",
       "title": "ddr-0001 \u2014 Token Architecture: Single Primitive Layer with Documented Roles",
       "path": "institution/design/decisions/ddr-0001-token-architecture-single-primitive-layer.md",
