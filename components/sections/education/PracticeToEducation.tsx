@@ -1,4 +1,5 @@
 import { ArrowLink } from "@/components/ui/ArrowLink";
+import { Card, CardOrdinal } from "@/components/ui/Card";
 import { Section } from "@/components/ui/Section";
 
 const STAGES = [
@@ -49,23 +50,17 @@ export function PracticeToEducation() {
       lead="Huerta Group operates on a deliberate institutional progression. Education is built to draw its substance from the stages before it and to strengthen the stages around it."
       tone="raised"
     >
-      <ol className="mt-14 lg:mt-0 space-y-10">
+      <ol className="mt-14 space-y-5 lg:mt-0">
         {STAGES.map((stage) => (
-          <li key={stage.number} className="border-t border-edge pt-6">
-            <div className="flex gap-6">
-              <span className="w-12 shrink-0 font-serif text-3xl leading-none text-gunmetal">
-                {stage.number}
-              </span>
-              <div>
-                <h3 className="font-serif text-xl text-silver-100">
-                  {stage.title}
-                </h3>
-                <p className="mt-2 leading-relaxed text-silver-400">
-                  {stage.description}
-                </p>
-              </div>
-            </div>
-          </li>
+          <Card as="li" interactive key={stage.number}>
+            <CardOrdinal>{stage.number}</CardOrdinal>
+            <h3 className="font-serif text-xl text-silver-100">
+              {stage.title}
+            </h3>
+            <p className="mt-2.5 text-sm leading-relaxed text-silver-400">
+              {stage.description}
+            </p>
+          </Card>
         ))}
       </ol>
       <p className="mt-10 text-sm leading-relaxed text-silver-500">

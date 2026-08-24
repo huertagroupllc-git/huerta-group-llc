@@ -1,4 +1,5 @@
 import { ArrowLink } from "@/components/ui/ArrowLink";
+import { Card, CardOrdinal } from "@/components/ui/Card";
 import { Section } from "@/components/ui/Section";
 
 const PHASES = [
@@ -36,19 +37,17 @@ export function Engagement() {
       lead="An adaptable model, not a fixed package — the phases below are drawn on as the organization's situation requires."
       tone="raised"
     >
-      <ol className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+      <ol className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {PHASES.map((phase) => (
-          <li key={phase.number} className="border-t border-edge pt-5">
-            <span className="w-12 shrink-0 font-serif text-3xl leading-none text-gunmetal">
-              {phase.number}
-            </span>
-            <h3 className="mt-3 font-serif text-xl text-silver-100">
+          <Card as="li" interactive key={phase.number}>
+            <CardOrdinal>{phase.number}</CardOrdinal>
+            <h3 className="font-serif text-xl text-silver-100">
               {phase.title}
             </h3>
-            <p className="mt-3 text-sm leading-relaxed text-silver-400">
+            <p className="mt-2.5 text-sm leading-relaxed text-silver-400">
               {phase.activities}
             </p>
-          </li>
+          </Card>
         ))}
       </ol>
       <p className="mt-10 max-w-2xl text-sm leading-relaxed text-silver-500">

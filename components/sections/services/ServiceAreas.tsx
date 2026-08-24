@@ -1,4 +1,5 @@
 import { ArrowLink } from "@/components/ui/ArrowLink";
+import { Card, CardOrdinal } from "@/components/ui/Card";
 import { Section } from "@/components/ui/Section";
 
 const AREAS = [
@@ -84,29 +85,19 @@ export function ServiceAreas() {
       lead="Each area addresses a different organizational condition. No engagement includes all of them by default — the work is scoped to the operating need."
       tone="raised"
     >
-      <ol className="mt-14 lg:mt-0 space-y-12">
+      <ol className="mt-14 space-y-5 lg:mt-0">
         {AREAS.map((area) => (
-          <li key={area.number} className="border-t border-edge pt-8">
-            <div className="flex gap-6">
-              <span className="w-12 shrink-0 font-serif text-3xl leading-none text-gunmetal">
-                {area.number}
-              </span>
-              <div>
-                <h3 className="font-serif text-2xl text-silver-100">
-                  {area.title}
-                </h3>
-                <p className="mt-3 leading-relaxed text-silver-400">
-                  {area.condition}
-                </p>
-                <p className="mt-3 leading-relaxed text-silver-400">
-                  {area.work}
-                </p>
-                <p className="mt-3 leading-relaxed text-silver-300">
-                  {area.value}
-                </p>
-              </div>
-            </div>
-          </li>
+          <Card as="li" interactive key={area.number}>
+            <CardOrdinal>{area.number}</CardOrdinal>
+            <h3 className="font-serif text-2xl text-silver-100">
+              {area.title}
+            </h3>
+            <p className="mt-3 leading-relaxed text-silver-400">
+              {area.condition}
+            </p>
+            <p className="mt-3 leading-relaxed text-silver-400">{area.work}</p>
+            <p className="mt-3 leading-relaxed text-silver-300">{area.value}</p>
+          </Card>
         ))}
       </ol>
       <p className="mt-12">

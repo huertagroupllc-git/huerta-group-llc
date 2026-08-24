@@ -1,4 +1,5 @@
 import { PullQuote } from "@/components/ui/PullQuote";
+import { Card, CardOrdinal } from "@/components/ui/Card";
 import { Section } from "@/components/ui/Section";
 
 const PROBLEMS = [
@@ -41,18 +42,20 @@ export function Problems() {
       eyebrow="The problem"
       title="Growth exposes the systems behind the work."
       lead="As organizations grow, the informal systems that once worked quietly begin to strain. The symptoms are familiar."
+      align="center"
     >
-      <ul className="mt-14 grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
-        {PROBLEMS.map((problem) => (
-          <li key={problem.title} className="border-t border-edge pt-5">
+      <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {PROBLEMS.map((problem, index) => (
+          <Card as="li" interactive key={problem.title}>
+            <CardOrdinal>{String(index + 1).padStart(2, "0")}</CardOrdinal>
             <h3 className="font-serif text-xl text-silver-100">{problem.title}</h3>
-            <p className="mt-2 text-sm leading-relaxed text-silver-400">
+            <p className="mt-2.5 text-sm leading-relaxed text-silver-400">
               {problem.description}
             </p>
-          </li>
+          </Card>
         ))}
       </ul>
-      <PullQuote className="mt-14 max-w-2xl leading-relaxed">
+      <PullQuote className="mx-auto mt-14 max-w-2xl leading-relaxed">
         None of these are people problems. They are systems problems — and
         systems can be designed.
       </PullQuote>

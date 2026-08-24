@@ -1,4 +1,5 @@
 import { ArrowLink } from "@/components/ui/ArrowLink";
+import { Card, CardOrdinal } from "@/components/ui/Card";
 import { Section } from "@/components/ui/Section";
 
 const CAPABILITY_GROUPS = [
@@ -43,38 +44,42 @@ export function Capabilities() {
       title="Three disciplines, one connected practice."
       lead="The work draws on three core disciplines — applied together, so improvements in one area reinforce the others."
       tone="raised"
+      align="center"
     >
-      <div className="mt-14 grid gap-6 lg:grid-cols-3">
-        {CAPABILITY_GROUPS.map((group) => (
-          <article
-            key={group.title}
-            className="border-t border-edge pt-8"
-          >
+      <div className="grid gap-5 lg:grid-cols-3">
+        {CAPABILITY_GROUPS.map((group, index) => (
+          <Card as="div" interactive key={group.title}>
+            <CardOrdinal>{`Discipline ${String(index + 1).padStart(2, "0")}`}</CardOrdinal>
             <h3 className="font-serif text-xl text-silver-100">
               {group.title}
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-silver-400">
               {group.description}
             </p>
-            <ul className="mt-6 space-y-2.5">
+            {/* The passover sets a discipline's constituent services as
+                bordered chips. They stay a real list, and they stay static:
+                a chip is not a link, so it does not respond to the pointer
+                (ddr-0011 — restraint governs where fidelity and the
+                affordance rule disagree). */}
+            <ul className="mt-6 flex flex-wrap gap-2">
               {group.items.map((item) => (
-                <li key={item} className="flex gap-3 text-sm text-silver-300">
-                  <span aria-hidden="true" className="text-gold-600">
-                    —
-                  </span>
+                <li
+                  key={item}
+                  className="border border-card-edge px-3 py-1.5 text-xs leading-snug text-silver-300"
+                >
                   {item}
                 </li>
               ))}
             </ul>
-          </article>
+          </Card>
         ))}
       </div>
-      <p className="mt-10 max-w-2xl text-sm leading-relaxed text-silver-500">
+      <p className="mx-auto mt-10 max-w-2xl text-center text-sm leading-relaxed text-silver-500">
         AI and automation are tools within this practice — applied
         deliberately, inside a broader operational design, never as the
         starting point.
       </p>
-      <p className="mt-6">
+      <p className="mt-6 text-center">
         <ArrowLink href="/services">Explore the full services</ArrowLink>
       </p>
     </Section>

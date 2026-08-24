@@ -1,3 +1,4 @@
+import { Card, CardRule } from "@/components/ui/Card";
 import { Section } from "@/components/ui/Section";
 
 /**
@@ -50,21 +51,19 @@ export function SustainedSupportPrinciples() {
       title="What keeps ongoing work honest."
       lead="These principles govern how Huerta Group approaches sustained organizational support — whatever form a particular arrangement takes."
     >
-      <div className="mt-14 lg:mt-0 divide-y divide-edge">
+      <ul className="mt-14 grid gap-4 sm:grid-cols-2 lg:mt-0">
         {PRINCIPLES.map((principle) => (
-          <div
-            key={principle.statement}
-            className="py-8 first:pt-0 last:pb-0"
-          >
-            <h3 className="font-serif text-2xl text-silver-100">
+          <Card as="li" interactive size="compact" key={principle.statement}>
+            <CardRule />
+            <h3 className="font-serif text-xl leading-snug text-silver-100">
               {principle.statement}
             </h3>
-            <p className="mt-2 leading-relaxed text-silver-400">
+            <p className="mt-2.5 text-sm leading-relaxed text-silver-400">
               {principle.detail}
             </p>
-          </div>
+          </Card>
         ))}
-      </div>
+      </ul>
     </Section>
   );
 }

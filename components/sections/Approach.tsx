@@ -1,4 +1,5 @@
 import { ArrowLink } from "@/components/ui/ArrowLink";
+import { Card, CardOrdinal } from "@/components/ui/Card";
 import { Section } from "@/components/ui/Section";
 
 const STEPS = [
@@ -35,23 +36,22 @@ export function Approach() {
       eyebrow="How we work"
       title="Disciplined, practical, built to last."
       lead="A structured way of working that stays grounded in your organization's reality — and ends with your team in control of the result."
+      align="center"
     >
-      <ol className="mt-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+      <ol className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {STEPS.map((step) => (
-          <li key={step.number} className="border-t border-edge pt-5">
-            <span className="w-12 shrink-0 font-serif text-3xl leading-none text-gunmetal">
-              {step.number}
-            </span>
-            <h3 className="mt-3 font-serif text-xl text-silver-100">
+          <Card as="li" interactive key={step.number}>
+            <CardOrdinal>{step.number}</CardOrdinal>
+            <h3 className="font-serif text-xl text-silver-100">
               {step.title}
             </h3>
-            <p className="mt-3 text-sm leading-relaxed text-silver-400">
+            <p className="mt-2.5 text-sm leading-relaxed text-silver-400">
               {step.description}
             </p>
-          </li>
+          </Card>
         ))}
       </ol>
-      <p className="mt-10">
+      <p className="mt-10 text-center">
         <ArrowLink href="/methodology">Explore the methodology behind the work</ArrowLink>
       </p>
     </Section>
