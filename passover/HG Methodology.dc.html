@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Archivo:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #0F0F10; color: #EDEDEF; font-family: Archivo, Helvetica, sans-serif; }
+  a { color: inherit; text-decoration: none; }
+</style>
+</helmet>
+<div style="--gold: #B08D57; --gold-lt: #C9A97A; --silver: #5E646B; --line: #222327;">
+    <div>
+      <div style="padding: 84px 52px 76px; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #15161A 0%, #0F0F10 100%);">
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 24px;">Methodology</div>
+        <h1 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 64px; line-height: 1.06; margin: 0 0 24px; max-width: 900px;">The discipline behind the work.</h1>
+        <p style="margin: 0 0 36px; font-size: 16.5px; line-height: 1.72; color: #a6a6ae; max-width: 830px;">Huerta Group's work does not rest on individual intuition, isolated recommendations, or the technology of the moment. It rests on methodology — a disciplined, structured, repeatable way of understanding organizations and improving the systems through which they operate.</p>
+        <div style="display: flex; gap: 14px;">
+          <span onClick="{{ goContact }}" style="padding: 15px 30px; background: linear-gradient(180deg, var(--gold-lt) 0%, var(--gold) 100%); color: #0F0F10; font-size: 14px; font-weight: 600; cursor: pointer; transition: transform .12s ease, box-shadow .22s ease;" style-hover="box-shadow:0 14px 34px rgba(176,141,87,0.36)" style-active="transform:translateY(2px) scale(0.97)">Contact Huerta Group</span>
+          <span onClick="{{ goServices }}" style="padding: 15px 30px; border: 1px solid #33353a; font-size: 14px; cursor: pointer; transition: all .22s ease;" style-hover="border-color:var(--gold);color:var(--gold)" style-active="transform:translateY(2px) scale(0.97)">Explore our services</span>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--line);">
+        <div style="padding: 76px 52px; border-right: 1px solid var(--line);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">Methodology before technology</div>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 40px; margin: 0 0 22px; line-height: 1.14;">The foundation is the method, not the tool.</h2>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">Technology, artificial intelligence, software, data systems, and automation all have a place in Huerta Group's work. None of them is its foundation. They strengthen analysis, coordination, implementation, measurement, and scale — when they serve a sound method applied to a well-understood organization.</p>
+          <p style="margin: 0 0 26px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">What no tool replaces is the substance underneath: organizational understanding, human judgment, professional responsibility, governance, evidence, and accountability. Methodology keeps that order intact — organizational purpose defines the work, method disciplines it, and technology serves it.</p>
+          <p style="margin: 0 0 26px; font-family: 'Cormorant Garamond', serif; font-size: 26px; color: var(--gold);">The method leads. The tools serve.</p>
+          <div onClick="{{ goTechnology }}" style="display: inline-block; font-size: 14px; color: var(--gold); cursor: pointer; border-bottom: 1px solid rgba(176,141,87,0.4); padding-bottom: 3px; transition: all .2s ease;" style-hover="border-bottom-color:var(--gold)">How the Company puts technology to work →</div>
+        </div>
+        <div style="padding: 76px 52px; background: linear-gradient(180deg, #121316 0%, #0F0F10 100%);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">Understanding before change</div>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 40px; margin: 0 0 22px; line-height: 1.14;">Responsible change begins with understanding.</h2>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">Huerta Group does not prescribe before it understands. The organization, its operating context, its existing systems, its constraints, its responsibilities, and the likely consequences of change come first — because organizations are interconnected systems. Processes, people, governance, information, technology, incentives, and decisions affect one another, and improvement that ignores those relationships rarely holds.</p>
+          <p style="margin: 0; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">That is why structured reasoning matters more than isolated intuition. Complex organizational conditions call for disciplined analysis, explicit reasoning, and relevant evidence — drawn from operating reality and weighed with professional judgment, not reduced to whatever a dashboard happens to measure.</p>
+        </div>
+      </div>
+
+      <div style="padding: 88px 52px; border-bottom: 1px solid var(--line);">
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px;">Principles that guide the work</div>
+        <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 46px; margin: 0 0 14px;">Enduring principles, consistently applied.</h2>
+        <p style="margin: 0 0 44px; font-size: 16px; line-height: 1.68; color: #9a9aa1; max-width: 760px;">These principles govern how Huerta Group reasons and works — across organizations, industries, and time.</p>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px;">
+          <sc-for list="{{ methodPrinciples }}" as="p" hint-placeholder-count="7">
+            <div style="border: 1px solid #26272c; background: linear-gradient(180deg, #191A1E 0%, #121316 100%); padding: 28px 26px 30px; cursor: default; transition: all .24s ease;" style-hover="border-color:rgba(176,141,87,0.55);transform:translateY(-4px);box-shadow:0 18px 40px rgba(0,0,0,0.5)">
+              <div style="width: 22px; height: 2px; background: var(--gold); margin-bottom: 20px; transition: width .3s cubic-bezier(.2,.8,.2,1);" style-hover="width:52px"></div>
+              <h3 style="margin: 0 0 10px; font-size: 17px; font-weight: 600;">{{ p.t }}</h3>
+              <p style="margin: 0; font-size: 14px; line-height: 1.62; color: #8f8f97;">{{ p.b }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--line);">
+        <div style="padding: 76px 52px; border-right: 1px solid var(--line);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">Consistency with responsible adaptation</div>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 40px; margin: 0 0 22px; line-height: 1.14;">Repeatable is not rigid.</h2>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">A disciplined methodology is what makes Huerta Group's work consistent — transferable, reviewable, and accountable over time and wherever it is applied, rather than dependent on any one individual's intuition. It is also what allows the work to scale without lowering its standard.</p>
+          <p style="margin: 0 0 26px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">Consistency does not mean identical prescriptions. The same disciplined way of reasoning produces different answers in different organizations, because the organizations are different. What stays constant is the standard of the work — how it is reasoned, evidenced, implemented, and reviewed. What adapts, responsibly, is the work itself: to the organization's actual context, constraints, and capacity. That is adaptation with discipline, not improvisation.</p>
+          <p style="margin: 0; font-family: 'Cormorant Garamond', serif; font-size: 26px; color: var(--gold);">The standard is constant. The answer belongs to the organization.</p>
+        </div>
+        <div style="padding: 76px 52px; background: linear-gradient(180deg, #121316 0%, #0F0F10 100%);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">An institutional foundation</div>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 40px; margin: 0 0 22px; line-height: 1.14;">Methodology runs through the whole Company.</h2>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">Methodology is where Huerta Group's institutional model holds together. The Company's services are delivered through it: services describe the areas in which Huerta Group works; methodology is the disciplined foundation on which that work is performed — so quality depends on the institution's standard, not on any single person's intuition.</p>
+          <p style="margin: 0 0 26px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">The same discipline compounds. Practiced methodology produces reusable organizational knowledge — the frameworks, tools, and intellectual property a durable institution refines and protects. Education &amp; Workforce Development is being built to extend that knowledge into structured learning and practical capability. Technology and software serve the methodology's consistency, coordination, and scale. And sustained operational support is meant to extend its value beyond the work that first produced it.</p>
+          <div onClick="{{ goIp }}" style="display: inline-block; font-size: 14px; color: var(--gold); cursor: pointer; border-bottom: 1px solid rgba(176,141,87,0.4); padding-bottom: 3px; transition: all .2s ease;" style-hover="border-bottom-color:var(--gold)">How knowledge becomes an institutional asset →</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic { renderVals() { return {}; } }
+</script>
+</body>
+</html>

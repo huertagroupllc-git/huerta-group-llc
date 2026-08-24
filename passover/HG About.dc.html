@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Archivo:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #0F0F10; color: #EDEDEF; font-family: Archivo, Helvetica, sans-serif; }
+  a { color: inherit; text-decoration: none; }
+</style>
+</helmet>
+<div style="--gold: #B08D57; --gold-lt: #C9A97A; --silver: #5E646B; --line: #222327;">
+    <div>
+      <div style="padding: 84px 52px 76px; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #15161A 0%, #0F0F10 100%);">
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 24px;">About Huerta Group</div>
+        <h1 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 62px; line-height: 1.06; margin: 0 0 24px; max-width: 900px;">An organizational systems company.</h1>
+        <p style="margin: 0; font-size: 16.5px; line-height: 1.72; color: #a6a6ae; max-width: 830px;">Huerta Group exists to help organizations become stronger — by design. This page explains what that means: how the Company sees organizations, what it believes makes them strong, and the kind of institution it is being built to be.</p>
+      </div>
+
+      <div style="padding: 80px 52px; border-bottom: 1px solid var(--line);">
+        <div style="display: grid; grid-template-columns: 1fr 1.4fr; gap: 68px; align-items: start;">
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">Identity</div>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 40px; margin: 0; line-height: 1.12;">Organizations are systems before they are anything else.</h2>
+          </div>
+          <div>
+            <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.72; color: #a6a6ae;">Every organization — whatever its size or mission — runs on the same underlying material: people carrying responsibility, processes that shape their work, information that guides decisions, technology that carries the load, and leadership that holds it all together.</p>
+            <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.72; color: #a6a6ae;">Huerta Group works at the level where these elements meet. Not the org chart alone, not the tools alone, but the connected system they form together.</p>
+            <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.72; color: #a6a6ae;">When that system is designed deliberately, an organization becomes clearer, steadier, and easier to lead. When it is left to accumulate on its own, friction compounds quietly until growth exposes it.</p>
+            <p style="margin: 0; font-size: 16px; line-height: 1.72; color: #c9c9d0;">That is the Company's field of work: the design and improvement of the systems organizations run on.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding: 88px 52px; background: linear-gradient(180deg, #121316 0%, #0F0F10 100%); border-bottom: 1px solid var(--line);">
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px;">Organizational strength</div>
+        <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 44px; margin: 0 0 14px;">Strength is structural.</h2>
+        <p style="margin: 0 0 42px; font-size: 16px; line-height: 1.68; color: #9a9aa1; max-width: 780px;">A strong organization is not defined by intensity of effort. It is defined by what its structure makes reliable — over time and under pressure.</p>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+          <sc-for list="{{ aboutStrength }}" as="s" hint-placeholder-count="6">
+            <div style="border: 1px solid #26272c; background: linear-gradient(180deg, #191A1E 0%, #121316 100%); padding: 30px 28px 32px; cursor: default; transition: all .26s ease;" style-hover="border-color:rgba(176,141,87,0.5);box-shadow:0 18px 42px rgba(0,0,0,0.55);transform:translateY(-5px)">
+              <h3 style="margin: 0 0 10px; font-size: 18px; font-weight: 600;">{{ s.t }}</h3>
+              <p style="margin: 0; font-size: 14.5px; line-height: 1.62; color: #8f8f97;">{{ s.b }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="padding: 88px 52px; border-bottom: 1px solid var(--line);">
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px;">Order of operations</div>
+        <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 44px; margin: 0 0 14px;">Purpose first. People always. Technology in service of both.</h2>
+        <p style="margin: 0 0 46px; font-size: 16px; line-height: 1.68; color: #9a9aa1; max-width: 780px;">The hierarchy matters. It is the difference between systems that strengthen an organization and tools that merely accumulate.</p>
+        <div style="display: flex;">
+          <sc-for list="{{ aboutOrder }}" as="o" hint-placeholder-count="4">
+            <div style="flex: 1; padding: 0 30px; border-left: 1px solid #26272c; cursor: default; transition: border-color .26s ease, background .26s ease;" style-hover="border-left-color:var(--gold);background:linear-gradient(180deg,rgba(176,141,87,0.07) 0%,rgba(176,141,87,0) 100%)">
+              <div style="font-family: 'Cormorant Garamond', serif; font-size: 40px; color: var(--gold); line-height: 1; margin-bottom: 18px;">{{ o.n }}</div>
+              <h3 style="margin: 0 0 10px; font-size: 19px; font-weight: 600;">{{ o.t }}</h3>
+              <p style="margin: 0; font-size: 14px; line-height: 1.62; color: #8f8f96;">{{ o.b }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="padding: 88px 52px; background: linear-gradient(180deg, #121316 0%, #0F0F10 100%); border-bottom: 1px solid var(--line);">
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px;">Operating perspective</div>
+        <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 44px; margin: 0 0 14px;">How the work is judged.</h2>
+        <p style="margin: 0 0 42px; font-size: 16px; line-height: 1.68; color: #9a9aa1; max-width: 780px;">Perspective is not what a company says about itself. It is the standard its work is held to.</p>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-bottom: 34px;">
+          <sc-for list="{{ aboutPerspective }}" as="p" hint-placeholder-count="4">
+            <div style="border: 1px solid #26272c; padding: 28px 26px 30px; cursor: default; transition: all .24s ease;" style-hover="border-color:var(--gold);background:rgba(176,141,87,0.05)">
+              <h3 style="margin: 0 0 10px; font-size: 17px; font-weight: 600;">{{ p.t }}</h3>
+              <p style="margin: 0; font-size: 14px; line-height: 1.62; color: #8f8f97;">{{ p.b }}</p>
+            </div>
+          </sc-for>
+        </div>
+        <div onClick="{{ goMethodology }}" style="display: inline-block; font-size: 14px; color: var(--gold); cursor: pointer; border-bottom: 1px solid rgba(176,141,87,0.4); padding-bottom: 3px; transition: all .2s ease;" style-hover="border-bottom-color:var(--gold)">The discipline behind these standards: explore the methodology →</div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--line);">
+        <div style="padding: 76px 52px; border-right: 1px solid var(--line);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">The long view</div>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 38px; margin: 0 0 22px; line-height: 1.14;">Built to be an institution, not a moment.</h2>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">Huerta Group is being built deliberately and for the long term. Today, that takes the form of the work this site describes.</p>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">The Company's work is designed to take more than one form. The first is the organizational systems practice described here; an Education &amp; Workforce Development capability is being developed to teach from it, and a Managed Services function is intended to sustain what it builds. The Company now also operates through its first formally chartered venture — Huerta Group Publishing, a distinct endeavor it owns and governs, doing its own work under a defined mandate. Over time the work may take other forms as well; none of that is promised here, and none of it would change the identity underneath: an organizational systems company, accountable for what it builds.</p>
+          <p style="margin: 0 0 26px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">What will not change is the orientation: decisions weighed on long horizons, obligations taken seriously, and growth pursued only at a pace the work can honestly support.</p>
+          <div onClick="{{ goEducation }}" style="display: inline-block; font-size: 14px; color: var(--gold); cursor: pointer; border-bottom: 1px solid rgba(176,141,87,0.4); padding-bottom: 3px; transition: all .2s ease;" style-hover="border-bottom-color:var(--gold)">Explore Education &amp; Workforce Development →</div>
+        </div>
+        <div style="padding: 76px 52px; background: linear-gradient(180deg, #121316 0%, #0F0F10 100%);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">The first venture</div>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 38px; margin: 0 0 22px; line-height: 1.14;">Huerta Group Publishing.</h2>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">In August 2026, the Company formally chartered its first venture: Huerta Group Publishing, a venture centered on authors and the development of books, publishing under its own imprint. The charter gave governed form to work already under way — and a clear shape to the relationship: the venture is owned and governed by Huerta Group LLC, and carries out its own editorial and production work under a mandate that defines what is delegated and what is retained.</p>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">The venture exists to help authors develop books that sound like themselves — not just manuscripts, but developed works, matured through writing, human editorial review, and deliberation. Its software is the Author Operating System: an author's workshop, a coherent environment in which a book is developed stage by stage with the author at the center. Publishing is where that development leads — the capability that carries a developed work into durable publication records under the venture's imprint.</p>
+          <p style="margin: 0 0 20px; font-family: 'Cormorant Garamond', serif; font-size: 26px; color: var(--gold);">The venture does its own work. The Company governs what it is.</p>
+          <p style="margin: 0; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">Its operations today are internal. Access is provisioned by the publisher rather than open to the public, nothing is offered for sale, and the venture's platform — though built and running — has not been publicly launched. As the work matures, what the Company says about it will grow only as fast as what is true.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic { renderVals() { return {}; } }
+</script>
+</body>
+</html>

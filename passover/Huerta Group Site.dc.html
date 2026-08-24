@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&amp;family=Archivo:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #0F0F10; }
+  a { color: inherit; text-decoration: none; }
+  a:hover { color: #B08D57; }
+  ::selection { background: rgba(176,141,87,0.35); }
+</style>
+</helmet>
+
+<div style="--gold: #B08D57; --gold-lt: #C9A97A; --silver: #5E646B; --line: #222327; --ink: #EDEDEF; background: #0F0F10; color: #EDEDEF; font-family: Archivo, Helvetica, sans-serif; min-height: 100vh; width: 1280px;">
+
+  <div style="position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 32px; padding: 16px 44px; background: linear-gradient(180deg, #16171A 0%, #101114 100%); border-bottom: 1px solid var(--line);">
+    <div onClick="{{ goHome }}" style="display: flex; align-items: center; gap: 13px; cursor: pointer; flex: none;">
+      <img src="assets/hg-mark.png" alt="Huerta Group LLC" style="height: 34px; width: auto; display: block;">
+      <span style="width: 1px; height: 24px; background: #2c2d33;"></span>
+      <span style="font-size: 13px; font-weight: 500; letter-spacing: 0.17em;">HUERTA GROUP</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 26px; font-size: 13.5px;">
+      <sc-for list="{{ navLeft }}" as="n" hint-placeholder-count="2">
+        <span onClick="{{ n.go }}" style="cursor: pointer; padding-bottom: 4px; border-bottom: 1px solid transparent; white-space: nowrap; transition: all .2s ease; color: {{ n.color }}; border-bottom-color: {{ n.line }};" style-hover="color:#EDEDEF">{{ n.label }}</span>
+      </sc-for>
+      <span onClick="{{ toggleCaps }}" style="display: flex; align-items: center; gap: 7px; cursor: pointer; padding-bottom: 4px; border-bottom: 1px solid transparent; white-space: nowrap; transition: all .2s ease; color: {{ capsColor }}; border-bottom-color: {{ capsLine }};" style-hover="color:#EDEDEF">Capabilities<span style="font-size: 9px; transition: transform .22s ease; transform: {{ capsCaret }};">▼</span></span>
+      <sc-for list="{{ navRight }}" as="n" hint-placeholder-count="2">
+        <span onClick="{{ n.go }}" style="cursor: pointer; padding-bottom: 4px; border-bottom: 1px solid transparent; white-space: nowrap; transition: all .2s ease; color: {{ n.color }}; border-bottom-color: {{ n.line }};" style-hover="color:#EDEDEF">{{ n.label }}</span>
+      </sc-for>
+      <span onClick="{{ goContact }}" style="padding: 11px 20px; background: linear-gradient(180deg, var(--gold-lt) 0%, var(--gold) 100%); color: #0F0F10; font-size: 12.5px; font-weight: 600; white-space: nowrap; cursor: pointer; transition: transform .12s ease, box-shadow .22s ease;" style-hover="box-shadow:0 8px 22px rgba(176,141,87,0.4)" style-active="transform:scale(0.95)">Start a conversation</span>
+    </div>
+  </div>
+
+  <sc-if value="{{ capsOpen }}" hint-placeholder-val="{{ false }}">
+    <div style="position: sticky; top: 67px; z-index: 19;">
+      <div style="position: absolute; top: 0; left: 0; right: 0; background: linear-gradient(180deg, #14151A 0%, #0D0E11 100%); border-bottom: 1px solid var(--line); box-shadow: 0 28px 60px rgba(0,0,0,0.6);">
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: #1e1f24;">
+          <sc-for list="{{ capsItems }}" as="c" hint-placeholder-count="4">
+            <div onClick="{{ c.go }}" style="background: #101115; padding: 30px 28px 32px; cursor: pointer; transition: background .22s ease;" style-hover="background:#181A1F">
+              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                <span style="font-family: 'JetBrains Mono', monospace; font-size: 10.5px; letter-spacing: 0.16em; color: var(--gold);">{{ c.n }}</span>
+                <span style="flex: 1; height: 1px; background: #26272c;"></span>
+              </div>
+              <h3 style="margin: 0 0 10px; font-size: 16px; font-weight: 600; letter-spacing: -0.005em;">{{ c.t }}</h3>
+              <p style="margin: 0; font-size: 13.5px; line-height: 1.55; color: #8f8f97;">{{ c.b }}</p>
+            </div>
+          </sc-for>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 16px 28px; border-top: 1px solid #1e1f24;">
+          <span style="font-size: 12.5px; color: var(--silver);">Four institutional branches, delivered through one methodology.</span>
+          <span onClick="{{ goMethodology }}" style="font-size: 13px; color: var(--gold); cursor: pointer; border-bottom: 1px solid rgba(176,141,87,0.4); padding-bottom: 2px; transition: border-color .2s ease;" style-hover="border-bottom-color:var(--gold)">Explore the methodology →</span>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ══════════════ HOME ══════════════ -->
+  <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+    <div>
+      <div style="display: grid; grid-template-columns: 1.15fr 1fr; border-bottom: 1px solid var(--line);">
+        <div style="padding: 100px 52px 92px;">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 30px;">
+            <span style="width: 40px; height: 1px; background: var(--gold);"></span>
+            <span style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold);">Building. Growing. Leading.</span>
+          </div>
+          <h1 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 70px; line-height: 1.06; margin: 0 0 26px; text-wrap: pretty;">We build the systems your organization runs on.</h1>
+          <p style="margin: 0 0 38px; font-size: 16.5px; line-height: 1.7; color: #a6a6ae; max-width: 560px;">Huerta Group is an organizational systems company. We help leadership teams build, optimize, and scale — connecting people, processes, technology, and information into systems that support growth instead of straining under it.</p>
+          <div style="display: flex; gap: 14px;">
+            <span onClick="{{ goContact }}" style="padding: 16px 32px; background: linear-gradient(180deg, var(--gold-lt) 0%, var(--gold) 100%); color: #0F0F10; font-size: 14px; font-weight: 600; cursor: pointer; transition: transform .12s ease, box-shadow .22s ease;" style-hover="box-shadow:0 14px 34px rgba(176,141,87,0.36)" style-active="transform:translateY(2px) scale(0.97)">Start a conversation</span>
+            <span onClick="{{ goServices }}" style="padding: 16px 32px; border: 1px solid #33353a; background: linear-gradient(180deg, #1a1b1f 0%, #131418 100%); font-size: 14px; cursor: pointer; transition: all .22s ease;" style-hover="border-color:var(--gold);color:var(--gold)" style-active="transform:translateY(2px) scale(0.97)">Explore capabilities</span>
+          </div>
+        </div>
+        <div style="background: linear-gradient(135deg, #2A2D33 0%, #5E646B 45%, #1B1D21 100%); position: relative; display: flex; align-items: center; justify-content: center; min-height: 520px;">
+          <div style="position: absolute; inset: 0; background: linear-gradient(115deg, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0) 38%, rgba(0,0,0,0.28) 100%);"></div>
+          <div style="position: relative; margin: 18px; width: 100%; padding: 6px; background: #0B0B0C; border: 1px solid rgba(176,141,87,0.35); box-shadow: 0 26px 60px rgba(0,0,0,0.55); display: flex; align-items: center; justify-content: center;">
+            <img src="assets/hg-lockup.png" alt="Huerta Group LLC — Building. Growing. Leading." style="display: block; width: 100%; height: auto;">
+          </div>
+        </div>
+      </div>
+
+      <div style="padding: 92px 52px; border-bottom: 1px solid var(--line);">
+        <div style="text-align: center; max-width: 760px; margin: 0 auto 54px;">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px;">The problem</div>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 48px; line-height: 1.12; margin: 0 0 16px;">Growth exposes the systems behind the work.</h2>
+          <p style="margin: 0; font-size: 16px; line-height: 1.68; color: #9a9aa1;">As organizations grow, the informal systems that once worked quietly begin to strain. The symptoms are familiar.</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+          <sc-for list="{{ problems }}" as="p" hint-placeholder-count="6">
+            <div style="background: linear-gradient(180deg, #191A1E 0%, #121316 100%); border: 1px solid #26272c; padding: 32px 30px 34px; cursor: default; transition: box-shadow .26s ease, transform .26s ease, border-color .26s ease;" style-hover="border-color:rgba(176,141,87,0.5);box-shadow:0 0 0 1px rgba(176,141,87,0.18), 0 18px 42px rgba(0,0,0,0.55);transform:translateY(-5px)">
+              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px;">
+                <span style="font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--gold);">{{ p.n }}</span>
+                <span style="flex: 1; height: 1px; background: #2a2b30;"></span>
+              </div>
+              <h3 style="margin: 0 0 10px; font-size: 17px; font-weight: 600;">{{ p.t }}</h3>
+              <p style="margin: 0; font-size: 14.5px; line-height: 1.62; color: #8f8f97;">{{ p.b }}</p>
+            </div>
+          </sc-for>
+        </div>
+        <p style="margin: 44px auto 0; text-align: center; font-family: 'Cormorant Garamond', serif; font-size: 28px; color: #c9c9d0; max-width: 820px;">None of these are people problems. They are systems problems — <span style="color: var(--gold);">and systems can be designed.</span></p>
+      </div>
+
+      <div style="padding: 92px 52px; background: linear-gradient(180deg, #121316 0%, #0F0F10 100%); border-bottom: 1px solid var(--line);">
+        <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; margin-bottom: 48px;">
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px;">Capabilities</div>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 48px; margin: 0;">Three disciplines, one connected practice.</h2>
+          </div>
+          <p style="margin: 0; font-size: 15.5px; line-height: 1.68; color: #9a9aa1; max-width: 420px;">The work draws on three core disciplines — applied together, so improvements in one area reinforce the others.</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+          <sc-for list="{{ caps }}" as="c" hint-placeholder-count="3">
+            <div style="border: 1px solid #26272c; background: linear-gradient(180deg, #1A1B20 0%, #101115 100%); overflow: hidden; cursor: default; transition: transform .26s ease, box-shadow .26s ease;" style-hover="transform:translateY(-6px);box-shadow:0 24px 50px rgba(0,0,0,0.6)">
+              <div style="height: 3px; background: linear-gradient(90deg, var(--gold) 0%, rgba(176,141,87,0) 100%);"></div>
+              <div style="padding: 34px 32px 32px;">
+                <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--silver); margin-bottom: 16px;">Discipline {{ c.n }}</div>
+                <h3 style="margin: 0 0 14px; font-family: 'Cormorant Garamond', serif; font-weight: 500; font-size: 29px; line-height: 1.2;">{{ c.t }}</h3>
+                <p style="margin: 0 0 26px; font-size: 14.5px; line-height: 1.65; color: #90909a;">{{ c.b }}</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                  <sc-for list="{{ c.items }}" as="i" hint-placeholder-count="4">
+                    <span style="font-size: 12.5px; padding: 7px 12px; border: 1px solid #2c2d33; color: #b6b6bd; transition: all .2s ease; cursor: default;" style-hover="border-color:var(--gold);color:var(--gold)">{{ i }}</span>
+                  </sc-for>
+                </div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+        <p style="margin: 34px 0 0; font-size: 14.5px; color: var(--silver); max-width: 740px; line-height: 1.6;">AI and automation are tools within this practice — applied deliberately, inside a broader operational design, never as the starting point.</p>
+        <div onClick="{{ goServices }}" style="margin-top: 26px; display: inline-block; font-size: 14px; color: var(--gold); cursor: pointer; border-bottom: 1px solid rgba(176,141,87,0.4); padding-bottom: 3px; transition: all .2s ease;" style-hover="border-bottom-color:var(--gold)">Explore the full services →</div>
+      </div>
+
+      <div style="padding: 92px 52px; border-bottom: 1px solid var(--line);">
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px;">How we work</div>
+        <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 48px; margin: 0 0 14px;">Disciplined, practical, built to last.</h2>
+        <p style="margin: 0 0 50px; font-size: 16px; line-height: 1.68; color: #9a9aa1; max-width: 720px;">A structured way of working that stays grounded in your organization's reality — and ends with your team in control of the result.</p>
+        <div style="display: flex;">
+          <sc-for list="{{ steps }}" as="s" hint-placeholder-count="4">
+            <div style="flex: 1; padding: 0 30px; border-left: 1px solid #26272c; cursor: default; transition: border-color .26s ease, background .26s ease;" style-hover="border-left-color:var(--gold);background:linear-gradient(180deg,rgba(176,141,87,0.07) 0%,rgba(176,141,87,0) 100%)">
+              <div style="font-family: 'Cormorant Garamond', serif; font-size: 40px; color: var(--gold); line-height: 1; margin-bottom: 18px;">{{ s.n }}</div>
+              <h3 style="margin: 0 0 10px; font-size: 19px; font-weight: 600;">{{ s.t }}</h3>
+              <p style="margin: 0; font-size: 14px; line-height: 1.62; color: #8f8f96;">{{ s.b }}</p>
+            </div>
+          </sc-for>
+        </div>
+        <div onClick="{{ goMethodology }}" style="margin-top: 40px; display: inline-block; font-size: 14px; color: var(--gold); cursor: pointer; border-bottom: 1px solid rgba(176,141,87,0.4); padding-bottom: 3px; transition: all .2s ease;" style-hover="border-bottom-color:var(--gold)">Explore the methodology behind the work →</div>
+      </div>
+
+      <div style="padding: 100px 52px; background: linear-gradient(135deg, #1B1D21 0%, #3A3D43 50%, #14161A 100%); position: relative;">
+        <div style="position: absolute; inset: 0; background: linear-gradient(115deg, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0.3) 100%);"></div>
+        <div style="position: relative; display: flex; align-items: center; justify-content: space-between; gap: 64px;">
+          <div>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 54px; margin: 0 0 16px;">Start the conversation.</h2>
+            <p style="margin: 0; max-width: 620px; font-size: 16px; line-height: 1.7; color: #cfd0d4;">Every engagement begins the same way: with a clear-eyed look at how your organization operates today, and where its systems are holding it back.</p>
+          </div>
+          <span onClick="{{ goContact }}" style="white-space: nowrap; padding: 18px 36px; background: linear-gradient(180deg, var(--gold-lt) 0%, var(--gold) 100%); color: #0F0F10; font-size: 14px; font-weight: 600; cursor: pointer; transition: transform .12s ease, box-shadow .22s ease;" style-hover="box-shadow:0 16px 40px rgba(176,141,87,0.42)" style-active="transform:translateY(2px) scale(0.96)">Contact Huerta Group</span>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ══════════════ SERVICES ══════════════ -->
+  <sc-if value="{{ isServices }}" hint-placeholder-val="{{ false }}">
+    <dc-import name="HG Services" service-areas="{{ serviceAreas }}" service-phases="{{ servicePhases }}" service-fit="{{ serviceFit }}" go-contact="{{ goContact }}" go-about="{{ goAbout }}" go-methodology="{{ goMethodology }}" go-managed="{{ goManaged }}" hint-size="100%,1400px"></dc-import>
+  </sc-if>
+
+  <!-- ══════════════ METHODOLOGY ══════════════ -->
+  <sc-if value="{{ isMethodology }}" hint-placeholder-val="{{ false }}">
+    <dc-import name="HG Methodology" method-principles="{{ methodPrinciples }}" go-contact="{{ goContact }}" go-services="{{ goServices }}" go-technology="{{ goTechnology }}" go-ip="{{ goIp }}" hint-size="100%,1400px"></dc-import>
+  </sc-if>
+
+  <!-- ══════════════ INTELLECTUAL PROPERTY ══════════════ -->
+  <sc-if value="{{ isIp }}" hint-placeholder-val="{{ false }}">
+    <dc-import name="HG Intellectual Property" ip-forms="{{ ipForms }}" go-contact="{{ goContact }}" go-methodology="{{ goMethodology }}" go-technology="{{ goTechnology }}" hint-size="100%,1400px"></dc-import>
+  </sc-if>
+
+  <!-- ══════════════ EDUCATION ══════════════ -->
+  <sc-if value="{{ isEducation }}" hint-placeholder-val="{{ false }}">
+    <dc-import name="HG Education" edu-model="{{ eduModel }}" edu-areas="{{ eduAreas }}" edu-audience="{{ eduAudience }}" go-contact="{{ goContact }}" go-services="{{ goServices }}" go-methodology="{{ goMethodology }}" go-ip="{{ goIp }}" hint-size="100%,1400px"></dc-import>
+  </sc-if>
+
+  <!-- ══════════════ TECHNOLOGY ══════════════ -->
+  <sc-if value="{{ isTechnology }}" hint-placeholder-val="{{ false }}">
+    <dc-import name="HG Technology" tech-principles="{{ techPrinciples }}" go-contact="{{ goContact }}" go-methodology="{{ goMethodology }}" go-ip="{{ goIp }}" go-managed="{{ goManaged }}" hint-size="100%,1400px"></dc-import>
+  </sc-if>
+
+  <!-- ══════════════ MANAGED SERVICES ══════════════ -->
+  <sc-if value="{{ isManaged }}" hint-placeholder-val="{{ false }}">
+    <dc-import name="HG Managed Services" ms-principles="{{ msPrinciples }}" go-contact="{{ goContact }}" go-services="{{ goServices }}" go-technology="{{ goTechnology }}" hint-size="100%,1400px"></dc-import>
+  </sc-if>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <sc-if value="{{ isAbout }}" hint-placeholder-val="{{ false }}">
+    <dc-import name="HG About" about-strength="{{ aboutStrength }}" about-order="{{ aboutOrder }}" about-perspective="{{ aboutPerspective }}" go-methodology="{{ goMethodology }}" go-education="{{ goEducation }}" hint-size="100%,1400px"></dc-import>
+  </sc-if>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <sc-if value="{{ isContact }}" hint-placeholder-val="{{ false }}">
+    <dc-import name="HG Contact" inquiry-types="{{ inquiryTypes }}" go-about="{{ goAbout }}" hint-size="100%,1400px"></dc-import>
+  </sc-if>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <div style="padding: 56px 52px 34px; background: linear-gradient(180deg, #101114 0%, #0B0B0C 100%); border-top: 1px solid var(--line);">
+    <div style="display: grid; grid-template-columns: 1.1fr 1fr; gap: 64px; padding-bottom: 40px; border-bottom: 1px solid #1d1e22;">
+      <div>
+        <div onClick="{{ goHome }}" style="display: flex; align-items: center; gap: 14px; margin-bottom: 20px; cursor: pointer; width: fit-content;">
+          <img src="assets/hg-mark.png" alt="Huerta Group LLC" style="height: 40px; width: auto; display: block;">
+          <span style="width: 1px; height: 28px; background: #2c2d33;"></span>
+          <span style="font-size: 14px; font-weight: 500; letter-spacing: 0.17em;">HUERTA GROUP</span>
+        </div>
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px;">Building. Growing. Leading.</div>
+        <p style="margin: 0; font-size: 14.5px; color: var(--silver);">An organizational systems company.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 32px; align-content: start;">
+        <sc-for list="{{ footerNav }}" as="f" hint-placeholder-count="8">
+          <span onClick="{{ f.go }}" style="font-size: 14px; color: #9a9aa1; cursor: pointer; transition: color .2s ease, padding-left .2s ease;" style-hover="color:var(--gold);padding-left:5px">{{ f.label }}</span>
+        </sc-for>
+      </div>
+    </div>
+    <div style="padding-top: 22px; font-size: 12.5px; color: var(--silver);">© 2026 Huerta Group LLC. All rights reserved.</div>
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic {
+  state = { page: "home", inquiry: "General inquiry", capsOpen: false };
+
+  go(p) { this.setState({ page: p, capsOpen: false }); if (typeof window !== "undefined") window.scrollTo(0, 0); }
+
+  renderVals() {
+    const page = this.state.page;
+    const items = [
+      ["services", "Services"], ["methodology", "Methodology"], ["ip", "Intellectual Property"],
+      ["education", "Education"], ["technology", "Technology"], ["managed", "Managed Services"],
+      ["about", "About"], ["contact", "Contact"]
+    ];
+    const inGroup = ["ip", "education", "technology", "managed"].includes(page);
+    const v = {
+      page,
+      isHome: page === "home",
+      isServices: page === "services",
+      isMethodology: page === "methodology",
+      isIp: page === "ip",
+      isEducation: page === "education",
+      isTechnology: page === "technology",
+      isManaged: page === "managed",
+      isAbout: page === "about",
+      isContact: page === "contact",
+      goHome: () => this.go("home"),
+      goServices: () => this.go("services"),
+      goMethodology: () => this.go("methodology"),
+      goIp: () => this.go("ip"),
+      goEducation: () => this.go("education"),
+      goTechnology: () => this.go("technology"),
+      goManaged: () => this.go("managed"),
+      goAbout: () => this.go("about"),
+      goContact: () => this.go("contact"),
+      nav: items.map(([k, label]) => ({
+        label, key: k,
+        color: page === k ? "#EDEDEF" : "#9a9aa1",
+        line: page === k ? "#B08D57" : "transparent",
+        go: () => this.go(k)
+      })),
+      navLeft: [["services", "Services"], ["methodology", "Methodology"]].map(([k, label]) => ({
+        label, color: page === k ? "#EDEDEF" : "#9a9aa1", line: page === k ? "#B08D57" : "transparent", go: () => this.go(k)
+      })),
+      navRight: [["about", "About"], ["contact", "Contact"]].map(([k, label]) => ({
+        label, color: page === k ? "#EDEDEF" : "#9a9aa1", line: page === k ? "#B08D57" : "transparent", go: () => this.go(k)
+      })),
+      capsOpen: this.state.capsOpen,
+      capsColor: inGroup || this.state.capsOpen ? "#EDEDEF" : "#9a9aa1",
+      capsLine: inGroup ? "#B08D57" : "transparent",
+      capsCaret: this.state.capsOpen ? "rotate(180deg)" : "rotate(0deg)",
+      toggleCaps: () => this.setState((s) => ({ capsOpen: !s.capsOpen })),
+      capsItems: [
+        { n: "01", k: "ip", t: "Intellectual Property", b: "Methodology and experience captured as reusable institutional knowledge." },
+        { n: "02", k: "education", t: "Education & Workforce Development", b: "Structured learning built to develop demonstrable capability." },
+        { n: "03", k: "technology", t: "Technology & Software", b: "Technology applied in service of organizational systems." },
+        { n: "04", k: "managed", t: "Managed Services", b: "Sustained support that keeps implemented systems strong." }
+      ].map((c) => ({ ...c, go: () => this.go(c.k) })),
+      footerNav: items.map(([k, label]) => ({ label, go: () => this.go(k) })),
+
+      problems: [
+        { n: "01", t: "Fragmented workflows", b: "Work moves between people and tools without a clear, repeatable path." },
+        { n: "02", t: "Unclear ownership", b: "Responsibilities blur as teams expand, and decisions slow down." },
+        { n: "03", t: "Inconsistent processes", b: "Outcomes depend on who does the work, not on how the work is designed." },
+        { n: "04", t: "Disconnected tools", b: "Software multiplies faster than the processes it was meant to support." },
+        { n: "05", t: "Weak reporting", b: "Leaders make decisions without timely, reliable operational visibility." },
+        { n: "06", t: "Trapped knowledge", b: "Critical know-how lives in individuals instead of in documented systems." }
+      ],
+      caps: [
+        { n: "01", t: "Operations & Systems Design", b: "The structural foundation: how work is organized, documented, and made repeatable across the organization.",
+          items: ["Operations consulting", "Organizational systems design", "Business process mapping", "Standard Operating Procedure development"] },
+        { n: "02", t: "Automation & Technology", b: "Technology in service of operations — introduced where it removes real friction, and implemented to fit the way your organization actually works.",
+          items: ["Workflow automation", "AI implementation and adoption", "Technology implementation"] },
+        { n: "03", t: "Visibility & Leadership", b: "The measurement and management layer: accurate operational visibility for decision-makers, and steady execution on the ground.",
+          items: ["KPI and dashboard development", "Data reporting systems", "Operational leadership"] }
+      ],
+      steps: [
+        { n: "01", t: "Understand", b: "We start with how work actually happens — not how the org chart says it should. Observation before prescription." },
+        { n: "02", t: "Design", b: "We design systems around your people, constraints, and goals: processes, tools, and accountability that fit together." },
+        { n: "03", t: "Implement", b: "We build alongside your team, not from a distance. Recommendations only matter once they are put into operation." },
+        { n: "04", t: "Sustain", b: "We document, measure, and transfer ownership — so the systems keep working long after the engagement ends." }
+      ],
+      methodPrinciples: [
+        { t: "Structured thinking.", b: "Consequential organizational decisions deserve disciplined analysis and explicit reasoning — not assumptions, isolated symptoms, or personal preference." },
+        { t: "Systems thinking.", b: "Organizations are interconnected systems. Improvement accounts for how processes, people, governance, information, technology, and incentives affect one another." },
+        { t: "Evidence-informed judgment.", b: "Decisions draw on relevant evidence and operating reality, weighed with professional judgment. Data informs decisions; it does not replace responsibility for them." },
+        { t: "Practical implementation.", b: "Analysis has limited value until it becomes responsible action — carried into operating reality with organizational ownership and clear accountability." },
+        { t: "Sustainable capability.", b: "The objective is never dependency. Sound work strengthens an organization's own ability to understand its systems, decide well, implement, evaluate, and sustain progress." },
+        { t: "Continuous improvement.", b: "Systems are observed, evaluated, and refined as an ongoing organizational discipline — not corrected once and left to drift." },
+        { t: "Governance awareness.", b: "Improvement respects authority, responsibility, accountability, decision rights, and oversight — so change strengthens institutions rather than working around them." }
+      ],
+      ipForms: ["Consulting frameworks", "Operating models", "Standards", "Assessment concepts", "Tools and templates", "Educational materials", "Research", "Structured organizational knowledge", "Software concepts", "Business systems"],
+      eduModel: [
+        { n: "01", t: "Vision", b: "The long-term institutional direction that governs every branch of the Company's work." },
+        { n: "02", t: "Methodology", b: "Consulting and operational experience, refined into structured, repeatable methods." },
+        { n: "03", t: "Intellectual property", b: "Methods preserved as frameworks, standards, and tools to teach from." },
+        { n: "04", t: "Education", b: "Learning built to extend that knowledge to professionals and organizations — the role of this capability." },
+        { n: "05", t: "Technology & software", b: "Will support how learning is delivered, accessed, and scaled. Technology serves the educational substance; it does not define it." },
+        { n: "06", t: "Managed services", b: "Meant to extend the operational value organizations build through consulting and education." }
+      ],
+      eduAreas: ["Systems thinking", "Organizational design", "Operational improvement", "Process development", "Structured problem-solving", "Governance awareness", "Responsible artificial intelligence use", "Leadership and professional judgment", "Continuous improvement", "Sustainable organizational systems"],
+      eduAudience: [
+        "Professionals strengthening their systems and operational capability",
+        "Emerging leaders and managers",
+        "Executives and organizational decision-makers",
+        "Operational teams",
+        "Organizations strengthening workforce capability",
+        "People responsible for processes, governance, technology, implementation, or continuous improvement"
+      ],
+      techPrinciples: [
+        { t: "Systems fit.", b: "Technology must fit the organization as a system — its people, processes, governance, information, incentives, and existing infrastructure — not arrive as an answer looking for a problem." },
+        { t: "Practical implementation.", b: "A technical recommendation has limited value unless it can be adopted, operated, maintained, governed, and improved in daily practice." },
+        { t: "Human responsibility.", b: "Technology does not eliminate responsibility. Decisions, oversight, interpretation, and consequences remain human and institutional." },
+        { t: "Interoperability and independence.", b: "Durable systems avoid unnecessary dependence on one vendor, one platform, one model, or one trend. Portability, interoperability, and institutional control weigh in every choice." },
+        { t: "Security, privacy, and stewardship.", b: "Technical decisions account for security, privacy, access, data stewardship, and organizational authority — as design considerations, not afterthoughts." },
+        { t: "Maintainability and continuity.", b: "A system must remain understandable, supportable, and adaptable over time. Novelty alone is not institutional value." },
+        { t: "Capability, not dependency.", b: "Technology should strengthen an organization's own capability rather than create avoidable dependence on consultants, vendors, or opaque systems." },
+        { t: "Continuous improvement.", b: "Deployment is not the end of responsibility. Technology systems are evaluated, maintained, corrected, and refined as conditions change." }
+      ],
+      msPrinciples: [
+        { t: "Methodology throughout.", b: "Sustained support is the Company's methodology applied over time — the same standard of reasoning, evidence, and review. It is never routine activity detached from purpose." },
+        { t: "Proportionate support.", b: "The level and duration of support reflect actual organizational need, capability, complexity, and risk — not a package, and not a default." },
+        { t: "Reviewability.", b: "Purpose, scope, responsibilities, results, and continuing need remain open to evaluation. Sustained support must keep demonstrating why it exists." },
+        { t: "Adaptation.", b: "Support responds to changes in organizational conditions, capability, and priorities — deliberately, never as uncontrolled expansion of scope." },
+        { t: "Knowledge transfer.", b: "What Huerta Group learns about an organization's systems is taught, documented, and transferred — not concentrated where the organization cannot reach it." },
+        { t: "Responsible transition.", b: "Support is structured so it can be reduced, redesigned, or concluded responsibly when organizational conditions change." },
+        { t: "Continuous improvement.", b: "Sustained work is evaluated for what it strengthens — through observation, learning, and correction. Ongoing activity alone is not evidence of organizational value." }
+      ],
+      aboutStrength: [
+        { t: "Clear responsibility", b: "Ownership that stays sharp as the organization grows." },
+        { t: "Reliable processes", b: "Outcomes designed into how work happens, not left to individual habit." },
+        { t: "Usable information", b: "Data organized so decisions do not have to wait for answers." },
+        { t: "Consistent execution", b: "Quality that survives busy seasons, growth, and staff changes." },
+        { t: "Institutional knowledge", b: "Know-how documented so it belongs to the organization, not only to individuals." },
+        { t: "Adaptability", b: "Structure sound enough to change deliberately without breaking." }
+      ],
+      aboutOrder: [
+        { n: "01", t: "Purpose", b: "Every system exists to serve the organization's purpose. Design starts there, or it drifts." },
+        { n: "02", t: "People", b: "Human capability is the point, not a constraint to engineer around. Good systems make people more effective at work worth doing." },
+        { n: "03", t: "Processes and systems", b: "Structure turns individual effort into organizational capability — repeatable, teachable, and improvable." },
+        { n: "04", t: "Technology", b: "Software, automation, and AI carry real weight inside that structure. They are tools that earn their place by serving the first three." }
+      ],
+      aboutPerspective: [
+        { t: "Practical over impressive.", b: "Work is judged by how it holds up in daily operation, not by how it presents in a meeting." },
+        { t: "Measured over assumed.", b: "Improvement is demonstrated with evidence, not asserted after the fact." },
+        { t: "Clear over clever.", b: "If a system needs constant explanation, it is not finished." },
+        { t: "Durable over fast.", b: "Work is built to remain useful long after the engagement that produced it." }
+      ],
+      inquiryTypes: ["Operations and systems", "Process development", "Technology or automation", "Organizational growth", "Partnership or collaboration", "General inquiry"].map((label) => ({
+        label,
+        pick: () => this.setState({ inquiry: label }),
+        border: this.state.inquiry === label ? "#B08D57" : "#2a2b31",
+        bg: this.state.inquiry === label ? "rgba(176,141,87,0.12)" : "#15161A",
+        color: this.state.inquiry === label ? "#B08D57" : "#c2c2c9"
+      })),
+      serviceAreas: [
+        { n: "01", t: "Organizational Assessment & Operational Analysis",
+          who: "For organizations that need clarity before change — where it is hard to say precisely why work feels harder than it should.",
+          work: "Work may include discovery, structured assessment, process observation, and operational analysis to identify constraints, risks, and opportunities.",
+          result: "The result is a grounded, shared understanding of how the organization actually operates — the foundation every other area of work builds on." },
+        { n: "02", t: "Process & Workflow Design",
+          who: "For organizations where outcomes depend on who does the work rather than on how the work is designed.",
+          work: "Work may include business process mapping, workflow design, and clarifying responsibility structures so that work follows a deliberate, repeatable path.",
+          result: "Well-designed processes make quality consistent and growth manageable — and they give documentation, technology, and measurement something solid to attach to." },
+        { n: "03", t: "Documentation & Knowledge Systems",
+          who: "For organizations where critical know-how lives in individuals instead of in the organization itself.",
+          work: "Work may include standard operating procedures, documentation standards, and knowledge systems that keep operational knowledge current and usable.",
+          result: "Documented systems protect the organization from turnover, shorten onboarding, and turn individual experience into institutional capability." },
+        { n: "04", t: "Technology, Automation & AI Implementation",
+          who: "For organizations carrying excessive manual work, disconnected tools, or technology that no longer fits the operation.",
+          work: "Work may include technology strategy and selection, configuration and integration, workflow automation, and AI implementation — applied where technology materially supports a defined operating need.",
+          result: "Technology fitted to a well-designed system removes real friction. It serves the processes and people around it rather than reshaping the organization to fit a tool." },
+        { n: "05", t: "Performance Measurement & Operational Visibility",
+          who: "For leaders making decisions without timely, reliable operational information.",
+          work: "Work may include KPI development, reporting systems, and operational dashboards that reflect how the organization actually runs.",
+          result: "Measurement closes the loop: it shows whether the system is working, where it is straining, and what deserves attention next." },
+        { n: "06", t: "Implementation, Change & Project Leadership",
+          who: "For organizations where good plans stall — where recommendations exist but operating reality has not changed.",
+          work: "Work may include implementation planning, change support, training, and hands-on project leadership through the transition.",
+          result: "Designs only matter once they are put into operation. This is the work that carries improvements from paper into daily practice." },
+        { n: "07", t: "Ongoing Operational Advisory",
+          who: "For organizations that want their systems to keep improving after the initial work is done.",
+          work: "Depending on the organization, work may include periodic operational review, continued advisory to leadership, and support for continuous improvement.",
+          result: "Systems drift without attention. A continuing advisory relationship keeps them aligned with the organization as it grows and changes." }
+      ],
+      servicePhases: [
+        { n: "01", t: "Understand", b: "Discovery, organizational assessment, process mapping, and operational analysis." },
+        { n: "02", t: "Design", b: "Recommendations, system design, implementation planning, and documentation." },
+        { n: "03", t: "Implement", b: "Technology selection, configuration, or development where justified, together with change support and training." },
+        { n: "04", t: "Sustain", b: "Performance tracking, continued measurement, and support for continuous improvement." }
+      ],
+      serviceFit: [
+        "Growth is outpacing the processes that used to work",
+        "Outcomes depend on who does the work, not how it is designed",
+        "Information and tools are fragmented across the organization",
+        "Manual work is consuming time that belongs to real priorities",
+        "Documentation is thin, outdated, or lives in people's heads",
+        "Accountability and ownership have become unclear",
+        "Technology has accumulated faster than it has been integrated",
+        "Leadership lacks reliable visibility into operations"
+      ],
+      contrasts: [
+        { them: "Advice-only consultants deliver recommendations and leave.", us: "We stay through implementation." },
+        { them: "Technology vendors start from the tool.", us: "We start from the operation." },
+        { them: "Automation agencies optimize isolated tasks.", us: "We design the connected system." }
+      ]
+    };
+    return v;
+  }
+}
+
+</script>
+</body>
+</html>

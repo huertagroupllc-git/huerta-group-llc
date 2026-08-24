@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Archivo:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #0F0F10; color: #EDEDEF; font-family: Archivo, Helvetica, sans-serif; }
+  a { color: inherit; text-decoration: none; }
+</style>
+</helmet>
+<div style="--gold: #B08D57; --gold-lt: #C9A97A; --silver: #5E646B; --line: #222327;">
+    <div>
+      <div style="padding: 84px 52px 76px; border-bottom: 1px solid var(--line); background: linear-gradient(180deg, #15161A 0%, #0F0F10 100%);">
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 24px;">Managed Services</div>
+        <h1 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 62px; line-height: 1.06; margin: 0 0 24px; max-width: 900px;">Systems, sustained.</h1>
+        <p style="margin: 0 0 36px; font-size: 16.5px; line-height: 1.72; color: #a6a6ae; max-width: 830px;">Managed Services is the institutional function Huerta Group is building to keep implemented systems strong: carried into daily operation, held to their standard, reviewed honestly, and improved as conditions change. It is meant as sustained organizational capability support where need justifies it — and the organization's purpose, decisions, and accountability stay exactly where they belong.</p>
+        <div style="display: flex; gap: 14px;">
+          <span onClick="{{ goContact }}" style="padding: 15px 30px; background: linear-gradient(180deg, var(--gold-lt) 0%, var(--gold) 100%); color: #0F0F10; font-size: 14px; font-weight: 600; cursor: pointer; transition: transform .12s ease, box-shadow .22s ease;" style-hover="box-shadow:0 14px 34px rgba(176,141,87,0.36)" style-active="transform:translateY(2px) scale(0.97)">Contact Huerta Group</span>
+          <span onClick="{{ goServices }}" style="padding: 15px 30px; border: 1px solid #33353a; font-size: 14px; cursor: pointer; transition: all .22s ease;" style-hover="border-color:var(--gold);color:var(--gold)" style-active="transform:translateY(2px) scale(0.97)">Explore our services</span>
+        </div>
+      </div>
+
+      <div style="padding: 80px 52px; border-bottom: 1px solid var(--line);">
+        <div style="display: grid; grid-template-columns: 1fr 1.4fr; gap: 68px; align-items: start;">
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">From implementation to sustained capability</div>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 40px; margin: 0; line-height: 1.12;">Improvement is not durable until it is operated.</h2>
+          </div>
+          <div>
+            <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.72; color: #a6a6ae;">Analysis, design, education, and implementation can put a stronger system in place. What they cannot do on their own is keep it strong. New processes compete with old habits. Documentation ages. People change roles. Growth adds load the original design never carried. The distance between a system that was implemented and a system that is operated is where much organizational improvement quietly unwinds.</p>
+            <p style="margin: 0 0 26px; font-size: 16px; line-height: 1.72; color: #a6a6ae;">Managed Services exists for that distance. Where sustained organizational need justifies it, Huerta Group's aim is structured continuity — continued coordination, review, implementation support, reinforcement, measurement, and maintenance of operating discipline — until a new system is no longer the initiative the organization remembers, but the way it works.</p>
+            <p style="margin: 0; font-family: 'Cormorant Garamond', serif; font-size: 26px; color: var(--gold);">Improvement becomes real when it survives ordinary operation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding: 80px 52px; background: linear-gradient(180deg, #121316 0%, #0F0F10 100%); border-bottom: 1px solid var(--line);">
+        <div style="display: grid; grid-template-columns: 1fr 1.4fr; gap: 68px; align-items: start;">
+          <div>
+            <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">Support without surrendered authority</div>
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 40px; margin: 0; line-height: 1.12;">Your organization stays in charge.</h2>
+          </div>
+          <div>
+            <p style="margin: 0 0 18px; font-size: 16px; line-height: 1.72; color: #a6a6ae;">Sustained support raises a question every organization should ask: who is in charge? The answer does not change. In any sustained engagement, client leaders and authorized decision-makers retain responsibility for organizational direction and every consequential decision. Huerta Group's role is to support, coordinate, advise, implement, document, review, and reinforce — never to assume executive authority, board authority, legal accountability, or operational control that belongs to the organization.</p>
+            <p style="margin: 0; font-size: 16px; line-height: 1.72; color: #a6a6ae;">That boundary is not a limitation of Managed Services. It is a condition of doing it honestly. Support that blurs who owns decisions weakens the institution it claims to serve. Support that keeps authority clear strengthens it.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding: 88px 52px; border-bottom: 1px solid var(--line);">
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px;">Principles of sustained support</div>
+        <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 44px; margin: 0 0 14px;">What keeps ongoing work honest.</h2>
+        <p style="margin: 0 0 42px; font-size: 16px; line-height: 1.68; color: #9a9aa1; max-width: 780px;">These principles govern how Huerta Group approaches sustained organizational support — whatever form a particular arrangement takes.</p>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px;">
+          <sc-for list="{{ msPrinciples }}" as="p" hint-placeholder-count="7">
+            <div style="border: 1px solid #26272c; background: linear-gradient(180deg, #191A1E 0%, #121316 100%); padding: 28px 26px 30px; cursor: default; transition: all .24s ease;" style-hover="border-color:rgba(176,141,87,0.55);transform:translateY(-4px);box-shadow:0 18px 40px rgba(0,0,0,0.5)">
+              <div style="width: 22px; height: 2px; background: var(--gold); margin-bottom: 20px; transition: width .3s cubic-bezier(.2,.8,.2,1);" style-hover="width:52px"></div>
+              <h3 style="margin: 0 0 10px; font-size: 17px; font-weight: 600;">{{ p.t }}</h3>
+              <p style="margin: 0; font-size: 14px; line-height: 1.62; color: #8f8f97;">{{ p.b }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--line);">
+        <div style="padding: 76px 52px; border-right: 1px solid var(--line);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">Capability over dependency</div>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 38px; margin: 0 0 22px; line-height: 1.14;">The goal is an organization that needs less help.</h2>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">The measure of sustained support is what the organization can do — increasingly on its own. Managed Services reinforces internal capability: understanding documented and taught, operating discipline carried into roles and routines, and decisions grounded in the organization's own grasp of its systems. It works hand in hand with education and knowledge transfer, because capable people are what make systems durable.</p>
+          <p style="margin: 0 0 26px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">Dependence is the failure mode of this work, not its business model. Huerta Group does not measure success by how indispensable it becomes. It measures success by how capable the organization becomes — and structures support so it can responsibly step back as that capability grows.</p>
+          <p style="margin: 0; font-family: 'Cormorant Garamond', serif; font-size: 26px; color: var(--gold);">Support that cannot step back is not support. It is dependency.</p>
+        </div>
+        <div style="padding: 76px 52px; background: linear-gradient(180deg, #121316 0%, #0F0F10 100%);">
+          <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--silver); margin-bottom: 20px;">An integrated institutional model</div>
+          <h2 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 38px; margin: 0 0 22px; line-height: 1.14;">Managed Services completes the model.</h2>
+          <p style="margin: 0 0 18px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">Managed Services is the final branch of Huerta Group's institutional model, and it draws on every branch before it. Services address defined organizational needs; Managed Services is meant for structured continuity where continued support is appropriate — and one does not automatically become the other. Methodology gives sustained work its discipline: the same standard of reasoning, evidence, and review, applied over time rather than once.</p>
+          <p style="margin: 0 0 26px; font-size: 15.5px; line-height: 1.72; color: #a6a6ae;">Approved institutional knowledge will keep that support consistent, repeatable, and reviewable. Education &amp; Workforce Development is being built to reinforce what support alone cannot create — people who understand and operate their own systems. And technology may support coordination, documentation, visibility, and measurement within sustained operations, in the same subordinate role it plays everywhere else in the Company's work.</p>
+          <div onClick="{{ goTechnology }}" style="display: inline-block; font-size: 14px; color: var(--gold); cursor: pointer; border-bottom: 1px solid rgba(176,141,87,0.4); padding-bottom: 3px; transition: all .2s ease;" style-hover="border-bottom-color:var(--gold)">Technology's place in sustained operations →</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+class Component extends DCLogic { renderVals() { return {}; } }
+</script>
+</body>
+</html>
