@@ -21,7 +21,7 @@ const FIELD_LABELS: Record<string, string> = {
 };
 
 const INPUT_CLASSES =
-  "w-full rounded-sm border border-edge bg-ink-900 px-4 py-3 text-silver-100 caret-gold-500 transition-colors duration-200 ease-brand placeholder:text-silver-500 hover:border-gunmetal focus:border-gold-600 focus:hover:border-gold-600";
+  "w-full rounded-sm border border-edge bg-ink-950 px-4 py-3 text-silver-100 caret-gold-500 transition-colors duration-200 ease-brand placeholder:text-silver-500 hover:border-gunmetal focus:border-gold-600 focus:hover:border-gold-600";
 
 const LABEL_CLASSES = "mb-2 block text-sm font-medium text-silver-300";
 
@@ -57,7 +57,7 @@ export function ContactForm() {
         ref={successRef}
         tabIndex={-1}
         role="status"
-        className="border border-edge bg-ink-900 p-8 sm:p-10"
+        className="card-surface border border-card-edge p-8 sm:p-10"
       >
         <span aria-hidden="true" className="block h-px w-10 bg-gold-500" />
         <h2 className="mt-6 font-serif text-2xl text-silver-100">
@@ -86,7 +86,7 @@ export function ContactForm() {
           ref={summaryRef}
           tabIndex={-1}
           role="alert"
-          className="mb-8 border-l-2 border-gold-500 bg-ink-900 px-5 py-4"
+          className="mb-8 border-l-2 border-gold-500 bg-ink-800 px-5 py-4"
         >
           <p className="text-sm font-medium text-silver-100">
             {state.formError}
@@ -178,61 +178,71 @@ export function ContactForm() {
         </div>
       </div>
 
-      <div className="mt-6 grid gap-6 sm:grid-cols-2">
-        <div>
-          <label htmlFor="email" className={LABEL_CLASSES}>
-            Email address <span className="text-gold-500">*</span>
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            required
-            defaultValue={values?.email}
-            maxLength={FIELD_LIMITS.email}
-            autoComplete="email"
-            inputMode="email"
-            aria-invalid={errors.email ? true : undefined}
-            aria-describedby={errors.email ? "email-error" : undefined}
-            className={INPUT_CLASSES}
-          />
-          {errors.email ? (
-            <p id="email-error" className={ERROR_CLASSES}>
-              {errors.email}
-            </p>
-          ) : null}
-        </div>
+      <div className="mt-6">
+        <label htmlFor="email" className={LABEL_CLASSES}>
+          Email address <span className="text-gold-500">*</span>
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          defaultValue={values?.email}
+          maxLength={FIELD_LIMITS.email}
+          autoComplete="email"
+          inputMode="email"
+          aria-invalid={errors.email ? true : undefined}
+          aria-describedby={errors.email ? "email-error" : undefined}
+          className={INPUT_CLASSES}
+        />
+        {errors.email ? (
+          <p id="email-error" className={ERROR_CLASSES}>
+            {errors.email}
+          </p>
+        ) : null}
+      </div>
 
-        <div>
-          <label htmlFor="inquiryType" className={LABEL_CLASSES}>
+      <div className="mt-6">
+        {/* The adopted design presents inquiry type as selectable chips
+            (ddr-0011). Implemented as a radio group in a fieldset: same
+            field name, same values, same required rule and the same
+            server-side validation as the select it replaces — and a larger
+            touch target than a native select on a phone. */}
+        <fieldset
+          key={values?.inquiryType ?? "initial"}
+          aria-invalid={errors.inquiryType ? true : undefined}
+          aria-describedby={
+            errors.inquiryType ? "inquiryType-error" : undefined
+          }
+        >
+          <legend className={LABEL_CLASSES}>
             Inquiry type <span className="text-gold-500">*</span>
-          </label>
-          <select
-            // Remount when an echoed value arrives — React's post-action
-            // form reset restores selects to their initial option otherwise.
-            key={values?.inquiryType ?? "initial"}
-            id="inquiryType"
-            name="inquiryType"
-            required
-            defaultValue={values?.inquiryType ?? "general"}
-            aria-invalid={errors.inquiryType ? true : undefined}
-            aria-describedby={
-              errors.inquiryType ? "inquiryType-error" : undefined
-            }
-            className={INPUT_CLASSES}
-          >
+          </legend>
+          <div className="mt-2 flex flex-wrap gap-2.5">
             {INQUIRY_TYPES.map((type) => (
-              <option key={type.value} value={type.value}>
-                {type.label}
-              </option>
+              <label key={type.value} className="group cursor-pointer text-sm">
+                <input
+                  type="radio"
+                  name="inquiryType"
+                  value={type.value}
+                  required
+                  defaultChecked={
+                    (values?.inquiryType ?? "general") === type.value
+                  }
+                  className="peer sr-only"
+                />
+                <span className="inline-flex items-center border border-edge px-4 py-2.5 text-silver-300 transition-colors duration-200 ease-brand group-hover:border-gold-600 peer-checked:border-gold-500 peer-checked:bg-gold-500/10 peer-checked:text-silver-100 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gold-500">
+                  {type.label}
+                </span>
+              </label>
             ))}
-          </select>
-          {errors.inquiryType ? (
-            <p id="inquiryType-error" className={ERROR_CLASSES}>
-              {errors.inquiryType}
-            </p>
-          ) : null}
-        </div>
+          </div>
+        </fieldset>
+        {errors.inquiryType ? (
+          <p id="inquiryType-error" className={ERROR_CLASSES}>
+            {errors.inquiryType}
+          </p>
+        ) : null}
       </div>
 
       <div className="mt-6">
@@ -266,8 +276,8 @@ export function ContactForm() {
       <p className="mt-6 max-w-2xl text-sm leading-relaxed text-silver-500">
         The information you share here is used to review and respond to your
         inquiry. Please do not include confidential, privileged, financial,
-        medical, or otherwise sensitive information. Submitting this form
-        does not create a client relationship, contract, or obligation.
+        medical, or otherwise sensitive information. Submitting this form does
+        not create a client relationship, contract, or obligation.
       </p>
 
       <div className="mt-8">
