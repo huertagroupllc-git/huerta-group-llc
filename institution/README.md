@@ -15,6 +15,9 @@ authority):
 | `governance/strategic/` | Vision Foundation for Development (Approved Strategic Authority) |
 | `governance/determinations/` | Founder Office determination records — repository-native approval provenance (Institutional Records; evidentiary, non-governing) |
 | `governance/ventures/` | Corporate Venture Governance — the approved blueprint, approved venture-governance determinations (e.g. FD-V2 register topology), and per-venture determinations/charters; venture admission occurs only by Founder Office determination (registry: `metadata/registries/venture-registry.json`) |
+| `governance/methodology/` | Organizational Systems Methodology program records — the admitted Generation One Discovery Report, retrieval and admission records, and **provisional** Stage 2 drafts (working concept / draft; never approved methodology or Method Library records) |
+| `governance/repository-foundation/` | Recovered historical instruments of the Repository Foundation Project (Deliverables B, C, D as returned; evidentiary, superseded in effect) |
+| `governance/platform-alignment/` | The recovered Corporate Platform Alignment Audit (evidentiary, superseded in effect) |
 | `foundations/` | Approved institutional foundations and their derived governance records (methodology, intellectual-property, education; future domains are added only when occupied) |
 | `standards/development/` | Development Standards and the Bounded Autonomous Completion & Verification Standard |
 | `standards/repository/` | Repository Standards — they govern this repository only, never Huerta Group generally (documentation index, canonical-source preservation, repository verification) |

@@ -527,6 +527,49 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0019",
+      "title": "Founder Office Determinations: Organizational Systems Methodology \u2014 Generation One Discovery Closed, Discovery Report Admitted, Stage 2 Authorized",
+      "path": "institution/governance/determinations/fd-0019-organizational-systems-methodology-stage-2-authorization.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 2: Provisional Organizational Diagnostic Method execution package (Founder Office \u2192 Institutional Platform Development), accepting and closing Generation One discovery, admitting the Discovery Report as an evidentiary Institutional Record, fixing the proposed progression as a refinement proposal to mr-0004, determining evidence sufficiency without external validity, authorizing bounded historical-instrument retrieval and a bounded HGP evidence-admission package, classifying Curbside Spa as an internal idea rather than client evidence, refining the institutional-memory principle to be mechanism-neutral, and authorizing the Organizational Diagnostic as a working concept advancing toward draft with ten provisional working instruments and a frozen-draft self-application dry run",
+      "dateReceived": "2026-08-25",
+      "recordedDate": "2026-08-25",
+      "determinationCount": 15,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0019-organizational-systems-methodology-stage-2-authorization.md",
+        "institution/governance/methodology/generation-one-discovery-report.md",
+        "institution/governance/methodology/generation-one-discovery-report-status-record.md",
+        "institution/governance/methodology/historical-instrument-retrieval-record.md",
+        "institution/governance/repository-foundation/deliverable-b-governance-mechanism-audit.md",
+        "institution/governance/repository-foundation/deliverable-c-proposed-repository-architecture.md",
+        "institution/governance/repository-foundation/deliverable-d-repository-migration-plan.md",
+        "institution/governance/platform-alignment/corporate-platform-alignment-audit.md",
+        "institution/governance/methodology/hgp-evidence-admission-package.md",
+        "institution/governance/methodology/organizational-diagnostic-generation-one-draft.md",
+        "institution/governance/methodology/organizational-diagnostic-self-application-dry-run.md",
+        "institution/governance/methodology/organizational-diagnostic-correction-package.md",
+        "institution/governance/methodology/generation-one-stage-2-draft-and-self-application-validation-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/README.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 2,
+      "relationships": [
+        {
+          "target": "fd-0004",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0006",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0007",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

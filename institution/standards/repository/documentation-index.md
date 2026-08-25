@@ -34,6 +34,25 @@ Current-implementation documentation lives in the repository root
 | Official Launch Checklist | [`launch/official-launch-checklist.md`](../../../docs/launch/official-launch-checklist.md) | Phased, testable checklist; owner-gated actions marked |
 | Rollback Plan | [`launch/rollback-plan.md`](../../../docs/launch/rollback-plan.md) | Git, platform, environment, canonical, and DNS rollback procedures and boundaries |
 
+## Recovered historical instruments (Repository Foundation Project; Corporate Platform Alignment)
+
+| Document | Canonical path | Purpose |
+| --- | --- | --- |
+| Deliverable B — Governance Mechanism Audit | [`repository-foundation/deliverable-b-governance-mechanism-audit.md`](../../governance/repository-foundation/deliverable-b-governance-mechanism-audit.md) | The accepted Phase 1 audit of the repository's governance mechanisms at baseline `4dc354e`, recovered and preserved byte-identical under `fd-0019`; its determinations are transcribed at `fd-0001` |
+| Deliverable C — Proposed Repository Architecture | [`repository-foundation/deliverable-c-proposed-repository-architecture.md`](../../governance/repository-foundation/deliverable-c-proposed-repository-architecture.md) | The accepted-as-modified architecture proposal (`fd-0002`, `fd-0003`); preserved as returned, including the dual-repository target FO-1 later withdrew |
+| Deliverable D — Repository Migration Plan | [`repository-foundation/deliverable-d-repository-migration-plan.md`](../../governance/repository-foundation/deliverable-d-repository-migration-plan.md) | The accepted-as-modified migration plan executed under `fd-0003` and recorded at ADR-0007 and `evo-0001`; preserved as returned |
+| Corporate Platform Alignment Audit | [`platform-alignment/corporate-platform-alignment-audit.md`](../../governance/platform-alignment/corporate-platform-alignment-audit.md) | The accepted audit (2026-08-11) whose findings drove Public Copy Truth Alignment (`fd-0006`) and identified the ungoverned parent–venture relationship (`evo-0004`); preserved as returned |
+
+**Boundary.** These are historical, evidentiary Institutional Records —
+accepted deliverables recovered from Institutional Platform Development's
+session records of the returning messages (provenance and integrity at
+`institution/governance/methodology/historical-instrument-retrieval-record.md`).
+They are superseded in effect by the determinations made on them and by the
+architecture since executed; nothing in them is current architecture or
+authority. Deliverable A (Repository Audit Report) and A.1 (Repository
+Authority Matrix) **remain unavailable** (`fd-0019` Deficiency 1) and must
+not be reconstructed.
+
 ## Operations foundation (OSPA — admitted recovered canonical authority)
 
 | Document | Canonical path | Purpose |
@@ -206,6 +225,27 @@ traceability. Approval authority remains configurable pending
 constitutional decision-rights architecture. Library presence creates
 no methodological authority, and the Method Library is not a runtime
 platform.
+
+## Organizational Systems Methodology program (Generation One — provisional)
+
+| Document | Canonical path | Purpose |
+| --- | --- | --- |
+| Generation One Discovery Report | [`methodology/generation-one-discovery-report.md`](../../governance/methodology/generation-one-discovery-report.md) | The evidence-retrieval and methodology-discovery report (16 sections), admitted as an Institutional Record under `fd-0019`; preserved byte-identical including its own "working material" header. Evidence and learning only — every proposition remains provisional, hypothesized, or insufficient as labeled |
+| Generation One Discovery Report — Repository Status Record | [`methodology/generation-one-discovery-report-status-record.md`](../../governance/methodology/generation-one-discovery-report-status-record.md) | Admission status, digest, workbench chronology, authority boundary, and the disposition of the report's six reserved questions |
+| Historical Diagnostic-Instrument Retrieval and Preservation Record | [`methodology/historical-instrument-retrieval-record.md`](../../governance/methodology/historical-instrument-retrieval-record.md) | The bounded retrieval under `fd-0019` §2.5: locations searched, four originals recovered with identity, completeness and digests, two not found and not reconstructed, one false positive |
+
+**Program boundary — read before citing.** The Organizational Systems
+Methodology program produces **evidence, proposals, and provisional drafts**
+under the Methodology Foundation v1 (§5.1 "working concept" / "draft"; §6.3
+provisional material). Nothing in this section is an approved methodology
+asset, a Method Library record, a standard, or an instrument. The proposed
+progression refinement is a **refinement proposal to `mr-0004`** only;
+`mr-0004` is unamended and governs. The Organizational Diagnostic —
+Generation One is a **working concept advancing toward draft**, is not an
+established Method Library method, and has no external validity, general
+applicability, or validated-through-use status outside Huerta Group.
+Presence in this index records that a document exists; it creates no
+authority.
 
 ## Intellectual property (internal)
 

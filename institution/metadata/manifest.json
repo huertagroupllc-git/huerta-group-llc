@@ -4155,6 +4155,291 @@
       ],
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0019-organizational-systems-methodology-stage-2-authorization",
+      "title": "fd-0019 \u2014 Founder Office Determinations: Organizational Systems Methodology \u2014 Generation One Discovery Closed, Discovery Report Admitted, Stage 2 Authorized",
+      "path": "institution/governance/determinations/fd-0019-organizational-systems-methodology-stage-2-authorization.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Closes Generation One discovery with its principal finding, admits the Discovery Report as an Institutional Record, authorizes Stage 2 (Organizational Diagnostic toward draft), fixes the progression as a refinement proposal to mr-0004, bounds retrieval, and classifies Curbside Spa.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-25. Evidentiary \u2014 the record evidences the determinations and creates no authority; mr-0004 and the Methodology Foundation are unchanged.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "generation-one-discovery-report"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0004-deliverable-acceptance-and-provenance-record"
+        },
+        {
+          "rel": "references",
+          "target": "mr-0004-organizational-improvement-work-progression-v1"
+        },
+        {
+          "rel": "references",
+          "target": "historical-instrument-retrieval-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-discovery-report",
+      "title": "Huerta Group Organizational Systems Methodology \u2014 Generation One Discovery Report",
+      "path": "institution/governance/methodology/generation-one-discovery-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Preserved byte-identical from the workbench original, including its own \"Working material \u2014 non-admitted\" header; admission is a subsequent act recorded at fd-0019. Every proposition remains provisional, hypothesized, or insufficient as labeled; nothing in it is doctrine, method, standard, or instrument authority.",
+      "summary": "Repository-first evidence retrieval across Huerta Group LLC, the Command Center runtime and HGP: lessons earned, supported patterns, a provisional methodology map tested against the hypothesis, the diagnostic assessment, candidate instruments, risks, and six reserved questions.",
+      "provenance": {
+        "origin": "Institutional Platform Development (discovery report)",
+        "approvalReference": "Admitted as an Institutional Record \u2014 evidentiary, non-governing \u2014 under fd-0019 (2026-08-25); Generation One discovery accepted and closed. Confers no authority on any proposition in it.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "documentation-index"
+        },
+        {
+          "rel": "references",
+          "target": "methodology-foundation-v1"
+        },
+        {
+          "rel": "references",
+          "target": "mr-0004-organizational-improvement-work-progression-v1"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-discovery-report-status-record",
+      "title": "Generation One Discovery Report \u2014 Repository Status Record",
+      "path": "institution/governance/methodology/generation-one-discovery-report-status-record.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Admission status, digest, workbench chronology, authority boundary and relationships of the Generation One Discovery Report, and the disposition of its six reserved questions by fd-0019.",
+      "provenance": {
+        "origin": "Institutional Platform Development (preservation record)",
+        "approvalReference": "Recorded under fd-0019. Evidentiary and non-governing; the report is evidence and learning, not authority.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "generation-one-discovery-report"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "historical-instrument-retrieval-record",
+      "title": "Historical Diagnostic-Instrument Retrieval and Preservation Record",
+      "path": "institution/governance/methodology/historical-instrument-retrieval-record.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Bounded retrieval under fd-0019 \u00a72.5 for six accepted instruments: locations searched, four authentic originals recovered from Development session records with identity, completeness and digests, Deliverables A and A.1 not found and not reconstructed, one false positive recorded.",
+      "provenance": {
+        "origin": "Institutional Platform Development (retrieval record)",
+        "approvalReference": "Performed and recorded 2026-08-25 under fd-0019; preservation through the canonical-source path. Evidentiary and non-governing.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0004-deliverable-acceptance-and-provenance-record"
+        },
+        {
+          "rel": "references",
+          "target": "deliverable-b-governance-mechanism-audit"
+        },
+        {
+          "rel": "references",
+          "target": "deliverable-c-proposed-repository-architecture"
+        },
+        {
+          "rel": "references",
+          "target": "deliverable-d-repository-migration-plan"
+        },
+        {
+          "rel": "references",
+          "target": "corporate-platform-alignment-audit"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "deliverable-b-governance-mechanism-audit",
+      "title": "Deliverable B \u2014 Governance Mechanism Audit",
+      "path": "institution/governance/repository-foundation/deliverable-b-governance-mechanism-audit.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Historical instrument, superseded in effect: the accepted Phase 1 audit (baseline 4dc354e) whose determinations are transcribed at fd-0001. Preserved byte-identical as returned by Development on 2026-08-08 (UTC); Founder Office copy not compared (fd-0019 Deficiency 2).",
+      "summary": "The Repository Foundation Project Phase 1 audit of the repository governance mechanisms at commit 4dc354e \u2014 the five-layer mechanism stack, conversation-dependent approval provenance, and the determinations requested of the Founder Office \u2014 recovered and preserved under fd-0019.",
+      "provenance": {
+        "origin": "Platform & Systems Development (deliverable returned to the Founder Office)",
+        "approvalReference": "Accepted (fd-0004, as stated by the Deliverable C instrument); preserved under fd-0019 from Development session record 1702b6a9, 2026-08-08T05:44:43Z (historical-instrument-retrieval-record).",
+        "effectiveDate": "2026-08-08"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0001-governance-audit-instrument-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0004-deliverable-acceptance-and-provenance-record"
+        },
+        {
+          "rel": "references",
+          "target": "historical-instrument-retrieval-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "deliverable-c-proposed-repository-architecture",
+      "title": "Deliverable C \u2014 Proposed Repository Architecture",
+      "path": "institution/governance/repository-foundation/deliverable-c-proposed-repository-architecture.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Historical instrument, superseded in effect: accepted as modified by the Founder Office (fd-0002, fd-0003 \u2014 FO-1 withdrew the dual-repository target this text proposes). Preserved byte-identical as returned on 2026-08-09 (UTC); not edited to agree with the determinations made on it.",
+      "summary": "The Repository Foundation Project Phase 1 architecture proposal designed against Deliverables A, A.1 and B at baseline 4dc354e \u2014 the layered institution/ tree, workbench, canonical-source preservation, validation framework and the decisions returned to the Founder Office \u2014 recovered under fd-0019.",
+      "provenance": {
+        "origin": "Platform & Systems Development (deliverable returned to the Founder Office)",
+        "approvalReference": "Accepted as modified by the Founder Office (fd-0004; modifications at fd-0003); preserved under fd-0019 from Development session record 1702b6a9, 2026-08-09T02:53:17Z.",
+        "effectiveDate": "2026-08-09"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0002-repository-architecture-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0003-migration-execution-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0007-repository-foundation-migration"
+        },
+        {
+          "rel": "references",
+          "target": "historical-instrument-retrieval-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "deliverable-d-repository-migration-plan",
+      "title": "Deliverable D \u2014 Repository Migration Plan",
+      "path": "institution/governance/repository-foundation/deliverable-d-repository-migration-plan.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Historical instrument, superseded in effect: accepted as modified by the Founder Office (fd-0003) and executed as recorded at ADR-0007 and evo-0001; the Stage 2 dual-repository split it plans was withdrawn by FO-1. Preserved byte-identical as returned on 2026-08-09 (UTC).",
+      "summary": "The Repository Foundation Project Phase 1 migration plan against baseline 4dc354e \u2014 two-stage sequencing, current-to-target mapping, OSPA strategy, workbench, corpus rescoping, CI and identity strategy, rollback and validation checkpoints \u2014 recovered under fd-0019.",
+      "provenance": {
+        "origin": "Platform & Systems Development (deliverable returned to the Founder Office)",
+        "approvalReference": "Accepted as modified by the Founder Office (fd-0004; fd-0003 FO-1\u2026FO-7); preserved under fd-0019 from Development session record 1702b6a9, 2026-08-09T03:09:52Z.",
+        "effectiveDate": "2026-08-09"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0003-migration-execution-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0007-repository-foundation-migration"
+        },
+        {
+          "rel": "references",
+          "target": "evo-0001-repository-foundation-migration"
+        },
+        {
+          "rel": "references",
+          "target": "historical-instrument-retrieval-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "corporate-platform-alignment-audit",
+      "title": "Huerta Group LLC \u2014 Corporate Platform Alignment Audit",
+      "path": "institution/governance/platform-alignment/corporate-platform-alignment-audit.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Historical instrument, superseded in effect: the accepted audit (audit date 2026-08-11) whose findings drove Public Copy Truth Alignment (fd-0006) and the Corporate Venture Governance program. Preserved byte-identical as returned on 2026-08-12 (UTC); Founder Office copy not compared (fd-0019 Deficiency 2).",
+      "summary": "The read-only architectural and strategic audit of the corporate platform against repository evidence \u2014 capability-representation discrepancies, the ungoverned parent\u2013venture relationship, and the truth-alignment phase it recommended \u2014 recovered and preserved under fd-0019.",
+      "provenance": {
+        "origin": "Platform & Systems Development (audit returned to the Founder Office)",
+        "approvalReference": "Accepted (fd-0006: audit status Accepted); preserved under fd-0019 from Development session record 84d242e7, 2026-08-12T05:10:54Z (historical-instrument-retrieval-record).",
+        "effectiveDate": "2026-08-11"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0006-public-copy-truth-alignment-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "evo-0004-first-venture-admission-huerta-group-publishing"
+        },
+        {
+          "rel": "references",
+          "target": "historical-instrument-retrieval-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
