@@ -4902,6 +4902,39 @@
       ]
     },
     {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "fd-0028-organizational-diagnostic-a10-trail-first-determination",
+      "title": "fd-0028 \u2014 Founder Office Determination: Organizational Diagnostic \u2014 A10 Trail-First Semantics (Reading A Adopted)",
+      "path": "institution/governance/determinations/fd-0028-organizational-diagnostic-a10-trail-first-determination.md",
+      "type": "decision-record",
+      "statusNote": "Determination recorded; Draft v4 reconciliation PREPARED AND NOT APPLIED pending a repository-versioning determination under the instrument's own stop rule. A10 is semantically determined and textually unreconciled. Drafts v1-v4 unchanged; Stage 5 and Stage 6 unchanged.",
+      "summary": "A10's trail-first list is trail-source categories, not a conjunctive completion gate: materially relevant categories are pursued where they exist and are accessible, missing sources create gaps rather than voiding the procedure, and A18 alone decides advancement.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary \u2014 the record evidences the determination and creates no authority. It answers the ambiguity Stage 7 returned (AMB-1) and Stage 9 preserved. Validation execution, external application, Method Library admission and Draft v5 are not authorized.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "post-stage-9-a10-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-deficiency-dispositions"
+        }
+      ]
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -5298,6 +5331,34 @@
         {
           "rel": "references",
           "target": "fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "post-stage-9-a10-execution-package",
+      "title": "Generation One \u2014 Post-Stage 9: A10 Reconciliation & Draft v4 Validation Package Preparation \u2014 Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/post-stage-9-a10-execution-package.md",
+      "type": "governing-record",
+      "summary": "The Post-Stage 9 instrument, preserved verbatim: Reading A adopted for A10's trail-first list, a bounded same-version reconciliation authorized, validation-package preparation authorized, and execution, Draft v5 and external application withheld.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0028. Digest of the preserved instrument text: 30019544b1b52115174b0383cd96f1ee98302863344e2afd61dd39f92fb26e8c; digest as received, without its absent trailing newline: 7331e0d8018c3807f39501eb37fb253368c8568adbdebd45bd6dc5051bac1a10.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0028-organizational-diagnostic-a10-trail-first-determination"
         },
         {
           "rel": "references",

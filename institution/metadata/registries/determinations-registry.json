@@ -841,6 +841,43 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0028",
+      "title": "Founder Office Determination: Organizational Diagnostic \u2014 A10 Trail-First Semantics (Reading A Adopted)",
+      "path": "institution/governance/determinations/fd-0028-organizational-diagnostic-a10-trail-first-determination.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Post-Stage 9: A10 Reconciliation & Draft v4 Validation Package Preparation execution package (Founder Office \u2192 Institutional Platform Development), answering the A10 trail-first ambiguity Stage 7 returned as AMB-1 and Stage 9 preserved as Draft v4's sole unresolved limitation \u2014 adopting Reading A, under which the four listed items are categories of trail evidence to be pursued where they exist and are reasonably accessible rather than four mandatory limbs that must all be obtained before the procedure counts as performed; requiring for each materially relevant category that apparent existence, reasonable accessibility, actual obtention, and the reason for non-obtention be recorded, forbidding silent omission of a materially relevant source merely because another produced a plausible trail, and holding that prior familiarity is not trail evidence; fixing five conditions under which the procedure is performed and permitting performance with evidentiary gaps remaining; holding that a missing source bears on evidentiary sufficiency rather than voiding the procedure, that the missing source and its reason stay visible, and that missing evidence is never converted into an assumption that the absent source would have agreed; distinguishing the three existing Instrument 5 sufficiency values and forbidding automatic marking of artifact-derived trails as completed; holding that A10 does not determine advancement and that A10 performed with gaps and A18 unsatisfied is a permitted state; holding that a stakeholder walkthrough is not a universal per-workflow gate and that observation remains a preference rather than a fifth limb, while leaving stakeholder-evidence requirements elsewhere untouched; preserving Stage 5 and Stage 6 unchanged with neither author recharacterized as having applied the method incorrectly; authorizing only the minimum Draft v4 wording reconciliation with no new instrument, evidence class, hierarchy, scoring or maturity construct; and authorizing preparation but not execution of the smallest meaningful Draft v4 validation package \u2014 with an express stop rule requiring the repository-versioning question to be returned rather than chosen where existing governance cannot represent a same-version semantic reconciliation truthfully without creating Draft v5",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 10,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0028-organizational-diagnostic-a10-trail-first-determination.md",
+        "institution/governance/methodology/instruments/post-stage-9-a10-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/a10-determination-reconciliation-record.md",
+        "institution/governance/methodology/stage-9-draft-v4-traceability-matrix.md",
+        "institution/governance/methodology/organizational-diagnostic-draft-v4-integrity-record.md",
+        "institution/governance/methodology/draft-v4-validation-package.md",
+        "institution/governance/methodology/a10-reconciliation-and-draft-v4-validation-readiness-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0027",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0025",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0024",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
