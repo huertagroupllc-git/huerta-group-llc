@@ -6144,6 +6144,109 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
+      "id": "organizational-diagnostic-generation-one-draft-v6",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One, Draft v6 (Provisional Draft \u2014 Untested as a Version)",
+      "path": "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v6.md",
+      "type": "plan",
+      "statusNote": "PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION. Applied to nothing. Does not inherit Draft v5's validation. A2 byte-identical; the RQ-1 Observed threshold is bounded to A15's preceding question and creates no ordering. Draft v5 remains the only version a non-authoring applier has used. Digest d2f64ee2\u20264600a238b10.",
+      "summary": "Draft v5 plus the seven Stage 11 corrections and the RQ-1 determination: A15's terminating question now requires Observed evidence of a capability's existence, and access is expressly not existence.",
+      "provenance": {
+        "origin": "Institutional Platform Development (provisional methodology draft)",
+        "approvalReference": "Produced 2026-08-26 under fd-0032 as a new version at a new path. Drafts v1-v5 verified byte-identical before and after; Draft v5 was never opened for writing. Sixteen diff hunks across nine locations, each traced at Part D \u00a7D7 to a Stage 11 disposition or the RQ-1 determination.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v5"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0032-organizational-diagnostic-draft-v6-construction-and-rq1-determination"
+        },
+        {
+          "rel": "references",
+          "target": "stage-11-draft-v6-change-set"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v6-traceability",
+      "title": "Organizational Diagnostic \u2014 Draft v6: Construction Traceability",
+      "path": "institution/governance/methodology/draft-v6-traceability.md",
+      "type": "status-record",
+      "statusNote": "Traceability, not validation. Every difference from Draft v5 traces to a Stage 11 disposition or the RQ-1 determination. One change alters methodology semantics; the rest clarify, disclose, rename or change presentation. Draft v6 applied to nothing.",
+      "summary": "Every difference between Draft v5 and Draft v6, location by location, with what each carries \u2014 plus what was declined, what stayed byte-identical, and what this version does not close.",
+      "provenance": {
+        "origin": "Institutional Platform Development (traceability record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0032. Records the chain from Draft v5's single application through the Stage 11 dispositions and the RQ-1 reservation to the determination and this construction, and states that the participant-facing gap is untouched.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v6"
+        },
+        {
+          "rel": "references",
+          "target": "stage-11-draft-v6-change-set"
+        },
+        {
+          "rel": "references",
+          "target": "stage-10-draft-v5-validation-application"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0032-organizational-diagnostic-draft-v6-construction-and-rq1-determination"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "organizational-diagnostic-draft-v6-integrity-record",
+      "title": "Organizational Diagnostic \u2014 Generation One Draft v6: Integrity and Version Record",
+      "path": "institution/governance/methodology/organizational-diagnostic-draft-v6-integrity-record.md",
+      "type": "status-record",
+      "statusNote": "Draft v6 digest d2f64ee2\u20264600a238b10, applications 0, PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION. Drafts v1-v5 verified byte-identical pre- and post-construction, one commit each. Records no validation because none was performed.",
+      "summary": "Draft v6's digest and its place in a six-version chain: read Draft v5 for what a non-authoring applier used, Draft v3 for the most applications, and Draft v6 for none.",
+      "provenance": {
+        "origin": "Institutional Platform Development (integrity record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0032, kept separately from the draft so neither alters the other. States that Draft v6 does not inherit Draft v5's validation and that the construction consistency review is not validation either.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v6"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-draft-v5-integrity-record"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0032-organizational-diagnostic-draft-v6-construction-and-rq1-determination"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
       "id": "draft-v5-a10-reconciliation-traceability",
       "title": "Organizational Diagnostic \u2014 Draft v5: A10 Reconciliation Traceability",
       "path": "institution/governance/methodology/draft-v5-a10-reconciliation-traceability.md",
