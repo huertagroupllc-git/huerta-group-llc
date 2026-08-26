@@ -6973,11 +6973,11 @@
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
       "id": "draft-v4-validation-package",
-      "title": "Organizational Diagnostic \u2014 Draft v4: Prepared Validation Package",
+      "title": "Organizational Diagnostic \u2014 Draft v5: Prepared Validation Package",
       "path": "institution/governance/methodology/draft-v4-validation-package.md",
       "type": "plan",
-      "statusNote": "PREPARED \u2014 NOT AUTHORIZED, NOT BEGUN. Authorizes nothing, selects no subject as a decision, names no validator, and collected no diagnostic evidence. Two prerequisites are unmet: the A10 reconciliation is unapplied, and the validation itself is not authorized.",
-      "summary": "What one bounded internal validation of Draft v4 would have to be to be worth running: subject criteria and the two-candidate constraint, non-authoring controls, thirteen reachable elements with observables, freeze controls, and non-numeric success criteria.",
+      "statusNote": "PREPARED \u2014 NOT AUTHORIZED, NOT BEGUN. Retargeted from Draft v4 to Draft v5 under fd-0029 \u00a72.7 by version-reference updates only; the path retains its original name so history and manifest identity stay continuous. Its A10 prerequisite is now satisfied; authorization remains outstanding.",
+      "summary": "What one bounded internal validation of Draft v5 would have to be: subject criteria and the two-candidate constraint, non-authoring controls, thirteen reachable elements with observables, freeze controls pinning Draft v5's digest, and non-numeric success criteria.",
       "provenance": {
         "origin": "Institutional Platform Development (proposal)",
         "approvalReference": "Prepared 2026-08-26 under fd-0028 \u00a72.10, which authorizes the package and forbids its execution. Every requirement is drawn from fd-0028, the Stage 7 replication-protocol requirements, or the Stage 9 traceability record. No expected diagnostic finding about any subject appears in it.",
@@ -7038,6 +7038,47 @@
           "target": "generation-one-stage-9-draft-v4-consolidation-report"
         }
       ]
+    },
+    {
+      "id": "draft-v5-reconciliation-and-versioning-report",
+      "title": "A10 Draft v5 Reconciliation & Versioning Completion Report",
+      "path": "institution/governance/methodology/draft-v5-reconciliation-and-versioning-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Draft v5 built and frozen; Drafts v1-v4 verified unchanged before and after; Stage 5 and Stage 6 unchanged. Draft v5 is PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION, applications 0. No validation begun; no Draft v6; Stage 7 not reopened.",
+      "summary": "Development's return (26 sections): Draft v5 constructed and traced clause by clause to fd-0028, six changed locations with everything else byte-identical, one flagged addition beyond the prepared wording, and the validation package reused rather than redesigned.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned 2026-08-26 under fd-0029. Evidentiary and non-governing. Records that no new semantic conflict arose, that the reconciled A10 carries semantic authority and no behavioural validation, and that the prepared validation package is ready for authorization with two matters for the Founder Office to weigh first.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v5"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v5-a10-reconciliation-traceability"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v4-validation-package"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0029-organizational-diagnostic-draft-v5-reconciliation-and-versioning"
+        },
+        {
+          "rel": "references",
+          "target": "a10-reconciliation-and-draft-v4-validation-readiness-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

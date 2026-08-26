@@ -1,7 +1,14 @@
-# Organizational Diagnostic — Draft v4: Prepared Validation Package
+# Organizational Diagnostic — Draft v5: Prepared Validation Package
 
 **Classification: Institutional Record** — proposal record (evidentiary,
-non-governing). Prepared under `fd-0028` §2.10.
+non-governing). Prepared under `fd-0028` §2.10 for Draft v4; **retargeted to
+Draft v5 under `fd-0029` §2.7 by version-reference updates only.** The file
+path retains its original name so its history and its manifest identity stay
+continuous; the candidate under test is **Draft v5**.
+
+**Reassessment result (`fd-0029` §2.7): the package remains substantively
+valid and was not redesigned.** All six assessment questions and the changes
+they produced are at §10.
 
 **Status: PREPARED — NOT AUTHORIZED, NOT BEGUN.** This package **authorizes
 nothing**. It defines what a validation would have to look like to be worth
@@ -10,20 +17,21 @@ does not name a validator, and does not begin any application. **No diagnostic
 evidence was collected in preparing it, and no subject was inspected as a
 subject.**
 
-**Two prerequisites are unmet and both are the Founder Office's.**
+**One prerequisite remains, and it is the Founder Office's.**
 
-1. **The A10 reconciliation is prepared and not applied**, pending a
-   repository-versioning determination (`a10-determination-reconciliation-record.md`).
-   Validating A10 Reading A against a draft that still carries the ambiguous
-   wording would validate the wrong text.
-2. **The validation itself is not authorized.** `fd-0028` §2.10 authorizes the
-   package and forbids its execution.
+1. ~~The A10 reconciliation is prepared and not applied.~~ **Satisfied.**
+   `fd-0029` determined the versioning question and the reconciliation is
+   carried in **Draft v5**
+   (`d178024b3585bb6273106bfe39daf574794d99ebc14d9ad750da5c8d2f75635c`). The
+   candidate under test is now a draft whose A10 states Reading A.
+2. **The validation itself is not authorized.** `fd-0028` §2.10 and `fd-0029`
+   authorize the package and forbid its execution.
 
 ## 1. The smallest meaningful objective
 
-**One bounded internal application of Draft v4, read-only, by an authoring
-context that did not draft Draft v4, against one internal subject, to establish
-whether the consolidation behaves as intended.**
+**One bounded internal application of Draft v5, read-only, by an authoring
+context that did not draft it, against one internal subject, to establish
+whether the consolidation and the reconciled A10 behave as intended.**
 
 Not: whether the method is good. Not: whether the subject is well run. Not:
 external validity, which one internal application cannot touch. The question is
@@ -106,7 +114,8 @@ cannot exercise them.
 
 ## 3. Validator non-authoring and prior-involvement controls
 
-**The requirement:** an authoring context that **did not draft Draft v4**.
+**The requirement:** an authoring context that **did not draft Draft v4 or
+Draft v5**.
 
 **What that is, and what it is not.** This is **bounded non-authoring
 validation**. It is not independence: the validator will share an institution, a
@@ -143,7 +152,7 @@ committed. Turn 2 releases the evidence. Stage 6 did this and it worked.
 by verbatim quotation, with any leaked identifier's downstream convergence
 excluded from the evidence.
 
-## 4. Changed Draft v4 elements the validation must exercise
+## 4. Changed Draft v5 elements the validation must exercise
 
 Thirteen of seventeen are reachable from one application against a subject with
 §2.2's properties. Each entry states **what would count as the element working**
@@ -151,8 +160,8 @@ Thirteen of seventeen are reachable from one application against a subject with
 
 | Element | What must be exercised | What would count as working |
 | --- | --- | --- |
-| **A10 Reading A** | The four categories treated as categories; the trail built from what exists | The validator performs A10 **without reverting to the conjunctive reading** and without treating "as available" as permission to stop early |
-| **A10 recording fields** | existence · accessibility · obtention · reason-for-non-obtention, per materially relevant category | All four appear per category; a category that appears to exist but was not obtained carries a stated reason |
+| **A10 Reading A** | The four categories treated as categories; the trail built from what exists | The validator performs A10 **without reverting to the conjunctive reading** and without treating "as available" as permission to stop early; **prior familiarity is not offered as trail evidence** |
+| **A10 recording fields** | existence · accessibility · obtention · reason-for-non-obtention, per materially relevant category, **on Instrument 5's trail row** | All four appear per category; a category that appears to exist but was not obtained carries a stated reason |
 | **Instrument 5 sufficiency states** | *completed* / *completed with named gaps* / *blocked by insufficient evidence* | The three values discriminate across workflows rather than collapsing to one; an artifact-only trail is not marked *completed* by reflex |
 | **A10 performed ≠ A18 satisfied** | Both judged, separately | The state *A10 performed + gaps + A18 not satisfied* is reachable and is actually recorded if it occurs |
 | **CS-01 source kind** | Verification records and narrative records in one register | The attribute never carries weight in any finding; no ordering appears in prose |
@@ -181,12 +190,14 @@ terminology pass, best read against the application's own record afterward.
 
 ## 5. Evidence-access and freeze controls
 
-1. **Draft v4 freeze gate before any subject evidence is read.** The draft's
-   digest is verified against its integrity record, and the verification is
-   committed before the application begins. If the A10 reconciliation has been
-   applied by then, it is that digest; if not, **the validation must not
-   proceed**, because A10 Reading A is one of its principal targets.
-2. **Subject baseline pinned and verified at open and at close** — Draft v4 A3
+1. **Draft v5 freeze gate before any subject evidence is read.** The draft's
+   digest is verified against
+   `organizational-diagnostic-draft-v5-integrity-record.md` —
+   `d178024b3585bb6273106bfe39daf574794d99ebc14d9ad750da5c8d2f75635c` — and the
+   verification is committed before the application begins. **Draft v4 is not
+   the candidate**: validating A10 Reading A against its text would validate
+   the wrong version.
+2. **Subject baseline pinned and verified at open and at close** — Draft v5 A3
    step 1's own requirement, applied to its own validation.
 3. **Identical permitted and identical unavailable evidence** for the validator
    as for any comparison author. Stage 6 failed this and it produced the
@@ -257,16 +268,19 @@ over.
   and a verification culture is unusual; elements that work there may fail on a
   subject with neither.
 - **Not validation of the four unreachable elements** (§4).
-- **Not, by itself, a tested baseline.** Draft v4 would remain a provisional
+- **Not, by itself, a tested baseline.** Draft v5 would remain a provisional
   draft with **one** application behind it — the position Draft v1 occupied
   after its dry run.
+- **Not validation of the determination.** `fd-0028` settled what A10 means; an
+  application tests whether the reconciled rule works. A validation reporting
+  that the semantics read clearly has not thereby shown the method sound.
 
 ## 8. What this package does not do
 
 It does not authorize the application; does not pre-answer any diagnostic
 finding; does not seed any expected conclusion about any subject; does not
-change Draft v4; does not create Draft v5; does not establish external validity;
-and creates no methodology. Every requirement above is drawn from `fd-0028`, the
+change Draft v4 or Draft v5; does not create Draft v6; does not establish
+external validity; and creates no methodology. Every requirement above is drawn from `fd-0028`, the
 Stage 7 replication-protocol requirements, or the Stage 9 traceability record's
 statement of what requires validation.
 
@@ -283,3 +297,24 @@ statement of what requires validation.
   requirements, which govern §3 and §5 above.
 - `stage-6-replication-comparison.md` — what a second-author application
   actually produced, and what its harness got wrong.
+
+## 10. Retargeting from Draft v4 to Draft v5 — the reassessment
+
+**Added under `fd-0029` §2.7.** Six questions were asked; the package was not
+redesigned.
+
+| Question | Finding | Change made |
+| --- | --- | --- |
+| Does the **non-authoring requirement** remain appropriate? | **Yes, and it now matters more.** The reconciled A10 was drafted by the same office that would otherwise validate it — `fd-0029` §4 Deficiency 2 records that dependence | §3's requirement extended to name Draft v5 |
+| Do the **subject criteria** remain appropriate? | **Yes, unchanged.** The reconciled A10 needs a subject where some trail categories genuinely do not exist, so the four per-category facts have something to record. HGP satisfies this exactly: Stage 6 found **correspondence not held in the repository**, a real *appears not to exist* case rather than an access failure | None |
+| Do **all changed Stage 7/8 elements** still require testing? | **Yes, every one.** Draft v5 changed nothing about them; the Stage 9 traceability classes stand unaltered | None |
+| Does the package adequately exercise **A10 Reading A** now that it is determinate? | **Substantially yes** — A10 Reading A, the recording fields, Instrument 5's three states and *A10 performed ≠ A18 satisfied* were already targets. Two observables were sharpened | §4: prior familiarity named as an observable; the recording fields located on Instrument 5's trail row |
+| Does any target change **solely because Draft v5 replaces Draft v4**? | **The freeze gate**, which must pin Draft v5's digest and must not accept Draft v4's | §5.1 rewritten to Draft v5's digest; §5.2 retitled |
+| Does any **package language still assume A10 is unresolved**? | **Yes — two places**, and both were false as written once `fd-0029` was made | The prerequisite at the head of this record, and §5.1's "the validation must not proceed" condition |
+
+**What was deliberately not changed:** the objective's scope, the subject
+assessment and its two-candidate constraint, the non-authoring disclosure
+controls, the freeze controls other than §5.1–§5.2, the success criteria, and
+§7 apart from one added line. The version change did not require them, and
+`fd-0029` §2.7 directs reuse over redesign.
+
