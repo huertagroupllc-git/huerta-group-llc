@@ -4580,6 +4580,54 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-stage-2-draft-and-self-application-validation-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Draft & Self-Application Validation Report",
+      "path": "institution/governance/methodology/generation-one-stage-2-draft-and-self-application-validation-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Stage 2 return: Discovery Report admitted, four instruments recovered and two retained as deficiencies, the HGP package prepared, the Organizational Diagnostic frozen and dry-run on Huerta Group LLC, seventeen corrections proposed, no external validity claimed, one next stage recommended.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned for Founder Office review under fd-0019 (2026-08-25). Evidentiary and non-governing; the draft remains a working concept advancing toward draft and mr-0004 is unamended.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-self-application-dry-run"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-correction-package"
+        },
+        {
+          "rel": "references",
+          "target": "hgp-evidence-admission-package"
+        },
+        {
+          "rel": "references",
+          "target": "historical-instrument-retrieval-record"
+        },
+        {
+          "rel": "references",
+          "target": "mr-0004-organizational-improvement-work-progression-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
