@@ -5851,6 +5851,39 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "stage-7-draft-v4-change-set",
+      "title": "Organizational Diagnostic \u2014 Generation One: Minimum Coherent Draft v4 Change Set, and What Must Not Enter It",
+      "path": "institution/governance/methodology/stage-7-draft-v4-change-set.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "PROPOSALS ONLY. NO DRAFT V4 EXISTS AND NONE IS CREATED. Draft v3 unchanged at 04fd02c7\u2026, verified before and after; no frozen draft was edited in anticipation of a successor. Five determinations across four items must be settled before drafting could coherently begin.",
+      "summary": "Seventeen change-set items a future Draft v4 would minimally have to carry, four of them blocked pending determination \u2014 with the one-sided-evidence answer, what must not enter, and the replication requirements kept out of the method.",
+      "provenance": {
+        "origin": "Institutional Platform Development (proposals)",
+        "approvalReference": "Recorded 2026-08-26 under fd-0025 \u00a72.12, drawn only from ACCEPT and ACCEPT WITH MODIFICATION dispositions plus one item the instrument itself commissioned. Deferred, declined, speculative and external-validation items are excluded and listed. No scoring, percentage, maturity level or weighted index appears anywhere in it.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-7-deficiency-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0025-organizational-systems-methodology-stage-7-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "stage-6-second-author-advancement",
       "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Advancement Determination (Stage 6)",
       "path": "institution/governance/methodology/stage-6-second-author-result/advancement.md",
