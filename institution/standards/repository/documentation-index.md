@@ -243,6 +243,8 @@ platform.
 | Generation One — Discovery: Founder Office Execution Package | [`methodology/instruments/generation-one-discovery-execution-package.md`](../../governance/methodology/instruments/generation-one-discovery-execution-package.md) | The instrument that opened the program, preserved verbatim (fenced XML; digest `ca4b4655…`): read-only evidence retrieval and methodology discovery, non-assumptions, evidence domains, the provisional sequence to test, prohibited work, the 16-section report and stop condition |
 | Generation One — Stage 2: Founder Office Execution Package | [`methodology/instruments/stage-2-execution-package.md`](../../governance/methodology/instruments/stage-2-execution-package.md) | The instrument that closed Discovery and authorized Stage 2, preserved verbatim (digest `a36daf95…`); its determinations are transcribed at `fd-0019` |
 | Generation One — Stage 3: Founder Office Execution Package | [`methodology/instruments/stage-3-execution-package.md`](../../governance/methodology/instruments/stage-3-execution-package.md) | The instrument that accepted Stage 2 and authorized Stage 3, preserved verbatim (digest `012a2869…`); its determinations are transcribed at `fd-0020` |
+| Organizational Diagnostic — Correction Dispositions for Draft v2 | [`methodology/organizational-diagnostic-draft-v2-correction-dispositions.md`](../../governance/methodology/organizational-diagnostic-draft-v2-correction-dispositions.md) | Each of the seventeen Stage 2 corrections dispositioned individually under `fd-0020` §2.8 (11 accepted, 6 modified; two elements deferred, one declined) with the evidence, reason, exact Draft v2 change and remaining uncertainty; four further changes required by the twelve priority tests; what did not change. Decided by Development; reviewable by the Founder Office |
+| Organizational Diagnostic — Generation One, Draft v2 (Provisional Draft for Validation) | [`methodology/organizational-diagnostic-generation-one-draft-v2.md`](../../governance/methodology/organizational-diagnostic-generation-one-draft-v2.md) | **PROVISIONAL DRAFT FOR VALIDATION.** The method and ten instruments revised from the frozen Draft v1 through the dispositions, in organization-neutral language: terminology discovery before translation, access statements, admissibility of prior knowledge, three source facts never collapsed, trail-first workflow discovery, one matter with N representations, implementer-side custody. Part D traces every change. Frozen by commit before the first stakeholder-evidence application; not an approved method, not a Method Library record; Draft v1 remains the immutable tested baseline |
 
 **Program boundary — read before citing.** The Organizational Systems
 Methodology program produces **evidence, proposals, and provisional drafts**
@@ -251,9 +253,12 @@ provisional material). Nothing in this section is an approved methodology
 asset, a Method Library record, a standard, or an instrument. The proposed
 progression refinement is a **refinement proposal to `mr-0004`** only;
 `mr-0004` is unamended and governs. The Organizational Diagnostic —
-Generation One is a **working concept advancing toward draft**, is not an
-established Method Library method, and has no external validity, general
-applicability, or validated-through-use status outside Huerta Group.
+Generation One exists in two versions: Draft v1, the **frozen tested
+baseline** (working concept advancing toward draft; immutable), and Draft
+v2, a **provisional draft for validation** (§5.1 draft). Neither is an
+established Method Library method, and neither has external validity,
+general applicability, or validated-through-use status outside Huerta
+Group.
 Presence in this index records that a document exists; it creates no
 authority.
 

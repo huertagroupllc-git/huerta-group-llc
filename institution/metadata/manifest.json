@@ -4872,6 +4872,92 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "organizational-diagnostic-draft-v2-correction-dispositions",
+      "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v2",
+      "path": "institution/governance/methodology/organizational-diagnostic-draft-v2-correction-dispositions.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Dispositions decided by Institutional Platform Development under fd-0020 \u00a72.8 through Methodology Foundation v1 \u00a76.4; every disposition is reviewable and reversible by the Founder Office. Draft v1 unmodified at its freeze digest.",
+      "summary": "Individual disposition of all seventeen Stage 2 corrections (11 accepted, 6 modified; two elements deferred, one declined) with evidence, reason, exact Draft v2 change and remaining uncertainty; four further changes required by the twelve priority tests; what did not change.",
+      "provenance": {
+        "origin": "Institutional Platform Development (methodology refinement record)",
+        "approvalReference": "Prepared 2026-08-25 under fd-0020 \u00a72.8\u2013\u00a72.9. Evidentiary and non-governing; adopts nothing as authority; Draft v2 remains a provisional draft for validation.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-correction-package"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v2"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-self-application-dry-run"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "organizational-diagnostic-generation-one-draft-v2",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One, Draft v2 (Provisional Draft for Validation)",
+      "path": "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v2.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "PROVISIONAL DRAFT FOR VALIDATION (Methodology Foundation v1 \u00a75.1 draft; \u00a76.4 new version). Not an approved method, Method Library record, standard, or instrument set; no external validity. Frozen by commit before the first stakeholder-evidence application; findings recorded separately. Draft v1 remains the immutable tested baseline.",
+      "summary": "The provisional Organizational Diagnostic method and ten working instruments revised from frozen Draft v1 through seventeen dispositions and twelve priority tests, in organization-neutral language, with full traceability to v1 in Part D. Provisional; not an approved method.",
+      "provenance": {
+        "origin": "Institutional Platform Development (provisional methodology draft, version 2)",
+        "approvalReference": "Authorized as provisional development only under fd-0020 \u00a72.8\u2013\u00a72.10; carries no methodological authority; mr-0004 and the Methodology Foundation govern; supersedes Draft v1 as the current draft for validation only, never as a record.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "methodology-foundation-v1"
+        },
+        {
+          "rel": "references",
+          "target": "mr-0004-organizational-improvement-work-progression-v1"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-draft-v2-correction-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "hgp-evidence-admission-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
