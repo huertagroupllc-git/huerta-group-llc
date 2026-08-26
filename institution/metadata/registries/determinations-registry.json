@@ -744,6 +744,37 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0025",
+      "title": "Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 6 Accepted and Closed, Stage 7 Consolidated Deficiency Disposition Authorized",
+      "path": "institution/governance/determinations/fd-0025-organizational-systems-methodology-stage-7-authorization.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 7: Consolidated Methodology Deficiency Disposition execution package (Founder Office \u2192 Institutional Platform Development), accepting and closing Stage 6 while recording that its reproducibility finding establishes neither external validity nor evaluator independence nor model-independent reproducibility, accepting as a finding that subject-diagnosis outputs reproduced more strongly than method-deficiency outputs while forbidding that finding to be read as invalidating either author's deficiencies, fixing the deficiency corpus at exactly thirty records to be adjudicated individually before any thematic consolidation, fixing five permitted dispositions and forbidding the use of resolved merely because a later draft could address an issue, fixing a six-part analytical order, preserving D-8 as a continuing evidence qualification that replication does not weaken and treating same-model-family agreement as correlated-error risk, classifying the Stage 6 evidence-boundary inequality as a replication-design deficiency rather than methodology disagreement, classifying the Stage 5 closure failure as a method-application defect while forbidding retroactive fabrication of the missing custody disposition, requiring a narrowest-rule answer for closure semantics and a four-option answer for one-sided evidence and a non-numeric mechanism for evidentiary sufficiency, and prohibiting creation of Draft v4, any further application, adoption, standardization, Method Library admission, software and every form of scoring",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 14,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0025-organizational-systems-methodology-stage-7-authorization.md",
+        "institution/governance/methodology/instruments/stage-7-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/stage-7-deficiency-dispositions.md",
+        "institution/governance/methodology/stage-7-draft-v4-change-set.md",
+        "institution/governance/methodology/generation-one-stage-7-consolidated-disposition-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0024",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0023",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

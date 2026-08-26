@@ -4806,6 +4806,34 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "fd-0025-organizational-systems-methodology-stage-7-authorization",
+      "title": "fd-0025 \u2014 Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 6 Accepted and Closed, Stage 7 Consolidated Deficiency Disposition Authorized",
+      "path": "institution/governance/determinations/fd-0025-organizational-systems-methodology-stage-7-authorization.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Accepts and closes Stage 6, fixes the deficiency corpus at exactly thirty records, and authorizes individual adjudication against five permitted dispositions \u2014 with Draft v4, another application, adoption and standardization all withheld.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary \u2014 the record evidences the determinations and creates no authority. A Stage 7 disposition changes no frozen draft and creates no methodology; D-8 remains in force and unweakened by replication.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0024-organizational-systems-methodology-stage-6-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-execution-package"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -5115,6 +5143,34 @@
         {
           "rel": "references",
           "target": "fd-0024-organizational-systems-methodology-stage-6-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-7-execution-package",
+      "title": "Generation One \u2014 Stage 7: Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/stage-7-execution-package.md",
+      "type": "governing-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The Stage 7 instrument, preserved verbatim: the fixed thirty-record corpus, five dispositions, the analytical order, the reproducibility distinction, the replication-design and closure defects, the populated-output risk, and the Draft v4 prohibition.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0025. Digest of the instrument text: f36e22c2418ba95350d5baa25049843ef6590578d00fdbb7cb73e7d834996125.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0025-organizational-systems-methodology-stage-7-authorization"
         },
         {
           "rel": "references",
