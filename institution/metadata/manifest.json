@@ -5126,6 +5126,75 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "records-versus-accounts-comparison",
+      "title": "Organizational Diagnostic \u2014 Generation One: Sealed Records-versus-Accounts Comparison (Stage 3)",
+      "path": "institution/governance/methodology/records-versus-accounts-comparison.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Seventy-two claims from the account compared against independently retrieved records with no preference either way: 23 corroborations, 16 unresolved, 10 missing records, 9 contradictions preserved, 8 terminology differences, 4 unsupported assertions, 2 stale records. Advancement refused.",
+      "provenance": {
+        "origin": "Institutional Platform Development (validation evidence)",
+        "approvalReference": "Performed 2026-08-25 under fd-0021 \u00a72.1 against the Client-Stated set and the records-derived set sealed at 86b2b63, which was not adjusted after the account arrived. Post-response supplementary retrieval is declared and outside the seal. Frozen Draft v1 and Draft v2 unchanged.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-set-session-1"
+        },
+        {
+          "rel": "references",
+          "target": "records-derived-evidence-set"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v2"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0021-organizational-systems-methodology-stage-3-completion-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "organizational-diagnostic-post-test-correction-proposals",
+      "title": "Organizational Diagnostic \u2014 Generation One: Post-Test Correction Proposals (after the first stakeholder application)",
+      "path": "institution/governance/methodology/organizational-diagnostic-post-test-correction-proposals.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "PROPOSALS ONLY \u2014 none applied. Frozen Draft v2 is unchanged at digest 9e2976e1\u2026cda5d4b. Disposition of each proposal individually is reserved to the Founder Office and the Methodology room (fd-0021 \u00a76.3).",
+      "summary": "Ten method corrections the first stakeholder application exposed: one-sided subjects, within-account contradiction, stakeholder-author disclosure, limb-level capture, follow-up triggers, the organization's boundary, habit-held responsibility, a two-pass access statement, source of resort.",
+      "provenance": {
+        "origin": "Institutional Platform Development (proposals)",
+        "approvalReference": "Recorded 2026-08-25 under fd-0021 \u00a72.8 as proposals only; nothing applied to Draft v2, Draft v1, the instruments, or either procedure. No proposal removes a contradiction from the record.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "records-versus-accounts-comparison"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v2"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0021-organizational-systems-methodology-stage-3-completion-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "generation-one-stage-3-draft-v2-and-stakeholder-evidence-validation-report",
       "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Draft v2 & Stakeholder-Evidence Validation Report",
       "path": "institution/governance/methodology/generation-one-stage-3-draft-v2-and-stakeholder-evidence-validation-report.md",

@@ -6,7 +6,7 @@ stakeholder-evidence application of frozen Draft v2, captured under
 `stakeholder-evidence-procedure.md` §5 and authorized by `fd-0021`. Every row
 below is **Client-Stated evidence unless independently corroborated**
 (`fd-0020` §2.11). Corroboration, where any exists, is recorded in
-the records-versus-accounts comparison recorded under `fd-0021`
+[`records-versus-accounts-comparison.md`](records-versus-accounts-comparison.md)
 — never here.
 
 - **Stakeholder:** the Founder Office, as the accountable-authority
@@ -215,7 +215,7 @@ given, on one day, in one pass, in writing. Its evidence class does not
 improve because the stakeholder is the Founder (`fd-0021` §2.5). It is
 compared — without preference in either direction — against the sealed
 `records-derived-evidence-set.md` in
-the records-versus-accounts comparison recorded under `fd-0021`.
+[`records-versus-accounts-comparison.md`](records-versus-accounts-comparison.md).
 
 ## 8. Seal
 
