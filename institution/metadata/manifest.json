@@ -6661,6 +6661,47 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-stage-9-draft-v4-consolidation-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Draft v4 Consolidation & Stage 9 Completion Report",
+      "path": "institution/governance/methodology/generation-one-stage-9-draft-v4-consolidation-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "STAGE 9 COMPLETE. Draft v4 exists and is classified PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION. Drafts v1\u2013v3 unmodified and verified pre- and post-construction. Method posture unchanged: the tested text remains Draft v3. No validation, application or replication was performed or is authorized.",
+      "summary": "Development's Stage 9 return (30 sections): Draft v4 built and traced to its seventeen items, twenty-seven consistency checks confirmed, eight new structural treatments carrying no validation \u2014 and one recommended validation stage that is a recommendation only.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned 2026-08-26 under fd-0027. Evidentiary and non-governing. Records that the method's defect corpus has been answered in text and in nothing else, that no eighteenth substantive change was introduced, that A10's ambiguity is carried forward unresolved, and that the external-validation gap is moved by nothing.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-9-draft-v4-traceability-matrix"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-draft-v4-integrity-record"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v4"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-stage-8-determinations-completion-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
