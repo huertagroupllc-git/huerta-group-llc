@@ -917,6 +917,39 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0030",
+      "title": "Founder Office Authorization: Organizational Diagnostic \u2014 Stage 10 Draft v5 Internal Validation",
+      "path": "institution/governance/determinations/fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 10: Draft v5 Internal Validation execution package (Founder Office \u2192 Institutional Platform Development), authorizing one bounded internal validation application of frozen Draft v5 against Huerta Group Publishing as a read-only subject \u2014 stating in its own objective that because HGP is a previously diagnosed internal subject the stage tests no fresh-subject discovery, external validity, client validity, evaluator independence or general applicability; requiring the application be performed by an authoring context that did not draft Draft v5, with an independence and prior-involvement statement created and frozen before substantive subject inspection covering institutional and individual involvement, withheld prior-result material, unavoidable contextual leakage and the resulting limitation, and holding that a different agent instance does not confer institutional independence and that only the independence actually achieved may be described; requiring prior Stage 5 and Stage 6 instruments, findings, comparisons, D-1 through D-8 and MO-01 through MO-22 to be withheld so far as technically practicable while forbidding any withholding of legitimate subject evidence to improve isolation, and requiring leakage to be measured and disclosed rather than isolation asserted; requiring authentic participant evidence where the method needs it while forbidding Development from answering participant questions on behalf of the Founder, an author, a venture steward, an imprint, Publishing Operations or any other HGP authority, and requiring the minimum neutral question to be returned rather than an answer inferred; fixing four permitted classifications for the seventeen consolidation items with observable application evidence required for each and an express prohibition on manufacturing conditions, disagreement, missing evidence, authority conflict, confidentiality problems or workflow defects to move an item into exercised; fixing the substantive targets including A10 Reading A with six per-category fields and five existence states, procedure performed versus evidence sufficient, the permitted state of A10 performed with named gaps and A18 unsatisfied, Instrument 5's three sufficiency values with numeric measures prohibited, the visually-complete-output risk test, closure semantics without a sixth outcome, identity-of-record produced by A4, one-sided evidence only where authentic, prior-involvement disclosure at both layers, source-kind categorisation without hierarchy, the A1 and A2 precedence rule, confidentiality handling under a meta-rule that the validation must obey the rule it tests, and source-of-truth boundaries identifiable while authority remains unresolved; requiring Draft v5 to remain immutable throughout with defects recorded and corrections proposed separately and unapplied and descriptive finding types never converted into scores or maturity levels; and requiring the post-validation maturity assessment to state only the narrowest claim the evidence supports with the external-validation gap kept explicit \u2014 while withholding Draft v5 modification, Draft v6, external application, validated-through-use, established-methodology, Method Library admission, standardization, software, scoring, maturity models, commercialization and any change to HGP",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 10,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation.md",
+        "institution/governance/methodology/instruments/stage-10-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/stage-10-validator-independence-statement.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 4,
+      "relationships": [
+        {
+          "target": "fd-0029",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0024",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0023",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

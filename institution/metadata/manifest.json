@@ -4968,6 +4968,39 @@
       ]
     },
     {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation",
+      "title": "fd-0030 \u2014 Founder Office Authorization: Organizational Diagnostic \u2014 Stage 10 Draft v5 Internal Validation",
+      "path": "institution/governance/determinations/fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation.md",
+      "type": "decision-record",
+      "statusNote": "Authorizes one bounded internal validation of frozen Draft v5 against HGP, read-only. The instrument itself states that Stage 10 tests no fresh-subject discovery, external validity, client validity, evaluator independence or general applicability. Draft v6, Draft v5 modification and external application are not authorized.",
+      "summary": "One bounded internal application of frozen Draft v5 to HGP by a non-authoring context: four permitted item classifications, no manufactured conditions, no participant answered on the subject's behalf, defects recorded and never repaired.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary \u2014 the record evidences the determinations and creates no authority. Four deficiencies are recorded before the application began, including that HGP has not moved since the prior applications and that the drafting office organizes its own validation.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0029-organizational-diagnostic-draft-v5-reconciliation-and-versioning"
+        },
+        {
+          "rel": "references",
+          "target": "stage-10-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v5"
+        }
+      ]
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -5424,6 +5457,63 @@
         {
           "rel": "references",
           "target": "founder-office-instrument-preservation-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-10-execution-package",
+      "title": "Generation One \u2014 Stage 10: Draft v5 Internal Validation \u2014 Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/stage-10-execution-package.md",
+      "type": "governing-record",
+      "summary": "The Stage 10 instrument, preserved verbatim: one bounded internal validation of frozen Draft v5 against HGP, read-only, by a non-authoring context \u2014 with the five things it cannot test stated in its own objective.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0030. Digest of the preserved instrument text: 7740e3496243770dba03d12c713b8d62587df6d5757f3dba7eeeaa573375bbfd; digest as received, without its absent trailing newline: 63f0c22b98e96d0935e5985f2b6874528fd2182ae9add21bb9a5de63c3c5ee92.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-10-validator-independence-statement",
+      "title": "Stage 10 \u2014 Validating Author's Independence and Prior-Involvement Statement",
+      "path": "institution/governance/methodology/stage-10-validator-independence-statement.md",
+      "type": "status-record",
+      "statusNote": "Written at zero tool calls before any evidence was released and committed before the application. Preserved verbatim. The author claims only a separation of hands, not of interest, and discloses contributor-memory leakage itself.",
+      "summary": "The validating author's own statement of position: institutional involvement, agent-level involvement, an exhaustive prior-familiarity enumeration, what was withheld, eight named leakage vectors, and a refusal to call the work independent.",
+      "provenance": {
+        "origin": "Stage 10 validating author (separate authoring context; preserved verbatim)",
+        "approvalReference": "Produced 2026-08-26 under fd-0030 \u00a72.4 at zero tool calls, and committed before the evidence was released \u2014 the ordering carried by commit history rather than assertion. Development did not edit, condense or annotate the statement.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v5"
         }
       ]
     },
