@@ -805,6 +805,42 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0027",
+      "title": "Founder Office Authorization: Organizational Diagnostic \u2014 Stage 9 Draft v4 Consolidation",
+      "path": "institution/governance/determinations/fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 9: Draft v4 Consolidation execution package (Founder Office \u2192 Institutional Platform Development), authorizing construction of Draft v4 as a bounded consolidation version built from Draft v3 as its substantive baseline and incorporating only the seventeen Stage 7 change-set items, their controlling dispositions, the six determinations at fd-0026, and strictly necessary internal-consistency edits \u2014 prohibiting an eighteenth substantive methodology change, new stages, new instruments, new evidence classes, scoring, maturity models, automation, software assumptions, external-client defaults, commercial framing, and both simplification and expansion untraceable to an authorized item; giving fd-0026 drafting precedence over narrower Stage 7 wording for CS-01, CS-03 and CS-14; requiring byte-identical verification of Drafts v1\u2013v3 before and after construction with a stop rule if any digest fails and a prohibition on repairing a historical draft; classifying A10's conjunctive trail-first ambiguity as an open limitation and not a drafting discretion, to be disclosed and neither resolved by wording preference nor normalized away; fixing four evidence-inheritance classifications and forbidding any claim that a changed element is tested because its predecessor existed; requiring a bounded twenty-seven-point internal-consistency review that is expressly not behavioural validation; classifying Draft v4 as a provisional draft untested as a version and forbidding its elevation, its application to Huerta Group LLC or HGP, third-author replication, synthetic cases, fabricated evidence, and any label of tested derived from repository checks; and requiring only the smallest meaningful next validation stage to be recommended, with recommendation expressly not authorization",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 11,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization.md",
+        "institution/governance/methodology/instruments/stage-9-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v4.md",
+        "institution/governance/methodology/organizational-diagnostic-draft-v4-integrity-record.md",
+        "institution/governance/methodology/stage-9-draft-v4-traceability-matrix.md",
+        "institution/governance/methodology/generation-one-stage-9-draft-v4-consolidation-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0026",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0025",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0022",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

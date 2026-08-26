@@ -4870,6 +4870,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization",
+      "title": "fd-0027 \u2014 Founder Office Authorization: Organizational Diagnostic \u2014 Stage 9 Draft v4 Consolidation",
+      "path": "institution/governance/determinations/fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization.md",
+      "type": "decision-record",
+      "summary": "Authorizes Draft v4 as a bounded consolidation and nothing else: seventeen items only, fd-0026 controlling for CS-01/CS-03/CS-14, A10 preserved unresolved, four evidence-inheritance classes fixed, and a standing rule that repository checks never make a draft tested.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary \u2014 the record evidences the determinations and creates no authority. Draft v4 construction is authorized; Draft v4 validation, application to Huerta Group LLC or HGP, further replication, external application, adoption, standardization, commercialization and software are not.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0026-organizational-diagnostic-stage-8-methodology-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "stage-9-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-draft-v4-change-set"
+        }
+      ]
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -5246,6 +5278,34 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-9-execution-package",
+      "title": "Generation One \u2014 Stage 9: Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/stage-9-execution-package.md",
+      "type": "governing-record",
+      "summary": "The Stage 9 instrument, preserved verbatim: Draft v4 construction authorized as a bounded consolidation, fd-0026 given precedence over narrower Stage 7 wording, A10's ambiguity fixed as an open limitation, and every validation route withheld.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0027. Digest of the preserved instrument text: 8d55fecd476143b102a0af626b47b2e45df4abc7043a1649b2c1925f5fcf2e7b; digest of the instrument exactly as received, without its absent trailing newline: 6490ca293cfb308da92a323580aa67d64b095d8317f9620fd6b59d81dc8f3674.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ]
+    },
+    {
       "id": "organizational-diagnostic-draft-v2-correction-dispositions",
       "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v2",
       "path": "institution/governance/methodology/organizational-diagnostic-draft-v2-correction-dispositions.md",
@@ -5363,6 +5423,39 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "organizational-diagnostic-generation-one-draft-v4",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One, Draft v4 (Provisional Draft \u2014 Untested as a Version)",
+      "path": "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v4.md",
+      "type": "plan",
+      "statusNote": "PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION. MF v1 \u00a75.1 status 'draft', produced under \u00a76.4 as a new version. Applied to nothing. Not designated 'validated through use'. Carries no institutional authority. Drafts v1\u2013v3 remain immutable and are the record of what was actually applied. Digest 3137da8c\u20263c9c994.",
+      "summary": "The consolidation version: Draft v3 plus the seventeen Stage 7 items and the six fd-0026 determinations \u2014 source kind, A1/A2 precedence, prior-involvement disclosure, identity-of-record, closure semantics, confidentiality minimum \u2014 and no eighteenth change. Applied to nothing.",
+      "provenance": {
+        "origin": "Institutional Platform Development (provisional methodology draft)",
+        "approvalReference": "Produced 2026-08-26 under fd-0027 as a new version at a new path, never as an edit of a tested baseline. Drafts v1 (076440c), v2 (9659fbb) and v3 (d738d7e) verified byte-identical before and after construction. Every difference from Draft v3 is traced in Part D and in the seventeen-item traceability matrix. Elements it changed inherit rationale, not validation.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-draft-v4-change-set"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization"
+        }
+      ]
     },
     {
       "id": "organizational-diagnostic-draft-v3-correction-dispositions",
