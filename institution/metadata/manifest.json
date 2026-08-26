@@ -5586,6 +5586,109 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
+      "id": "organizational-diagnostic-generation-one-draft-v5",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One, Draft v5 (Provisional Draft \u2014 Untested as a Version)",
+      "path": "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v5.md",
+      "type": "plan",
+      "statusNote": "PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION. Applied to nothing. Not a new discovery generation, not a reopening of Stage 7, not a validation result, not an established method, not externally validated. Draft v3 remains the last version any application used. Digest d178024b\u2026f75635c.",
+      "summary": "Draft v4 plus the Founder-determined A10 reconciliation and nothing else: the four trail items are source categories rather than conjunctive limbs, missing categories create gaps rather than voiding the procedure, and A18 alone governs advancement.",
+      "provenance": {
+        "origin": "Institutional Platform Development (provisional methodology draft)",
+        "approvalReference": "Produced 2026-08-26 under fd-0029 as a new version at a new path, because MF v1 \u00a76.4 makes the fd-0028 reconciliation substantive. Drafts v1-v4 verified byte-identical before and after; Draft v4 was not opened for writing. Twelve diff hunks across six locations, all traced at Part D \u00a7D6.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v4"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0028-organizational-diagnostic-a10-trail-first-determination"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0029-organizational-diagnostic-draft-v5-reconciliation-and-versioning"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v5-a10-reconciliation-traceability",
+      "title": "Organizational Diagnostic \u2014 Draft v5: A10 Reconciliation Traceability",
+      "path": "institution/governance/methodology/draft-v5-a10-reconciliation-traceability.md",
+      "type": "status-record",
+      "statusNote": "Traceability, not validation. Every difference from Draft v4 traces to fd-0028; the reconciled A10 carries semantic authority, historical rationale and Stage 5/6 development evidence, and no behavioural validation. Draft v5 applied to nothing.",
+      "summary": "Every difference between Draft v4 and Draft v5, location by location, with each change's direct necessity to fd-0028 \u2014 plus what stayed byte-identical and the one addition made beyond the prepared wording.",
+      "provenance": {
+        "origin": "Institutional Platform Development (traceability record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0029. Records the chain from Draft v4's construction through the determination and the returned versioning question to this version, and preserves Stage 5 and Stage 6 without classifying either application as correct or incorrect.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v5"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v4"
+        },
+        {
+          "rel": "references",
+          "target": "a10-determination-reconciliation-record"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0028-organizational-diagnostic-a10-trail-first-determination"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "organizational-diagnostic-draft-v5-integrity-record",
+      "title": "Organizational Diagnostic \u2014 Generation One Draft v5: Integrity and Version Record",
+      "path": "institution/governance/methodology/organizational-diagnostic-draft-v5-integrity-record.md",
+      "type": "status-record",
+      "statusNote": "Draft v5 digest d178024b\u2026f75635c, applications 0, status PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION. Drafts v1-v4 verified byte-identical pre- and post-construction, one commit each on their paths. Records no validation because none was performed.",
+      "summary": "Draft v5's digest and its place in the chain: it supersedes Draft v4 as the current draft and no version as a record, and the tested text remains Draft v3 \u2014 the only version any application has used.",
+      "provenance": {
+        "origin": "Institutional Platform Development (integrity record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0029, kept separately from the draft so neither alters the other. Records the pre- and post-construction verification of all four earlier drafts and the reason Draft v4 is preserved carrying the ambiguity.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v5"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-draft-v4-integrity-record"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0029-organizational-diagnostic-draft-v5-reconciliation-and-versioning"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
       "id": "stage-9-draft-v4-traceability-matrix",
       "title": "Organizational Diagnostic \u2014 Generation One: Draft v4 Seventeen-Item Traceability Matrix",
       "path": "institution/governance/methodology/stage-9-draft-v4-traceability-matrix.md",

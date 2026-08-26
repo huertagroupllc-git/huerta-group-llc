@@ -92,29 +92,34 @@ determination was recorded:
 | v3 | **PASS** — `04fd02c7…d379f89f`, 1 commit on path |
 | **v4** | **PASS — `3137da8c…3c9c994`, unchanged, 1 commit on path** |
 
-**One change is authorized and pending, and has not been made.** `fd-0028`
-adopts Reading A of A10's trail-first procedure and authorizes a bounded
-reconciliation of Draft v4's wording. The reconciliation is **prepared and not
-applied**: Methodology Foundation v1 §6.4 requires a new version for a
-substantive refinement, the authorizing instrument forbids Draft v5, and the
-instrument's own stop rule directs that the versioning question be returned
-rather than chosen. See `a10-determination-reconciliation-record.md`.
+**The pending change was resolved into a new version, and Draft v4 was left
+alone.** `fd-0028` adopted Reading A of A10's trail-first procedure and
+authorized a bounded reconciliation. Development prepared the wording and
+**returned the versioning question rather than choosing**, because Methodology
+Foundation v1 §6.4 requires a new version for a substantive refinement.
+**`fd-0029` answered it: §6.4 governs, Draft v4 is not modified in place, and
+Draft v5 carries the reconciliation.**
 
-**Consequently this record still describes Draft v4 accurately**, and the
-digest above is still the digest of the file at its path. When the versioning
-determination is made, the Stage 9 digest is preserved here beside whatever
-succeeds it — **it is not overwritten**, because the fact that Draft v4 was
-constructed as `3137da8c…` carrying one unresolved limitation is part of the
-record of how this method developed.
+**Draft v4 is therefore unchanged, and its digest above still stands** —
+verified again before and after Draft v5's construction. It is now the
+**historical Stage 9 consolidation version whose text still contains the A10
+ambiguity `fd-0028` later resolved**, and it was expressly not rewritten to
+agree with that determination. That it was constructed as `3137da8c…` carrying
+one unresolved limitation is part of the record of how this method developed,
+and it is why the determination's effect is legible at all.
+
+**Superseded as the current draft, not as a record** (MF v1 §6.5). See
+`organizational-diagnostic-draft-v5-integrity-record.md` §2 and
+`draft-v5-a10-reconciliation-traceability.md`.
 
 ## 6. What would change this record
 
-The pending A10 reconciliation, once its representation is determined — and,
-separately, a Founder Office-authorized validation stage that actually applies
-Draft v4 to a subject, and its result. Until that second thing happens this
-record's *Applications: 0* is the whole of what can be said about this version's
-behaviour. **A determination is not an application**, and `fd-0028` says so:
-resolving A10 "does not constitute behavioral application evidence."
+**Nothing is now pending against Draft v4.** Its reconciliation was carried
+into Draft v5 and Draft v4 stands frozen. Only an application of Draft v4 to a
+subject would change *Applications: 0*, and none is authorized or expected —
+Draft v5 is the current candidate. **A determination is not an application**,
+and `fd-0028` says so: resolving A10 "does not constitute behavioral
+application evidence."
 
 ## 7. Maturity, restated because a determination is easy to mistake for progress
 

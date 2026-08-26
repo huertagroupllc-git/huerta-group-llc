@@ -3,17 +3,29 @@
 **Classification: Institutional Record** — reconciliation record (evidentiary,
 non-governing). Produced under `fd-0028`.
 
-**Status: RECONCILIATION PREPARED — NOT APPLIED. A REPOSITORY-VERSIONING
-DETERMINATION IS REQUIRED FIRST**, under the stop rule the authorizing
-instrument itself carries (`fd-0028` §2.9). Draft v4 is **unchanged** at
+**Status: VERSIONING QUESTION ANSWERED; RECONCILIATION APPLIED IN DRAFT v5.**
+`fd-0029` determined that the reconciliation is a substantive refinement under
+Methodology Foundation v1 §6.4 — **Option 2 of §2 below** — so Draft v4 is not
+modified in place and the prepared wording was carried into a new version.
+Draft v4 remains **unchanged** at
 `3137da8c1f37bde26abb3c5d034bcd3858f6bb610d49c9047697136673c9c994`, one commit
 on its path. Drafts v1, v2 and v3 are unchanged. Stage 5 and Stage 6 are
 unchanged.
 
-**The state of A10, stated exactly:** **semantically determined, textually
-unreconciled.** The Founder Office has answered the question; the answer is not
-yet in the draft it governs. No record in this corpus may collapse those two
-into one.
+**The state of A10 now:** **semantically determined and textually reconciled —
+in Draft v5, not in Draft v4.** Draft v4's text still carries the ambiguity,
+deliberately, as the historical record of what the method said before the
+determination.
+
+**This record is preserved as written below.** Its analysis, its four
+candidate representations and its prepared wording are the evidence the
+determination was made against, and §1–§2 are left in their original tense so
+that what was returned, and why, stays legible. Where §3 says the wording is
+"applied to nothing," read it as the state at the time it was written; the
+wording has since been applied at
+`organizational-diagnostic-generation-one-draft-v5.md` and traced at
+`draft-v5-a10-reconciliation-traceability.md` §3, which records the two places
+it was adapted for a new version and the one place it was extended.
 
 ## 1. Why the reconciliation was prepared and not applied
 
