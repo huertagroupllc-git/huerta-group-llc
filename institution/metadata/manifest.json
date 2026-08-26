@@ -5092,6 +5092,75 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "organizational-diagnostic-generation-one-draft-v3",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One, Draft v3 (Provisional Draft)",
+      "path": "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v3.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "PROVISIONAL \u2014 NOT EXTERNALLY VALIDATED \u2014 NOT ESTABLISHED METHOD. Methodology Foundation v1 \u00a75.1 status 'draft'; expressly NOT designated 'validated through use' (fd-0022 \u00a72.1). Carries no institutional authority; not adopted as a version under MF v1 \u00a76.4. Digest 04fd02c7\u2026d379f89f.",
+      "summary": "The third provisional version, produced from the frozen Draft v2 by traced edits: unopposed is not corroborated, source roles separated from authority, a two-pass access statement, limb-level capture with a clarification follow-up, and concentration recorded as a condition.",
+      "provenance": {
+        "origin": "Institutional Platform Development (provisional methodology draft)",
+        "approvalReference": "Produced 2026-08-25 under fd-0022 \u00a72.5\u2013\u00a72.7 as a new version, never as an edit of a tested baseline. Draft v1 (076440c) and Draft v2 (9659fbb) remain immutable and unchanged. Every difference from Draft v2 traces to a disposition; no correction was adopted merely because Stage 3 recommended it.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v2"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-draft-v3-correction-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0022-organizational-systems-methodology-stage-4-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "organizational-diagnostic-draft-v3-correction-dispositions",
+      "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v3",
+      "path": "institution/governance/methodology/organizational-diagnostic-draft-v3-correction-dispositions.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Individual disposition of the ten Stage 3 correction proposals \u2014 5 accepted, 5 modified, one element deferred and one declined \u2014 plus three narrowly derived Stage 4 clarification corrections, and the Draft v3 integrity and version record.",
+      "provenance": {
+        "origin": "Institutional Platform Development (disposition record)",
+        "approvalReference": "Recorded 2026-08-25 under fd-0022 \u00a72.5\u2013\u00a72.6. A Stage 3 recommendation is not adoption: each proposal was tested on its own evidence, and two of the four called necessary before external validation were modified rather than accepted.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-post-test-correction-proposals"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-set-session-2-clarifications"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0022-organizational-systems-methodology-stage-4-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "stakeholder-evidence-procedure",
       "title": "Organizational Diagnostic \u2014 Generation One: First Structured Stakeholder-Evidence Procedure",
       "path": "institution/governance/methodology/stakeholder-evidence-procedure.md",
