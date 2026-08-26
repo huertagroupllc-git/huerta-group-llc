@@ -4674,6 +4674,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "fd-0021-organizational-systems-methodology-stage-3-completion-authorization",
+      "title": "fd-0021 \u2014 Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 3 Completion Authorized, First Genuine Stakeholder Evidence Supplied",
+      "path": "institution/governance/determinations/fd-0021-organizational-systems-methodology-stage-3-completion-authorization.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Discharges the Stage 3 interaction dependency: the Founder Office answered Q1\u2013Q30 in its own words, supplied as Client-Stated evidence. Authorizes completion of the sealed records-versus-accounts comparison; Draft v2 stays frozen; corrections are proposals; every exclusion continues.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-25. Evidentiary \u2014 the record evidences the determinations and creates no authority. The Q1\u2013Q30 answers it carries are Client-Stated evidence, not determinations; external application, Method Library admission and software construction remain not authorized.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "stage-3-completion-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-set-session-1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -4874,6 +4906,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "stage-3-completion-execution-package",
+      "title": "Generation One \u2014 Stage 3 Completion: Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/stage-3-completion-execution-package.md",
+      "type": "governing-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The Founder Office instrument that authorized completion of Stage 3, preserved verbatim: the sealed-validation boundary, the seven comparison classifications and no-default-preference rules, fifteen priority validation questions, the maturity ceiling \u2014 and the Founder Office's own Q1\u2013Q30 answers.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-25 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0021. Digest of the instrument text: c3c7a360cbeacaae256ea38d2c28b52e7dbb85ce0304217af67b9634252cff44. The answers it carries are Client-Stated evidence, not determinations.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0021-organizational-systems-methodology-stage-3-completion-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        },
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-procedure"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "organizational-diagnostic-draft-v2-correction-dispositions",
       "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v2",
       "path": "institution/governance/methodology/organizational-diagnostic-draft-v2-correction-dispositions.md",
@@ -4986,6 +5050,38 @@
         {
           "rel": "references",
           "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stakeholder-evidence-set-session-1",
+      "title": "Organizational Diagnostic \u2014 Generation One: Client-Stated Evidence Set (Founder Office, Stakeholder Session 1)",
+      "path": "institution/governance/methodology/stakeholder-evidence-set-session-1.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The first genuine stakeholder evidence: the Founder Office's thirty answers captured verbatim as Client-Stated rows, with the organization's own terms, the question limbs not supplied, and the conflicts inside the account kept unresolved. Evidence for comparison, not a finding.",
+      "provenance": {
+        "origin": "Founder Office (stakeholder session 1), captured by Institutional Platform Development",
+        "approvalReference": "Captured 2026-08-25 under fd-0021 \u00a72.2 and the stakeholder-evidence procedure \u00a75. Client-Stated unless independently corroborated; nothing here is a determination, a finding, or a statement of what the organization is.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-procedure"
+        },
+        {
+          "rel": "references",
+          "target": "stage-3-completion-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0021-organizational-systems-methodology-stage-3-completion-authorization"
         }
       ],
       "versioning": "git-history",

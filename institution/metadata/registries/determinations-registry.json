@@ -613,6 +613,38 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0021",
+      "title": "Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 3 Completion Authorized, First Genuine Stakeholder Evidence Supplied",
+      "path": "institution/governance/determinations/fd-0021-organizational-systems-methodology-stage-3-completion-authorization.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 3: Stakeholder-Evidence Validation Completion execution package (Founder Office \u2192 Institutional Platform Development), supplying the Founder Office's own answers to the thirty stakeholder questions as Client-Stated evidence, authorizing completion of the sealed records-versus-accounts comparison against independently retrieved records evidence, fixing the seven comparison classifications and the rule that neither records nor stakeholder testimony is automatically preferred, requiring contradictions to be preserved and any Founder statement that reads as a new determination to be identified rather than silently elevated, ordering post-test methodology corrections recorded as proposals only with frozen Draft v2 unaltered, capping the maturity claim at an internally tested provisional diagnostic with a remaining external-validation gap, and continuing every exclusion \u2014 external application, Method Library admission, standardization, software construction, pricing and commercial packaging not authorized",
+      "dateReceived": "2026-08-25",
+      "recordedDate": "2026-08-25",
+      "determinationCount": 9,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0021-organizational-systems-methodology-stage-3-completion-authorization.md",
+        "institution/governance/methodology/instruments/stage-3-completion-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/stakeholder-evidence-set-session-1.md",
+        "institution/governance/methodology/records-versus-accounts-comparison.md",
+        "institution/governance/methodology/organizational-diagnostic-post-test-correction-proposals.md",
+        "institution/governance/methodology/generation-one-stage-3-completion-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 2,
+      "relationships": [
+        {
+          "target": "fd-0020",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0019",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
