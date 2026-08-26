@@ -678,6 +678,39 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0023",
+      "title": "Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 5 Authorized, Frozen Draft v3 Applied to Huerta Group Publishing",
+      "path": "institution/governance/determinations/fd-0023-organizational-systems-methodology-stage-5-authorization.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 5: Internal Application of Frozen Draft v3 to Huerta Group Publishing execution package (Founder Office \u2192 Institutional Platform Development), authorizing the first application of the diagnostic to a subject other than the parent, classifying Huerta Group Publishing as an internal subordinate organizational subject, imposing a freeze gate that verifies Draft v3 against its Stage 4 digest before application and forbids folding any correction into it during the test, authorizing a bounded re-run of the Q3, Q14 and Q29 comparison rows without altering the original answers, commissioning the narrowest truthful reporting treatment for one-sided evidence with any governed-semantics change returned rather than made, requiring the prior-familiarity limitation to be recorded before examination and forbidding any characterization of the work as blind, independent or external validation, forbidding every kind of change to the venture and the reproduction of unnecessary confidential venture substance, and withholding the validated-through-use designation \u2014 external application, Method Library admission, standardization and software construction not authorized",
+      "dateReceived": "2026-08-25",
+      "recordedDate": "2026-08-25",
+      "determinationCount": 9,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0023-organizational-systems-methodology-stage-5-authorization.md",
+        "institution/governance/methodology/instruments/stage-5-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/q3-q14-q29-clarification-comparison-completion.md",
+        "institution/governance/methodology/one-sided-evidence-reporting-disposition.md",
+        "institution/governance/methodology/hgp-internal-application-stage-5.md",
+        "institution/governance/methodology/stage-5-method-deficiencies-and-proposed-corrections.md",
+        "institution/governance/methodology/generation-one-stage-5-hgp-application-and-validation-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0022",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0007",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

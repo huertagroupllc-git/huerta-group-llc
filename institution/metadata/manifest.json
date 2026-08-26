@@ -4742,6 +4742,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "fd-0023-organizational-systems-methodology-stage-5-authorization",
+      "title": "fd-0023 \u2014 Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 5 Authorized, Frozen Draft v3 Applied to Huerta Group Publishing",
+      "path": "institution/governance/determinations/fd-0023-organizational-systems-methodology-stage-5-authorization.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Authorizes the first application of the diagnostic to a subject other than the parent \u2014 Huerta Group Publishing as an internal subordinate subject \u2014 with Draft v3 frozen, no HGP change of any kind, a compulsory prior-familiarity limitation, and validated-through-use withheld.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-25. Evidentiary \u2014 the record evidences the determinations and creates no authority, and confers none over Huerta Group Publishing beyond reading its records as evidence, which FD-V1 \u00a717 already permits. Findings about HGP are diagnostic output, not determinations and not implementation authority.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0022-organizational-systems-methodology-stage-4-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "stage-5-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "fd-v1-huerta-group-publishing-venture-determination-and-charter"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -4999,6 +5031,34 @@
         {
           "rel": "references",
           "target": "stakeholder-evidence-set-session-2-clarifications"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-5-execution-package",
+      "title": "Generation One \u2014 Stage 5: Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/stage-5-execution-package.md",
+      "type": "governing-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The Stage 5 instrument, preserved verbatim: the Draft v3 freeze gate, the bounded Q3/Q14/Q29 re-run, the one-sided-evidence treatment brief, twelve validation targets, the venture non-intervention boundary, and the stakeholder-evidence gate.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-25 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0023. Digest of the instrument text: 1a0c3b4ebaa90ac6afbb794135f6f4eaa0870cc8103c163b3e0a7bf2e850c761.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0023-organizational-systems-methodology-stage-5-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
         }
       ],
       "versioning": "git-history",
