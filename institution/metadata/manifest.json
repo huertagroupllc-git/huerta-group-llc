@@ -5458,6 +5458,72 @@
       ]
     },
     {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-9-draft-v4-traceability-matrix",
+      "title": "Organizational Diagnostic \u2014 Generation One: Draft v4 Seventeen-Item Traceability Matrix",
+      "path": "institution/governance/methodology/stage-9-draft-v4-traceability-matrix.md",
+      "type": "status-record",
+      "statusNote": "Traceability, not validation. Every difference between Draft v3 and Draft v4 traces to an authorized item; sixteen of the seventeen carry a fresh-validation requirement and none of the seventeen falls in the unchanged-with-prior-evidence class. Draft v4 has been applied to nothing.",
+      "summary": "The seventeen items, one row each: source deficiencies, disposition, fd-0026 determination, Draft v4 location, change type, prior-evidence status, and evidence-inheritance class \u2014 eight new structural treatments, eight modified, one disclosure, none inheriting validation.",
+      "provenance": {
+        "origin": "Institutional Platform Development (traceability record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0027 \u00a72.2 and \u00a72.6. No accepted item disappeared into generalized prose. Records CS-10's unset scope bound and A10's ambiguity as carried forward rather than resolved, and states per item what validation the element actually carries.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v4"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-draft-v4-change-set"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-deficiency-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0026-organizational-diagnostic-stage-8-methodology-determinations"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "organizational-diagnostic-draft-v4-integrity-record",
+      "title": "Organizational Diagnostic \u2014 Generation One Draft v4: Integrity and Version Record",
+      "path": "institution/governance/methodology/organizational-diagnostic-draft-v4-integrity-record.md",
+      "type": "status-record",
+      "statusNote": "Draft v4 digest 3137da8c\u20263c9c994, applications 0, status PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION. Drafts v1\u2013v3 verified byte-identical pre- and post-construction, one commit each on their paths. Records no validation because none was performed.",
+      "summary": "Draft v4's digest, its place in the version chain, and its maturity: it supersedes Draft v3 as the current draft and supersedes no version as a record \u2014 the tested text remains Draft v3, and repository checks are not validation.",
+      "provenance": {
+        "origin": "Institutional Platform Development (integrity record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0027 \u00a72.4 and \u00a72.8, kept separately from the draft so neither alters the other. Records the pre- and post-draft verification of Drafts v1, v2 and v3 and the twenty-eight traced differences from the baseline.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v4"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0027-organizational-diagnostic-stage-9-draft-v4-consolidation-authorization"
+        }
+      ]
+    },
+    {
       "id": "organizational-diagnostic-draft-v3-correction-dispositions",
       "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v3",
       "path": "institution/governance/methodology/organizational-diagnostic-draft-v3-correction-dispositions.md",
