@@ -6331,6 +6331,47 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-stage-7-consolidated-disposition-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Consolidated Deficiency Disposition & Stage 7 Report",
+      "path": "institution/governance/methodology/generation-one-stage-7-consolidated-disposition-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "STAGE 7 EXECUTED. Method status unchanged: internally tested provisional diagnostic. No Draft v4 exists; no frozen draft modified; nothing adopted, standardized or admitted. Five determinations block a coherent revision. The external-validation gap is untouched \u2014 this stage examined records about a method and applied nothing to anyone.",
+      "summary": "Development's Stage 7 return (52 sections): all thirty deficiency records adjudicated, seventeen change-set items proposed with four blocked pending five determinations, and no Draft v4 created.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report, first author)",
+        "approvalReference": "Returned 2026-08-26 under fd-0025. Evidentiary and non-governing. A disposition changes no frozen draft and creates no methodology; every accepted change remains a proposal until a version is authorized under Methodology Foundation v1 \u00a76.4.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-7-deficiency-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-draft-v4-change-set"
+        },
+        {
+          "rel": "references",
+          "target": "d8-evidence-base-qualification"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-stage-6-replication-and-validation-report"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0025-organizational-systems-methodology-stage-7-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
