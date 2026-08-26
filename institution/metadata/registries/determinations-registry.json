@@ -878,6 +878,45 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0029",
+      "title": "Founder Office Determination: Organizational Diagnostic \u2014 A10 Draft v5 Reconciliation & Versioning",
+      "path": "institution/governance/determinations/fd-0029-organizational-diagnostic-draft-v5-reconciliation-and-versioning.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 A10 Draft v5 Reconciliation & Versioning execution package (Founder Office \u2192 Institutional Platform Development), answering the repository-versioning question Development returned rather than chose \u2014 determining that the fd-0028 A10 reconciliation is a substantive methodology refinement under Methodology Foundation v1 \u00a76.4, that Draft v4 must not be modified in place, and that Draft v5 is created as a new version whose sole reason is Draft v4's consolidation plus the Founder-determined A10 Reading A reconciliation; preserving Draft v4 unchanged as the historical Stage 9 consolidation version whose text still contains the ambiguity fd-0028 later resolved and forbidding its rewrite to agree retrospectively; requiring verification of Drafts v1 through v4 against their established digests before construction with a stop rule on any failure and a prohibition on repairing historical drafts; bounding Draft v5 to seven permitted change locations \u2014 A10, Instrument 5, A20, Part D, the version and status header, strictly necessary cross-reference text, and strictly necessary traceability or version-history text \u2014 with a hard boundary forbidding revision of any other Stage 9 element and expressly forbidding reopening of the seventeen Stage 7 change-set items, their dispositions, the fd-0026 determinations, Draft v4 terminology, instrument architecture, method progression, method maturity rules and external-validation doctrine; directing that the already-prepared clause-by-clause reconciliation be used as the implementation basis without reopening settled semantics or editorially redesigning A10, with a stop rule returning any genuinely new semantic conflict rather than expanding Draft v5 to solve it; requiring that A20 and Part D changes cite direct necessity to the determination; holding that the reconciled A10 carries Founder Office semantic authority, historical rationale and Stage 5/6 development evidence but no fresh behavioural validation, and forbidding any description of Draft v5 as tested because the semantic question is resolved; preserving Stage 5 and Stage 6 exactly with no retrospective classification of either application as correct or incorrect; and requiring the prepared validation package to be reassessed for compatibility with reuse preferred over redesign \u2014 while withholding validation execution, application to Huerta Group LLC or HGP, further replication, external application, Draft v6, Method Library admission, standardization, software, scoring and maturity models",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 7,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0029-organizational-diagnostic-draft-v5-reconciliation-and-versioning.md",
+        "institution/governance/methodology/instruments/draft-v5-reconciliation-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v5.md",
+        "institution/governance/methodology/draft-v5-a10-reconciliation-traceability.md",
+        "institution/governance/methodology/organizational-diagnostic-draft-v5-integrity-record.md",
+        "institution/governance/methodology/organizational-diagnostic-draft-v4-integrity-record.md",
+        "institution/governance/methodology/a10-determination-reconciliation-record.md",
+        "institution/governance/methodology/draft-v4-validation-package.md",
+        "institution/governance/methodology/draft-v5-reconciliation-and-versioning-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0028",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0027",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0026",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

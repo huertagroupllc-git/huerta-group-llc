@@ -1,7 +1,7 @@
 # Founder Office Instrument Preservation Record — Organizational Systems Methodology Program
 
 **Classification: Institutional Record** — provenance record (evidentiary,
-non-governing). Records the preservation of eleven Founder Office execution
+non-governing). Records the preservation of twelve Founder Office execution
 instruments under the determination transcribed at `fd-0020` §2.4, through the
 existing canonical-source preservation standard
 (`institution/standards/repository/canonical-source-preservation.md`). It
@@ -57,6 +57,7 @@ standard's substance is preserved and one adaptation is recorded:
 | Generation One — Stage 8 execution package | `instruments/stage-8-execution-package.md` | 2026-08-26, Development execution context | `a9616c71ae797fe3f3a317323c13b6ae1faa02608c7833e243835ae6b87a4539` | 28,781 · 719 | `eaaacf2169eec0f830b9afb687ddd0702ba63b4261bcc403e1c5e8c9fb5601c9` |
 | Generation One — Stage 9 execution package | `instruments/stage-9-execution-package.md` | 2026-08-26, Development execution context | `8d55fecd476143b102a0af626b47b2e45df4abc7043a1649b2c1925f5fcf2e7b` | 42,374 · 1,206 | `889ed17117240f27f5e531ad64f830381032285eb46182e47c08b3ef90f13915` |
 | Generation One — Post-Stage 9 A10 execution package | `instruments/post-stage-9-a10-execution-package.md` | 2026-08-26, Development execution context | `30019544b1b52115174b0383cd96f1ee98302863344e2afd61dd39f92fb26e8c` | 29,098 · 713 | `aa94267bc53e66c2d7e475652cc1d077eca7504a7d374a5020d14c3391c855bd` |
+| Generation One — Draft v5 reconciliation execution package | `instruments/draft-v5-reconciliation-execution-package.md` | 2026-08-26, Development execution context | `0f4034b187f21168ab59c6bf09ee9df2b4e9e0121bf3f170b00751ef8722642c` | 24,421 · 667 | `3692cf2b7adc0b785e4aad35ba23c54b96a27782af847f940818e0fa09a5318d` |
 
 Each instrument text begins `<?xml version="1.0" encoding="UTF-8"?>` and
 ends `</claude_execution_package>`. Verification: extract the text between
@@ -65,16 +66,18 @@ compare `shasum -a 256` of the result with the third column.
 
 **One byte recorded rather than smoothed over.** The Stage 9 instrument was
 received **without a trailing newline** after `</claude_execution_package>`;
-every instrument before it was received with one, and the Post-Stage 9 A10
-instrument was received the same way. The preserved files add the newline the
-fenced-block form requires, so the third column above — computed by the stated
-extraction method — is of the text **plus that one byte** for both. The digests
-of those two instruments exactly as received, with no trailing newline, are
+every instrument before it was received with one, and every instrument since has been received the same way. The preserved
+files add the newline the fenced-block form requires, so the third column above
+— computed by the stated extraction method — is of the text **plus that one
+byte** for each of them. The digests of those instruments exactly as received,
+with no trailing newline, are
 `6490ca293cfb308da92a323580aa67d64b095d8317f9620fd6b59d81dc8f3674` (Stage 9,
-42,373 bytes) and
+42,373 bytes),
 `7331e0d8018c3807f39501eb37fb253368c8568adbdebd45bd6dc5051bac1a10`
-(Post-Stage 9 A10, 29,097 bytes). Both forms are recorded for each because only
-one of them is the instrument.
+(Post-Stage 9 A10, 29,097 bytes), and
+`49e1fda6a67bc2f73beb2ccc611fe6edd8726c1f54bb41ab35b7687a96cdd2d9`
+(Draft v5 reconciliation, 24,420 bytes). Both forms are recorded for each
+because only one of them is the instrument.
 
 ## 4. Why each qualifies (against `fd-0020` §2.4)
 
@@ -88,6 +91,7 @@ one of them is the instrument.
 | Stage 5 | authorizes the first application of the diagnostic to a subject other than the parent | Stage 4 findings accepted; Draft v3 frozen at its Stage 4 digest; HGP classified an internal subordinate organizational subject; prior-familiarity limitation compulsory | not authorized: any HGP change of any kind, external application, Method Library admission, validated-through-use, standardization, software | twelve specific validation targets; the stakeholder-evidence gate; the representable-versus-demonstrated distinction | first application to a second subject |
 | Stage 6 | authorizes a reproducibility test by a second authoring context | Stage 5 accepted and closed; D-8 determined as a qualification on the whole Generation One evidence base, not a retroactive invalidation; Draft v3 frozen and Draft v4 NOT authorized | not authorized: Draft v4, any HGP change, external application, Method Library admission, standardization, software; no reproducibility score | the withheld-materials list; the no-coaching rule; the seal-before-comparison rule; eight difference classifications | first test of whether outputs depend on the method or its author |
 | Stage 7 | authorizes adjudication of the whole standing deficiency corpus | Stage 6 accepted and closed; the corpus fixed at exactly thirty records; five permitted dispositions; the analytical sequence; D-8 preserved and not weakened by replication | not authorized: Draft v4, another application, external application, adoption, Method Library, standardization, software; no scoring of any kind | the reproducibility distinction between subject diagnosis and method self-critique; the replication-design defect; the populated-output risk; the closure defect | first adjudication of the method's own defect corpus |
+| Draft v5 reconciliation | answers the versioning question Development returned rather than chose | the A10 reconciliation **is** a substantive refinement under MF v1 §6.4; Draft v4 is **not** modified in place; **Draft v5 is authorized** as a new version whose sole reason is the bounded `fd-0028` reconciliation; Draft v4 remains the historical Stage 9 consolidation containing the later-resolved ambiguity and is not rewritten to agree with `fd-0028` | not authorized: validation execution, application to Huerta Group LLC or HGP, further replication, external application, Draft v6, reopening Stage 7, Method Library, standardization, scoring, maturity models, software | the seven permitted change locations and the hard boundary around everything else; the rule that a determination confers semantic authority and no behavioural validation; prefer reuse of the prepared validation package over redesign | first version in the program produced to encode a determination rather than to consolidate work |
 | Post-Stage 9 — A10 | answers the A10 trail-first question Stage 7 returned and Stage 9 preserved | **Reading A adopted**: the four listed items are trail-source *categories*, not a conjunctive four-part completion gate; materially relevant categories must be pursued where they appear to exist and are reasonably accessible; prior familiarity is not trail evidence; missing sources create evidentiary gaps rather than voiding A10 | not authorized: validation execution, Draft v5, external application, Method Library admission, other Draft v4 edits, new instruments, scoring, hierarchy, maturity constructs | the "as available" anti-convenience rule; procedure-performed versus evidence-sufficient; A18's independent advancement authority; the stop rule for versioning governance that cannot represent a same-version reconciliation truthfully | first Founder Office answer to a methodology question the method's own replication exposed |
 | Stage 9 | authorizes the construction of Draft v4 as a bounded consolidation | Draft v4 construction AUTHORIZED; Draft v4 validation NOT authorized; Draft v1–v3 immutable; `fd-0026` takes precedence over narrower Stage 7 wording for CS-01, CS-03 and CS-14; A10's ambiguity is an open limitation and not a drafting discretion | not authorized: Draft v4 validation, application to Huerta Group LLC or HGP, third-author replication, synthetic cases, fabricated evidence, external application, Method Library admission, standardization, commercialization, software | the four-value evidence-inheritance classification; the twenty-seven-point bounded consistency review; the rule that repository checks never make a draft tested; the stop rule for genuinely new semantic questions | first consolidation version of the method, and the first version with no application behind it |
 | Stage 8 | carries the six substantive methodology determinations Stage 7 reserved | source kind is descriptive and non-ordinal; A2 governs the diagnostic's evidence classification and A1 the subject's terminology; prior involvement is disclosed at both institutional and individual layers; identity-of-record is retained and defined; a diagnosis may close as an application record but not as an unqualified completed diagnosis; MF v1 §7.5 does not travel by implication | not authorized: Draft v4 construction, another application, external application, adoption, Method Library, standardization, commercialization, software | the material-versus-incidental prior-involvement test; the conservative confidentiality default; the four closure states | first substantive Founder Office answers to reserved methodology questions |
@@ -113,8 +117,9 @@ applied, not an omission.
    Deficiency 1 for the Stage 4 instrument, `fd-0023` §4 Deficiency 1
    for the Stage 5 instrument, `fd-0024` §4 Deficiency 1 for the Stage 6
    instrument, `fd-0025` §4 Deficiency 1 for the Stage 7 instrument, `fd-0026` §4 Deficiency 1 for the Stage 8 instrument, `fd-0027` §4 Deficiency 1 for
-   the Stage 9 instrument, and `fd-0028` §4 Deficiency 1 for the Post-Stage 9
-   A10 instrument.
+   the Stage 9 instrument, `fd-0028` §4 Deficiency 1 for the Post-Stage 9
+   A10 instrument, and `fd-0029` §4 Deficiency 1 for the Draft v5
+   reconciliation instrument.
 2. **Determinations transcription is the register's, not this record's.**
    The verbatim determinations of these instruments live in `fd-0019` and
    `fd-0020`; this record makes those transcriptions auditable but does not
@@ -126,7 +131,8 @@ applied, not an omission.
   instrument; §3 interpretation; §2.4 determination), `fd-0021` (Stage 3
   Completion instrument), `fd-0022` (Stage 4 instrument), `fd-0023` (Stage 5
   instrument), `fd-0024` (Stage 6 instrument), `fd-0025` (Stage 7 instrument), `fd-0026` (Stage 8 instrument), `fd-0027`
-  (Stage 9 instrument), `fd-0028` (Post-Stage 9 A10 instrument). The Generation One
+  (Stage 9 instrument), `fd-0028` (Post-Stage 9 A10 instrument), `fd-0029` (Draft v5 reconciliation
+  instrument). The Generation One
   instrument's authorization is carried by `fd-0019` §1's acceptance of the
   Discovery it opened.
 - Standard applied: `institution/standards/repository/canonical-source-preservation.md`.

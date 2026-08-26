@@ -4935,6 +4935,39 @@
       ]
     },
     {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "fd-0029-organizational-diagnostic-draft-v5-reconciliation-and-versioning",
+      "title": "fd-0029 \u2014 Founder Office Determination: Organizational Diagnostic \u2014 A10 Draft v5 Reconciliation & Versioning",
+      "path": "institution/governance/determinations/fd-0029-organizational-diagnostic-draft-v5-reconciliation-and-versioning.md",
+      "type": "decision-record",
+      "statusNote": "Answers the versioning question Development returned rather than chose. Draft v4 is preserved unchanged as the historical Stage 9 consolidation containing the later-resolved A10 ambiguity. Draft v5 is authorized at seven locations only; validation execution, external application and Draft v6 are not.",
+      "summary": "The A10 reconciliation is a substantive refinement under MF v1 \u00a76.4, so Draft v4 is not edited in place and Draft v5 carries it \u2014 bounded to the prepared wording, with the determination conferring semantic authority and no behavioural validation.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary \u2014 the record evidences the determinations and creates no authority. It settles a repository-governance question: how an authorized methodology change is represented in the version chain. Stage 7, the dispositions and fd-0026 are expressly not reopened.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0028-organizational-diagnostic-a10-trail-first-determination"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v5-reconciliation-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "a10-determination-reconciliation-record"
+        }
+      ]
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -5359,6 +5392,34 @@
         {
           "rel": "references",
           "target": "fd-0028-organizational-diagnostic-a10-trail-first-determination"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v5-reconciliation-execution-package",
+      "title": "Generation One \u2014 A10 Draft v5 Reconciliation & Versioning: Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/draft-v5-reconciliation-execution-package.md",
+      "type": "governing-record",
+      "summary": "The Draft v5 instrument, preserved verbatim: the A10 reconciliation is substantive under MF v1 \u00a76.4, Draft v4 is not modified in place, Draft v5 is authorized at seven permitted locations, and validation execution is withheld.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0029. Digest of the preserved instrument text: 0f4034b187f21168ab59c6bf09ee9df2b4e9e0121bf3f170b00751ef8722642c; digest as received, without its absent trailing newline: 49e1fda6a67bc2f73beb2ccc611fe6edd8726c1f54bb41ab35b7687a96cdd2d9.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0029-organizational-diagnostic-draft-v5-reconciliation-and-versioning"
         },
         {
           "rel": "references",
