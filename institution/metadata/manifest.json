@@ -5810,6 +5810,72 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
+      "id": "draft-v6-participant-validation-application",
+      "title": "Draft v6 Internal Participant Validation \u2014 Application Record (Huerta Group LLC)",
+      "path": "institution/governance/methodology/draft-v6-participant-validation-application.md",
+      "type": "status-record",
+      "statusNote": "PARTIAL \u2014 stopped at the participant gate under fd-0033's anti-fabrication rule. RECORDS-ONLY. Advancement state: request additional evidence. A mandatory closure condition is unresolved, so the diagnosis may not be represented as an unqualified completed diagnosis. Preserved verbatim.",
+      "summary": "Draft v6 applied to Huerta Group LLC by a non-authoring context: ten instruments, the A15/RQ-1 record, a self-inspection for A2 drift, three method defects, three application defects, and eight questions returned unanswered.",
+      "provenance": {
+        "origin": "Draft v6 validating author (separate authoring context; preserved verbatim)",
+        "approvalReference": "Produced 2026-08-26 under fd-0033 against frozen Draft v6 d2f64ee2\u20264600a238b10 and the subject at 2f16277, read-only. Development did not edit, condense or annotate it. Its integrity claims and four checkable factual claims were verified independently; the item-matrix totals reconcile.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v6"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0033-organizational-diagnostic-draft-v6-participant-validation"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-validator-prior-involvement-statement"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-traceability"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v6-participant-questions",
+      "title": "Draft v6 Validation \u2014 Participant Questions Returned Unanswered",
+      "path": "institution/governance/methodology/draft-v6-participant-questions.md",
+      "type": "status-record",
+      "statusNote": "Eight questions returned, none answered, none put. PQ-V6-6 governs the unresolved closure condition. Seven of the eight reach provisions never exercised in any version of this method. Answering them is not authorized by this record.",
+      "summary": "The eight minimum neutral questions the application could not answer for itself, each naming its gap, its Draft v6 provision, and why the existing evidence is insufficient \u2014 preserved verbatim from their author.",
+      "provenance": {
+        "origin": "Draft v6 validating author (preserved verbatim)",
+        "approvalReference": "Returned 2026-08-26 under fd-0033 \u00a72.4, which makes participant evidence mandatory and forbids Development answering on the Founder's behalf. None was answered. The fifty-nine-section completion report is not due and was not written, per the instrument's express anti-fabrication rule.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "draft-v6-participant-validation-application"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0033-organizational-diagnostic-draft-v6-participant-validation"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
       "id": "stage-10-validator-independence-statement",
       "title": "Stage 10 \u2014 Validating Author's Independence and Prior-Involvement Statement",
       "path": "institution/governance/methodology/stage-10-validator-independence-statement.md",
