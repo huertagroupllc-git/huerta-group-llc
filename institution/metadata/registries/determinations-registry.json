@@ -1022,6 +1022,39 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0033",
+      "title": "Founder Office Authorization: Organizational Diagnostic \u2014 Draft v6 Internal Participant Validation",
+      "path": "institution/governance/determinations/fd-0033-organizational-diagnostic-draft-v6-participant-validation.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Draft v6 Internal Participant Validation execution package (Founder Office to Institutional Platform Development), authorizing one bounded internal participant-inclusive application of frozen Draft v6 against Huerta Group LLC by an authoring context that did not construct it \u2014 intended as the final substantial internal methodology-validation application unless authentic use exposes a material semantic defect, and stating in its own objective that it establishes no external applicability, client validity or evaluator independence; naming the subject's limitations as Founder-led, familiar to the diagnosing institution, single-participant in present operation, not an external client and not a fresh environment; requiring a prior-involvement statement frozen before subject inspection covering institutional and agent-level involvement, prior methodology-stage participation, prior knowledge reaching the validator through the execution environment, accessible and withheld prior results, unavoidable leakage and the resulting limits on independence, and holding that a different agent instance confers no institutional independence; requiring authentic Founder participant evidence with Development forbidden from answering on the Founder's behalf, all four response types treated as evidence, a prohibition on manufacturing stakeholders, contested authority, delegation, disagreement or organizational complexity that does not exist, and an interactive stop rule requiring the minimum neutral question set to be returned rather than answers inferred, together with an express anti-fabrication rule against producing a completed report before participant responses are obtained; naming A15 and the RQ-1 threshold the highest-priority target and requiring the validator to determine independently whether a capability's existence is Observed while treating Founder assertion, repository prose, roadmap, README, technical access and mere reference as insufficient by themselves; requiring the validation to inspect both its outputs and its own reasoning language for drift of the A15 Observed threshold into a general ranking, hierarchy, preference, weighting or credibility ordering outside A15, and to record any drift as behavioural evidence against Draft v6 without repairing the draft; requiring A6, A7, A9 and A10 exercised only where authentic conditions permit, with authority concentration recorded as an observed current condition, habit-held responsibility never inferred from single-person operation, conversation neither made authoritative nor erased, and a real Founder walkthrough of a last actual instance compared against any described process; requiring exercise-matrix totals derived mechanically from the authoritative item table rather than typed, while holding that repeated summary-count defects remain a program-level matter and must not become client-facing methodology substance; requiring method defect, application defect, validation gap and limitation kept as four distinct categories; and stating prominently that regardless of outcome the application does not narrow the external-validation gap \u2014 while withholding Draft v6 modification, Draft v7, external application, Method Library admission, validated-through-use and established-methodology designation, standardization, scoring, maturity models, software, commercialization, and any change to the subject's operational systems merely because the diagnostic discovers an issue",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 10,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0033-organizational-diagnostic-draft-v6-participant-validation.md",
+        "institution/governance/methodology/instruments/draft-v6-participant-validation-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/draft-v6-validator-prior-involvement-statement.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 4,
+      "relationships": [
+        {
+          "target": "fd-0032",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0030",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0024",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

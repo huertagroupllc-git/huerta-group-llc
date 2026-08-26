@@ -1,7 +1,7 @@
 # Founder Office Instrument Preservation Record — Organizational Systems Methodology Program
 
 **Classification: Institutional Record** — provenance record (evidentiary,
-non-governing). Records the preservation of fifteen Founder Office execution
+non-governing). Records the preservation of sixteen Founder Office execution
 instruments under the determination transcribed at `fd-0020` §2.4, through the
 existing canonical-source preservation standard
 (`institution/standards/repository/canonical-source-preservation.md`). It
@@ -61,6 +61,7 @@ standard's substance is preserved and one adaptation is recorded:
 | Generation One — Stage 10 execution package | `instruments/stage-10-execution-package.md` | 2026-08-26, Development execution context | `7740e3496243770dba03d12c713b8d62587df6d5757f3dba7eeeaa573375bbfd` | 37,560 · 1,005 | `5169275089fe537e7aeec57088d1fefe66261de1e5ece39cd1bf0054db6e0ddc` |
 | Generation One — Stage 11 execution package | `instruments/stage-11-execution-package.md` | 2026-08-26, Development execution context | `114baf46de57770e1f84430e26258638b2058e3227100bd87a441f96cf3f2736` | 29,979 · 857 | `64190552c63072fa773bc64e2b222381575eb8ed4aa31b75afc0c569fbfc11e7` |
 | Generation One — Draft v6 construction execution package | `instruments/draft-v6-construction-execution-package.md` | 2026-08-26, Development execution context | `3aeac139f9786fe9e4c04541022a00cd9b6d677c18864b6a675b187e560b4724` | 25,787 · 733 | `22847465434283c13ddafa704ccb1ef4baf5daf8494a7b8dccfa2a41b4918777` |
+| Generation One — Draft v6 participant-validation execution package | `instruments/draft-v6-participant-validation-execution-package.md` | 2026-08-26, Development execution context | `793c6e1b187d362152e974baf4db1692c9615e48bacf11183920228b37de6eb6` | 36,119 · 972 | `e328854cb58cb15add2c7b4ccf5838cd3276a63f205aae6a3cfc7251bbbb65e8` |
 
 Each instrument text begins `<?xml version="1.0" encoding="UTF-8"?>` and
 ends `</claude_execution_package>`. Verification: extract the text between
@@ -81,10 +82,11 @@ with no trailing newline, are
 `49e1fda6a67bc2f73beb2ccc611fe6edd8726c1f54bb41ab35b7687a96cdd2d9`
 (Draft v5 reconciliation, 24,420 bytes), `63f0c22b98e96d0935e5985f2b6874528fd2182ae9add21bb9a5de63c3c5ee92`
 (Stage 10, 37,559 bytes), `8a21b1d2d4fecd75937eb41b1f0546032bbfef45b8833a59e4a079ec7af3247c`
-(Stage 11, 29,978 bytes), and
-`b69d04f7cd90e738865ac7adfb5cc819450e95dddddc67826d822e016a48977d`
-(Draft v6 construction, 25,786 bytes). Both forms are recorded for each because
-only one of them is the instrument.
+(Stage 11, 29,978 bytes), `b69d04f7cd90e738865ac7adfb5cc819450e95dddddc67826d822e016a48977d`
+(Draft v6 construction, 25,786 bytes), and
+`fde67246c2b9a3345a8a3627f3a05c2a7f4c55b6754b866894e936bcc9ab1e1a`
+(Draft v6 participant validation, 36,118 bytes). Both forms are recorded for
+each because only one of them is the instrument.
 
 ## 4. Why each qualifies (against `fd-0020` §2.4)
 
@@ -98,6 +100,7 @@ only one of them is the instrument.
 | Stage 5 | authorizes the first application of the diagnostic to a subject other than the parent | Stage 4 findings accepted; Draft v3 frozen at its Stage 4 digest; HGP classified an internal subordinate organizational subject; prior-familiarity limitation compulsory | not authorized: any HGP change of any kind, external application, Method Library admission, validated-through-use, standardization, software | twelve specific validation targets; the stakeholder-evidence gate; the representable-versus-demonstrated distinction | first application to a second subject |
 | Stage 6 | authorizes a reproducibility test by a second authoring context | Stage 5 accepted and closed; D-8 determined as a qualification on the whole Generation One evidence base, not a retroactive invalidation; Draft v3 frozen and Draft v4 NOT authorized | not authorized: Draft v4, any HGP change, external application, Method Library admission, standardization, software; no reproducibility score | the withheld-materials list; the no-coaching rule; the seal-before-comparison rule; eight difference classifications | first test of whether outputs depend on the method or its author |
 | Stage 7 | authorizes adjudication of the whole standing deficiency corpus | Stage 6 accepted and closed; the corpus fixed at exactly thirty records; five permitted dispositions; the analytical sequence; D-8 preserved and not weakened by replication | not authorized: Draft v4, another application, external application, adoption, Method Library, standardization, software; no scoring of any kind | the reproducibility distinction between subject diagnosis and method self-critique; the replication-design defect; the populated-output risk; the closure defect | first adjudication of the method's own defect corpus |
+| Draft v6 participant validation | authorizes the first application in this program to require authentic participant evidence | Huerta Group LLC named as the subject with its limitations stated in the instrument itself — Founder-led, familiar, single-participant, not a client, not fresh; A15/RQ-1 named the highest-priority target; the four-state exercise vocabulary carried forward | not authorized: Draft v6 modification, Draft v7, external application, Method Library, standardization, scoring, maturity models, commercialization, or any change to Huerta Group LLC's operational systems "merely because the diagnostic discovers an issue" | the requirement that the validation **test the method's own new threshold for drift into A2**; the anti-fabrication rule — return the minimum neutral question set rather than a completed report; mechanical count reconciliation; the four-way separation of method defect, application defect, validation gap and limitation | first instrument to require a participant walkthrough, and the first to ask a validation to look for damage the previous determination may have done |
 | Draft v6 construction | answers RQ-1 and authorizes the correction version | **RQ-1 Alternative B adopted**: A15's terminating preceding question may be answered affirmatively only where the capability's existence is **Observed** under existing A2 semantics — *already exists* means established, not described, claimed, planned, referenced, believed, or reachable; **access is expressly not existence**; Client-Stated assertions remain valid evidence and the ordinary test proceeds | not authorized: Draft v6 validation, application to HGP or Huerta Group LLC, external application, Draft v7, resolving RQ-2, answering participant questions, Method Library, standardization, software, scoring, maturity models | the bounded-exception rule — the threshold exists **only** because this question can terminate inquiry, and creates no hierarchy, ranking, weighting or general preference for Observed evidence; the rule that failing the shortcut implies neither absence nor a build; the instruction not to redefine Observed | first instrument to answer a reserved methodology question **and** authorize its implementation in the same act |
 | Stage 11 | adjudicates the findings the first application produced | every finding and every proposal dispositioned individually and separately in the existing five-value vocabulary; four exercise-classification definitions fixed; A2's non-ordering architecture preserved absolutely; the Part B non-compliance treated as substantive validation evidence | not authorized: Draft v5 modification, Draft v6, applying any correction, another application, external application, answering a participant question, resolving PQ-6 by inference, Method Library, standardization, scoring, maturity models | "finding accepted is not proposed correction accepted"; "**method defect is not absence of validation evidence**"; the rule that the applier's workaround is not automatically the correction; the bar on disguising a validation gap as a drafting problem | first adjudication of findings produced by an applier other than their adjudicator |
 | Stage 10 | authorizes the first application of any version of this method since Draft v3 | one bounded internal validation of frozen Draft v5 against HGP, read-only, by an authoring context that did not draft it; the seventeen items classified only as exercised, partially exercised, not exercised because the authentic condition did not occur, or not exercisable internally | not authorized: Draft v5 modification, Draft v6, external application, validated-through-use, established-methodology, Method Library, standardization, software, scoring, maturity models, commercialization, HGP changes | the anti-manufacture rule; the prohibition on answering participant questions on the subject's behalf; the meta-rule that the validation must obey the confidentiality rule it is testing; the instrument's own statement of what it cannot test | first validation application of a post-Draft-v3 version, and the first to require participant evidence for A10 |
@@ -130,8 +133,9 @@ applied, not an omission.
    the Stage 9 instrument, `fd-0028` §4 Deficiency 1 for the Post-Stage 9
    A10 instrument, `fd-0029` §4 Deficiency 1 for the Draft v5
    reconciliation instrument, `fd-0030` §4 Deficiency 1 for the Stage 10
-   instrument, `fd-0031` §4 Deficiency 1 for the Stage 11 instrument, and `fd-0032` §4
-   Deficiency 1 for the Draft v6 construction instrument.
+   instrument, `fd-0031` §4 Deficiency 1 for the Stage 11 instrument, `fd-0032` §4 Deficiency 1 for the Draft v6 construction instrument, and
+   `fd-0033` §4 Deficiency 1 for the Draft v6 participant-validation
+   instrument.
 2. **Determinations transcription is the register's, not this record's.**
    The verbatim determinations of these instruments live in `fd-0019` and
    `fd-0020`; this record makes those transcriptions auditable but does not
@@ -144,8 +148,8 @@ applied, not an omission.
   Completion instrument), `fd-0022` (Stage 4 instrument), `fd-0023` (Stage 5
   instrument), `fd-0024` (Stage 6 instrument), `fd-0025` (Stage 7 instrument), `fd-0026` (Stage 8 instrument), `fd-0027`
   (Stage 9 instrument), `fd-0028` (Post-Stage 9 A10 instrument), `fd-0029` (Draft v5 reconciliation
-  instrument), `fd-0030` (Stage 10 instrument), `fd-0031` (Stage 11 instrument), `fd-0032` (Draft v6 construction instrument).
-  The Generation One
+  instrument), `fd-0030` (Stage 10 instrument), `fd-0031` (Stage 11 instrument), `fd-0032` (Draft v6 construction instrument), `fd-0033` (Draft v6
+  participant-validation instrument). The Generation One
   instrument's authorization is carried by `fd-0019` §1's acceptance of the
   Discovery it opened.
 - Standard applied: `institution/standards/repository/canonical-source-preservation.md`.
