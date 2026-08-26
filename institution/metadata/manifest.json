@@ -5492,6 +5492,76 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "hgp-internal-application-stage-5",
+      "title": "Organizational Diagnostic \u2014 Generation One: Internal Application to Huerta Group Publishing (Stage 5)",
+      "path": "institution/governance/methodology/hgp-internal-application-stage-5.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Methodology validation evidence. Findings about Huerta Group Publishing are diagnostic output, NOT determinations about the venture and NOT implementation authority (fd-0023 \u00a72.7). No HGP record, governance, software, schema or database state was changed or read; no author-confidential material was sought or reproduced.",
+      "summary": "Frozen Draft v3 applied once to Huerta Group Publishing as an internal subordinate subject: 35 evidence rows obtained fresh, the subject's own vocabulary used throughout, two legitimate records of truth kept apart, and advancement refused as a records-only diagnosis.",
+      "provenance": {
+        "origin": "Institutional Platform Development (validation evidence)",
+        "approvalReference": "Applied 2026-08-25 under fd-0023 against HGP at e28f12a, using Draft v3 verified at its Stage 4 digest before and after. Venture records cited as evidence under FD-V1 \u00a717; nothing admitted to the parent corpus. Not blind, independent, external, or unfamiliar-subject validation \u2014 the prior-familiarity limitation is recorded at \u00a71.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "fd-v1-huerta-group-publishing-venture-determination-and-charter"
+        },
+        {
+          "rel": "references",
+          "target": "one-sided-evidence-reporting-disposition"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0023-organizational-systems-methodology-stage-5-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-5-method-deficiencies-and-proposed-corrections",
+      "title": "Organizational Diagnostic \u2014 Generation One: Method Deficiencies Exposed by the HGP Application, and Proposed Corrections (Stage 5)",
+      "path": "institution/governance/methodology/stage-5-method-deficiencies-and-proposed-corrections.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "PROPOSALS ONLY \u2014 none applied. Frozen Draft v3 is unchanged at digest 04fd02c7\u2026d379f89f, verified before and after the application. Disposition of each proposal individually is reserved to the Founder Office and the Methodology room.",
+      "summary": "Eight deficiencies the HGP application exposed in frozen Draft v3, preserved separately as proposals only \u2014 including two that make the method's conclusions weaker, among them the missing disclosure for a team that built its own subject.",
+      "provenance": {
+        "origin": "Institutional Platform Development (proposals)",
+        "approvalReference": "Recorded 2026-08-25 under fd-0023 \u00a72.8 as proposals only, preserved separately from the frozen method. No correction was folded into Draft v3 while the test was running, and none was written to make the application appear successful.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "hgp-internal-application-stage-5"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0023-organizational-systems-methodology-stage-5-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "organizational-diagnostic-post-test-correction-proposals",
       "title": "Organizational Diagnostic \u2014 Generation One: Post-Test Correction Proposals (after the first stakeholder application)",
       "path": "institution/governance/methodology/organizational-diagnostic-post-test-correction-proposals.md",
