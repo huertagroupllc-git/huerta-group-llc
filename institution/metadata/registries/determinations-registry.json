@@ -711,6 +711,39 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0024",
+      "title": "Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 5 Accepted and Closed, Stage 6 Second-Author Replication Authorized, D-8 Determined",
+      "path": "institution/governance/determinations/fd-0024-organizational-systems-methodology-stage-6-authorization.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 6: Independent Second-Author Replication execution package (Founder Office \u2192 Institutional Platform Development), accepting and closing Stage 5 while upholding the distinction between a complete methodology validation and an intentionally incomplete subject diagnosis, determining that every prior Generation One application provides internal testing evidence but not evaluator independence and that this qualifies rather than invalidates the evidence base, forbidding any rewriting of prior reports and any amendment of Draft v3 on that ground, adding the standing rule that a second author's independence statement is frozen before it receives substantive subject evidence, authorizing a reproducibility test by a separate authoring context isolated from thirteen classes of prior-application material under a no-coaching rule, requiring the second result to be sealed before any comparison, fixing seventeen comparison dimensions and eight difference classifications while prohibiting any reproducibility score, and capping what replication can establish at stronger internal reproducibility evidence \u2014 Draft v4, external application, Method Library admission, standardization and software construction not authorized",
+      "dateReceived": "2026-08-25",
+      "recordedDate": "2026-08-25",
+      "determinationCount": 10,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0024-organizational-systems-methodology-stage-6-authorization.md",
+        "institution/governance/methodology/instruments/stage-6-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/d8-evidence-base-qualification.md",
+        "institution/governance/methodology/stage-6-second-author-independence-statement.md",
+        "institution/governance/methodology/stage-6-second-author-sealed-result.md",
+        "institution/governance/methodology/stage-6-replication-comparison.md",
+        "institution/governance/methodology/generation-one-stage-6-replication-and-validation-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0023",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0022",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

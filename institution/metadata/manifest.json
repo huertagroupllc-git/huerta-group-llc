@@ -4774,6 +4774,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "fd-0024-organizational-systems-methodology-stage-6-authorization",
+      "title": "fd-0024 \u2014 Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 5 Accepted and Closed, Stage 6 Second-Author Replication Authorized, D-8 Determined",
+      "path": "institution/governance/determinations/fd-0024-organizational-systems-methodology-stage-6-authorization.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Accepts and closes Stage 5, upholding the distinction between a complete validation and an intentionally incomplete diagnosis; determines D-8 as a qualification on the whole evidence base rather than an invalidation; and authorizes a second-author replication with no Draft v4.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-25. Evidentiary \u2014 the record evidences the determinations and creates no authority. D-8 qualifies the Generation One evidence base and invalidates none of it; no prior report is rewritten; Draft v4, external application, Method Library admission, standardization and software remain not authorized.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0023-organizational-systems-methodology-stage-5-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "stage-6-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "d8-evidence-base-qualification"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -5055,6 +5087,34 @@
         {
           "rel": "references",
           "target": "fd-0023-organizational-systems-methodology-stage-5-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-6-execution-package",
+      "title": "Generation One \u2014 Stage 6: Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/stage-6-execution-package.md",
+      "type": "governing-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The Stage 6 instrument, preserved verbatim: the two gates, the D-8 determination, the withheld-materials list, the no-coaching rule, the seal-before-comparison discipline, eight difference classifications, and the prohibition on any reproducibility score.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-25 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0024. Digest of the instrument text: d3881ef59dd30dd9e50ecb1f0b0168e0db0d6407cd95a00d8fae35fb20f09740.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0024-organizational-systems-methodology-stage-6-authorization"
         },
         {
           "rel": "references",
@@ -5584,6 +5644,39 @@
         {
           "rel": "references",
           "target": "generation-one-stage-5-hgp-application-and-validation-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "d8-evidence-base-qualification",
+      "title": "Organizational Diagnostic \u2014 Generation One: D-8 Evidence-Base Qualification",
+      "path": "institution/governance/methodology/d8-evidence-base-qualification.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "A later qualification on Stages 2\u20136, recorded once. No prior report is rewritten, annotated, withdrawn or restated; no prior finding is invalidated; Draft v3 is not amended and no Draft v4 exists. The prior-involvement disclosure remains an undisposed Stage 5 proposal (D-8).",
+      "summary": "Applies the Founder Office determination that every Generation One application provides internal testing evidence but not evaluator independence \u2014 stage by stage, without rewriting a single prior report, and without amending the method.",
+      "provenance": {
+        "origin": "Institutional Platform Development (qualification record)",
+        "approvalReference": "Recorded 2026-08-25 under fd-0024 \u00a72.4. D-8 was found by the diagnostic team against itself at Stage 5 and determined by the Founder Office at fd-0024; it narrows what the evidence supports and deletes none of it.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-5-method-deficiencies-and-proposed-corrections"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0024-organizational-systems-methodology-stage-6-authorization"
         }
       ],
       "versioning": "git-history",
