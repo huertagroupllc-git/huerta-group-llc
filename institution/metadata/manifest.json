@@ -5646,6 +5646,47 @@
       ]
     },
     {
+      "id": "stage-10-draft-v5-internal-validation-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Draft v5 Internal Validation & Stage 10 Report",
+      "path": "institution/governance/methodology/stage-10-draft-v5-internal-validation-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "STAGE 10 COMPLETE AS AN EXECUTION. Draft v5 status: PROVISIONAL DRAFT \u2014 INTERNALLY APPLIED ONCE, NOT VALIDATED AS A VERSION. Draft v5 and HGP verified unchanged. External-validation gap total and unchanged. No Draft v6, no dispositions, no further application authorized.",
+      "summary": "Development's Stage 10 return (46 sections): what the application established, what it cannot, the one requirement its applier could not meet, and a recommendation for correction disposition rather than more validation.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned 2026-08-26 under fd-0030. Evidentiary and non-governing. States the exact claim the evidence supports and, separately, what remains unsupported \u2014 including that the method's people-facing procedures remain unexercised after five applications across four versions.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-10-draft-v5-validation-application"
+        },
+        {
+          "rel": "references",
+          "target": "stage-10-method-findings-and-proposed-corrections"
+        },
+        {
+          "rel": "references",
+          "target": "stage-10-participant-questions"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v5-reconciliation-and-versioning-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "organizational-diagnostic-draft-v2-correction-dispositions",
       "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v2",
       "path": "institution/governance/methodology/organizational-diagnostic-draft-v2-correction-dispositions.md",
