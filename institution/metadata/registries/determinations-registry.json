@@ -570,6 +570,49 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0020",
+      "title": "Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 2 Accepted, Stage 3 Authorized, HGP Evidence Admitted, Founder Office Instrument Preservation",
+      "path": "institution/governance/determinations/fd-0020-organizational-systems-methodology-stage-3-authorization.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 3: Organizational Diagnostic Draft v2 + First Stakeholder-Evidence Application execution package (Founder Office \u2192 Institutional Platform Development), accepting Stage 2 as complete, ordering Draft v1 preserved as the frozen tested baseline, admitting the HGP-derived lessons actually relied upon as provisional evidentiary methodology support through the FD-V1 \u00a714 boundary, determining that institutionally significant Founder Office instruments are preserved through existing canonical-source mechanisms, retaining the Deliverable A / A.1 deficiency, bounding the incidental HGP August 2026 audit, authorizing the Stage 2 Evolution Log entry, authorizing Draft v2 with individual disposition of the seventeen Stage 2 corrections and twelve priority tests, and authorizing the first structured stakeholder-evidence application with Founder Office as the accountable-authority stakeholder \u2014 external application, Method Library admission and software construction not authorized",
+      "dateReceived": "2026-08-25",
+      "recordedDate": "2026-08-25",
+      "determinationCount": 13,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0020-organizational-systems-methodology-stage-3-authorization.md",
+        "institution/governance/methodology/hgp-evidence-admission-record.md",
+        "institution/governance/methodology/instruments/generation-one-discovery-execution-package.md",
+        "institution/governance/methodology/instruments/stage-2-execution-package.md",
+        "institution/governance/methodology/instruments/stage-3-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/evolution/records/evo-0006-organizational-systems-methodology-stage-2-completion.md",
+        "institution/evolution/INDEX.md",
+        "institution/metadata/registries/evolution-registry.json",
+        "institution/governance/methodology/organizational-diagnostic-draft-v2-correction-dispositions.md",
+        "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v2.md",
+        "institution/governance/methodology/stakeholder-evidence-procedure.md",
+        "institution/governance/methodology/records-derived-evidence-set.md",
+        "institution/governance/methodology/generation-one-stage-3-draft-v2-and-stakeholder-evidence-validation-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 2,
+      "relationships": [
+        {
+          "target": "fd-0019",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0007",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0004",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

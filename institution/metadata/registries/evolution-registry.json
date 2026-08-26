@@ -157,6 +157,38 @@
         "institution/standards/repository/documentation-index.md"
       ],
       "refinementReferences": []
+    },
+    {
+      "id": "evo-0006",
+      "title": "Organizational Systems Methodology: Generation One Discovery Closed and a Provisional Organizational Diagnostic Frozen and Self-Applied",
+      "path": "institution/evolution/records/evo-0006-organizational-systems-methodology-stage-2-completion.md",
+      "date": "2026-08-25",
+      "institutionalDomain": "methodology",
+      "evolutionType": "capability_change",
+      "retrospective": false,
+      "authorityInvolved": [
+        "Founder Office (discovery closure, Discovery Report admission, Stage 2 authorization and acceptance; fd-0019, fd-0020)",
+        "Institutional Platform Development (retrieval, preservation, drafting, self-application, reporting)",
+        "Huerta Group Publishing (venture custody of evidence read under program authorization)"
+      ],
+      "decisionReferences": [
+        "fd-0019",
+        "fd-0020",
+        "fd-0004",
+        "fd-0007"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/governance/determinations/fd-0019-organizational-systems-methodology-stage-2-authorization.md",
+        "institution/governance/determinations/fd-0020-organizational-systems-methodology-stage-3-authorization.md",
+        "institution/governance/methodology/generation-one-discovery-report.md",
+        "institution/governance/methodology/organizational-diagnostic-generation-one-draft.md",
+        "institution/governance/methodology/organizational-diagnostic-self-application-dry-run.md",
+        "institution/governance/methodology/organizational-diagnostic-correction-package.md",
+        "institution/governance/methodology/hgp-evidence-admission-package.md",
+        "institution/governance/methodology/historical-instrument-retrieval-record.md",
+        "institution/governance/methodology/generation-one-stage-2-draft-and-self-application-validation-report.md"
+      ],
+      "refinementReferences": []
     }
   ]
 }

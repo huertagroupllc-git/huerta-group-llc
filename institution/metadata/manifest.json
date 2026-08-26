@@ -4628,6 +4628,250 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0020-organizational-systems-methodology-stage-3-authorization",
+      "title": "fd-0020 \u2014 Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 2 Accepted, Stage 3 Authorized, HGP Evidence Admitted, Founder Office Instrument Preservation",
+      "path": "institution/governance/determinations/fd-0020-organizational-systems-methodology-stage-3-authorization.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Accepts Stage 2; authorizes Stage 3 \u2014 Draft v2 with individual correction dispositions and the first stakeholder-evidence application; admits HGP lessons as provisional evidentiary support; determines Founder Office instrument preservation; retains the A/A.1 deficiency.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-25. Evidentiary \u2014 the record evidences the determinations and creates no authority; Draft v1 immutable; external application, Method Library admission and software construction not authorized.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "stage-3-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "hgp-evidence-admission-record"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft"
+        },
+        {
+          "rel": "references",
+          "target": "mr-0004-organizational-improvement-work-progression-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "hgp-evidence-admission-record",
+      "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
+      "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Evidence admission only (fd-0020 \u00a72.3 through FD-V1 \u00a714): not doctrine adoption, not external validity, not Method Library admission. Lessons 3 and 5 carry no cross-case support (HGP-only). Tested backup-restore is not attributed to HGP.",
+      "summary": "Records the Founder Office admission of the six HGP-derived lessons the diagnostic relies on as provisional evidentiary methodology support, preserving each lesson's source, authority, evidence basis, precise wording, limitations and case-specific portion.",
+      "provenance": {
+        "origin": "Institutional Platform Development (admission record)",
+        "approvalReference": "Admitted by Founder Office determination fd-0020 \u00a72.3 (2026-08-25) through the FD-V1 \u00a714 venture-to-parent boundary; evidentiary and non-governing.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "hgp-evidence-admission-package"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0007-corporate-venture-governance-fd-v1-admission"
+        },
+        {
+          "rel": "references",
+          "target": "fd-v1-huerta-group-publishing-venture-determination-and-charter"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evo-0006-organizational-systems-methodology-stage-2-completion",
+      "title": "evo-0006 \u2014 Organizational Systems Methodology: Generation One Discovery Closed and a Provisional Organizational Diagnostic Frozen and Self-Applied",
+      "path": "institution/evolution/records/evo-0006-organizational-systems-methodology-stage-2-completion.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The institution moved from evidence discovery about its own organizational-systems practice to a frozen provisional Organizational Diagnostic, self-applied and corrected through recorded validation evidence. Not established, not externally validated; the corrections are proposals.",
+      "provenance": {
+        "origin": "Institutional Platform Development (evolution record)",
+        "approvalReference": "Evolution record under the Evolution Log standard: evidences the evolution, creates none. Authorized by fd-0020 \u00a72.7; the log records evolution and never authorizes it.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "founder-office-instrument-preservation-record",
+      "title": "Founder Office Instrument Preservation Record \u2014 Organizational Systems Methodology Program",
+      "path": "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Provenance and SHA-256 digests for the three Founder Office execution instruments preserved verbatim under fd-0020 \u00a72.4 through the canonical-source standard; how the standard was applied to text received in the execution context; what was not preserved; deficiencies.",
+      "provenance": {
+        "origin": "Institutional Platform Development (provenance record)",
+        "approvalReference": "Preservation determined by fd-0020 \u00a72.4 (2026-08-25); Development's interpretation recorded at fd-0020 \u00a73 and reviewable by the Founder Office. Evidentiary and non-governing.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "canonical-source-preservation"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-discovery-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "stage-2-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "stage-3-execution-package"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-discovery-execution-package",
+      "title": "Generation One \u2014 Discovery: Founder Office Execution Package (preserved verbatim)",
+      "path": "institution/governance/methodology/instruments/generation-one-discovery-execution-package.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Preserved Founder Office instrument \u2014 the fenced XML is the verbatim source; the header outside it never alters it. Evidentiary; its authorization is carried by fd-0019 \u00a71. Founder Office copy not compared (fd-0020 \u00a74 Deficiency 1).",
+      "summary": "The Founder Office instrument that opened the program: read-only evidence retrieval and methodology discovery, non-assumptions, evidence domains, the provisional sequence to test, prohibited work, the 16-section report and stop condition. Preserved under fd-0020 \u00a72.4.",
+      "provenance": {
+        "origin": "Founder Office (execution package, received 2026-08-25)",
+        "approvalReference": "Preserved verbatim under fd-0020 \u00a72.4 through the canonical-source standard; SHA-256 of the instrument text ca4b4655\u2026 recorded in founder-office-instrument-preservation-record.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-discovery-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-2-execution-package",
+      "title": "Generation One \u2014 Stage 2: Founder Office Execution Package (preserved verbatim)",
+      "path": "institution/governance/methodology/instruments/stage-2-execution-package.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Preserved Founder Office instrument \u2014 the fenced XML is the verbatim source; the header outside it never alters it. Evidentiary; determinations transcribed at fd-0019. Founder Office copy not compared (fd-0020 \u00a74 Deficiency 1).",
+      "summary": "The Founder Office instrument that closed Discovery and authorized Stage 2: bounded retrieval, report admission, Curbside Spa, the HGP package, the memory principle, the diagnostic structure and ten instruments, the frozen-draft dry run, the 65-section return.",
+      "provenance": {
+        "origin": "Founder Office (execution package, received 2026-08-25)",
+        "approvalReference": "Preserved verbatim under fd-0020 \u00a72.4 through the canonical-source standard; SHA-256 of the instrument text a36daf95\u2026 recorded in founder-office-instrument-preservation-record.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-3-execution-package",
+      "title": "Generation One \u2014 Stage 3: Founder Office Execution Package (preserved verbatim)",
+      "path": "institution/governance/methodology/instruments/stage-3-execution-package.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Preserved Founder Office instrument \u2014 the fenced XML is the verbatim source; the header outside it never alters it. Evidentiary; determinations transcribed at fd-0020. Founder Office copy not compared (fd-0020 \u00a74 Deficiency 1).",
+      "summary": "The Founder Office instrument that accepted Stage 2 and authorized Stage 3: Draft v1 preservation, HGP admission, instrument preservation, the Evolution Log entry, seventeen dispositions and twelve priorities, Draft v2, the stakeholder application and its interaction boundary.",
+      "provenance": {
+        "origin": "Founder Office (execution package, received 2026-08-25)",
+        "approvalReference": "Preserved verbatim under fd-0020 \u00a72.4 through the canonical-source standard; SHA-256 of the instrument text 012a2869\u2026 recorded in founder-office-instrument-preservation-record.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
