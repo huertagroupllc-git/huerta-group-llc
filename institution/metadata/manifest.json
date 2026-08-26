@@ -5001,6 +5001,39 @@
       ]
     },
     {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition",
+      "title": "fd-0031 \u2014 Founder Office Authorization: Organizational Diagnostic \u2014 Stage 11 Draft v5 Validation Finding & Correction Disposition",
+      "path": "institution/governance/determinations/fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition.md",
+      "type": "decision-record",
+      "statusNote": "A disposition stage only. Draft v5 modification, Draft v6, applying any correction, further application, and answering any participant question are not authorized. Draft v5 status unchanged: provisional draft, internally applied once, not validated as a version.",
+      "summary": "Authorizes individual disposition of every Stage 10 finding and, separately, every proposed correction \u2014 with A2's non-ordering architecture preserved absolutely and an unexercised provision expressly not a defect.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary \u2014 the record evidences the determinations and creates no authority. Three deficiencies recorded, including that the corpus this stage adjudicates contains a counting defect Development introduced at Stage 10.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation"
+        },
+        {
+          "rel": "references",
+          "target": "stage-11-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0025-organizational-systems-methodology-stage-7-authorization"
+        }
+      ]
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -5481,6 +5514,34 @@
         {
           "rel": "references",
           "target": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-11-execution-package",
+      "title": "Generation One \u2014 Stage 11: Draft v5 Validation Finding & Correction Disposition \u2014 Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/stage-11-execution-package.md",
+      "type": "governing-record",
+      "summary": "The Stage 11 instrument, preserved verbatim: a disposition stage only, with four exercise-classification definitions fixed, A2's non-ordering architecture preserved absolutely, and method defect held apart from absence of validation evidence.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0031. Digest of the preserved instrument text: 114baf46de57770e1f84430e26258638b2058e3227100bd87a441f96cf3f2736; digest as received, without its absent trailing newline: 8a21b1d2d4fecd75937eb41b1f0546032bbfef45b8833a59e4a079ec7af3247c.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition"
         },
         {
           "rel": "references",

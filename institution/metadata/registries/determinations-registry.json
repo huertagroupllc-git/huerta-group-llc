@@ -950,6 +950,42 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0031",
+      "title": "Founder Office Authorization: Organizational Diagnostic \u2014 Stage 11 Draft v5 Validation Finding & Correction Disposition",
+      "path": "institution/governance/determinations/fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 11: Draft v5 Validation Finding & Correction Disposition execution package (Founder Office to Institutional Platform Development), authorizing a disposition stage only \u2014 retrieval of the authoritative Stage 10 corpus from the repository rather than from summaries, a corpus-integrity gate requiring any disagreement between authoritative records to be returned rather than resolved by preference, reconciliation of the seventeen-item exercise matrix under four fixed classification definitions with the original preserved and every change recorded additively, individual disposition of every Stage 10 finding and separate disposition of every proposed correction using only the repository's existing five-value disposition vocabulary, and assembly of a consolidated but unapplied future correction set; preserving A2's non-ordering architecture absolutely with prohibitions on evidence strength, reliability, credibility and quality ranking, numerical weighting, preferential evidence classes, ordering among evidence kinds and implicit hierarchy through terminology, and a stop rule returning the conflict to Founder Office if the recurrence deficiency cannot be addressed without altering that architecture; treating the Stage 10 Part B non-compliance as substantive validation evidence subject to six required questions and a governing principle of conspicuous and attributable evidence limitations rather than merely fewer lines, while forbidding any assumption that the applier's workaround is automatically the correct correction; holding that a finding accepted is not a proposed correction accepted and that where a proposal is broader than the evidence supports the finding is preserved and the proposal narrowed; holding that method defect is not absence of validation evidence and forbidding any cure of the participant-facing validation gap through methodology text changes; requiring the eight unanswered participant questions and the unresolved PQ-6 closure condition preserved exactly and neither answered nor inferred nor collapsed into methodology findings; requiring semantic and revalidation classification for each accepted correction with anything altering methodology semantics beyond existing determinations flagged for Founder Office determination before drafting; and holding that disposition does not itself validate Draft v5, with maturity not to be elevated merely because findings have been adjudicated \u2014 while withholding Draft v5 modification, Draft v6, applied corrections, further application, external application, Method Library admission, standardization, scoring, maturity models and commercialization",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 12,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition.md",
+        "institution/governance/methodology/instruments/stage-11-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/stage-11-exercise-matrix-reconciliation.md",
+        "institution/governance/methodology/stage-11-finding-and-correction-dispositions.md",
+        "institution/governance/methodology/stage-11-draft-v6-change-set.md",
+        "institution/governance/methodology/stage-11-disposition-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0030",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0025",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0026",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
