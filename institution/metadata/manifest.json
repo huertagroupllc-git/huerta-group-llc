@@ -5953,6 +5953,43 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "draft-v6-construction-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Draft v6 Construction & Reconciliation Completion Report",
+      "path": "institution/governance/methodology/draft-v6-construction-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Construction complete. Draft v6 is PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION, applications 0, and does not inherit Draft v5's validation. All sixteen consistency checks confirm. No validation, no application, no Draft v7. The participant-facing gap is not closed.",
+      "summary": "Development's return (33 sections): seven corrections and the RQ-1 determination implemented and traced, A2 verified byte-identical, and a validation recommendation naming participant access as a condition rather than a preference.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned 2026-08-26 under fd-0032. Evidentiary and non-governing. Records that only one change alters methodology semantics, that the construction review is not validation, and that the determination's principal risk \u2014 drift of the Observed threshold beyond A15 \u2014 is behavioural and cannot be reached by any review of the text.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v6"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-traceability"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0032-organizational-diagnostic-draft-v6-construction-and-rq1-determination"
+        },
+        {
+          "rel": "references",
+          "target": "stage-11-disposition-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "organizational-diagnostic-draft-v2-correction-dispositions",
       "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v2",
       "path": "institution/governance/methodology/organizational-diagnostic-draft-v2-correction-dispositions.md",
