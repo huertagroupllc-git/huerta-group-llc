@@ -5028,6 +5028,63 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-stage-3-draft-v2-and-stakeholder-evidence-validation-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Draft v2 & Stakeholder-Evidence Validation Report",
+      "path": "institution/governance/methodology/generation-one-stage-3-draft-v2-and-stakeholder-evidence-validation-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Stage 3 NOT COMPLETE: all pre-stakeholder work done and gated; the first structured stakeholder-evidence application stops at the interaction boundary with the dependency stated (fd-0020 \u00a72.11, \u00a72.13). Maximum claim: provisional draft with self-application; stakeholder validation prepared, not performed.",
+      "summary": "Stage 3 return: Draft v1 immutable, seventeen dispositions, Draft v2 frozen at 9659fbb, HGP admission completed, three instruments preserved, A/A.1 retained, evo-0006 recorded, stakeholder procedure and sealed records set prepared; no stakeholder evidence obtained \u2014 the dependency is returned.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned for Founder Office review under fd-0020 (2026-08-25). Evidentiary and non-governing; Draft v2 remains a provisional draft for validation; no external validity; Stage 3 stakeholder validation not represented as complete.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v2"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-draft-v2-correction-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "hgp-evidence-admission-record"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        },
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-procedure"
+        },
+        {
+          "rel": "references",
+          "target": "records-derived-evidence-set"
+        },
+        {
+          "rel": "references",
+          "target": "evo-0006-organizational-systems-methodology-stage-2-completion"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
