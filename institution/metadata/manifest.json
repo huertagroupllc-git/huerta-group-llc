@@ -5034,6 +5034,109 @@
       ]
     },
     {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-11-exercise-matrix-reconciliation",
+      "title": "Stage 11 \u2014 Exercise-Matrix Reconciliation, and a Stage 10 Corpus Discrepancy",
+      "path": "institution/governance/methodology/stage-11-exercise-matrix-reconciliation.md",
+      "type": "status-record",
+      "statusNote": "Additive. The Stage 10 matrix is preserved unaltered. Two items reclassified downward (CS-07, CS-14); CS-17's membership corrected. Records a Stage 10 corpus discrepancy half of which is Development's own, and assesses it non-blocking as a stated judgement.",
+      "summary": "The seventeen-item matrix reconciled under the four Founder Office definitions \u2014 12 exercised, 5 partially, none not-exercisable \u2014 and the count defect in Stage 10's tallies, recorded rather than quietly fixed.",
+      "provenance": {
+        "origin": "Institutional Platform Development (reconciliation record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0031 \u00a72.3. No condition was manufactured; no classification moved upward; the Stage 10 records stand as written under the fd-0026 \u00a72.7 precedent. Records the second count defect in this program as a pattern rather than an accident.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-10-draft-v5-validation-application"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition"
+        },
+        {
+          "rel": "references",
+          "target": "stage-10-draft-v5-internal-validation-report"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-11-finding-and-correction-dispositions",
+      "title": "Stage 11 \u2014 Individual Dispositions: Seven Findings and Seven Proposed Corrections",
+      "path": "institution/governance/methodology/stage-11-finding-and-correction-dispositions.md",
+      "type": "status-record",
+      "statusNote": "Nothing applied. Seven findings ACCEPT; two proposals ACCEPT, five ACCEPT WITH MODIFICATION \u2014 one carrying an internal DEFER and one a DUPLICATE/SUBSUMED. Two questions reserved to the Founder Office. A2's architecture untouched.",
+      "summary": "Every finding dispositioned individually and every proposal separately in the existing five-value vocabulary \u2014 with five proposals narrower than proposed, one strengthened, and the Part B six-question analysis.",
+      "provenance": {
+        "origin": "Institutional Platform Development (disposition record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0031 \u00a72.6-\u00a72.7, using the fd-0025 \u00a72.4 vocabulary unchanged. No finding was merged away and no proposal was accepted because its finding was. The adjudicating office wrote the method it adjudicates, recorded at fd-0031 \u00a74 Deficiency 3.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-10-method-findings-and-proposed-corrections"
+        },
+        {
+          "rel": "references",
+          "target": "stage-10-draft-v5-validation-application"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0025-organizational-systems-methodology-stage-7-authorization"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-11-draft-v6-change-set",
+      "title": "Stage 11 \u2014 Consolidated Draft v6 Change Set (Unapplied)",
+      "path": "institution/governance/methodology/stage-11-draft-v6-change-set.md",
+      "type": "plan",
+      "statusNote": "UNAPPLIED. No Draft v6 exists and none is created. No corrected wording is drafted. Seven bounded items; none touches A2's architecture; none changes semantics beyond an existing determination. It does not close the participant-facing validation gap and must not be read as doing so.",
+      "summary": "Seven bounded future items \u2014 A0, A20 twice, A18, Instrument 1, Part B, A15/Instrument 9 \u2014 each with its semantic effect and revalidation consequence, plus what was excluded and why.",
+      "provenance": {
+        "origin": "Institutional Platform Development (proposal record)",
+        "approvalReference": "Assembled 2026-08-26 under fd-0031 \u00a72.11, only after every individual disposition was complete. Carries only what those dispositions accepted, five of them in narrowed form. Drafting is recommended conditionally: RQ-1 must be answered or excluded first.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-11-finding-and-correction-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v5"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition"
+        }
+      ]
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
