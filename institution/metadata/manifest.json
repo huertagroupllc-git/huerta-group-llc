@@ -5684,6 +5684,214 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "stage-6-second-author-sealed-result",
+      "title": "Organizational Diagnostic \u2014 Generation One: Stage 6 Second-Author Sealed Result",
+      "path": "institution/governance/methodology/stage-6-second-author-sealed-result.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "The seal required by fd-0024 \u00a72.8. Combined digest d07b88e7\u2026c29f0bd8. Nothing in the seven files was edited, reformatted, summarized or corrected by the first author. The second author never received any Stage 5 material at any point and has still not seen it.",
+      "summary": "The second author's complete diagnostic result, frozen and fingerprinted before any comparison and before any Stage 5 material could reach it: seven files, 3,074 lines, preserved exactly as written including where they differ from the first author's.",
+      "provenance": {
+        "origin": "Second-author agent context (result, verbatim); Institutional Platform Development (seal)",
+        "approvalReference": "Sealed 2026-08-25 under fd-0024 \u00a72.8 before any Stage 5 versus Stage 6 comparison. Digests computed before the copy into the corpus and re-verified after. The comparison is performed by the first author, which is a recorded independence defect and is not cured by this seal.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-independence-statement"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0024-organizational-systems-methodology-stage-6-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-6-second-author-advancement",
+      "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Advancement Determination (Stage 6)",
+      "path": "institution/governance/methodology/stage-6-second-author-result/advancement.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Second-author output, preserved verbatim and unedited under the seal at stage-6-second-author-sealed-result (combined digest d07b88e7\u2026c29f0bd8). Findings about Huerta Group Publishing are diagnostic output, not determinations about the venture and not implementation authority.",
+      "summary": "The second author's advancement determination: each minimum-evidence element answered and evidence-classed, the records-only and author-of-records labels carried, and the outcome \u2014 request additional evidence.",
+      "provenance": {
+        "origin": "Second-author agent context (Stage 6 replication), preserved verbatim",
+        "approvalReference": "Produced 2026-08-25 under fd-0024 against the subject at e28f12a using frozen Draft v3; sealed before any comparison. Not edited, reformatted, summarized or corrected by the first author.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-6-second-author-evidence-register",
+      "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Evidence & Limitations Register (Stage 6)",
+      "path": "institution/governance/methodology/stage-6-second-author-result/evidence-register.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Second-author output, preserved verbatim and unedited under the seal at stage-6-second-author-sealed-result (combined digest d07b88e7\u2026c29f0bd8). Findings about Huerta Group Publishing are diagnostic output, not determinations about the venture and not implementation authority.",
+      "summary": "The second author's Instrument 1: every evidence item obtained with its source and class, the two-pass access statement, and four prior-knowledge rows recorded as supporting no finding.",
+      "provenance": {
+        "origin": "Second-author agent context (Stage 6 replication), preserved verbatim",
+        "approvalReference": "Produced 2026-08-25 under fd-0024 against the subject at e28f12a using frozen Draft v3; sealed before any comparison. Not edited, reformatted, summarized or corrected by the first author.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-6-second-author-findings",
+      "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Diagnostic Findings (Stage 6)",
+      "path": "institution/governance/methodology/stage-6-second-author-result/findings.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Second-author output, preserved verbatim and unedited under the seal at stage-6-second-author-sealed-result (combined digest d07b88e7\u2026c29f0bd8). Findings about Huerta Group Publishing are diagnostic output, not determinations about the venture and not implementation authority.",
+      "summary": "The second author's findings by method stage, including eight preserved contradictions and the reading it marked as its own rather than as evidence.",
+      "provenance": {
+        "origin": "Second-author agent context (Stage 6 replication), preserved verbatim",
+        "approvalReference": "Produced 2026-08-25 under fd-0024 against the subject at e28f12a using frozen Draft v3; sealed before any comparison. Not edited, reformatted, summarized or corrected by the first author.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-6-second-author-instruments",
+      "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Completed Instruments (Stage 6)",
+      "path": "institution/governance/methodology/stage-6-second-author-result/instruments.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Second-author output, preserved verbatim and unedited under the seal at stage-6-second-author-sealed-result (combined digest d07b88e7\u2026c29f0bd8). Findings about Huerta Group Publishing are diagnostic output, not determinations about the venture and not implementation authority.",
+      "summary": "The second author's Part B instruments \u2014 eight completed with named gaps, one partial with two workflows blocked entirely, and the reasons recorded rather than filled.",
+      "provenance": {
+        "origin": "Second-author agent context (Stage 6 replication), preserved verbatim",
+        "approvalReference": "Produced 2026-08-25 under fd-0024 against the subject at e28f12a using frozen Draft v3; sealed before any comparison. Not edited, reformatted, summarized or corrected by the first author.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-6-second-author-method-observations",
+      "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Method Observations (Stage 6)",
+      "path": "institution/governance/methodology/stage-6-second-author-result/method-observations.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Second-author output, preserved verbatim and unedited under the seal at stage-6-second-author-sealed-result (combined digest d07b88e7\u2026c29f0bd8). Findings about Huerta Group Publishing are diagnostic output, not determinations about the venture and not implementation authority.",
+      "summary": "Every place the second author found the frozen method unclear, silent or ambiguous, and everything it had to decide for itself that the method arguably should have decided.",
+      "provenance": {
+        "origin": "Second-author agent context (Stage 6 replication), preserved verbatim",
+        "approvalReference": "Produced 2026-08-25 under fd-0024 against the subject at e28f12a using frozen Draft v3; sealed before any comparison. Not edited, reformatted, summarized or corrected by the first author.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-6-second-author-reserved-questions",
+      "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Questions Reserved to Subject Authority (Stage 6)",
+      "path": "institution/governance/methodology/stage-6-second-author-result/reserved-questions.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Second-author output, preserved verbatim and unedited under the seal at stage-6-second-author-sealed-result (combined digest d07b88e7\u2026c29f0bd8). Findings about Huerta Group Publishing are diagnostic output, not determinations about the venture and not implementation authority.",
+      "summary": "Questions the second author reserves to the subject's own authority, stated neutrally with no recommended answer and none decided.",
+      "provenance": {
+        "origin": "Second-author agent context (Stage 6 replication), preserved verbatim",
+        "approvalReference": "Produced 2026-08-25 under fd-0024 against the subject at e28f12a using frozen Draft v3; sealed before any comparison. Not edited, reformatted, summarized or corrected by the first author.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-6-second-author-stakeholder-questions",
+      "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Stakeholder Question Sets (Stage 6)",
+      "path": "institution/governance/methodology/stage-6-second-author-result/stakeholder-questions.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Second-author output, preserved verbatim and unedited under the seal at stage-6-second-author-sealed-result (combined digest d07b88e7\u2026c29f0bd8). Findings about Huerta Group Publishing are diagnostic output, not determinations about the venture and not implementation authority.",
+      "summary": "Twelve neutral question sets the second author derived independently at the stakeholder-evidence boundary, each decomposed into limbs; no answers were sought and none supplied.",
+      "provenance": {
+        "origin": "Second-author agent context (Stage 6 replication), preserved verbatim",
+        "approvalReference": "Produced 2026-08-25 under fd-0024 against the subject at e28f12a using frozen Draft v3; sealed before any comparison. Not edited, reformatted, summarized or corrected by the first author.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "organizational-diagnostic-post-test-correction-proposals",
       "title": "Organizational Diagnostic \u2014 Generation One: Post-Test Correction Proposals (after the first stakeholder application)",
       "path": "institution/governance/methodology/organizational-diagnostic-post-test-correction-proposals.md",
