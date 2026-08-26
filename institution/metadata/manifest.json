@@ -4514,6 +4514,72 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "organizational-diagnostic-self-application-dry-run",
+      "title": "Organizational Diagnostic \u2014 Generation One: Huerta Group LLC Self-Application Dry Run",
+      "path": "institution/governance/methodology/organizational-diagnostic-self-application-dry-run.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Methodology validation evidence only. Reopens no operating determination; establishes no external validity, general applicability, or validated-through-use status outside Huerta Group.",
+      "summary": "The frozen draft applied to Huerta Group LLC: ten instruments filled from method-directed evidence, hidden-knowledge and assumption logs, fourteen successes, thirteen deficiencies recorded without repair, the technology test reaching non-software outcomes, and advancement refused on documents alone.",
+      "provenance": {
+        "origin": "Institutional Platform Development (validation evidence)",
+        "approvalReference": "Performed 2026-08-25 under fd-0019 against the draft frozen at 076440c (digest re-verified unchanged). Evidentiary and non-governing.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-correction-package"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "organizational-diagnostic-correction-package",
+      "title": "Organizational Diagnostic \u2014 Generation One: Correction Package After Frozen-Draft Testing",
+      "path": "institution/governance/methodology/organizational-diagnostic-correction-package.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "PROPOSED CORRECTIONS ONLY. Nothing applied; the draft stands at its freeze digest. A later version under Methodology Foundation v1 \u00a76.4 is the vehicle, subject to Founder Office and Methodology-room review.",
+      "summary": "Seventeen proposed corrections to the frozen Organizational Diagnostic draft, each with the affected section or instrument, the dry-run evidence, the problem exposed, the proposed change, its type, and remaining uncertainty; and the elements that needed no correction.",
+      "provenance": {
+        "origin": "Institutional Platform Development (proposed corrections)",
+        "approvalReference": "Prepared 2026-08-25 under fd-0019 after the frozen-draft dry run. Evidentiary and non-governing; applies nothing.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-self-application-dry-run"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
