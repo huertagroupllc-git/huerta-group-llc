@@ -6800,6 +6800,80 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v4-validation-package",
+      "title": "Organizational Diagnostic \u2014 Draft v4: Prepared Validation Package",
+      "path": "institution/governance/methodology/draft-v4-validation-package.md",
+      "type": "plan",
+      "statusNote": "PREPARED \u2014 NOT AUTHORIZED, NOT BEGUN. Authorizes nothing, selects no subject as a decision, names no validator, and collected no diagnostic evidence. Two prerequisites are unmet: the A10 reconciliation is unapplied, and the validation itself is not authorized.",
+      "summary": "What one bounded internal validation of Draft v4 would have to be to be worth running: subject criteria and the two-candidate constraint, non-authoring controls, thirteen reachable elements with observables, freeze controls, and non-numeric success criteria.",
+      "provenance": {
+        "origin": "Institutional Platform Development (proposal)",
+        "approvalReference": "Prepared 2026-08-26 under fd-0028 \u00a72.10, which authorizes the package and forbids its execution. Every requirement is drawn from fd-0028, the Stage 7 replication-protocol requirements, or the Stage 9 traceability record. No expected diagnostic finding about any subject appears in it.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0028-organizational-diagnostic-a10-trail-first-determination"
+        },
+        {
+          "rel": "references",
+          "target": "stage-9-draft-v4-traceability-matrix"
+        },
+        {
+          "rel": "references",
+          "target": "a10-determination-reconciliation-record"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-draft-v4-change-set"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "a10-reconciliation-and-draft-v4-validation-readiness-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 A10 Reconciliation & Draft v4 Validation Readiness Report",
+      "path": "institution/governance/methodology/a10-reconciliation-and-draft-v4-validation-readiness-report.md",
+      "type": "status-record",
+      "statusNote": "Determination recorded; reconciliation prepared and NOT applied; versioning question returned. Draft v4 unchanged and still PROVISIONAL DRAFT \u2014 UNTESTED AS A VERSION, applications 0. Drafts v1-v3, Stage 5 and Stage 6 verified unchanged.",
+      "summary": "Development's return (26 sections): the A10 determination recorded and preserved, the reconciliation prepared in full and withheld pending a versioning determination, and the smallest meaningful Draft v4 validation prepared but not begun.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned 2026-08-26 under fd-0028. Evidentiary and non-governing. Records that A10 is semantically determined and textually unreconciled, that no new methodology-semantic question arose, and that a determination is not an application.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "a10-determination-reconciliation-record"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v4-validation-package"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0028-organizational-diagnostic-a10-trail-first-determination"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-stage-9-draft-v4-consolidation-report"
+        }
+      ]
     }
   ]
 }

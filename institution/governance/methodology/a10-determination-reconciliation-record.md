@@ -303,7 +303,7 @@ it did not write them.
 | Draft v3 | `04fd02c7…d379f89f` | **PASS**, 1 commit on path |
 | Draft v4 | `3137da8c…3c9c994` | **PASS**, 1 commit on path — **not edited** |
 | Stage 5 application (`hgp-internal-application-stage-5.md`) | — | 1 commit on path, untouched |
-| Stage 6 second-author result (7 files) | combined seal `d07b88e7…c29f0bd8` | untouched |
+| Stage 6 second-author result (7 files) | **all seven per-file digests match** `stage-6-second-author-sealed-result.md` §1 | untouched, 1 commit on the directory. The *combined* seal is cited as recorded and was not independently reproduced — its derivation is under-specified in that record; see the readiness report §12 |
 
 **Stage 5 and Stage 6 are preserved as faithful applications made under the
 previously ambiguous wording.** `fd-0028` §2.8 forbids rewriting either and
