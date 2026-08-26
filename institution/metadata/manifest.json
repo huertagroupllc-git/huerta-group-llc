@@ -4440,6 +4440,39 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "hgp-evidence-admission-package",
+      "title": "HGP Evidence-Admission Package \u2014 Lessons Relied Upon by Stage 2",
+      "path": "institution/governance/methodology/hgp-evidence-admission-package.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Proposes; admits nothing. Every lesson\u2019s parent admission status is PROPOSED pending a Founder Office act under FD-V1 \u00a714; until then each remains venture-plane evidence relied upon by a provisional draft.",
+      "summary": "The bounded FD-V1 \u00a714 admission package for HGP-derived lessons the Stage 2 draft relies on: blueprint-before-code, deterministic records of truth and AI non-authority, gold-standard-before-run validation, live-state verification, the validation-ledger bypass finding, and six further evidence items.",
+      "provenance": {
+        "origin": "Institutional Platform Development (admission package)",
+        "approvalReference": "Prepared under fd-0019 \u00a72.8. Evidentiary and non-governing; no lesson is admitted by this package.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "fd-v1-huerta-group-publishing-venture-determination-and-charter"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-discovery-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
