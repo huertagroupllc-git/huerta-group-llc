@@ -6465,6 +6465,43 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-stage-8-determinations-completion-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Stage 8 Founder Office Determinations Completion Report",
+      "path": "institution/governance/methodology/generation-one-stage-8-determinations-completion-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "STAGE 8 COMPLETE. Method status unchanged: internally tested provisional diagnostic. No Draft v4 exists and none was constructed; Drafts v1\u2013v3 unmodified. The change set is assessed determinate; Draft v4 construction remains subject to Founder Office review of this package.",
+      "summary": "Development's Stage 8 return (18 sections): six determinations recorded, six change-set dependencies reconciled, the change set assessed determinate for Draft v4 \u2014 with three items broader than their Stage 7 text and one ambiguity open but non-blocking.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned 2026-08-26 under fd-0026. Evidentiary and non-governing. The six determinations bind what a future draft may do and changed nothing in Drafts v1\u2013v3; the Stage 7 change set and its summary-count defect are preserved unedited.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-8-change-set-dependency-reconciliation"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0026-organizational-diagnostic-stage-8-methodology-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-draft-v4-change-set"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-stage-7-consolidated-disposition-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
