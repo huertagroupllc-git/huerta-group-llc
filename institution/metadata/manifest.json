@@ -5744,6 +5744,51 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-stage-5-hgp-application-and-validation-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One HGP Internal Application & Stage 5 Validation Report",
+      "path": "institution/governance/methodology/generation-one-stage-5-hgp-application-and-validation-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "STAGE 5 EXECUTED; the HGP diagnosis is a records-only diagnosis that stopped where the method requires, with ten neutral questions returned unanswered. Method status unchanged: internally tested provisional diagnostic. NOT validated through use, NOT externally validated, NOT independently validated \u2014 the diagnostic team helped build the subject. Draft v3 not adopted.",
+      "summary": "Development's Stage 5 return (38 sections): the freeze gate passed, three clarification comparisons completed, the one-sided-evidence treatment returned not taken, and frozen Draft v3 applied to a second subject \u2014 with advancement refused and eight deficiencies preserved.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned 2026-08-25 under fd-0023. Evidentiary and non-governing; findings about Huerta Group Publishing are diagnostic output, not determinations about the venture and not implementation authority. Nothing in the venture was changed.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "hgp-internal-application-stage-5"
+        },
+        {
+          "rel": "references",
+          "target": "stage-5-method-deficiencies-and-proposed-corrections"
+        },
+        {
+          "rel": "references",
+          "target": "q3-q14-q29-clarification-comparison-completion"
+        },
+        {
+          "rel": "references",
+          "target": "one-sided-evidence-reporting-disposition"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0023-organizational-systems-methodology-stage-5-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
