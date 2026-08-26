@@ -6156,6 +6156,51 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-stage-6-replication-and-validation-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Second-Author Replication & Stage 6 Validation Report",
+      "path": "institution/governance/methodology/generation-one-stage-6-replication-and-validation-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "STAGE 6 EXECUTED. Method status unchanged: internally tested provisional diagnostic, with stronger internal reproducibility evidence. NOT validated through use, NOT externally validated, NOT independently validated \u2014 isolation was partial, the model family is shared, and the comparison is written by the office being compared. No Draft v4 exists.",
+      "summary": "Development's Stage 6 return (49 sections): the advancement refusal reproduced independently across two authoring contexts, method-deficiency identification did not, and thirty deficiency records now stand undisposed against a frozen method.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report, first author)",
+        "approvalReference": "Returned 2026-08-25 under fd-0024. Evidentiary and non-governing. Findings about Huerta Group Publishing are diagnostic output, not determinations about the venture and not implementation authority; nothing in the venture was changed by either author.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-replication-comparison"
+        },
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        },
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-independence-statement"
+        },
+        {
+          "rel": "references",
+          "target": "d8-evidence-base-qualification"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-stage-5-hgp-application-and-validation-report"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0024-organizational-systems-methodology-stage-6-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
