@@ -5500,6 +5500,51 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "generation-one-stage-4-clarification-and-correction-report",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One Draft v3 & Stage 4 Clarification/Correction Report",
+      "path": "institution/governance/methodology/generation-one-stage-4-clarification-and-correction-report.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "STAGE 4 COMPLETE. Method status: internally tested provisional organizational diagnostic. NOT designated 'validated through use' (fd-0022 \u00a72.1); not externally validated; Draft v3 not adopted; the external-validation gap remains total.",
+      "summary": "Development's Stage 4 return (29 sections): both baselines verified immutable, four clarifications absorbed additively, the Q18 contradiction reclassified without erasing its history, ten corrections dispositioned individually, Draft v3 produced, and advancement still refused.",
+      "provenance": {
+        "origin": "Institutional Platform Development (completion report)",
+        "approvalReference": "Returned 2026-08-25 under fd-0022. Evidentiary and non-governing; findings about Huerta Group LLC are diagnostic output, not institutional determinations, and no stakeholder statement was elevated into doctrine.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-draft-v3-correction-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "q18-reclassification-record"
+        },
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-set-session-2-clarifications"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-stage-3-completion-report"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0022-organizational-systems-methodology-stage-4-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
