@@ -5562,6 +5562,35 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "stage-6-second-author-independence-statement",
+      "title": "Organizational Diagnostic \u2014 Generation One: Stage 6 Second-Author Independence Statement and Replication Inputs",
+      "path": "institution/governance/methodology/stage-6-second-author-independence-statement.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Frozen before the second author received substantive subject evidence \u2014 the ordering rule fd-0024 \u00a72.5 added after the Stage 5 sequencing deviation. Isolation is PARTIAL: the harness injected a user-memory index the second author quotes verbatim. Stage 5 findings, deficiencies and advancement outcome did NOT leak.",
+      "summary": "The second author's own independence statement, frozen by commit before it received any subject evidence, with the exact replication inputs, their digests, and the context leak measured verbatim rather than asserted.",
+      "provenance": {
+        "origin": "Second-author agent context (statement, verbatim); Institutional Platform Development (inputs and assessment)",
+        "approvalReference": "Created 2026-08-25 under fd-0024 \u00a72.5 in a turn where the second author had executed zero tool calls, and committed before it was released to begin. Independence is qualified, not claimed: convergence on any leaked identifier is excluded from the reproducibility evidence.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-stage-5-hgp-application-and-validation-report"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "organizational-diagnostic-post-test-correction-proposals",
       "title": "Organizational Diagnostic \u2014 Generation One: Post-Test Correction Proposals (after the first stakeholder application)",
       "path": "institution/governance/methodology/organizational-diagnostic-post-test-correction-proposals.md",
