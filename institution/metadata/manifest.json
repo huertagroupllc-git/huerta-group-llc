@@ -4958,6 +4958,76 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stakeholder-evidence-procedure",
+      "title": "Organizational Diagnostic \u2014 Generation One: First Structured Stakeholder-Evidence Procedure",
+      "path": "institution/governance/methodology/stakeholder-evidence-procedure.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "PROCEDURE PREPARED \u2014 no stakeholder evidence yet received. Depends on the Founder Office answering in its own words through the execution interaction; Stage 3 stakeholder validation is not complete until then (fd-0020 \u00a72.11, \u00a72.13).",
+      "summary": "Bounded procedure for the first stakeholder-evidence application of frozen Draft v2 with Founder Office as the accountable-authority stakeholder: interaction channel, capture rules, thirty open non-leading questions mapped to the method, comparison procedure, interaction dependency.",
+      "provenance": {
+        "origin": "Institutional Platform Development (validation procedure)",
+        "approvalReference": "Prepared 2026-08-25 under fd-0020 \u00a72.11. Evidentiary and non-governing; every response will be Client-Stated unless corroborated; nothing here is a response.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v2"
+        },
+        {
+          "rel": "references",
+          "target": "records-derived-evidence-set"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "records-derived-evidence-set",
+      "title": "Organizational Diagnostic \u2014 Generation One: Records-Derived Evidence Set (Huerta Group LLC, Stage 3)",
+      "path": "institution/governance/methodology/records-derived-evidence-set.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Built at HEAD 9659fbb before any stakeholder response existed and sealed by commit; author-of-records (Institutional Platform Development). Repository presence does not convert an assertion into current observed truth; every row carries its class and chronology.",
+      "summary": "The records-derived half of the records-versus-accounts comparison: thirty rows keyed to the stakeholder question set, each with source, evidence class, chronology and status at HEAD, what changed since the Stage 2 dry run, records no longer describing operation, and what the set cannot say.",
+      "provenance": {
+        "origin": "Institutional Platform Development (validation evidence)",
+        "approvalReference": "Prepared 2026-08-25 under fd-0020 \u00a72.12 from the governed repository and the Stage 2 dry run's method-directed reading. Evidentiary and non-governing; no stakeholder evidence; no comparison yet performed.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-self-application-dry-run"
+        },
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-procedure"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v2"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0020-organizational-systems-methodology-stage-3-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
