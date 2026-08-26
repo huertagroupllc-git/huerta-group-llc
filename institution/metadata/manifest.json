@@ -5423,6 +5423,75 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "q3-q14-q29-clarification-comparison-completion",
+      "title": "Organizational Diagnostic \u2014 Generation One: Q3, Q14 and Q29 Clarification Comparison Completion (Stage 5)",
+      "path": "institution/governance/methodology/q3-q14-q29-clarification-comparison-completion.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The bounded re-run of the three rows Stage 4 left out of scope: Q3's classification stands with a revised reason, Q14's unresolved row splits into six determinate ones including an unsupported assertion, and Q29's referent is corroborated as a class.",
+      "provenance": {
+        "origin": "Institutional Platform Development (validation evidence)",
+        "approvalReference": "Performed 2026-08-25 under fd-0023 \u00a72.5, scoped to three comparison rows. Additive and dated; the original answers and the Stage 3 comparison document are unchanged, and no clarification was treated as corroboration.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "records-versus-accounts-comparison"
+        },
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-set-session-2-clarifications"
+        },
+        {
+          "rel": "references",
+          "target": "one-sided-evidence-reporting-disposition"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0023-organizational-systems-methodology-stage-5-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "one-sided-evidence-reporting-disposition",
+      "title": "Organizational Diagnostic \u2014 Generation One: One-Sided Evidence Reporting Disposition (Stage 5)",
+      "path": "institution/governance/methodology/one-sided-evidence-reporting-disposition.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "REPORTING COMPOSITION ONLY. The qualifier adds no comparison classification and redefines none. Making it a required element of the comparison record, or a field of the method, requires Founder Office / Methodology room authority; the exact decision is returned at \u00a78 and is not made.",
+      "summary": "The narrowest truthful treatment for one-sided evidence: a descriptive single-source qualifier carried alongside an existing classification, adding none and redefining none \u2014 used here as reporting composition, with the adoption decision returned to the Founder Office.",
+      "provenance": {
+        "origin": "Institutional Platform Development (proposal record)",
+        "approvalReference": "Developed 2026-08-25 under fd-0023 \u00a72.4. Descriptive rather than inferential: it records which half of a comparison holds evidence and what was done about the other, and infers nothing about any participant's credibility, intent, certainty, honesty, or state of mind.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-post-test-correction-proposals"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0023-organizational-systems-methodology-stage-5-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "organizational-diagnostic-post-test-correction-proposals",
       "title": "Organizational Diagnostic \u2014 Generation One: Post-Test Correction Proposals (after the first stakeholder application)",
       "path": "institution/governance/methodology/organizational-diagnostic-post-test-correction-proposals.md",
