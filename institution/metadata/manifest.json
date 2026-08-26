@@ -4827,6 +4827,10 @@
         {
           "rel": "references",
           "target": "stage-7-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-deficiency-dispositions"
         }
       ],
       "versioning": "git-history",
@@ -5803,6 +5807,43 @@
         {
           "rel": "references",
           "target": "fd-0024-organizational-systems-methodology-stage-6-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-7-deficiency-dispositions",
+      "title": "Organizational Diagnostic \u2014 Generation One: Consolidated Deficiency Dispositions (Stage 7)",
+      "path": "institution/governance/methodology/stage-7-deficiency-dispositions.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "A disposition changes no frozen draft and creates no methodology; every accepted change remains a proposal until a version is authorized under Methodology Foundation v1 \u00a76.4. No Draft v4 exists. The adjudicator is the first author, ruling on eight of its own records \u2014 the distribution check is at \u00a75.3.",
+      "summary": "Individual adjudication of all thirty standing deficiency records \u2014 14 accepted, 12 accepted with modification, 1 deferred, 3 declined, none subsumed \u2014 with the reproduction, subsumption and conflict maps and the adjudicator-bias check.",
+      "provenance": {
+        "origin": "Institutional Platform Development (first author, adjudicating)",
+        "approvalReference": "Recorded 2026-08-26 under fd-0025. All thirty records located in their actual preserved sources and adjudicated individually before any thematic consolidation; 'resolved' was not used; no record was dropped, renumbered, merged or invented; all historical identifiers preserved.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-5-method-deficiencies-and-proposed-corrections"
+        },
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v3"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0025-organizational-systems-methodology-stage-7-authorization"
         }
       ],
       "versioning": "git-history",
