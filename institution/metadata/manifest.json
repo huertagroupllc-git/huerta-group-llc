@@ -5944,6 +5944,39 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "stage-8-change-set-dependency-reconciliation",
+      "title": "Organizational Diagnostic \u2014 Generation One: Stage 8 Change-Set Dependency Reconciliation",
+      "path": "institution/governance/methodology/stage-8-change-set-dependency-reconciliation.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Prospective and additive. stage-7-draft-v4-change-set.md is NOT edited: its item-level flags and its summary-count defect stand as recorded (fd-0026 \u00a72.7). All six dependencies resolved; the A10 trail-first ambiguity is reached by no determination and remains open without blocking drafting. No Draft v4 exists.",
+      "summary": "Moves the six flagged change-set items from determination-required to dependency-resolved, additively \u2014 the Stage 7 record and its summary-count defect stand unedited \u2014 and records that three determinations expanded their items and one settled an unnamed ambiguity.",
+      "provenance": {
+        "origin": "Institutional Platform Development (reconciliation record)",
+        "approvalReference": "Recorded 2026-08-26 under fd-0026 \u00a72.7 using the existing two states \u2014 Determination required \u2192 determination received, dependency resolved. No new state was invented, no question was silently answered, and no implementation detail was treated as reopened Founder Office authority.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-7-draft-v4-change-set"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0026-organizational-diagnostic-stage-8-methodology-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-deficiency-dispositions"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "stage-6-second-author-advancement",
       "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Advancement Determination (Stage 6)",
       "path": "institution/governance/methodology/stage-6-second-author-result/advancement.md",
