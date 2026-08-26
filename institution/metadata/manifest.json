@@ -5518,6 +5518,134 @@
       ]
     },
     {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-10-evidence-access-and-isolation-record",
+      "title": "Stage 10 \u2014 Evidence-Access and Prior-Result Isolation Record",
+      "path": "institution/governance/methodology/stage-10-evidence-access-and-isolation-record.md",
+      "type": "status-record",
+      "statusNote": "The orchestrating office's record, written by the office that drafted Draft v5 \u2014 a dependence recorded at fd-0030 \u00a74 Deficiency 4 rather than left implicit. Isolation is instructed, not enforced, and the record states that rather than asserting isolation held.",
+      "summary": "What the validating author was given, what was withheld, and what leaked anyway \u2014 including the substantive leak the instrument's own requirements forced, and the subject's failure to move since the prior applications.",
+      "provenance": {
+        "origin": "Institutional Platform Development (orchestration record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0030 \u00a72.5. Records the two-turn ordering carried by commit history, the deliberate supply of FD-V1 and Methodology Foundation v1 correcting a Stage 6 defect, and the redaction of the item map to identifier and location only.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation"
+        },
+        {
+          "rel": "references",
+          "target": "stage-10-validator-independence-statement"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-10-draft-v5-validation-application",
+      "title": "Stage 10 \u2014 Draft v5 Internal Validation Application (Huerta Group Publishing)",
+      "path": "institution/governance/methodology/stage-10-draft-v5-validation-application.md",
+      "type": "status-record",
+      "statusNote": "Preserved verbatim, unedited. RECORDS-ONLY. Advancement state: return unresolved questions to the organization's authority. A mandatory closure condition is unresolved, so the diagnosis may not be represented as an unqualified completed diagnosis. Not an operational diagnosis of HGP.",
+      "summary": "The first application of any version of this method since Draft v3: ten instruments, four trail-first workflows, an eighteen-row classification, seven method findings and eight returned participant questions \u2014 by an applier who did not write the method.",
+      "provenance": {
+        "origin": "Stage 10 validating author (separate authoring context; preserved verbatim)",
+        "approvalReference": "Produced 2026-08-26 under fd-0030 against frozen Draft v5 d178024b\u2026f75635c and HGP at e28f12a, read-only. Development did not edit, condense, correct or annotate it. Its findings, concessions and the one deviation it records against itself are the author's own.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v5"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation"
+        },
+        {
+          "rel": "references",
+          "target": "stage-10-validator-independence-statement"
+        },
+        {
+          "rel": "references",
+          "target": "stage-10-evidence-access-and-isolation-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-10-participant-questions",
+      "title": "Stage 10 \u2014 Participant Questions Returned Unanswered",
+      "path": "institution/governance/methodology/stage-10-participant-questions.md",
+      "type": "status-record",
+      "statusNote": "Eight questions returned, none answered, none put. PQ-6 governs the unresolved closure condition. Answering them is neither authorized nor required by this record; any answer would be Client-Stated evidence usable only in a separately authorized application.",
+      "summary": "The eight minimum neutral questions the application could not answer for itself, each naming its evidentiary gap and the Draft v5 requirement that creates it \u2014 preserved verbatim from their author.",
+      "provenance": {
+        "origin": "Stage 10 validating author (preserved verbatim)",
+        "approvalReference": "Returned 2026-08-26 under fd-0030 \u00a72.6, which forbids Development answering a participant question on behalf of any HGP authority. None was answered, from the records or by inference. Development did not edit them.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-10-draft-v5-validation-application"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "stage-10-method-findings-and-proposed-corrections",
+      "title": "Stage 10 \u2014 Method Findings and Proposed Corrections (Unapplied)",
+      "path": "institution/governance/methodology/stage-10-method-findings-and-proposed-corrections.md",
+      "type": "plan",
+      "statusNote": "PROPOSALS ONLY. NOTHING APPLIED. Draft v5 unchanged and verified. These confer no Draft v6 authority and Development has dispositioned none of them. MF-5 is a recorded non-compliance, not only a proposal.",
+      "summary": "Seven method findings with the evidence of what the applier was doing when each bit, and seven unapplied proposals \u2014 plus two matters flagged before any disposition, including one proposal whose author recommends declining the larger change.",
+      "provenance": {
+        "origin": "Stage 10 validating author (findings and proposals); Institutional Platform Development (the two flags at \u00a73)",
+        "approvalReference": "Recorded 2026-08-26 under fd-0030 \u00a72.8. The method was not edited; every defect was recorded rather than repaired. Adjudication is not authorized by Stage 10 and none was performed.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-10-draft-v5-validation-application"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v5"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0030-organizational-diagnostic-stage-10-draft-v5-internal-validation"
+        }
+      ]
+    },
+    {
       "id": "organizational-diagnostic-draft-v2-correction-dispositions",
       "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v2",
       "path": "institution/governance/methodology/organizational-diagnostic-draft-v2-correction-dispositions.md",
