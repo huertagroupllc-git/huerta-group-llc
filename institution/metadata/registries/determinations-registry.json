@@ -775,6 +775,36 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0026",
+      "title": "Founder Office Determinations: Organizational Diagnostic \u2014 Six Reserved Methodology Determinations (CS-01, CS-02, CS-03, CS-07, CS-12, CS-14)",
+      "path": "institution/governance/determinations/fd-0026-organizational-diagnostic-stage-8-methodology-determinations.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 8: Founder Office Determinations Recording & Consolidation Readiness execution package (Founder Office \u2192 Institutional Platform Development), answering the six methodology questions the Stage 7 change set reserved at item level \u2014 approving a source-kind attribute that is categorical, descriptive, organization-neutral and non-ordinal and may never encode evidence quality; holding that A2 governs the diagnostic's own evidence classification while A1 governs the subject's terminology and neither erases the other; defining the diagnostic team as the actual institutional or individual actor performing the diagnostic and requiring disclosure of material prior involvement at both the institutional and individual layers while excluding incidental familiarity; retaining identity-of-record as a required output owned by A4, defining it as a sourced statement rather than a consultant-authored one, distinguishing Instrument 10 from the advancement action that returns questions, and requiring only that source-of-truth boundaries be sufficiently identified rather than institutionally established; permitting a subject diagnosis to close as an application record with a mandatory closure condition unsatisfied but forbidding its representation as an unqualified completed diagnosis and requiring a conspicuous unresolved-closure statement that is not a sixth outcome; and holding that Methodology Foundation v1 \u00a77.5 does not travel by implication, that the full doctrine may not be duplicated, and that a conservative confidentiality default governs where it is not held \u2014 with the earlier five-question count corrected to six, the Stage 7 summary-count defect preserved rather than repaired, implementation detail declared future drafting jurisdiction rather than reopened authority, and Draft v4 construction not authorized",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 7,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0026-organizational-diagnostic-stage-8-methodology-determinations.md",
+        "institution/governance/methodology/instruments/stage-8-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/stage-8-change-set-dependency-reconciliation.md",
+        "institution/governance/methodology/generation-one-stage-8-determinations-completion-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0025",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0024",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

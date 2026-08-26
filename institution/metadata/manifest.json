@@ -4838,6 +4838,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "fd-0026-organizational-diagnostic-stage-8-methodology-determinations",
+      "title": "fd-0026 \u2014 Founder Office Determinations: Organizational Diagnostic \u2014 Six Reserved Methodology Determinations (CS-01, CS-02, CS-03, CS-07, CS-12, CS-14)",
+      "path": "institution/governance/determinations/fd-0026-organizational-diagnostic-stage-8-methodology-determinations.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The six methodology questions Stage 7 reserved, answered: source kind is descriptive and non-ordinal; A2 governs evidence classification, A1 the subject's terminology; prior involvement disclosed at both layers; identity-of-record retained; qualified closure permitted; \u00a77.5 does not travel.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary \u2014 the record evidences the determinations and creates no authority. The six settle methodology questions prospectively: they bind what a future draft may do and change nothing in Drafts v1\u2013v3. Draft v4 construction is not authorized by this instrument.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0025-organizational-systems-methodology-stage-7-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "stage-8-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-draft-v4-change-set"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -5175,6 +5207,34 @@
         {
           "rel": "references",
           "target": "fd-0025-organizational-systems-methodology-stage-7-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stage-8-execution-package",
+      "title": "Generation One \u2014 Stage 8: Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/stage-8-execution-package.md",
+      "type": "governing-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The Stage 8 instrument, preserved verbatim: the six substantive methodology determinations, the count reconciliation, the rule that implementation is not authority, and the prohibition on constructing Draft v4.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0026. Digest of the instrument text: a9616c71ae797fe3f3a317323c13b6ae1faa02608c7833e243835ae6b87a4539.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0026-organizational-diagnostic-stage-8-methodology-determinations"
         },
         {
           "rel": "references",
