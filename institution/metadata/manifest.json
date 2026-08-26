@@ -5717,6 +5717,43 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "stage-6-replication-comparison",
+      "title": "Organizational Diagnostic \u2014 Generation One: Stage 6 Replication Comparison",
+      "path": "institution/governance/methodology/stage-6-replication-comparison.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "Performed only after the second-author result was sealed at 9260509. Written by the FIRST author \u2014 the office whose work is being compared \u2014 which is a recorded independence defect and is not cured by the seal. No reproducibility score was created.",
+      "summary": "Post-seal comparison of the two applications across seventeen dimensions with no score: the refusal reproduced independently, terminology and habit-handling reproduced, and method-deficiency identification did not \u2014 two of eight, plus six defects found in the first author's own work.",
+      "provenance": {
+        "origin": "Institutional Platform Development (first author), comparing its own Stage 5 work against the sealed Stage 6 result",
+        "approvalReference": "Performed 2026-08-25 under fd-0024 \u00a72.9 across the seventeen required dimensions using the eight authorized difference classifications. Convergence on any identifier the second author already held is excluded from the reproducibility evidence.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-sealed-result"
+        },
+        {
+          "rel": "references",
+          "target": "hgp-internal-application-stage-5"
+        },
+        {
+          "rel": "references",
+          "target": "stage-6-second-author-independence-statement"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0024-organizational-systems-methodology-stage-6-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "stage-6-second-author-advancement",
       "title": "Organizational Diagnostic \u2014 Generation One: Second-Author Advancement Determination (Stage 6)",
       "path": "institution/governance/methodology/stage-6-second-author-result/advancement.md",
