@@ -5585,6 +5585,43 @@
       ]
     },
     {
+      "id": "a10-determination-reconciliation-record",
+      "title": "Organizational Diagnostic \u2014 A10 Trail-First Determination: Reconciliation Record",
+      "path": "institution/governance/methodology/a10-determination-reconciliation-record.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "RECONCILIATION PREPARED \u2014 NOT APPLIED. A repository-versioning determination is required first, under the authorizing instrument's own stop rule. A10 is semantically determined and textually unreconciled. Draft v4 unchanged at 3137da8c\u20263c9c994, one commit on its path.",
+      "summary": "The complete prepared A10 wording set beside what it would replace, a clause-by-clause conformance table against fd-0028, and the returned versioning issue: MF v1 \u00a76.4 requires a new version for a substantive refinement and the instrument forbids Draft v5.",
+      "provenance": {
+        "origin": "Institutional Platform Development (reconciliation record)",
+        "approvalReference": "Produced 2026-08-26 under fd-0028 \u00a72.9. Development stopped before choosing a versioning treatment and returned four candidate representations without preference, because MF v1 is a Company-wide approved foundation and a task instruction may not amend one. No draft file was modified.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0028-organizational-diagnostic-a10-trail-first-determination"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v4"
+        },
+        {
+          "rel": "references",
+          "target": "stage-7-deficiency-dispositions"
+        },
+        {
+          "rel": "references",
+          "target": "methodology-foundation-v1"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "organizational-diagnostic-draft-v3-correction-dispositions",
       "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v3",
       "path": "institution/governance/methodology/organizational-diagnostic-draft-v3-correction-dispositions.md",

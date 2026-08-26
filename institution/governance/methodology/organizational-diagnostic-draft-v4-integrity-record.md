@@ -80,8 +80,44 @@ after Draft v4 was complete, as `fd-0027` §2.4 requires.
 - Method-level ceiling (`fd-0027` §2.8): the Organizational Diagnostic is not
   elevated beyond its current internally tested provisional posture by Stage 9.
 
-## 5. What would change this record
+## 5. Post-Stage 9 verification, and one pending change
 
-Only a Founder Office-authorized validation stage that actually applies Draft
-v4 to a subject, and its result. Until then this record's *Applications: 0*
-is the whole of what can be said about this version's behaviour.
+**Verified again 2026-08-26** under `fd-0028`, before and after the A10
+determination was recorded:
+
+| Draft | Result |
+| --- | --- |
+| v1 | **PASS** — `6fb2fb84…c2c4a9a73`, 1 commit on path |
+| v2 | **PASS** — `9e2976e1…cda5d4b`, 1 commit on path |
+| v3 | **PASS** — `04fd02c7…d379f89f`, 1 commit on path |
+| **v4** | **PASS — `3137da8c…3c9c994`, unchanged, 1 commit on path** |
+
+**One change is authorized and pending, and has not been made.** `fd-0028`
+adopts Reading A of A10's trail-first procedure and authorizes a bounded
+reconciliation of Draft v4's wording. The reconciliation is **prepared and not
+applied**: Methodology Foundation v1 §6.4 requires a new version for a
+substantive refinement, the authorizing instrument forbids Draft v5, and the
+instrument's own stop rule directs that the versioning question be returned
+rather than chosen. See `a10-determination-reconciliation-record.md`.
+
+**Consequently this record still describes Draft v4 accurately**, and the
+digest above is still the digest of the file at its path. When the versioning
+determination is made, the Stage 9 digest is preserved here beside whatever
+succeeds it — **it is not overwritten**, because the fact that Draft v4 was
+constructed as `3137da8c…` carrying one unresolved limitation is part of the
+record of how this method developed.
+
+## 6. What would change this record
+
+The pending A10 reconciliation, once its representation is determined — and,
+separately, a Founder Office-authorized validation stage that actually applies
+Draft v4 to a subject, and its result. Until that second thing happens this
+record's *Applications: 0* is the whole of what can be said about this version's
+behaviour. **A determination is not an application**, and `fd-0028` says so:
+resolving A10 "does not constitute behavioral application evidence."
+
+## 7. Maturity, restated because a determination is easy to mistake for progress
+
+**PROVISIONAL DRAFT — UNTESTED AS A VERSION**, unchanged. Not a tested
+baseline, not validated through use, not externally validated, not
+independently validated, not standardized, not Method Library ready.

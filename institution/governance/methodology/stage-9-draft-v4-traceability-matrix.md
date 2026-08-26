@@ -327,12 +327,15 @@ limb does. **Nothing in Draft v4 is validated by this record.**
 
 ## 4. Carried forward, and not resolved here
 
-- **A10's conjunctive trail-first ambiguity** — `fd-0027` §2.5 classifies it an
+- **A10's conjunctive trail-first ambiguity** — `fd-0027` §2.5 classified it an
   open limitation and not a drafting discretion. A10's text is unchanged;
   Draft v4 A20 discloses the ambiguity and the divergence that revealed it;
   provenance runs to `stage-7-deficiency-dispositions.md` §3 (AMB-1) and
   `stage-8-change-set-dependency-reconciliation.md` §8.
-  **UNRESOLVED_LIMITATION.**
+  **UNRESOLVED_LIMITATION at Draft v4's construction — the historical fact, and
+  it stands.** Its status since is recorded additively at §6 below; this entry
+  is not rewritten, because Draft v4 was in fact created carrying one unresolved
+  limitation and no later determination alters that.
 - **CS-10's scope bound.** Stage 7 recorded that a team holding hundreds of
   prior beliefs cannot check them all and that the rule needs a bound. No
   determination set one, and Stage 9 did not invent one: the rule as drafted
@@ -354,3 +357,32 @@ limb does. **Nothing in Draft v4 is validated by this record.**
 - Deficiency evidence: `stage-5-method-deficiencies-and-proposed-corrections.md`
   (D-1…D-8) and `stage-6-second-author-result/method-observations.md`
   (MO-01…MO-22).
+
+## 6. Post-construction: the A10 determination, recorded additively
+
+**Added 2026-08-26 under `fd-0028`.** §4 above is preserved as written; this
+section records what happened after Draft v4 was constructed, in order.
+
+| Field | Value |
+| --- | --- |
+| **Item** | A10 trail-first conjunctivity — not one of the seventeen; carried forward at construction |
+| **Prior status** | **UNRESOLVED_LIMITATION**, recorded at §4 and at Draft v4 A20 and Part D |
+| **Source deficiencies** | AMB-1 (`stage-7-deficiency-dispositions.md` §3); the Stage 6 divergence at `stage-6-replication-comparison.md` §2.7 and §3.1 |
+| **Stage 7 disposition** | Returned unresolved — "Founder Office / Methodology room determination required"; classified at §9 as **"method contained ambiguous guidance"**, expressly **not author error either way** |
+| **Founder Office determination** | **`fd-0028` — Reading A adopted.** The four listed items are trail-source *categories*, not a conjunctive four-part completion gate |
+| **Draft v4 sections to be reconciled** | **A10** (trail-first procedure; observation preference); **Instrument 5** (sufficiency marker); **A20** (the limitation note); **Part D** (the carried-forward line); the **header** (freeze/amendment statements) |
+| **Change type** | semantic clarification / methodology-determination reconciliation |
+| **Prior test evidence for the element** | A10's trail-first paragraph was exercised in **three** applications and **produced two different procedural outcomes on the same subject at the same baseline** — which is evidence that the wording was ambiguous, not evidence for either reading |
+| **Materially unchanged?** | **No.** The reconciliation changes meaning, requirements, required evidence and limitations |
+| **Inherited rationale, changed behaviour?** | Yes — the rationale is the Founder Office determination; the behaviour it prescribes has never been applied |
+| **Fresh validation required?** | **YES.** A determination removes an ambiguity; it produces no application evidence |
+| **Class** | **MODIFIED_REQUIRES_REVALIDATION** on reconciliation. It is not NEW_STRUCTURAL: A10's procedure existed and was exercised. It ceases to be UNRESOLVED_LIMITATION only when the wording is actually reconciled |
+| **Reconciliation state** | **PREPARED, NOT APPLIED.** A repository-versioning determination is required first — see `a10-determination-reconciliation-record.md` §1–§2 |
+
+**Chronology, preserved in order** (`fd-0028` §2.9): Draft v4 was created at
+Stage 9 **carrying one unresolved limitation**; the Founder Office determined
+the question afterward; the bounded reconciliation follows the versioning
+determination. **Draft v4's digest is unchanged**, and the count at §3 — eight
+new structural treatments, eight modified, one disclosure, none inheriting
+validation — is a Stage 9 count and is not restated to include this item.
+
