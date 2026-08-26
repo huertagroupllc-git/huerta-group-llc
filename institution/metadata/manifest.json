@@ -4710,6 +4710,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "fd-0022-organizational-systems-methodology-stage-4-authorization",
+      "title": "fd-0022 \u2014 Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 3 Accepted and Closed, Stage 4 Authorized, Four Founder Clarifications Supplied",
+      "path": "institution/governance/determinations/fd-0022-organizational-systems-methodology-stage-4-authorization.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Discharges the Stage 3 clarification question: the Founder Office clarified Q3, Q14, Q18 and Q29 as Client-Stated evidence. Accepts and closes Stage 3, authorizes correction disposition and Draft v3, keeps Q8/Q12/Q13/Q17 as evidence, and withholds validated-through-use.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-25. Evidentiary \u2014 the record evidences the determinations and creates no authority. The clarifications it carries are Client-Stated evidence, not determinations; validated-through-use designation, external application, Method Library admission and software construction remain not authorized.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0021-organizational-systems-methodology-stage-3-completion-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "stage-4-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-set-session-2-clarifications"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "hgp-evidence-admission-record",
       "title": "HGP Evidence Admission Record \u2014 Provisional Evidentiary Methodology Support",
       "path": "institution/governance/methodology/hgp-evidence-admission-record.md",
@@ -4942,6 +4974,38 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "stage-4-execution-package",
+      "title": "Generation One \u2014 Stage 4: Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/stage-4-execution-package.md",
+      "type": "governing-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The Stage 4 instrument, preserved verbatim: Stage 3 accepted and closed, the four Founder clarifications, the bounded Q18 re-run, the sensemaking-versus-authority distinction, the authority-concentration rule, and the Draft v3 boundaries.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-25 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0022. Digest of the instrument text: 17a1e5dc8e12f3cfe65e7cf710e0603981d7cc60c836579c468ee6a1ecbdb56d. The clarifications it carries are Client-Stated evidence, not determinations.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0022-organizational-systems-methodology-stage-4-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        },
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-set-session-2-clarifications"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "organizational-diagnostic-draft-v2-correction-dispositions",
       "title": "Organizational Diagnostic \u2014 Generation One: Correction Dispositions for Draft v2",
       "path": "institution/governance/methodology/organizational-diagnostic-draft-v2-correction-dispositions.md",
@@ -5086,6 +5150,38 @@
         {
           "rel": "references",
           "target": "fd-0021-organizational-systems-methodology-stage-3-completion-authorization"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "stakeholder-evidence-set-session-2-clarifications",
+      "title": "Organizational Diagnostic \u2014 Generation One: Client-Stated Evidence Set, Session 2 (Founder Office Clarifications)",
+      "path": "institution/governance/methodology/stakeholder-evidence-set-session-2-clarifications.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The first clarification round: four Founder Office clarifications of Q3, Q14, Q18 and Q29 captured as new dated rows that add to \u2014 never replace \u2014 the session-1 answers, with the original ambiguity preserved and the untouched conflicts left unresolved.",
+      "provenance": {
+        "origin": "Founder Office (stakeholder session 2), captured by Institutional Platform Development",
+        "approvalReference": "Captured 2026-08-25 under fd-0022 \u00a72.2. Client-Stated unless independently corroborated; additive to session 1, which is unchanged; a clarification from the accountable authority is not corroboration.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "stakeholder-evidence-set-session-1"
+        },
+        {
+          "rel": "references",
+          "target": "stage-4-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0022-organizational-systems-methodology-stage-4-authorization"
         }
       ],
       "versioning": "git-history",

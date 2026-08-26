@@ -645,6 +645,39 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0022",
+      "title": "Founder Office Determinations: Organizational Systems Methodology \u2014 Stage 3 Accepted and Closed, Stage 4 Authorized, Four Founder Clarifications Supplied",
+      "path": "institution/governance/determinations/fd-0022-organizational-systems-methodology-stage-4-authorization.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Stage 4: Correction Disposition, Clarification Integration & Draft v3 execution package (Founder Office \u2192 Institutional Platform Development), accepting and closing Stage 3 as genuine internal validation evidence, fixing the method status at internally tested provisional diagnostic and expressly withholding the validated-through-use designation, supplying the Founder Office's own clarifications of Q3, Q14, Q18 and Q29 as Client-Stated evidence under a chronology rule that forbids erasing the original ambiguity, determining that Q8, Q12, Q13 and Q17 remain Client-Stated evidence and may not be elevated, closing the public-copy and fd-0006 questions without change, scoping the comparison re-run to Q18 alone within the seven existing classifications, requiring the diagnostic to distinguish sensemaking, clarification and routing from decision authority and the durable authoritative record without generalizing any Huerta mechanism, requiring authority concentration to be represented as an observed condition rather than a default, authorizing individual disposition of the ten Stage 3 correction proposals with the express rule that a Stage 3 recommendation is not adoption, and authorizing Draft v3 as a new organization-neutral provisional version \u2014 external application, Method Library admission, standardization, software construction, pricing and commercial packaging not authorized",
+      "dateReceived": "2026-08-25",
+      "recordedDate": "2026-08-25",
+      "determinationCount": 9,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0022-organizational-systems-methodology-stage-4-authorization.md",
+        "institution/governance/methodology/instruments/stage-4-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/stakeholder-evidence-set-session-2-clarifications.md",
+        "institution/governance/methodology/q18-reclassification-record.md",
+        "institution/governance/methodology/organizational-diagnostic-draft-v3-correction-dispositions.md",
+        "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v3.md",
+        "institution/governance/methodology/generation-one-stage-4-clarification-and-correction-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0021",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0020",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
