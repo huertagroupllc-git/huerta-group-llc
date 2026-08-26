@@ -986,6 +986,42 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0032",
+      "title": "Founder Office Determination: Organizational Diagnostic \u2014 RQ-1 Answered and Draft v6 Bounded Correction Construction Authorized",
+      "path": "institution/governance/determinations/fd-0032-organizational-diagnostic-draft-v6-construction-and-rq1-determination.md",
+      "instrument": "Huerta Group Organizational Systems Methodology \u2014 Generation One \u2014 Draft v6 Bounded Correction Construction execution package (Founder Office to Institutional Platform Development), answering the reserved question RQ-1 as Alternative B and authorizing construction of Draft v6 \u2014 determining that A15's terminating preceding question may be answered affirmatively only where the capability's existence is supported as Observed evidence under the existing A2 model, because an affirmative answer can end the Technology-Worthiness Test before its substantive questions decide and the condition that shortcut rests on must therefore be established rather than asserted; fixing that for A15 only, already exists means established to exist and expressly does not mean described, claimed, planned, referenced in a record, believed by a participant, or technically reachable; forbidding any redefinition of Observed and holding that where a supplied organizational record states a capability exists the record's existence and contents may be Observed while the asserted capability condition does not automatically become Observed, with existing A2 corroboration and classification rules remaining controlling; prohibiting the threshold from creating any preference of Observed over Client-Stated, evidence hierarchy, reliability, credibility or quality ranking, weighting, or global preference for Observed evidence, as a bounded exception justified only because this specific question can terminate inquiry; requiring Client-Stated capability assertions to be recorded with provenance and classification, the terminating condition recorded as not established affirmatively, and the ordinary test continued, while holding that failing the shortcut implies neither that the assertion is false nor that anything should be built and that the full test may still conclude the existing system should be improved rather than replaced; holding that a records-only diagnosis may be unable to use the shortcut and that this does not block Instrument 9; expressly declining the access alternative and holding that reachability does not prove a claimed capability exists while access remains relevant to limitations, coverage, advancement and verifiability; requiring Instrument 9 reconciled to the same threshold while preserving V6-07's evidence-class recording, the five permitted outcomes, and the rule that need authorizes nothing; requiring Stage 10 preserved unrewritten with its applier not retroactively classified as incorrect and its application preserved as historical evidence of why RQ-1 required determination; preserving RQ-2 as unresolved and non-blocking with disclosure treatment only, and the participant-dependent provisions as validation gaps under the rule that unexercised is not defective; holding that Draft v6 does not inherit Draft v5 validation automatically; and carrying a stop rule requiring any genuinely new semantic conflict to be returned rather than resolved by drafting discretion \u2014 while withholding Draft v6 validation, application to HGP or Huerta Group LLC, external application, Draft v7, Method Library admission, standardization, software, scoring, maturity models and commercialization",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 10,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0032-organizational-diagnostic-draft-v6-construction-and-rq1-determination.md",
+        "institution/governance/methodology/instruments/draft-v6-construction-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v6.md",
+        "institution/governance/methodology/draft-v6-traceability.md",
+        "institution/governance/methodology/organizational-diagnostic-draft-v6-integrity-record.md",
+        "institution/governance/methodology/draft-v6-construction-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0031",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0030",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0029",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

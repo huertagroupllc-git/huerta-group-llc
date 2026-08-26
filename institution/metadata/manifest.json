@@ -5040,6 +5040,39 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
+      "id": "fd-0032-organizational-diagnostic-draft-v6-construction-and-rq1-determination",
+      "title": "fd-0032 \u2014 Founder Office Determination: Organizational Diagnostic \u2014 RQ-1 Answered and Draft v6 Bounded Correction Construction Authorized",
+      "path": "institution/governance/determinations/fd-0032-organizational-diagnostic-draft-v6-construction-and-rq1-determination.md",
+      "type": "decision-record",
+      "statusNote": "RQ-1 determined as Alternative B: A15's terminating preceding question requires Observed evidence of the capability's existence. The threshold is bounded to that one question; A2 is not redefined and acquires no ordering. Draft v6 validation, application, and Draft v7 are not authorized.",
+      "summary": "Answers RQ-1 and authorizes Draft v6 bounded to seven Stage 11 items plus the determination \u2014 with access expressly declined as proof of existence and Client-Stated assertions preserved as valid evidence.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary \u2014 the record evidences the determinations and creates no authority. Three deficiencies recorded, including that Development framed the alternatives it now implements, and that the determination's principal risk is behavioural and untestable by construction review.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-construction-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "stage-11-draft-v6-change-set"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
       "id": "stage-11-exercise-matrix-reconciliation",
       "title": "Stage 11 \u2014 Exercise-Matrix Reconciliation, and a Stage 10 Corpus Discrepancy",
       "path": "institution/governance/methodology/stage-11-exercise-matrix-reconciliation.md",
@@ -5645,6 +5678,34 @@
         {
           "rel": "references",
           "target": "fd-0031-organizational-diagnostic-stage-11-finding-and-correction-disposition"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v6-construction-execution-package",
+      "title": "Generation One \u2014 Draft v6 Bounded Correction Construction \u2014 Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/draft-v6-construction-execution-package.md",
+      "type": "governing-record",
+      "summary": "The Draft v6 instrument, preserved verbatim: RQ-1 answered as Alternative B, construction bounded to seven Stage 11 items plus that determination, and A2 expressly not redefined by it.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 \u00a72.4 through the canonical-source preservation standard; recorded at fd-0032. Digest of the preserved instrument text: 3aeac139f9786fe9e4c04541022a00cd9b6d677c18864b6a675b187e560b4724; digest as received, without its absent trailing newline: b69d04f7cd90e738865ac7adfb5cc819450e95dddddc67826d822e016a48977d.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0032-organizational-diagnostic-draft-v6-construction-and-rq1-determination"
         },
         {
           "rel": "references",
