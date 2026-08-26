@@ -4473,6 +4473,47 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "organizational-diagnostic-generation-one-draft",
+      "title": "Huerta Group Organizational Diagnostic \u2014 Generation One (Provisional Draft)",
+      "path": "institution/governance/methodology/organizational-diagnostic-generation-one-draft.md",
+      "type": "plan",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "statusNote": "PROVISIONAL \u2014 working concept advancing toward draft (Methodology Foundation v1 \u00a75.1, \u00a76.3). Not an approved method, Method Library record, standard, or instrument set; no external validity. Frozen by commit before the self-application dry run; corrections recorded separately.",
+      "summary": "The provisional Organizational Diagnostic method (evidentiary baseline, twelve discovery stages, evidence classes, provenance rules, advancement logic, non-prescription rules, limitations) and its ten provisional working instruments, in organization-neutral language.",
+      "provenance": {
+        "origin": "Institutional Platform Development (provisional methodology draft)",
+        "approvalReference": "Authorized as provisional development only under fd-0019 \u00a72.10\u2013\u00a72.12; carries no methodological authority; mr-0004 and the Methodology Foundation govern.",
+        "effectiveDate": "2026-08-25"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "methodology-foundation-v1"
+        },
+        {
+          "rel": "references",
+          "target": "mr-0004-organizational-improvement-work-progression-v1"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0019-organizational-systems-methodology-stage-2-authorization"
+        },
+        {
+          "rel": "references",
+          "target": "generation-one-discovery-report"
+        },
+        {
+          "rel": "references",
+          "target": "hgp-evidence-admission-package"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
