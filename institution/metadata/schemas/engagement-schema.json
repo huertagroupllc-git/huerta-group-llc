@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://huertagroupllc.com/institution/metadata/schemas/engagement-schema.json",
   "title": "Client Engagement Registry Schema",
-  "description": "Validates the client engagement registry under the Client Engagement Operating Standard (Generation One P0, fd-0037). Registry entries record governed operating facts; they never create authority, authorization, scope, confidentiality obligations, or permission to act for a client. Enums and constants encode the standard's invariants by construction: Organization, Person, Opportunity and Engagement are separate collections with disjoint identifiers, so an opportunity cannot be an engagement and a person cannot be an organization; a Founder disposition of accept carries no activation power; an engagement's status may be 'active' only where all eight activation prerequisites are established; every client-authority capacity must carry a value and 'unresolved' is valid; custody classes are closed and the confidential classes may not be held repository-native; evidence registrations carry no findings; and learning candidates are candidates only, with no admitted state available in this version.",
+  "description": "Validates the client engagement registry under the Client Engagement Operating Standard (Generation One, fd-0037 and fd-0038). Registry entries record governed operating facts; they never create authority, authorization, scope, confidentiality obligations, or permission to act for a client. Enums and constants encode the standard's invariants by construction: Organization, Person, Opportunity and Engagement are separate collections with disjoint identifiers, so an opportunity cannot be an engagement and a person cannot be an organization; a Founder disposition of accept carries no activation power; an engagement's status may be 'active' only where all eight activation prerequisites are established; every client-authority capacity must carry a value and 'unresolved' is valid; custody classes are closed and the confidential classes may not be held repository-native; evidence registrations carry no findings; and learning candidates are candidates only, with no admitted state available in this version.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -851,7 +851,15 @@
                     "access_changed",
                     "evidence_registered",
                     "activation_blocked",
-                    "engagement_closed"
+                    "engagement_closed",
+                    "diagnostic_opened",
+                    "finding_recorded",
+                    "recommendation_made",
+                    "client_decision_recorded",
+                    "work_authorized",
+                    "deliverable_transferred",
+                    "validation_recorded",
+                    "follow_up_recorded"
                   ]
                 },
                 "detail": {
@@ -976,6 +984,478 @@
                 "status": {
                   "const": "candidate",
                   "description": "Candidate only. No admitted state exists in this version; admission is a separate governed act."
+                }
+              }
+            }
+          },
+          "diagnosticInstances": {
+            "type": "array",
+            "description": "A diagnostic performed WITHIN an engagement. Diagnostic is not Engagement: an engagement may have none, one, or several.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "purpose",
+                "status"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^dgn-[0-9]{4}$"
+                },
+                "purpose": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "enum": [
+                    "open",
+                    "suspended",
+                    "closed"
+                  ]
+                }
+              }
+            }
+          },
+          "participantEvidence": {
+            "type": "array",
+            "description": "Metadata and a custody pointer only. Carries no participant content: reference to confidential material is not custody of it.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "participantRef",
+                "sourceType",
+                "custodyReferenceId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^pev-[0-9]{4}$"
+                },
+                "participantRef": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sourceType": {
+                  "enum": [
+                    "person_or_stakeholder_account",
+                    "organizational_or_institutional_record",
+                    "supplied_institutional_source",
+                    "systematic_verification_record",
+                    "other"
+                  ]
+                },
+                "custodyReferenceId": {
+                  "type": "string",
+                  "pattern": "^cus-[0-9]{4}$"
+                },
+                "dateContext": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "findings": {
+            "type": "array",
+            "description": "Evidence is not Finding. A finding is a separate object that must cite registered evidence; registering evidence creates no finding.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "statement",
+                "evidenceClass",
+                "supportingEvidenceIds"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^fnd-[0-9]{4}$"
+                },
+                "statement": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidenceClass": {
+                  "enum": [
+                    "Observed",
+                    "Client-Stated",
+                    "Inferred"
+                  ]
+                },
+                "supportingEvidenceIds": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "pattern": "^evd-[0-9]{4}$"
+                  }
+                }
+              }
+            }
+          },
+          "contradictions": {
+            "type": "array",
+            "description": "Both sides kept. No resolved state exists.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "statementA",
+                "statementB",
+                "preserved"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^con-[0-9]{4}$"
+                },
+                "statementA": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "statementB": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "preserved": {
+                  "const": true,
+                  "description": "Contradictions are preserved, never reconciled by the diagnostic team."
+                }
+              }
+            }
+          },
+          "limitations": {
+            "type": "array",
+            "description": "Limitations on what the engagement's evidence can support.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "statement"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^lim-[0-9]{4}$"
+                },
+                "statement": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "reservedQuestions": {
+            "type": "array",
+            "description": "Client Question is not Client Decision. Asking does not answer.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "question",
+                "authorityCapacity",
+                "answeredBy"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^rqx-[0-9]{4}$"
+                },
+                "question": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "authorityCapacity": {
+                  "enum": [
+                    "authorize_engagement",
+                    "provide_access",
+                    "organizational_decisions",
+                    "approve_changes",
+                    "receive_deliverables",
+                    "authorize_implementation"
+                  ]
+                },
+                "answeredBy": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "A client person id, or null. Huerta Group never answers a question reserved to client authority."
+                }
+              }
+            }
+          },
+          "recommendations": {
+            "type": "array",
+            "description": "A recommendation rests on findings and authorizes nothing.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "statement",
+                "basisFindingIds",
+                "authorizes"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^rec-[0-9]{4}$"
+                },
+                "statement": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "basisFindingIds": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "pattern": "^fnd-[0-9]{4}$"
+                  }
+                },
+                "authorizes": {
+                  "const": false,
+                  "description": "Recommendation is not Authorization. There is no value of this field that authorizes work."
+                }
+              }
+            }
+          },
+          "clientDecisions": {
+            "type": "array",
+            "description": "A client decision can authorize only what its authority supports.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "decision",
+                "decidedBy",
+                "capacityRelied"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^dec-[0-9]{4}$"
+                },
+                "decision": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "decidedBy": {
+                  "type": "string",
+                  "pattern": "^per-[0-9]{4}$"
+                },
+                "capacityRelied": {
+                  "enum": [
+                    "authorize_engagement",
+                    "provide_access",
+                    "organizational_decisions",
+                    "approve_changes",
+                    "receive_deliverables",
+                    "authorize_implementation"
+                  ],
+                  "description": "The capacity relied on must be established and held by the decider."
+                },
+                "respondsToRecommendationId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "authorizedWork": {
+            "type": "array",
+            "description": "Authorized Work is not Recommendation.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "description",
+                "authorizingDecisionId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^awk-[0-9]{4}$"
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "authorizingDecisionId": {
+                  "type": "string",
+                  "pattern": "^dec-[0-9]{4}$",
+                  "description": "Work traces to a client decision, never to a recommendation."
+                }
+              }
+            }
+          },
+          "workProducts": {
+            "type": "array",
+            "description": "Internal working output of authorized work.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "description",
+                "authorizedWorkId",
+                "isDeliverable"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^wkp-[0-9]{4}$"
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "authorizedWorkId": {
+                  "type": "string",
+                  "pattern": "^awk-[0-9]{4}$"
+                },
+                "isDeliverable": {
+                  "const": false,
+                  "description": "Work Product is not Deliverable, and does not become one by being useful."
+                }
+              }
+            }
+          },
+          "deliverables": {
+            "type": "array",
+            "description": "A deliverable derives from a work product by a deliberate act.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "description",
+                "fromWorkProductId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^dlv-[0-9]{4}$"
+                },
+                "description": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "fromWorkProductId": {
+                  "type": "string",
+                  "pattern": "^wkp-[0-9]{4}$"
+                },
+                "transferredDate": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "acceptedBy": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "pattern": "^per-[0-9]{4}$"
+                }
+              }
+            }
+          },
+          "validationRecords": {
+            "type": "array",
+            "description": "Validation of delivered work, recorded in prose. Never a score.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "subject",
+                "result"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^val-[0-9]{4}$"
+                },
+                "subject": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "result": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "closure": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "status",
+              "unresolvedConditions"
+            ],
+            "properties": {
+              "status": {
+                "enum": [
+                  "open",
+                  "closed_as_application_record",
+                  "complete"
+                ]
+              },
+              "unresolvedConditions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "description": "An engagement may not be 'complete' while any unresolved condition stands."
+          },
+          "followUps": {
+            "type": "array",
+            "description": "Obligations surviving closure.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "item",
+                "owner"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^fup-[0-9]{4}$"
+                },
+                "item": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "owner": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "dueContext": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
                 }
               }
             }

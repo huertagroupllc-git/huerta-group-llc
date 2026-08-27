@@ -2,13 +2,18 @@
 
 **Classification: Development Standards and Architecture Decisions**
 
-- **Status:** **Proposed** — awaiting Founder Office ratification. Under the ADR
-  practice, *"any ADR whose substance touches institutional policy, Company
-  strategy, commercial terms, disclosure, or constitutional matters requires the
-  owner's explicit ratification before Accepted status."* This decision governs
-  the custody of **third-party confidential material** and depends on a
-  **capital-allocation decision `fd-0015` presently withholds**. It is the
-  owner's.
+- **Status:** **Accepted** — ratified by the Founder Office, 2026-08-26. Under
+  the ADR practice this decision required the owner's explicit ratification
+  because it governs the custody of **third-party confidential material**;
+  ratification was given expressly.
+- **Implementation path varied by `adr-0022`.** The architecture below is
+  unchanged and remains load-bearing — authenticated identity, default deny,
+  explicit grants, revocability, data- and storage-layer enforcement,
+  confidential material outside the ordinary corpus and outside institution-wide
+  context, provenance, and cross-client isolation. **What `adr-0022` varies is
+  only where and when it is implemented**, after a capacity verification
+  established that no additional hosted project is available without
+  expenditure `fd-0015` withholds.
 - **Work items:** CUSTODY-01 · ISO-01 (`fd-0037` §4 Deficiencies 4 and 5).
 - **Implementation:** **none.** No project, bucket, schema, migration, policy,
   account, or credential is created by this ADR.

@@ -6,9 +6,15 @@ approved Company-wide governance). Produced under `fd-0037`.
 
 **What this standard is for.** So that Huerta Group LLC can accept its first
 outside client **without improvising** authority, scope, confidentiality,
-custody, provenance, or institutional rules. It governs the path from an
-outside organization first becoming known to the Company through to the
-boundary at which an engagement may become active — **and no further.**
+custody, provenance, or institutional rules.
+
+**Scope, extended under `fd-0038`.** It governed the path from an outside
+organization becoming known through to engagement activation. It now governs the
+**whole operating chain**: *opportunity → Founder disposition → engagement
+authorization → engagement operation → evidence and work → decisions →
+deliverables → closure.* **The activation gate at §4 remains the hinge**, and
+nothing downstream of it may be recorded for an engagement that has not passed
+it.
 
 **What it is not.** Not a consulting lifecycle, not a CRM, not a
 project-management system, not a contract or its doctrine, not a pricing or
@@ -44,6 +50,22 @@ mechanically enforced.
 8. **Work Product ≠ Deliverable.** Internal working material is not a
    deliverable, and does not become one by being useful.
 9. **Client-specific learning ≠ Huerta Group institutional knowledge.** §7.
+
+**Three further distinctions the operating chain requires**, added under
+`fd-0038` and held the same way:
+
+10. **Authorized Work ≠ Recommendation.** Work traces to a **client decision**,
+    never to a recommendation. A recommendation carries a field whose only
+    permitted value is that it authorizes nothing.
+11. **Metadata ≠ raw confidential evidence.** A registration records that
+    material exists and how it is held. It never carries the material.
+12. **A reference to confidential material ≠ custody of it.** The reference may
+    live in a governed record; the material may not.
+
+**And one rule that makes the chain honest end to end.** A client decision may
+authorize only what **its own authority supports**: the capacity it relies on
+must be *established*, and the person deciding must be the person who holds it.
+Authority is not conferred by deciding.
 
 ## 2. Objects, and the narrowest representation of each
 
@@ -195,6 +217,17 @@ registrations carry no findings or conclusions; that learning candidates are
 candidates only; and **that no file in the governed corpus is marked as carrying
 client-confidential material.**
 
+**The operating chain is enforced the same way.** Engagement work may not be
+recorded against an engagement that has not activated; a finding must cite
+registered evidence; a recommendation must rest on findings and authorizes
+nothing; a client decision must rely on an established capacity held by the
+decider; authorized work must trace to a decision and is refused if it cites a
+recommendation; a work product must trace to authorized work and cannot be
+marked a deliverable; a deliverable must derive from a work product;
+participant-evidence records carrying content fields are refused; contradictions
+have no resolved state; and closure may not be *complete* while any condition
+remains unresolved.
+
 **A rule that is not enforced is a rule the first busy day removes.**
 
 ## 9. What this standard does not decide
@@ -202,12 +235,13 @@ client-confidential material.**
 - **The authorization instrument** — Administration & Compliance (§4).
 - **Official Huerta Group business email identity** — Administration &
   Compliance; a first-engagement prerequisite.
-- **Where raw client material is actually held.** `adr-0004` reserves data
-  topology for the second data-owning system's own ADR, and states that
-  **client-confidential records demand the strongest isolation**. The current
-  Supabase project **owns inquiry records only** and is expressly not the
-  Company database. **No client custody store is established by this
-  standard**, and none may be improvised.
+- **Where raw client material is actually held.** Decided in principle by
+  `adr-0021` and placed by `adr-0022`: a separate application and repository
+  with its own Supabase project, local while it is being built and hosted when
+  authorized. **The current Supabase project owns inquiry records only**, and
+  `adr-0003` holds that client-confidential data never shares a runtime or
+  repository with the public website. **No client custody store exists yet**,
+  and none may be improvised.
 - **Scoped operator access.** `adr-0006` introduces authentication only when a
   real capability requires it. Until then, access to any store is by shared
   credential and **cannot be scoped per operator** — an isolation requirement

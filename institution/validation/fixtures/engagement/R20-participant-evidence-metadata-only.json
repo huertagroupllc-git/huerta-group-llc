@@ -1,0 +1,227 @@
+{
+  "registryVersion": "1.0.0",
+  "organizations": [
+    {
+      "id": "org-0001",
+      "name": "PLACEHOLDER ORGANIZATION (hypothetical)",
+      "status": "prospective",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "persons": [
+    {
+      "id": "per-0001",
+      "name": "PLACEHOLDER PERSON (hypothetical)",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-0001",
+      "personId": "per-0001",
+      "organizationId": "org-0001",
+      "capacity": "placeholder contact capacity",
+      "status": "current",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp-0001",
+      "organizationId": "org-0001",
+      "summary": "PLACEHOLDER possible work (hypothetical)",
+      "recordedDate": "2026-08-26",
+      "primaryContactRelationshipId": "rel-0001",
+      "disposition": {
+        "value": "accept",
+        "recordedDate": "2026-08-26",
+        "reason": "hypothetical fixture"
+      }
+    }
+  ],
+  "engagements": [
+    {
+      "id": "eng-0001",
+      "organizationId": "org-0001",
+      "originatingOpportunityId": "opp-0001",
+      "name": "PLACEHOLDER engagement (hypothetical)",
+      "status": "active",
+      "recordedDate": "2026-08-26",
+      "scope": {
+        "authorizedWork": "PLACEHOLDER authorized work",
+        "incorporatedByReference": null,
+        "materialExclusions": [
+          "PLACEHOLDER exclusion"
+        ]
+      },
+      "clientAuthority": {
+        "authorize_engagement": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "provide_access": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "organizational_decisions": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "approve_changes": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "receive_deliverables": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "authorize_implementation": {
+          "holder": "per-0001",
+          "basis": "established"
+        }
+      },
+      "huertaGroupAssignment": [
+        {
+          "responsibility": "engagement_lead",
+          "currentHolder": "Founder Office (current assignment)"
+        }
+      ],
+      "confidentiality": {
+        "obligationsStatus": "established",
+        "reference": null,
+        "accessBoundary": null
+      },
+      "activation": {
+        "prerequisites": {
+          "parties": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "authorized_work_or_scope": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "material_exclusions": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "client_authority_person": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "commercial_basis": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "authorization_to_perform": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "confidentiality_obligations": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "acceptance_evidence": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          }
+        },
+        "blockedBy": [],
+        "authorizationInstrumentRef": "PLACEHOLDER instrument ref"
+      },
+      "chronology": [
+        {
+          "date": "2026-08-26",
+          "event": "opportunity_created",
+          "detail": "hypothetical fixture"
+        },
+        {
+          "date": "2026-08-26",
+          "event": "engagement_activated",
+          "detail": "hypothetical fixture"
+        }
+      ],
+      "custodyReferences": [
+        {
+          "id": "cus-0001",
+          "class": "CLIENT_SOURCE",
+          "sourceIdentity": "PLACEHOLDER",
+          "location": "external://isolated-client-store/PLACEHOLDER",
+          "repositoryNative": false,
+          "accessBoundary": "engagement-scoped",
+          "confidentialityCondition": "client-confidential"
+        }
+      ],
+      "evidenceRegistrations": [
+        {
+          "id": "evd-0001",
+          "sourceIdentity": "PLACEHOLDER",
+          "sourceType": "organizational_or_institutional_record",
+          "custodyReferenceId": "cus-0001",
+          "accessCondition": "client-confidential"
+        }
+      ],
+      "findings": [
+        {
+          "id": "fnd-0001",
+          "statement": "PLACEHOLDER finding",
+          "evidenceClass": "Observed",
+          "supportingEvidenceIds": [
+            "evd-0001"
+          ]
+        }
+      ],
+      "recommendations": [
+        {
+          "id": "rec-0001",
+          "statement": "PLACEHOLDER recommendation",
+          "basisFindingIds": [
+            "fnd-0001"
+          ],
+          "authorizes": false
+        }
+      ],
+      "clientDecisions": [
+        {
+          "id": "dec-0001",
+          "decision": "PLACEHOLDER decision",
+          "decidedBy": "per-0001",
+          "capacityRelied": "authorize_implementation",
+          "respondsToRecommendationId": "rec-0001"
+        }
+      ],
+      "authorizedWork": [
+        {
+          "id": "awk-0001",
+          "description": "PLACEHOLDER work",
+          "authorizingDecisionId": "dec-0001"
+        }
+      ],
+      "workProducts": [
+        {
+          "id": "wkp-0001",
+          "description": "PLACEHOLDER product",
+          "authorizedWorkId": "awk-0001",
+          "isDeliverable": false
+        }
+      ],
+      "deliverables": [
+        {
+          "id": "dlv-0001",
+          "description": "PLACEHOLDER deliverable",
+          "fromWorkProductId": "wkp-0001",
+          "transferredDate": "2026-08-26",
+          "acceptedBy": "per-0001"
+        }
+      ],
+      "participantEvidence": [
+        {
+          "id": "pev-0001",
+          "participantRef": "PLACEHOLDER",
+          "sourceType": "person_or_stakeholder_account",
+          "custodyReferenceId": "cus-0001"
+        }
+      ]
+    }
+  ]
+}

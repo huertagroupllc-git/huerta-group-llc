@@ -13,5 +13,17 @@
   "R11-learning-candidate-self-admission-refused": 1,
   "R11b-learning-candidate-recorded": 0,
   "R12-all-prerequisites-established-activates": 0,
-  "R13-untruthful-blockedBy-refused": 1
+  "R13-untruthful-blockedBy-refused": 1,
+  "R14-full-chain-evidence-to-deliverable": 0,
+  "R15-recommendation-cannot-authorize-work": 1,
+  "R16-decision-without-established-capacity-refused": 1,
+  "R17-decision-by-non-holder-refused": 1,
+  "R18-work-product-as-deliverable-refused": 1,
+  "R19-finding-without-registered-evidence-refused": 1,
+  "R20-participant-evidence-metadata-only": 0,
+  "R21-participant-evidence-with-content-refused": 1,
+  "R22-work-before-activation-refused": 1,
+  "R23-closure-complete-with-unresolved-refused": 1,
+  "R24-closure-as-application-record-permitted": 0,
+  "R25-contradiction-preserved": 0
 }

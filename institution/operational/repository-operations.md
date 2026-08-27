@@ -26,9 +26,21 @@ never what they are.
 - Supabase and Vercel for this repository live under **dedicated
   Huerta Group accounts** (Supabase organization "Huerta Group LLC",
   project ref `egvfsijyjocflvxhfldh`; Vercel scope
-  `huertagroupllc-git`) — deliberately separate from any other
-  project's accounts. Verify the account scope before any platform
+  `huertagroupllc-git`). Verify the account scope before any platform
   operation.
+- **Correction, 2026-08-26 — the Supabase account is dedicated at the
+  *project* level, not at the *organization* level.** This entry
+  previously said the accounts were "deliberately separate from any
+  other project's accounts." Direct inspection of the authenticated
+  account establishes that the Supabase organization
+  `sedhnswxjkkqctfzlsth` contains **three** projects:
+  `huerta-group-llc`, `huerta-group-publishing`, and `curbside-spa` —
+  the last being a separate business's project. Supabase grants project
+  access through organization membership, so the organization is a
+  shared administrative and credential boundary. Recorded rather than
+  quietly amended, because the earlier claim was relied on by
+  `adr-0021`'s isolation reasoning; the consequence is carried as an
+  unresolved dependency at `adr-0022`.
 - Runtime secrets exist only as Vercel project environment variables
   and local `.env.local`; the variable names are documented in
   `.env.example`. This Supabase project uses the current secret-key

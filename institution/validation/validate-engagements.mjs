@@ -189,6 +189,80 @@ for (const e of reg.engagements) {
     if (l.status !== "candidate")
       fail(`${id}/${l.id}: learning candidate status "${l.status}" — client material never admits itself`);
 
+  // ---- P1 chain: authorization must flow, and the distinctions must hold ----
+  const P1 = ["diagnosticInstances","participantEvidence","findings","contradictions","limitations",
+              "reservedQuestions","recommendations","clientDecisions","authorizedWork","workProducts",
+              "deliverables","validationRecords","followUps"];
+  const p1Present = P1.some((k) => Array.isArray(e[k]) && e[k].length) || !!e.closure;
+  // Engagement work presupposes an authorized engagement.
+  if (p1Present && e.status !== "active" && e.status !== "closed")
+    fail(`${id}: engagement work is recorded while status is "${e.status}" — work presupposes an activated engagement`);
+
+  const evdIds = new Set((e.evidenceRegistrations ?? []).map((x) => x.id));
+  const fndIds = new Set((e.findings ?? []).map((x) => x.id));
+  const recIds = new Set((e.recommendations ?? []).map((x) => x.id));
+  const decIds = new Set((e.clientDecisions ?? []).map((x) => x.id));
+  const awkIds = new Set((e.authorizedWork ?? []).map((x) => x.id));
+  const wkpIds = new Set((e.workProducts ?? []).map((x) => x.id));
+
+  for (const pe of e.participantEvidence ?? []) {
+    if (!custodyIds.has(pe.custodyReferenceId))
+      fail(`${id}/${pe.id}: participant evidence custodyReferenceId does not resolve within this engagement`);
+    for (const k of Object.keys(pe))
+      if (/content|text|body|transcript|quote/i.test(k))
+        fail(`${id}/${pe.id}: participant evidence carries a content field "${k}" — metadata is not raw evidence`);
+  }
+  // EVIDENCE IS NOT FINDING: a finding must cite registered evidence.
+  for (const f of e.findings ?? [])
+    for (const ref of f.supportingEvidenceIds ?? [])
+      if (!evdIds.has(ref))
+        fail(`${id}/${f.id}: finding cites evidence ${ref} that is not registered in this engagement`);
+  // RECOMMENDATION IS NOT AUTHORIZATION.
+  for (const r of e.recommendations ?? []) {
+    if (r.authorizes !== false) fail(`${id}/${r.id}: recommendation claims to authorize`);
+    for (const ref of r.basisFindingIds ?? [])
+      if (!fndIds.has(ref)) fail(`${id}/${r.id}: recommendation cites finding ${ref} that does not exist`);
+  }
+  // A CLIENT DECISION CAN AUTHORIZE ONLY WHAT ITS AUTHORITY SUPPORTS.
+  for (const d of e.clientDecisions ?? []) {
+    if (!perIds.has(d.decidedBy)) fail(`${id}/${d.id}: decidedBy ${d.decidedBy} does not resolve to a person`);
+    const cap = e.clientAuthority?.[d.capacityRelied];
+    if (!cap || cap.basis !== "established")
+      fail(`${id}/${d.id}: decision relies on capacity "${d.capacityRelied}" whose basis is not established`);
+    else if (cap.holder !== d.decidedBy)
+      fail(`${id}/${d.id}: ${d.decidedBy} decided under a capacity held by ${cap.holder}`);
+    if (d.respondsToRecommendationId && !recIds.has(d.respondsToRecommendationId))
+      fail(`${id}/${d.id}: responds to a recommendation that does not exist`);
+  }
+  // AUTHORIZED WORK IS NOT RECOMMENDATION.
+  for (const w of e.authorizedWork ?? []) {
+    if (recIds.has(w.authorizingDecisionId))
+      fail(`${id}/${w.id}: work authorized by a recommendation — a recommendation authorizes nothing`);
+    if (!decIds.has(w.authorizingDecisionId))
+      fail(`${id}/${w.id}: authorizingDecisionId does not resolve to a client decision`);
+  }
+  // WORK PRODUCT IS NOT DELIVERABLE.
+  for (const w of e.workProducts ?? []) {
+    if (w.isDeliverable !== false) fail(`${id}/${w.id}: work product marked as a deliverable`);
+    if (!awkIds.has(w.authorizedWorkId))
+      fail(`${id}/${w.id}: work product does not trace to authorized work`);
+  }
+  for (const d of e.deliverables ?? []) {
+    if (!wkpIds.has(d.fromWorkProductId))
+      fail(`${id}/${d.id}: deliverable does not derive from a work product`);
+    if (d.acceptedBy && !perIds.has(d.acceptedBy))
+      fail(`${id}/${d.id}: acceptedBy does not resolve to a person`);
+  }
+  // CLIENT QUESTION IS NOT CLIENT DECISION.
+  for (const q of e.reservedQuestions ?? [])
+    if (q.answeredBy && !perIds.has(q.answeredBy))
+      fail(`${id}/${q.id}: reserved question answered by ${q.answeredBy}, which is not a recorded person`);
+  for (const c of e.contradictions ?? [])
+    if (c.preserved !== true) fail(`${id}/${c.id}: contradiction not preserved`);
+  // CLOSURE.
+  if (e.closure && e.closure.status === "complete" && (e.closure.unresolvedConditions ?? []).length)
+    fail(`${id}: closure "complete" while ${e.closure.unresolvedConditions.length} condition(s) remain unresolved`);
+
   const hq = e.seams?.headquartersRepresentation;
   if (hq) {
     for (const forbidden of ["rawEvidence", "testimony", "findings", "clientDecisions", "confidentialContent", "workHistory"])
