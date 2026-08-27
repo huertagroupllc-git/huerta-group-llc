@@ -5180,6 +5180,43 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
+      "id": "fd-0036-organizational-diagnostic-draft-v7-construction",
+      "title": "fd-0036 — Founder Office Authorization: Organizational Diagnostic — Post-Draft-v6 Semantic Determinations & Draft v7 Construction",
+      "path": "institution/governance/determinations/fd-0036-organizational-diagnostic-draft-v7-construction.md",
+      "type": "decision-record",
+      "statusNote": "Determines all five Draft v6 method defects and RQ-G, and authorizes Draft v7. Draft v7 validation, any application, external work, Draft v8 and Draft v6 modification remain unauthorized.",
+      "summary": "Founder Office determinations on MD-1 through MD-5 and RQ-G, authorizing bounded construction of Draft v7 from frozen Draft v6 with a closed authority list, mandatory preconstruction traceability, and absolute protection of A2's evidence model.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary — the record evidences the determinations and creates no authority. Four deficiencies recorded, including that Draft v7 was drafted by the office whose method it is and that MD-2's treatment rests on a reading Development records as its own.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0035-organizational-diagnostic-draft-v6-clarification-reconciliation"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v7-construction-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v7"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-participant-validation-completion-report"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
       "id": "stage-11-exercise-matrix-reconciliation",
       "title": "Stage 11 — Exercise-Matrix Reconciliation, and a Stage 10 Corpus Discrepancy",
       "path": "institution/governance/methodology/stage-11-exercise-matrix-reconciliation.md",
@@ -5897,6 +5934,34 @@
         {
           "rel": "references",
           "target": "fd-0035-organizational-diagnostic-draft-v6-clarification-reconciliation"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v7-construction-execution-package",
+      "title": "Generation One — Post-Draft-v6 Semantic Determinations & Draft v7 Construction — Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/draft-v7-construction-execution-package.md",
+      "type": "governing-record",
+      "summary": "The instrument authorizing Draft v7, preserved verbatim: Founder Office determinations on all five Draft v6 method defects and RQ-G custody, a closed authority list, a preconstruction traceability requirement, and absolute protection of A2.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 §2.4 through the canonical-source preservation standard; recorded at fd-0036. Digest of the preserved instrument text: 1ffcff2351c877ea055a0e1653855429a9f7b44298728d6acffb84682daecf00; digest as received, without its absent trailing newline: c58df853312a70f0aa727baaa6ad484dfe8bc3f775ad996cf098f746d5fb6ffb.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0036-organizational-diagnostic-draft-v7-construction"
         },
         {
           "rel": "references",
@@ -6671,6 +6736,200 @@
         {
           "rel": "references",
           "target": "stage-11-draft-v6-change-set"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "organizational-diagnostic-generation-one-draft-v7",
+      "title": "Huerta Group Organizational Diagnostic — Generation One, Draft v7",
+      "path": "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v7.md",
+      "type": "status-record",
+      "statusNote": "PROVISIONAL DRAFT — UNTESTED AS A VERSION. Applied to nothing. Not approved methodology, not a Method Library record, not validated through use, not externally validated. Draft v6 remains frozen and historically readable.",
+      "summary": "Draft v6 plus the Founder Office determinations on MD-1 through MD-5 and RQ-G: the A15 threshold extended to both limbs, dormant-capability evidence, a sixth Technology-Worthiness outcome, an A20 anti-hierarchy disclosure, A18 outcome chronology, and a custody clarification. A2 byte-identical.",
+      "provenance": {
+        "origin": "Institutional Platform Development, under Founder Office authorization",
+        "approvalReference": "Constructed 2026-08-26 under fd-0036 from frozen Draft v6 d2f64ee2…4600a238b10. SHA-256 85213ad3928502ae64a19f2aca5a7c3f2b349384184e9c1d3ded66b7cc765adc. Six authorities, none exceeded; 13 diff hunks across 7 locations plus §D8. Drafts v1–v6 verified unchanged before and after.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v6"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0036-organizational-diagnostic-draft-v7-construction"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v7-traceability"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-draft-v7-integrity-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "organizational-diagnostic-draft-v7-integrity-record",
+      "title": "Organizational Diagnostic — Generation One Draft v7: Integrity and Version Record",
+      "path": "institution/governance/methodology/organizational-diagnostic-draft-v7-integrity-record.md",
+      "type": "status-record",
+      "statusNote": "Records a digest and a lineage, not a validation. Draft v7 has been applied to nothing; repository checks never make a draft tested.",
+      "summary": "Draft v7's digest, size, authorization and baseline; the seven-version chain with applications per version; the Draft v6 to v7 lineage; and the sections verified byte-identical, including A2 and A18's five advancement outcomes.",
+      "provenance": {
+        "origin": "Institutional Platform Development",
+        "approvalReference": "Produced 2026-08-26 under fd-0036. Byte-identity verified programmatically rather than asserted.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v7"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-draft-v6-integrity-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v7-traceability",
+      "title": "Draft v7 — Preconstruction Traceability Matrix",
+      "path": "institution/governance/methodology/draft-v7-traceability.md",
+      "type": "status-record",
+      "statusNote": "Produced BEFORE any Draft v7 text was written, as fd-0036 requires, and preserved unaltered.",
+      "summary": "Every Draft v7 change traced to one of six closed authorities, with the provision affected, semantic consequence, kind and revalidation need; plus what was deliberately not changed, including why MD-2 was implemented without touching A2.",
+      "provenance": {
+        "origin": "Institutional Platform Development",
+        "approvalReference": "Produced 2026-08-26 under fd-0036 before construction. Six authority-derived changes plus two strictly necessary consequences, mechanically reconciled.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v7"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0036-organizational-diagnostic-draft-v7-construction"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v7-validation-readiness",
+      "title": "Draft v7 — Validation-Readiness Matrix",
+      "path": "institution/governance/methodology/draft-v7-validation-readiness.md",
+      "type": "status-record",
+      "statusNote": "No validation application was performed and none is authorized. Nothing in this record is a validation result. Retrospective assessments are labelled as such throughout.",
+      "summary": "Each Draft v7 change classified by what could legitimately be established now: what is structurally checkable, what is retrospective against preserved evidence, what needs fresh participant behaviour, and what this institution cannot authentically produce.",
+      "provenance": {
+        "origin": "Institutional Platform Development",
+        "approvalReference": "Produced 2026-08-26 under fd-0036 §2.9. Category assignments counted rather than items, so the tally does not sum to the item count; items reconciled to six.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "draft-v7-traceability"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v7"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v7-construction-report",
+      "title": "Draft v7 Construction & Validation-Readiness Report",
+      "path": "institution/governance/methodology/draft-v7-construction-report.md",
+      "type": "status-record",
+      "statusNote": "Construction record, not a validation result. Draft v7 is a provisional draft applied to nothing; Drafts v1-v6 verified unchanged before and after; no validation of any kind was performed.",
+      "summary": "The Draft v7 construction return: integrity gates before and after, the six implementations, A15/Instrument 9 consistency, A2 non-ordering preservation, the RQ-G closure discharge, item-level readiness, and the evidence-driven next step.",
+      "provenance": {
+        "origin": "Institutional Platform Development",
+        "approvalReference": "Produced 2026-08-26 under fd-0036 from baseline 9d5889f. Constructed by the office whose method it is; no independence claimed (fd-0036 §4 Deficiency 2). Every derived count reconciled against its authoritative item set.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v7"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v7-traceability"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v7-validation-readiness"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0036-organizational-diagnostic-draft-v7-construction"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v6-closure-reconciliation",
+      "title": "Draft v6 Application — Closure Reconciliation After RQ-G",
+      "path": "institution/governance/methodology/draft-v6-closure-reconciliation.md",
+      "type": "status-record",
+      "statusNote": "A17 rule 7 is DISCHARGED for the Draft v6 application. The subject diagnosis remains incomplete and advancement remains refused, on unrelated grounds. All earlier unresolved closure states are preserved.",
+      "summary": "The four-state chronology of the Draft v6 closure condition, the RQ-G determination, the grounds for discharge, what the determination expressly does not decide, and why discharging closure changes neither completeness nor advancement.",
+      "provenance": {
+        "origin": "Institutional Platform Development",
+        "approvalReference": "Produced 2026-08-26 under fd-0036 §2.6. Kept separate from the methodology text, which carries only an organization-neutral clarification in Draft v7's A17 rule 7.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "draft-v6-participant-validation-completion-report"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-clarification-reconciliation-report"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v7"
         }
       ]
     },

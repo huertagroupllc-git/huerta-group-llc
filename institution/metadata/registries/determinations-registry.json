@@ -1124,6 +1124,44 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0036",
+      "title": "Founder Office Authorization: Organizational Diagnostic — Post-Draft-v6 Semantic Determinations & Draft v7 Construction",
+      "path": "institution/governance/determinations/fd-0036-organizational-diagnostic-draft-v7-construction.md",
+      "instrument": "Huerta Group Organizational Systems Methodology — Generation One — Post-Draft-v6 Semantic Determinations and Draft v7 Construction execution package (Founder Office to Institutional Platform Development), determining all five method defects recorded by the Draft v6 internal participant validation together with the reserved custody question RQ-G, and authorizing construction of Draft v7 as a new version from frozen Draft v6 — the first new version in this program produced from a validated application's findings rather than from a review or reconciliation, and the first instrument to determine more than one reserved methodology question at once; determining MD-1 an accepted methodology defect so that A15's terminating shortcut may fire only where BOTH limbs are established through Observed evidence — that the capability exists built, standby or dormant, and that it is actually awaiting an organizational-authority decision rather than additional construction — while holding that a Client-Stated assertion on either limb remains valid evidence that is not false, downgraded or rejected but simply does not establish the terminating condition, and forbidding any Observed-over-Client-Stated hierarchy, ranking, weighting, strength, quality scoring or credibility ordering; determining MD-2 accept-with-modification so that observation of operation is not required where the proposition tested is that a capability is dormant, standby or not presently operating, such a capability being establishable through direct observation of itself, its implementation, configuration, deployment state or other directly examinable material evidence, with lack of operational observation remaining a limitation on actual use and performance and never evidence that the capability does not exist, and with operation never manufactured to corroborate dormancy and no new A2 evidence class, strength axis, recurrence score, hierarchy or weighting added; determining MD-3 an accepted methodology defect requiring one distinct additional permitted Technology-Worthiness outcome meaning that an existing capability awaits an organizational-authority decision, narrowly bounded so that construction is not the unresolved issue, the decision routes to the competent authority, and the outcome authorizes neither activation nor construction and implies no suitability, validation, approval or production readiness, and must never be collapsed into existing-system-should-be-improved where improvement is not the unresolved matter, with Instrument 10 carrying the authority question but never substituting for the outcome; determining MD-4 with no structural evidence-model change authorized, preserving it as validated behavioural risk and permitting only bounded limitation and guidance language recording that different methodological questions legitimately require different kinds of evidence and that a local Observed requirement must not be generalized into a global claim that Client-Stated evidence is weaker, inferior, less credible or lower ranked, while preserving the evidence that Founder Client-Stated evidence materially changed fourteen reconciled items and that a Client-Stated clarification eliminated a false disagreement, and strictly prohibiting evidence ranking, weighting, quality, independence scoring, maturity scoring, a new evidence axis or preferential evidence classes; determining MD-5 an accepted methodology defect requiring that A18 never represent an application as having one timeless outcome, so that a suspended, resumed or later-clarified application retains every outcome-bearing state with its date and order, evidence basis, reason, the constraint operating at that time and its relationship to later states, with a later state permitted to supplement or supersede an earlier state's operational effect but never to erase it, and application-stage status, point-in-time diagnostic outcome, advancement permission and unresolved closure conditions kept distinguishable, while creating no universal project-management lifecycle or generic status system; establishing the RQ-G custody disposition as a program-specific determination naming Huerta Group LLC institutional owner, the governed repository the durable institutional record location, its hosting service the present organization-controlled technical custody mechanism, records admitted through existing governance official institutional records, and conversational environments, contributor memory and transient working environments not authoritative merely because work occurred there — while binding that none of this be encoded as a universal client requirement and that Draft v7 retain organization-neutral custody semantics in which the organization's own authorized arrangement establishes the disposition, and requiring the Draft v6 application's closure reconciled in its own governed record with all earlier unresolved states preserved historically; closing the permitted authority list so that no Draft v7 change lacking one of the six may proceed unless a strictly necessary internal-consistency or cross-reference consequence, and preserving the FU-1 through FU-5 reconciliations and RQ-H Alternative C unreopened; requiring Draft v7 classified truthfully as provisional and never described as validated merely because its changes derive from validated findings or Founder Office determinations; forbidding any new validation application and requiring instead an item-level validation-readiness classification across five categories with explicit labelling wherever an assessment is retrospective rather than an application of Draft v7; and requiring the next-step recommendation driven by evidence rather than drafting momentum, never automatically another internal application, with recommendation expressly not authorization — while withholding Draft v7 behavioural validation, any application to Huerta Group LLC or Huerta Group Publishing, external client diagnostics, Draft v8, Draft v6 modification, subject repair, Method Library admission, validated-through-use and externally-validated designations, standardization, diagnostic software, scoring, maturity models, commercialization, pricing, packaging, sales material and public methodology claims",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 10,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0036-organizational-diagnostic-draft-v7-construction.md",
+        "institution/governance/methodology/instruments/draft-v7-construction-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/organizational-diagnostic-generation-one-draft-v7.md",
+        "institution/governance/methodology/organizational-diagnostic-draft-v7-integrity-record.md",
+        "institution/governance/methodology/draft-v7-traceability.md",
+        "institution/governance/methodology/draft-v7-validation-readiness.md",
+        "institution/governance/methodology/draft-v7-construction-report.md",
+        "institution/governance/methodology/draft-v6-closure-reconciliation.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 4,
+      "relationships": [
+        {
+          "target": "fd-0035",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0033",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0032",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
