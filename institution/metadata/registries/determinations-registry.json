@@ -1162,6 +1162,44 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0037",
+      "title": "Founder Office Authorization: Client Engagement Operating Architecture — Generation One P0 Construction & First-Client Readiness",
+      "path": "institution/governance/determinations/fd-0037-client-engagement-generation-one-p0-construction.md",
+      "instrument": "Client Engagement Operating Architecture — Generation One — P0 Construction and First-Client Readiness execution package (Founder Office to Institutional Platform Development), the first instrument outside the Organizational Systems Methodology program and the first concerning outside clients, authorizing construction of the minimum governed client engagement operating backbone required to accept Client #1 without improvising authority, scope, confidentiality, custody, provenance or institutional rules; fixing nine distinctions the architecture must hold structurally — Organization not Engagement, Person not Organization, Opportunity not Engagement, Diagnostic not Engagement, Evidence not Finding, Recommendation not Authorization, Client Question not Client Decision, Work Product not Deliverable, and client-specific learning not Huerta Group institutional knowledge — while forbidding creation of any database table or software entity merely because an operating concept exists and requiring the narrowest durable representation appropriate to the actual architecture; establishing the flow from organization through person and organization-person relationship to opportunity, Founder disposition, acceptance prerequisites and engagement, and determining that opportunity acceptance does not itself create an active engagement; requiring that an engagement may activate only where durable written authorization establishes parties, authorized body of work or incorporated scope, material exclusions and boundaries, the person or authority acting for the client, commercial basis or authoritative reference, authorization for Huerta Group to perform the agreed work, applicable confidentiality and access obligations or authoritative reference, and evidence that authorization was accepted or executed — with the system required to stop truthfully and preserve why an engagement cannot become active whenever a prerequisite is absent, and readiness barred on that limb until Administration and Compliance establishes the agreement instrument, which Development must model without inventing contract doctrine; forbidding client authority being inferred from participation and requiring representation of who may authorize the engagement, provide access, make organizational decisions, approve changes, receive and approve deliverables, and authorize implementation, while recording Huerta Group responsibilities as current assignment and forbidding a permanently hard-coded one-person model; authorizing hybrid custody across five classes with governed structured engagement records permitted repository-native and raw confidential client source material barred from indiscriminate placement in the ordinary institutional corpus, held instead in an organization-controlled private client-isolated boundary using the narrowest technically adequate existing mechanism, with no generalized document-management system built; fixing client-isolation guarantees of attribution, private-by-default, explicit access boundary, no cross-client retrieval, scopable rather than universally granted operator access, no automatic inclusion in institution-wide search or AI context and no automatic admission to institutional knowledge — with an express stop rule that any implementation whose guarantees cannot be achieved without authenticated application-level authorization must be stopped and the specific deficiency returned, and multitenant SaaS infrastructure never constructed for hypothetical scale; bounding the Corporate Headquarters seam to executive representation only and expressly excluding raw client evidence, stakeholder testimony, detailed findings, client decisions as source records, confidential content and detailed work history, so that Headquarters representation is never the client-delivery source of truth; keeping QuickBooks authoritative for accounting with bounded manual references only and no invoicing, payments, project accounting, ledger duplication or transaction ingestion; requiring an engagement-record mechanism for authoritative reference to material communications while forbidding email being built and keeping official domain-based business email an Administration and Compliance readiness dependency; requiring institutional-learning admission to remain a separate governed act with only the boundary built; preferring governed repository-backed manual operation over software wherever identity, authority, history, provenance, isolation and custody can be satisfied by it, and permitting runtime or database capability only where transactional behaviour, access enforcement, referential integrity or operational reliability genuinely requires it, with production client hosting never inferred from P0 construction authority; requiring the mechanics exercised with hypothetical structural fixtures only and expressly forbidding fabrication of stakeholder testimony, client authority, executed contractual acceptance, confidential source material, diagnostic evidence, findings, recommendations, client decisions, deliverables or substantive client facts; and fixing a readiness standard under which READY may not be declared merely because the software works and NOT READY must be reported while any external administrative dependency remains unresolved — while withholding production client portal, generalized CRM, workflow engine, project-management suite, accounting replacement, invoicing and payments, diagnostic automation, AI diagnostic authority, scoring, maturity models, cross-client knowledge corpus, broad email synchronization, client outreach, sales campaigns, pricing determination, contract drafting, Draft v8, methodology iteration, restructuring of Corporate Headquarters and unrelated repository repairs",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 10,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0037-client-engagement-generation-one-p0-construction.md",
+        "institution/governance/engagement/instruments/generation-one-p0-construction-execution-package.md",
+        "institution/governance/engagement/generation-one-p0-construction-report.md",
+        "institution/standards/engagement/client-engagement-operating-standard.md",
+        "institution/metadata/schemas/engagement-schema.json",
+        "institution/metadata/registries/engagement-registry.json",
+        "institution/validation/validate-engagements.mjs",
+        "institution/validation/test-engagement-scenarios.mjs",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "package.json"
+      ],
+      "deficienciesRecorded": 5,
+      "relationships": [
+        {
+          "target": "fd-0036",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0010",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0007",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

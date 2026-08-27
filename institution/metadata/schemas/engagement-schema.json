@@ -1,0 +1,987 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://huertagroupllc.com/institution/metadata/schemas/engagement-schema.json",
+  "title": "Client Engagement Registry Schema",
+  "description": "Validates the client engagement registry under the Client Engagement Operating Standard (Generation One P0, fd-0037). Registry entries record governed operating facts; they never create authority, authorization, scope, confidentiality obligations, or permission to act for a client. Enums and constants encode the standard's invariants by construction: Organization, Person, Opportunity and Engagement are separate collections with disjoint identifiers, so an opportunity cannot be an engagement and a person cannot be an organization; a Founder disposition of accept carries no activation power; an engagement's status may be 'active' only where all eight activation prerequisites are established; every client-authority capacity must carry a value and 'unresolved' is valid; custody classes are closed and the confidential classes may not be held repository-native; evidence registrations carry no findings; and learning candidates are candidates only, with no admitted state available in this version.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "registryVersion",
+    "organizations",
+    "persons",
+    "relationships",
+    "opportunities",
+    "engagements"
+  ],
+  "properties": {
+    "registryVersion": {
+      "type": "string"
+    },
+    "organizations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "status",
+          "recordedDate"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^org-[0-9]{4}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "known",
+              "prospective",
+              "client",
+              "former_client",
+              "declined"
+            ]
+          },
+          "recordedDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "quickbooksCustomerRef": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Manual reference into QuickBooks, which remains authoritative for accounting. Never an accounting record."
+          }
+        }
+      }
+    },
+    "persons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "recordedDate"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^per-[0-9]{4}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "recordedDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "personId",
+          "organizationId",
+          "capacity",
+          "status",
+          "recordedDate"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^rel-[0-9]{4}$"
+          },
+          "personId": {
+            "type": "string",
+            "pattern": "^per-[0-9]{4}$"
+          },
+          "organizationId": {
+            "type": "string",
+            "pattern": "^org-[0-9]{4}$"
+          },
+          "capacity": {
+            "type": "string",
+            "minLength": 1,
+            "description": "How the person is connected to the organization, in the organization's own terms. Confers no authority (see engagement.clientAuthority)."
+          },
+          "status": {
+            "enum": [
+              "current",
+              "former",
+              "unresolved"
+            ]
+          },
+          "recordedDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "endedDate": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "opportunities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "organizationId",
+          "summary",
+          "recordedDate",
+          "disposition"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^opp-[0-9]{4}$"
+          },
+          "organizationId": {
+            "type": "string",
+            "pattern": "^org-[0-9]{4}$"
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "recordedDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "primaryContactRelationshipId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "disposition": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "recordedDate"
+            ],
+            "properties": {
+              "value": {
+                "enum": [
+                  "undetermined",
+                  "accept",
+                  "decline",
+                  "defer"
+                ],
+                "description": "Founder Office disposition. 'accept' records willingness only and creates no engagement."
+              },
+              "recordedDate": {
+                "type": "string",
+                "format": "date"
+              },
+              "reason": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "engagements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "organizationId",
+          "originatingOpportunityId",
+          "name",
+          "status",
+          "recordedDate",
+          "scope",
+          "clientAuthority",
+          "huertaGroupAssignment",
+          "confidentiality",
+          "activation",
+          "chronology"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^eng-[0-9]{4}$"
+          },
+          "organizationId": {
+            "type": "string",
+            "pattern": "^org-[0-9]{4}$"
+          },
+          "originatingOpportunityId": {
+            "type": "string",
+            "pattern": "^opp-[0-9]{4}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "proposed",
+              "blocked",
+              "active",
+              "closed"
+            ],
+            "description": "'active' is permitted only where every activation prerequisite is established."
+          },
+          "recordedDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "scope": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "authorizedWork",
+              "materialExclusions"
+            ],
+            "properties": {
+              "authorizedWork": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "incorporatedByReference": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "materialExclusions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "clientAuthority": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "authorize_engagement",
+              "provide_access",
+              "organizational_decisions",
+              "approve_changes",
+              "receive_deliverables",
+              "authorize_implementation"
+            ],
+            "properties": {
+              "authorize_engagement": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "holder",
+                  "basis"
+                ],
+                "properties": {
+                  "holder": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "description": "A person id, or null where unresolved."
+                  },
+                  "basis": {
+                    "enum": [
+                      "established",
+                      "unresolved",
+                      "not_applicable"
+                    ],
+                    "description": "Authority is never inferred from participation."
+                  }
+                }
+              },
+              "provide_access": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "holder",
+                  "basis"
+                ],
+                "properties": {
+                  "holder": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "description": "A person id, or null where unresolved."
+                  },
+                  "basis": {
+                    "enum": [
+                      "established",
+                      "unresolved",
+                      "not_applicable"
+                    ],
+                    "description": "Authority is never inferred from participation."
+                  }
+                }
+              },
+              "organizational_decisions": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "holder",
+                  "basis"
+                ],
+                "properties": {
+                  "holder": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "description": "A person id, or null where unresolved."
+                  },
+                  "basis": {
+                    "enum": [
+                      "established",
+                      "unresolved",
+                      "not_applicable"
+                    ],
+                    "description": "Authority is never inferred from participation."
+                  }
+                }
+              },
+              "approve_changes": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "holder",
+                  "basis"
+                ],
+                "properties": {
+                  "holder": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "description": "A person id, or null where unresolved."
+                  },
+                  "basis": {
+                    "enum": [
+                      "established",
+                      "unresolved",
+                      "not_applicable"
+                    ],
+                    "description": "Authority is never inferred from participation."
+                  }
+                }
+              },
+              "receive_deliverables": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "holder",
+                  "basis"
+                ],
+                "properties": {
+                  "holder": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "description": "A person id, or null where unresolved."
+                  },
+                  "basis": {
+                    "enum": [
+                      "established",
+                      "unresolved",
+                      "not_applicable"
+                    ],
+                    "description": "Authority is never inferred from participation."
+                  }
+                }
+              },
+              "authorize_implementation": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "holder",
+                  "basis"
+                ],
+                "properties": {
+                  "holder": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "description": "A person id, or null where unresolved."
+                  },
+                  "basis": {
+                    "enum": [
+                      "established",
+                      "unresolved",
+                      "not_applicable"
+                    ],
+                    "description": "Authority is never inferred from participation."
+                  }
+                }
+              }
+            }
+          },
+          "huertaGroupAssignment": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "responsibility",
+                "currentHolder"
+              ],
+              "properties": {
+                "responsibility": {
+                  "enum": [
+                    "engagement_lead",
+                    "analyst",
+                    "consultant",
+                    "contractor",
+                    "administrator",
+                    "other_authorized_operator"
+                  ]
+                },
+                "currentHolder": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Current assignment only. Never the Company's permanent structure."
+                }
+              }
+            }
+          },
+          "confidentiality": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "obligationsStatus"
+            ],
+            "properties": {
+              "obligationsStatus": {
+                "enum": [
+                  "established",
+                  "referenced",
+                  "unresolved",
+                  "not_required"
+                ]
+              },
+              "reference": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "accessBoundary": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "activation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "prerequisites",
+              "blockedBy"
+            ],
+            "properties": {
+              "prerequisites": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "parties",
+                  "authorized_work_or_scope",
+                  "material_exclusions",
+                  "client_authority_person",
+                  "commercial_basis",
+                  "authorization_to_perform",
+                  "confidentiality_obligations",
+                  "acceptance_evidence"
+                ],
+                "properties": {
+                  "parties": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "established"
+                    ],
+                    "properties": {
+                      "established": {
+                        "type": "boolean"
+                      },
+                      "evidence": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "authorized_work_or_scope": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "established"
+                    ],
+                    "properties": {
+                      "established": {
+                        "type": "boolean"
+                      },
+                      "evidence": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "material_exclusions": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "established"
+                    ],
+                    "properties": {
+                      "established": {
+                        "type": "boolean"
+                      },
+                      "evidence": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "client_authority_person": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "established"
+                    ],
+                    "properties": {
+                      "established": {
+                        "type": "boolean"
+                      },
+                      "evidence": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_basis": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "established"
+                    ],
+                    "properties": {
+                      "established": {
+                        "type": "boolean"
+                      },
+                      "evidence": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "authorization_to_perform": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "established"
+                    ],
+                    "properties": {
+                      "established": {
+                        "type": "boolean"
+                      },
+                      "evidence": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "confidentiality_obligations": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "established"
+                    ],
+                    "properties": {
+                      "established": {
+                        "type": "boolean"
+                      },
+                      "evidence": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  },
+                  "acceptance_evidence": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "established"
+                    ],
+                    "properties": {
+                      "established": {
+                        "type": "boolean"
+                      },
+                      "evidence": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "blockedBy": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "parties",
+                    "authorized_work_or_scope",
+                    "material_exclusions",
+                    "client_authority_person",
+                    "commercial_basis",
+                    "authorization_to_perform",
+                    "confidentiality_obligations",
+                    "acceptance_evidence"
+                  ]
+                },
+                "description": "Which prerequisites are missing. Must exactly match the unestablished set."
+              },
+              "authorizationInstrumentRef": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "custodyReferences": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "class",
+                "sourceIdentity",
+                "location",
+                "accessBoundary",
+                "confidentialityCondition"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^cus-[0-9]{4}$"
+                },
+                "class": {
+                  "enum": [
+                    "HG_ENGAGEMENT_RECORD",
+                    "CLIENT_SOURCE",
+                    "INTERNAL_WORKING",
+                    "DELIVERABLE",
+                    "LEARNING_CANDIDATE"
+                  ]
+                },
+                "sourceIdentity": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "location": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Where the material is actually held. Confidential classes may not resolve inside the repository."
+                },
+                "repositoryNative": {
+                  "type": "boolean"
+                },
+                "accessBoundary": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "confidentialityCondition": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "suppliedBy": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "dateContext": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "authorityContext": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "evidenceRegistrations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "sourceIdentity",
+                "sourceType",
+                "custodyReferenceId",
+                "accessCondition"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^evd-[0-9]{4}$"
+                },
+                "sourceIdentity": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sourceType": {
+                  "enum": [
+                    "person_or_stakeholder_account",
+                    "organizational_or_institutional_record",
+                    "supplied_institutional_source",
+                    "systematic_verification_record",
+                    "other"
+                  ]
+                },
+                "custodyReferenceId": {
+                  "type": "string",
+                  "pattern": "^cus-[0-9]{4}$"
+                },
+                "suppliedBy": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "dateContext": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "accessCondition": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "authorityContext": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "chronology": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "date",
+                "event"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "event": {
+                  "enum": [
+                    "opportunity_created",
+                    "founder_disposition_recorded",
+                    "scope_proposed",
+                    "scope_revised",
+                    "authorization_received",
+                    "engagement_activated",
+                    "authority_changed",
+                    "access_changed",
+                    "evidence_registered",
+                    "activation_blocked",
+                    "engagement_closed"
+                  ]
+                },
+                "detail": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "seams": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "headquartersRepresentation": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "engagementIdentity": {
+                    "type": "string"
+                  },
+                  "clientOrganization": {
+                    "type": "string"
+                  },
+                  "highLevelState": {
+                    "type": "string"
+                  },
+                  "accountableAuthority": {
+                    "type": "string"
+                  },
+                  "materialBlocker": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "founderAttention": {
+                    "type": "boolean"
+                  },
+                  "consequentialDeadline": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "administrativeCondition": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "provenanceToEngagementRecord": {
+                    "type": "string"
+                  }
+                },
+                "description": "Bounded executive representation only. Never raw evidence, testimony, findings, client decisions, confidential content, or detailed work history. Headquarters is never the client-delivery source of truth."
+              },
+              "quickbooksRefs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Manual references only. QuickBooks remains authoritative for accounting; no parallel accounting truth is created."
+              },
+              "communicationRefs": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "reference",
+                    "affects"
+                  ],
+                  "properties": {
+                    "reference": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "affects": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "enum": [
+                          "scope",
+                          "authority",
+                          "access",
+                          "commitments",
+                          "decisions",
+                          "deliverables",
+                          "obligations"
+                        ]
+                      }
+                    },
+                    "dateContext": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "learningCandidates": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "abstractedStatement",
+                "status"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^lrn-[0-9]{4}$"
+                },
+                "abstractedStatement": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "const": "candidate",
+                  "description": "Candidate only. No admitted state exists in this version; admission is a separate governed act."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

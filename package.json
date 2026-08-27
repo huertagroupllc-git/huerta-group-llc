@@ -15,6 +15,8 @@
     "validate:determinations": "node institution/validation/validate-determinations.mjs",
     "validate:evolution": "node institution/validation/validate-evolution.mjs",
     "validate:ventures": "node institution/validation/validate-ventures.mjs",
+    "validate:engagements": "node institution/validation/validate-engagements.mjs",
+    "validate:engagement-scenarios": "node institution/validation/test-engagement-scenarios.mjs",
     "validate:references": "node institution/validation/validate-references.mjs",
     "verify": "node institution/validation/verify.mjs"
   },

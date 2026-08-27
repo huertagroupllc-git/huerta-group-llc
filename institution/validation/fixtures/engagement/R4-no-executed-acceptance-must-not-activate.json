@@ -1,0 +1,141 @@
+{
+  "registryVersion": "1.0.0",
+  "organizations": [
+    {
+      "id": "org-0001",
+      "name": "PLACEHOLDER ORGANIZATION (hypothetical)",
+      "status": "prospective",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "persons": [
+    {
+      "id": "per-0001",
+      "name": "PLACEHOLDER PERSON (hypothetical)",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-0001",
+      "personId": "per-0001",
+      "organizationId": "org-0001",
+      "capacity": "placeholder contact capacity",
+      "status": "current",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp-0001",
+      "organizationId": "org-0001",
+      "summary": "PLACEHOLDER possible work (hypothetical)",
+      "recordedDate": "2026-08-26",
+      "primaryContactRelationshipId": "rel-0001",
+      "disposition": {
+        "value": "accept",
+        "recordedDate": "2026-08-26",
+        "reason": "hypothetical fixture"
+      }
+    }
+  ],
+  "engagements": [
+    {
+      "id": "eng-0001",
+      "organizationId": "org-0001",
+      "originatingOpportunityId": "opp-0001",
+      "name": "PLACEHOLDER engagement (hypothetical)",
+      "status": "active",
+      "recordedDate": "2026-08-26",
+      "scope": {
+        "authorizedWork": null,
+        "incorporatedByReference": null,
+        "materialExclusions": []
+      },
+      "clientAuthority": {
+        "authorize_engagement": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "provide_access": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "organizational_decisions": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "approve_changes": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "receive_deliverables": {
+          "holder": "per-0001",
+          "basis": "established"
+        },
+        "authorize_implementation": {
+          "holder": "per-0001",
+          "basis": "established"
+        }
+      },
+      "huertaGroupAssignment": [
+        {
+          "responsibility": "engagement_lead",
+          "currentHolder": "Founder Office (current assignment)"
+        }
+      ],
+      "confidentiality": {
+        "obligationsStatus": "established",
+        "reference": null,
+        "accessBoundary": null
+      },
+      "activation": {
+        "prerequisites": {
+          "parties": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "authorized_work_or_scope": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "material_exclusions": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "client_authority_person": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "commercial_basis": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "authorization_to_perform": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "confidentiality_obligations": {
+            "established": true,
+            "evidence": "PLACEHOLDER reference"
+          },
+          "acceptance_evidence": {
+            "established": false,
+            "evidence": null
+          }
+        },
+        "blockedBy": [
+          "acceptance_evidence"
+        ],
+        "authorizationInstrumentRef": null
+      },
+      "chronology": [
+        {
+          "date": "2026-08-26",
+          "event": "opportunity_created",
+          "detail": "hypothetical fixture"
+        }
+      ]
+    }
+  ]
+}

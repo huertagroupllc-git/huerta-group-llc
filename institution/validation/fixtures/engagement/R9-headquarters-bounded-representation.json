@@ -1,0 +1,192 @@
+{
+  "registryVersion": "1.0.0",
+  "organizations": [
+    {
+      "id": "org-0001",
+      "name": "PLACEHOLDER ORGANIZATION (hypothetical)",
+      "status": "prospective",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "persons": [
+    {
+      "id": "per-0001",
+      "name": "PLACEHOLDER PERSON (hypothetical)",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-0001",
+      "personId": "per-0001",
+      "organizationId": "org-0001",
+      "capacity": "placeholder contact capacity",
+      "status": "current",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp-0001",
+      "organizationId": "org-0001",
+      "summary": "PLACEHOLDER possible work (hypothetical)",
+      "recordedDate": "2026-08-26",
+      "primaryContactRelationshipId": "rel-0001",
+      "disposition": {
+        "value": "accept",
+        "recordedDate": "2026-08-26",
+        "reason": "hypothetical fixture"
+      }
+    }
+  ],
+  "engagements": [
+    {
+      "id": "eng-0001",
+      "organizationId": "org-0001",
+      "originatingOpportunityId": "opp-0001",
+      "name": "PLACEHOLDER engagement (hypothetical)",
+      "status": "blocked",
+      "recordedDate": "2026-08-26",
+      "scope": {
+        "authorizedWork": null,
+        "incorporatedByReference": null,
+        "materialExclusions": []
+      },
+      "clientAuthority": {
+        "authorize_engagement": {
+          "holder": null,
+          "basis": "unresolved"
+        },
+        "provide_access": {
+          "holder": null,
+          "basis": "unresolved"
+        },
+        "organizational_decisions": {
+          "holder": null,
+          "basis": "unresolved"
+        },
+        "approve_changes": {
+          "holder": null,
+          "basis": "unresolved"
+        },
+        "receive_deliverables": {
+          "holder": null,
+          "basis": "unresolved"
+        },
+        "authorize_implementation": {
+          "holder": null,
+          "basis": "unresolved"
+        }
+      },
+      "huertaGroupAssignment": [
+        {
+          "responsibility": "engagement_lead",
+          "currentHolder": "Founder Office (current assignment)"
+        }
+      ],
+      "confidentiality": {
+        "obligationsStatus": "unresolved",
+        "reference": null,
+        "accessBoundary": null
+      },
+      "activation": {
+        "prerequisites": {
+          "parties": {
+            "established": false,
+            "evidence": null
+          },
+          "authorized_work_or_scope": {
+            "established": false,
+            "evidence": null
+          },
+          "material_exclusions": {
+            "established": false,
+            "evidence": null
+          },
+          "client_authority_person": {
+            "established": false,
+            "evidence": null
+          },
+          "commercial_basis": {
+            "established": false,
+            "evidence": null
+          },
+          "authorization_to_perform": {
+            "established": false,
+            "evidence": null
+          },
+          "confidentiality_obligations": {
+            "established": false,
+            "evidence": null
+          },
+          "acceptance_evidence": {
+            "established": false,
+            "evidence": null
+          }
+        },
+        "blockedBy": [
+          "acceptance_evidence",
+          "authorization_to_perform",
+          "authorized_work_or_scope",
+          "client_authority_person",
+          "commercial_basis",
+          "confidentiality_obligations",
+          "material_exclusions",
+          "parties"
+        ],
+        "authorizationInstrumentRef": null
+      },
+      "chronology": [
+        {
+          "date": "2026-08-26",
+          "event": "opportunity_created",
+          "detail": "hypothetical fixture"
+        },
+        {
+          "date": "2026-08-26",
+          "event": "evidence_registered",
+          "detail": "hypothetical fixture"
+        }
+      ],
+      "custodyReferences": [
+        {
+          "id": "cus-0001",
+          "class": "CLIENT_SOURCE",
+          "sourceIdentity": "PLACEHOLDER client source",
+          "location": "external://isolated-client-store/PLACEHOLDER",
+          "repositoryNative": false,
+          "accessBoundary": "engagement-scoped, private by default",
+          "confidentialityCondition": "client-confidential",
+          "suppliedBy": "per-0001",
+          "dateContext": "2026-08-26",
+          "authorityContext": "PLACEHOLDER"
+        }
+      ],
+      "evidenceRegistrations": [
+        {
+          "id": "evd-0001",
+          "sourceIdentity": "PLACEHOLDER client source",
+          "sourceType": "organizational_or_institutional_record",
+          "custodyReferenceId": "cus-0001",
+          "suppliedBy": "per-0001",
+          "dateContext": "2026-08-26",
+          "accessCondition": "client-confidential; engagement-scoped",
+          "authorityContext": "PLACEHOLDER"
+        }
+      ],
+      "seams": {
+        "headquartersRepresentation": {
+          "engagementIdentity": "eng-0001",
+          "clientOrganization": "org-0001",
+          "highLevelState": "blocked",
+          "accountableAuthority": "Founder Office (current assignment)",
+          "materialBlocker": "activation prerequisites unestablished",
+          "founderAttention": true,
+          "consequentialDeadline": null,
+          "administrativeCondition": null,
+          "provenanceToEngagementRecord": "engagement-registry.json#eng-0001"
+        }
+      }
+    }
+  ]
+}

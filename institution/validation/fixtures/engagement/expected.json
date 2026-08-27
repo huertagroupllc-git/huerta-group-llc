@@ -1,0 +1,17 @@
+{
+  "R1-organization-person-no-engagement": 0,
+  "R2-opportunity-and-disposition": 0,
+  "R3-accept-without-authorization-must-not-activate": 1,
+  "R4-no-executed-acceptance-must-not-activate": 1,
+  "R5-unidentified-client-authority-must-not-activate": 1,
+  "R6-unresolved-confidentiality-must-not-activate": 1,
+  "R7-raw-client-source-in-corpus-refused": 1,
+  "R8-isolated-custody-referenced-with-provenance": 0,
+  "R9-headquarters-bounded-representation": 0,
+  "R9b-headquarters-carrying-findings-refused": 1,
+  "R10-quickbooks-and-communication-references": 0,
+  "R11-learning-candidate-self-admission-refused": 1,
+  "R11b-learning-candidate-recorded": 0,
+  "R12-all-prerequisites-established-activates": 0,
+  "R13-untruthful-blockedBy-refused": 1
+}

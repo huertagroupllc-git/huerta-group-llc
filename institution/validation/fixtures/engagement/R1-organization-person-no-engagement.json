@@ -1,0 +1,30 @@
+{
+  "registryVersion": "1.0.0",
+  "organizations": [
+    {
+      "id": "org-0001",
+      "name": "PLACEHOLDER ORGANIZATION (hypothetical)",
+      "status": "prospective",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "persons": [
+    {
+      "id": "per-0001",
+      "name": "PLACEHOLDER PERSON (hypothetical)",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel-0001",
+      "personId": "per-0001",
+      "organizationId": "org-0001",
+      "capacity": "placeholder contact capacity",
+      "status": "current",
+      "recordedDate": "2026-08-26"
+    }
+  ],
+  "opportunities": [],
+  "engagements": []
+}
