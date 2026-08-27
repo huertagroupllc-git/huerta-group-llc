@@ -1,7 +1,7 @@
 # Founder Office Instrument Preservation Record — Organizational Systems Methodology Program
 
 **Classification: Institutional Record** — provenance record (evidentiary,
-non-governing). Records the preservation of seventeen Founder Office execution
+non-governing). Records the preservation of eighteen Founder Office execution
 instruments under the determination transcribed at `fd-0020` §2.4, through the
 existing canonical-source preservation standard
 (`institution/standards/repository/canonical-source-preservation.md`). It
@@ -63,6 +63,7 @@ standard's substance is preserved and one adaptation is recorded:
 | Generation One — Draft v6 construction execution package | `instruments/draft-v6-construction-execution-package.md` | 2026-08-26, Development execution context | `3aeac139f9786fe9e4c04541022a00cd9b6d677c18864b6a675b187e560b4724` | 25,787 · 733 | `22847465434283c13ddafa704ccb1ef4baf5daf8494a7b8dccfa2a41b4918777` |
 | Generation One — Draft v6 participant-validation execution package | `instruments/draft-v6-participant-validation-execution-package.md` | 2026-08-26, Development execution context | `793c6e1b187d362152e974baf4db1692c9615e48bacf11183920228b37de6eb6` | 36,119 · 972 | `e328854cb58cb15add2c7b4ccf5838cd3276a63f205aae6a3cfc7251bbbb65e8` |
 | Generation One — Draft v6 participant-validation Continuation execution package | `instruments/draft-v6-participant-validation-continuation-execution-package.md` | 2026-08-26, Development execution context | `0880ea42b4f9a73b01bc3af8c67afa25832260021cf0b5056dbb2d18fad929e8` | 28,047 · 672 | `a6ddd04d1ab23b5e2ac835d33917f407615198fd697e241c70a6ffdf3023a0f1` |
+| Generation One — Draft v6 Clarification Reconciliation execution package | `instruments/draft-v6-clarification-reconciliation-execution-package.md` | 2026-08-26, Development execution context | `07cb749aa8cf4d699254a103822e8efcbaea10326e3afafba57ca52429dd4259` | 26,252 · 791 | `abff5efa3ed408c47c559a6ab0be89c2228b421ff1943a43064571167f29620f` |
 
 Each instrument text begins `<?xml version="1.0" encoding="UTF-8"?>` and
 ends `</claude_execution_package>`. Verification: extract the text between
@@ -136,8 +137,9 @@ applied, not an omission.
    reconciliation instrument, `fd-0030` §4 Deficiency 1 for the Stage 10
    instrument, `fd-0031` §4 Deficiency 1 for the Stage 11 instrument, `fd-0032` §4 Deficiency 1 for the Draft v6 construction instrument, and
    `fd-0033` §4 Deficiency 1 for the Draft v6 participant-validation
-   instrument, and `fd-0034` §4 Deficiency 1 for the Draft v6
-   participant-validation Continuation instrument.
+   instrument, `fd-0034` §4 Deficiency 1 for the Draft v6
+   participant-validation Continuation instrument, and `fd-0035` §4
+   Deficiency 1 for the Draft v6 Clarification Reconciliation instrument.
 2. **Determinations transcription is the register's, not this record's.**
    The verbatim determinations of these instruments live in `fd-0019` and
    `fd-0020`; this record makes those transcriptions auditable but does not
@@ -151,10 +153,7 @@ applied, not an omission.
   instrument), `fd-0024` (Stage 6 instrument), `fd-0025` (Stage 7 instrument), `fd-0026` (Stage 8 instrument), `fd-0027`
   (Stage 9 instrument), `fd-0028` (Post-Stage 9 A10 instrument), `fd-0029` (Draft v5 reconciliation
   instrument), `fd-0030` (Stage 10 instrument), `fd-0031` (Stage 11 instrument), `fd-0032` (Draft v6 construction instrument), `fd-0033` (Draft v6
-  participant-validation instrument), `fd-0034` (Draft v6
-  participant-validation Continuation instrument — the first preserved
-  instrument whose substance is evidence rather than authorization, carrying
-  the eight Founder responses themselves). The Generation One
+  participant-validation instrument), `fd-0034` (Draft v6 participant-validation Continuation instrument — the first preserved instrument whose substance is evidence rather than authorization, carrying the eight Founder responses themselves), `fd-0035` (Draft v6 Clarification Reconciliation instrument — the second such, carrying five Founder clarifications, and the first to carry a **resolved** reserved question, RQ-H). The Generation One
   instrument's authorization is carried by `fd-0019` §1's acceptance of the
   Discovery it opened.
 - Standard applied: `institution/standards/repository/canonical-source-preservation.md`.

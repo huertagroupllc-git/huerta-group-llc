@@ -1090,6 +1090,40 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0035",
+      "title": "Founder Office Authorization: Organizational Diagnostic — Draft v6 Clarification Reconciliation",
+      "path": "institution/governance/determinations/fd-0035-organizational-diagnostic-draft-v6-clarification-reconciliation.md",
+      "instrument": "Huerta Group Organizational Systems Methodology — Generation One — Draft v6 Clarification Reconciliation execution package (Founder Office to Institutional Platform Development), authorizing a bounded additive reconciliation of the closed Draft v6 participant-validation record and carrying both the Founder's five clarification answers and the Founder Office determination of the reserved question RQ-H — the second preserved instrument whose substance is evidence rather than authorization, and the first to carry a resolved reserved question; requiring FU-1 through FU-5 captured as later dated Client-Stated evidence with qualifiers preserved including \"I don't know exactly\" and broad wording such as \"Everything\", and holding that clarification may change the interpretation of earlier Client-Stated evidence without retroactively changing what the earlier response said; requiring for every affected item the original response, the original interpretation, the later clarification and the additive result, and forbidding earlier evidence being rewritten as though the clarifications had existed at the time; fixing per-response handling in advance with the inferences forbidden from each enumerated — no conclusion that no organizational activity occurred, no normalization of a broad term into an invented taxonomy, no custody mechanism from a clarified preservation intent, no manufactured sequence steps from repository chronology, no conversion of nearby commits into participant-described actions, and no authority for a conversational environment merely because work is discussed there; requiring comparison that automatically prefers neither account nor record and forbidding gaps filled from Development memory, prior conversations outside the authorized basis, likely institutional intent or nearby repository prose; resolving RQ-H as Alternative C with Alternative B expressly declined, so that a category a Client-Stated boundary answer does not name remains unnamed in the evidence and establishes neither exclusion, nor inclusion, nor an unresolved institutional fact, with no new A3 boundary state and no substantive Draft v7 change authorized from RQ-H alone; confining reassessment to the findings, instrument sufficiency states, A10 trail facts and A18 elements the new evidence actually reaches, forbidding the diagnostic being rerun and forbidding Instrument 5 being marked completed merely because a locus was named; directing that A17 rule 7 remains unsatisfied absent a specific custody disposition and that the clarified preservation intent alone does not satisfy it, so the subject diagnosis may not be represented as unqualified complete; requiring MD-1 through MD-5 assessed for whether the new evidence changes the evidentiary basis, narrows, expands, leaves unchanged or exhausts each, while forbidding a clarification being converted into methodology repair automatically; imposing a strict three-limb standard for any new semantic question and forbidding subject uncertainty, missing evidence, unexercised conditions or application mistakes being elevated into one; requiring the exact remaining internal-validation gaps stated without inventing internal subjects or scenarios, and recording that another full internal application is not presently warranted; and requiring the versioning question answered on evidence alone with an express anti-inflation rule that another version is not justified merely because answers became clearer, subject findings remain unresolved, external validation is still absent, or some conditions were not internally exercisable — while withholding Draft v6 edits, Draft v7, another application, external validation, subject repair, Method Library admission, validated-through-use, external-validation designation, diagnostic software, commercialization, scoring and maturity models",
+      "dateReceived": "2026-08-26",
+      "recordedDate": "2026-08-26",
+      "determinationCount": 10,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0035-organizational-diagnostic-draft-v6-clarification-reconciliation.md",
+        "institution/governance/methodology/instruments/draft-v6-clarification-reconciliation-execution-package.md",
+        "institution/governance/methodology/founder-office-instrument-preservation-record.md",
+        "institution/governance/methodology/draft-v6-clarification-responses.md",
+        "institution/governance/methodology/draft-v6-clarification-reconciliation-report.md",
+        "institution/standards/repository/documentation-index.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json"
+      ],
+      "deficienciesRecorded": 4,
+      "relationships": [
+        {
+          "target": "fd-0034",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0033",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0032",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

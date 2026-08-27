@@ -5143,6 +5143,43 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
+      "id": "fd-0035-organizational-diagnostic-draft-v6-clarification-reconciliation",
+      "title": "fd-0035 — Founder Office Authorization: Organizational Diagnostic — Draft v6 Clarification Reconciliation",
+      "path": "institution/governance/determinations/fd-0035-organizational-diagnostic-draft-v6-clarification-reconciliation.md",
+      "type": "decision-record",
+      "statusNote": "Authorizes a bounded additive reconciliation of the closed validation record and resolves RQ-H as Alternative C. Draft v6 edits, Draft v7, another application, external validation and subject repair remain unauthorized.",
+      "summary": "Five Founder clarifications recorded as later Client-Stated evidence and RQ-H resolved, with reassessment confined to what the new evidence actually reaches and an anti-inflation test governing whether another version is justified.",
+      "provenance": {
+        "origin": "Founder Office (execution package)",
+        "approvalReference": "Received and recorded 2026-08-26. Evidentiary — the record evidences the determinations and creates no authority. Four deficiencies recorded, including that this reconciliation has less independence than the application it reconciles.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0034-organizational-diagnostic-draft-v6-participant-validation-continuation"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-clarification-reconciliation-execution-package"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-clarification-reconciliation-report"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v6"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
       "id": "stage-11-exercise-matrix-reconciliation",
       "title": "Stage 11 — Exercise-Matrix Reconciliation, and a Stage 10 Corpus Discrepancy",
       "path": "institution/governance/methodology/stage-11-exercise-matrix-reconciliation.md",
@@ -5846,6 +5883,34 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved",
+      "id": "draft-v6-clarification-reconciliation-execution-package",
+      "title": "Generation One — Draft v6 Clarification Reconciliation — Founder Office Execution Package",
+      "path": "institution/governance/methodology/instruments/draft-v6-clarification-reconciliation-execution-package.md",
+      "type": "governing-record",
+      "summary": "The clarification instrument, preserved verbatim: five Founder answers, the RQ-H determination resolving it as Alternative C with B declined, per-response forbidden inferences fixed in advance, and an anti-inflation rule for the versioning question.",
+      "provenance": {
+        "origin": "Founder Office (execution package, preserved verbatim)",
+        "approvalReference": "Preserved 2026-08-26 under fd-0020 §2.4 through the canonical-source preservation standard; recorded at fd-0035. Digest of the preserved instrument text: 07cb749aa8cf4d699254a103822e8efcbaea10326e3afafba57ca52429dd4259; digest as received, without its absent trailing newline: 46537dcc9a944f7528d7f1cefbd9405252f5c73b4e964670cb9d65a4c31a2fb7.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0035-organizational-diagnostic-draft-v6-clarification-reconciliation"
+        },
+        {
+          "rel": "references",
+          "target": "founder-office-instrument-preservation-record"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
       "id": "draft-v6-validator-prior-involvement-statement",
       "title": "Draft v6 Validation — Validating Author's Prior-Involvement and Isolation Statement",
       "path": "institution/governance/methodology/draft-v6-validator-prior-involvement-statement.md",
@@ -6013,6 +6078,76 @@
         {
           "rel": "references",
           "target": "fd-0034-organizational-diagnostic-draft-v6-participant-validation-continuation"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v6-clarification-responses",
+      "title": "Draft v6 Clarification Round — Founder Responses FU-1 … FU-5, Preserved",
+      "path": "institution/governance/methodology/draft-v6-clarification-responses.md",
+      "type": "status-record",
+      "statusNote": "Participant Session 2, obtained AFTER the validation closed at 096682f. Later clarification, not replacement evidence: the Session 1 responses and the interpretations formed on them are unchanged.",
+      "summary": "The five Founder clarifications FU-1 through FU-5, preserved verbatim with their uncertainty and breadth intact, together with the inferences the instrument forbade drawing from each and the RQ-H determination that arrived with them.",
+      "provenance": {
+        "origin": "Founder Office, Participant Session 2, carried by the clarification instrument",
+        "approvalReference": "Received and recorded 2026-08-26 under fd-0035 §2.2. Development answered none of the five and edited none of the responses.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0035-organizational-diagnostic-draft-v6-clarification-reconciliation"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-participant-responses"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-clarification-reconciliation-report"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "draft-v6-clarification-reconciliation-report",
+      "title": "Draft v6 Clarification Reconciliation & Remaining Methodology Issues Report",
+      "path": "institution/governance/methodology/draft-v6-clarification-reconciliation-report.md",
+      "type": "status-record",
+      "statusNote": "Additive throughout; the closed validation record is unchanged. Advancement still refused, A17 rule 7 still unsatisfied, Draft v6 status unchanged: PROVISIONAL DRAFT — UNTESTED AS A VERSION. Versioning depends on a remaining Founder Office determination.",
+      "summary": "Fourteen recorded items changed by the clarifications and RQ-H, and the rest explicitly unchanged. Two validation gaps closed, three narrowed; MD-5 expanded on two grounds; MD-4 qualified; no new semantic question arose.",
+      "provenance": {
+        "origin": "Institutional Platform Development",
+        "approvalReference": "Produced 2026-08-26 under fd-0035 against frozen Draft v6 d2f64ee2…4600a238b10 from baseline 096682f. Performed by the office that constructed Draft v6 — less independence than the application it reconciles, recorded at fd-0035 §4 Deficiency 2.",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "draft-v6-participant-validation-completion-report"
+        },
+        {
+          "rel": "references",
+          "target": "draft-v6-clarification-responses"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0035-organizational-diagnostic-draft-v6-clarification-reconciliation"
+        },
+        {
+          "rel": "references",
+          "target": "organizational-diagnostic-generation-one-draft-v6"
         }
       ]
     },
