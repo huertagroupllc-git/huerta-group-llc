@@ -3903,6 +3903,55 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "adr-0023-shared-pre-launch-development-infrastructure",
+      "title": "ADR-0023 — Shared Pre-Launch Development Infrastructure for Huerta Group LLC",
+      "path": "institution/decisions/adr-0023-shared-pre-launch-development-infrastructure.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "statusNote": "ACCEPTED — directed by the Founder Office 2026-08-28. Varies the TIMING of physical project separation, not any security property of adr-0021. Implemented as the client_engagement schema, its bucket and its policies in the existing huerta-group-llc project; no new project, plan change or expenditure.",
+      "summary": "Pre-launch development uses the existing huerta-group-llc Supabase project, each capability in its own schema, with physical separation deferred to a launch-readiness gate. Every adr-0021 security property stands and is now implemented; the shared project holds synthetic fixtures only.",
+      "provenance": {
+        "origin": "Institutional Platform Development (architecture)",
+        "approvalReference": "Produced 2026-08-28 under the Founder Office shared-Supabase development reconciliation package, from institutional baseline df2c070. Directed expressly by the Founder Office, which is the authority for varying adr-0022's placement timing.",
+        "effectiveDate": "2026-08-28"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0021-client-confidentiality-custody-and-isolation-architecture"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0022-client-engagement-infrastructure-placement"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0003-application-and-repository-boundaries"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0004-data-ownership-and-supabase-boundary"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0005-environment-strategy"
+        },
+        {
+          "rel": "references",
+          "target": "client-engagement-operating-standard"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "fd-0014-generation-one-construction-authorization",
       "title": "fd-0014 — Founder Office Determinations: Generation One Construction Authorization and Bounded Construction",
       "path": "institution/governance/determinations/fd-0014-generation-one-construction-authorization.md",
