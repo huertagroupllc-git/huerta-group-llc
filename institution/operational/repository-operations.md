@@ -72,6 +72,30 @@ never what they are.
   `supabase/migrations/`, applied to the verified Huerta Group project
   only; applied-state must be confirmed against the live project, not
   assumed from the repository.
+- **Migration provenance, recorded 2026-08-29 — the two website
+  migrations are applied; the project migration ledger does not record
+  them.** Direct read-only inspection of the live project establishes
+  that both are authentically reflected in hosted state:
+  `20260722000000_create_contact_inquiries.sql` — `public.contact_inquiries`
+  exists, with row level security enabled and no policies, which is the
+  server-key-writes posture `adr-0004` describes; and
+  `20260722010000_add_notification_tracking.sql` — all four
+  `notification_status`, `notification_attempted_at`,
+  `notification_message_id` and `notification_error_code` columns are
+  present. The hosted shape matches the repository definitions.
+  **`supabase_migrations.schema_migrations` exists and contains zero
+  rows.** The migrations were therefore applied outside the CLI's
+  ledger. **How and when they were applied cannot be established from
+  available evidence** — not the tool, not the operator, not the
+  instant — and nothing here should be read as establishing it.
+  **The absence of ledger rows does not mean the changes are absent;
+  inspection proves they are present.** They must not be reapplied, and
+  no ledger row may be inserted, merely to manufacture a history that
+  was never recorded: either act would risk the live table to
+  reconstruct a record of the past. Future migration tooling must treat
+  these objects as **already applied** rather than inferring an
+  unapplied state from an empty ledger. Recorded rather than corrected,
+  because the gap is in the record and not in the database.
 
 ## Verification
 
