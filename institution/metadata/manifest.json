@@ -8997,7 +8997,7 @@
       "classification": "Institutional Record",
       "authorityTier": "non-governing",
       "status": "current",
-      "summary": "Records the Founder Office determination that the three supplied texts are the ratified Articles I-III, the authorized insertion, byte-for-byte preservation, and two open matters: Article II's contradictory status marker and the absent ratification date.",
+      "summary": "Records the Founder Office determination that the three supplied texts are the ratified Articles I-III, the authorized insertion, byte-for-byte preservation, the ministerial correction of Article II's stale status metadata (D1, closed), and the absent ratification date (D2, open).",
       "provenance": {
         "origin": "Founder Office (determinations) via Institutional Platform Development (record)",
         "approvalReference": "Determination record: evidences the determinations; authority resides with the Founder Office and the artifacts the determinations govern.",

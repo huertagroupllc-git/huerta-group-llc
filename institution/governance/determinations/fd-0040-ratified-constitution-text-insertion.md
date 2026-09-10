@@ -49,24 +49,58 @@ record cites them and does not restate them.
 rewritten, modernized, normalized, reordered, corrected or reconstructed. The
 committed bytes equal the supplied bytes, as the digests above attest.
 
-## Matters left open at insertion
+## Matters recorded at insertion
 
-Recorded rather than resolved, because neither is Development's to resolve and
-neither may be fixed by editing constitutional text.
+Recorded rather than resolved at insertion, because neither was Development's
+to resolve and neither could be fixed by editing constitutional text.
 
-**D1 — Article II carries a contradictory status marker.** Line 5 of
-`article-ii-mission-and-long-term-responsibility.md` reads
-`**Status: Final Draft for Comprehensive Review**`. Article I reads
-`**Status: Ratified**`; Article III carries no status line. Under FD-CT-1 all
-three are ratified, so the Article II marker contradicts the article's actual
-status. It was inserted unaltered because the verbatim rule forbids editing it.
-**Correcting it is a Founder Office act**, and until then the canonical record
-contains a ratified article whose own metadata calls it a draft.
+**D1 — Article II carried a contradictory status marker. CLOSED 2026-09-10.**
 
-**D2 — No ratification date is recorded in any of the three texts.** None
-carries a date, adoption record or signature. `fd-0004` recorded the ratified
-text *and the ratification date* as untransmitted; FD-CT-1 supplies the first
-and not the second. The date remains an open provenance gap.
+*The condition, as it stood at insertion:* line 5 of
+`article-ii-mission-and-long-term-responsibility.md` read
+`**Status: Final Draft for Comprehensive Review**`. Article I read
+`**Status: Ratified**`; Article III carried no status line. Under FD-CT-1 all
+three are ratified, so the Article II marker contradicted the article's actual
+status. It was inserted unaltered because the verbatim rule forbids editing it,
+and correcting it was recorded as a Founder Office act.
+
+*The closure:* the Founder Office determined on 2026-09-10 that the marker was
+**stale pre-ratification workflow metadata** which ceased to be accurate when
+Article II was ratified, and expressly authorized its replacement with
+`**Status: Ratified**`. That correction is made under **FD-CT-5** below. D1 is
+closed. The condition is preserved here rather than deleted: the record shows
+that the stale metadata existed, and how it was corrected.
+
+**D2 — No ratification date is recorded in any of the three texts. OPEN.**
+
+None carries a date, adoption record or signature. `fd-0004` recorded the
+ratified text *and the ratification date* as untransmitted; FD-CT-1 supplies
+the first and not the second.
+
+D2 is a **historical-provenance limitation only**: the exact original
+ratification date and adoption record for Articles I–III have not been
+recovered. It does **not** call ratified status into question, does **not**
+diminish the authoritative force of Articles I–III, does **not** reopen them to
+ordinary redrafting, does **not** authorize reconstruction of an adoption date,
+and does **not** require reratification. No date has been invented, and none
+may be.
+
+## FD-CT-5 — Article II status metadata correction (2026-09-10)
+
+The Founder Office determined that the Article II status marker was stale
+pre-ratification workflow metadata and authorized this exact replacement:
+
+- **Before:** `**Status: Final Draft for Comprehensive Review**`
+- **After:** `**Status: Ratified**`
+
+**This is a ministerial records correction.** It is not an amendment, a
+substantive revision, a reconsideration, a reratification, or any change to
+Article II's constitutional meaning. It corrects a metadata line that described
+a workflow state Article II had already left.
+
+Scope, verified against baseline `99e0250`: the complete diff is the single
+status line. Every other line of Article II is byte-for-byte unchanged, and
+Article I and Article III show zero diff.
 
 ## Effect on prior records
 

@@ -2,7 +2,7 @@
 
 ## Article II — Mission and Long-Term Responsibility
 
-**Status: Final Draft for Comprehensive Review**
+**Status: Ratified**
 
 ### Section 1. Continuing Mission
 
