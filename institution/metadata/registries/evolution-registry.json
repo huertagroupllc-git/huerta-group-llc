@@ -189,6 +189,90 @@
         "institution/governance/methodology/generation-one-stage-2-draft-and-self-application-validation-report.md"
       ],
       "refinementReferences": []
+    },
+    {
+      "id": "evo-0007",
+      "title": "The Institution Became Able to Take Outside Clients Under Governed Authority",
+      "path": "institution/evolution/records/evo-0007-client-engagement-operating-architecture.md",
+      "date": "2026-08-26",
+      "institutionalDomain": "operations",
+      "evolutionType": "foundation_established",
+      "retrospective": true,
+      "retrospectiveAuthorization": "fd-0038",
+      "authorityInvolved": [
+        "Founder Office (instrument, ten determinations, acceptance; fd-0037)",
+        "Institutional Platform Development (construction, validation, reporting)",
+        "Administration & Compliance (holder of the unresolved agreement instrument on which readiness depends)"
+      ],
+      "decisionReferences": [
+        "fd-0037"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/governance/determinations/fd-0037-client-engagement-generation-one-p0-construction.md",
+        "institution/governance/engagement/instruments/generation-one-p0-construction-execution-package.md",
+        "institution/governance/engagement/generation-one-p0-construction-report.md",
+        "institution/standards/engagement/client-engagement-operating-standard.md",
+        "institution/metadata/schemas/engagement-schema.json",
+        "institution/metadata/registries/engagement-registry.json",
+        "institution/validation/validate-engagements.mjs"
+      ],
+      "refinementReferences": []
+    },
+    {
+      "id": "evo-0008",
+      "title": "Confidential Client Material Was Given an Architecture of Its Own",
+      "path": "institution/evolution/records/evo-0008-client-confidentiality-custody-and-isolation-architecture.md",
+      "date": "2026-08-26",
+      "institutionalDomain": "repository/platform",
+      "evolutionType": "governance_determination",
+      "retrospective": true,
+      "retrospectiveAuthorization": "fd-0038",
+      "authorityInvolved": [
+        "Founder Office (explicit ratification, required by the ADR practice for decisions touching disclosure; adr-0021)",
+        "Institutional Platform Development (architecture, drafting)"
+      ],
+      "decisionReferences": [
+        "adr-0021",
+        "adr-0020",
+        "adr-0004",
+        "fd-0037"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/decisions/adr-0021-client-confidentiality-custody-and-isolation-architecture.md",
+        "institution/decisions/adr-0020-generation-one-identity-provider-selection.md",
+        "institution/decisions/adr-0004-data-ownership-and-supabase-boundary.md",
+        "institution/governance/determinations/fd-0037-client-engagement-generation-one-p0-construction.md",
+        "institution/governance/determinations/fd-0015-generation-one-local-operating-posture.md"
+      ],
+      "refinementReferences": [
+        "evo-0009"
+      ]
+    },
+    {
+      "id": "evo-0009",
+      "title": "Where Client Engagement Develops Was Separated From Where It Will Live",
+      "path": "institution/evolution/records/evo-0009-shared-pre-launch-development-infrastructure.md",
+      "date": "2026-08-28",
+      "institutionalDomain": "repository/platform",
+      "evolutionType": "structure_reorganization",
+      "retrospective": true,
+      "retrospectiveAuthorization": "fd-0038",
+      "authorityInvolved": [
+        "Founder Office (direction varying implementation timing; adr-0023)",
+        "Institutional Platform Development (capacity verification, architecture, implementation)"
+      ],
+      "decisionReferences": [
+        "adr-0023",
+        "adr-0021",
+        "fd-0015"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/decisions/adr-0023-shared-pre-launch-development-infrastructure.md",
+        "institution/decisions/adr-0021-client-confidentiality-custody-and-isolation-architecture.md",
+        "institution/decisions/adr-0022-client-engagement-infrastructure-placement.md",
+        "institution/governance/determinations/fd-0015-generation-one-local-operating-posture.md"
+      ],
+      "refinementReferences": []
     }
   ]
 }

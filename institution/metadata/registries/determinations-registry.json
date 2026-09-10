@@ -1200,6 +1200,38 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0038",
+      "title": "Founder Office Authorization: Institutional Evolution Log Generation One",
+      "path": "institution/governance/determinations/fd-0038-institutional-evolution-log-generation-one.md",
+      "instrument": "2027 Organizational Readiness Buildout — Institutional Evolution Log Generation One execution package (Founder Office to Institutional Platform Development), Task One, authorizing completion of the Evolution Log as a durable repository-native operating system for recording material institutional evolution; determining that the Phase Zero architecture established under fd-0003 (FO-6) is to be completed rather than replaced; expressly authorizing bounded retrospective population limited to material institutional evolution supported by authoritative repository evidence, with a smaller set of strong entries preferred to broad speculative history and such records marked retrospective with this determination cited as their authorization; prohibiting fabricated or inferred history, conversation memory as evidence, and Founder approval inferred from implementation; requiring a stated qualification doctrine so the materiality threshold is applied consistently by operators and AI assistance rather than judged afresh; requiring a durable repository-native AI-assisted maintenance procedure that inspects repository authority, applies the threshold, drafts only when qualified, cites evidence and stops on missing or conflicting evidence; preserving the authority boundary under which the log records that institutional state changed and points at the authorities that changed it without becoming a second source of truth for the Constitution, ADRs, Foundations, Standards, Operational Assets or Decision History; excluding by default individual commits, bug fixes, editorial and formatting corrections, ordinary operations, one-off client records, transient discussion and unratified proposals; and confining implementation to repository-native artifacts with no database, Supabase system, CMS, web interface or runtime service — while withholding Design System work, public-site redesign, Constitution Article III, Headquarters feature development, unrelated platform development, broad governance reconciliation and any duplicate decision database",
+      "dateReceived": "2026-09-09",
+      "recordedDate": "2026-09-09",
+      "determinationCount": 8,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0038-institutional-evolution-log-generation-one.md",
+        "institution/evolution/README.md",
+        "institution/evolution/AI-MAINTENANCE.md",
+        "institution/evolution/INDEX.md",
+        "institution/evolution/records/evo-0007-client-engagement-operating-architecture.md",
+        "institution/evolution/records/evo-0008-client-confidentiality-custody-and-isolation-architecture.md",
+        "institution/evolution/records/evo-0009-shared-pre-launch-development-infrastructure.md",
+        "institution/metadata/registries/evolution-registry.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "institution/metadata/manifest.json"
+      ],
+      "deficienciesRecorded": 3,
+      "relationships": [
+        {
+          "target": "fd-0003",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0037",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

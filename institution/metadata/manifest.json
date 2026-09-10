@@ -8712,6 +8712,142 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0038-institutional-evolution-log-generation-one",
+      "title": "fd-0038 — Founder Office Authorization: Institutional Evolution Log Generation One",
+      "path": "institution/governance/determinations/fd-0038-institutional-evolution-log-generation-one.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Records the Founder Office authorization completing the Evolution Log as Task One of the 2027 Organizational Readiness Buildout: Phase Zero is completed not replaced, bounded retrospective population is authorized, and a qualification doctrine and AI procedure are required.",
+      "provenance": {
+        "origin": "Founder Office (instrument) via Institutional Platform Development (record)",
+        "approvalReference": "Determination record: evidences the determinations; authority resides with the Founder Office and the artifacts the determinations govern.",
+        "effectiveDate": "2026-09-09"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0003-migration-execution-determinations"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0037-client-engagement-generation-one-p0-construction"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evolution-ai-maintenance",
+      "title": "Evolution Log — AI-assisted maintenance procedure",
+      "path": "institution/evolution/AI-MAINTENANCE.md",
+      "type": "standard",
+      "classification": "Repository Standard",
+      "authorityTier": 4,
+      "status": "current",
+      "summary": "The procedure AI assistance follows after a material institutional determination: inspect repository authority, apply the qualification doctrine, draft only when qualified, cite repository-relative evidence, and stop when evidence is missing or contradictory. Required by fd-0038.",
+      "provenance": {
+        "origin": "Institutional Platform Development",
+        "approvalReference": "Repository standard under the Evolution Log standard; required by fd-0038 (FD-EL-5).",
+        "effectiveDate": "2026-09-09"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0038-institutional-evolution-log-generation-one"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evo-0007-client-engagement-operating-architecture",
+      "title": "evo-0007 — The Institution Became Able to Take Outside Clients Under Governed Authority",
+      "path": "institution/evolution/records/evo-0007-client-engagement-operating-architecture.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The institution moved from having no governed architecture for outside client work to a constructed operating backbone with nine structural distinctions, eight activation prerequisites, and a readiness standard barring READY while an administrative dependency remains open.",
+      "provenance": {
+        "origin": "Institutional Platform Development (evolution record)",
+        "approvalReference": "Evolution record: evidences the evolution, creates none. Retrospective under fd-0038 (FD-EL-2).",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0037-client-engagement-generation-one-p0-construction"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0038-institutional-evolution-log-generation-one"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evo-0008-client-confidentiality-custody-and-isolation-architecture",
+      "title": "evo-0008 — Confidential Client Material Was Given an Architecture of Its Own",
+      "path": "institution/evolution/records/evo-0008-client-confidentiality-custody-and-isolation-architecture.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Confidential client material moved from having no isolated store and no decidable topology to a ratified architecture: its own project, authenticated identity, deny-by-default policies, explicit revocable grants and cross-client isolation. Expenditure returned, not incurred.",
+      "provenance": {
+        "origin": "Institutional Platform Development (evolution record)",
+        "approvalReference": "Evolution record: evidences the evolution, creates none. Retrospective under fd-0038 (FD-EL-2).",
+        "effectiveDate": "2026-08-26"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "adr-0021-client-confidentiality-custody-and-isolation-architecture"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0038-institutional-evolution-log-generation-one"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evo-0009-shared-pre-launch-development-infrastructure",
+      "title": "evo-0009 — Where Client Engagement Develops Was Separated From Where It Will Live",
+      "path": "institution/evolution/records/evo-0009-shared-pre-launch-development-infrastructure.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Pre-launch development moved into the existing shared project, confined to one schema, while the decided separation was scheduled rather than dismissed: stated conditions force extraction before any authentic client material, record, operator or external access exists.",
+      "provenance": {
+        "origin": "Institutional Platform Development (evolution record)",
+        "approvalReference": "Evolution record: evidences the evolution, creates none. Retrospective under fd-0038 (FD-EL-2).",
+        "effectiveDate": "2026-08-28"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "adr-0023-shared-pre-launch-development-infrastructure"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0038-institutional-evolution-log-generation-one"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

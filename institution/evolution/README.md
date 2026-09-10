@@ -21,6 +21,58 @@ approved institutional artifacts and decision authorities. An event
 absent from the log is not thereby unauthorized; an event present in
 the log is not thereby approved.
 
+## What qualifies
+
+The threshold is **material institutional evolution**: a durable change to
+what the institution *is*, how it is governed, how it is structured, or where
+its truth lives. The Phase Zero standard said "significant"; `fd-0038`
+(FD-EL-4) requires the test stated, so that it is applied consistently rather
+than judged afresh.
+
+An event qualifies when it materially changes one or more of: institutional
+identity · constitutional structure · governance authority · the institutional
+operating model · source-of-truth architecture · organizational structure or
+functional responsibility · methodology architecture · IP governance ·
+education and workforce architecture · platform architecture · a major system
+boundary · venture or portfolio standing · client-engagement operating
+doctrine · compliance posture · significant institutional product direction ·
+or a previously governed institutional state that is established, superseded,
+retired or materially revised.
+
+**The five questions.** A candidate qualifies when the answer to all five is
+yes:
+
+1. Did authoritative institutional state materially change?
+2. Would a future operator misunderstand Huerta Group's evolution if this were
+   absent?
+3. Did authority, structure, doctrine, a system boundary, a source of truth,
+   an institutional capability or a major operating direction change?
+4. Is there authoritative evidence for **both** the prior and the new state?
+5. Is this more than routine implementation of an already-governed decision?
+
+A qualifying entry requires all three of: material institutional consequence,
+authoritative support, and durable relevance.
+
+## What does not qualify
+
+Excluded by default, and none of these becomes an entry merely because it
+touched repository files:
+
+individual commits · bug fixes · minor visual refinements · editorial and copy
+corrections · formatting · ordinary operational transactions · one-off client
+records · temporary investigative states · **unratified proposals** ·
+brainstorming and transient discussion · implementation progress that does not
+alter institutional state · routine dependency upgrades · ordinary test or CI
+changes.
+
+Two exclusions are worth stating plainly because they are the ones most often
+argued with. **A proposed decision is not an evolution** — an ADR at *Proposed*
+records an intention, and institutional state changes when it is ratified.
+**Implementing an already-governed decision is not a second evolution** — the
+evolution was the decision; the implementation is evidence that it happened,
+and belongs in the entry for that decision or in the ordinary repository
+history.
+
 ## Architecture
 
 - **Records:** `records/evo-NNNN-<slug>.md` — sequential, stable,
@@ -30,6 +82,9 @@ the log is not thereby approved.
   every record, newest last (append-only).
 - **Template:** [`TEMPLATE.md`](TEMPLATE.md) — the required record
   structure.
+- **AI-assisted maintenance:** [`AI-MAINTENANCE.md`](AI-MAINTENANCE.md) —
+  the procedure AI assistance follows after a material determination,
+  required by `fd-0038` (FD-EL-5).
 - **Registry:** `institution/metadata/registries/evolution-registry.json`
   (schema `institution/metadata/schemas/evolution-schema.json`) — the
   machine-readable metadata store.
@@ -81,3 +136,12 @@ the determinations register) may be added later **only** under express
 Founder Office authorization; such records must be clearly marked
 `retrospective: true` and cite their evidence (commits, instruments,
 fd-records). Fabricated or inferred history is prohibited.
+
+**`fd-0038` (FD-EL-2) is the first such authorization**, and it is
+bounded: only material institutional evolution supported by
+authoritative repository evidence, preferring a small set of strong
+entries to broad speculative history. Records added under it carry
+`retrospective: true` and cite `fd-0038` as their
+`retrospectiveAuthorization`. The authorization is not a licence to
+complete the log's history; where the repository records no
+determination, no entry is made and the gap is surfaced.

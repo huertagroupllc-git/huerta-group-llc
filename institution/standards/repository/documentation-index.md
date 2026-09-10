@@ -443,6 +443,37 @@ never automatic modification.
 | **ADR-0021 — Client Confidentiality, Custody & Isolation Architecture** | [`development/decisions/adr-0021-client-confidentiality-custody-and-isolation-architecture.md`](../../decisions/adr-0021-client-confidentiality-custody-and-isolation-architecture.md) | **PROPOSED — the owner's to ratify.** Confidential client material gets **its own** Supabase project, with Supabase Auth and **deny-by-default row/object policies**. Answers the topology question `adr-0020` left to the second consumer. The repository is ruled out because **agent sessions read it by default** — client material there is automatically in institution-wide AI context. Sharing another project is ruled out by `fd-0015`: *"cost pressure does not dissolve a credential boundary."* **Expenditure barred and returned; nothing implemented** |
 | **ADR-0022 — Client Engagement Infrastructure Placement** | [`development/decisions/adr-0022-client-engagement-infrastructure-placement.md`](../../decisions/adr-0022-client-engagement-infrastructure-placement.md) | **PROPOSED.** The backend goes in **a separate application and repository** with its own Supabase project — local now, hosted when authorized. **Nothing** goes in the existing hosted project: `adr-0004` says it owns inquiry records only, `adr-0005` bars production-first once client-confidential data exists, and `adr-0003` says such data **never shares a repository with the public website**. `adr-0008` already decided the analogous case the same way. **No migration recommended now** — there is no client and no availability requirement |
 
+## Institutional evolution (institutional memory over time)
+
+The Evolution Log records that institutional state materially changed, and
+points at the authorities that changed it. Established as Phase Zero under
+`fd-0003` (FO-6); completed as Generation One under `fd-0038`.
+
+- **Governance and qualification doctrine**: `institution/evolution/README.md`
+  — the authority boundary, the materiality test, and what is excluded by
+  default. The log records evolution; it never creates it, and an event absent
+  from it is not thereby unauthorized.
+- **Index**: `institution/evolution/INDEX.md` — the append-only ledger, oldest
+  first.
+- **Records**: `institution/evolution/records/evo-NNNN-<slug>.md` — sequential,
+  stable, never reused, never deleted; corrected by later records rather than
+  edited away.
+- **Template**: `institution/evolution/TEMPLATE.md` — the required record
+  structure.
+- **AI-assisted maintenance**: `institution/evolution/AI-MAINTENANCE.md` — the
+  procedure AI assistance follows after a material determination, including
+  its stop conditions and its prohibition on reconstructing history from
+  conversation.
+- **Registry**: `institution/metadata/registries/evolution-registry.json`
+  (schema: `institution/metadata/schemas/evolution-schema.json`).
+- **Validation**: `npm run validate:evolution` — schema conformance,
+  identifier and path uniqueness, three-way coverage among registry, records
+  directory and index, decision-reference resolution, canonical-artifact
+  existence, the retrospective-authorization rule, and manifest inclusion.
+
+Retrospective records require express Founder Office authorization and carry
+it in the registry; fabricated or inferred history is prohibited.
+
 ## Institutional knowledge layer
 
 The documentation governance defined in this index is formalized as a
