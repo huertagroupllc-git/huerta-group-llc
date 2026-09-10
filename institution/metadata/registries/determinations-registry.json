@@ -1232,6 +1232,34 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0039",
+      "title": "Founder Office Determination: Headquarters Client Engagement Generation Two Acceptance and Evolution Reconciliation",
+      "path": "institution/governance/determinations/fd-0039-headquarters-client-engagement-generation-two-acceptance.md",
+      "instrument": "Institutional Evolution Log — Generation Two Headquarters Reconciliation execution package (Founder Office to Institutional Platform Development), determining that the establishment, authentic-use validation, acceptance and freezing of Headquarters Client Engagement Generation Two constitutes material institutional evolution and supplying the institutional authority this repository did not previously hold for it; authorizing exactly one Evolution Log entry recording the transition from the prior client-engagement state to the accepted Generation Two operating baseline, with no implementation event inside the programme — remediation increments, interface work, migrations, probes or report exercises — elevated into an entry of its own; establishing Generation Two as Huerta Group's governed client-engagement operating model within Headquarters while preserving repository governance authority, Corporate Operations custody, QuickBooks accounting authority and the governed domain model beneath it; recording that the lifecycle was exercised end to end under governed synthetic validation with no authentic client information admitted; fixing the accepted and frozen baseline at e728a18; freezing further discretionary Generation Two development pending concrete operational evidence, bounded launch hardening or another independently governed authorization, and confirming that routine fixes and bounded hardening do not themselves become Evolution Log entries; and withholding the universal fd-NNNN evolution-classification validator observed under fd-0038 unless authentic maintenance use later demonstrates a need — while withholding Evolution Log redesign, qualification doctrine change, schema or template change, governance automation, Headquarters development, launch hardening, Design System work, public-site work, Constitution work and any other institutional-platform increment",
+      "dateReceived": "2026-09-09",
+      "recordedDate": "2026-09-09",
+      "determinationCount": 7,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0039-headquarters-client-engagement-generation-two-acceptance.md",
+        "institution/evolution/records/evo-0010-headquarters-client-engagement-generation-two.md",
+        "institution/evolution/INDEX.md",
+        "institution/metadata/registries/evolution-registry.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "institution/metadata/manifest.json"
+      ],
+      "deficienciesRecorded": 0,
+      "relationships": [
+        {
+          "target": "fd-0038",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0037",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }

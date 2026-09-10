@@ -273,6 +273,36 @@
         "institution/governance/determinations/fd-0015-generation-one-local-operating-posture.md"
       ],
       "refinementReferences": []
+    },
+    {
+      "id": "evo-0010",
+      "title": "Huerta Group Acquired a Governed Operating Model for Client Work, and Froze It",
+      "path": "institution/evolution/records/evo-0010-headquarters-client-engagement-generation-two.md",
+      "date": "2026-09-09",
+      "institutionalDomain": "operations",
+      "evolutionType": "capability_change",
+      "retrospective": false,
+      "authorityInvolved": [
+        "Founder Office (materiality determination, acceptance, freeze; fd-0039)",
+        "Institutional Platform Development (construction, synthetic validation, reporting)"
+      ],
+      "decisionReferences": [
+        "fd-0039",
+        "fd-0037",
+        "adr-0021",
+        "adr-0023"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/governance/determinations/fd-0039-headquarters-client-engagement-generation-two-acceptance.md",
+        "institution/governance/determinations/fd-0037-client-engagement-generation-one-p0-construction.md",
+        "institution/standards/engagement/client-engagement-operating-standard.md",
+        "institution/decisions/adr-0021-client-confidentiality-custody-and-isolation-architecture.md",
+        "institution/decisions/adr-0023-shared-pre-launch-development-infrastructure.md",
+        "institution/evolution/records/evo-0007-client-engagement-operating-architecture.md",
+        "institution/evolution/records/evo-0008-client-confidentiality-custody-and-isolation-architecture.md",
+        "institution/evolution/records/evo-0009-shared-pre-launch-development-infrastructure.md"
+      ],
+      "refinementReferences": []
     }
   ]
 }

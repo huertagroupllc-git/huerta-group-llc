@@ -19,3 +19,4 @@ procedure.
 | [evo-0007](records/evo-0007-client-engagement-operating-architecture.md) | 2026-08-26 | operations | foundation_established | The Institution Became Able to Take Outside Clients Under Governed Authority |
 | [evo-0008](records/evo-0008-client-confidentiality-custody-and-isolation-architecture.md) | 2026-08-26 | repository/platform | governance_determination | Confidential Client Material Was Given an Architecture of Its Own |
 | [evo-0009](records/evo-0009-shared-pre-launch-development-infrastructure.md) | 2026-08-28 | repository/platform | structure_reorganization | Where Client Engagement Develops Was Separated From Where It Will Live |
+| [evo-0010](records/evo-0010-headquarters-client-engagement-generation-two.md) | 2026-09-09 | operations | capability_change | Huerta Group Acquired a Governed Operating Model for Client Work, and Froze It |

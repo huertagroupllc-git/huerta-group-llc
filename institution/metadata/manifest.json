@@ -8848,6 +8848,62 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0039-headquarters-client-engagement-generation-two-acceptance",
+      "title": "fd-0039 — Founder Office Determination: Headquarters Client Engagement Generation Two Acceptance and Evolution Reconciliation",
+      "path": "institution/governance/determinations/fd-0039-headquarters-client-engagement-generation-two-acceptance.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Determines that Headquarters Client Engagement Generation Two is material institutional evolution, authorizes exactly one Evolution Log entry, fixes the accepted and frozen baseline at e728a18, and withholds the universal fd-NNNN evolution-classification validator.",
+      "provenance": {
+        "origin": "Founder Office (instrument) via Institutional Platform Development (record)",
+        "approvalReference": "Determination record: evidences the determinations; authority resides with the Founder Office and the artifacts the determinations govern.",
+        "effectiveDate": "2026-09-09"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0038-institutional-evolution-log-generation-one"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0037-client-engagement-generation-one-p0-construction"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "evo-0010-headquarters-client-engagement-generation-two",
+      "title": "evo-0010 — Huerta Group Acquired a Governed Operating Model for Client Work, and Froze It",
+      "path": "institution/evolution/records/evo-0010-headquarters-client-engagement-generation-two.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The institution moved from having a governed client-engagement architecture to having a governed operating model: Generation Two established, synthetically validated end to end, accepted, and frozen at baseline e728a18 pending operational evidence or bounded launch hardening.",
+      "provenance": {
+        "origin": "Institutional Platform Development (evolution record)",
+        "approvalReference": "Evolution record: evidences the evolution, creates none. Materiality determined by fd-0039 (FD-G2-1).",
+        "effectiveDate": "2026-09-09"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0039-headquarters-client-engagement-generation-two-acceptance"
+        },
+        {
+          "rel": "references",
+          "target": "evo-0007-client-engagement-operating-architecture"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
