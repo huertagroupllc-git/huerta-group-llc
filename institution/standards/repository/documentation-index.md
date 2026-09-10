@@ -17,7 +17,10 @@ copying their contents.
 
 | Document | Canonical path | Purpose |
 | --- | --- | --- |
-| Huerta Group LLC Constitution | [`governance/huerta-group-constitution.md`](../../governance/constitution/huerta-group-constitution.md) | The highest internal authority. Currently ratified: Articles I–III (record awaits verbatim ratified text) |
+| Huerta Group LLC Constitution | [`governance/huerta-group-constitution.md`](../../governance/constitution/huerta-group-constitution.md) | The highest internal authority and the canonical record of the constitutional articles and their status |
+| — Article I — Purpose and Identity | [`governance/constitution/article-i-purpose-and-identity.md`](../../governance/constitution/article-i-purpose-and-identity.md) | Ratified constitutional text, verbatim as supplied (`fd-0040`) |
+| — Article II — Mission and Long-Term Responsibility | [`governance/constitution/article-ii-mission-and-long-term-responsibility.md`](../../governance/constitution/article-ii-mission-and-long-term-responsibility.md) | Ratified constitutional text, verbatim as supplied (`fd-0040`) |
+| — Article III — Principles and Character | [`governance/constitution/article-iii-principles-and-character.md`](../../governance/constitution/article-iii-principles-and-character.md) | Ratified constitutional text, verbatim as supplied (`fd-0040`) |
 | Vision Foundation for Development | [`governance/vision-foundation-for-development.md`](../../governance/strategic/vision-foundation-for-development.md) | Approved strategic foundation for all technology and development decisions |
 | Development Standards | [`development/development-standards.md`](../development/development-standards.md) | How systems are designed, implemented, reviewed, documented, and maintained |
 | Bounded Autonomous Completion and Verification Standard | [`development/bounded-autonomous-completion-standard.md`](../development/bounded-autonomous-completion-standard.md) | Default execution method for consequential development tasks (loop engineering, builder–inspector separation, evidence-based completion); a companion to the Development Standards |

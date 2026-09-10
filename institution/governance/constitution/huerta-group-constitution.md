@@ -22,17 +22,29 @@ These articles are formally ratified and closed to ordinary revision.
 
 ## Ratified text
 
-The formally ratified text of Articles I–III has not yet been supplied to
-this repository.
+The formally ratified text was supplied through Founder Office authority on
+2026-09-10 and is recorded verbatim beside this file, one file per article,
+exactly as supplied — with no summarization, paraphrase, compression,
+expansion, modernization, reorganization, or editorial revision of any kind:
 
-When the ratified text is provided through the appropriate Company
-authority, it must be inserted into this file **verbatim** — exactly as
-ratified, with no summarization, paraphrase, compression, expansion,
-modernization, reorganization, or editorial revision of any kind.
+1. [Article I — Purpose and Identity](article-i-purpose-and-identity.md)
+2. [Article II — Mission and Long-Term Responsibility](article-ii-mission-and-long-term-responsibility.md)
+3. [Article III — Principles and Character](article-iii-principles-and-character.md)
 
-Until that insertion occurs, this file records the ratified articles by
-title only. The absence of the full text from this repository does not
-diminish the articles' ratified status or binding authority.
+Those three files **are** the ratified constitutional text. They are held
+beside this record rather than pasted into it so that the supplied text is
+preserved byte-for-byte: transcription is the one way verbatim preservation
+can fail, and it is avoided entirely by never re-typing the text. This file
+remains the canonical record of the Constitution and of the articles' status,
+and does not paraphrase or restate them.
+
+Provenance — the source, the Founder Office determination establishing these
+texts as ratified, and the two matters left open at insertion — is recorded in
+`fd-0040`.
+
+When further ratified text is provided through the appropriate Company
+authority, it is added under this same rule: verbatim, unaltered, and
+recorded here.
 
 ## Rules governing this document
 

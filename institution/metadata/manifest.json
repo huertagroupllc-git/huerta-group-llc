@@ -8904,6 +8904,118 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "article-i-purpose-and-identity",
+      "title": "Huerta Group LLC Constitution — Article I — Purpose and Identity",
+      "path": "institution/governance/constitution/article-i-purpose-and-identity.md",
+      "type": "governing-record",
+      "classification": "Ratified Constitutional Authority",
+      "authorityTier": 1,
+      "status": "current",
+      "summary": "Ratified constitutional text. Nine sections: permanent purpose, organizational identity, order of responsibility, the human purpose of systems, industry neutrality, enduring institutional character, non-negotiable identity, the definition of success, and continuity of identity.",
+      "provenance": {
+        "origin": "Founder Office (supplied verbatim)",
+        "approvalReference": "Ratified constitutional text supplied through Founder Office authority and inserted verbatim under fd-0040; ratified and closed to ordinary revision.",
+        "effectiveDate": "2026-09-10"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0040-ratified-constitution-text-insertion"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "article-ii-mission-and-long-term-responsibility",
+      "title": "Huerta Group LLC Constitution — Article II — Mission and Long-Term Responsibility",
+      "path": "institution/governance/constitution/article-ii-mission-and-long-term-responsibility.md",
+      "type": "governing-record",
+      "classification": "Ratified Constitutional Authority",
+      "authorityTier": 1,
+      "status": "current",
+      "summary": "Ratified constitutional text. Ten sections: continuing mission, constitutional responsibilities, duty to strengthen the institution, generational decision horizon, learning institution, duty to truth, institutional knowledge, responsibility to society, constitutional growth, client stewardship.",
+      "provenance": {
+        "origin": "Founder Office (supplied verbatim)",
+        "approvalReference": "Ratified constitutional text supplied through Founder Office authority and inserted verbatim under fd-0040; ratified and closed to ordinary revision.",
+        "effectiveDate": "2026-09-10"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0040-ratified-constitution-text-insertion"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "article-iii-principles-and-character",
+      "title": "Huerta Group LLC Constitution — Article III — Principles and Character",
+      "path": "institution/governance/constitution/article-iii-principles-and-character.md",
+      "type": "governing-record",
+      "classification": "Ratified Constitutional Authority",
+      "authorityTier": 1,
+      "status": "current",
+      "summary": "Ratified constitutional text. Twelve sections: constitutional function, principles and institutional character, integrated application, and the principles of integrity, truthfulness, human dignity, fairness, stewardship, prudence, excellence and accountability.",
+      "provenance": {
+        "origin": "Founder Office (supplied verbatim)",
+        "approvalReference": "Ratified constitutional text supplied through Founder Office authority and inserted verbatim under fd-0040; ratified and closed to ordinary revision.",
+        "effectiveDate": "2026-09-10"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "huerta-group-constitution"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0040-ratified-constitution-text-insertion"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "id": "fd-0040-ratified-constitution-text-insertion",
+      "title": "fd-0040 — Founder Office Determination: Ratified Constitution Text Supplied and Inserted (Articles I–III)",
+      "path": "institution/governance/determinations/fd-0040-ratified-constitution-text-insertion.md",
+      "type": "decision-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "Records the Founder Office determination that the three supplied texts are the ratified Articles I-III, the authorized insertion, byte-for-byte preservation, and two open matters: Article II's contradictory status marker and the absent ratification date.",
+      "provenance": {
+        "origin": "Founder Office (determinations) via Institutional Platform Development (record)",
+        "approvalReference": "Determination record: evidences the determinations; authority resides with the Founder Office and the artifacts the determinations govern.",
+        "effectiveDate": "2026-09-10"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0004-deliverable-acceptance-and-provenance-record"
+        },
+        {
+          "rel": "references",
+          "target": "huerta-group-constitution"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }

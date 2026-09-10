@@ -1260,6 +1260,37 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0040",
+      "title": "Founder Office Determination: Ratified Constitution Text Supplied and Inserted (Articles I–III)",
+      "path": "institution/governance/determinations/fd-0040-ratified-constitution-text-insertion.md",
+      "instrument": "Ratified Constitution Text Reconciliation execution package (Founder Office to Institutional Platform Development) followed by two direct Founder Office determinations of 2026-09-10: that the three supplied Markdown texts of Article I — Purpose and Identity, Article II — Mission and Long-Term Responsibility and Article III — Principles and Character are the ratified constitutional text, and that the canonical record be restored and the articles inserted; supplying the ratification connection that fd-0004 deficiency 1 recorded as never transmitted; preserving the supplied text byte-for-byte by committing the three files exactly as supplied and holding them beside the canonical record rather than transcribing them into it, on the ground that transcription is the one way verbatim preservation can fail; altering no constitutional language whatever — nothing drafted, rewritten, modernized, normalized, reordered, corrected or reconstructed; and recording rather than resolving two open matters, being the contradictory status marker on Article II which reads Final Draft for Comprehensive Review and could not be corrected without editing constitutional text, and the continuing absence of any ratification date, adoption record or signature in any of the three texts — while preserving fd-0004, the prior recovery determination and the governance mechanism audit unchanged as historically accurate",
+      "dateReceived": "2026-09-10",
+      "recordedDate": "2026-09-10",
+      "determinationCount": 4,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0040-ratified-constitution-text-insertion.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/governance/constitution/article-i-purpose-and-identity.md",
+        "institution/governance/constitution/article-ii-mission-and-long-term-responsibility.md",
+        "institution/governance/constitution/article-iii-principles-and-character.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "institution/standards/repository/documentation-index.md",
+        "README.md"
+      ],
+      "deficienciesRecorded": 2,
+      "relationships": [
+        {
+          "target": "fd-0004",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0003",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
