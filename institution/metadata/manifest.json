@@ -8906,6 +8906,34 @@
       "machineConsumptionEligible": "unresolved"
     },
     {
+      "id": "evo-0011-ratified-constitution-text-restored-to-custody",
+      "title": "evo-0011 — The Ratified Constitution Came Into the Company's Own Custody",
+      "path": "institution/evolution/records/evo-0011-ratified-constitution-text-restored-to-custody.md",
+      "type": "status-record",
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "summary": "The ratified text of Constitution Articles I–III came into authoritative repository custody: supplied through Founder Office authority under fd-0040, preserved verbatim as three files, and cited rather than duplicated by the canonical record.",
+      "provenance": {
+        "origin": "Institutional Platform Development (evolution record)",
+        "approvalReference": "Evolution record: evidences the evolution, creates none. Materiality determined by the Founder Office; the insertion and its two recorded matters are governed by fd-0040.",
+        "effectiveDate": "2026-09-10"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0040-ratified-constitution-text-insertion"
+        },
+        {
+          "rel": "references",
+          "target": "huerta-group-constitution"
+        }
+      ],
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
+    },
+    {
       "id": "article-i-purpose-and-identity",
       "title": "Huerta Group LLC Constitution — Article I — Purpose and Identity",
       "path": "institution/governance/constitution/article-i-purpose-and-identity.md",

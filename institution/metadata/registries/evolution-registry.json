@@ -303,6 +303,38 @@
         "institution/evolution/records/evo-0009-shared-pre-launch-development-infrastructure.md"
       ],
       "refinementReferences": []
+    },
+    {
+      "id": "evo-0011",
+      "title": "The Ratified Constitution Came Into the Company's Own Custody",
+      "path": "institution/evolution/records/evo-0011-ratified-constitution-text-restored-to-custody.md",
+      "date": "2026-09-10",
+      "institutionalDomain": "governance",
+      "evolutionType": "recovery",
+      "retrospective": false,
+      "authorityInvolved": [
+        "Founder Office (supply of the texts, determination that they are the ratified text, authorization of insertion, Article II status correction; fd-0040)",
+        "Institutional Platform Development (verbatim insertion, canonical-record restoration, digest and scope verification, recording of the open matters)"
+      ],
+      "decisionReferences": [
+        "fd-0040",
+        "fd-0004",
+        "fd-0003",
+        "fd-0001"
+      ],
+      "canonicalArtifactReferences": [
+        "institution/governance/determinations/fd-0040-ratified-constitution-text-insertion.md",
+        "institution/governance/constitution/huerta-group-constitution.md",
+        "institution/governance/constitution/article-i-purpose-and-identity.md",
+        "institution/governance/constitution/article-ii-mission-and-long-term-responsibility.md",
+        "institution/governance/constitution/article-iii-principles-and-character.md",
+        "institution/governance/determinations/fd-0004-deliverable-acceptance-and-provenance-record.md",
+        "institution/governance/determinations/fd-0001-governance-audit-instrument-determinations.md",
+        "institution/governance/repository-foundation/deliverable-b-governance-mechanism-audit.md",
+        "institution/standards/repository/canonical-source-preservation.md",
+        "institution/standards/repository/documentation-index.md"
+      ],
+      "refinementReferences": []
     }
   ]
 }
