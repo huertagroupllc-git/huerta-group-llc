@@ -90,16 +90,27 @@ package, informational).
 
 ## Navigation capacity (measured, not estimated)
 
-The desktop link row (xl breakpoint and above, `gap-3`, no-wrap CTA at
-`px-4`) is **at capacity with eight labels**: at the `max-w-6xl` container
-cap the occupied row width equals the available width with the CTA flush
-at the content edge (≈0px slack measured at 1280/1366/1440; the row fits
-by design, verified unwrapped). Below `xl`, the accessible menu button
-serves all viewports (320–1279px).
+**Current state.** The desktop row carries five items — Services,
+Methodology, the Capabilities disclosure, About, Contact — plus the
+no-wrap CTA, and appears at the `lg` breakpoint and above; below `lg` the
+accessible menu button serves all viewports. `ddr-0011` adopted this
+structure, grouping the four institutional branches behind one disclosure
+and restoring the full "Technology & Software" name. The row is no longer
+at capacity.
 
-**Any future top-level navigation addition will not fit and requires an
-owner-authorized structural decision** (options: grouped navigation,
-shorter labels, wider container — all reserved to Esteban).
+**Superseded measurement, retained for provenance.** Before `ddr-0011`,
+the desktop link row (xl breakpoint and above, `gap-3`, no-wrap CTA at
+`px-4`) was **at capacity with eight labels**: at the `max-w-6xl` container
+cap the occupied row width equalled the available width with the CTA flush
+at the content edge (≈0px slack measured at 1280/1366/1440; the row fitted
+by design, verified unwrapped), and below `xl` the menu button served
+320–1279px. That ceiling — recorded as `gr-0003` — is what `ddr-0011`
+answered. The measurement was accurate when taken and no longer describes
+the implementation.
+
+**Any future top-level navigation addition remains an owner-authorized
+structural decision** reserved to Esteban, now taken against the
+`ddr-0011` structure rather than the eight-label row.
 
 ## Verified limitations (acceptable for launch)
 
