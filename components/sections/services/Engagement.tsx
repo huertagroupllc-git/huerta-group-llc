@@ -1,28 +1,35 @@
 import { ArrowLink } from "@/components/ui/ArrowLink";
-import { Card, CardOrdinal } from "@/components/ui/Card";
+import { Card, CardHeadRule } from "@/components/ui/Card";
 import { Section } from "@/components/ui/Section";
 
-const PHASES = [
+/**
+ * The public work groupings, as they apply to an engagement.
+ *
+ * The same four groupings the homepage carries, described here by the work
+ * involved rather than the posture taken. They group the eight authoritative
+ * elements of methodology-foundation-v1.md §3; the order is substantive and
+ * preserved, so the set stays an <ol>.
+ *
+ * No ordinals, and the word "phase" does not appear. §3 closes: "It is not
+ * approved as a branded, numbered, proprietary phase model."
+ */
+const WORK_GROUPINGS = [
   {
-    number: "01",
     title: "Understand",
     activities:
       "Discovery, organizational assessment, process mapping, and operational analysis.",
   },
   {
-    number: "02",
     title: "Design",
     activities:
       "Recommendations, system design, implementation planning, and documentation.",
   },
   {
-    number: "03",
     title: "Implement",
     activities:
       "Technology selection, configuration, or development where justified, together with change support and training.",
   },
   {
-    number: "04",
     title: "Sustain",
     activities:
       "Performance tracking, continued measurement, and support for continuous improvement.",
@@ -34,24 +41,24 @@ export function Engagement() {
     <Section
       eyebrow="Working together"
       title="What an engagement may involve."
-      lead="An adaptable model, not a fixed package — the phases below are drawn on as the organization's situation requires."
+      lead="An adaptable model, not a fixed package — the work below is drawn on as the organization's situation requires."
       tone="raised"
     >
       <ol className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        {PHASES.map((phase) => (
-          <Card as="li" interactive key={phase.number}>
-            <CardOrdinal>{phase.number}</CardOrdinal>
+        {WORK_GROUPINGS.map((grouping) => (
+          <Card as="li" interactive key={grouping.title}>
+            <CardHeadRule />
             <h3 className="font-serif text-xl text-silver-100">
-              {phase.title}
+              {grouping.title}
             </h3>
             <p className="mt-2.5 text-sm leading-relaxed text-silver-400">
-              {phase.activities}
+              {grouping.activities}
             </p>
           </Card>
         ))}
       </ol>
       <p className="mt-10 max-w-2xl text-sm leading-relaxed text-silver-500">
-        The shape and depth of each phase depend on the organization. Some
+        The shape and depth of the work depend on the organization. Some
         engagements are focused on a single area of work; others move
         through the full arc.
       </p>

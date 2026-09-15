@@ -226,9 +226,12 @@ export function ContactForm() {
                   name="inquiryType"
                   value={type.value}
                   required
-                  defaultChecked={
-                    (values?.inquiryType ?? "general") === type.value
-                  }
+                  // No default: the category must be chosen deliberately.
+                  // `values` only repopulates the choice after a failed
+                  // submission, so a first-time visitor starts with none
+                  // selected and the server's existing required-field
+                  // validation does the rest.
+                  defaultChecked={values?.inquiryType === type.value}
                   className="peer sr-only"
                 />
                 <span className="inline-flex items-center border border-edge px-4 py-2.5 text-silver-300 transition-colors duration-200 ease-brand group-hover:border-gold-600 peer-checked:border-gold-500 peer-checked:bg-gold-500/10 peer-checked:text-silver-100 peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gold-500">

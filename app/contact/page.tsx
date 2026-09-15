@@ -63,8 +63,11 @@ export default function ContactPage() {
                 </h2>
                 <p className="mt-3 text-sm leading-relaxed text-silver-400">
                   Every inquiry is read and reviewed. If there is a
-                  productive way to help, you will hear back at the email
-                  address you provide.
+                  productive way to help, the first step is a conversation —
+                  a discussion to understand your organization, what prompted
+                  you to reach out, and whether the work is a genuine fit.
+                  Nothing is proposed before that conversation, and there is
+                  nothing to prepare for it.
                 </p>
               </div>
               <div>

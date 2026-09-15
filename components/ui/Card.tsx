@@ -24,7 +24,7 @@ interface CardProps {
  *
  * Rationed deliberately. Cards are for enumerated peers at two scales — the
  * default for substantive units (the problem set, the disciplines, the
- * engagement phases, the service areas) and `compact` for principle
+ * engagement groupings, the service areas) and `compact` for principle
  * statements. Prose sections, short bullet lists and editorial splits keep the
  * open top-border language ddr-0009 established, because wrapping every block
  * in a card is precisely the generic-SaaS drift ddr-0011 forbids.
@@ -64,6 +64,22 @@ export function CardOrdinal({ children }: { children: React.ReactNode }) {
       </span>
       <span aria-hidden="true" className="h-px flex-1 bg-card-edge" />
     </div>
+  );
+}
+
+/**
+ * The card head hairline without an ordinal.
+ *
+ * For a set that is genuinely ordered but must not present as a numbered
+ * model. methodology-foundation-v1.md §3 approves the work progression in
+ * substance and in order, and closes by withholding approval of it as "a
+ * branded, numbered, proprietary phase model" — so the public groupings keep
+ * the card head rhythm and lose the numeral. Not CardRule: that rule belongs
+ * to the unordered principle sets, and these are ordered.
+ */
+export function CardHeadRule() {
+  return (
+    <span aria-hidden="true" className="mb-4 block h-px w-full bg-card-edge" />
   );
 }
 

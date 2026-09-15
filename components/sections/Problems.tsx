@@ -24,14 +24,14 @@ const PROBLEMS = [
       "Software multiplies faster than the processes it was meant to support.",
   },
   {
-    title: "Weak reporting",
+    title: "Weak decision visibility",
     description:
       "Leaders make decisions without timely, reliable operational visibility.",
   },
   {
-    title: "Trapped knowledge",
+    title: "Capability trapped in individuals",
     description:
-      "Critical know-how lives in individuals instead of in documented systems.",
+      "Know-how stays with particular people instead of becoming capability the organization owns and can rely on.",
   },
 ] as const;
 

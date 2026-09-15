@@ -171,6 +171,18 @@ Model: Implemented Capability → Public Representation → Alignment. Repositor
 - **Structure:** one flat, eight-label primary navigation (Services · Methodology · Intellectual Property · Education · Technology · Managed Services · About · Contact) driven by a single source (`lib/site.ts:36–45`) across Header, MobileNav, and Footer — internally consistent everywhere, with a persistent "Start a conversation" CTA.
 - **Fit to the evolved institution:** the IA mirrors the Vision Foundation §5 value-creation chain and gives each institutional branch exactly one route; cross-links trace the intended knowledge cycle (services→methodology→IP→education→technology→managed services). As an *institutional narrative progression* it is coherent and discoverable; every page terminates in the same conversion path (`/contact`).
 - **Measured constraint (authoritative):** the desktop navigation row is **at capacity with eight labels** — "Any future top-level navigation addition will not fit and requires an owner-authorized structural decision" (`docs/launch/launch-readiness.md`). Consequence: *any* future venture, portfolio, insights, or legal top-level entry forces a structural navigation decision reserved to the owner. This is the platform's principal IA rigidity and should be treated as a standing input to the publishing-representation decision (a footer-level or About-section treatment avoids the constraint; a top-level entry does not fit).
+
+> **Superseded finding, retained for provenance (annotated 2026-09-14).** The
+> eight-label ceiling recorded above — carried as `gr-0003` — was answered by
+> `ddr-0011`, which replaced the flat row with five items plus the Capabilities
+> disclosure holding the four institutional branches. The desktop row is no
+> longer at capacity; `docs/launch/launch-readiness.md` carries the corrected
+> measurement. The consequence drawn here — that a future venture, portfolio,
+> insights or legal entry cannot fit — no longer holds. Such an entry remains
+> an owner-authorized structural decision, but one now taken against the
+> `ddr-0011` structure rather than against a full row. The measurement was
+> accurate when taken; it is preserved unaltered and does not describe current
+> controlling state.
 - **Gaps within existing routes (no new pages required):** (a) no privacy/terms link anywhere — the footer carries no legal links, while the contact form collects PII; the single form disclaimer is the only legal text on the site (owner legal review already recorded as open); (b) venture context, if ever authorized, has a natural existing home in the About "long view" section.
 - **Refinement over expansion:** no new public page is demonstrated to be *required* by this audit. The 404 page correctly recovers to footer navigation; sitemap lists exactly the nine routes.
 
@@ -300,6 +312,11 @@ Copy/alignment changes stay separated from unrelated technical development throu
 2. **Constitutional text insertion remains deferred** (fd-0001 det. 3; fd-0004 deficiency 1). The public platform correctly avoids constitutional language; the deficiency is institutional, not public-facing.
 3. **Branding authority does not exist** (fd-0001 det. 6), yet EWDFv1 §12.6 requires Branding approval for public educational names/claims — a dependency that will bind the moment education becomes public.
 4. **Navigation is at measured capacity (8 labels).** Any venture, insights, or legal top-level entry forces the owner's structural navigation decision. Worth deciding *once*, ahead of need.
+
+   > **Superseded observation, retained for provenance (annotated
+   > 2026-09-14).** Answered by `ddr-0011`; see the annotation to §9. The
+   > structural decision reserved to the owner still stands; the capacity
+   > pressure that made it urgent does not.
 5. **mr-0008's public-principle mapping** (public Methodology page ↔ `public_methodology_principle` records) awaits Methodology review — the one place where public copy runs ahead of its own traceability system by the standard's own admission.
 6. **fd-0004's seven approval-provenance deficiencies** remain open; the Design System Foundation v1 text remains unpreserved while its reference implementation matures — the gap between implemented design language (evo-0003) and unpreserved design authority will widen.
 7. **OSPA**: 9 of 15 sections permanently unavailable, reconstruction prohibited; education's future delivery workflows name OSPA as an unresolved dependency (EWDFv1 §20.8).
