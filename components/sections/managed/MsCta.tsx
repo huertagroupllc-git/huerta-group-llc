@@ -5,7 +5,7 @@ export function MsCta() {
   return (
     <CtaBand
       title="Discuss sustained organizational support."
-      lead="If your organization is carrying systems it needs to keep strong — through growth, transition, complexity, or the demands of implementation — describe where things stand today. Every inquiry is read and reviewed."
+      lead="If your organization is carrying systems it needs to keep strong — through growth, transition, complexity, or the demands of implementation — describe where things stand today. Inquiries are reviewed to determine whether the work may be a fit and what an appropriate next step may be."
       actions={
         <>
           <ButtonLink href={CONTACT_HREF}>Contact Huerta Group</ButtonLink>
