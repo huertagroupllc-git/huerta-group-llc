@@ -1,6 +1,7 @@
 import { ArrowLink } from "@/components/ui/ArrowLink";
 import { PullQuote } from "@/components/ui/PullQuote";
 import { Section } from "@/components/ui/Section";
+import { CAPABILITY_GROUP_LABEL, CAPABILITY_NAV } from "@/lib/site";
 
 export function LongTerm() {
   return (
@@ -8,6 +9,7 @@ export function LongTerm() {
       layout="split"
       eyebrow="The long view"
       title="Built to be an institution, not a moment."
+      tone="raised"
     >
       <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
@@ -33,9 +35,20 @@ export function LongTerm() {
           horizons, obligations taken seriously, and growth pursued only at
           a pace the work can honestly support.
         </PullQuote>
-        <p>
-          <ArrowLink href="/education">Explore Education &amp; Workforce Development</ArrowLink>
-        </p>
+        {/* Secondary access to the four institutional branches, now that the
+            header no longer carries them (2027 launch alignment). */}
+        <div>
+          <p className="font-mono text-[0.65rem] uppercase tracking-eyebrow text-gold-500">
+            {CAPABILITY_GROUP_LABEL}
+          </p>
+          <ul className="mt-2 space-y-1">
+            {CAPABILITY_NAV.map((item) => (
+              <li key={item.href}>
+                <ArrowLink href={item.href}>{item.label}</ArrowLink>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </Section>
   );

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Archivo, Cormorant_Garamond, JetBrains_Mono } from "next/font/google";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { SITE_INDEXING_ENABLED } from "@/lib/indexing";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -42,6 +43,18 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
+  /**
+   * Site-wide indexing directive, inherited by every route: no page defines
+   * its own `robots`, so this single declaration governs the whole site
+   * (metadata merges shallowly by key). Pre-launch it emits
+   * `noindex, nofollow`; the launch switch in lib/indexing.ts turns it to
+   * `index, follow` without a page edit. Titles, descriptions, canonicals,
+   * and Open Graph metadata are unaffected in either mode.
+   */
+  robots: {
+    index: SITE_INDEXING_ENABLED,
+    follow: SITE_INDEXING_ENABLED,
+  },
   openGraph: {
     type: "website",
     siteName: SITE_NAME,

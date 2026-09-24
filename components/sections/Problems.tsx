@@ -2,36 +2,42 @@ import { PullQuote } from "@/components/ui/PullQuote";
 import { Card, CardOrdinal } from "@/components/ui/Card";
 import { Section } from "@/components/ui/Section";
 
-const PROBLEMS = [
-  {
-    title: "Fragmented workflows",
-    description:
-      "Work moves between people and tools without a clear, repeatable path.",
-  },
+/**
+ * The recognition conditions (2027 launch alignment). Each names a condition a
+ * prospective client can recognize in their own organization; together they
+ * describe a material operating problem that crosses systems. They restrict
+ * nothing else — no industry, size, or stage.
+ */
+const CONDITIONS = [
   {
     title: "Unclear ownership",
     description:
-      "Responsibilities blur as teams expand, and decisions slow down.",
+      "Responsibility for outcomes is ambiguous, shared by default, or held by no one in particular.",
   },
   {
-    title: "Inconsistent processes",
+    title: "Fragmented information",
     description:
-      "Outcomes depend on who does the work, not on how the work is designed.",
+      "The information decisions depend on lives in several places, in several versions, and rarely agrees.",
+  },
+  {
+    title: "Processes that no longer fit",
+    description:
+      "The documented way of working and the way work actually happens have drifted apart.",
   },
   {
     title: "Disconnected tools",
     description:
-      "Software multiplies faster than the processes it was meant to support.",
+      "Systems multiply faster than the processes they were meant to support, and the gaps between them are bridged by hand.",
   },
   {
-    title: "Weak decision visibility",
+    title: "Dependence on particular people",
     description:
-      "Leaders make decisions without timely, reliable operational visibility.",
+      "The operation runs on what specific individuals know and carry, and strains whenever they are unavailable.",
   },
   {
-    title: "Capability trapped in individuals",
+    title: "Weak management visibility",
     description:
-      "Know-how stays with particular people instead of becoming capability the organization owns and can rely on.",
+      "Leaders make decisions without timely, reliable information about how the operation is actually running.",
   },
 ] as const;
 
@@ -39,25 +45,25 @@ export function Problems() {
   return (
     <Section
       id="challenges"
-      eyebrow="The problem"
-      title="Growth exposes the systems behind the work."
-      lead="As organizations grow, the informal systems that once worked quietly begin to strain. The symptoms are familiar."
+      eyebrow="Who this is for"
+      title="When the problem runs across systems."
+      lead="Huerta Group works with organizations experiencing material operating problems that no single team, tool, or process explains — conditions that show up across the systems the organization runs on, and that make coordinating work across those systems harder than the work itself. They are recognizable."
       align="center"
     >
       <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {PROBLEMS.map((problem, index) => (
-          <Card as="li" interactive key={problem.title}>
+        {CONDITIONS.map((condition, index) => (
+          <Card as="li" interactive key={condition.title}>
             <CardOrdinal>{String(index + 1).padStart(2, "0")}</CardOrdinal>
-            <h3 className="font-serif text-xl text-silver-100">{problem.title}</h3>
+            <h3 className="font-serif text-xl text-silver-100">{condition.title}</h3>
             <p className="mt-2.5 text-sm leading-relaxed text-silver-400">
-              {problem.description}
+              {condition.description}
             </p>
           </Card>
         ))}
       </ul>
       <PullQuote className="mx-auto mt-14 max-w-2xl leading-relaxed">
         None of these are people problems. They are systems problems — and
-        systems can be designed.
+        systems can be understood, and then designed.
       </PullQuote>
     </Section>
   );

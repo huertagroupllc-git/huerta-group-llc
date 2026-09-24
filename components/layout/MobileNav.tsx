@@ -4,21 +4,21 @@ import { useEffect, useRef, useState } from "react";
 import { NavLink } from "@/components/layout/NavLink";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import {
+  CAPABILITY_GROUP_LABEL,
   CAPABILITY_NAV,
   CONTACT_HREF,
   PRIMARY_NAV,
-  SECONDARY_NAV,
 } from "@/lib/site";
 
 /**
  * Menu toggle for viewports below lg. Renders a button and a full-width panel
  * under the header.
  *
- * ddr-0011 completes the responsive design the passover did not contain. The
- * panel carries the same grouping the desktop disclosure does — Capabilities
- * appears as a labelled group with its ordinals rather than a nested dropdown,
- * because a disclosure inside a disclosure is a worse answer on a touch screen
- * than a section heading. Every destination stays one tap away.
+ * The panel carries the launch hierarchy the desktop row does: the four
+ * primary destinations first, then the four institutional branches as a
+ * labelled secondary group at a quieter scale — reachable, but not competing
+ * with the client journey — and the contact CTA last. Every destination stays
+ * one tap away (ddr-0011).
  */
 export function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -100,7 +100,7 @@ export function MobileNav() {
 
               <li className="mt-4 border-t border-card-edge pt-4">
                 <p className="font-mono text-[0.65rem] uppercase tracking-eyebrow text-gold-500">
-                  Capabilities
+                  {CAPABILITY_GROUP_LABEL}
                 </p>
                 <ul className="mt-1">
                   {CAPABILITY_NAV.map((item) => (
@@ -113,26 +113,10 @@ export function MobileNav() {
                       </span>
                       <NavLink
                         href={item.href}
-                        variant="menu"
+                        variant="menuSecondary"
                         onClick={() => setOpen(false)}
                       >
                         {item.label}
-                      </NavLink>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-
-              <li className="mt-4 border-t border-card-edge pt-4">
-                <ul>
-                  {SECONDARY_NAV.map((link) => (
-                    <li key={link.href}>
-                      <NavLink
-                        href={link.href}
-                        variant="menu"
-                        onClick={() => setOpen(false)}
-                      >
-                        {link.label}
                       </NavLink>
                     </li>
                   ))}

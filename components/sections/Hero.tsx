@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CONTACT_HREF, TAGLINE } from "@/lib/site";
+import { ASSESSMENT_HREF, CONTACT_HREF, TAGLINE } from "@/lib/site";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 
@@ -13,6 +13,10 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
  * than its native 415px: the passover ships crops of the brand sheet and warns
  * that they soften at large sizes, so it is composed to the size the asset can
  * actually carry.
+ *
+ * 2027 launch alignment: the lead names the client the practice serves —
+ * organizations experiencing material cross-system operating problems — and
+ * the actions lead to the consultation and the entry engagement.
  */
 export function Hero() {
   return (
@@ -24,15 +28,16 @@ export function Hero() {
             We build the systems your organization runs on.
           </h1>
           <p className="mt-7 max-w-xl text-pretty text-lg leading-relaxed text-silver-400">
-            Huerta Group is an organizational systems company. We help
-            leadership teams build, optimize, and scale — connecting people,
-            processes, technology, and information into systems that support
-            growth instead of straining under it.
+            Huerta Group is an organizational systems company. We work with
+            organizations experiencing material operating problems that cross
+            systems — where responsibilities, processes, information, and
+            technology no longer fit together — and we help leadership
+            understand the condition before deciding what to change.
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <ButtonLink href={CONTACT_HREF}>Start a conversation</ButtonLink>
-            <ButtonLink href="#capabilities" variant="secondary">
-              Explore capabilities
+            <ButtonLink href={CONTACT_HREF}>Request a consultation</ButtonLink>
+            <ButtonLink href={ASSESSMENT_HREF} variant="secondary">
+              Explore the assessment
             </ButtonLink>
           </div>
         </div>

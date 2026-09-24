@@ -2,15 +2,23 @@ import Image from "next/image";
 import Link from "next/link";
 import { NavLink } from "@/components/layout/NavLink";
 import { Container } from "@/components/ui/Container";
-import { LEGAL_NAME, NAV_LINKS, SITE_NAME, TAGLINE } from "@/lib/site";
+import {
+  CAPABILITY_GROUP_LABEL,
+  CAPABILITY_NAV,
+  LEGAL_NAME,
+  PRIMARY_NAV,
+  SITE_NAME,
+  TAGLINE,
+} from "@/lib/site";
 
 /**
  * Global site footer: the quiet institutional close of every page.
  *
  * ddr-0011 sets it on the deepest gradient beneath the raised CTA band, opens
  * it with the brand lockup, and gives the tagline the mono eyebrow treatment.
- * It continues to link all eight governed destinations — the header groups
- * four of them, the footer never does.
+ * It continues to link all eight governed destinations, now in two labelled
+ * groups: the client journey the header carries, and the institutional
+ * capabilities the header no longer does (2027 launch alignment).
  */
 export function Footer() {
   const year = new Date().getFullYear();
@@ -47,15 +55,41 @@ export function Footer() {
           <nav aria-label="Footer" className="mt-10 lg:col-span-7 lg:mt-0">
             {/* py-1 + vertical rhythm ≈ the original spacing while
                 keeping each link's touch target */}
-            <ul className="grid gap-x-8 gap-y-1 sm:grid-cols-2">
-              {NAV_LINKS.map((link) => (
-                <li key={link.href}>
-                  <NavLink href={link.href} variant="footer">
-                    {link.label}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
+            <div className="grid gap-x-8 gap-y-8 sm:grid-cols-2">
+              <div>
+                <p className="mb-2 font-mono text-[0.65rem] uppercase tracking-eyebrow text-silver-500">
+                  Company
+                </p>
+                <ul className="grid gap-y-1">
+                  <li>
+                    <NavLink href="/" variant="footer">
+                      Home
+                    </NavLink>
+                  </li>
+                  {PRIMARY_NAV.map((link) => (
+                    <li key={link.href}>
+                      <NavLink href={link.href} variant="footer">
+                        {link.label}
+                      </NavLink>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <p className="mb-2 font-mono text-[0.65rem] uppercase tracking-eyebrow text-silver-500">
+                  {CAPABILITY_GROUP_LABEL}
+                </p>
+                <ul className="grid gap-y-1">
+                  {CAPABILITY_NAV.map((link) => (
+                    <li key={link.href}>
+                      <NavLink href={link.href} variant="footer">
+                        {link.label}
+                      </NavLink>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </nav>
         </div>
 

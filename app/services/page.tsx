@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Assessment } from "@/components/sections/services/Assessment";
 import { Engagement } from "@/components/sections/services/Engagement";
 import { Fit } from "@/components/sections/services/Fit";
 import { HowItConnects } from "@/components/sections/services/HowItConnects";
@@ -11,7 +12,7 @@ import { SITE_NAME } from "@/lib/site";
 
 const PAGE_TITLE = `${SITE_NAME} Services`;
 const PAGE_DESCRIPTION =
-  "Organizational systems services from Huerta Group LLC: assessment and operational analysis, process and workflow design, documentation and knowledge systems, technology and AI implementation, performance measurement, implementation leadership, and ongoing operational advisory.";
+  "Organizational systems services from Huerta Group LLC. The Organizational Systems Assessment — a bounded engagement focused on one defined operating condition — is the primary entry point; further work spans process and workflow design, documentation and knowledge systems, technology and AI implementation, performance measurement, implementation leadership, and ongoing operational advisory.";
 
 export const metadata: Metadata = {
   title: "Services",
@@ -38,6 +39,7 @@ export default function ServicesPage() {
   return (
     <>
       <ServicesHero />
+      <Assessment />
       <SystemsFirst />
       <ServiceAreas />
       <HowItConnects />

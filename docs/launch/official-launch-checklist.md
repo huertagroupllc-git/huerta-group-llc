@@ -29,8 +29,12 @@ by development. Technical items are testable. Status legend:
       [launch-readiness.md](launch-readiness.md)
 - [x] Inquiry persistence verified in production (notification standby)
 - [x] Metadata: unique titles/descriptions/canonicals on all 9 routes
-- [x] Sitemap: 9 routes exactly once, active origin, valid XML
-- [x] Robots: valid, indexing permitted, sitemap declared
+- [x] Sitemap: 9 routes exactly once, active origin, valid XML (superseded
+      2026-09-23: empty urlset pre-launch via `SITE_INDEXING_ENABLED`;
+      the 9 routes are restored at launch)
+- [x] Robots: valid, sitemap declared (superseded 2026-09-23: pre-launch
+      is now `noindex, nofollow` site-wide via `SITE_INDEXING_ENABLED`;
+      see [launch-readiness.md](launch-readiness.md#pre-launch-indexing-state))
 - [x] Structured data: Organization JSON-LD only, accurate
 - [x] Favicon + brand assets resolve (temporary monogram documented)
 - [x] 404 behavior: correct status, branded page, recovery paths
@@ -47,6 +51,10 @@ by development. Technical items are testable. Status legend:
 - [ ] Configure DNS records [owner/credentialed]
 - [ ] Verify certificate issuance and HTTPS on both hosts
 - [ ] Update `SITE_URL` (canonical origin) and redeploy
+- [ ] Set `SITE_INDEXING_ENABLED=true` in Vercel production env and
+      redeploy — the single indexing switch [owner/credentialed]
+- [ ] Verify robots meta is `index, follow`, `/sitemap.xml` lists all
+      routes, and `/robots.txt` declares the sitemap
 - [ ] Verify apex/www redirect direction
 - [ ] Verify old Vercel-origin behavior prevents duplicate indexing
 - [ ] Verify all production routes on the new origin

@@ -15,6 +15,12 @@ const VARIANTS = {
     active: "text-silver-100",
     inactive: "text-silver-300 hover:text-silver-100",
   },
+  /** Mobile menu, secondary group: the institutional branches at a quieter scale. */
+  menuSecondary: {
+    base: "block py-2.5 text-sm transition-colors duration-200 ease-brand",
+    active: "text-silver-100",
+    inactive: "text-silver-400 hover:text-silver-100",
+  },
   footer: {
     base: "inline-block py-1 text-sm transition-[color,padding-left] duration-200 ease-brand hover:pl-1.5",
     active: "text-silver-100",
@@ -38,7 +44,7 @@ interface NavLinkProps {
 /**
  * Navigation link with current-page state: aria-current="page" plus the
  * emphasized text tone on the active route (DDR-0005). Variants map to
- * the three navigation contexts; active/inactive classes are computed
+ * the navigation contexts; active/inactive classes are computed
  * exclusively so no conflicting utilities are emitted.
  */
 export function NavLink({ href, variant, onClick, children }: NavLinkProps) {

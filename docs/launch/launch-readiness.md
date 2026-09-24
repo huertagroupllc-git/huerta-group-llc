@@ -48,6 +48,7 @@ contact form's Server Action is the only server-side runtime behavior.
 
 | Variable | Class | Required | Notes |
 | --- | --- | --- | --- |
+| `SITE_INDEXING_ENABLED` | server-only, build-time | required at official launch | **absent in production by design (pre-launch = `noindex, nofollow` site-wide, empty sitemap, crawling allowed).** Launch switch: set to `true` in Vercel production and redeploy. Read once in `lib/indexing.ts` |
 | `SUPABASE_URL` | server-only | required for inquiry persistence | configured in Vercel production |
 | `SUPABASE_SECRET_KEY` | server-only | required for inquiry persistence | configured in Vercel production |
 | `RESEND_API_KEY` | server-only | optional (standby) | absent in production by design |
@@ -56,7 +57,7 @@ contact form's Server Action is the only server-side runtime behavior.
 
 No `NEXT_PUBLIC_` variables exist. The site renders fully without any
 environment variables; only inquiry submission requires the Supabase
-pair. `SITE_URL` is a constant in `lib/site.ts` (deliberately the active
+pair, and only official launch requires the indexing switch. `SITE_URL` is a constant in `lib/site.ts` (deliberately the active
 Vercel origin until the custom domain is live).
 
 ## Security posture
@@ -90,13 +91,22 @@ package, informational).
 
 ## Navigation capacity (measured, not estimated)
 
-**Current state.** The desktop row carries five items — Services,
-Methodology, the Capabilities disclosure, About, Contact — plus the
-no-wrap CTA, and appears at the `lg` breakpoint and above; below `lg` the
-accessible menu button serves all viewports. `ddr-0011` adopted this
-structure, grouping the four institutional branches behind one disclosure
-and restoring the full "Technology & Software" name. The row is no longer
-at capacity.
+**Current state (2027 launch alignment).** The desktop row carries four
+items — Services, Methodology, About, Contact — plus the no-wrap CTA,
+beside the wordmark Home link, and appears at the `lg` breakpoint and
+above; below `lg` the accessible menu button serves all viewports, listing
+the same four first and the four institutional branches as a labelled
+secondary group. The Capabilities disclosure `ddr-0011` introduced has
+been removed from the header under Founder Office authorization: the four
+institutional routes are unchanged and remain reachable from the mobile
+menu, the About page, and the footer, which links all eight destinations
+in two labelled groups. The row is well within capacity.
+
+**Superseded state, retained for provenance.** Between `ddr-0011` and the
+2027 launch alignment the row carried five items — Services, Methodology,
+the Capabilities disclosure, About, Contact — grouping the four
+institutional branches behind one disclosure and restoring the full
+"Technology & Software" name.
 
 **Superseded measurement, retained for provenance.** Before `ddr-0011`,
 the desktop link row (xl breakpoint and above, `gap-3`, no-wrap CTA at
@@ -111,6 +121,20 @@ the implementation.
 **Any future top-level navigation addition remains an owner-authorized
 structural decision** reserved to Esteban, now taken against the
 `ddr-0011` structure rather than the eight-label row.
+
+## Pre-launch indexing state
+
+Production is deliberately **not indexable** until the official launch:
+every route emits `<meta name="robots" content="noindex, nofollow">` from
+the root metadata (inherited site-wide; no page defines its own `robots`),
+`/robots.txt` keeps crawling allowed (so the directive is seen) and declares
+no sitemap, and `/sitemap.xml` is a valid empty urlset. Titles,
+descriptions, canonicals, Open Graph/Twitter metadata, and the Organization
+JSON-LD are unchanged. The single launch-time switch is
+`SITE_INDEXING_ENABLED=true` in Vercel (Production) plus a redeploy, after
+which the robots meta becomes `index, follow`, the sitemap lists all nine
+routes, and `robots.txt` declares it. The route inventory is identical in
+both modes.
 
 ## Verified limitations (acceptable for launch)
 

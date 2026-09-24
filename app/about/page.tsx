@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { AboutCta } from "@/components/sections/about/AboutCta";
 import { AboutHero } from "@/components/sections/about/AboutHero";
 import { FirstVenture } from "@/components/sections/about/FirstVenture";
+import { Founder } from "@/components/sections/about/Founder";
 import { Identity } from "@/components/sections/about/Identity";
 import { LongTerm } from "@/components/sections/about/LongTerm";
 import { PeopleSystemsTechnology } from "@/components/sections/about/PeopleSystemsTechnology";
@@ -11,7 +12,7 @@ import { SITE_NAME } from "@/lib/site";
 
 const PAGE_TITLE = `About ${SITE_NAME}`;
 const PAGE_DESCRIPTION =
-  "Huerta Group LLC is an organizational systems company. Learn how the Company sees organizations, what it believes makes them strong, and the kind of institution it is being built to be.";
+  "Huerta Group LLC is an organizational systems company. Learn how the Company sees organizations, what it believes makes them strong, the operating background of its Founder, Esteban Huerta, and the kind of institution it is being built to be.";
 
 export const metadata: Metadata = {
   title: "About",
@@ -42,6 +43,7 @@ export default function AboutPage() {
       <Strength />
       <PeopleSystemsTechnology />
       <Perspective />
+      <Founder />
       <LongTerm />
       <FirstVenture />
       <AboutCta />

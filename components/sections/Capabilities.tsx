@@ -43,7 +43,6 @@ export function Capabilities() {
       eyebrow="Capabilities"
       title="Three disciplines, one connected practice."
       lead="The work draws on three core disciplines — applied together, so improvements in one area reinforce the others."
-      tone="raised"
       align="center"
     >
       <div className="grid gap-5 lg:grid-cols-3">

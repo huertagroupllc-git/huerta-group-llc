@@ -1,19 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
-import { CapabilitiesNav } from "@/components/layout/CapabilitiesNav";
 import { MobileNav } from "@/components/layout/MobileNav";
 import { NavLink } from "@/components/layout/NavLink";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Container } from "@/components/ui/Container";
-import { CONTACT_HREF, PRIMARY_NAV, SECONDARY_NAV, SITE_NAME } from "@/lib/site";
+import { CONTACT_HREF, PRIMARY_NAV, SITE_NAME } from "@/lib/site";
 
 /**
- * Global site header (ddr-0011): raised chrome, the brand mark set beside the
- * wordmark, and a five-item row whose middle item is the Capabilities
- * disclosure. `relative` anchors that panel, which spans the full header width.
+ * Global site header: raised chrome (ddr-0011), the brand mark set beside the
+ * wordmark as the Home link, and the launch row — Services, Methodology,
+ * About, Contact — with the contact CTA.
  *
- * The desktop row now appears at lg rather than xl: five items and a CTA fit
- * where eight labels did not, which is the capacity gr-0003 asked for.
+ * The 2027 launch alignment removes the Capabilities disclosure from this row
+ * so the organizational-systems journey is the only one the header offers;
+ * the four institutional branches stay reachable from the mobile menu, the
+ * About page, and the footer. The row appears at lg and above; below lg the
+ * accessible menu button serves every viewport.
  */
 export function Header() {
   return (
@@ -42,12 +44,6 @@ export function Header() {
           className="hidden items-center gap-6 lg:flex"
         >
           {PRIMARY_NAV.map((link) => (
-            <NavLink key={link.href} href={link.href} variant="header">
-              {link.label}
-            </NavLink>
-          ))}
-          <CapabilitiesNav />
-          {SECONDARY_NAV.map((link) => (
             <NavLink key={link.href} href={link.href} variant="header">
               {link.label}
             </NavLink>

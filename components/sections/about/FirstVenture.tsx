@@ -13,7 +13,6 @@ export function FirstVenture() {
       layout="split"
       eyebrow="The first venture"
       title="Huerta Group Publishing."
-      tone="raised"
     >
       <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>

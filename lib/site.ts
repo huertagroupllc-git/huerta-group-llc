@@ -27,36 +27,38 @@ export const SITE_URL = "https://huerta-group-llc.vercel.app";
 export const CONTACT_HREF = "/contact";
 
 /**
- * Primary navigation. "Technology" is the deliberate short label for the
- * Technology & Software page (/technology-software) — the full label
- * cannot render on one line at any supported desktop width alongside the
- * other institutional labels; the route, page heading, and metadata keep
- * the full name.
+ * The primary entry engagement for organizational-systems work, and the
+ * complimentary conversation that precedes any engagement. Named once here so
+ * every page describes them identically. The consultation's duration is the
+ * only public figure the Company states about either; the assessment carries
+ * no public duration or price.
  */
+export const ASSESSMENT_NAME = "Organizational Systems Assessment";
+export const ASSESSMENT_HREF = "/services#assessment";
+export const CONSULTATION_NAME = "Complimentary Initial Consultation";
+export const CONSULTATION_LENGTH = "up to 30 minutes";
+
 /**
- * Header navigation (ddr-0011). The eight-label row is replaced by five items
- * and a Capabilities disclosure holding the four institutional branches —
- * answering gr-0003's navigation-capacity ceiling and restoring the full
- * "Technology & Software" name, which the flat row could not fit.
- *
- * The routes are unchanged. This is presentation: every governed destination
- * remains, and the footer continues to link all eight.
+ * Header navigation (2027 launch alignment, taken against the ddr-0011
+ * structure). The desktop row carries the four pages of the prospective-client
+ * journey — Services, Methodology, About, Contact — beside the wordmark, which
+ * is the Home link, and the contact CTA. The four institutional branches leave
+ * the header row and the former Capabilities disclosure: they remain public
+ * routes, reached from the mobile menu's secondary group, the About page, and
+ * the footer, which continues to link all eight destinations.
  */
 export const PRIMARY_NAV = [
   { href: "/services", label: "Services" },
   { href: "/methodology", label: "Methodology" },
-] as const;
-
-export const SECONDARY_NAV = [
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
 /**
  * The four institutional branches, with the one-line descriptions the adopted
- * design gives them. Each summarises its own page and asserts nothing the page
- * does not; they exist because the disclosure panel is a composition the flat
- * row never had.
+ * design gives them (ddr-0011). Each summarises its own page and asserts
+ * nothing the page does not. Secondary navigation: the mobile menu's labelled
+ * group, the About page's institutional links, and the footer.
  */
 export const CAPABILITY_NAV = [
   {
@@ -87,15 +89,5 @@ export const CAPABILITY_NAV = [
   },
 ] as const;
 
-export const NAV_LINKS = [
-  { href: "/services", label: "Services" },
-  { href: "/methodology", label: "Methodology" },
-  { href: "/intellectual-property", label: "Intellectual Property" },
-  { href: "/education", label: "Education" },
-  { href: "/technology-software", label: "Technology" },
-  { href: "/managed-services", label: "Managed Services" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
-] as const;
-
-export type NavLink = (typeof NAV_LINKS)[number];
+/** The group heading under which secondary navigation lists the branches. */
+export const CAPABILITY_GROUP_LABEL = "Institutional capabilities";

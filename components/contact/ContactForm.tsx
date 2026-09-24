@@ -253,8 +253,8 @@ export function ContactForm() {
           Message <span className="text-gold-500">*</span>
         </label>
         <p id="message-hint" className="mb-2 text-sm text-silver-500">
-          A few sentences about your organization and what you would like to
-          discuss is plenty.
+          A few sentences about your organization and the operating condition
+          you are experiencing is plenty.
         </p>
         <textarea
           id="message"

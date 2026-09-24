@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Approach } from "@/components/sections/Approach";
+import { Assessment } from "@/components/sections/Assessment";
 import { Capabilities } from "@/components/sections/Capabilities";
 import { Contact } from "@/components/sections/Contact";
 import { Differentiation } from "@/components/sections/Differentiation";
@@ -40,6 +41,7 @@ export default function Home() {
       />
       <Hero />
       <Problems />
+      <Assessment />
       <Capabilities />
       <Approach />
       <Differentiation />

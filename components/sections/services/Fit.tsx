@@ -1,7 +1,7 @@
 import { Section } from "@/components/ui/Section";
 
 const CONDITIONS = [
-  "Growth is outpacing the processes that used to work",
+  "Processes no longer fit how work actually happens",
   "Outcomes depend on who does the work, not how it is designed",
   "Information and tools are fragmented across the organization",
   "Manual work is consuming time that belongs to real priorities",
@@ -16,7 +16,7 @@ export function Fit() {
     <Section
       eyebrow="Appropriate fit"
       title="When it makes sense to talk."
-      lead="These conditions are common in growing and changing organizations. If several feel familiar, a conversation is likely worth having."
+      lead="These conditions arise in organizations of every kind and size. If several feel familiar, a conversation is likely worth having."
       tone="raised"
     >
       <ul className="mt-12 grid max-w-4xl gap-x-12 gap-y-4 sm:grid-cols-2">

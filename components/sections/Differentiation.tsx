@@ -24,7 +24,6 @@ export function Differentiation() {
       eyebrow="Why Huerta Group"
       title="Systems, not symptoms."
       lead="Most providers solve a slice of the problem. The slice is rarely the problem."
-      tone="raised"
     >
       <dl className="mt-14 lg:mt-0 space-y-10">
         {CONTRASTS.map((contrast) => (
@@ -42,6 +41,15 @@ export function Differentiation() {
         We design the systems that connect people, processes, technology,
         information, and accountability — so improvements hold together
         instead of drifting apart.
+      </p>
+      {/* The broader institution, kept secondary: one sentence and a link.
+          Prospective clients do not need the institutional architecture to
+          understand the engagement proposition (2027 launch alignment). */}
+      <p className="mt-6 max-w-2xl text-sm leading-relaxed text-silver-500">
+        Huerta Group is built as an institution broader than one service line
+        — with institutional capabilities in intellectual property, education,
+        technology, and sustained support taking shape around the practice.
+        For a prospective client, the practice comes first.
       </p>
       <p className="mt-6">
         <ArrowLink href="/about">Learn more about the company</ArrowLink>

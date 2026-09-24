@@ -45,6 +45,7 @@ export function Approach() {
       eyebrow="How we work"
       title="Disciplined, practical, built to last."
       lead="A structured way of working that stays grounded in your organization's reality — and ends with your team in control of the result."
+      tone="raised"
       align="center"
     >
       <ol className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
