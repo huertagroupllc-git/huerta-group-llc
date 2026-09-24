@@ -10,12 +10,16 @@ export function HowItConnects() {
     >
       <div className="mt-10 lg:mt-0 space-y-6 text-lg leading-relaxed text-silver-400">
         <p>
-          Assessment gives design something true to build on. Design gives
-          documentation something worth capturing. Documentation gives
-          technology a well-understood process to support. Measurement shows
-          whether the system is working. Implementation leadership carries
-          the change, and advisory keeps the system improving after it
-          lands.
+          When change is warranted, assessment gives later work something
+          true to build on. Design can give documentation something worth
+          capturing; documentation can give technology a well-understood
+          process to support; measurement can show whether a system is
+          working; implementation leadership can carry a change, and
+          advisory can keep a system improving after it lands. None of that
+          follows automatically. Engagements may begin in any of these
+          areas, an assessment may close with no further Huerta Group work,
+          and implementation and continuing advisory each require their own
+          decision and authorization.
         </p>
         <PullQuote>
           This is not a rigid sequence. Engagements begin wherever the

@@ -4,7 +4,7 @@ import { Section } from "@/components/ui/Section";
 const CONTRASTS = [
   {
     them: "Advice-only consultants deliver recommendations and leave.",
-    us: "We stay through implementation.",
+    us: "We can also support implementation — when change is warranted, and that work is separately authorized.",
   },
   {
     them: "Technology vendors start from the tool.",

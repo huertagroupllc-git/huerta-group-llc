@@ -13,7 +13,7 @@ import {
 
 const PAGE_TITLE = `Contact ${SITE_NAME}`;
 const PAGE_DESCRIPTION =
-  "Contact Huerta Group LLC about an operating condition your organization is experiencing. Every inquiry is reviewed; where the work may be a fit, the next step may be a Complimentary Initial Consultation of up to 30 minutes, with no obligation to proceed.";
+  "Contact Huerta Group LLC about an operating condition your organization is experiencing. Inquiries are reviewed for fit; where the work may be a fit, the next step may be a Complimentary Initial Consultation of up to 30 minutes, with no obligation to proceed.";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -71,8 +71,9 @@ export default function ContactPage() {
                   What happens next
                 </h2>
                 <p className="mt-3 text-sm leading-relaxed text-silver-400">
-                  Every inquiry is read and reviewed by Huerta Group. Where
-                  the work may be a fit, an appropriate next step may be a{" "}
+                  Inquiries are reviewed to determine whether the work may
+                  be a fit and what an appropriate next step may be. Where
+                  it is, that step may be a{" "}
                   {CONSULTATION_NAME} of {CONSULTATION_LENGTH}: a conversation
                   to understand the operating condition you are experiencing,
                   determine whether the work is a fit, and identify an

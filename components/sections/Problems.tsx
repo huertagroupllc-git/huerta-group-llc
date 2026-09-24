@@ -62,8 +62,9 @@ export function Problems() {
         ))}
       </ul>
       <PullQuote className="mx-auto mt-14 max-w-2xl leading-relaxed">
-        None of these are people problems. They are systems problems — and
-        systems can be understood, and then designed.
+        These conditions should not automatically be treated as people
+        problems. Often, the systems around the work materially contribute
+        to the friction — and systems can be understood, and then designed.
       </PullQuote>
     </Section>
   );

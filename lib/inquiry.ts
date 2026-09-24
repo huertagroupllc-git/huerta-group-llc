@@ -9,7 +9,14 @@ export const INQUIRY_TYPES = [
   { value: "operations-systems", label: "Operations and systems" },
   { value: "process-development", label: "Process development" },
   { value: "technology-automation", label: "Technology or automation" },
-  { value: "organizational-growth", label: "Organizational growth" },
+  // Public label "Organizational change" (Founder Office remediation, 2026-09-23):
+  // broad enough for growth, restructuring, contraction, or leadership
+  // transition. The submitted value stays "organizational-growth" because it
+  // is fixed by the contact_inquiries check constraint
+  // (supabase/migrations/20260722000000_create_contact_inquiries.sql);
+  // changing it would require a schema migration, which this label change
+  // does not warrant.
+  { value: "organizational-growth", label: "Organizational change" },
   { value: "partnership", label: "Partnership or collaboration" },
   { value: "general", label: "General inquiry" },
 ] as const;

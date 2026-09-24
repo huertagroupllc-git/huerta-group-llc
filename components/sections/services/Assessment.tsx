@@ -25,7 +25,7 @@ const CONDITIONAL_METHODS = [
   "Discovery conversations with leadership and with the people who carry the work day to day.",
   "Structured assessment of the relevant processes, roles, information flows, technology, and measures against the outcome the organization intends.",
   "Process observation and process mapping, so the work is examined as it actually happens rather than as it is described.",
-  "Operational analysis of the evidence — relationships, causes, dependencies, and risks — to distinguish symptoms from the underlying condition.",
+  "Operational analysis of the evidence — relationships, contributing factors, dependencies, and risks — to distinguish symptoms from the underlying condition.",
 ] as const;
 
 export function Assessment() {

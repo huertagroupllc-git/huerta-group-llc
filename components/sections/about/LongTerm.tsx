@@ -19,9 +19,10 @@ export function LongTerm() {
         <p>
           The Company&apos;s work is designed to take more than one form.
           The first is the organizational systems practice described
-          here; an Education &amp; Workforce Development capability is
-          being developed to teach from it, and a Managed Services
-          function is intended to sustain what it builds. The Company
+          here — the Company&apos;s current client-facing work. Education
+          &amp; Workforce Development and Managed Services are broader
+          institutional directions: capability areas the Company is
+          defining, not services it offers today. The Company
           now also operates through its first formally chartered
           venture — Huerta Group Publishing, a distinct endeavor it owns
           and governs, doing its own work under a defined mandate. Over

@@ -25,8 +25,8 @@ export function Identity() {
           <p>
             When that system is designed deliberately, an organization
             becomes clearer, steadier, and easier to lead. When it is left to
-            accumulate on its own, friction compounds quietly until growth
-            exposes it.
+            accumulate on its own, friction compounds quietly until the
+            weaknesses become difficult to ignore.
           </p>
           <p className="font-serif text-xl text-silver-300">
             That is the Company&apos;s field of work: the design and
