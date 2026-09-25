@@ -9320,6 +9320,51 @@
           "target": "external-delivery-operating-standard"
         }
       ]
+    },
+    {
+      "id": "adr-0024-external-delivery-generation-one-placement-and-representation",
+      "title": "ADR-0024 — External Delivery Generation One: Placement and Representation in the Headquarters Client Engagement Backend",
+      "path": "institution/decisions/adr-0024-external-delivery-generation-one-placement-and-representation.md",
+      "type": "decision-record",
+      "classification": "Development Standards and Architecture Decisions",
+      "authorityTier": 4,
+      "status": "current",
+      "statusNote": "ACCEPTED — validated by Platform & Systems Development and accepted by the Founder Office with corrections A–F (fd-0041). Varies nothing in adr-0021, adr-0022 or adr-0023; no new schema, project or storage.",
+      "summary": "External Delivery lives in the existing client_engagement schema as a bounded domain; provider identity is a second record-class root, separated from Headquarters-only detail; same-party references share class; execution method is distinct from delivery method; current state is derived from history.",
+      "provenance": {
+        "origin": "Platform & Systems Development (architecture)",
+        "approvalReference": "Recorded 2026-09-24 with the implementation, as fd-0041 §2.7 directs, from institutional baseline 2abbb3e. Decisions validated in the technical-architecture validation record and accepted with corrections A–F.",
+        "effectiveDate": "2026-09-24"
+      },
+      "versioning": "git-history",
+      "relationships": [
+        {
+          "rel": "governed-by",
+          "target": "development-standards"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0021-client-confidentiality-custody-and-isolation-architecture"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0022-client-engagement-infrastructure-placement"
+        },
+        {
+          "rel": "references",
+          "target": "adr-0023-shared-pre-launch-development-infrastructure"
+        },
+        {
+          "rel": "references",
+          "target": "external-delivery-operating-standard"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        }
+      ],
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved"
     }
   ]
 }
