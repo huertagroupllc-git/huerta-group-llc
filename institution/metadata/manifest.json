@@ -9044,6 +9044,282 @@
       "versioning": "git-history",
       "disclosure": "repository-internal",
       "machineConsumptionEligible": "unresolved"
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "external-delivery-product-definition-directive",
+      "type": "governing-record",
+      "title": "External Delivery — Generation One Headquarters Product Definition — Founder Office Directive",
+      "path": "institution/governance/engagement/instruments/external-delivery-product-definition-directive.md",
+      "summary": "The instrument opening External Delivery: accepts the Corporate Operations & Command Management operating requirement and directs a bounded Generation One Headquarters product definition across Capability Network, Implementation Scoping & Sourcing and External Delivery Assignment.",
+      "provenance": {
+        "origin": "Founder Office (instrument, preserved verbatim)",
+        "approvalReference": "Preserved 2026-09-24 under fd-0020 §2.4; recorded at fd-0041. Digest of the preserved instrument text: 012f9299b5934c44285353008f7f3ff0ed0efe2e9b15079afd2868f0b1a372d0.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "external-delivery-product-definition-execution-package",
+      "type": "governing-record",
+      "title": "External Delivery — Generation One Headquarters Product Definition — Founder Office Execution Package",
+      "path": "institution/governance/engagement/instruments/external-delivery-product-definition-execution-package.md",
+      "summary": "Product definition only; no implementation. Fixes the controlling architecture, the conceptual-record determinations, capability-specific reversible maturity, the sourcing model, readiness gates, the acceptance chain and the Generation One restraint.",
+      "provenance": {
+        "origin": "Founder Office (instrument, preserved verbatim)",
+        "approvalReference": "Preserved 2026-09-24 under fd-0020 §2.4; recorded at fd-0041. Digest of the preserved instrument text: 93dbbcf9ff0fe36331c8ebd908c3625e6cb26366d7fdec5db8e068df2f7e6e9a.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "external-delivery-technical-architecture-directive",
+      "type": "governing-record",
+      "title": "External Delivery — Generation One Technical Architecture — Founder Office Directive",
+      "path": "institution/governance/engagement/instruments/external-delivery-technical-architecture-directive.md",
+      "summary": "Accepts the product definition and authorizes read-only technical architecture definition against huerta-group-client-engagement: provider identity, maturity, evidence integrity, scoping, planning economics, assignments, readiness, RLS, surfaces.",
+      "provenance": {
+        "origin": "Founder Office (instrument, preserved verbatim)",
+        "approvalReference": "Preserved 2026-09-24 under fd-0020 §2.4; recorded at fd-0041. Digest of the preserved instrument text: 6f35da38f025b56244b7a6172ccb36dd5cb8041ee321833329b99fb281791ca1.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "external-delivery-technical-architecture-validation-execution-package",
+      "type": "governing-record",
+      "title": "External Delivery — Generation One Technical Architecture Validation — Founder Office Execution Package",
+      "path": "institution/governance/engagement/instruments/external-delivery-technical-architecture-validation-execution-package.md",
+      "summary": "Read-only validation of the returned architecture as technical evidence after a routing deviation, with nineteen validation points, the institutional-synchronization question, and a four-way disposition framework.",
+      "provenance": {
+        "origin": "Founder Office (instrument, preserved verbatim)",
+        "approvalReference": "Preserved 2026-09-24 under fd-0020 §2.4; recorded at fd-0041. Digest of the preserved instrument text: fa3e0a01b1563e5f7ae36560a0040494a25ddf5f55a717ef64457ee8efc3227a.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "external-delivery-institutional-admission-and-implementation-execution-package",
+      "type": "governing-record",
+      "title": "External Delivery — Generation One Institutional Admission and Technical Implementation — Founder Office Execution Package",
+      "path": "institution/governance/engagement/instruments/external-delivery-institutional-admission-and-implementation-execution-package.md",
+      "summary": "Accepts the architecture with six authoritative corrections A–F, requires institutional admission before implementation, fixes the implementation sequence, RLS, provenance, pgTAP, probes, exclusions, Docker prohibition and the completion report.",
+      "provenance": {
+        "origin": "Founder Office (instrument, preserved verbatim)",
+        "approvalReference": "Preserved 2026-09-24 under fd-0020 §2.4; recorded at fd-0041. Digest of the preserved instrument text: fa39379ea610932ff5090ec32e99171ee63fc60e24e6df49d66ff5ef4d74fbf8.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        }
+      ]
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "external-delivery-generation-one-product-definition",
+      "type": "status-record",
+      "title": "External Delivery — Generation One Headquarters Product Definition",
+      "path": "institution/governance/engagement/external-delivery/generation-one-product-definition.md",
+      "summary": "The Development return: four layers, thirteen conceptual-record determinations, a separate provider root with same-party references, capability-specific evidence, evaluation and maturity, scoping and readiness models, and the eight authentic-use scenarios. Accepted by the Founder Office.",
+      "provenance": {
+        "origin": "Institutional Platform Development (derived record)",
+        "approvalReference": "Returned 2026-09-24 under the product-definition execution package; accepted at fd-0041 §2.2. Derived; the External Delivery Operating Standard governs where they differ.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        },
+        {
+          "rel": "references",
+          "target": "external-delivery-operating-standard"
+        }
+      ],
+      "statusNote": "ACCEPTED. Where this return and the standard differ, the standard is right."
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "external-delivery-generation-one-technical-architecture",
+      "type": "status-record",
+      "title": "External Delivery — Generation One Technical Architecture",
+      "path": "institution/governance/engagement/external-delivery/generation-one-technical-architecture.md",
+      "summary": "The Development return: placement in the existing client_engagement schema, sixteen relations and eleven types, invariants, RLS, surfaces, the assignment eligibility rule, and the validation plan. Six details were corrected by the validation before acceptance.",
+      "provenance": {
+        "origin": "Platform & Systems Development (derived record)",
+        "approvalReference": "Returned 2026-09-24 under the technical-architecture directive; validated and corrected (A–F) by the validation record; accepted at fd-0041 §2.3.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        },
+        {
+          "rel": "references",
+          "target": "external-delivery-operating-standard"
+        },
+        {
+          "rel": "references",
+          "target": "external-delivery-generation-one-technical-architecture-validation"
+        }
+      ],
+      "statusNote": "ACCEPTED WITH CORRECTIONS A–F, which control implementation."
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "external-delivery-generation-one-technical-architecture-validation",
+      "type": "status-record",
+      "title": "External Delivery — Generation One Technical Architecture Validation",
+      "path": "institution/governance/engagement/external-delivery/generation-one-technical-architecture-validation.md",
+      "summary": "Repository-grounded validation of the architecture: nineteen points, six bounded corrections (same-party class consistency, derived current state, paid scoping stays open, six persisted gates, identity/detail split, Providers at /providers), and the synchronization determination.",
+      "provenance": {
+        "origin": "Platform & Systems Development (derived record)",
+        "approvalReference": "Returned 2026-09-24 under the validation execution package; its corrections A–F accepted as authoritative at fd-0041 §2.3.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        },
+        {
+          "rel": "references",
+          "target": "external-delivery-operating-standard"
+        },
+        {
+          "rel": "references",
+          "target": "external-delivery-generation-one-technical-architecture"
+        }
+      ],
+      "statusNote": "ACCEPTED WITH BOUNDED CORRECTIONS — corrections A–F are authoritative."
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "external-delivery-operating-standard",
+      "type": "standard",
+      "title": "External Delivery Operating Standard — Generation One",
+      "path": "institution/standards/engagement/external-delivery-operating-standard.md",
+      "summary": "Twelve distinctions held structurally; capability-specific, reversible, history-derived maturity with Proven only on accepted client delivery plus explicit evaluation; the paid-scoping substance test; planning economics outside accounting; assignments under Authorized Work with derived readiness.",
+      "provenance": {
+        "origin": "Institutional Platform Development, under Founder Office authorization",
+        "approvalReference": "Produced 2026-09-24 under fd-0041. Operates beneath the Client Engagement Operating Standard; creates no organizational function and no institutional domain.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0041-external-delivery-generation-one-admission-and-implementation"
+        },
+        {
+          "rel": "references",
+          "target": "client-engagement-operating-standard"
+        }
+      ],
+      "statusNote": "Governs external delivery capability beneath the Client Engagement Operating Standard: knowledge, sourcing, assignment and learning. Creates no authority to perform client work."
+    },
+    {
+      "classification": "Institutional Record",
+      "authorityTier": "non-governing",
+      "status": "current",
+      "versioning": "git-history",
+      "disclosure": "repository-internal",
+      "machineConsumptionEligible": "unresolved",
+      "id": "fd-0041-external-delivery-generation-one-admission-and-implementation",
+      "type": "decision-record",
+      "title": "fd-0041 — Founder Office Determination: External Delivery — Generation One Admission and Implementation Authorization",
+      "path": "institution/governance/determinations/fd-0041-external-delivery-generation-one-admission-and-implementation.md",
+      "summary": "Records acceptance of the External Delivery operating model, product definition and validated architecture with corrections A-F; placement within existing client-delivery and operations architecture; admission as a standard before implementation; bounded implementation authorized. Two deficiencies.",
+      "provenance": {
+        "origin": "Founder Office (determinations) via Institutional Platform Development (record)",
+        "approvalReference": "Determination record: evidences the determinations; authority resides with the Founder Office and the artifacts the determinations govern.",
+        "effectiveDate": "2026-09-24"
+      },
+      "relationships": [
+        {
+          "rel": "references",
+          "target": "fd-0037-client-engagement-generation-one-p0-construction"
+        },
+        {
+          "rel": "references",
+          "target": "fd-0039-headquarters-client-engagement-generation-two-acceptance"
+        },
+        {
+          "rel": "references",
+          "target": "external-delivery-operating-standard"
+        }
+      ]
     }
   ]
 }

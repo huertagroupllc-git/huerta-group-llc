@@ -1291,6 +1291,46 @@
           "nature": "related"
         }
       ]
+    },
+    {
+      "id": "fd-0041",
+      "title": "Founder Office Determination: External Delivery — Generation One Admission and Implementation Authorization",
+      "path": "institution/governance/determinations/fd-0041-external-delivery-generation-one-admission-and-implementation.md",
+      "instrument": "Five Founder Office instruments received 2026-09-24 — the External Delivery Generation One product-definition directive and execution package, the technical-architecture directive, the technical-architecture validation execution package, and the institutional admission and implementation execution package — accepting the Corporate Operations & Command Management operating requirement for the External Delivery Capability Network and Implementation Scoping and Sourcing model, accepting the Generation One product definition, accepting the validated technical architecture with six authoritative corrections (same-party record-class consistency; maturity, posture and scoping disposition derived from history; paid scoping indicated leaves a scoping open; six persisted and three derived readiness concerns; provider identity separated from provider detail; the Providers destination at /providers), classifying External Delivery within the existing client-delivery and operations architecture with no new domain or function, admitting it as the External Delivery Operating Standard before implementation, and authorizing bounded implementation in huerta-group-client-engagement against baseline ab6d63e with Docker never contacted and synthetic records only.",
+      "dateReceived": "2026-09-24",
+      "recordedDate": "2026-09-24",
+      "determinationCount": 7,
+      "affectedArtifacts": [
+        "institution/governance/determinations/fd-0041-external-delivery-generation-one-admission-and-implementation.md",
+        "institution/governance/engagement/instruments/external-delivery-product-definition-directive.md",
+        "institution/governance/engagement/instruments/external-delivery-product-definition-execution-package.md",
+        "institution/governance/engagement/instruments/external-delivery-technical-architecture-directive.md",
+        "institution/governance/engagement/instruments/external-delivery-technical-architecture-validation-execution-package.md",
+        "institution/governance/engagement/instruments/external-delivery-institutional-admission-and-implementation-execution-package.md",
+        "institution/governance/engagement/external-delivery/generation-one-product-definition.md",
+        "institution/governance/engagement/external-delivery/generation-one-technical-architecture.md",
+        "institution/governance/engagement/external-delivery/generation-one-technical-architecture-validation.md",
+        "institution/standards/engagement/external-delivery-operating-standard.md",
+        "institution/decisions/adr-0024-external-delivery-generation-one-placement-and-representation.md",
+        "institution/metadata/manifest.json",
+        "institution/metadata/registries/determinations-registry.json",
+        "institution/standards/repository/documentation-index.md"
+      ],
+      "deficienciesRecorded": 2,
+      "relationships": [
+        {
+          "target": "fd-0037",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0039",
+          "nature": "related"
+        },
+        {
+          "target": "fd-0020",
+          "nature": "related"
+        }
+      ]
     }
   ]
 }
